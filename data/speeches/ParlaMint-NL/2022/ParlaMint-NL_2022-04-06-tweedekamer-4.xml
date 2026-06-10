@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-04-06 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-04-06 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 69, Session 4 (2022-04-06)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 69, Session 4 (2022-04-06)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="69" xml:lang="en">Meeting 69</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-04-06">Sitting 2022-04-06</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="98">98 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="98">98 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="5394">5,394 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="5394">5,394 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-04-06">2022-04-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="242"/>
+               <tagUsage gi="seg" occurs="119"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="98"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-04-06">2022-04-06</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.head1">Leveringszekerheid van aardgas</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg1">Ik heropen de vergadering. Aan de orde is het tweeminutendebat Leveringszekerheid van aardgas. Het commissiedebat heeft plaatsgevonden op 22 maart jongstleden. We hebben een tiental inschrijvers. De Kamerleden en de minister voor Klimaat en Energie zijn aanwezig, dus we zijn compleet.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg2">Ik geef graag het woord aan de eerste spreker, namelijk de heer Thijssen namens de fractie van de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note2">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:inter" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg3">Dank u, voorzitter. Het is goed dat we hier staan na dat enorm belangrijke debat. Het debat wordt alleen maar belangrijker en belangrijker, want we hebben dit weekend weer vreselijke dingen gezien die gebeurd zijn in Oekraïne, waarbij Rusland de agressor is. Het is natuurlijk steeds pijnlijker dat we weten dat er miljarden vanuit de Europese Unie richting Rusland gaan en dat daarmee Poetins oorlogskas maar gaande wordt gehouden. Daarom is de Partij van de Arbeid ook van mening dat we zo snel mogelijk moeten stoppen met het spekken van Poetins oorlogskas.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg4">Het is goed dat gisteren de motie van de Partij van de Arbeid en GroenLinks is aangenomen, zodat er nu snel een afbouwplan moet komen. Hopelijk is dat afbouwplan er dan ook snel. Maar er is één maatregel waarvan ik echt niet snap dat de minister die niet heeft overgenomen in het debat dat wij hierover voerden. Daarom dien ik daar een motie over in. Ik hoop dat die motie oordeel Kamer kan krijgen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note6">overwegende dat met energiebesparing snelle en grote stappen gemaakt kunnen worden om onafhankelijk te worden van Russisch gas;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note7">overwegende dat de Nederlandse en Europese afhankelijkheid van Russisch gas, Poetin de financiële middelen geeft om de oorlog tegen Oekraïne te voeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note8">overwegende dat energiebesparing het koopkrachtverlies van lage- en middeninkomensgroepen beperkt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note9">verzoekt de regering om met een mobilisatieplan te komen, zodat elke verwarmingsinstallatie in Nederland nog dit jaar op de juiste manier wordt ingesteld, zodat tot wel 30% aan import van Russisch aardas bespaard kan worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note11">Deze motie is voorgesteld door de leden Thijssen en Kröger.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note12">Zij krijgt nr. kst-29023-285</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note13">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg5">Dan hebben we natuurlijk ook gezien dat Gazprom een rol speelt in het Nederlandse energielandschap. Dat vinden wij onwenselijk. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note14">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note15">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note16">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note17">overwegende dat Gazprom de gasopslag in Bergermeer waarschijnlijk bewust minder heeft gevuld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note18">overwegende dat Duitsland de controle heeft overgenomen bij Gazprom Germania om de gasleveringszekerheid te waarborgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note19">van mening dat ons energiesysteem onafhankelijk moet zijn van bedrijven die verbonden zijn aan de Russische staat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note20">verzoekt de regering, teneinde te bewerkstelligen dat Gazprom geen rol meer heeft in de Nederlandse gasopslag, in kaart te brengen hoe dit voor elkaar gekregen kan worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note21">verzoekt de regering in kaart te brengen wat de rol is van Russische energiebedrijven in het Nederlandse energiesysteem,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note22">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note23">Deze motie is voorgesteld door de leden Thijssen en Kröger.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note24">Zij krijgt nr. kst-29023-286</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note25">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg6">Als laatste heb ik een vraag. De minister zei dat we lng-terminals gaan bouwen in Nederland. Dat is wel heel zorgelijk, want dan vervangen we fossiel door fossiel. Het IPCC heeft maandag toch heel duidelijk gezegd dat je dit eigenlijk niet moet doen. Maar goed, we zitten ook wel in een uitzonderlijke situatie. De minister wil echter wel dat die waterstofready zijn, dus dat we die over een paar jaar kunnen overschakelen op groene waterstof. Is dat nou echt zo? Worden echt alle terminals groenewaterstofready gemaakt of niet?</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg7">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note26">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg8">Meneer Thijssen, dank voor uw bijdrage. Ik geef graag het woord aan de heer Kops namens de fractie van de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note27">De heer Kops (PVV)</note>
+            <u who="#AlexanderKops" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg9">Voorzitter. De Nederlandse gasvelden, de zogenaamde kleine velden, kunnen op korte termijn 6 miljard kuub extra gas opleveren. In de jaren daarna kunnen ze zelfs 80 miljard kuub extra gas opleveren. Dat is natuurlijk goed, maar dan moet het ook wel echt gaan gebeuren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg10">Voorzitter, daarom heb ik twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note28">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note29">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note30">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note31">constaterende dat de Nederlandse "kleine" gasvelden de komende jaren zo'n 80 miljard kuub gas extra kunnen opleveren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note32">overwegende dat "een deel van de extra gasproductie al snel op gang kan komen, omdat de plannen daarvoor kant-en-klaar op de plank liggen", aldus branchevereniging Nogepa;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note33">verzoekt de regering over deze plannen met Nogepa in gesprek te gaan en ervoor te zorgen dat de gasproductie zo snel mogelijk wordt opgeschroefd,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note34">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note35">Deze motie is voorgesteld door het lid Kops.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note36">Zij krijgt nr. kst-29023-287</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note37">De heer Kops (PVV)</note>
+            <u who="#AlexanderKops" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg11">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note38">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note39">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note40">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note41">overwegende dat vergunningprocedures voor aardgaswinning in het Verenigd Koninkrijk vele malen sneller gaan dan in Nederland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note42">overwegende dat in Nederland de termijnen voor vergunningprocedures regelmatig worden overschreden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note43">verzoekt de regering ervoor te zorgen dat deze vergunningprocedures substantieel worden verkort en tot die tijd bestaande termijnen niet worden overschreden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note44">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note45">Deze motie is voorgesteld door het lid Kops.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note46">Zij krijgt nr. kst-29023-288</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note47">Dank voor uw bijdrage, meneer Kops. Dan zijn wij aangekomen bij de heer Erkens namens de VVD.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note48">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg12">Voorzitter. Laat ik vooropstellen dat ik blij ben met de toezegging van de minister in dit debat om te komen met een jaarlijkse afhankelijkheidsmonitor op het gebied van energie en ook de grondstoffen die nodig zijn voor de energietransitie. Strategische autonomie op energiegebied vormt een belangrijke nieuwe pijler in ons energiebeleid. Een belangrijke ontwikkeling. We hebben recent inderdaad nog gesproken over een afbouwpad voor gas, olie en kolen uit Rusland. Zie de motie van GroenLinks/PvdA van gisteren en vijf weken terug ook een motie van de VVD daarover. Ik ben dus blij dat dit nog een keer bevestigd is. Maar de misdaden die dit weekend boven water zijn gekomen in Oekraïne, leiden terecht tot zwaardere sancties, ook op energiegebied. We steunen dat dan ook.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg13">In het kader van mogelijk nog verstrekkendere sancties in de toekomst, bijvoorbeeld op het gebied van olie en gas, maak ik mij wel zorgen of het kabinet is voorbereid op die abrupte stop. Is de leveringszekerheid wel geborgd voor de komende winter in het geval van zo'n abrupte stop? Het draait immers om een Europese markt en ik heb het gevoel dat we soms niet over onze landsgrenzen heen kijken. Het voelt te afwachtend aan en we lijken te veel risico te nemen. Laat ik één voorbeeld pakken. Het besluit om de gasopslag Grijpskerk te vullen met laagcalorisch gas gaat in tegen de adviezen van de Gasunie en de Mijnraad. Zij waarschuwen expliciet over de leveringszekerheid voor de komende winter. Waarom heeft de regering dit besloten en waarom heeft zij die adviezen naast zich neergelegd zonder duidelijke toelichting?</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg14">Ik roep het kabinet dan ook op om niet te onderschatten hoe pittig het de komende winter kan worden en om geen onnodige risico's te nemen. Over twee, drie jaar kunnen we, zoals de heer Kops al zei, inderdaad via de Noordzee veel gas winnen in Nederland. Mijn motie komt wel grotendeels overeen met die van de heer Kops. Misschien vinden we daar nog een oplossing voor.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note49">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note50">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note51">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note52">constaterende dat in het Nederlandse deel van de Noordzee de gasproductie al jaren terugloopt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note53">overwegende dat dit onwenselijk is, gezien onze afhankelijkheid van Russisch gas;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note54">overwegende dat Nederlands gas beter voor het klimaat is dan Russisch gas, maar ook dan Amerikaans schaliegas;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note55">verzoekt de regering om samen met de sector een ambitieus doel voor 2025 op te stellen voor gaswinning op de Noordzee,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note56">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note57">Deze motie is voorgesteld door de leden Erkens en Bontenbal.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note58">Zij krijgt nr. kst-29023-289</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note59">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg15">Dank u, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note60">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg16">Dank ook voor uw bijdrage, meneer Erkens. Meneer Bontenbal, aan u het woord namens de fractie van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note61">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg17">Voorzitter. U bent het misschien niet van mij gewend, maar ik hou het heel kort in dit tweeminutendebat. Ik heb eigenlijk maar één vraag, en die gaat over de invloed van landen buiten Europa op de energievoorziening in Nederland. Volgens mij maken wij ons daar allemaal zorgen over. De afgelopen dagen hebben we ook weer nieuwe berichten gezien. Nu ga ik niet gelijk oproepen om bepaalde bedrijven dit land uit te gooien of wat dan ook, maar ik zou weleens een keer een heel goed onderzoek of een heel goede analyse willen zien van wat landen als Rusland en China voor invloed hebben op vitale infrastructuur. Ik zou dat willen toespitsen op energie-infrastructuur, dus niet alleen de kabels en leidingen, maar ook de aansturing daarvan. Kunnen we daar een keer een goede analyse van krijgen zodat we zien waar dat soort landen in onze energievoorziening allemaal zitten en invloed hebben, ook in het kader van cybersecurity enzovoorts? Ik zou het mooi vinden als u daar een toezegging op deed.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note62">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg18">Dank voor uw bijdrage, meneer Bontenbal. Mevrouw Kröger is nu aan het woord namens de fractie van GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note63">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg19">Voorzitter. We hebben een belangrijk debat gevoerd over leveringszekerheid, maar dat ging natuurlijk eigenlijk over de vraag hoe we zo snel mogelijk afkomen van Russische fossiele import. Ik denk dat de gruwelijkheden van dit weekend nogmaals de noodzaak daartoe hebben benadrukt. Ik ben dan ook blij dat de motie gisteren is aangenomen en het kabinet snel komt met een afbouwpad.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg20">Ondertussen ligt er ook sinds maandag een IPCC-rapport dat niet zonder gevolgen kan blijven. Het is zo helder dat bij ieder besluit dat we nemen de toets moet zijn: wat betekent dit voor het klimaat? Want het kiertje om klimaatverandering aan te pakken sluit rap. We laten de 1,5 graad door onze vingers glippen. Daarom moet de volgorde zijn: op één moet besparen staan, dan de versnelde opwek van duurzame energie en dan fossiel met fossiel vervangen indien het echt niet anders kan. Ik hoop dat de staatssecretaris die drieslag ook omarmt. Vandaar de volgende motie om dat te benadrukken.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note64">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note65">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note66">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note67">constaterende dat de export van fossiele energie door Rusland in belangrijke mate bijdraagt aan de oorlogskas van Poetin en we daarom zo snel mogelijk moeten stoppen met het gebruik van Russische fossiele energie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note68">overwegende dat energiebesparing zowel de vraag naar fossiele energie vermindert, een prijsdempend effect heeft en bijdraagt aan het halen van de klimaatdoelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note69">verzoekt de regering concrete besparingsdoelen te stellen voor 2022 rondom het gebruik van aardgas, steenkool en olie en deze te betrekken in het afbouwplan voor Russische fossiele energie dat voor 1 mei met de Kamer gedeeld wordt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note70">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note71">Deze motie is voorgesteld door de leden Kröger en Thijssen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note72">Zij krijgt nr. kst-29023-290</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note73">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg21">Dan sluit ik me aan bij alle vragen over leveringszekerheid, ook van andere kritieke grondstoffen. Ik denk dat het heel belangrijk is. We hebben nu gezien hoe ongelofelijk afhankelijk we zijn met betrekking tot fossiele energie, maar ook in de hele energietransitie zijn we natuurlijk afhankelijk van allerlei grondstoffen die op allerlei manier gedolven worden en ook aan bepaalde regimes bijdragen. Ik zou dus heel erg graag van de minister meer aandacht willen op het thema van grondstofzekerheid met het oog op de energietransitie.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg22">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note74">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg23">Dank ook voor uw bijdrage, mevrouw Kröger. Dan geef ik graag het woord aan de heer Van Haga namens de Groep Van Haga.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note75">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u16">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg24">Voorzitter. We zitten in een energiecrisis die geheel te wijten is aan de verschillende kabinetten-Rutte. Huishoudens kunnen hun energierekening niet meer betalen en bedrijven gaan kapot door het beleid van de afgelopen jaren. Het sluiten van het Groninger gasveld is een fout van ongekende proporties, waardoor er 600 miljard kubieke meter aardgas in de grond blijft zitten. Dit is slecht voor ons milieu, slecht voor onze economie en slecht voor de leveringszekerheid. Het heeft geleid tot een explosie van de gasprijs en grote afhankelijkheid van het buitenland, dus laten we dan op z'n minst gebruikmaken van andere opties die Nederland nog heeft. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note76">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note77">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note78">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note79">constaterende dat er naast het Groningenveld nog voldoende gas aanwezig is in kleine velden op het land;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note80">overwegende dat uit deze velden relatief snel en veilig gas gewonnen kan worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note81">overwegende dat procedures zoals bijvoorbeeld de vergunningverlening nu te traag verlopen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note82">verzoekt de regering in te zetten op versnelling van lopende en in de toekomst startende procedures voor de winning van aardgas uit kleine velden op land en daarvoor met een plan te komen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note83">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note84">Deze motie is voorgesteld door het lid Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note85">Zij krijgt nr. kst-29023-291</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note86">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u17">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg25">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note87">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u18">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg26">Dank ook voor uw bijdrage, meneer Van Haga. Dan geef ik graag het woord aan de heer Grinwis namens de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note88">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u19">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg27">Voorzitter, dank u wel. Ik heb één motie meegenomen, een korte.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note89">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note90">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note91">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note92">constaterende dat GasTerra op 1 juni 2020 een plan voor de afbouw van zijn onderneming heeft vastgesteld naar aanleiding van de voorgenomen beëindiging van de gaswinning in Groningen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note93">overwegende dat de Mijnraad in zijn advies over afhankelijkheid van de import van Russisch gas afgelopen maand heeft geadviseerd om GasTerra niet op te doeken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note94">verzoekt de regering te bezien of GasTerra een doorstart kan maken als nationaal of Europees handelshuis voor gas,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note95">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note96">Deze motie is voorgesteld door de leden Grinwis en Bontenbal.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note97">Zij krijgt nr. kst-29023-292</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note98">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u20">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg28">Voorzitter. Dit advies van de Mijnraad waar ik aan refereer, is een heel verstandig advies. In deze tijd, waarin we snel af willen van Russisch gas en afhankelijkheid van Rusland, hebben we op onze eigen markt wel wendbaarheid en flexibiliteit nodig. Daarom is het denk ik verstandig om oude schoenen die we hebben niet zomaar te weg te gooien. GasTerra is een voorbeeld van oude, maar goed lopende schoenen, dus vandaar deze oproep.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note99">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u21">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg29">Dank, meneer Grinwis. Dan zijn we aangekomen bij de heer Boucke namens de fractie van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note100">De heer Boucke (D66)</note>
+            <u who="#RaoulBoucke" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u22">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg30">Dank je wel, voorzitter. Ik kon niet bij het commissiedebat aanwezig zijn vanwege een coronabesmetting, maar ik ben er nu wel. En hoe; ik heb drie moties. Ik ga meteen van start.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note101">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note102">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note103">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note104">overwegende dat om het functioneren van de gasmarkt en leveringszekerheid veilig te stellen, de Duitse overheid de stap heeft gezet om de controle over te nemen van Gazprom Germania;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note105">overwegende dat het ook in Nederland door de ontwikkelingen in Oekraïne onacceptabel is als Rusland invloed heeft op onze gaswinning, gasopslag en de gasinfrastructuur;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note106">verzoekt de regering om naast het afbouwen van de afhankelijkheid van Russisch gas, ook de invloed van Rusland op cruciale infrastructuur zo snel mogelijk af te bouwen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note107">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note108">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note109">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note110">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note111">overwegende dat Nederland zo snel mogelijk af wil zijn van Russisch gas;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note112">overwegende dat het door de kenmerken van ons energiesysteem moeilijk is om vast te stellen waar specifieke gasmoleculen vandaan komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note113">overwegende dat we met het "garantie van oorsprong"-systeem reeds zorgen dat we onderscheid kunnen maken tussen groene en grijze stroom, ondanks dat er geen aparte infrastructuur is voor deze energiebronnen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note114">verzoekt de regering om binnen Europa te pleiten om een "garantie van oorsprong"-systeem te ontwikkelen voor niet-Russisch gas en hierbij ook stroom die opgewekt is zonder Russisch gas mee te nemen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note115">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note116">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note117">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note118">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note119">overwegende dat mensen met lage inkomens en flexibele energiecontracten hard geraakt worden bij de huidige hoge energieprijzen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note120">overwegende dat op dit moment 330 gemeenten succesvol een voordelige collectieve zorgverzekering aanbieden voor mensen met een laag inkomen in de vorm van de Gemeentepolis;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note121">verzoekt de regering om te onderzoeken of lijkend op de Gemeentepolis voor zorgverzekeringen dit een optie is voor energiecontracten om energiearmoede tegen te gaan en hierbij in kaart te brengen wat gemeentes nodig hebben om dit te kunnen aanbieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note122">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note123">Deze motie is voorgesteld door de leden Boucke, Boulakjar, Grinwis, Erkens en Bontenbal.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note124">Zij krijgt nr. kst-29023-293</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note125">Deze motie is voorgesteld door de leden Boucke, Boulakjar en Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note126">Zij krijgt nr. kst-29023-294</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note127">Deze motie is voorgesteld door de leden Boucke, Boulakjar en Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note128">Zij krijgt nr. kst-29023-295</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note129">Dank, meneer Boucke. Ik geef graag het woord aan de heer Van Raan. Hij spreekt namens de Partij voor de Dieren.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note130">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u23">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg31">Voorzitter, dank u wel. Het debat heeft als titel: Leveringszekerheid van aardgas. Inmiddels hebben we natuurlijk al zekerheid, namelijk dat we de levering van aardgas moeten stoppen, niet alleen vanwege de oorlog in Oekraïne, maar uiteraard ook vanwege het klimaat. Daarom dien ik de volgende moties in. De eerste gaat overigens over houtige biomassa.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note131">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note132">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note133">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note134">constaterende dat er in heel Europa pogingen worden gedaan om de oorlog in Oekraïne af te remmen met sancties tegen Rusland en Wit-Rusland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note135">constaterende dat de Europese Unie met vijf sanctiepakketten beoogt de druk op Rusland en Wit-Rusland op te voeren en de oorlog in Oekraïne te beëindigen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note136">constaterende dat de oorlogskas van Poetin via de achterdeur gefinancierd wordt omdat er, door eerder afgegeven beschikkingen en omdat houtige biomassa nog steeds niet voorgoed van de SDE++ is uitgesloten, nog steeds miljarden aan subsidies zullen worden versterkt voor de inzet van biomassa, die ook in de vorm van houtpellets uit Rusland kan komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note137">constaterende dat zolang de bulkcarriers, twee keer per maand, blijven af- en aanvaren (tussen de Waalhaven in Rotterdam, en Riga/Letland en Immingham/UK en St. Petersburg/Rusland met aan boord per keer circa 50.000 vermalen bomen voor onze kolen- en biomassacentrales) Nederland Rusland dus ondersteunt in de oorlog in Oekraïne;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note138">constaterende dat 120 mensenrechten- en milieuorganisaties hebben opgeroepen tot een importverbod op houtige biomassa uit Rusland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note139">verzoekt de regering om een importverbod op houtige biomassa uit Rusland,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note140">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note141">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note142">Zij krijgt nr. kst-29023-296</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note143">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u24">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg32">Ik heb nog een motie, maar er is eerst een interruptie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note144">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u25">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg33">Er is inderdaad een interruptie, van de heer Bontenbal.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note145">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u26">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg34">Dit is natuurlijk wel een heel ingewikkeld betoog. Minder biomassa importeren, betekent dat we de warmte en elektriciteit op een andere manier moeten maken. Minder biomassa betekent dus gewoon: meer kolen en gas verstoken. In feite vraagt de heer Van Raan daar nu om. Ik vind dit dus een beetje een ingewikkelde motie. De redenering erachter klopt volgens mij niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note146">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u27">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg35">Dat kan de heer Bontenbal vinden. Het spijt me dat hij de motie ingewikkeld vindt en het spijt me dat hij vindt dat ze niet klopt. Feit is dat we met houtige biomassa op deze manier niet tegemoetkomen aan de klimaatdoelen, ook al hebben we daarover op papier afspraken gemaakt. Dat wil niet zeggen dat het klimaat zich aan die doelen houdt, want houtige biomassa verbranden betekent gewoon meer CO. Tegelijkertijd komt ook nog een heel groot deel van de houtige biomassa uit Rusland. Dus daar moeten we vanaf. Tegelijkertijd weten we ook het volgende, en dat weet de heer Bontenbal ook. Ik las net een artikel dat als wij maximaal alles besparen wat we eigenlijk weggooien, we twintig jaar zonder grondstoffen kunnen. Moet je eens kijken wat voor een impact dat heeft op het energieverbruik. Dus het kan best. Het is jammer dat de heer Bontenbal dat ingewikkeld vindt. Maar goed, misschien is het ook wel niet jammer dat hij het ingewikkeld vindt, want hij houdt van een uitdaging. We kunnen daar dan samen aan werken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note147">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u28">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg36">Gaat u verder. Uw tweede motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note148">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u29">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg37">Ik zie dat de heer Bontenbal tevreden glimlacht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note149">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u30">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg38">Ik zie dat met u, maar de conclusie is misschien niet helemaal zoals u die verwoordt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note150">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u31">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg39">Ik kan me dat heel goed voorstellen, voorzitter. Dat ga ik onderzoeken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg40">Dan de laatste motie; weer even serieus. We hebben helemaal geen keus. We moeten af van die fossiele brandstoffen, ook van de Russische. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note151">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note152">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note153">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note154">constaterende dat een importverbod van Ruslands belangrijkste exportproducten, olie en gas, geen onderdeel is van het nieuwe sanctiepakket van de Europese Unie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note155">verzoekt de regering per direct een boycot af te kondigen voor de invoer van Russische olie en gas voor gebruik in Nederland,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note156">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note157">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note158">Zij krijgt nr. kst-29023-297</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note159">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u32">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg41">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note160">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u33">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg42">Dank, meneer Van Raan, ook voor uw bijdrage.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg43">Alvorens ik het woord geef aan de heer Goudzwaard van JA21 nog even het volgende. De heer Goudzwaard heeft niet deelgenomen aan het commissiedebat. Als u daar geen bezwaar tegen heeft — ik zie dat u dat niet heeft — dan geef ik graag het woord aan de heer Goudzwaard. Ik wil ook opmerken dat hij morgen zijn maidenspeech heeft, maar vandaag voor het eerst plenair een motie indient. Dus wees een beetje lief voor hem. Meneer Goudzwaard.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note161">De heer Goudzwaard (JA21)</note>
+            <u who="#MaartenGoudzwaard" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u34">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg44">Dank u wel, voorzitter. Het enige wat ik ga doen is een motie indienen. Dus dat doe ik dan ook maar.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note162">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note163">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note164">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note165">constaterende dat het kabinet heeft besloten de gaswinning in Groningen voor het lopende gasjaar vast te stellen op 4,5 miljard kuub, waar in januari nog 7,6 miljard kuub werd voorzien, en koerst op sluiting van het Groningenveld in 2023;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note166">overwegende dat dit onder de huidige omstandigheden niet langer verantwoord is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note167">overwegende dat onder Groningers aanzienlijk draagvlak is voor het verhogen van de gaswinning tot 12 miljard kuub;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note168">verzoekt de regering af te zien van sluiting van het Groningenveld en de gaswinning zo snel mogelijk naar ten minste 12 miljard kuub te verhogen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note169">verzoekt de regering in dat kader tevens de benodigde versterkingsoperatie en de royale schadeafhandeling maximaal te versnellen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note170">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note171">Deze motie is voorgesteld door de leden Goudzwaard en Eerdmans.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note172">Zij krijgt nr. kst-29023-298</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note173">Dank voor uw uitstekende bijdrage, meneer Goudzwaard. Daarmee zijn we aan het einde gekomen van de eerste termijn. Ik schors de vergadering voor vijf minuten en dan zullen we overgaan naar de appreciatie door de minister.</note>
+            <note type="time" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note174">De vergadering wordt van 11.11 uur tot 11.18 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note175">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u35">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg45">Aan de orde is de appreciatie door de minister van de moties ingediend bij het tweeminutendebat Leveringszekerheid van aardgas. Ik geef graag het woord aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note176">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u36">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg46">Dank u wel, voorzitter. Dit debat heeft inderdaad de titel Leveringszekerheid van aardgas, maar de afgelopen weken hebben we met elkaar vastgesteld dat het gaat over de leveringszekerheid van energie voor de komende winters en over het zo snel mogelijk afbouwen van de afhankelijkheid die we hebben van fossiele energie, in het bijzonder fossiele energie uit Rusland. Tegen mevrouw Kröger zou ik dan ook willen zeggen dat ik het helemaal met haar eens ben: dat doen we in de volgorde energie besparen, meer duurzame energie opwekken en voor de transitieperiode indien nodig nog fossiel vervangen door fossiel uit andere delen van de wereld dan Rusland.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg47">Ik ben erg blij dat de energiebesparingscampagne "Zet ook de knop om" afgelopen weekend zeer goed is ontvangen. Dank aan alle Kamerleden die de afgelopen dagen hebben geholpen om die campagne te promoten. Vanaf deze week zult u op tv, radio en internet nog veel meer van deze campagne gaan zien. Binnenkort komt daar de extra campagne om mensen makkelijker toegang te geven tot het nationaal isolatieprogramma, nog achteraan. We zijn dus volop bezig met de energiebesparing.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg48">De heer Thijssen vroeg aan mij in hoeverre we de extra lng-capaciteit die we voor de komende winters nodig hebben, waterstofready maken. Dat doen we door de uitbreiding van de Gate terminal in Rotterdam. De floating terminals in de Eemshaven zijn schepen die daar tijdelijk zijn en die, als het contract afloopt, waarschijnlijk weer zullen vertrekken. We zullen daar een stuk van de infrastructuur moeten aanpassen om de lng uit die floating terminals te krijgen. De nieuwe infrastructuur die we daarvoor aanleggen, moet eigenlijk al het eerste stukje van de waterstofbackbone worden. Maandag is met de Duitse collega besproken dat de lng-terminals die daar gaan komen, en waar ook Gasunie in participeert, ook door de Duitse overheid worden verplicht om helemaal waterstofready te zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg49">Voorzitter. Mevrouw Kröger, de heer Bontenbal en de heer Erkens wezen nogmaals op het belang van grondstoffenzekerheid en op het zo veel mogelijk voorkomen van een eenzijdige afhankelijkheid van een of meerdere buitenlandse partijen. In het commissiedebat heb ik aan de heer Erkens de monitor grondstoffenzekerheid toegezegd. Daar gaan we volgend jaar voor het eerst mee oefenen: wat kunnen we in kaart brengen en hoe kunnen we dat op een structurele basis doen? De onderwerpen die de drie Kamerleden aansnijden kunnen, denk ik, een goede plek krijgen in die eerste grondstoffenmonitor, die volgend jaar gaat komen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg50">Tegen de heer Bontenbal in het bijzonder zeg ik dat ik samen met staatssecretaris Vijlbrief met een aantal maatregelen zal komen inzake de heel specifieke buitenlandse rollen die nu in het energiesysteem voorkomen. Ik zal daar zo meteen bij een aantal moties specifiek op reageren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg51">Tot slot. De heer Erkens had het over Grijpskerk. Hij heeft hem vast gelezen, maar ik zou hem willen wijzen op de brief van de staatssecretaris van afgelopen vrijdag. Daarin is uitgelegd dat het verschil tussen H- en L-gas behoorlijk beperkt is in het Grijpskerk-advies. De staatssecretaris heeft uiteindelijk gekozen voor een gaswinningsniveau in Groningen waarbij we een goede balans vonden tussen het winningsniveau en de zekerheid, de veiligheid, voor Groningers. Maar ik kan me voorstellen dat u daarover met de staatssecretaris nog uitgebreider van gedachten zal wisselen bij de bespreking van zijn besluit van vorige week.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note177">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u37">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg52">Ik zie dat mevrouw Kröger een korte vraag voor u heeft. Mevrouw Kröger.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note178">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u38">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg53">Ja, voorzitter, over de afhankelijkheid van grondstoffen in de energietransitie. Ik merk in veel debatten dat er vaak een soort gescheiden paden zijn bij wat we doen op het gebied van energietransitie en circulaire economie. Ik hoop dat de minister hierbij nauw samenwerkt met de staatssecretaris van IenW om ervoor te zorgen dat we circulariteit en het terugdringen van het gebruik van primaire grondstoffen meteen meenemen in de energietransitie en dit een integraal plan wordt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note179">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u39">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg54">Binnenkort komen de staatssecretaris van IenW en ik samen met onze visie op circulaire economie. Dit is daar natuurlijk een heel belangrijk onderdeel van. Er komt dus een aparte brief. In het programma klimaat en energie ziet u daarvoor al de eerste stappen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg55">Voorzitter. Dan de moties. De motie-Thijssen/Kröger op stuk nr. 285 verzoekt de regering om met een mobilisatieplan te komen zodat elke verwarmingsinstallatie in Nederland op de juiste manier wordt ingesteld. Ik zou de motie graag als volgt willen interpreteren of willen uitvoeren. Afgelopen weekend zijn we gestart met de energiebesparingscampagne. Die heeft heel veel losgemaakt. MKB-Nederland, VNO-NCW en allerlei andere partijen vragen het ook aan mij: laten we de komende tijd nou hands-on met bedrijven in gesprek gaan en ze helpen met de aanpassingen die ze zelf op korte termijn kunnen doen om ook daar die besparing voor elkaar te boksen. Die 30% is volgens mij de inschatting van de NVDE, die eerder is gemaakt. Ik zou eigenlijk in het kader van die energiebesparingscampagne en alle versnellingen die we willen aanbrengen, met de genoemde brancheorganisaties willen kijken hoe we echt hands-on bij bedrijven op bezoek kunnen gaan om daar concreet tot actie te komen. Nou is dat geen formeel mobilisatieplan, maar dan doe ik volgens mij wel wat u van mij verlangt. Als u mij toestaat de motie op die manier te interpreteren, dan geef ik de motie oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note180">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u40">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg56">Dank voor deze beantwoording. Vroeger was er een campagne, en die heette "Een goed milieu begint bij jezelf". En daar was ik het hartgrondig mee oneens, want als burger kan ik niks doen tegen Shell, dat toch echt een grote vervuiler is, en niks doen tegen al die andere grote vervuilers. Het is de regering die daar iets aan kan doen. En de minister noemde in het debat ook een voorbeeld van een gemeente die €800 compensatie geeft aan lage en middeninkomens, maar vervolgens ook naar de huizen toe gaat om mensen te helpen met isoleren. Dát helpt. Dus als we inderdaad al die huizen afgaan, zeker die slecht geïsoleerde huizen, dan gaan we meters maken. Als we echt naar binnen gaan en die verwarmingsinstallatie aanpassen, dan kunnen we die 30% halen. Dus prima om in gesprek te gaan met brancheorganisaties, maar ik denk echt dat er een stapje bij moet en dat het meer, ja, dwingend, moet. Als twee gemeentes dit doen, dan moeten alle 300+ gemeentes in Nederland dit doen. Dus ik zou toch die uitdaging één stapje ... Of "één stapje", misschien wel ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note181">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u41">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg57">Ja, maar laat ik dan ook iets ... Dat ben ik wel met de heer Thijssen eens. Ik ga niet in gesprek met die brancheorganisaties om daar leuk een kopje koffie over te gaan drinken. Ik ga met hen in gesprek met de vraag: hoe gaan we ervoor zorgen dat we de komende maanden zo veel mogelijk bedrijven bezoeken om ze te helpen om die aanpassingen te doen, precies zoals een aantal gemeentes dat ook al hebben opgepakt. Dus ik ben het wel met u eens: niet praten, maar actie; dat is wat nu moet gebeuren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note182">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u42">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg58">Heel kort, meneer Thijssen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note183">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u43">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg59">Nou, dan ben ik wel benieuwd wat daaruit komt. Ik weet niet of u ons daar dan de komende weken een brief over kan doen toekomen, dan kan ik de motie aanhouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note184">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u44">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg60">Dat kan ook. Ik kijk even of ik nog een brief in de planning heb zitten, maar ik zorg er in ieder geval voor dat u via een brief wordt geïnformeerd over de gesprekken die we nu hebben met die brancheorganisaties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note185">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u45">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg61">Op verzoek van de heer Thijssen stel ik voor zijn motie (29023, nr. 285) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg62">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note186">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u46">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg63">De tweede motie van de heer Thijssen, die op stuk nr. 286, gaat over de rol van de Russische energiebedrijven in het Nederlandse energiesysteem. Ik ga deze motie ontraden, maar ik ga zo meteen een andere motie, die ongeveer hetzelfde doel heeft, oordeel Kamer geven. Ik hoop dat u daarmee kan leven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note187">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u47">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg64">De motie op stuk nr. 286 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note188">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u48">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg65">De derde motie, die van de heer Kops op stuk nr. 287, daar is de staatssecretaris voor Mijnbouw nu volop mee bezig, dus die geef ik oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg66">De vierde motie, die van de heer Kops op stuk nr. 288: de staatssecretaris Mijnbouw is bezig met een versnellingsplan, en dat is in het bijzonder een versnellingsplan voor gaswinning van projecten waar al vergunningen voor zijn verleend. Tot die tijd zet de staatssecretaris zich in om de termijnen niet te overschrijden. Dus ook voor deze motie: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note189">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u49">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg67">Oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note190">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u50">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg68">De vijfde motie, die op stuk nr. 289. Ook dat past in het versnellingsplan van de staatssecretaris. De bedoeling is dat in juni dat versnellingsplan, of in ieder geval een brief daarover, aan de Kamer wordt toegezonden. Dus ook deze motie: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note191">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u51">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg69">De motie op stuk nr. 289: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note192">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u52">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg70">De zesde motie, die op stuk nr. 290, vraagt mij om ook voor 2022 concrete energiebesparingsdoelen op te nemen. Dat is niet haalbaar, en bovendien erg afhankelijk van externe factoren, zeker ook als we in het bijzonder kijken naar alle genoemde energiedragers. Dus deze motie ontraad ik, maar ik onderschrijf natuurlijk zeker het belang om dit jaar al enorme stappen te zetten met energiebesparing. Zoals ik in het commissiedebat aan mevrouw Kröger heb toegezegd: zodra er in Fit for 55 aangescherpte doelen zijn voor energiebesparing, gaan we die ook doorvertalen naar het nationale niveau.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note193">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u53">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg71">Ook voor u, mevrouw Kröger: een korte vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note194">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u54">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg72">De minister omarmde net de "ladder" — zo zal ik maar even zeggen — van besparing, met op één versnelde duurzame opwek, op twee alleen fossiel met fossiel vervangen als dat echt nodig is. Hij geeft net oordeel Kamer aan een drietal fossiele moties. Deze motie vraagt om handen en voeten te geven aan energiebesparing. Vóór 1 mei ligt er een plan voor hoe we van Russisch fossiel afgaan. En ja, ik wil nogmaals de minister echt op het hart drukken: maak afrekenbare energiebesparing onderdeel van die plannen. En dat zie ik nu niet. Ik zie allemaal mooie intenties, ik zie een fantastische publiekscampagne, maar ik weet niet waar we op sturen. Hoeveel fossiel wil deze minister besparen? Dat vraag ik hem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note195">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u55">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg73">Daar zal ik in de brief, die ik volgens mij eind april naar uw Kamer moet sturen als uitvoering van de motie die gisteren is aangenomen, ook op ingaan. Ik kan daar nu niet al een concreet doel aan hangen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note196">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u56">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg74">Tot slot, mevrouw Kröger.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note197">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u57">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg75">Ik vraag ook niet of hij hier nu, in dit debat, een concreet doel aan hangt. Ik vraag hem of hij in dat plan voor 1 mei duidelijk maakt hoeveel fossiel hij wil besparen. Hoe is dat onderdeel van het plan om van Russisch fossiel af te komen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note198">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u58">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg76">Maar dat is nog iets anders dan een verplichtend doel, zoals u in de motie vraagt. Daarom ontraad ik de motie. Natuurlijk willen we met alles wat we doen in het kader van besparingscampagnes en meer duurzame opwek, minder CO uitstoten maar ook minder kubieke meters gas gebruiken. Hoe preciezer je dat in beeld krijgt, hoe beter we ook met elkaar kunnen beoordelen of we de juiste dingen aan het doen zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note199">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u59">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg77">Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note200">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u60">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg78">De motie-Van Haga op stuk nr. 291 gaat ook over kleine gasvelden. Met een verwijzing naar wat ik net zei, krijgt ook deze motie oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note201">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u61">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg79">De motie op stuk nr. 291 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note202">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u62">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg80">Dan de motie op stuk nr. 292 van Grinwis en Bontenbal, over GasTerra. Ik begrijp de vraag heel erg, namelijk of en hoe we GasTerra de komende jaren nog een rol kunnen geven in de energietransitie. GasTerra is een samenwerkingsverband met Shell en Exxon. We zijn natuurlijk bezig met het ontmantelen van dat gasgebouw. Daarom heeft die besluitvorming over GasTerra ook plaatsgevonden. Maar voor zover er in de komende jaren toch meer publieke taken zijn dan we eerder hadden voorzien, moeten we naar een passende manier kijken om dat te doen. Ik wil u vragen om deze motie even aan te houden, zodat ik met de staatssecretaris Mijnbouw verder in gesprek kan, want hij is hier echt in the lead. Nogmaals, ik begrijp de vraag die achter deze motie zit. Op een iets later moment kan ik u daarover wat meer schetsen, samen met de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note203">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u63">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg81">Mijnheer Grinwis, een verzoek om de motie aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note204">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u64">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg82">We stemmen pas volgende week. Het lijkt mij dat de staatssecretaris voor die tijd een appreciatie naar de Kamer kan sturen, als het meer op zijn terrein ligt. Eigenlijk wil ik daar liever op wachten, in plaats van haar nu aan te houden. Want volgens mij is er best wel urgentie om een signaal uit de Kamer te krijgen. En als de motie dan ontraden wordt, zien we dat dan wel weer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note205">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u65">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg83">Dan aan de minister: is de motie dan ontraden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note206">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u66">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg84">Die is dan ontraden, maar ik zal aan de staatssecretaris vragen of hij voor dinsdag nog nadere informatie naar de Kamer kan sturen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg85">Dan de motie op stuk nr. 293. Ik heb net de motie-Thijssen/Kröger ontraden. Die ging min of meer over hetzelfde. De motie op stuk nr. 293 heeft een iets ander dictum. Deze kan ik wel oordeel Kamer geven. We zijn aan het kijken hoe we voor de situatie in Bergermeer een oplossing kunnen vinden. U wordt binnen enkele weken geïnformeerd over de uiteindelijke uitkomst hiervan. Het is altijd goed om verder in de breedte te kijken welke Russische rollen er nog zijn in de Nederlandse energiemarkt, dus deze motie geef ik oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note207">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u67">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg86">De motie op stuk nr. 293 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note208">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:inter" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u68">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg87">Dan de motie-Boucke c.s. op stuk nr. 294, over garanties van oorsprong. Een systeem van garanties van oorsprong vereist dat Rusland zelf zijn aardgas certificeert op een vergelijkbare wijze als de Europese Unie dat doet. Hiervoor zouden we een overeenkomst moeten sluiten tussen de EU en Rusland. Dat lijkt me in deze situatie niet echt iets waar we onze tijd aan moeten verdoen. Dus laten we vooral vanuit het sanctiepakket ervoor zorgen dat we zo snel mogelijk van die import af zijn en onze tijd niet hieraan verspillen. Dus deze motie ontraad ik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note209">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u69">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg88">De motie op stuk nr. 294 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note210">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u70">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg89">De motie-Boucke c.s. op stuk nr. 295 is denk ik een heel sympathiek pleidooi om te kijken of gemeenten naast collectieve zorgverzekeringen ook collectieve energiecontracten kunnen aanbieden. Dat kunnen ze op dit moment al. Het is wat mij betreft dan ook niet nodig om dit nog nader te onderzoeken. Ik zou vooral een oproep willen doen aan gemeenten: als u van plan bent om energiearmoede in uw eigen gemeente te bestrijden, neem dan ook de mogelijkheid mee om dit soort collectieve contracten aan te bieden. Aangezien deze motie om een onderzoek vraagt, zou ik deze motie willen ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note211">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u71">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg90">De motie op stuk nr. 295 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note212">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:inter" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u72">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg91">Dan de motie op stuk nr. 296 van de heer Van Raan over houtige biomassa uit Rusland. Ik ben het zeer met hem eens dat we in het kader van de sancties ook houtige biomassa moeten overwegen. In het pakket dat gisteren is gepubliceerd voor de besluitvorming vandaag zit ook houtige biomassa. Dus ik hoop dat dit de eindstreep haalt. Deze motie krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note213">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u73">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg92">De motie op stuk nr. 296 krijgt oordeel Kamer. Ik zie dat de heer Boucke nog een vraag heeft over de motie op stuk nr. 295.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note214">De heer Boucke (D66)</note>
+            <u who="#RaoulBoucke" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u74">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg93">Ik heb een vraag over de motie over het gezamenlijk energie inkopen. Het is niet bij alle gemeenten bekend. Ik vind het heel goed dat de minister de oproep hier doet, maar deze motie roept er ook toe op om in kaart te brengen wat gemeenten nodig hebben. Ik zou er eigenlijk aan willen toevoegen dat de gemeenten ook actief worden opgeroepen via de kanalen die het ministerie heeft om dit te doen. Nogmaals, het gaat ons erom energiearmoede tegen te gaan. Elk instrument dat we hebben moeten we gebruiken om dat te doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note215">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u75">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg94">Helder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note216">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u76">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg95">Misschien dat we het zo kunnen doen dat ik de heer Boucke toezeg dat ik in mijn reguliere gesprekken met de VNG hier specifiek bij zal stilstaan. Dan hoeven we dat niet via een motie en een onderzoek te doen. Ik spreek nu veel met de VNG over de energierekening, over de Warmtewet, de warmtetransitie en de RES'en. Daar kan ik dit volgens mij prima in meenemen. Dan gaan we daar bij een van de komende debatten vast weer met elkaar over doorpraten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note217">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u77">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg96">Meneer Boucke, is deze toezegging voldoende om de motie in te trekken of aan te houden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note218">De heer Boucke (D66)</note>
+            <u who="#RaoulBoucke" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u78">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg97">De toezegging is voldoende als het eerstvolgende reguliere overleg heel snel plaatsvindt. Anders zou ik voorstellen om een overleg in te plannen. Er zijn namelijk heel veel mensen die nu al geconfronteerd worden met hele hoge energierekeningen. Ik mis dus eigenlijk nog steeds een sense of urgency als het gaat om het instrument dat we hebben en dat we direct kunnen gebruiken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note219">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u79">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg98">Minister, is dat gesprek binnenkort?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note220">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u80">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg99">Ja, en anders pak ik wel de telefoon, want ik spreek ze regelmatig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note221">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u81">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg100">Dank. Meneer Boucke, betekent dit dat u deze motie intrekt? Ik constateer dat dit het geval is.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note222">Aangezien de motie-Boucke c.s. (, nr. ) is ingetrokken, maakt zij geen onderwerp van beraadslaging meer uit.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note223">Dan gaan we nu naar de motie op stuk nr. 297.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note224">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u82">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg101">Ja, dat is de motie van de heer Van Raan waarin de regering wordt verzocht per direct een boycot af te kondigen voor de invoer van olie en gas uit Rusland. Een paar zinnen daarover. Ik heb gisteren een brief naar de Kamer gestuurd, vooruitlopend op de stemmingen. Daarin heb ik aangegeven dat ook het kabinet wil dat we zo snel mogelijk stoppen met de invoer van kolen, olie en gas uit Rusland. Ik ben blij dat kolen nu in het Europese sanctiepakket komen en dat we ook doorspreken over hoe we dan in de volgende fase de andere energiebronnen daarin gaan meenemen, maar ik wil dat wel echt in Europees verband blijven doen vanwege de enorme afhankelijkheid binnen de Europese energiemarkt. Daarom ontraad ik deze motie, maar ik hoop dat de heer Van Raan ook ziet dat we ons als Nederlands kabinet volop aan het inspannen zijn op dit punt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note225">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u83">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg102">Wat is uw oordeel over de motie op stuk nr. 297?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note226">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u84">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg103">Ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note227">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u85">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg104">Ontraden. Dat vraagt om een korte reactie van de heer Van Raan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note228">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u86">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg105">Inderdaad heel kort. Het schiet mij nu ook pas te binnen. Ik snap het en ik begrijp ook de positie van het kabinet. Wat je misschien nog zou kunnen overwegen, als een soort instant-appreciatie, is dat we in ieder geval niet meewerken aan de doorvoer van olie en gas uit Rusland. Dat is iets anders dan dat je het boycot, maar je gaat in ieder geval dan niet meehelpen met de doorvoer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note229">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u87">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg106">Dat is niet het dictum van uw motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note230">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u88">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg107">Vandaar dat ik het een instant-appreciatie noemde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note231">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u89">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg108">U past uw motie ter plekke aan. Ik zit even te kijken. Minister, kunt u hier chocola van maken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note232">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:inter" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u90">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg109">Ik snap wat de heer Van Raan van mij vraagt. Ik ben afgelopen maandag de hele dag in Berlijn geweest om met mijn Duitse collega's te praten. Als ik zou doen wat de heer Van Raan nu van mij vraagt, dan hebben ze in Duitsland echt een acuut probleem. Dus dat kan ik helaas niet doen. We moeten ook vanuit de Europese solidariteit kijken in welk tempo de andere landen van de Russische afhankelijkheid af kunnen komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note233">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u91">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg110">De motie op stuk nr. 297 wordt ontraden. Dan de laatste motie, de motie op stuk nr. 298.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note234">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u92">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg111">Die laatste motie ontraad ik ook. Dan verwijs ik naar de brief van de staatssecretaris over hoe we de afweging hebben gemaakt, ook met het advies van het Staatstoezicht op de Mijnen dat ons met de neus op de feiten drukt dat de veiligheid van de Groningers nog altijd onvoldoende is gewaarborgd. Vandaar dat het kabinet zich blijft inzetten om de productie uit het Groningenveld zo snel mogelijk te stoppen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg112">Voorzitter, als u mij toestaat: ik kreeg hier via de app nog een aanvulling op de motie op stuk nr. 294.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note235">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u93">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg113">Eén ogenblik, minister. De appreciatie van de motie op stuk nr. 298 is dan ...?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note236">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u94">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg114">Ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note237">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u95">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg115">Ontraden, de motie op stuk nr. 298 wordt ontraden. Dan nog uw aanvulling op de motie op stuk nr. 294.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note238">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:inter" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u96">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg116">Daar krijg ik nu het ambtelijk advies over dat, omdat de motie toch alleen over het Europese perspectief gaat, we die motie toch oordeel Kamer kunnen geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note239">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u97">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg117">Ik denk dat dat ook betekent dat de heer Boucke niet meer hoeft te interrumperen. Dank.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg118">Daarmee zijn we aan het einde gekomen van het tweeminutendebat Leveringszekerheid van aardgas.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note240">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note241">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.u98">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.seg119">De stemmingen over de ingediende moties zullen aanstaande dinsdag plaatsvinden. We gaan straks verder met SDE++.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-4.note242">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

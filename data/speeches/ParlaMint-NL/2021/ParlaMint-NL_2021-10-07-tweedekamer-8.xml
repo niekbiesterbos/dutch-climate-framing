@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-10-07 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-10-07 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 9, Session 8 (2021-10-07)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 9, Session 8 (2021-10-07)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="9" xml:lang="en">Meeting 9</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="8" xml:lang="en">Session 8</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-10-07">Sitting 2021-10-07</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="30">30 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="30">30 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1719">1,719 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1719">1,719 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-10-07">2021-10-07</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="107"/>
+               <tagUsage gi="seg" occurs="33"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="30"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-10-07">2021-10-07</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.head1">Vermindering blootstelling aan pfas na de EFSA-opinie</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:argic" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg1">Aan de orde is het tweeminutendebat over de vermindering van de blootstelling aan pfas na de EFSA-opinie. De eerste spreker in dit debat is mevrouw Bouchallikh van GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note2">Mevrouw Bouchallikh (GroenLinks)</note>
+            <u who="#KautharBouchallikht" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg2">Dank, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note6">constaterende dat pfas-stoffen niet thuishoren in het milieu en in het drinkwater en lozingen van gevaarlijke stoffen daarom zo veel mogelijk moeten worden beperkt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note7">overwegende dat de EFSA-opinie en de onderzoeken van het RIVM laten zien dat de concentraties pfas in het milieu meer en sneller moeten worden teruggedrongen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note8">constaterende dat onderzoek van Deltares laat zien dat de belangrijkste routes van pfas naar het oppervlaktewater via rioolwaterzuiveringsinstallaties, afvalwaterzuiveringsinstallaties en stortplaatsen lopen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note9">constaterende dat deze route via opsporing en vergunningstrajecten op korte termijn goed te minimaliseren is door waterbeheerders;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note10">verzoekt de regering om zo snel mogelijk alle directe én indirecte lozingen van pfas op oppervlaktewater te identificeren en te minimaliseren via vergunningverlening en verplichte toepassing van best beschikbare technieken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note12">Deze motie is voorgesteld door de leden Bouchallikh, Van Esch en Beckerman.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note13">Zij krijgt nr. kst-28089-200</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note14">Mevrouw Bouchallikh (GroenLinks)</note>
+            <u who="#KautharBouchallikht" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg3">Dan mijn tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note15">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note16">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note17">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note18">overwegende dat de overheid een belangrijke rol heeft als launching customer en tevens een voorbeeldfunctie heeft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note19">constaterende dat de overheid nog steeds pfas-houdende producten aanschaft, ondanks dat de EFSA-opinie en de onderzoeken van het RIVM hebben aangetoond dat het zeer noodzakelijk is om het gebruik van pfas zo ver mogelijk terug te dringen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note20">constaterende dat er voor veel pfas-houdende producten, zoals pfas-houdend textiel bij Defensie, goede alternatieven bestaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note21">verzoekt de regering om samen met de diverse inkoopafdelingen van het Rijk in kaart te brengen waar de inkoop van pfas-houdende producten zo ver mogelijk kan worden ingeperkt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note22">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note23">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note24">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note25">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note26">constaterende dat pfas-stoffen zeer schadelijk zijn en niet thuishoren in het lichaam, het milieu en het drinkwater;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note27">constaterende dat de EFSA-opinie en het rapport van RIVM tot geen andere algemene conclusie kunnen leiden dan dat de concentraties pfas in het milieu sterk moeten worden teruggedrongen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note28">overwegende dat een bronaanpak de enige juiste manier is om te voorkomen dat een persistente stofgroep als pfas in het milieu en het drinkwater terechtkomt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note29">constaterende dat het huidige initiatief om te komen tot een verbod op niet-essentiële toepassingen van pfas te beperkt is en nog jaren op zich zal laten wachten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note30">verzoekt de regering om zich binnen Europa in te zetten op het zo snel mogelijk realiseren van een volledig verbod op pfas,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note31">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note32">Deze motie is voorgesteld door de leden Bouchallikh, Van Esch, Hagen en Beckerman.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note33">Zij krijgt nr. kst-28089-201</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note34">Deze motie is voorgesteld door de leden Bouchallikh en Van Esch.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note35">Zij krijgt nr. kst-28089-202</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note36">Dank u wel. Dan gaan wij door naar de volgende spreker: mevrouw Van Esch van de Partij voor de Dieren.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note37">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg4">Dank, voorzitter. Ik heb vandaag nog één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note38">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note39">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note40">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note41">overwegende dat pfas schadelijk is voor mens en milieu en niet of nauwelijks afbreekt in het milieu;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note42">overwegende dat het risico op onbekende schadelijke langetermijneffecten moet worden voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note43">constaterende dat het RIVM heeft aangetoond dat het gebruik van pfas zo veel mogelijk moet worden beperkt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note44">overwegende dat het aangekondigde nationale verbod op het gebruik van pfas-stoffen enkel van toepassing is op voedselcontactmaterialen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note45">overwegende dat er een traject is ingezet voor een Europees verbod op niet-noodzakelijke toepassingen van pfas, maar dat de restricties die hieruit volgen pas vanaf 2025 van toepassing worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note46">constaterende dat een totaalverbod op de toepassing van pfas ook nationaal kan worden geregeld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note47">verzoekt de regering te komen met een nationaal totaalverbod op de toepassing van pfas,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note48">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note49">Deze motie is voorgesteld door de leden Van Esch en Beckerman.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note50">Zij krijgt nr. kst-28089-203</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note51">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg5">Ik heb net ook een motie van GroenLinks ondertekend om het op Europees niveau te regelen. Dat voelt op zich ook als een weg die bewandeld wordt, maar wij zouden dat nationale verbod ook graag zien komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note52">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg6">Dank u wel. Dan is het woord aan mevrouw Hagen, D66. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note53">Mevrouw Hagen (D66)</note>
+            <u who="#KikiHagen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u7">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg7">Voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note54">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note55">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note56">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note57">overwegende dat pfas-gehaltes op zogenaamde hotspots zodanig verhoogd zijn dat dit risico's met zich meebrengt voor de volksgezondheid en daarmee beperkingen bij locatieontwikkeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note58">overwegende dat het RIVM nieuwe kaarten heeft ontwikkeld welke de meetlocaties voor pfas-stoffen tonen, maar dat dit nog niet is vertaald naar lokaal beleid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note59">verzoekt de regering om met gemeenten voor de zomer in kaart te brengen waar pfas-hotspots liggen en de daarbij behorende beheersmaatregelen met een tijdspad van aanpak,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note60">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note61">Deze motie is voorgesteld door de leden Hagen en Bouchallikh.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note62">Zij krijgt nr. kst-28089-204</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note63">Dank u wel. Dan heeft zich nog een spreker gemeld: de heer Van Haga. Hij nam niet deel aan het debat, dus ik vraag even aan de collega's of zij instemmen om hem een motie in te laten dienen. Ik geloof dat dat het geval is, dus het woord is aan de heer Van Haga. Gaat uw gang.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note64">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u8">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg8">Het is toch mooi dat je voor een fles wijn aan de heer Heerema gewoon deel mag nemen aan dit debat. Dat doe ik met plezier. We drinken hem samen op.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note65">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note66">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note67">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note68">overwegende dat overhaaste en onhaalbare risicobeheersing van pfas kan leiden tot onwerkbare en gevaarlijke situaties;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note69">overwegende dat door aandacht voor het pfas-probleem nieuwe technologie tot nieuwe oplossingen gaat leiden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note70">overwegende dat volgens het ALARA-principe (As Low As Reasonable Achievable) gebruik van pfas gerechtvaardigd kan zijn voor productie van heel specifieke basisbehoeften waar tot nu toe geen alternatieve technologieën voor zijn ontwikkeld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note71">verzoekt het kabinet om een realistische termijn van tien jaar vast te stellen voor afname van pfas uit bronnen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note72">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note73">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note74">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note75">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note76">constaterende dat emissie van pfas uit voedselverpakkingen niet de route is van pfas naar het menselijk lichaam;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note77">verzoekt het kabinet om niet per 1 januari 2022 voedselverpakkingsmateriaal met pfas te verbieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note78">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note79">Deze motie is voorgesteld door het lid Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note80">Zij krijgt nr. kst-28089-205</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note81">Deze motie is voorgesteld door het lid Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note82">Zij krijgt nr. kst-28089-206</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note83">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u9">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg9">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note84">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u10">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg10">Dank u wel. Dan schors ik voor enkele ogenblikken en dan gaan we luisteren naar de beantwoording van de staatssecretaris.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note85">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note86">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u11">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg11">Ik geef de staatssecretaris het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note87">Staatssecretaris Van Weyenberg</note>
+            <u who="#StevenvanWeyenberg" ana="#guest topic:defen" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u12">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg12">Dank u wel, voorzitter. Ik doe de eerste zes moties en collega Blokhuis de tweede motie van collega Van Haga.</seg>
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg13">In de motie op stuk nr. 200 van mevrouw Bouchallikh wordt de regering verzocht om zo snel mogelijk alle directe en indirecte lozingen van pfas te minimaliseren via vergunningverlening en verplichte toepassing van beste beschikbare technieken. Op dit moment worden de vergunningen doorgelicht, ook door Rijkswaterstaat. We kijken er samen met de Unie van Waterschappen naar. Ik geef haar oordeel Kamer, maar wil er ook bij zeggen dat dit een langlopend proces is. Dit is niet zomaar geregeld. Dit is niet over drie of zes maanden helemaal klaar. Dit gaat tijd kosten, want dit is ingrijpend maar noodzakelijk. Met die toevoeging geef ik haar oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg14">De motie op stuk nr. 201 gaat over de inkoop. Hier hebt u deze twee bewindslieden echt volledig overvraagd. Ik zou u dus eigenlijk willen vragen om de motie aan te houden. Ik denk dat Binnenlandse Zaken hierover gaat. Wij gaan echt niet over de inkoop van materieel door de overheid, ook niet bij Defensie. Als u de motie aanhoudt, zal ik ervoor zorgen dat de collega's die hier wel over gaan haar van een appreciatie voorzien.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note88">Mevrouw Bouchallikh (GroenLinks)</note>
+            <u who="#KautharBouchallikht" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u13">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg15">Ik snap het bezwaar van de staatssecretaris, maar ik heb de motie toch ingediend omdat collega Kröger eerder een motie heeft ingediend om in kaart te brengen of er op een andere manier ingekocht kon worden. Ik wil voorkomen dat we van het ene ministerie naar het andere worden gestuurd, gezien de aard van dit probleem. Is er dus ergens een mogelijkheid om wel de samenwerking op te zoeken en te kijken wat er vanuit dit departement mogelijk zou kunnen zijn, zodat we toch enige stappen kunnen zetten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note89">Staatssecretaris Van Weyenberg</note>
+            <u who="#StevenvanWeyenberg" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u14">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg16">Collega Blokhuis, vanuit de kant van de gezondheid, en ik, vanuit de kant van het milieu, zijn ons buitengewoon bewust dat wij zo snel mogelijk en zo veel mogelijk af willen van pfas. Dat signaal zullen wij dus allebei meegeven. Hiermee treden wij alleen echt op een terrein waar wij niet over gaan, dus u krijgt een reactie. Ik vraag u de motie aan te houden. Ik zie een knik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note90">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u15">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg17">Ik kijk nog even naar mevrouw Bouchallikh. Bent u bereid om de motie aan te houden? U komt daar nog op terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note91">Staatssecretaris Van Weyenberg</note>
+            <u who="#StevenvanWeyenberg" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u16">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg18">Anders ontraad ik de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note92">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u17">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg19">Dan wordt de motie ontraden. Oké.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note93">Staatssecretaris Van Weyenberg</note>
+            <u who="#StevenvanWeyenberg" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u18">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg20">Maar ik hoop dat dat niet nodig zal blijken. Dan zijn er twee moties om te komen tot een volledig verbod op pfas. De ene, op stuk nr. 202, is van mevrouw Bouchallikh en de andere, op stuk nr. 203, van mevrouw Van Esch. Ik ga beide moties ontraden. Ik doe dat een beetje met bezwaard gemoed, want het lijkt net of ik hier geen ambitie zou hebben. Ik ben hier vol mee bezig en mijn voorganger was dat ook. Wij willen zorgen dat we het in Europa gaan verbieden en wij willen het alleen maar toestaan als het echt niet anders kan. Ik heb zelf vorige week met een aantal Europese collega's uitgesproken dat dat een kleine uitzondering moet zijn, die hopelijk zo kort mogelijk geldt. Waar het nog niet vervangbaar is, kan je het uiteindelijk met nieuwe technieken ook vervangen. Pfas is rotspul. Het is slecht voor de gezondheid. Hoe meer wij ervan weten, hoe slechter het blijkt te zijn voor de gezondheid. Als je het eenmaal binnen hebt, breekt het eigenlijk nooit meer af. Ik kom zo nog op de motie van mevrouw Hagen die gaat over de hotspots die zo verontreinigd zijn. Laat daar dus geen misverstand over zijn. Maar die essentiële toepassingen wil ik er wel in kunnen houden. Ik ga er alles aan doen om ervoor te zorgen dat dat geen brede opening wordt waar zogenaamd iedereen weer gebruik van kan maken, want dat wil ik ook niet. Ik ga ook zorgen dat er een prikkel blijft om zo snel mogelijk daar met alternatieven te komen zonder pfas. Maar als u mij nu vraagt om een nationaal of Europees verbod te doen vanaf morgen, wijs ik u op die paar essentiële toepassingen. Dus vanwege het feit dat die opening er niet in zit, moet ik ze allebei ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note94">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u19">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg21">De moties op stuk nr. 202 en 203 worden ontraden. Mevrouw Van Esch.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note95">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u20">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg22">Volgens mij wordt die in de motie op stuk nr. 202 sowieso nog geboden, maar er staat ook geen deadline in. Er staat gewoon een streven in. Volgens mij werd dat streven net uitgesproken. Volgens mij zijn er hier zeer hoge zorgen over het feit dat al die restricties die binnen Europa worden besproken, constant naar beneden worden gehaald. Er wordt gezegd dat dit echt een essentiële toepassing is, terwijl dat eigenlijk niet zo is. Dat weten we hier. Wat ons betreft doen we het dus nationaal. Maar laten we er ook in Europa voor pleiten. In de motie staat niet wanneer het moet gebeuren. Ik vind het niet nodig om deze te ontraden, gezien er prima in staat welke kant we op zouden moeten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note96">Staatssecretaris Van Weyenberg</note>
+            <u who="#StevenvanWeyenberg" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u21">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg23">Zeker, maar dan had u de motie ook niet hoeven indienen, want dat heb ik precies zo gezegd. U wilt blijkbaar iets anders dan wat ik heb gezegd. Mevrouw Van Esch is bang voor allemaal ontsnappingsluikjes. Wij kennen elkaar nog niet zo goed, maar zo zit ik er helemaal niet in. Wie mij iets langer kent, weet dat ik mij ontzettend hard ga maken om dat te voorkomen. Tot mijn plezier maakten heel veel gelijkgestemde lidstaten exact dezelfde opmerking toen ik deze opmerking maakte. Mijn inzet is: er komt een uitzondering voor essentieel, maar die houden we zo klein als maar kan. Dan gaan we ook nog inzetten op dat straks zal blijken dat er voor elke stof een alternatief is. Maar omdat deze motie die dingen niet noemt, kan ik niet anders dan ontraden. Anders vraagt u om iets dat ik al van plan ben te doen, dus dan hoeft u de motie, met respect, niet in te dienen. U wil blijkbaar nog iets anders en daarom ontraad ik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note97">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u22">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg24">We gaan verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note98">Staatssecretaris Van Weyenberg</note>
+            <u who="#StevenvanWeyenberg" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u23">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg25">Dan kom ik op de motie op stuk nr. 204 van mevrouw Hagen en mevrouw Bouchallikh om voor de zomer samen met gemeenten in kaart te brengen waar nou de hotspots liggen en vervolgens beheersmaatregelen aan te kondigen. Dat klopt. Ik merkte dat mijn collega's in andere landen bezig zijn met hotspots. Er is daar bijvoorbeeld heel veel met brandblusmateriaal geoefend, om maar eens iets te noemen. Die wil je in beeld brengen. Ik ben nog van de generatie van Lekkerkerk en de verontreiniging daar. Dat is in mijn geheugen gegrift. Ik denk dat het schoonmaken van pfas-locaties misschien wel de opgave voor de huidige 15-jarige tv-kijker is. Ik ben het met u eens, dus ik geef deze motie oordeel Kamer. Ik kom erop terug.</seg>
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg26">Dan is er de motie op stuk nr. 205 van de heer Van Haga. Hij heeft een duidelijk andere aanvliegroute op deze stof dan ik. Ik wil daar wel één ding over zeggen. Ik ga deze motie ontraden, want ik wil wel zo snel mogelijk van dat spul af waar het maar kan. We kunnen over beleidswensen van mening verschillen, maar deze stof breekt niet af. Dat blijkt ook weer uit de ESFA. Wij hadden tolerantiegrenzen. Wij hebben hier hele debatten over grondverzet gehad met mijn voorganger. Die hanteerde normen waarvan heel veel mensen zeiden: bent u niet te streng? De les is: hoe meer we weten, hoe schadelijker het blijkt. Mevrouw Van Esch en andere collega's kunnen dus gerust zijn over hoe hard ik hierop inzet in Europa. Maar ik ben echt veel en veel te bezorgd over deze stof om te zeggen "geef me wat meer tijd, want de technologie gaat het oplossen", zeg ik tegen de heer Van Haga. Door er zo dicht op te zitten zorgen we er volgens mij voor dat marktpartijen alternatieven gaan inzetten. Daar is die wetgeving gewoon onmisbaar voor. Ik ontraad deze motie dus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note99">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u24">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg27">De motie op stuk nr. 205 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note100">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u25">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg28">Natuurlijk zijn wij net zo ambitieus. Wij onderkennen ook het gevaar van deze stof, maar het moet wel op een realistische manier worden uitgefaseerd. Dat is precies waarom we vragen. Het lijkt mij dat die ambities elkaar niet in de weg hoeven te zitten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note101">Staatssecretaris Van Weyenberg</note>
+            <u who="#StevenvanWeyenberg" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u26">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg29">Nou, ik proef bij u toch iets anders. U zegt: neem daar tien jaar voor. Ik vind dat oprecht te lang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note102">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u27">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg30">Helder. Dan gaan we naar staatssecretaris Blokhuis voor de tweede motie die de heer Van Haga heeft ingediend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note103">Staatssecretaris Blokhuis</note>
+            <u who="#PaulBlokhuis" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u28">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg31">Ja, voorzitter. Dat is de motie op stuk nr. 206. In het dictum daarvan wordt aan het kabinet gevraagd om niet per 1 januari 2022 voedselverpakkingsmateriaal met pfas te verbieden. Even ter geruststelling voor de heer Van Haga: het verbod gaat niet in op 1 januari, maar op 1 maart. Dat is onlangs besloten. Maar dat is vast niet conform zijn bedoeling. Hij heeft daar volgens mij een andere visie op, gelijk aan die bij de vorige motie. Wij willen dit wel verbieden. Weliswaar eten mensen geen pizzadozen op, maar de pizzadozen verdwijnen in het milieu, en dat is het punt. Pfas komt in het milieu. Om die reden alleen al gaan wij verpakkingsmaterialen onder hetzelfde regime brengen als heel veel andere zaken. Ik ontraad de motie om die reden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note104">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u29">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg32">De motie op stuk nr. 206 wordt ontraden.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note105">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note106">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.u30">
+               <seg xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.seg33">Ik dank de beide bewindspersonen en schors voor enkele ogenblikken.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-10-07-tweedekamer-8.note107">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

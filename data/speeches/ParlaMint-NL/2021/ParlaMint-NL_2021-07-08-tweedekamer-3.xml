@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-07-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-07-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 99, Session 3 (2021-07-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 99, Session 3 (2021-07-08)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="99" xml:lang="en">Meeting 99</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="3" xml:lang="en">Session 3</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-07-08">Sitting 2021-07-08</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="32">32 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="32">32 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2478">2,478 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2478">2,478 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-07-08">2021-07-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="169"/>
+               <tagUsage gi="seg" occurs="48"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="32"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-07-08">2021-07-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.head1">Belastingen</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:macro" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg1">Een hartelijk woord van welkom aan de staatssecretaris van Financiën. Het is fijn dat u bij ons bent.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg2">Thans is aan de orde het tweeminutendebat Belastingen. U heeft al een prachtige commissievergadering daarover gehad. Daar spreken de mensen nog over na, dus we kunnen ook dit kort en puntig houden. De eerste spreker van de zijde van de Kamer is de heer Ephraim van de Groep Van Haga. Hij heeft thans het woord. Ik hoor van niet. Het moet tenslotte niet. Dan gaan we maar de heer Edgar Mulder van de fractie van de Partij voor de Vrijheid. Hij spreekt twee minuten. Het woord is aan hem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note2">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg3">Dank u wel, voorzitter. Het was een heel mooi debat. Het was niet echt historisch, maar we kregen wel een goede toezegging van de staatsecretaris over de kansspelbelasting. Ik heb nog niks gehoord, maar we hebben nog een paar uurtjes, dus ik hou vandaag de telefoon aan. Dan gaan ook buitenlandse aanbieders belasting betalen. Dat is hartstikke goed. Het is ook fijn dat de staatssecretaris met reparatiewetgeving komt voor de IACK. Het verzoek aan de staatsecretaris is eigenlijk om een kop koffie te gaan drinken met uw collega-staatssecretaris, want hetzelfde speelt bij de alo-kop. Dan kunt u die reparatiewetgeving in één keer voor beide zaken meenemen. Dat is efficiënt en dan hoeft het niet bij het Belastingplan, dus dan gaat het lekker snel. Naast dat het efficiënt is, is het goed dat er een eind wordt gemaakt aan de discriminatie van Nederlanders ten opzichte van statushouders.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg4">Dan heb ik op verzoek van vele collega's hier de benzinemotie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note6">constaterende dat de benzineprijs historisch hoog is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note7">constaterende dat het verschil met de benzineprijs die gehanteerd wordt in buurlanden, disproportioneel hoog is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note8">constaterende dat meer dan de helft van de benzineprijs bestaat uit accijnzen en belastingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note9">overwegende dat de hoge benzineprijs de koopkracht van burgers schaadt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note10">overwegende dat ondernemers in de grensregio door de hoge benzineprijs hard getroffen worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note11">verzoekt het kabinet de accijnzen op benzine per liter te verlagen met €0,30 en ter dekking afdrachten aan bijvoorbeeld NextGenerationEU geheel te staken dan wel dienovereenkomstig te verlagen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note12">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note13">Deze motie is voorgesteld door de leden Edgar Mulder en Wilders.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note14">Zij krijgt nr. kst-32140-89</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note15">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg5">Ik mag deze motie mede indienen uit naam van de heer Wilders.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note16">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg6">Boft u even. Dank u wel. Tot zover. Dan gaan we luisteren naar de heer Stoffer van de Staatkundig Gereformeerde Partij. Ik vertel nog even dat wij vandaag het neo-kerstregime aanhouden. Dat houdt in dat ik in de termijn van de Kamer geen interrupties toesta. Als u straks de ministers of andere bewindspersonen gaat bevragen, dan sta ik alleen vragen toe van de eerste indiener van de moties en die mag alleen één vraag stellen. Het woord is aan de heer Stoffer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note17">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg7">Dank, voorzitter. Het stelt mij gerust dat ik niet geïnterrumpeerd kan worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note18">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg8">Ik zag de spanning van uw schouders glijden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note19">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg9">Ja, ja. Dank daarvoor. Ik heb twee moties. Die luiden als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note20">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note21">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note22">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note23">constaterende dat de belastingkloof tussen een- en tweeverdieners de afgelopen jaren niet is verkleind;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note24">constaterende dat er in de afgelopen jaren diverse fiscale maatregelen zijn genomen die mede als doel hadden om de arbeidsparticipatie te verhogen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note25">overwegende dat er grenzen zitten aan het verhogen van de arbeidsparticipatie en dat diverse rapporten en onderzoeken aantonen dat er tevens grenzen zitten aan de effectiviteit van maatregelen die beogen de arbeidsparticipatie te verhogen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note26">verzoekt de regering bij het Belastingplan 2022 geen voorstellen te doen die de belastingkloof tussen een- en tweeverdieners vergroten en tevens geen voorstellen te doen om de arbeidsparticipatie te verhogen met maatregelen waarvan de effectiviteit naar verwachting beperkt zal zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note27">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note28">Deze motie is voorgesteld door het lid Stoffer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note29">Zij krijgt nr. kst-32140-90</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note30">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg10">De tweede motie luidt als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note31">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note32">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note33">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note34">constaterende dat uit het onderzoek naar de praktische uitvoerbaarheid van een heffing in box 3 op basis van werkelijk rendement naar voren komt dat deze heffing voor de categorie "bank- en spaartegoeden" mogelijk blijkt, maar dat het onderzoek aangeeft dat de uitvoerbaarheid voor andere categorieën nog verbeterd kan worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note35">overwegende dat een zo snel mogelijke invoering van een heffing op basis van werkelijk rendement voor zo veel mogelijk categorieën van vermogensbestanddelen wenselijk is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note36">verzoekt de regering te bezien hoe de uitvoerbaarheid van alle categorieën van vermogensbestanddelen verbeterd kan worden, en de Kamer daar voor 2022 over te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note37">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note38">Deze motie is voorgesteld door het lid Stoffer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note39">Zij krijgt nr. kst-32140-91</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note40">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg11">Dat was het, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note41">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg12">Dank u wel. Dan mevrouw Inge van Dijk van de fractie van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note42">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg13">Dank je wel, voorzitter. Aangezien de helft van mijn spreektijd tijdens het debat ging over box 3, heb ik ook een motie over box 3. Die lijkt wel op de motie van de vorige spreker.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note43">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note44">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note45">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note46">constaterende dat het systeem van heffing op basis van een forfaitair rendement op spaargeld en vermogen in box 3 steeds onhoudbaarder wordt gezien de lage, zelfs negatieve rentestanden en inflatie, waardoor het huidige box 3-systeem onrechtvaardig is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note47">overwegende dat een heffing op basis van werkelijk rendement leidt tot een eerlijker systeem en hierover al jaren discussie plaatsvindt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note48">overwegende dat een recent onderzoek laat zien dat een heffing op basis van werkelijk rendement mogelijk praktisch uitvoerbaar is, met name voor bank- en spaartegoeden, beleggingen in financiële instrumenten, kapitaal- en lijfrenteverzekeringen en schulden en vorderingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note49">overwegende dat het onderzoek ook laat zien dat de praktische uitvoerbaarheid van een heffing op werkelijk rendement voor onroerende zaken en overige bezittingen complexer is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note50">overwegende dat er concrete beloften zijn gedaan aan burgers om te komen tot een heffing op werkelijk rendement in het coalitieakkoord 2017-2021, maar deze beloften nog steeds niet zijn nagekomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note51">overwegende dat we zo snel mogelijk voortgang willen op dit dossier en willen dat een nieuw kabinet deze heffing op werkelijk rendement zo snel mogelijk invoert;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note52">verzoekt het (demissionaire) kabinet nog in 2021 een contourennota op te stellen voor de vormgeving van een heffing op werkelijk rendement, zodat een nieuw kabinet deze contouren in 2022 kan omzetten in een voorstel van wet,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note53">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note54">Deze motie is voorgesteld door de leden Inge van Dijk, Idsinga en Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note55">Zij krijgt nr. kst-32140-92</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note56">Dank u wel. Dan gaan we luisteren naar de heer Idsinga van de fractie van de VVD.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note57">De heer Idsinga (VVD)</note>
+            <u who="#FolkertIdsinga" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg14">Dank u wel, voorzitter. Ik wil graag drie moties indienen, dus ik moet snel praten.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note58">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note59">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note60">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note61">overwegende dat het onderzoek dat het kabinet heeft laten uitvoeren naar de praktische mogelijkheden van een box 3-heffing op basis van werkelijk rendement is afgerond;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note62">overwegende dat het onderzoek een goede basis biedt waarmee het volgende kabinet een stelsel van werkelijk rendement verder kan uitwerken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note63">verzoekt de regering dat reeds ingezette voorbereidende werk door te zetten, zodat de Belastingdienst technisch gezien in staat zal zijn om een heffing op reëel rendement op termijn te kunnen implementeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note64">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note65">Deze motie is voorgesteld door de leden Idsinga, Inge van Dijk, Van Weyenberg en Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note66">Zij krijgt nr. kst-32140-94</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note67">De heer Idsinga (VVD)</note>
+            <u who="#FolkertIdsinga" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg15">Motie twee.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note68">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note69">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note70">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note71">overwegende dat met name spaarders met geld op de spaarrekening, waaronder pensioengeld, momenteel onevenredig hard worden getroffen door een combinatie van negatieve rente, inflatie en de huidige heffing van box 3 op basis van een fictief positief rendement;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note72">verzoekt de regering om, in afwachting van een nieuwe definitieve regeling op basis van heffing op reëel rendement, tussentijdse oplossingen voor spaargeld binnen box 3 te verkennen, en de Kamer daarover te berichten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note73">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note74">Deze motie is voorgesteld door de leden Idsinga, Inge van Dijk en Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note75">Zij krijgt nr. kst-32140-93</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note76">De heer Idsinga (VVD)</note>
+            <u who="#FolkertIdsinga" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg16">De laatste ziet op de levensloopregeling.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note77">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note78">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note79">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note80">overwegende dat in 2006 een levensloopregeling werd ingevoerd, waarbij werknemers konden sparen voor bijvoorbeeld vervangend inkomen voor een periode van onbetaald verlof, zoals pensioen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note81">overwegende dat deze regeling in 2011 alweer werd afgeschaft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note82">overwegende dat ongeveer 40.000 mensen per eind dit jaar uit het overgangsrecht dreigen te lopen met, vanwege een eenmalige hoge "uitkering", mogelijke gevolgen voor toeslagen en belastingprogressie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note83">overwegende dat dit voor velen betekent dat zij, in plaats van met het gespaarde geld eerder van hun pensioen kunnen genieten, nog jaren langer moeten doorwerken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note84">overwegende dat dit voor hen een teken is van een wispelturige en dus niet betrouwbare overheid, aangezien zij zo geen financiële planning en levensplanning konden maken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note85">verzoekt de regering om voor deze groep mensen een eenmalige en laatste overgangsoplossing te verkennen, en de Kamer daarover te berichten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note86">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note87">Deze motie is voorgesteld door het lid Idsinga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note88">Zij krijgt nr. kst-32140-95</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note89">De heer Idsinga (VVD)</note>
+            <u who="#FolkertIdsinga" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg17">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note90">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg18">Dank u wel. Dan de heer Grinwis van de fractie van de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note91">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg19">Voorzitter. Ik heb één motie meegebracht. Die gaat over de handhaving van de Wet DBA. De staatssecretaris heeft natuurlijk een smetteloze carrière, maar daar zat één zwarte bladzijde in, zo zei hij aan het eind van het commissiedebat. Dat was toch wel het hele debacle rondom de Wet DBA. Daarom dien ik de volgende motie in. Volgens mij waren we namelijk geheel eensgezind om hem het zetje in de goede richting te geven, en ook zijn opvolgers.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note92">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note93">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note94">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note95">constaterende dat het huidige handhavingsmoratorium van de Wet deregulering beoordeling arbeidsrelatie (DBA) ten minste tot 1 oktober 2021 van kracht is, maar in principe op enig moment moet worden afgebouwd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note96">constaterende dat het met het huidige handhavingsmoratorium voor opdrachtgevers mogelijk is om bestaande overeenkomsten van opdracht voort te zetten zonder toename van het risico op naheffingen van de Belastingdienst;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note97">overwegende dat er nog geen concrete voorstellen tot een redelijk en handhaafbaar alternatief voor de Wet DBA zijn en deze opdracht doorgeschoven wordt naar een volgend kabinet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note98">overwegende dat er ondertussen evident knelpunten in de uitvoeringspraktijk zijn ontstaan en toezicht tekortschiet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note99">verzoekt de regering om voor 1 oktober — tot dan loopt ten minste het handhavingsmoratorium — uit te werken hoe knelpunten in de uitvoering van de Wet DBA aan te pakken, zodat geleidelijk stappen kunnen worden gezet richting het uitoefenen van regulier toezicht,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note100">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note101">Deze motie is voorgesteld door het lid Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note102">Zij krijgt nr. kst-32140-96</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note103">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg20">Tot zover.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note104">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg21">Dank u wel. Dan gaan we luisteren naar de heer Alkaya van de fractie van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note105">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg22">Voorzitter, dank u wel. We hebben een goed debat gehad met de staatssecretaris. Het ging inderdaad veel over de manier waarop de regering vermogen belast. Dat gaat niet op een eerlijke manier. Dat heeft de voorganger van mijn voorganger al in een motie gezet die in 2015 is aangenomen. Dat was de heer Bashir. Sindsdien is er vrij weinig gebeurd. Er zijn wel onderzoeken gedaan en dergelijke. De moties die vandaag ingediend worden, zal ik hoogstwaarschijnlijk gewoon allemaal steunen, maar eigenlijk zou je gewoon kunnen zeggen: regering, voer het uit; schiet op. Dat was ook eigenlijk wel de afdronk van het debat: laten we dit nou eindelijk eens doen. Dat is natuurlijk ook een boodschap aan de partijen die direct of indirect aan de onderhandelingstafel zitten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg23">We hebben het ook gehad over belastingontwijking. Die moeten we internationaal aanpakken en daarover zou een akkoord bereikt worden. Dat is ondertussen bereikt. Maar ik heb toen al aangegeven dat de details daarin natuurlijk wel heel belangrijk zijn. Helaas zijn er in die details toch weer een aantal uitzonderingen geslopen. Daarom dien ik de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note106">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note107">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note108">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note109">constaterende dat er een akkoord is gesloten over een herziening van het wereldwijde belastingsysteem;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note110">constaterende dat er uitzonderingen op de nieuwe regels zijn opgenomen, onder andere ten aanzien van natuurlijke hulpbronnen en gereguleerde financiële diensten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note111">van mening dat uitzonderingen de regels minder effectief maken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note112">verzoekt de regering onderdeel van Nederlandse diplomatieke inzet te laten zijn om die uitzonderingen in de toekomst te schrappen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note113">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note114">Deze motie is voorgesteld door het lid Alkaya.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note115">Zij krijgt nr. kst-32140-97</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note116">Dank u wel. Dan de heer Eppink van de fractie van JA21.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note117">De heer Eppink (JA21)</note>
+            <u who="#DerkjanEppink" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg24">Dank u wel, voorzitter. Ik heb ook één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note118">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note119">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note120">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note121">overwegende dat de aangenomen motie-Bashir (34302, nr. 97) in 2015 al opriep om niet het fictieve maar het werkelijke rendement op inkomsten uit box 3 te belasten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note122">overwegende dat het kabinet-Rutte III in zijn regeerakkoord Vertrouwen in de toekomst voornemens was "een stelsel van vermogensrendementsheffing op basis van werkelijk rendement" uit te werken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note123">constaterende dat er tot dusver geen resultaten zijn geboekt om het box 3-stelsel te hervormen opdat burgers enkel over hun werkelijke rendement belast worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note124">constaterende dat staatssecretaris Vijlbrief de aanpassing van box 3 aan een volgend kabinet wil overlaten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note125">verzoekt het kabinet alsnog vóór het einde van 2021 werk te maken van het hervormen van het box 3-stelsel, zodat burgers in 2022 enkel belast worden over hun werkelijke rendement uit spaarvermogen op de bank, en niet over een veel hoger percentage door een fictief rendement;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note126">verzoekt het kabinet een voorstel hiervoor op te nemen in het Belastingplan 2022,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note127">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note128">Deze motie is voorgesteld door de leden Eppink, Ephraim, Stoffer en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note129">Zij krijgt nr. kst-32140-98</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note130">De heer Eppink (JA21)</note>
+            <u who="#DerkjanEppink" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg25">Voorzitter, u refereerde aan dit gebouw. Toen het werd ingehuldigd op 28 april 1992, zat ik op de perstribune en heb ik dat gezien. Het heeft toch een zekere historie, want het heeft bijna tien kabinetten meegemaakt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note131">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg26">U kunt verhalen vertellen. Dan de heer Nijboer van de Partij van de Arbeid, die meteen afziet van zijn spreektijd. De heer Ephraim van de Groep Van Haga is inmiddels gearriveerd. Hij sluit de termijn van de Kamer af.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note132">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg27">Dank u, voorzitter. De eerste motie, die is medeondertekend door de heer Eppink, gaat over box 3.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note133">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note134">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note135">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note136">overwegende dat er reeds geruime tijd een brede voorkeur in de Kamer bestaat om in box 3 het werkelijk behaalde rendement op vermogens te belasten en de staatssecretaris geen politiek besluit kan en wil nemen in verband met de demissionaire status van het kabinet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note137">verzoekt de staatssecretaris zo spoedig mogelijk een operationeel plan van aanpak aan de Kamer aan te bieden waarin alle relevante aspecten en een schatting van de tijdpaden inzake het voorbereiden van regelgeving zijn opgenomen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note138">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note139">Deze motie is voorgesteld door de leden Ephraim en Eppink.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note140">Zij krijgt nr. kst-32140-99</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note141">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg28">De tweede motie gaat over dga's die excessief lenen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note142">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note143">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note144">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note145">overwegende dat de overheid fatsoen, rechtszekerheid en betrouwbaarheid aan haar burgers dient te bieden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note146">overwegende dat veel dga's in het verleden hun financiële planning op bestaande regelgeving inzake financiering in privé door hun onderneming via box 2 hebben gebaseerd en thans buiten hun schuld in financiële problemen dreigen te raken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note147">verzoekt de staatssecretaris om de terugwerkende kracht die voortvloeit uit het onderhavige wetsvoorstel te schrappen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note148">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note149">Deze motie is voorgesteld door de leden Ephraim en Eppink.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note150">Zij krijgt nr. kst-32140-100</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note151">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg29">De derde motie gaat over invorderingsrente.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note152">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note153">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note154">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note155">overwegende dat vele mkb'ers en andere ondernemingen door de coronacrisis omvangrijke schulden bij de Belastingdienst hebben opgebouwd en dat de invorderingsrente in 2024 naar 4% zal gaan en voor een slechter economisch herstel voor het mkb en andere ondernemers zal zorgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note156">verzoekt de staatssecretaris om de invorderingsrente tot 2025 ongewijzigd op 0,01% te houden en hiervoor een budgettaire dekking uit een van de coronaherstelfondsen zoals de RRF dan wel het Nationaal Groeifonds te verkrijgen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note157">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note158">Deze motie is voorgesteld door de leden Ephraim en Eppink.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note159">Zij krijgt nr. kst-32140-101</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note160">Dat lijkt me allemaal helder.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note161">Tot zover de termijn van de Kamer. Ik schors twee minuten en daarna gaan we luisteren naar de staatssecretaris.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note162">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note163">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg30">Het woord is aan de staatssecretaris. Hij zal zittend het woord voeren. Het woord is aan hem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note164">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg31">Voorzitter, dank u wel. Dank aan de leden van de Kamer voor hun moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note165">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg32">De staatssecretaris wordt verzocht even de microfoon op zichzelf te richten. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note166">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg33">Dank aan de Kamerleden voor de moties. De motie van de heer Mulder op stuk nr. 89 verzoekt om de accijnzen op de benzine te verlagen en dit te financieren door de bijdrage aan de EU te verlagen. Die motie moet ik ontraden. De accijnzen op de benzine zijn niet de oorzaak van de huidige hoge benzineprijzen. Dat is het gevolg van bewegingen op de oliemarkt. Accijnzen zijn bedoeld om de externe effecten van de uitstoot van verbrandingsmotoren te dekken. Deze motie moet ik dus ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg34">De motie-Stoffer op stuk nr. 90 verzoekt de kloof tussen een- en tweeverdieners niet te vergroten in het Belastingplan 2022. We hebben in dit land de prachtige traditie dat we in augustus kijken naar een evenwichtig koopkrachtbeeld voor álle groepen. Ik had twee dagen geleden in de Eerste Kamer een kort debat hierover met de heer Van Rooijen, die ook al het instrument verzonnen had om te bereiken wat de heer Stoffer wil bereiken. Ik moet deze motie ontraden, omdat die zich op een specifieke groep richt. Daarbij speelt een rol, zoals ik al in het debat heb gezegd tegen de heer Stoffer, dat het waar is dat de instrumenten die je hebt om de arbeidsparticipatie te vergroten, steeds minder effectief beginnen te worden. Dat heet "afnemend grensnut" in economietermen. Dus dat is waar. Het is ook waar dat er draagkrachtproblemen en overwegingen zijn tussen een- en tweeverdieners. Maar deze motie is te precies, in de zin dat die al een richting geeft aan wat we evenwichtig zouden moeten geven. Ik kan haar daarmee geen oordeel Kamer geven. Ik moet haar ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg35">Dat geldt niet voor de motie van de heer Stoffer op stuk nr. 91: uitvoerbaarheid box 3 naar werkelijk rendement. Een korte toelichting. Het onderzoek van PwC biedt goede aanknopingspunten voor een dergelijk stelsel voor bepaalde categorieën vermogen, maar niet, zoals de heer Stoffer ook weet, voor onroerende zaken en overige vermogensbestanddelen. Ik heb in mijn brief van vorige week, of de week daarvoor, gezegd dat je moet kijken hoe je dat voor de verschillende vermogenscategorieën gaat regelen. We hebben daar een debat over gehad. Daar wordt aan gewerkt. Er komen straks moties waar ik ook iets over zal zeggen, die dezelfde strekking hebben. Maar deze kan ik dus oordeel Kamer geven, want dit is precies wat ik van plan was te doen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg36">Dat brengt me bij de motie op stuk nr. 92 van mevrouw Van Dijk van het CDA: contourennota box 3 naar werkelijk rendement. Die zou ik ook graag oordeel Kamer willen geven, want dit is inderdaad wel het goede idee, denk ik. Het komende kabinet of het nieuwe kabinet komt met een contourennota hoe nou precies de boel vorm te geven, zodat we kunnen overgaan naar werkelijk rendement, ook in de tijd. Dus die motie zou ik graag oordeel Kamer willen geven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg37">Datzelfde geldt ook voor de motie op stuk nr. 93 van de heer Idsinga. Die heeft eigenlijk ook weer dezelfde strekking: werkt u door aan een stelsel naar werkelijk rendement. Die zou ik ook graag oordeel Kamer willen geven. Deze moties komen allemaal eigenlijk op hetzelfde neer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg38">Daarmee kan ik dan ook de motie op stuk nr. 94 van de heer Idsinga, belastingen box 3 korte termijn, oordeel Kamer geven. Dat kan ik gewoon meenemen in de contourennota. Dat doe ik graag. Deze motie vroeg om de specifieke behandeling van spaargeld.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg39">De motie op stuk nr. 95 over de levensloopregeling moet ik ontraden. Er is een overgangsperiode van tien jaar geweest. Ik vind de kwalificatie "wiebelbeleid" of zoiets — ik weet niet welke kwalificatie de heer Idsinga precies gebruikte — hier niet helemaal van toepassing, als er een overgangsperiode is geweest van tien jaar. Ik zie wel dat er altijd problemen overblijven — dat heb ik ook in het debat gezegd — maar ik vrees dat ik deze motie moet ontraden, omdat ik niet goed zie hoe je dit in het vat zou moeten gieten, als je het al zou willen. Dat kun je eigenlijk niet goed meer doen na een overgangstermijn van tien jaar.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg40">Dat brengt mij bij de motie van de heer Grinwis op stuk nr. 96 over het handhavingsmoratorium van de Wet DBA. Daar wil ik even iets meer over zeggen. De heer Grinwis zei terecht dat het een smet is op het blazoen van het kabinet dat we dit niet hebben kunnen oplossen. Dat vind ik zelf ook. Maar het is ook waar dat het erg ingewikkeld is. Daarom is het ook niet makkelijk oplosbaar. Ik wil deze motie oordeel Kamer geven. Er is wat onduidelijkheid over, ook in de pers, dus dat kan ik op deze manier ook gelijk oplossen. Het handhavingsmoratorium loopt niet af in oktober. Het loopt minimaal tot oktober en dan zullen we kijken wat we gaan doen. Ik hoop op dat moment samen met collega Koolmees van Sociale Zaken te beschikken over de uitkomsten van de zogenaamde ... Hoe heet dat ding ook alweer? Ik begin echt moe te worden. De pilot met de webmodule. Die zou meer inzicht moeten geven in de soort arbeidsrelatie die je hebt. Ik geef dus oordeel Kamer. Ik ben het eens met wat de heer Grinwis probeerde te zeggen, namelijk: probeer een weg te vinden waarop je de wet toch kunt handhaven op een nette manier. Ik ben het daar eigenlijk gewoon mee eens.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg41">De heer Alkaya van de Socialistische Partij had het in zijn motie op stuk nr. 97 over de uitzonderingen in de ontwerpovereenkomst die dit weekend op de G20 in Venetië zal worden besproken, over een minimumwinstbelasting. Wat betreft de uitzonderingen in pijler 1: ik heb in het debat gezegd dat ik mijn best zal doen — ik neem aan dat dat ook voor de minister en het kabinet geldt — om te zorgen dat die uitzonderingen zo veel mogelijk beperkt worden. Ik heb in het debat gezegd — ik herhaal dat hier nog een keer — dat er 130 landen aan tafel zitten. Het belang van een overeenkomst hierover is altijd heel groot, maar tegelijkertijd kan het niet de bedoeling zijn dat er alleen maar een overeenkomst komt met heel veel verwatering. Dat zei ik ook al in het debat tegen de heer Alkaya. Inhoudelijk zijn we het eens, dus daarom geef ik oordeel Kamer. Het kabinet zal zich daarvoor inzetten. Oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg42">De motie-Eppink c.s. op stuk nr. 98 is een beetje ingewikkeld. Ik geloof dat de gist, de kern, van de motie is om te doen wat mevrouw Van Dijk, de heer Grinwis en de heer Idsinga vragen, namelijk: maak een contourennota en geef aan hoe je dit gaat doen. Er zit één ding in de motie die het mij onmogelijk maakt om haar oordeel Kamer te geven. U zegt namelijk: doe het per 1 januari 2022; doe dat nu in het Belastingplan. Dat gaat niet. Technisch kan dat niet. Het is onuitvoerbaar, dus ik moet de motie ontraden in deze vorm, zo zeg ik tegen de heer Eppink. Als hij het dictum aanpast en dat zou schrappen, kan ik de motie oordeel Kamer geven, maar dan begint de motie wel heel erg te lijken op de vele andere over box 3.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg43">Dat brengt mij bij de moties van de heer Ephraim. Dat zijn de drie laatste. Die krijg ik net aangeleverd, dus daar moet ik nog heel snel naar kijken. De eerste motie op stuk nr. 99 gaat wederom over box 3 en over het werkelijk behaalde rendement. Ik denk dat een "operationeel plan van aanpak" andere taal is voor een "contourennota". Dat laatste klinkt veel ambtelijker dan een "operationeel plan van aanpak", dus u heeft de prijs gewonnen voor de betere naam. Mevrouw Van Dijk vindt dat niet fijn. Ik geef oordeel Kamer, want volgens mij bedoelt u hetzelfde.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg44">Voorzitter. De motie-Ephraim/Eppink op stuk nr. 100 over de Wet excessief lenen bij eigen vennootschap en het nu schrappen van de terugwerkende kracht moet ik ontraden. Daar is het kabinet geen voorstander van. Ik hoop dat ik nog eens de kans krijg om dit wetsvoorstel met de Kamer te behandelen. Ik hoop dat ik dat nog mag doen, want het is een heel interessant wetsvoorstel. Dan zullen we ongetwijfeld weer over de terugwerkende kracht praten, maar het kabinet vindt het niet verstandig om de terugwerkende kracht nu te schrappen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg45">Dat geldt helaas ook voor de, op zichzelf sympathieke, motie-Ephraim/Eppink op stuk nr. 101 over het permanent op nul houden van de invorderingsrente op schulden aan de Belastingdienst. Dat willen we echt niet. De reden daarvoor is eigenlijk heel simpel. Je kunt praten over het niveau van de invorderingsrente, maar die is er natuurlijk om een prikkel in te bouwen zodat mensen ook gaan terugbetalen. Ik wil best tegen de heer Ephraim zeggen dat je een discussie kunt voeren over de vraag of die 4% moet zijn. Dus deze motie moet ik ontraden omdat die niet zal bijdragen aan de belastinginkomsten. Daar hoort de staatssecretaris van Financiën niet oordeel Kamer op te geven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg46">Voorzitter. Daarmee ben ik klaar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note167">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg47">Fijn dat u scherp blijft. Dank voor uw aanwezigheid, zeg ik tegen de staatssecretaris. Fijn dat u bij ons bent.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note168">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.note169">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:defen" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-3.seg48">Vanavond stemmen wij over al deze moties. Ik schors een enkel ogenblik en dan gaan wij met de minister van Binnenlandse Zaken praten over de inlichtingendiensten. Op weg daarnaartoe doe ik nog een aantal huishoudelijke mededelingen.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-04-15 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-04-15 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 69, Session 7 (2021-04-15)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 69, Session 7 (2021-04-15)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="69" xml:lang="en">Meeting 69</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="7" xml:lang="en">Session 7</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-04-15">Sitting 2021-04-15</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="34">34 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="34">34 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1876">1,876 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1876">1,876 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-04-15">2021-04-15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="77"/>
+               <tagUsage gi="seg" occurs="47"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="34"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-04-15">2021-04-15</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.head1">Verkeersveiligheid</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:trans" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg1">Aan de orde is het VSO Verkeersveiligheid. Fijn dat de minister nog steeds bij ons is. We hebben drie sprekers die niet hebben meegedaan aan het AO. Dan moet ik even de nieuwe formule voorlezen voordat ik het woord geef aan de eerste spreker.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg2">Ik leg de Kamer het verzoek voor van de leden Jansen, Bouchallikh en De Hoop om te mogen deelnemen aan het debat, aangezien zij niet hebben deelgenomen aan het commissiedebat dan wel schriftelijk overleg. Dit is bepaald in artikel 7.31, tweede lid van het Reglement van Orde. Bestaat daartegen enig bezwaar? Nee, dat is niet het geval.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg3">Ja, ik heb het ook niet uitgevonden. Maar u zit goed. Een golf van opluchting gaat door de zaal. Ik zie het. Wij hebben zeven deelnemers aan dit debat. De eerste spreker is de heer Peter de Groot van de fractie van de VVD. Het woord is aan hem. Hij heeft, zoals iedereen, twee minuten spreektijd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note2">De heer Peter de Groot (VVD)</note>
+            <u who="#PeterdeGroot" ana="#regular topic:trans" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg4">Voorzitter. Dank aan de minister voor de beantwoording en de brief van 5 februari jongstleden over het advies van de Commissie Feiten en Tarieven over het verhogen en verlagen van boetes. Mijn voorganger Remco Dijkstra heeft zich namens de VVD jaren ingezet voor het vergroten van de aandacht voor het snel doorvoeren van de stappen die uiteindelijk moeten leiden tot hogere boetes voor een aantal gevaarlijke verkeersovertredingen en lagere boetes voor een aantal lichtere verkeersovertredingen. Iedereen kent de beelden van notoire verkeersovertreders. Het negeren van rode kruizen hierbij is levensgevaarlijk en wekt irritatie op.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg5">De Commissie Feiten en Tarieven adviseert om de roodkruisnegatie over te hevelen naar de Wahv, maar de minister neemt dit advies niet over, vanwege de maatschappelijke en politieke verontwaardiging die hierover heerst. De minister geeft aan dat de boete voor roodkruisnegatie van €240 een fors bedrag is. Kijkend naar de set boeteverhogingen kan de VVD zich voorstellen dat een verhoging logisch is. Hoe kijkt de minister tegen het verhogen aan en welke mogelijkheden ziet hij hiertoe?</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg6">Daarnaast is ook het verlagen van de boetes voor lichte snelheidsovertredingen op autowegen een goede stap. Een boete voor een snelheidsovertreding is terecht, maar het boetebedrag voor een lichte snelheidsovertreding moet redelijk blijven om zo het maatschappelijk draagvlak te kunnen behouden. De VVD vindt het daarom van belang dat er voortvarend wordt gehandeld als het gaat om het wijzigen van de boetes.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg7">Ik dien daartoe de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note6">overwegende dat het maatschappelijk draagvlak voor boetes zal toenemen bij het verlagen van boetes voor lichte overtredingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note7">overwegende dat personen die de verkeersveiligheid met gevaarzettende feiten in het geding brengen zwaarder gestraft moeten worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note8">constaterende dat de minister in zijn brief van 5 februari jongstleden voorstellen heeft gedaan om in overleg met betrokken partijen de uitvoering van het wijzigen van de bijlage bij de Wet administratiefrechtelijke handhaving verkeersvoorschriften bij AMvB ter hand te nemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note9">verzoekt de regering uiterlijk voor het commissiedebat Strafrechtelijke onderwerpen van 3 juni 2021 de Kamer te informeren over de planning en voortgang van het proces van wijziging, met daarbij in ieder geval het moment van overlegging van het ontwerp aan de Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note11">Deze motie is voorgesteld door het lid Peter de Groot.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note12">Zij krijgt nr. kst-29398-913</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note13">Dank u wel. Dank ook voor uw bijdrage. Dan gaan we luisteren naar de heer Geurts van de fractie van het CDA. Meneer De Groot, u moet even uw motie inleveren.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note14">De heer Geurts (CDA)</note>
+            <u who="#JacoGeurts" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg8">Voorzitter. Eerst een motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note15">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note16">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note17">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note18">constaterende dat uit de nieuwe ongevallencijfers van de politie over 2020 blijkt dat kwetsbare verkeersdeelnemers als voetgangers, fietsers en bromfietsers tijdens de coronaperiode meer risico lopen op een ongeval;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note19">overwegende dat dit onder andere lijkt te komen doordat auto's harder zijn gaan rijden in bewoond gebied;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note20">verzoekt de regering in kaart te brengen wat er in de handhaving nodig is om ervoor te zorgen dat kwetsbare verkeersdeelnemers minder risico lopen op een ongeval in bewoond gebied, en de Kamer hierover voor het commissiedebat Verkeersveiligheid te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note21">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note22">Deze motie is voorgesteld door het lid Geurts.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note23">Zij krijgt nr. kst-29398-914</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note24">De heer Geurts (CDA)</note>
+            <u who="#JacoGeurts" ana="#regular topic:trans" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg9">Dan nog twee punten. Net is ook door de VVD-collega de heer De Groot aangegeven dat het negeren van het rode kruis een belangrijk punt is en een groot probleem. Daarbij heb ik de volgende vragen. Hoe staat het met de verkenning die Rijkswaterstaat momenteel uitvoert naar de mogelijkheden om bij te dragen aan de handhaving bij het negeren van een rood kruis? Camera's op de auto's van de weginspecteurs van Rijkswaterstaat zouden gebruikt kunnen worden voor de handhaving. Gaat dat ook gebeuren? Hoe staat het met de verkenning of — en zo ja, hoe — een juridische basis voor het gebruik van die beelden van Rijkswaterstaat gecreëerd kan worden?</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg10">Voorzitter. Dan mijn laatste punt in deze bijdrage namens de CDA-fractie. Wij vinden het belangrijk dat in Europees verband informatie wordt uitgewisseld over kentekenhouders bij verkeersovertredingen. De Europese richtlijn Cross Border Enforcement, de zogenaamde CBE-richtlijn, maakt het mogelijk om dit te doen bij slechts acht verkeersovertredingen. Gaat het Nederland lukken om bij de herziening van de richtlijn ervoor te zorgen dat er meer overtredingen onder gaan vallen, bijvoorbeeld gevaarlijk parkeren, wat nu niet het geval is?</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg11">Tot zover.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note25">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg12">Dank u wel. De laatste spreker van de zijde van de Kamer is de heer Jansen van de fractie van Forum voor Democratie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note26">De heer Jansen (FVD)</note>
+            <u who="#ChrisJansen" ana="#regular topic:trans" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg13">Dank u wel, meneer de voorzitter. Onder de bevolking heerst een grote wens, al jaren eigenlijk en sinds de snelheid op de snelwegen is verlaagd, om weer harder te mogen rijden. Ik wil daar graag twee moties over indienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note30">overwegende dat er een grote wens bestaat, zowel vanuit de bevolking als onder leden in deze Kamer, om de maximumsnelheid op snelwegen overdag weer te verhogen naar 130 km/u;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note31">overwegende dat de verkeersveiligheid daarbij niet in het geding komt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note32">roept de regering op ook overdag de maximumsnelheid op snelwegen weer te verhogen naar ten minste 130 km/u op trajecten waar dit tot 2019 het geval was,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note33">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note34">Deze motie is voorgesteld door het lid Jansen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note35">Zij krijgt nr. kst-29398-916</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note36">Dank u wel.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note37">De heer Jansen (FVD)</note>
+            <u who="#ChrisJansen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg14">Nog een motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note38">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note39">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note40">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note41">overwegende dat de Nederlandse snelwegen tot de beste en breedste ter wereld behoren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note42">overwegende dat in de samenleving de wens bestaat om harder te rijden dan momenteel toegestaan is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note43">verzoekt de regering te onderzoeken op welke trajecten en welke tijdstippen de maximumsnelheid hoger dan 130 km/u kan worden zonder dat de verkeersveiligheid in het geding komt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note44">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note45">Deze motie is voorgesteld door het lid Jansen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note46">Zij krijgt nr. kst-29398-915</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note47">Dank u wel.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note48">De heer Jansen (FVD)</note>
+            <u who="#ChrisJansen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg15">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note49">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg16">Tot zover de termijn van de Kamer. Ik schors vijf minuten en dan gaan we luisteren naar de minister.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note50">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note51">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg17">Ik geef het woord aan de minister. Hij heeft even heel snel nagedacht; de vijf minuten zijn wat ingekort. Dus we gaan nu meteen naar hem luisteren. Het woord is aan hem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note52">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg18">Voorzitter, ik heb nog niet alle teksten van de moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note53">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg19">Die zijn onderweg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note54">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg20">Oké. Ik begin vast.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note55">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg21">Graag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note56">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:trans" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u15">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg22">Allereerst de motie van de heer De Groot. Daar is wat mij betreft geen motie voor nodig, want ik wil hierbij zonder meer toezeggen dat ik de Kamer zal informeren hierover in de verzamelbrief die de collega van IenW en ik nog voor het volgende AO Verkeersveiligheid toe zullen doen komen. Nou is het ingewikkelde dat de vorige voorzitter mij altijd leerde dat, als we het al doen, ik de motie technisch moet ontraden. Dat vind ik ook weer sneu, want ik ben het juist helemaal met u eens. Wat mij betreft is zij gewoon niet nodig in dit geval, met de toezegging erbij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note57">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u16">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg23">Dat is ook een beetje een uitnodiging aan de heer De Groot om zijn motie in te trekken. Zal ik dat bij dezen eens doen? Zal ik eens kijken hoever wij komen? U moet even op de pedaal drukken, meneer De Groot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note58">De heer Peter de Groot (VVD)</note>
+            <u who="#PeterdeGroot" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u17">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg24">Ik heb nog een vraag aan de minister daarover. Staat in de brief die naar de Kamer komt de totale planning tot het moment dat de boetes verhoogd zijn, tot het in uitvoering gekomen is?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note59">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u18">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg25">Ik pak even uw motie erbij. Wij gaan u informeren over de planning en voortgang van het proces van wijziging, en in ieder geval ook over het moment van de overlevering van het ontwerp aan de Kamer. Dus we volgen eigenlijk gewoon wat erin staat. Nou ja, we volgen dat niet, maar dat gaan we echt doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note60">De heer Peter de Groot (VVD)</note>
+            <u who="#PeterdeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u19">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg26">Dan trek ik de motie in.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note61">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u20">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg27">Aangezien de motie-Peter de Groot (, nr. ) is ingetrokken, maakt zij geen onderwerp van beraadslaging meer uit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note62">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:trans" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u21">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg28">De dag is dan mooi begonnen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg29">Voorzitter. De motie op stuk nr. 914 gaat over de kwetsbare verkeersdeelnemers. Die motie van het CDA ga ik ontraden. De verkeersveiligheid van kwetsbare deelnemers is een belangrijk aandachtspunt voor Rijk en medeoverheden. Uiteraard worden nieuwe inzichten en cijfers uit het onderzoek naar de verkeersveiligheid al gebruikt bij de keuzes in de dingen waarop en de wijze waarop gehandhaafd wordt. Dat maakt ook deel uit van de bredere strategie van het risicogestuurd werken aan betere verkeersveiligheid samen met IenW en de medeoverheden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg30">Ook heeft de politie aan de hand van de laatste cijfers de handhaving aangepast. Er wordt meer gespreid gecontroleerd. Er komen speciale camera's om het verbod op telefoongebruik in het verkeer te handhaven, maar dat weet de heer Geurts, want ik gok dat ik dat al aangekondigd had op zaterdag 4 november 2018. Dat wordt inmiddels uitgerold. Daarnaast heeft versterking van de verkeershandhaving in den brede al een aantal jaren de aandacht van de politie. De afgelopen drie, vier jaar is ook te zien dat het aantal staandehoudingen ieder jaar opnieuw is toegenomen. De politie blijft zich ervoor inzetten om dat verder te laten stijgen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg31">Ten slotte is er veel aandacht voor de bezetting van de teams Verkeer. De onderbezetting is sterk afgenomen: van 13,1% op 13 maart 2020 naar 9,5% op 21 december 2020. Dat er bij de politie over de breedte sprake is van onderbezetting hebben wij heel vaak besproken in AO's. Dat heeft te maken met het grote aantal mensen die deze jaren aan het pensioneren zijn. Dus ik moet in dat opzicht de motie zoals die nu luidt ontraden. Nu ga ik wel heel ver, maar als ik de motie zo zou mogen lezen dat ik datgene wat ik hier heb voorgedragen nog eens in de brief uitgekristalliseerd met cijfers en alles uiteen zal zetten — maar ja, dat vraagt de motie niet — of als de motie in die zin gewijzigd zou worden, dan …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note63">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u22">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg32">U heeft haar ontraden. Dat lijkt me duidelijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note64">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:trans" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u23">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg33">Ja. Het spijt me.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg34">Dan de motie op stuk nr. 915. Nee, ik had eerst nog een tweetal vragen van de heer Geurts over de handhaving van de roodkruisnegatie. Daarop kan ik u toezeggen dat u de antwoorden ontvangt voor het AO Verkeersveiligheid. Want dat zijn vragen voor mijn collega, en daar kan ik dus moeilijk wat over zeggen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg35">De heer Geurts vroeg of de gevaarlijke parkeerfeiten onder de CBE-richtlijn gebracht kunnen worden. Die herziening is op dit moment inderdaad in Europa aan de orde. Nederland heeft aangedragen te onderzoeken of parkeerovertredingen op grond van de Wahv en bijvoorbeeld naheffingsaanslagen parkeerbelasting, tol- en milieuheffingen ook onder de richtlijn kunnen worden gebracht. Om de verwachtingen te begeleiden in het kader van het managen van expectations: het is nog wel de vraag of dat rijmt met het doel van de richtlijn, namelijk het bevorderen van de verkeersveiligheid. Maar goed, daar zetten we wel op in. Overigens hebben we met België en Duitsland inmiddels bilaterale verdragen die het in ieder geval mogelijk maken om die kentekengegevens uit te wisselen ten behoeve van parkeerovertredingen en naheffingsaanslagen parkeerbelastingen. Toen we elkaar iets meer dan een jaar geleden voor corona — de tijd gaat snel — hierover spraken, was dat nog niet zo. Daar hebben we dus inmiddels, mede door de aandrang van uw Kamer, het nodige bereikt. Naar die twee landen zijn in 2020 al bijna 10.000 boetes voor parkeerovertredingen gestuurd. Met andere EU-lidstaten zijn er nog geen verdragen. Dat punt gaat door het kabinet nader worden ingebracht.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg36">Dan nog twee moties over de maximumsnelheid. Dat onderwerp valt niet onder mijn portefeuille. Ik kan de heer Jansen dus alleen maar suggereren ze aan te houden totdat we begin juni het AO Verkeersveiligheid hebben, dan kan hij ze daar inbrengen. Dat lijkt me zinvoller. Want anders dan zou ik ze nu moeten ontraden, en dat lijkt me spijtig. Nou ja, spijtig, u wilt natuurlijk dat ze besproken kunnen worden, voorzitter. Als de heer Jansen bereid is ze aan te houden tot na dat AO van begin juni, dan lijkt me dat zinvoller.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note65">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u24">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg37">Vooralsnog zie ik geen actie bij de heer Jansen. Dan stel ik vast dat u de moties ontraadt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note66">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u25">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg38">Maar ik zag hem wel bewegen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note67">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u26">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg39">Ja, maar dat is weer snel opgehouden. Dan heeft u de moties ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note68">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u27">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg40">Ja, dan moet ik ze allebei ontraden. Want het onderwerp valt geheel buiten mijn portefeuille.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note69">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u28">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg41">U doet het met pijn in uw hart, ik hoor het.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note70">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u29">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg42">Met pijn in mijn ministershart.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note71">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:trans" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u30">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg43">Tot zover het VSO Verkeersveiligheid. Dank aan de minister voor zijn beantwoording. Er is nog een vraag van de heer De Groot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note72">De heer Peter de Groot (VVD)</note>
+            <u who="#PeterdeGroot" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u31">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg44">Ik had in mijn bijdrage nog een vraag aan de minister gesteld welke mogelijkheden hij ziet. Hij heeft in de brief van 5 maart een aantal voorstellen voor verhoging van boetes gedaan. Welke mogelijkheden ziet hij nog voor een verhoging van de boete voor roodkruisnegatie van €240 naar een mogelijk hoger bedrag?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note73">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u32">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg45">De heer De Groot heeft gelijk; verontschuldigingen dat ik op die vraag niet heb gereageerd. Daarop willen wij terugkomen in een gezamenlijke brief, want dat is iets wat ik zeker samen met de collega zal moeten bespreken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note74">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u33">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg46">Dank u wel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note75">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note76">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.u34">
+               <seg xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.seg47">Aanstaande dinsdag stemmen we over de moties. Nogmaals dank aan de minister voor zijn aanwezigheid vandaag. Ik schorst tot 12.20 uur, en dan komt aan de orde het tweeminutendebat over de Raad Algemene Zaken.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-04-15-tweedekamer-7.note77">De vergadering wordt van 12.07 uur tot 12.20 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

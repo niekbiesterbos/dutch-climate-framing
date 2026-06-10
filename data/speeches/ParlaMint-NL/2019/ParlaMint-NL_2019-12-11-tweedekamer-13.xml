@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2019-12-11 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2019-12-11 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 35, Session 13 (2019-12-11)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 35, Session 13 (2019-12-11)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="35" xml:lang="en">Meeting 35</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="13" xml:lang="en">Session 13</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2019-12-11">Sitting 2019-12-11</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="42">42 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="42">42 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2518">2,518 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2518">2,518 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2019-12-11">2019-12-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="108"/>
+               <tagUsage gi="seg" occurs="45"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="42"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-12-11">2019-12-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.head1">Wijkverpleging</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u1">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg1">Aan de aanwezige woordvoerders te zien, kunnen we door met het volgende VAO. Dat is het VAO Wijkverpleging, met als eerste spreker mevrouw Hermans van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note2">Mevrouw Hermans (VVD)</note>
+            <u who="#SophieHermans" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u2">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg2">Voorzitter. Volgens mij ronden we vandaag een AO af dat begon in september. Ik heb nu, twee maanden later, één motie naar aanleiding van die eerste termijn.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note6">constaterende dat de wijkverpleging in Nederland een groot goed is en dat om kwaliteit en beschikbaarheid van wijkverpleging ook in de toekomst te kunnen blijven garanderen, er stappen gezet moeten worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note7">overwegende dat het kabinet daarvoor onder andere een organisatorische ambitie geformuleerd heeft van herkenbare en aanspreekbare teams in de wijk;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note8">van mening dat een herkenbaar en aanspreekbaar team in de wijk alleen gaat werken als voor alle betrokkenen duidelijk is wat de bedoeling is en de uitkomst en kwaliteit van zorg helder gedefinieerd zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note9">van mening dat het goed is dat partijen daarover nu met elkaar in gesprek zijn en dat op basis van die uitkomsten bepaald moet worden wat de volgende stappen in het proces moeten zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note10">verzoekt het kabinet de Kamer hierover tijdig te informeren, opdat zorgvuldige besluitvorming ruim voor de start van de zorginkoop voor 2021 kan plaatsvinden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note11">verzoekt het kabinet tevens om tot die tijd geen onomkeerbare stappen te zetten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note12">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note13">Deze motie is voorgesteld door het lid Hermans. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note14">Zij krijgt nr. kst-23235-188</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note15">De heer Slootweg (CDA)</note>
+            <u who="#Evert-JanSlootweg" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u3">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg3">Volgens mij een duidelijke weerslag van het AO, maar ik wil toch mevrouw Hermans vragen op welke punten zij nog wat wil weten voordat zij die zorgvuldige besluitvorming kan steunen. Wat wil zij nog precies en scherper hebben?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note16">Mevrouw Hermans (VVD)</note>
+            <u who="#SophieHermans" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u4">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg4">Een terechte vraag. Het begint voor mij met de vraag wat deze teams moeten bijdragen aan de kwaliteit van zorg. Wat gaat iemand die wijkverpleging krijgt, merken in de kwaliteit van de zorg die hij krijgt en wat is het verschil ten opzichte van de situatie nu? Maar het gaat me er ook om hoe er wordt gewerkt in die teams. Hoe zijn de verantwoordelijkheden verdeeld? Kunnen ongecontracteerde aanbieders ook onderdeel zijn van zo'n team? Kun je wel meedoen in de avond-, nacht- en weekendorganisatie maar niet in de doordeweekse teams en planningen? Kortom, het begint met de kwaliteit, wat dat is volgens mij altijd de kern, maar vervolgens zijn er heel veel praktische vragen waar volgens mij heel veel wijkverplegingsorganisaties nu over nadenken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note17">De heer Slootweg (CDA)</note>
+            <u who="#Evert-JanSlootweg" ana="#regular topic:gover" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u5">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg5">Tot besluit. Dus als ik het goed begrijp, gaat het echt over de rol en de verantwoordelijkheden die in zo'n herkenbaar en aanspreekbaar team moeten zitten? Of is dat weer te klein?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note18">Mevrouw Hermans (VVD)</note>
+            <u who="#SophieHermans" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u6">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg6">Als u het daartoe verengt, is het te klein. Dat is precies de reden dat ik zeg dat het begínt met de kwaliteit: wat gaan deze teams bijdragen aan kwaliteit van zorg? Op welke manier gaan zij zorgen voor een verbetering van die kwaliteit van zorg? Dit is precies het debat dat ik had met de minister in de tweede termijn van het AO, omdat de minister heel terecht opmerkte dat we een opgave hebben op het gebied van kwaliteit en beschikbaarheid. Die kwaliteitsopgave zie ik ook. Maar wat gaan deze teams daar dan precies aan bijdragen? Vervolgens komen daar allerlei vragen achter vandaan, vragen die ik u net noemde en die u ook herhaalde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note19">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u7">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg7">Dank u wel. Mevrouw Ellemeet, GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note20">Mevrouw Ellemeet (GroenLinks)</note>
+            <u who="#CorinneEllemeet" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u8">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg8">Dank u wel, voorzitter. Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note21">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note22">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note23">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note24">constaterende dat het ministerie van VWS samen met partijen uit het hoofdlijnenakkoord heeft afgesproken dat de overheidsbijdrage in de arbeidskostenontwikkeling (ova) wordt meegenomen in de opbouw van de tarieven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note25">constaterende dat uit de monitor contractering in de wijkverpleging van de Zorgautoriteit blijkt dat de tariefstijging in de wijkverpleging achterblijft bij de ova;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note26">overwegende dat op dit moment onduidelijk is hoe zorgverzekeraars invulling geven aan het doorberekenen van de ova in de tarieven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note27">verzoekt de regering om in gesprek te gaan met de NZa en zorgverzekeraars om te onderzoeken of de doorberekening van de ova-ruimte meetbaar gemaakt kan worden, zodat de Zorgautoriteit kan beoordelen of de ova doorberekend wordt in de tarieven,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note28">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note29">Deze motie is voorgesteld door het lid Ellemeet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note30">Zij krijgt nr. kst-23235-189</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note31">Dank u wel. Mevrouw Sazias.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note32">Mevrouw Sazias (50PLUS)</note>
+            <u who="#LéonieSazias" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u9">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg9">Dank u wel, voorzitter. In het AO heeft 50PLUS aandacht gevraagd voor de informatievoorziening over casemanagement dementie. Goede informatie over vergoedingen door zorgverzekeraars hoort daar ook bij. Een paar dagen geleden stond een artikel in de krant waaruit blijkt dat die informatievoorziening bij zes van de tien zorgverzekeraars ontbreekt. Vandaar deze motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note33">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note34">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note35">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note36">constaterende dat goede informatie over vergoedingen voor casemanagement dementie bij zes van de tien grote zorgverzekeraars ontbreekt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note37">overwegende dat de ondersteuning van een casemanager dementie voor mantelzorgers een van de noodzakelijke en meest gewenste vormen van ondersteuning is, en dat goede informatie hierover van groot belang is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note38">verzoekt de regering in gesprek te gaan met zorgverzekeraars en hen aan te sporen de informatievoorziening rondom de vergoedingen voor casemanagement dementie te verbeteren, en de Kamer daarover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note39">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note40">Deze motie is voorgesteld door de leden Sazias en Slootweg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note41">Zij krijgt nr. kst-23235-190</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note42">Dank u wel. Het woord is aan de heer Slootweg van het CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note43">De heer Slootweg (CDA)</note>
+            <u who="#Evert-JanSlootweg" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u10">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg10">Dank u wel, voorzitter. Het was een beetje een debat met een hink-stap-sprong: we spraken elkaar in september en november en hebben nu eindelijk de afronding. We hebben het over veel zaken gehad. Ik heb ten slotte één motie en één vraag aan de minister. Allereerst de motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note44">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note45">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note46">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note47">constaterende dat de inzet van casemanagers dementie veel effectiever is wanneer ze al vroeg bij de ontwikkeling van dementie starten met hun begeleiding en niet pas wanneer het thuis niet meer gaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note48">overwegende dat bijvoorbeeld ervaringen in Parkstad leren hoe belangrijk het is om deze zorg laagdrempelig bereikbaar te maken, en dat dit werkt wanneer er goede samenwerking bestaat tussen huisarts en casemanager dementie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note49">verzoekt de regering met de Landelijke Huisartsen Vereniging afspraken te maken om de samenwerking tussen huisartsen en casemanagers dementie te bevorderen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note50">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note51">Deze motie is voorgesteld door de leden Slootweg, Bergkamp en Sazias. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note52">Zij krijgt nr. kst-23235-191</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note53">De heer Slootweg (CDA)</note>
+            <u who="#Evert-JanSlootweg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u11">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg11">Verder heb ik nog een vraag. Ik heb erg getwijfeld. Dit gaat heel erg over de vraag welke vraag in de komende periode op de wijkverpleging afkomt en hoe je dat op een goede manier wilt vormgeven. Daarbij kunnen ook vrijwilligers worden ingezet. Ik heb lang getwijfeld over een motie, maar ik wil die toch niet indienen omdat het dan ook weer met administratieve lasten gepaard gaat. De vraag is of bijvoorbeeld de vrijwilligers voor palliatieve terminale zorg wat beter kunnen aansluiten bij de wijkverpleging. Ik heb gedacht aan een standaardtoets in het normenkader voor indicatiestelling, maar eigenlijk zou ik de minister willen vragen of hij gewoon het gesprek wil aangaan met beroepsvereniging V&amp;VN om te kijken hoe we vrijwilligers en professionals beter met elkaar in gesprek kunnen laten komen, zodat er veel meer gebruik kan worden gemaakt van de vrijwilligheid en de kracht in onze samenleving.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg12">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note54">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u12">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg13">Dank u wel. Het woord is aan mevrouw Bergkamp van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note55">Mevrouw Bergkamp (D66)</note>
+            <u who="#VeraBergkamp" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u13">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg14">Voorzitter. Ik denk dat het vanavond de kracht van de herhaling is, want mevrouw Sazias heeft net een motie ingediend die heel erg lijkt op de motie die ik, mede namens de heer Slootweg, indien. Dus we moeten maar even kijken of we ze misschien kunnen integreren. Ik lees haar voor.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note56">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note57">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note58">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note59">constaterende dat uit onderzoek van Alzheimer Nederland blijkt dat acht van de tien grootste zorgverzekeraars geen (duidelijke) informatie geven over de vergoedingen van dementiezorg, waaronder die voor de casemanager dementie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note60">overwegende dat er op dit moment ongeveer 265.000 mensen met dementie zijn en dit aantal toeneemt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note61">van mening dat door de juiste zorg op het juiste moment in te zetten voorkomen kan worden dat mensen met een zwaardere zorgvraag te maken krijgen, maar het dan wel noodzakelijk is dat mensen weten welke zorg beschikbaar is en vergoed wordt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note62">verzoekt de regering om in gesprek te gaan met Zorgverzekeraars Nederland en Alzheimer Nederland om te bewerkstelligen dat alle zorgverzekeraars duidelijke informatie geven over de mogelijkheden van en de vergoedingen voor dementiezorg, waaronder die voor de casemanager dementie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note63">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note64">Deze motie is voorgesteld door de leden Bergkamp en Slootweg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note65">Zij krijgt nr. kst-23235-192</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note66">Mevrouw Bergkamp (D66)</note>
+            <u who="#VeraBergkamp" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u14">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg15">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note67">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u15">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg16">Dank u wel. Tot slot is het woord aan de heer Kerstens van de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note68">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u16">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg17">Voorzitter. Ik ga mijn motie snel voorlezen. Die gaat niet over de casemanager dementie, maar wel over een ander onderwerp waar we al eens vaker over gesproken hebben en dat is het geld dat zorgverzekeraars "overhouden" op de wijkverpleging.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note69">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note70">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note71">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note72">constaterende dat zorgverzekeraars naar verwachting ook dit jaar weer veel geld zullen "overhouden" op wijkverpleging;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note73">overwegende dat dat geenszins betekent dat geen behoefte zou bestaan aan zorg thuis, integendeel;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note74">overwegende dat het dus van belang is dat eventuele resterende middelen alsnog duidelijk en zichtbaar worden ingezet voor zorg thuis;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note75">verzoekt de regering met zorgverzekeraars af te spreken dat die laatste op korte termijn met een plan komen waaruit (indien aan de orde) blijkt dat en hoe bedoelde middelen in het kader van zorg thuis worden ingezet, alsook de Kamer daarover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note76">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note77">Deze motie is voorgesteld door het lid Kerstens. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note78">Zij krijgt nr. kst-23235-193</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note79">De heer Slootweg heeft nog een vraag aan u, meneer Kerstens.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note80">De heer Slootweg (CDA)</note>
+            <u who="#Evert-JanSlootweg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u17">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg18">Dank u wel, voorzitter. De motie klinkt heel sympathiek, maar kan de heer Kerstens toch een beetje een beeld schetsen van waar hij dan aan denkt bij het inzetten van die middelen voor zorg thuis?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note81">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u18">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg19">Ja, dat kan ik. Laat ik eerst schetsen waar ik denk dat het geld niet terecht zou moeten komen. Dat zijn heel simpel gezegd in de zakken van zorgverzekeraars, nu er sprake is van een onderbesteding. Er is namelijk geen sprake van een onderbesteding omdat er geen vraag zou zijn naar zorg thuis en naar wijkverpleging, maar omdat er niet geleverd kan worden. We hebben in eerdere debatten al eens besproken dat zorgverzekeraars bijvoorbeeld met zorgaanbieders in gesprek zouden kunnen gaan over andere manieren waarop dat geld zinvol ingezet kan worden. Een voorbeeld is het aanpakken van de arbeidsmarktproblematiek, die een van de oorzaken is van de vermoedelijke onderbesteding. Ik wil niet treden in de uitkomsten van dat overleg tussen zorgverzekeraars en zorgaanbieders. Wat ik wel graag wil veiligstellen, is dat als er geld over is terwijl er eigenlijk een ontzettende behoefte is bij cliënten, bij mensen, aan zorg thuis het dan ook daarvoor wordt ingezet, op een manier die partijen wat mij betreft helemaal zelf mogen bepalen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note82">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u19">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg20">De heer Slootweg, kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note83">De heer Slootweg (CDA)</note>
+            <u who="#Evert-JanSlootweg" ana="#regular topic:labor" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u20">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg21">Begrijp ik goed dat het echt alleen bedoeld is voor de salarissen of is het toch breder?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note84">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u21">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg22">Nee. De heer Slootweg heeft mij inderdaad vaak horen spreken over de salarissen van de mensen in de zorg. Dat was ik vanavond niet van plan. Mij gaat het erom — ik herhaal eigenlijk wat ik net zei — dat het geld besteed moet blijven worden aan zorg thuis. Ik zit er niet op te hinten dat dat zou moeten betekenen dat het in salarissen van mensen gestopt moet worden. Daar ga ik helemaal niet over, zeker niet bij deze gesprekken. Er zijn vast heel goede manieren te bedenken in het gesprek tussen de zorgaanbieders en de zorgverzekeraars waardoor het geld uiteindelijk wel in de vorm van zorg of ondersteuning op een of andere wijze terecht komt bij de mensen die daar zo'n behoefte aan hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note85">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u22">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg23">Dank. Dan gaan we paar minuutjes schorsen en daarna luisteren naar de beantwoording van de minister.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note86">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note87">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u23">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg24">Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note88">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u24">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg25">Voorzitter, dank u wel. Ik begin met de motie op stuk nr. 188 van de VVD, die het kabinet verzoekt de Kamer tijdig te informeren over hoe het werken als één team in de wijk eruit zou moeten komen te zien, opdat zorgvuldige besluitvorming ruim voor de start van de zorginkoop 2021 kan plaatsvinden. Daarover wil ik eigenlijk het oordeel aan de Kamer laten. Ik heb al toegelicht in het algemeen overleg dat ik op dit moment met de betrokken partijen aan het uitwerken ben hoe dat eruit zou kunnen komen te zien en hoe de vertaling zou kunnen luiden van dat uitgangspunt in het inkoopkader. Tijdig informeren betekent dan dus dat ik u in februari informeer, omdat het inkoopkader ongeveer 1 april gereed zal moeten zijn. Als u daar nog met mij over zou willen spreken, zou het debat ergens daartussen in moeten plaatsvinden, maar ik zal u tijdig informeren. Daarmee laat ik dus het oordeel aan de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note89">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u25">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg26">De motie op stuk nr. 188 krijgt oordeel Kamer. Mevrouw Hermans.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note90">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u26">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg27">U bent het daar niet mee eens.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note91">Mevrouw Hermans (VVD)</note>
+            <u who="#SophieHermans" ana="#regular topic:macro" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u27">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg28">Ja, daar wilde ik het nog even kort over hebben. Nee hoor, even over die timing. Ik denk dat februari een goede is, maar misschien nog één opmerking als achtergrond daarbij. Wij hebben hier in de afgelopen tweeënhalf jaar een aantal keer vrij last minute een debat gevoerd over tarieven, die dan op het laatste moment nog ingevoerd moesten worden. Ik vind dat echt onwenselijk. Dat is de achtergrond hiervan. Vandaar "begin februari". Heel veel meer ruimte en rek zit er dus niet in om dat nog zorgvuldig te kunnen doen, maar dan denk ik dat er nog voldoende tijd is om partijen die vanaf april met elkaar inkoopafspraken moeten maken, de duidelijkheid te geven die daarvoor nodig is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note92">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#regular topic:gover" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u28">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg29">Ja, snap ik. Ik weet ook nog welke debatten dat waren. Die gingen over de Wlz en de tariefvaststelling daar door de NZa. Hier gaat het over een inkoopkader. Dat heeft iets minder kracht van wet. Niettemin is het erg belangrijk en richtinggevend voor inkopende partijen. Dus de boodschap is aangekomen. We gaan in dier voege handelen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note93">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u29">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg30">De otie op stuk nr. 188 krijgt oordeel Kamer "in dier voege".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note94">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u30">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg31">"In dier voege". Mooi, hè. Ja, dat is echt mooi.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note95">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u31">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg32">De motie op stuk nr. 189.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note96">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u32">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg33">Piet Hein Donner zou trots op mij zijn. De motie op stuk nr. 189 is een verzoek van de fractie van GroenLinks om met de NZa en zorgverzekeraars in gesprek te gaan om te onderzoeken of de doorberekening van de ova-ruimte meetbaar gemaakt kan worden. Ik kan deze opdracht gewoon steunen omdat dat namelijk nodig is om te weten of de afspraak uit het hoofdlijnenakkoord wordt nagekomen. Dat wordt vervolgens vertaald in een inkoopmonitor van de NZa die, ik dacht, in mei komt. Daarom is het inderdaad van belang dat we dit inzichtelijk en meetbaar maken. Dus ik zou deze motie willen zien als ondersteuning van beleid en daarmee het oordeel aan de Kamer willen geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note97">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u33">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg34">De motie op stuk nr. 189 krijgt oordeel Kamer. De motie op stuk nr. 190.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note98">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u34">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg35">De motie op stuk nr. 190 behandel ik integraal met de motie op stuk nr. 192. Hoewel er uiteraard tal van verschillen tussen deze twee moties zitten, zou ik toch willen komen tot een integraal oordeel van de kant van het kabinet. Die verzoeken namelijk de regering om in gesprek te gaan met zorgverzekeraars/Alzheimer Nederland en hen aan te sporen om de informatievoorziening rondom de vergoedingen voor casemanagement dementie te verbeteren. Ik ga daar graag mee aan de slag, dus ik laat het oordeel over beide moties aan de Kamer, hoewel het verrassender was geweest als ik een van beide had ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note99">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u35">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg36">De motie op stuk nr. 190 en de motie op stuk nr. 192 krijgen oordeel Kamer. Ik kijk nog even naar de indieners. Er is geen mogelijkheid om deze tot één motie om te bouwen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note100">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u36">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg37">Misschien kan de heer Slootweg hier een bemiddelende rol in spelen, omdat zijn naam onder beide moties staat. Zomaar een suggestie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note101">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u37">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg38">De motie op stuk nr. 190 en de motie op stuk nr. 192 krijgen oordeel Kamer. De motie op stuk nr. 191.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note102">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u38">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg39">De casemanager dementie. Daar staat: verzoekt de regering met de Landelijke Huisartsen Vereniging afspraken te maken om de samenwerking tussen huisartsen en casemanagers dementie te bevorderen. Ik ga graag dat gesprek aan en laat ook hierover het oordeel aan de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note103">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u39">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg40">De motie op stuk nr. 191 krijgt oordeel Kamer. Tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note104">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#regular topic:healt" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u40">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg41">Dan heb ik nog een vraag van de heer Slootweg over het bij de indicatiestelling voor palliatieve zorg betrekken van vrijwilligers. Vrijwilligers spelen een heel belangrijke rol in de zorg, omdat er altijd sprake is van een samenspel, zeker in de palliatieve zorg. Die is eigenlijk niet te geven zonder vrijwilligers. Die rol hoort dus ook betrokken te worden bij de indicatiestelling. Nou is het daar al onderdeel van, maar u ziet daar nog ruimte voor verbetering, dus ik ga graag het gesprek aan met V&amp;VN om te kijken op welke manier die rol van vrijwilligers beter betrokken zou kunnen worden bij de indicatiestelling, zonder daarbij, zoals de heer Slootweg zelf ook al noemde, allerlei bureaucratische verplichtingen op te leggen, want daar voel ik niet zo veel voor.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg42">Dan kom ik bij de motie op stuk nr. 193. Dat is de motie van de heer Kerstens, die de regering verzoekt om met zorgverzekeraars af te spreken dat laatstgenoemden op korte termijn met een plan komen om — ik vat het maar eventjes als volgt samen — de onderbesteding of de onderschrijding op het uitgavenplafond wijkverpleging in te zetten voor de zorg thuis. Die motie ga ik ontraden. Ik denk dat de heer Kerstens dat al vermoedde omdat die vraag al wat vaker aan de orde is geweest, maar ik wil daar wel een paar dingen over zeggen. Dat er sprake is van een forse onderbesteding, een forse onderschrijding, vind ik problematisch. Dat heb ik ook wel aangegeven in de richting van mevrouw Ellemeet, die herhaaldelijk heeft verzocht om daarmee aan de slag te gaan. We hebben daarom met de hoofdlijnenakkoordpartijen opdracht gegeven om een goede analyse te maken — die wordt op dit moment gemaakt — omdat die onderschrijding fors is en we die ook niet van jaar op jaar op deze manier willen hebben. Daarmee moeten we niet willen uitstralen dat een uitgavenplafond een verplichting is om dat geld dan op te maken. Dat doet deze motie wel en daarom ontraad ik haar. Dat is namelijk niet aan de orde.</seg>
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg43">We werken in een aantal sectoren met uitgavenplafonds. Uitgavenplafonds zijn bedoeld als plafonds. Je hoeft het plafond niet aan te tikken. Het gaat er namelijk om dat je binnen dat plafond je werk doet. Dat geldt ook in de medisch-specialistische zorg. Daar zijn vergelijkbare vragen — zou je alsjeblieft je plafond aan willen tikken? — ook niet aan de orde. Nee, dat is niet het geval. Een uitgavenplafond is een plafond. Alleen, wat we beoogden met het hoofdlijnenakkoord is een groei van de uitgaven. We hebben daar bewust het plafond met 2,4% laten groeien. Waarom? Meer mensen wonen langer thuis. Dat impliceert meer zorg die thuis nodig is en dus ook de ruimte om die zorg thuis te kunnen geven, al was het maar om daarmee preventief thuis te voorkomen dat een verpleeghuisopname aan de orde is. Wat we nu zien, is eigenlijk iets anders. We zien een onderschrijding in de wijkzorg en een forse overschrijding in de verpleeghuiszorg. Dus nog los van de 1,2 miljard zien we een forse overschrijding in het volume van de verpleeghuiszorg: 4% instroom per jaar, daar waar 2% en een beetje gerechtvaardigd zou zijn op grond van de demografie. Dus is het analyseren van de vraag hoe dat nou kan, wel degelijk aan de orde. Heeft dat bijvoorbeeld te maken met de schrale tarieven? Heeft dat juist te maken met die verhoogde instroom in de verpleeghuiszorg? Heeft het te maken met andere factoren? Er kunnen tal van factoren aan de orde zijn, maar deze motie straalt uit "alles moet op"; en dat hoeft niet. Zo werken uitgavenplafonds niet. Daarom moet ik deze motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note105">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u41">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg44">De motie op stuk nr. 193 wordt ontraden. Daarmee zijn we aan het einde gekomen van dit VAO.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note106">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note107">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.u42">
+               <seg xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.seg45">Over de moties zal aanstaande dinsdag worden gestemd. Ik dank de minister voor zijn komst naar de Kamer en schors voor enkele ogenblikken. Dan gaan we door met het VAO Gesubsidieerde rechtsbijstand.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-12-11-tweedekamer-13.note108">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

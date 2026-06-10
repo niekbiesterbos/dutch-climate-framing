@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-06-15 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-06-15 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 88, Session 24 (2021-06-15)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 88, Session 24 (2021-06-15)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="88" xml:lang="en">Meeting 88</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="24" xml:lang="en">Session 24</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-06-15">Sitting 2021-06-15</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="63">63 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="63">63 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="5165">5,165 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="5165">5,165 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-06-15">2021-06-15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="152"/>
+               <tagUsage gi="seg" occurs="85"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="63"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-06-15">2021-06-15</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.head1">Continuering van het RES-proces</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u1">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg1">Aan de orde is het tweeminutendebat over de continuering van het Regionale Energiestrategieproces. De eerste spreker bij dit tweeminutendebat is mevrouw Agnes Mulder van het CDA. Ik geef haar bij dezen graag het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note2">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u2">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg2">Ik heb toch twee minuten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note3">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u3">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg3">Ja, het is een tweeminutendebat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note4">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u4">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg4">Op het scherm staat één minuut. Dus ik denk: ik check het even.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note5">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u5">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg5">O, staat er één minuut? Nee, u heeft er echt twee. We gaan het corrigeren. Goed dat u het zegt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note6">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u6">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg6">Ja, ik dacht al: dan wordt het wel een heel hoog tempo!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note7">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u7">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg7">Mevrouw Mulder heeft het woord voor twee minuten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note8">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u8">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg8">Hartelijk dank, voorzitter. Ik begin met de moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note9">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note10">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note11">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note12">constaterende dat de commissie-Brenninkmeijer het belang van zorgvuldige kennisopbouw, uitproberen en leren over burgerparticipatie onderstreept;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note13">overwegende dat er nog geen blauwdruk voor de effectieve toevoeging van burgerfora bestaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note14">overwegende dat daarom vervolgonderzoek nodig is naar onder andere het proces, de werkwijzen, de afbakening en het faciliteren van burgerfora en de situaties op nationaal, regionaal of lokaal niveau waarbij een burgerforum het beste past;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note15">verzoekt de regering een overzicht van mogelijk te maken keuzes over burgerfora in de formatieonderhandelingen voor te bereiden, en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note16">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note17">Deze motie is voorgesteld door het lid Agnes Mulder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note18">Zij krijgt nr. kst-32813-724</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note19">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u9">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg9">Dan de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note20">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note21">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note22">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note23">constaterende dat in de wijk Kloosterveen onrust is ontstaan over het beeld dat bewoners gedwongen worden om van het gas af te gaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note24">constaterende dat voorbeelden, zoals proeftuin Nieuwborgen, laten zien dat dergelijke onrust te voorkomen is wanneer inwoners vanaf het allereerste moment worden betrokken bij het project en de mogelijkheid krijgen om zelf de randvoorwaarden te benoemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note25">overwegende dat een dergelijke benadering in de gehele energietransitie onrust kan wegnemen, maar dat er vooralsnog geen basisvoorwaarden bestaan voor inwonersparticipatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note26">verzoekt de regering aan de hand van praktijkvoorbeelden, zoals Nieuwborgen, te bekijken hoe er gekomen kan worden tot basisvoorwaarden voor inwonersparticipatie, zodat onrust kan worden voorkomen en er een ondergrens kan worden ontwikkeld voor waaraan inwonersparticipatie in de energietransitie zou moeten voldoen, en de Kamer daarover voor 1 oktober 2021 te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note27">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note28">Deze motie is voorgesteld door het lid Agnes Mulder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note29">Zij krijgt nr. kst-32813-725</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note30">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u10">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg10">Voorzitter. Bij het lezen van het verslag van het schriftelijk overleg dat hieraan vooraf ging, was ik getriggerd door de volgende zin: "Participatie is door de regio's en de eerdergenoemde partijen destijds niet als knelpunt geïdentificeerd." Als ik dan met inwoners spreek, hebben zij toch een hele andere ervaring. Daar is dus ergens een gapend gat. Ik zou graag dat gapende gat dichten. Daarom heb ik beide moties ingediend. Dat gapende gat is dus niet alleen specifiek gericht op de RES. Het is ook niet specifiek gericht op de aardgasvrije wijken. Het is ook niet specifiek gericht op de warmtevisies. Het gaat over het geheel: hoe betrek je inwoners bij deze energie- en klimaattransitie? Daar gaat het toch iedere keer fout. Vandaar dus mijn oproep in deze Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note31">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u11">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg11">Dank aan mevrouw Mulder. De microfoon wordt even schoongemaakt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg12">De volgende spreker is de heer Van der Lee van GroenLinks. Conform het nieuwe Reglement van Orde is het nu zo dat er, in het geval een fractie geen inbreng heeft geleverd in het voorafgaande overleg, even toestemming gevraagd moet worden om desondanks bij het tweeminutendebat het woord te voeren. Ik kijk dus even of er bezwaar is tegen het aan het woord laten van de heer Van der Lee. Ik constateer dat dat niet het geval is, hetgeen betekent dat ik de heer Van der Lee het woord ga geven voor twee minuten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note32">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u12">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg13">Dank, voorzitter. Ook dank aan de collega's voor de coulantie. Volgens mij was het ook een schriftelijk overleg en geen debat dat hieraan voorafging.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note33">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u13">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg14">Dat klopt. In dit geval wordt er dus gekeken of de fractie inbreng heeft geleverd bij dat schriftelijke overleg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note34">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u14">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg15">Exact. Inhoudelijk wil ik me graag aansluiten bij de opmerkingen van collega Mulder over de noodzaak om met burgerfora in brede zin aan de gang te gaan, niet alleen op het terrein van energietransitie trouwens, maar overal waar ruimtelijkeordeningsgevolgen vastzitten aan keuzes. Of het snelwegen, luchthavens, bedrijventerreinen, windmolens of zonneparken zijn, is mij om het even. Ik wil ook graag de staatssecretaris feliciteren, want dit is haar eerste plenaire optreden volgens mij. Het tweede inmiddels? Nou, ze is al helemaal ingeburgerd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg16">Dat brengt mij tot mijn tweede punt. Omdat zij dedicated op de portefeuille Klimaat en Energie zit, dus zich daar helemaal op toe kan leggen, wil ik haar vragen om de uitvoering van het RES-project als een ambassadrice te stimuleren daar waar dat nodig is. Ik constateer dat de VVD — daar kan zij ook niet echt wat aan doen, natuurlijk; zij is VVD'er en dat gun ik haar ook — in veel gemeentes nog wat moeite heeft om het Klimaatakkoord, waar zij landelijk haar handtekening onder heeft gezet, te internaliseren. Vanuit die dubbele petten, de politieke pet van haar partij en de pet van bewindspersoon, hoop ik dat zij kan zorgen dat er lokaal overeenstemming komt daar waar er toch nog wat knelpunten zijn. Dat neemt niet weg dat er soms specifieke knelpunten zijn. De heer Boucke gaat zo een motie indienen, die ik van harte steun en mee wil tekenen, om ook te kijken naar, noem het maar een "kwaliteitsbudget" om daar waar de ruimtelijke ordening echt knelt, collectief wat bij te dragen, zodat er voldoende draagvlak gerealiseerd kan worden in alle delen van Nederland waar we hernieuwbare opwek willen realiseren. Daar laat ik het bij.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg17">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note35">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u15">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg18">Dank u wel, meneer Van der Lee. De volgende spreker die ik zo meteen het woord ga geven is de heer Boucke van D66. We hebben al gehoord dat hij een motie gaat indienen die de heer Van der Lee van harte ondersteunt, dus wij zijn benieuwd naar die motie. Ik geef het woord aan de heer Boucke.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note36">De heer Boucke (D66)</note>
+            <u who="#RaoulBoucke" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u16">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg19">Dank u wel, voorzitter. Op 1 juli wordt de eerste versie van Regionale Energiestrategieën vastgesteld. Ik weet dat er vanuit de regio's heel hard aan getrokken is. Er is uren overlegd in de gemeenteraden en Provinciale Staten en er waren veel gesprekken met bewoners. Met de vaststelling van de RES 1.0 wordt een grote stap gezet. We zijn er echter nog niet. Het draagvlak — het werd net al genoemd — voor de plaatsing van zonnepanelen en windmolens blijft kwetsbaar. Daarom heb ik één vraag aan de staatssecretaris. Politiek en bestuur in de regio kijken ook naar het Rijk om regie te pakken. Welke regierol ziet de staatssecretaris hier voor zichzelf als het gaat om de doelen, haalbaarheid en betaalbaarheid van de plannen?</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg20">Omwille van het draagvlak heb ik één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note37">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note38">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note39">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note40">overwegende dat bij de realisatie van energieopwekkingsprojecten de ontwikkelaars niet tegemoet worden gekomen wanneer zij kwaliteitsmaatregelen nemen om bijvoorbeeld de kwetsbare natuur en biodiversiteit te beschermen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note41">verzoekt de regering de noodzaak van een kwaliteitsbudget te onderzoeken waarbij extra financiële ruimte komt voor het nemen van maatregelen ten behoeve van ruimtelijke inpassing, biodiversiteit, zorgvuldige participatie en het ontzien van het elektriciteitsnetwerk,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note42">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note43">Deze motie is voorgesteld door de leden Boucke, Grinwis en Van der Lee.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note44">Zij krijgt nr. kst-32813-726</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note45">De heer Boucke (D66)</note>
+            <u who="#RaoulBoucke" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u17">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg21">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note46">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u18">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg22">Dank aan de heer Boucke voor zijn inbreng. De volgende spreker die ik het woord ga geven, is de heer Eerdmans van JA21. Maar ik zie dat er even wordt gewoven naar de heer Boucke. Misschien kunt u de motie hier afgeven; dat geeft ons de kans om haar ook te verspreiden en tot daadwerkelijke indiening over te gaan. Dan geef ik ondertussen het woord aan de heer Eerdmans van JA21.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note47">De heer Eerdmans (JA21)</note>
+            <u who="#JoostEerdmans" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u19">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg23">Dank u wel, voorzitter. Ik denk dat wij onze mening wel duidelijk hebben gemaakt in de inbreng bij het verslag. Wij zien niets in de hele RES-operatie, want die zal tot gevolg hebben dat ons hele land vol wordt gezet met windturbines — megawindturbines, wel te verstaan — en ook nog veel zonneweides en zonneparken. We hebben er laatst ook een debat over gevoerd. Dit gaat daar niet over; dit gaat over het eerdere schriftelijk overleg.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg24">Voorzitter. We komen met twee voorstellen aan de Kamer. Het eerste luidt als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note48">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note49">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note50">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note51">constaterende dat de regering maatschappelijk draagvlak een belangrijke pijler van de RES noemt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note52">constaterende dat een eenduidige en concrete definitie van "maatschappelijk draagvlak" op dit moment ontbreekt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note53">verzoekt de regering een eenduidige, concrete en meetbare definitie van "maatschappelijk draagvlak" binnen de context van de RES te formuleren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note54">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note55">Deze motie is voorgesteld door het lid Eerdmans.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note56">Zij krijgt nr. kst-32813-727</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note57">De heer Eerdmans (JA21)</note>
+            <u who="#JoostEerdmans" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u20">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg25">Nummer twee.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note58">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note59">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note60">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note61">constaterende dat recent uit een berekening van het PBL is gebleken dat de opgetelde RES-ambities aanzienlijk hoger uitvallen dan 35 TWh uit wind- en zonne-energie op land in 2030;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note62">constaterende dat in het Klimaatakkoord staat dat opwekking boven 35 TWh niet zomaar direct op land mag plaatsvinden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note63">constaterende dat het kabinet desondanks overprogrammering door regio's stimuleert;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note64">overwegende dat hierdoor nog grotere gevolgen voor het landschap en de leefbaarheid dreigen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note65">verzoekt de regering een moratorium in te stellen voor het opwekken van wind- en zonne-energie op land boven die 35 TWh en hiertoe tevens geen subsidie meer te verstrekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note66">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note67">Deze motie is voorgesteld door het lid Eerdmans.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note68">Zij krijgt nr. kst-32813-728</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note69">Dank u wel, meneer Eerdmans. Dat levert weer twee moties op. De volgende spreker, die ik zo meteen kan aankondigen, is de heer Thijssen van de Partij van de Arbeid. Ook voor hem moet ik even toestemming vragen aan de andere leden om hem het woord te mogen geven, gezien de blanco inbreng bij het schriftelijk overleg. Ik kijk of er bezwaar is tegen het aan het woord laten van de heer Thijssen. Dat is niet het geval. Dan zijn de komende twee minuten aan de heer Thijssen.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note70">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u21">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg26">Dank u wel, voorzitter. Ik dacht dat we wél hadden meegedaan aan het schriftelijk overleg, maar dan zoek ik dat nog een keer na.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note71">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u22">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg27">We stellen een onderzoek in hiernaar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note72">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u23">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg28">We stellen een onderzoek in! Maar goed, het is fijn dat ik even het woord tot u mag richten. Ik denk dat de RES'en laten zien waar de uitdaging ligt voor de energietransitie. Ik ben het ook heel erg eens met de woorden van mijn CDA-collega dat dit politiek leiderschap vergt van iedereen hier in de Kamer naar al onze achterbannen toe. We moeten echt staan voor de klimaatopgave die er is. We moeten echt staan voor de opgave die er is om op een duurzame manier elektriciteit op te wekken, ook al is dat soms lastig en schuurt dat soms met andere belangen. Tegelijkertijd moeten we dan wel de ruimte hebben om ook te luisteren naar de achterbannen en naar de inwoners, en projecten ook wel enigszins te kunnen aanpassen. Daarom had ik een motie voorbereid om daar wat ruimte voor te vragen binnen de SDE, maar de motie van D66 doet precies hetzelfde, dus ik sluit mij graag aan bij de motie van D66. Dan komt deze motie te vervallen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg29">Dank u, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note73">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u24">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg30">Dank. De Partij van de Arbeidfractie had wel degelijk een inbreng geleverd in het schriftelijk overleg. De lijst die ik hier voor me heb liggen met de bijbehorende sterretjes klopt dus niet helemaal. Ik ga even kijken of dat misschien wel geldt in het geval van de heer Kops, want ook voor hem moet ik toestemming vragen. Dat sterretje klopt, hoor ik. Ik zie dat er geen bezwaar is tegen het aan het woord laten van de heer Kops, dus dat gaan we dan meteen doen. De komende twee minuten zijn voor u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note74">De heer Kops (PVV)</note>
+            <u who="#AlexanderKops" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u25">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg31">Dank u wel, voorzitter. Met de Regionale Energiestrategieën moet het Klimaatakkoord provinciaal en lokaal bij de burgers door de strot worden geduwd. Iedere keer horen we dan: draagvlak. Ja, draagvlak is belangrijk. Maar net zoals burgers bij de totstandkoming van het Klimaatakkoord niets te zeggen hebben gehad, horen we ook bij de regionale energiestrategieën allerlei ronkende teksten over draagvlak en burgerparticipatie, maar komt daar in de praktijk helemaal niets van terecht. Hoogleraar Marcel Boogers heeft het zelfs over "een ambtenarenfeestje": die windturbines moeten en zullen er komen. Zo gaat er geen week voorbij of we zien het zoveelste protest van burgers tegen de komst van windturbines. Dat is natuurlijk ook volkomen begrijpelijk, want windturbines zijn horizonvervuilend, landschapvernietigend, ziekmakend, funest voor de natuur, funest voor dieren, funest voor de gezondheid. Zelfs in het linkse Amsterdam komen nu de GroenLinksstemmers tegen windturbines in opstand. "Ja", klinkt het dan, "ik ben wel voor windenergie, maar uiteraard niet bij mij in de buurt". Dat zijn de zogenaamde "not in my backyard"-types. Ik kan nu natuurlijk een motie indienen om alle windturbines te verplaatsen naar de achtertuinen van de Jesse Klavers van deze wereld, maar nee, we moeten er gewoon vanaf.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note75">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note76">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note77">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note78">verzoekt de regering onmiddellijk te stoppen met de Regionale Energiestrategieën,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note79">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note80">Deze motie is voorgesteld door het lid Kops.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note81">Zij krijgt nr. kst-32813-729</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note82">De heer Kops (PVV)</note>
+            <u who="#AlexanderKops" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u26">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg32">Dank u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note83">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u27">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg33">Dank aan de heer Kops. Dan ga ik het woord geven aan de heer Erkens van de VVD-fractie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note84">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u28">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg34">Dank u wel, voorzitter. Net als de heer Boucke zou ook ik een compliment willen uitdelen voor het harde werk dat in de regio's verricht is voor deze plannen. In het Klimaatakkoord hebben we ook helder aangegeven dat de RES een iteratief proces is. Dat is een duur woord voor: we willen continu blijven ontwikkelen, leren en verbeteren. In dat kader heb ik ook zelf een aantal lessen getrokken die ik nu in moties zal samenvatten, maar eerst wil ik vooral zeggen dat ik blij ben dat in de beantwoording door de staatssecretaris ook goed is ingezet op zon op dak. Alle zon die we op daken "aanleggen", betekent: niet in een weiland. Daar zijn wij groot voorstander van.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg35">Ik heb ook een vraag aan de staatssecretaris: hoe gaat de staatssecretaris om met het feit dat de meeste RES-regio's hun wind en zon aan de grenzen van hun regio lijken te plaatsen? Wat doet dit met het draagvlak en hoe wil de staatssecretaris daarmee omgaan? Want dit lijkt mij niet per se heel wenselijk.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg36">Dan de twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note85">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note86">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note87">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note88">constaterende dat er in de RES 1.0 een grote focus ligt op het opwekken van energie via zon en wind en dat deze vormen van opwekking fluctuaties kennen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note89">overwegende dat een toename in opslagvermogen van energie, zoals accu's en andere vormen van opslag, kan helpen bij het efficiënter inzetten van opgewekte zon- en windenergie en netkrapte kan voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note90">verzoekt het kabinet te onderzoeken hoe de verschillende vormen van energieopslag meegenomen kunnen worden in de RES 2.0 en hierbij in het bijzonder aandacht te hebben voor alternatieve financiële prikkels die kunnen helpen bij het realiseren van de businesscases hieromtrent,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note91">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note92">Deze motie is voorgesteld door de leden Erkens en Boucke.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note93">Zij krijgt nr. kst-32813-730</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note94">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u29">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg37">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note95">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note96">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note97">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note98">overwegende dat windmolens negatieve effecten kunnen hebben op de leefkwaliteit en gezondheid van direct omwonenden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note99">overwegende dat het RIVM heeft aangegeven dat er aanvullend onderzoek nodig is naar de gezondheidseffecten van windmolens;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note100">overwegende dat andere landen strikte afstandsnormen hanteren voor windmolens op land;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note101">verzoekt de regering op korte termijn een onafhankelijk onderzoek te laten uitvoeren naar de effecten van verschillende afstandsnormen op de gezondheid en leefkwaliteit van omwonenden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note102">verzoekt de regering de resultaten van dit onderzoek mee te nemen in het verder concretiseren van de RES'en,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note103">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note104">Deze motie is voorgesteld door de leden Erkens en Leijten.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note105">Zij krijgt nr. kst-32813-731</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note106">Dank aan de heer Erkens. Er is een interruptie van de heer Kops van de PVV. Dat mag; één korte vraag over de motie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note107">De heer Kops (PVV)</note>
+            <u who="#AlexanderKops" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u30">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg38">Kijk, je kunt natuurlijk voor of tegen windturbines zijn. Wij zijn daar absoluut duidelijk tegen. De VVD is ervoor. Ik hoor de VVD pleiten voor kijken naar de gezondheidseffecten van windturbines. Er zijn al heel veel signalen dat die windturbines werkelijk ziekmakend zijn en dat mensen ook op de vlucht slaan voor die windturbines vanwege het laagfrequente geluid. Mensen hebben hoofdpijn en noem het allemaal maar op. Vindt de heer Erkens dan niet dat je op z'n minst moet stoppen met het bijbouwen van die windturbines totdat daar echt duidelijkheid over is?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note108">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u31">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg39">Ten eerste zijn wij niet een groot fan van windmolens op land. Onze voorkeur gaat naar zon op dak, wind op zee en kernenergie. Ten tweede zijn de RES'en nu nog vooral conceptplannen met zoekgebieden. Wat wij nu zeggen, is dus dat voor die verdere concretisering van die plannen, voordat er inderdaad veel meer opwekking op land komt, het onderzoek wat ons betreft wel afgerond moet zijn en meegenomen moet kunnen worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note109">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u32">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg40">Dit blijft een afronding van een schriftelijk overleg, ook al is het een tweeminutendebat. In principe moeten de vragen dus echt gaan over de moties. Ik geef u dus nog één keer de gelegenheid, maar we gaan er geen debat van maken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note110">De heer Kops (PVV)</note>
+            <u who="#AlexanderKops" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u33">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg41">Ja, voorzitter, maar dit heeft natuurlijk betrekking op de motie. De VVD kan wel leuk vragen om een of ander onderzoek, maar feit is dat mensen nu al ziek worden van die windturbines. En er worden er tegelijkertijd volop bijgebouwd, ook door de VVD. De VVD is daar voorstander van. Wat zegt u dan tegen die mensen die daar nu echt ziek van worden? Zegt u: joh, zoek het maar lekker uit, want we gaan door met windmolens bouwen? Dat kan toch niet?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note111">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u34">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg42">We zeggen zeker niet: zoek het maar lekker uit. De hele bedoeling van dit onderzoek is natuurlijk om te gaan uitzoeken wat de effecten zijn en hoe we die kunnen voorkomen in de toekomst. Vandaar deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note112">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u35">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg43">Meneer Van der Lee, het leek alsof u uitgelokt werd door de interruptie van zojuist, dus …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note113">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u36">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg44">Nee hoor.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note114">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u37">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg45">Nee? Oké. De heer Van der Lee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note115">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u38">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg46">Ik heb oprecht een vraag over de betekenis van het dictum van deze motie, ook in relatie tot het feit dat er al best veel onderzoek is gedaan. Ook heeft het RIVM recent nog publiek gemaakt dat het een expertisecentrum heeft ingericht juist met het oog op de RES'en, om die bij te staan op het punt van gezondheid. Mijn vraag is dus even wat hier nou additioneel wordt gevraagd boven op dat wat er al is. En wat is de materiële betekenis als het er niet op tijd zou zijn? Heeft dat gevolgen voor de RES'en? Dat is mij niet helder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note116">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u39">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg47">Nogmaals, we vragen een onafhankelijk onderzoek om de gezondheidseffecten in kaart te brengen. Het RIVM heeft aangegeven dat er nog onvoldoende bekend is op dat vlak. Dat is ook onze oproep: zoek dit nou uit voordat we doorgaan met de verdere concretisering van de RES'en. En vandaar ook het verzoek om het op korte termijn te doen. We willen namelijk ook niet dat dit het hele proces gaat vertragen. We willen dit dus graag meenemen in de concretisering die we de komende tijd gaan doormaken met elkaar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note117">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u40">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg48">Dank aan de heer Erkens, die daarmee tevens aan het einde is gekomen van zijn bijdrage. Mevrouw Van der Plas lijkt niet aanwezig, hetgeen betekent dat we met volle vaart door kunnen met mevrouw Leijten van de SP, voor haar bijdrage aan dit tweeminutendebat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note118">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u41">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg49">Voorzitter. Je leefomgeving is superbelangrijk. We willen allemaal kijken hoe we naar hernieuwbare energie kunnen, alleen zien mensen hun leefomgeving veranderen terwijl ze niet het gevoel hebben dat ze daar grip op hebben. Dat horen we al heel lang. Nu dit Amsterdam heeft bereikt, zien we ook dat het verzet groter is, maar in de regio's was dat verzet altijd al groot. En het democratisch tekort, het dubbele democratisch tekort, van de Regionale Energiestrategieën is zelfs door de Raad van State als een gevaar aangemerkt. Wij gaan er niet over, er ligt wel een opdracht voor de regio en de mensen zelf gaan er ook niet over. Niemand gaat er nog over, maar je omgeving verandert. Opeens ligt er een weiland vol met zonnecollectoren, terwijl je kijkt naar de daken, die nog leeg zijn. Opeens staat er een datacenter in je achtertuin en zijn die hoge windturbines, die verkocht zijn als vergroening voor jouw regio, helemaal in beslag genomen door Google of Microsoft. Je hebt geen grip. En dat is een probleem. Dat kunnen we oplossen met democratiseringsprojecten als beraden, maar we moeten ook de fundamentele discussie met elkaar aangaan over de vraag waar wij de regie leggen. Horen wij er niet voor te zorgen dat die regie juist bij mensen ligt, door die dus democratisch te beleggen bij onszelf of bij andere volksvertegenwoordigingen?</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg50">Ik heb de motie van de heer Erkens medeondertekend over de zorgen rond wind op land. Wat de SP betreft, zou daar een moratorium bij horen. Ik hoor graag van de staatssecretaris of ze daar ook serieus naar kijkt. Natuurlijk is dat lastig, want er liggen allerlei opdrachten, maar de zorgen zijn wel serieus.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg51">Voorzitter, ik heb ook nog een andere motie. Ik lees die snel voor, want ik zie dat mijn tijd doortikt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note119">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note120">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note121">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note122">overwegende dat land in de eerste plaats moet worden gebruikt voor natuur, landbouw, bouwen en recreatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note123">constaterende dat 92% van de elektriciteit die huishoudens gebruiken kan worden opgewekt door zonnepanelen op alle geschikte daken te plaatsen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note124">verzoekt de regering te regelen dat zon op dak de norm wordt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note125">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note126">Deze motie is voorgesteld door het lid Leijten.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note127">Zij krijgt nr. kst-32813-732</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note128">Dank, mevrouw Leijten. Daar is een vraag over van mevrouw Mulder van het CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note129">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u42">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg52">Ik probeer altijd goed te luisteren naar wat er in zo'n motie staat. Ik hoorde volgens mij "natuur" en "bouwen" en nog wat, maar ik hoorde niet "landbouw". Klopt dat?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note130">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u43">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg53">Dat is niet bewust. Ik wil dat graag toevoegen als dat de CDA-fractie positief stemt voor de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note131">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u44">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg54">Het zou natuurlijk een gemiste kans zijn als we de landbouw en de positie die de landbouw heeft in ons land, niet zouden erkennen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note132">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u45">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg55">Misschien kunt u dat alvast opschrijven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note133">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u46">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg56">Dan ga ik dat gewoon staande de vergadering toevoegen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note134">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u47">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg57">Ik zie dat u een pen heeft, dus misschien kunt u het alvast doen. Dat scheelt weer een gewijzigde motie. Dank daarvoor.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg58">Daarmee zijn we gekomen aan het einde van de termijn van de Kamer. Ik kijk even naar de staatssecretaris. Zij heeft een paar minuten nodig. Dan schors ik de vergadering tot 16.55 uur.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note135">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note136">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u48">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg59">Aan de orde is de voortzetting van het tweeminutendebat Continuering van het RES-proces. Het woord is aan de staatssecretaris van Klimaat en Energie of van Klimaat en Economische Zaken. Ik weet eigenlijk niet precies de goede volgorde. Zij heeft zich kunnen beraden op de ingediende moties en we gaan de stemadviezen horen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note137">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u49">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg60">Dank u wel, voorzitter. Het is heel goed dat we even apart stilstaan bij de Regionale Energiestrategieën, de RES'en, waar we net de hele tijd over hebben gesproken. Het concrete doel van het RES-proces is om mensen die in een regio wonen te betrekken bij de opgave van het realiseren van hernieuwbare energie op land. De opgave die we daarvoor in het Klimaatakkoord hebben afgesproken is 35 terawattuur in 2030. Per regio wordt vervolgens een afweging gemaakt tussen hoeveel er geleverd kan worden, het draagvlak daarvoor, de impact op het net en de ruimtelijke inpassing. De concept-RES'en tonen aan dat er voldoende ambitie is in de regio's, volgens sommigen hier in de zaal zelfs te veel. Het doel van 35 terawattuur lijkt binnen bereik. Qua proces ligt de verantwoordelijkheid voor het opstellen van het beleidsmatig verankeren van de RES'en bij de decentrale overheden. Samen met maatschappelijke partijen, netbeheerders, bedrijfsleven en bewoners werken zij richting een regionaal gedragen proces en keuzes. Het Rijk is daarbij een actieve partner.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg61">Voor de mensen thuis is de realisatie van zonne- en windenergie op land een van de meest zichtbare onderdelen van het Klimaatakkoord. Het is dus ontzettend belangrijk om mensen daar dan ook goed bij te betrekken, hen te laten participeren in de besluitvorming en te luisteren naar de ideeën die ze hebben en ook de zorgen die ze daarbij kunnen hebben. Het is begrijpelijk dat hier in de Kamer zowel over de opgave als over de betrokkenheid van de mensen verschillende moties zijn ingediend.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg62">Ik ga nu meteen door met de moties, in de hoop dat ik straks de vragen niet ga vergeten. De motie op stuk nr. 724 is van mevrouw Mulder van het CDA. Die vraagt om alvast een vervolgonderzoek naar burgerfora te starten. Wij hebben daar vorige week uitvoerig over gesproken tijdens het commissiedebat. Ik heb toen ook gezegd dat het instellen daarvan aan een volgend kabinet is, omdat je dan ook een goed verhaal kunt hebben over hoe je de burgerfora gaat inzetten en waarop ze van toepassing zijn. Maar mevrouw Mulder zegt: daar neem ik kennis van, maar zit nou niet stil en denk er wel alvast over na hoe dat eruit kan zien, mocht een volgend kabinet dat vervolgens willen doen. Zo te zien, lees ik de motie zo goed. Daarmee krijgt de motie oordeel Kamer, zodat een volgend kabinet vervolgens kan besluiten hoe daar verder mee om te gaan. De motie op stuk nr. 724 krijgt dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg63">De motie op stuk nr. 725 verzoekt de regering aan de hand van praktijkvoorbeelden zoals Nieuwborgen te bekijken hoe we een soort minimumcriteria kunnen vaststellen voor inwonersparticipatie, waarbij je echt een ondergrens kunt vaststellen. Dan zeg je: zo moet het er in ieder geval uitzien. Ik begrijp deze wens heel erg. Ik snap die heel goed, maar ik ga de motie toch ontraden, omdat ik echt vind dat de inrichting van die participatie van bewoners een lokale keuze moet zijn. Volgens mij is het juist heel belangrijk om regionaal of lokaal te regelen hoe je het inricht en wat voor criteria je daarbij gebruikt. Nogmaals, ik snap waarom mevrouw Mulder hiermee komt, maar ik denk dat we het niet vanuit hier moeten dicteren. Dat is eigenlijk de reden waarom ik de motie ontraad, ook al is het een heel sympathiek idee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note138">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u50">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg64">Ik heb dit verzoek gedaan in deze motie, omdat je in Nieuwborgen hebt gezien dat mensen aan het begin van het proces gewoon door de gemeente gewoon de vraag gesteld kregen: wij hebben deze twee dorpen aangemerkt voor een project, maar inwoners, willen jullie dat eigenlijk wel? Zo basaal was die vraag. En die is door hen beantwoord. Zij zeiden: ja, we zien dit eigenlijk wel als een kans, maar het moet aan een aantal voorwaarden voldoen, willen wij daar enthousiast aan mee gaan werken. Dat is participatie aan de voorkant. Een ander voorbeeld komt uit mijn eigen gemeente Assen, mijn eigen woonwijk Kloosterveen. Daar wordt gewoon iets van bovenaf opgelegd, als een dictaat, en daar heb je het dan maar mee te doen. Dat was niet onderdeel van een RES, geef ik heel eerlijk toe, maar het ging waarschijnlijk om een beetje warmte, een transitievisie en allemaal dit soort dingen. Maar het gaat om de verschillende voorbeelden die tot ons komen als volksvertegenwoordigers. Je zou een soort basis moeten hebben voor vragen die in ieder geval gesteld moeten worden. Ik mis dat nu. Ik denk ook dat onze inwoners dat missen en daarmee is het ook een gemiste kans.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note139">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u51">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg65">Ik ken inderdaad ook de voorbeelden van waar het echt heel erg goed gaat. Maar dichtbij mijn huis denk je: dat had wel beter ingericht kunnen zijn. Daarom begrijp ik deze wens ook wel. Ik vind de proeftuin Nieuwborgen echt een mooi voorbeeld. Dat heb ik in de drie weken die ik hier rondloop, inmiddels van verschillende kanten gehoord. Ik wil meegeven waarom ik de motie blijf ontraden, maar niet zomaar wegschuif. Want ik snap de vraag wel. Gemeenten worden ondersteund, door een handreiking participatie en communicatie. Die wordt jaarlijks geactualiseerd. Er wordt ook echt gekeken waar het goed gaat en waar het minder goed is gegaan. Er komt ook een structurele inbedding vanuit de minister van BZK van hoe je bepaalde stappen kunt inrichten. Dat is het wetsvoorstel Versterking participatie op decentraal niveau. Dat komt er dus ook nog aan. Dus laten we nu, nu die RES'en zo bezig zijn geweest, waarbij we goede en minder goede voorbeelden hebben gezien, zeggen: laten we leren van de goede. Er wordt ook goed geëvalueerd en het wordt ingebed op verschillende plekken. Laten we niet vanaf hier inrichten hoe het moet, maar wel die aandacht daarvoor hebben. De letterlijke motie zoals die er nu ligt, ga ik dus ontraden. Maar er komen verschillende momenten waarop mevrouw Mulder en wellicht collega's zeker kunnen aanhaken en dit soort ideeën weer naar voren kunnen brengen, zou ik nu zeggen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg66">Als het mag, ga ik naar de motie op stuk nr. 726.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note140">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u52">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg67">Zeker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note141">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u53">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg68">Die motie is onder anderen van de heer Boucke. Die verzoekt de regering de noodzaak van een kwaliteitsbudget te onderzoeken, waarbij er extra financiële ruimte komt voor het nemen van maatregelen ten behoeve van onder andere ruimtelijk inpassing en biodiversiteit; hij noemt er een aantal andere zaken bij. Ik denk dat het een goed voorstel is, dus die motie kan ik oordeel Kamer geven. Ik kan nog meegeven dat op dit moment een werkgroep, ingesteld door het Nationaal Programma RES, kijkt naar het nut en de noodzaak van het kwaliteitsbudget voor RES, nog los van de SDE. Het lijkt me op dit moment dus een goed voorstel.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg69">Dan ben ik bij de motie op stuk nr. 727, van de heer Eerdmans. Die vraagt mij om een concrete en meetbare definitie te geven van maatschappelijk draagvlak. Die vraag stelde hij vorige week ook, maar toen kwamen we niet tot de beantwoording, omdat er heel veel vragen waren gesteld. Dat komt dus ook nog wat uitvoeriger in een brief. Ik zou die hier willen ontraden. Ik ben het wel met de heer Eerdmans eens dat draagvlak en een gedeeld beeld van wat dit draagvlak dan is, heel belangrijk zijn. Maar eigenlijk heb ik dezelfde reactie als die ik aan mevrouw Mulder gaf: laten we het niet vanuit hier helemaal definiëren en vastleggen, maar het bij lokaal maatwerk laten. We zien in het land namelijk ook dat heel erg kan verschillen hoe je dat inricht, juist als je heel dicht bij de behoefte van de mensen wil blijven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg70">Dan heb ik nog een motie van de heer Eerdmans, op stuk nr. 728. Die zegt: stop even met het opwekken en stel een moratorium in voor wind- en zonne-energie op land. Dat wil hij met name omdat hij zegt: er wordt meer gezocht dan de 35 terawattuur die in het Klimaatakkoord was afgesproken. Er wordt inderdaad meer gezocht, omdat we daarna nog moeten onderzoeken of je het allemaal kunt realiseren. Je hebt dus een bandbreedte, wat ruimte nodig. Er wordt gekeken naar de betrokkenheid van bewoners — die vindt de heer Eerdmans volgens mij heel erg belangrijk en ik in ieder geval wel, of ook, moet ik zeggen — de impact op natuur en de netcapaciteit. Dan vallen er dus zoekgebieden af. Dat is de reden dat ervoor gekozen is om dat wat breder in te richten, niet omdat we gewoon hebben gezegd "doe maar maximaal alles wat kan", maar juist "zorg dat je wat ruimte hebt in die zoekgebieden, zodat je alsnog op 35 uitkomt als er gebieden afvallen".</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg71">Dan heb ik de heer Kops.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note142">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u54">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg72">Maar daarmee ontraadt u dus de motie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note143">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u55">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg73">Ja, die ontraad ik.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg74">De heer Kops — zo herinner ik het me ook toen ik aan de andere kant zat als woordvoerder — zal geen debat voorbij laten gaan zonder te zeggen: kap er gewoon mee. Nou, dat zegt hij nu ook. Ik ga zijn motie op stuk nr. 729 ontraden, omdat ik denk dat het heel erg belangrijk is om dit op deze manier door te zetten en juist met elkaar aandacht te hebben voor de betrokkenheid van de mensen. Er zijn namelijk ook heel veel mensen die er heel blij van worden, er onderdeel van uitmaken en erin participeren. Dus ontraden, meneer Kops.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg75">Even kijken of ik het wel op volgorde doe. Bij mij is de motie op stuk nr. 730 van de heer Erkens en Boucke.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note144">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u56">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg76">Dat is correct.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note145">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u57">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg77">Dat klopt. Dat gaat over meer techniek en opslagruimte en daar aandacht aan besteden in de RES 2.0. Volgens mij is het heel erg belangrijk om die flexibiliteit van onze energiesystemen te vergroten. Opslag realiseren is een belangrijk onderwerp. Daarom verkennen we ook verschillende vormen van flexibiliteit, waaronder de combinatie van productie en opslag. Ik heb hier een heel lange tekst voor me waarin staat waarom het een goed idee is, maar ik geef de motie gewoon oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg78">Dan heb ik nog een motie, ingediend door de heer Erkens en als ik het goed heb meegetekend door mevrouw Renske Leijten. Deze motie gaat over onafhankelijk onderzoek laten uitvoeren naar de effecten van verschillende afstandsnormen als het gaat over windmolens. Volgens mij kunnen we die motie ook oordeel Kamer geven. Het RIVM is al door mij gevraagd om naar de mogelijkheden te kijken voor aanvullend onderzoek, en om in kaart te brengen hoe je dat onderzoek moet vormgeven, omdat dat afhangt van heel veel criteria. Er wordt nu vooronderzoek gedaan om te kijken hoe je dat onderzoek kunt inrichten. De motie krijgt dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg79">Ik ben nu klaar met de moties, volgens mij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note146">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u58">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg80">Nee, er is nog de motie op stuk nr. 732, van mevrouw Leijten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note147">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:energ" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u59">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg81">Ja, sorry, die heb ik wel voor m'n neus. Sorry, mevrouw Leijten. Deze motie verzoekt de regering te regelen dat zon op dak de norm wordt. We hebben al de zonneladder. Zon op dak komt daarop in de volgorde als eerste in aanmerking; laat ik het even met mijn woorden zeggen. Volgens mij vraagt mevrouw Leijten om dat nog wat harder vast te leggen. Die formulering zou ik willen ontraden, maar ik deel dat we allemaal wel blij worden van zon op dak; dat is mijn vrije formulering van hoe het hier staat. Dat is volgens mij ook hoe we het hebben ingericht. Als je kijkt naar de aanvragen van de SDE — dat is onlangs gepubliceerd — zie je ook daar zon op dak op grote schaal langskomen. We delen dat dus. Ik zou het alleen niet hier helemaal willen intikken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note148">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u60">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg82">Ik heb 'm voor de SP toch vrij ruim geformuleerd: te regelen dat. Die zonneladder is er niet voor niets gekomen. We zeggen allemaal: leg liever die daken vol dan onze weilanden. Maar we zien nog altijd dat er wel degelijk voor wordt gekozen om die weilanden vol te leggen, omdat het goedkoper is. Het gaat mij er meer om dat er juist in al die situaties, hoe gebrekkig de democratische inbedding van die RES'en ook is, wel gezegd kan worden: wacht even, er gaat een streep door, welke economische belangen er ook zijn, want er is nog genoeg plat dak op bedrijventerreinen, scholen of allerlei flatgebouwen, en dat moet eerst. "Te regelen" zegt natuurlijk niet per se dat het een wet moet zijn. Ik vind de zonneladder toch nog te vrijblijvend uitwerken. Dat zal de staatssecretaris toch ook zien?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note149">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u61">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg83">Ik zag inderdaad wel dat de motie voor de SP heel vriendelijk was geformuleerd, ook naar mij toe. Dank daarvoor. Laat ik daar wel even voor bedanken, want een andere keer zou dat zomaar anders kunnen zijn. Ik weet wat ik hier voor me heb liggen. Toch denk ik dat de motie iets te stellig is. Dat is misschien ook de vraag die de heer Van der Lee van GroenLinks mij stelde: je hebt dubbele petten, je staat hier, maar bent ook VVD'er en bent ook lokaal bezig. Dat geldt voor ons allemaal. Laten we dan ook onze lokale collega's erop wijzen dat ze in hun zoekgebied ook op daken letten. Mevrouw Leijten heeft er gewoon gelijk in dat dit bijna laaghangend fruit is. Op het moment dat het daar kan, worden mensen daar blij van en het zit eigenlijk niemand in de weg. Dat deel ik dus wel. Ik zou het alleen niet op deze manier willen vastleggen. De heer Van der Lee stelde mij net een vraag daarover, maar hij is nu voorzitter geworden; over verschillende petten gesproken. Ik blijf de motie op stuk nr. 732 wel ontraden. De meeste collega's van eigenlijk alle partijen zijn lokaal eigenlijk allemaal bezig met de vraag hoe we de doelen kunnen halen op een manier dat de meeste mensen het kunnen meemaken, er ook vrolijk van worden, eraan kunnen bijdragen, erin kunnen participeren en hun ideeën kunnen delen, waarbij er naar ze wordt geluisterd. Dat is volgens mij ook wat mijn VVD-collega's, zeg ik met mijn andere pet op, lokaal doen. Daar heb ik heel veel bewondering voor. Volgens mij is dat ook wat we met elkaar moeten doen: de doelen halen op een manier dat alle Nederlanders er wat aan hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note150">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u62">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg84">Dank u wel. Daarmee is ook een einde gekomen aan de inbreng van het kabinet en hebben we adviezen gehad over de moties.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note151">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.note152">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.u63">
+               <seg xml:id="ParlaMint-NL_2021-06-15-tweedekamer-24.seg85">De stemmingen over de moties zijn aanstaande dinsdag.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

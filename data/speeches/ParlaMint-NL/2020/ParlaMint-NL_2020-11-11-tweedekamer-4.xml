@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2020-11-11 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-11-11 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 23, Session 4 (2020-11-11)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 23, Session 4 (2020-11-11)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="23" xml:lang="en">Meeting 23</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2020-11-11">Sitting 2020-11-11</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="13">13 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="13">13 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="778">778 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="778">778 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2020-11-11">2020-11-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="27"/>
+               <tagUsage gi="seg" occurs="13"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="13"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-11-11">2020-11-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.head1">Eindrapport Expertgroep inzake politieke steun aan interstatelijk geweldsgebruik en inzake humanitaire interventie</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg1">Aan de orde is het Eindrapport Expertgroep inzake politieke steun aan interstatelijk geweldsgebruik en inzake humanitaire interventie. De eerste spreker is mevrouw Karabulut van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note2">Mevrouw Karabulut (SP)</note>
+            <u who="#SadetKarabulut" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg2">Voorzitter. Na de politieke steunverlenging van de Nederlandse regering aan de illegale oorlog in Irak is er heel veel discussie geweest en uiteindelijk, jaren later, in 2010, heeft de commissie-Davids een rapport uitgebracht, namelijk dat wij geen politieke steun meer moeten leveren aan militaire operaties wanneer daar geen volkenrechtelijk mandaat aan ten grondslag ligt. Dat beleid wil deze minister nu wijzigen. Dat lijkt ons een bijzonder slecht idee omdat dat het volkenrecht ondermijnt en omdat het uiteraard andere landen ook kan aanzetten om agressie te tonen waar dat illegaal is. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note6">constaterende dat het kabinet in reactie op het Irakrapport van de commissie-Davids in 2010 aangaf dat voor politieke steunverlening aan interstatelijk geweldgebruik ook een volkenrechtelijke rechtsgrond aanwezig moet zijn voor dat gebruik van geweld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note7">overwegende dat in artikel 90 van de Grondwet is opgenomen dat de regering de ontwikkeling van de internationale rechtsorde bevordert;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note8">van mening dat het verlenen van politieke steun aan illegaal militair optreden de internationale rechtsorde niet bevordert, maar juist ondermijnt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note9">overwegende dat (steun aan) illegaal militair optreden andere landen aan kan sporen ook illegaal geweld in te zetten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note10">van mening dat ontwikkeling van de internationale rechtsorde vooral gebaat is bij naleving van het internationale recht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note11">verzoekt de regering het in 2010 ingezette beleid niet te wijzigen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note12">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note13">Deze motie is voorgesteld door het lid Karabulut. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note14">Zij krijgt nr. kst-29521-416</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note15">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg3">Mevrouw Ploumen had zich ook ingeschreven, maar zij is nog niet aanwezig, net als de heer Koopmans van de VVD. Dan schors ik de vergadering voor vijf minuten en kan de minister intussen even naar de motie kijken.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note16">De vergadering wordt van 10.39 uur tot 10.44 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note17">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg4">Het woord is aan de minister van Buitenlandse Zaken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note18">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg5">Dank u wel, voorzitter. Naar aanleiding van de actie van de VS, het VK en Frankrijk tegen Assad, nadat deze chemische wapens had ingezet in Douma, is indertijd door de NAVO een verklaring van politieke steun uitgebracht. Nederland heeft daarbij een aantekening gemaakt. Dat was voor het kabinet de reden om een groep experts te vragen om vanuit volkenrechtelijke optiek te kijken naar een situatie als deze, waarin een despoot chemische wapens inzet tegen zijn eigen bevolking en een groot aantal gelijkgezinde democratische rechtsstaten daar politieke steun voor uitspreken. De commissie-Fijnaut kwam tot de conclusie dat dat in hele specifieke situaties inderdaad gerechtvaardigd kan zijn. Die conclusie deelt het kabinet, met alle belangrijke randvoorwaarden die daaraan gesteld zijn. Tegen deze achtergrond moet ik deze motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note19">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg6">De motie op stuk nr. 416 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note20">Mevrouw Karabulut (SP)</note>
+            <u who="#SadetKarabulut" ana="#regular topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg7">Het is natuurlijk bijzonder pijnlijk dat de aanleiding voor dit rapport en voor de minister om het belangrijke beleid van Davids te wijzigen het gifgasincident in het Syrische Douma is. Nu wil het geval dat ook seniormedewerkers van de OPCW twijfelen over de vraag of dit het regime was of Jaish al-Islam, waar het regime op dat moment mee aan het vechten was. Assad heeft vreselijke dingen gedaan, maar het is dus heel dubieus. Daarnaast zou ik de minister willen vragen: bent u niet bang dat het onze geloofwaardigheid ondermijnt als wij illegale acties ondersteunen, terwijl we zeggen dat we de internationale rechtsorde willen bevorderen en dat ook van andere landen, zoals Syrië en Rusland, verwachten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note21">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg8">Allereerst: de OPCW heeft daar onderzoek gedaan en dat gepubliceerd. Het was een onderzoek onder lastige omstandigheden, in een oorlogssituatie waarbij partijen er belang bij hebben om bewijsmateriaal te verwijderen. Ten tweede: mevrouw Karabulut heeft het over de geloofwaardigheid. Het ging hier om een vergelding voor een gruwelijke gifgasaanval op de eigen bevolking. Daarbij spraken eigenlijk alle landen waar wij normaal mee optrekken — Denemarken, Duitsland, Noorwegen, België, Frankrijk, Engeland en de Verenigde Staten, dus democratische rechtsstaten als de onze — hun begrip uit. Dat is het punt van geloofwaardigheid. Nederland maakte als enige een voorbehoud. Dat was inderdaad de reden om te vragen of er grond is om je als enige in die positie te bevinden. Daar kan een reden voor zijn en daarom hebben we het advies gevraagd. En daarover zeggen deskundigen: in heel specifieke gevallen kan je zo'n politieke steun uitspreken, zoals ook al die andere democratische rechtsstaten op dat moment deden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note22">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg9">Tot slot op dit punt, mevrouw Karabulut.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note23">Mevrouw Karabulut (SP)</note>
+            <u who="#SadetKarabulut" ana="#regular topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg10">Ik constateer dat daarmee geen enkel probleem is opgelost. De minister heeft niet geleerd van het verleden, namelijk dat de illegale oorlog in Irak ons IS heeft gebracht. De minister grijpt dit incident aan om het beleid te wijzigen, maar dit incident is zeer dubieus. Door OPCW-bronnen en door andere serieuze onderzoeksjournalisten wordt hierover zeer getwijfeld. De minister grijpt dit incident aan, terwijl misschien juist jihadistische groepen verantwoordelijk zijn voor deze aanval. Dat is alles bij elkaar genomen heel treurig en het verzwakt onze positie en onze geloofwaardigheid in de wereld. Ik vind dat doodzonde, dus ik hoop echt op de steun van mijn collega's voor deze motie om de minister tegen te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note24">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg11">De minister, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note25">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg12">Mevrouw Karabulut denkt klaarblijkelijk dat je positie sterk is als je je isoleert van Duitsland, Frankrijk, Engeland, Denemarken en Noorwegen. Nogmaals, dat zijn gewoon democratische rechtsstaten. Mevrouw Karabulut denkt dat je positie dan versterkt is en zij vindt dat een reden om het advies van deze zeer gerespecteerde juridische deskundigen in de wind te slaan. Dat is een redenering die ik niet ondersteun.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note26">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.seg13">Dank u wel. Dan is de motie op stuk nr. 416ontraden. Wij zijn aan het einde gekomen van dit VSO.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-4.note27">De beraadslaging wordt gesloten.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

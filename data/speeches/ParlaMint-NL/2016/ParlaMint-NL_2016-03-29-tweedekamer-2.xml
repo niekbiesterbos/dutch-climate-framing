@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2016-03-29 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2016-03-29 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 70, Session 2 (2016-03-29)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 70, Session 2 (2016-03-29)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="70" xml:lang="en">Meeting 70</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="2" xml:lang="en">Session 2</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.28" corresp="#TK" n="28-lower" xml:lang="en">Meeting of the 28th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2016-03-29">Sitting 2016-03-29</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="17">17 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="17">17 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="722">722 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="722">722 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2016-03-29">2016-03-29</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="seg" occurs="18"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="17"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-03-29">2016-03-29</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.head1">Vragenuur: Vragen Neppérus</head>
+            <u who="#KhadijaArib" ana="#chair topic:macro" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u1">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg1">Ik heet de staatssecretaris van Financiën van harte welkom en ik geef mevrouw Neppérus namens de VVD-fractie als eerste vragensteller het woord.</seg>
+            </u>
+            <u who="#HelmaNeppérus" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u2">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg2">Voorzitter. In Het Financieele Dagblad van afgelopen vrijdag stond een groot interview met de president van de Nederlandsche Bank, de heer Knot. In dat interview las ik dat het tijd wordt om de fiscale behandeling van zzp'ers tegen het licht te houden. Ik moet zeggen dat ik daar enorm van ben geschrokken. Mijn fractie vindt zzp'ers van groot belang en vindt het terecht dat er faciliteiten voor hen zijn. Om dan zomaar te moeten lezen dat een belangrijk functionaris in dit land vindt dat dit toch anders moet, is niet goed.</seg>
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg3">Daarom wil ik van de staatssecretaris weten of hij, los van het punt dat hij het stuk vast gelezen heeft, met mij en de VVD van mening is dat zelfstandigen van groot belang zijn voor dit land, ook voor onze economie, en dat we dus niet opeens andere maatregelen nodig hebben, maar dat het gewoon zo moet zijn als het nu is. Zelfstandigen kunnen dan namelijk gewoon hun werk doen. Is de staatssecretaris ook bereid om andersdenkenden daarvan te overtuigen?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular topic:labor" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u3">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg4">Voorzitter. Ik spreek beslist namens het hele kabinet, als ik zeg — dat is ook vastgelegd in de brief van oktober — dat de zzp'ers een heel belangrijke en noodzakelijke rol spelen in de economie. Ze zorgen voor heel veel werkgelegenheid en ook voor heel veel ondernemerschap. Er zijn dus goede gronden voor de overheid om dat ondernemerschap op allerlei manieren te stimuleren. Niet alleen met de brief van oktober, maar op allerlei manieren blijft het kabinet er ook partijen van overtuigen dat zzp'ers deze belangrijke rol in de samenleving hebben.</seg>
+            </u>
+            <u who="#HelmaNeppérus" ana="#regular topic:labor" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u4">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg5">Ik ben blij om dat te horen van de staatssecretaris. Hij, en ook het kabinet, vindt dus met de VVD dat zelfstandigen van groot belang zijn. Ik ga ervan uit — dat moet echter ook kunnen — dat dit kabinet zich blijft inzetten voor zelfstandigen en niet opeens aan allemaal dingen gaat tornen, maar de lijn vasthoudt die is uitgezet in de brief van oktober en ook eerder. Dat is de lijn dat zzp'ers van groot belang zijn en dat we niet aan hun positie gaan knagen.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular topic:labor" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u5">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg6">In de brief van oktober staat een drietal maatregelen. Die zijn in uitvoering. Verder liggen er bij het kabinet geen plannen klaar om verder te tornen aan de positie van zzp'ers.</seg>
+            </u>
+            <u who="#HelmaNeppérus" ana="#regular topic:other" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u6">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg7">Dat is helder. Dank.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u7">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg8">Dat was een heel korte mondelinge vraag.</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u8">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg9">De tranen schieten je in de ogen bij dit opzetje tussen een VVD-Kamerlid en een VVD-staatssecretaris.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u9">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg10">Dat was een heel lange vraag.</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular topic:other" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u10">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg11">Dat valt nog tegen!</seg>
+            </u>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:macro" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u11">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg12">Je zou bijna vergeten dat de VVD in het regeerakkoord gewoon had ingestemd met 500 miljoen hogere lasten voor zelfstandigen en dat D66, de ChristenUnie en de SGP dat in de onderhandelingen van tafel hebben moeten halen. Mijn vraag is een andere. Het is mooi dat het kabinet nu, anders dan in het regeerakkoord, wel wil afblijven van de zelfstandigenaftrek. Is de staatssecretaris het ook met D66 eens dat als je iets wilt doen aan het verschil in fiscale behandeling tussen werknemers en zzp'ers, je niet zelfstandigen zwaarder moet belasten, maar dat het kabinet alles op alles moet zetten om ervoor te zorgen dat ook voor werknemers werken veel meer gaat lonen?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular topic:labor" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u12">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg13">Misschien is het onverwachts, maar het is wel een heel belangrijke vraag, want de lasten op arbeid moeten inderdaad naar beneden. De lasten op arbeid zorgen voor een heel grote wig en zijn een van de oorzaken van de hoge werkloosheid. Het antwoord is dus: ja, de lasten op arbeid moeten breed naar beneden.</seg>
+            </u>
+            <u who="#GerKlein" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u13">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg14">Het is natuurlijk raar om de zelfstandigenaftrek te koppelen aan het bevorderen van zzp'ers. Je bent zzp'er omdat je dat belangrijk vindt en niet omdat je daar toevallig een zelfstandigenaftrek voor krijgt. De heer Knot heeft in het interview ook gezegd dat we erop moeten letten dat dit niet verwordt tot de hypotheekrenteaftrek van de toekomst.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u14">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg15">Wat is uw vraag?</seg>
+            </u>
+            <u who="#GerKlein" ana="#regular topic:other" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u15">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg16">Hoe beoordeelt de staatssecretaris die opmerking?</seg>
+            </u>
+            <u who="#EricWiebes" ana="#regular topic:other" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u16">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg17">De brede maatschappelijke discussie die in de genoemde brief is aangekondigd, is nog lang en breed bezig. Het kabinet heeft, zoals gezegd, geen nadere plannen klaarliggen om aan wat dan ook te tornen. Eerst moet de maatschappelijke discussie worden afgewacht. Het zou raar zijn om daar nu op vooruit te lopen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.u17">
+               <seg xml:id="ParlaMint-NL_2016-03-29-tweedekamer-2.seg18">Ik dank de staatssecretaris.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

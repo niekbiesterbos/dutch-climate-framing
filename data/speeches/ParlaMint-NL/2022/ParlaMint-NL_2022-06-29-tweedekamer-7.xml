@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-06-29 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-06-29 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 98, Session 7 (2022-06-29)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 98, Session 7 (2022-06-29)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="98" xml:lang="en">Meeting 98</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="7" xml:lang="en">Session 7</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-06-29">Sitting 2022-06-29</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="16">16 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="16">16 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="909">909 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="909">909 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-06-29">2022-06-29</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="60"/>
+               <tagUsage gi="seg" occurs="20"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="16"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-06-29">2022-06-29</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.head1">Nationaal Programma Onderwijs (p.o. en vo)</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:educa" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg1">Aan de orde is het tweeminutendebat Nationaal Programma Onderwijs, primair en voortgezet onderwijs, als opvolging van het commissiedebat van 24 mei jongstleden. Ik heet van harte welkom de mensen thuis die dit op afstand volgen, de mensen op de publieke tribune en de Kamerleden. Er hebben zich een vijftal sprekers ingeschreven: de heer De Hoop, de heer Ephraim, mevrouw Paul, de heer Van Meenen en de heer Peters. Ik ga ervan uit dat ze zo allemaal binnendruppelen. Ook heet ik de minister voor Primair en Voortgezet Onderwijs welkom. Dat gezegd hebbende stel ik voor dat de heer De Hoop als eerste mag aftrappen. Meneer De Hoop, aan u het woord namens de fractie van de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note2">De heer De Hoop (PvdA)</note>
+            <u who="#HabtamudeHoop" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg2">Dank, voorzitter. Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note6">constaterende dat de menukaart van het Nationaal Programma Onderwijs werd ontwikkeld op basis van het Engelse model, hetgeen geen praktijkgerichte vakken kent zoals het Nederlandse onderwijssysteem;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note7">constaterende dat de menukaart momenteel wordt doorontwikkeld om nog beter toepasbaar te zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note8">overwegende dat het van groot belang is evidencebased praktijkgerichte interventies te bieden voor zowel vmbo beroepsgericht als praktijkonderwijs;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note9">overwegende dat er in landen zoals Duitsland bewezen effectieve praktijkgerichte interventies bekend zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note10">verzoekt de regering deze bewezen effectieve praktijkgerichte interventies uit het buitenland in overweging te nemen en in overleg met het veld zo spoedig mogelijk tot een invulling van deze hiaat in de menukaart te komen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note12">Deze motie is voorgesteld door het lid De Hoop.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note13">Zij krijgt nr. kst-35925-VIII-179</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note14">De heer De Hoop (PvdA)</note>
+            <u who="#HabtamudeHoop" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg3">Dank, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note15">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg4">Dank, meneer De Hoop. Dan geef ik graag het woord aan de heer Ephraim namens de Groep Van Haga.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note16">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg5">Dank u wel, voorzitter. Ik heb drie korte moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note17">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note18">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note19">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note20">overwegende dat de personeelstekorten in het onderwijs onder andere veroorzaakt worden door de steeds groter wordende regeldruk;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note21">overwegende dat het lerarentekort en de daarmee gepaard gaande noodgrepen, zoals ongekwalificeerde krachten voor de klas, een negatieve invloed hebben op de leerprestaties van kinderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note22">verzoekt de regering in overleg en samenwerking met de sector zelf zo snel mogelijk met een plan te komen om de regeldruk voor leerkrachten drastisch te verlagen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note24">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note25">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note26">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note27">overwegende dat het van groot belang is dat het onderwijs in Nederland aan bepaalde vastgestelde eisen voldoet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note28">overwegende dat er uniformiteit moet zijn in het onderwijsaanbod;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note29">verzoekt de regering in kaart te brengen hoeveel onderwijsbudget er gemoeid is met het inzetten van niet-gekwalificeerde krachten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note30">verzoekt de regering om duidelijke, toetsbare kwaliteitseisen op te stellen waaraan derde partijen zoals externe onderwijsbureaus moeten voldoen, en een wildgroei aan commerciële aanbieders te voorkomen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note31">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note32">Deze motie is voorgesteld door het lid Ephraim.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note33">Zij krijgt nr. kst-35925-VIII-180</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note34">Deze motie is voorgesteld door het lid Ephraim.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note35">Zij krijgt nr. kst-35925-VIII-181</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note36">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg6">De laatste.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note37">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note38">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note39">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note40">overwegende dat gezonde lucht in klaslokalen bijdraagt aan het leerklimaat voor scholieren en daarmee direct invloed heeft op hun prestaties;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note41">overwegende dat scholieren na twee desastreuze jaren optimaal gefaciliteerd moeten worden in hun leerproces;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note42">verzoekt de regering een deel van het NPO-budget van 8,5 miljard te gebruiken voor ventilatie op scholen en een zomeroffensief voor implementatie daarvan te starten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note43">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note44">Deze motie is voorgesteld door het lid Ephraim.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note45">Zij krijgt nr. kst-35925-VIII-182</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note46">Dank, meneer Ephraim, voor uw bijdrage. Daarmee zijn we aan het einde gekomen van de eerste termijn van de zijde van de Kamer. De minister heeft aangegeven vijf minuutjes nodig te hebben. Ik stel voor om te schorsen tot 14.00 uur.</note>
+            <note type="time" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note47">De vergadering wordt van 13.54 uur tot 13.58 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note48">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:educa" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg7">Aan de orde is het vervolg van het tweeminutendebat Nationaal Programma Onderwijs (p.o. en vo). We zijn aangekomen bij de beoordeling van de moties door de minister voor Primair en Voortgezet Onderwijs. Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note49">Minister Wiersma</note>
+            <u who="#DennisWiersma" ana="#guest topic:educa" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg8">Voorzitter, dank. Dank aan de Kamer, ook voor het debat. Het is een belangrijk onderwerp. Het was een goed debat. Er zijn een aantal moties. Ik neem ze even met u door.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg9">Ik begin met de motie op stuk nr. 179 van de heer De Hoop over een aanpassing van de menukaart zodat die ook bruikbaar is voor praktijkonderwijs en speciaal onderwijs. Aan de aanpassingen die de heer De Hoop vraagt, wordt al gewerkt. Dat doen wij in overleg met alle sectoren, organisaties, schoolleiders, leraren en experts. De bestaande themapagina's op onderwijskennis.nl worden aangevuld met informatie voor deze sectoren. Aankomend schooljaar zullen verschillende relevante themapagina's worden toegevoegd. Ik ben ook voornemens om aanvullend wetenschappelijk onderzoek te doen naar kansrijke interventies voor deze onderwijssoorten. Dit onderzoek zorgt op de lange termijn voor aanvullingen van de menukaart. De eerste resultaten verwachten we eind 2025 en begin 2026. Dan heeft de heer De Hoop een beeld bij wat we daar nu al aan doen. Dat gezegd hebbende, vind ik de motie een goede aanmoediging en een terecht verzoek. Daarmee krijgt de motie op stuk nr. 179 oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note50">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg10">De motie op stuk nr. 179 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note51">Minister Wiersma</note>
+            <u who="#DennisWiersma" ana="#guest topic:educa" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg11">Dan de motie op stuk nr. 180 van de heer Ephraim. Daarvoor geldt dat ik vrij spoedig met een brief kom over de aanpak van het lerarentekort. Dat doe ik samen met collega Dijkgraaf. Die brief komt nog deze week. Ik zou de heer Ephraim willen vragen om deze motie aan te houden totdat die brief er is, zodat hij kan kijken of dat er voor zijn gevoel voldoende in zit. Ik heb die hoop, maar dat oordeel laat ik graag aan hem. Ik zou hem dus willen verzoeken om de motie aan te houden en zijn oordeel daarvan te laten afhangen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note52">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg12">Ik zie dat de heer Ephraim dat verzoek inwilligt.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note53">Op verzoek van de heer Ephraim stel ik voor zijn motie (35925-VIII, nr. 180) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note54">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note55">Minister Wiersma</note>
+            <u who="#DennisWiersma" ana="#guest topic:educa" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg13">Dank.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg14">Dan de motie op stuk nr. 181 over kwaliteitseisen voor commerciële onderwijsbureaus. Ik deel met de heer Ephraim dat de wildgroei aan commerciële onderwijsbureaus tot gevolg heeft dat scholen daar soms heel erg afhankelijk van zijn. Ouders denken soms ook dat ze afhankelijk zijn van die bureaus. Er zitten allerlei nadelen aan. Die hebben we in het debat ook benoemd. Ik deel de zorg van de heer Ephraim. Het verzoek is om duidelijke, toetsbare kwaliteitseisen op te stellen. Ik heb zojuist een brief gestuurd over hoe ik dat zou willen doen. Die is vrij kort voor dit debat verschenen. Excuses daarvoor. In die brief ga ik in op deze elementen. Ik noem daarin ook dat we bezig zijn met een keurmerk. Daar moeten dit soort normen en elementen ook in landen. Daar wordt op dit moment door alle partijen aan gewerkt, want die vinden zelf ook dat ze daar duidelijke normen voor moeten hanteren. Als ik de motie zo mag interpreteren dat ik dit verzoek meeneem in het keurmerk, dan kan ik die oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note56">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg15">Ik zie dat de heer Ephraim instemt met deze appreciatie. Hij is het dus eens met de interpretatie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note57">Minister Wiersma</note>
+            <u who="#DennisWiersma" ana="#guest topic:educa" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg16">Dank.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg17">Dan kom ik op de motie op stuk nr. 182, over ventilatie op scholen. Ik kom morgen met een brief daarover naar de Kamer. Het spijt me. Er komt nog heel veel aan. De heer Ephraim loopt daar goed op vooruit. Hij deelt namelijk de urgentie die ik ook voel. Ik kan niet helemaal garanderen dat dit deel precies in die brief zit. Het Nationaal Programma Onderwijs is namelijk in uitvoering. Daar zitten voorwaarden aan. Het grootste deel van het geld is al toegekend aan scholen. Ik kan dat budget niet meer zelf op een andere manier invullen. Hier zit meer de vraag aan vast: welke ruimte hebben scholen dan om dat te doen? Scholen hebben er inderdaad behoefte aan om middelen vrij te maken voor ventilatie. Daar zijn echter ook andere mogelijkheden voor. Die zou ik beter willen benutten. Hoe ik dat ga doen, laat ik spoedig aan uw Kamer weten. Dat doe ik morgen via een brief. Daarom zal ik de motie nu moeten ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note58">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u15">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg18">De motie op stuk nr. 182 wordt ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg19">Daarmee zijn we aan het einde gekomen van de beantwoording van de regering.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note59">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.note60">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.u16">
+               <seg xml:id="ParlaMint-NL_2022-06-29-tweedekamer-7.seg20">Over de ingediende moties wordt aanstaande dinsdag gestemd. Ik dank de mensen op de tribune, de mensen die het debat thuis gevolgd hebben, de Kamerleden en de minister.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

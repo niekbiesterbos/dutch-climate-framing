@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-05-20 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-05-20 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 78, Session 21 (2021-05-20)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 78, Session 21 (2021-05-20)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="78" xml:lang="en">Meeting 78</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="21" xml:lang="en">Session 21</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-05-20">Sitting 2021-05-20</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="19">19 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="19">19 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="721">721 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="721">721 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-05-20">2021-05-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="30"/>
+               <tagUsage gi="seg" occurs="21"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="19"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-05-20">2021-05-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.head1">Toezicht WSW 2019</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:housi" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u1">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg1">We gaan in een vloeiende beweging door met het VSO Toezicht WSW 2019, strategisch programma WSW en governance corporatiesector. We hebben twee sprekers van de zijde van de Kamer. De ene is de heer Koerhuis van de fractie van de VVD en het woord is aan hem. En nu hoor ik dat de andere spreker zich heeft afgemeld, dus u bent weer de enige, meneer Koerhuis. U bent wel een doorzetter, echt een diehard.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note2">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u2">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg2">Dat ben ik!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note3">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u3">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg3">Dat moeten we toch toegeven, hoor.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note4">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u4">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg4">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note5">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u5">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg5">Zonder u waren we allang thuis geweest. Daar moet je ook niet aan denken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note6">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u6">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg6">Nou, bij het laatste tweeminutendebat van de reeks van vier zal iedereen hier in de zaal wel komen te spreken. Dat gaat wel even duren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note7">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u7">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg7">Take it away.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note8">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u8">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg8">Ik heb één motie naar aanleiding van het SO.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note9">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note10">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note11">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note12">overwegende dat het risicokapitaal van het Waarborgfonds Sociale Woningbouw (WSW) toereikend moet zijn om de financiële risico's voor het Rijk laag te houden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note13">constaterende dat uit een validatieonderzoek van Deloitte bleek dat het risicokapitaal van het WSW niet meer toereikend was door verliezen van enkele corporaties en hiervoor een strategisch programma is gestart dat inmiddels is afgerond;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note14">verzoekt de regering een nieuwe, onafhankelijke controle te laten uitvoeren om vast te stellen of het risicokapitaal van het WSW nu wel toereikend is,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note15">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note16">Deze motie is voorgesteld door het lid Koerhuis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note17">Zij krijgt nr. kst-29453-534</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note18">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u9">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg9">Dan heb ik nog een vraag. We gaan nu naar een model waarbij we eerder het WSW in stelling brengen als een corporatie in de financiële problemen komt, en minder snel het ministerie. De corporaties betalen nu een saneringsheffing en een borgingsheffing. Is het misschien een idee om daarbij ook eens naar de balans te kijken, met bijvoorbeeld iets minder saneringsheffing en iets meer borgingsheffing? We gaan nu immers naar een model dat meer leunt op het WSW en minder op het ministerie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg10">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note19">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u10">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg11">U bedankt! Kan de minister meteen antwoorden? We doen toch even een minuutje schorsing. Prima.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note20">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note21">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u11">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg12">Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note22">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u12">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg13">Dank u wel, voorzitter. Dank voor uw geduld. Dank weer aan de heer Koerhuis voor het indienen van een motie en het stellen van een vraag. De motie betreft een aanvullend onderzoek. Er is in 2018 een onderzoek gedaan. Dat gaf toen aan dat het risicokapitaal niet toereikend was. Nou, dat kennen we. Mede op basis daarvan is het WSW dat strategisch programma gestart. Er worden verbeteringen doorgevoerd. Onderdeel van die verbeteringen is dat er een modelcommissie komt met externe deskundigen, die de goede expertise hebben en die doorlopend dat model beoordelen, gevraagd en ongevraagd. Ik zou dus zeggen dat een nieuwe studie van het een of andere bureau eigenlijk dubbelop is. Ik zou dus zeggen: implementeer eerst dat nieuwe model en dat zou dan beoordeeld moeten worden als het enige tijd in werking is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg14">Het volgende zou wel kunnen. Dat is niet precies waar de motie om vraagt, maar misschien staat de heer Koerhuis daar wel voor open. Dat is om het risicomodel van het WSW op termijn, als we dus wel die ervaringen hebben opgedaan, opnieuw door een extern bureau te laten toetsen. Als de heer Koerhuis dat zou willen, en wellicht ook zijn motie zou willen aanpassen, dan zou ik daar dus voor openstaan. Dat is dus wel het geval. Maar ik zie de heer Koerhuis klaarstaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note23">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u13">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg15">Het woord is aan hem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note24">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u14">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg16">Nee. Dat is het simpele antwoord. Ik vind namelijk dat we de financiële risico's voor het Rijk serieus moeten nemen. Ik vraag enkel en alleen om een herhaling van het onderzoek dat aanleiding was voor het strategisch programma, om te kijken of dat goed is geweest. Kijk, die commissie is intern. Het is een beetje "de slager keurt zijn eigen vlees". Ik wil gewoon graag een extern bureau. Dat is ook eerder gebeurd. Het lijkt me niet zo moeilijk om dat nog een keer te laten gebeuren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note25">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u15">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg17">Die commissie is niet intern. Die commissie bestaat uit externe deskundigen, met expertise. Die gaat dat al doen, dus ik blijf bij mijn oordeel dat het dubbelop is. Mijn appreciatie is dat ik de motie moet ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note26">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u16">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg18">Bij dezen dan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note27">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u17">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg19">Dan had de heer Koerhuis ook nog een vraag. Dat is best een complexe vraag voor dit debat, waaraan verder ook geen andere woordvoerders deelnemen. De heer Koerhuis volgt dit natuurlijk heel erg goed, dus hij weet dat er een evaluatie is geweest. Daarover is een brief naar de Kamer gegaan. Vermoedelijk zal dat ook leiden tot wetswijziging. Hij heeft eigenlijk een vraag over de balans tussen de saneringsheffing die de woningbouwcoöperaties betalen en datgene wat de borger zou moeten doen, als. Ik zou dat echt willen betrekken bij de behandeling van de brief of bij de wetswijziging. Ik zie dat de heer Koerhuis daar wél mee kan leven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note28">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u18">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg20">Prima. Hij knikt dankbaar "ja". Tot zover dit debat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note29">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.note30">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.u19">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-21.seg21">Dinsdag stemmen wij over de motie.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

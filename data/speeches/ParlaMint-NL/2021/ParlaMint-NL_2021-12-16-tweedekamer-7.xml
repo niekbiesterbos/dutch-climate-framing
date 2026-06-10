@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-12-16 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-12-16 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 36, Session 7 (2021-12-16)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 36, Session 7 (2021-12-16)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="36" xml:lang="en">Meeting 36</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="7" xml:lang="en">Session 7</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-12-16">Sitting 2021-12-16</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="12">12 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="12">12 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1116">1,116 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1116">1,116 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-12-16">2021-12-16</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="47"/>
+               <tagUsage gi="seg" occurs="20"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="12"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-12-16">2021-12-16</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.head1">Gevangeniswezen en tbs</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg1">Aan de orde is het tweeminutendebat Gevangeniswezen en tbs. Ik zou het woord willen geven aan de heer Ellian van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note2">De heer Ellian (VVD)</note>
+            <u who="#UlysseEllian" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg2">Dank u wel, voorzitter. In de eerste plaats wil ik nogmaals mijn steun uitspreken voor de medewerkers van de PI Vught, en natuurlijk ook de ebi, die op dit moment echt onder heel zware en ingewikkelde omstandigheden hun werk moeten doen. Die steun verdienen ze.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg3">Voorzitter. Er is nu regelmatig, in ieder geval in de Kamer, maar ook buiten de Kamer, gesproken over het gevaar van het vervoer van ebi-gedetineerden. Ik ben namens de fractie van de VVD ontzettend blij dat de minister bereid is om dat vervoer te gaan beperken, maar omdat er eigenlijk geen seconde verloren mag gaan vanwege het grote gevaar dat van deze gedetineerden uitgaat, heb ik de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note6">overwegende dat de huidige regelmaat van het beveiligd vervoer van gedetineerden vanuit de ebi in Vught onaanvaardbare risico's met zich meebrengt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note7">overwegende dat de Kamer in 2020 heeft verzocht te bezien of in de PI Vught zittingsruimte kan worden ingericht zodat (onderdelen van) strafzaken in de toekomst ook in de PI Vught kunnen worden afgehandeld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note8">constaterende dat de werkgroep die onderzoek heeft verricht naar vermindering van het aantal vervoersbewegingen van en naar Vught waardevolle aanbevelingen heeft gedaan die snelle opvolging behoeven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note9">spreekt uit dat het uitgangspunt voor gedetineerden in een ebi is dat zij zo min mogelijk worden vervoerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note10">verzoekt de regering zo spoedig mogelijk maatregelen te nemen, in lijn met de aanbevelingen van de werkgroep, om het vervoer vanuit de ebi op de kortst mogelijke termijn veiliger te maken en te beperken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note11">verzoekt de regering indien nodig wettelijk vast te leggen dat het onderzoek ter terechtzitting bij in een ebi-gedetineerde verdachte via videoverbinding zal plaatsvinden, tenzij er zwaarwegende redenen zijn om de gedetineerde verdachte fysiek aanwezig te laten zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note12">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note13">Deze motie is voorgesteld door de leden Ellian en Palland.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note14">Zij krijgt nr. kst-24587-818</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note15">Dank aan de heer Ellian. Dan is het woord aan de heer Van Nispen, SP.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note16">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg4">Dank u wel. Er speelt heel veel in het gevangeniswezen, onder andere voortgezet crimineel handelen vanuit detentie, het binnensmokkelen van contrabande, het beperken van recidive. Alles komt eigenlijk op de schouders van het al zwaar belaste gevangenispersoneel terecht. Ook wij hebben daar heel veel respect voor. Ze hebben een bijna onmogelijke taak. Ze hebben te maken met een steeds ingewikkeldere doelgroep. Er was een convenant met extra geld voor de afgelopen vier jaar om de werkdruk te verlagen. Dat convenant is eindig. Dat heeft nog geen vervolg gekregen. Er staat wel iets in het regeerakkoord over het gevangeniswezen, maar het is onduidelijk met hoeveel geld dat gepaard gaat. Om te voorkomen dat er de komende tijd niks gebeurt wat betreft het verlagen van de werkdruk, heb ik de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note17">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note18">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note19">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note20">constaterende dat er eind 2017 een convenant voor een solide personeelsbeleid en lagere werkdruk werd afgesloten ter waarde van 100 miljoen euro voor een periode van vier jaar en dat dit convenant nu binnenkort afloopt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note21">overwegende dat de werkdruk voor het personeel in het gevangeniswezen onverminderd hoog is, maar nog niet is voorzien in enige opvolging van het hiervoor genoemde convenant;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note22">van mening dat langjarige investeringen nodig blijven om de werkdruk voor het gevangenispersoneel te verlagen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note23">verzoekt de regering ervoor te zorgen dat de financiële middelen om de werkdruk te verlagen tijdelijk worden voortgezet, in afwachting van definitieve besluitvorming,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note24">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note25">Deze motie is voorgesteld door de leden Van Nispen, Kathmann en Kröger.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note26">Zij krijgt nr. kst-24587-819</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note27">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg5">Voorzitter. Tot slot. Wij vragen hier geen gouden bergen. Ik kan me eigenlijk niet voorstellen dat iemand deze motie niet gaat steunen. Het is namelijk heel redelijk in afwachting van nieuwe besluitvorming. Laat de plannen zien wanneer de nieuwe regering er is. We kunnen niet zeggen dat er tijdelijk even helemaal niks gebeurt, want die werkdruk is gewoon te hoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note28">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg6">Dank aan de heer Van Nispen. Dan is nu het woord aan de heer Kops, PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note29">De heer Kops (PVV)</note>
+            <u who="#AlexanderKops" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg7">Voorzitter, dank u wel. Het Nederlandse tbs-systeem is vooral een systeem van verloven. Er zijn heel veel verloven en vrijheden. Zo'n driekwart van alle tbs'ers mag met verlof. In 2020 heeft een tbs'er daar gemiddeld 30 keer gebruik van gemaakt. In een jaar tijd gaat een tbs'er dus 30 keer met verlof. Dan hebben we het dus over zo'n 1.000 personen die met grote regelmaat vrij rondlopen in Nederland. We hebben het dan over verkrachters, moordenaars, kinderverkrachters, kindermoordenaars. Zulk soort types zouden eigenlijk helemaal nooit meer vrij moeten komen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg8">Voorzitter. Ik heb de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note30">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note31">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note32">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note33">overwegende dat de veroordeelde kindermoordenaar en serieverkrachter Wik H. nu al recht op onbegeleid verlof heeft en mogelijk binnenkort vrij wordt gelaten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note34">verzoekt de regering deze levensgevaarlijke kindermoordenaar levenslang op de longstayafdeling van de tbs op te sluiten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note35">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note36">Deze motie is voorgesteld door de leden Kops en Markuszower.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note37">Zij krijgt nr. kst-24587-820</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note38">Het woord is aan mevrouw Kathmann, PvdA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note39">Mevrouw Kathmann (PvdA)</note>
+            <u who="#BarbaraKathmann" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg9">Dank u, voorzitter. Het geweld tegen gevangenispersoneel is toegenomen. Dan gaat het vooral om extreem geweld. De vakbonden, de SP, maar ook de Partij van de Arbeid vragen al geruime tijd aandacht voor de werkdruk en de veiligheid binnen gevangenissen van Nederland. Dat is niet voor niets. Vakbond FNV voor Overheid en Justitie monitort al sinds 2017 de werkdruk in Nederlandse gevangenissen. Het grote aantal openstaande vacatures, de hoge mentale belasting, de te veel extra taken en het geen of moeilijk verlof op kunnen nemen, eisen nu hun tol.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg10">Gelukkig was er in 2017 dat convenant waar de heer Van Nispen het net ook over had, ter waarde van 100 miljoen euro voor een periode van vier jaar, voor solide personeelsbeleid en een lagere werkdruk. Dit convenant dreigt nu af te lopen — de heer Van Nispen zei het ook al, maar ik wil het graag nog een keer benadrukken — terwijl 90% van het gevangenispersoneel op dit moment hogere werkdruk ervaart dan in het jaar daarvoor. Vandaag kunnen we er dus voor zorgen dat die financiële middelen beschikbaar blijven door het convenant tijdelijk voort te zetten. Laten we dat doen, zodat de minister in gesprek kan met de bonden over betere arbeidsvoorwaarden. Een gesprek kan namelijk niet plaatsvinden als de minister met lege handen komt. Daarom tekent de PvdA vandaag van harte mee met de motie van de heer Van Nispen om hiervoor te gaan zorgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note40">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg11">Dank aan mevrouw Kathmann. Ik schors voor enkele ogenblikken en dan gaan we luisteren naar de beantwoording.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note41">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note42">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg12">Ik geef het woord aan de minister voor Rechtsbescherming.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note43">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg13">Voorzitter, dank. Ik waardeer en ondersteun de woorden die zijn uitgesproken richting het personeel van de EBI. De werkdruk is ongelofelijk hoog. We hebben een bizar jaar met corona achter de rug. Op een aantal hele specifieke plekken — de heer Ellian haalde dat al aan — in de EBI zijn dingen gebeurd die echt grote offers hebben gevraagd van mensen. We hoeven niet in detail te treden, maar we weten allemaal waar het over gaat. Ik sluit me aan bij alle respect en steun aan hen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg14">Voorzitter. De moties. Bij de motie van de heer Ellian op stuk nr. 818 kan ik het oordeel aan de Kamer laten. Die is in lijn met wat wij in de brief hebben opgeschreven. Ik zie de motie als een aansporing om hierin tempo te maken en desnoods met regelgeving te komen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg15">Voorzitter. Laat ik een paar dingen zeggen over de motie van de heer Van Nispen op stuk nr. 819, over het extra geld. Van het convenant is destijds altijd gezegd dat het een eenmalige impuls was. Ik vind het belangrijk om terug te kijken wat dat heeft opgeleverd. We moeten goed evalueren wat dat convenant heeft betekend, of het verlaging van de werkdruk heeft opgeleverd, of dat misschien tegenviel en wat er in de toekomst moet gebeuren. Ik neem dat altijd serieus. U vroeg mij onlangs of ik in gesprek wilde gaan. Dat gesprek is gepland voor morgenochtend. Dat ga ik dus echt nog doen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg16">Ten tweede is van de €100 miljoen niet alles uitgegeven, ook vanwege covid. Ja, de afgelopen anderhalf jaar was een gekke tijd. Dat betekent dat er een overloop is van circa 5 van de 100 miljoen naar het nieuwe jaar. Ik denk dat dat voldoende overbrugging is naar een opvolger om te kijken wat die evaluatie oplevert, en om daarin vervolgstappen te zetten en besluiten over te nemen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg17">Ik kijk dan naar uw motie. Ik zou zeggen dat die daarmee overbodig is, tenzij u bedoelt dat er extra geld bij moet komen. Ik vermoed eerlijk gezegd dat dat laatste aan de orde is. Ik kijk dan altijd streng. U levert daar geen dekking voor aan. Dan moet ik de motie ontraden. Dat laat onverlet dat ik het punt wel degelijk heel serieus neem. Ik ga daar zelf ook nog het gesprek over aan, in de tijd die dit kabinet nog resteert.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg18">Voorzitter. Tot slot ontraad ik de motie op stuk nr. 820, met verwijzing naar het debat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note44">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg19">Dank aan de minister.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note45">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note46">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.seg20">Ik schors voor enkele ogenblikken.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-7.note47">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2018-11-27 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2018-11-27 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 28, Session 7 (2018-11-27)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 28, Session 7 (2018-11-27)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="28" xml:lang="en">Meeting 28</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="7" xml:lang="en">Session 7</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2018-11-27">Sitting 2018-11-27</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="9">9 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="9">9 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="259">259 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="259">259 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2018-11-27">2018-11-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="seg" occurs="12"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="9"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-11-27">2018-11-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.head1">Regeling van werkzaamheden (stemmingen)</head>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg1">Dan is er nu een korte regeling van werkzaamheden voor de stemmingen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg2">Ik stel voor zo dadelijk ook te stemmen over de volgende aangehouden moties: de motie-Dik-Faber (32820, nr. 257), de motie-Helder (34775-VI, nr. 41) en de motie-Jasper van Dijk c.s. (19637, nr. 2432).</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg3">Dan geef ik nu de heer Remco Dijkstra namens de VVD het woord.</seg>
+            </u>
+            <u who="#RemcoDijkstra" ana="#regular topic:trans" xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg4">Voorzitter. We hebben een goed debat gehad over de Wet rijonderricht motorrijtuigen. Ik verzoek uitstel van stemming over de punten 16 en 17, de stemmingen over het wetsvoorstel en de moties, omdat er gisteren nog een belangrijk gewijzigd amendement is ingediend op stuk nr. 27. Ik wil daar graag de appreciatie van de minister over, omdat die grote impact kan hebben op deze wet. Dan stellen we de stemmingen een week uit, wat ons betreft.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg5">Het verzoek is dus om de stemmingen over agendapunten 16 en 17 uit te stellen?</seg>
+            </u>
+            <u who="#RemcoDijkstra" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg6">Precies. En de minister te vragen in een brief kort aan te geven wat de gevolgen zijn voor het wetsvoorstel, specifiek van dit amendement.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg7">Wie is tegen uitstel? De heer Van Aalst?</seg>
+            </u>
+            <u who="#RoyvanAalst" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg8">Jazeker, voorzitter. Wij doen niet mee aan dit popiejopiegedrag van de VVD. Geen steun voor uitstel.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg9">Dan de heer Laçin.</seg>
+            </u>
+            <u who="#CemLaçin" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg10">Voorzitter. We hebben een lang debat gehad. Het is mijn amendement, met een aantal andere partijen. Ik wil er niet voor gaan liggen, maar met de kanttekening dat we hier dan volgende week zeker over gaan stemmen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg11">Dus u steunt het verzoek. Goed.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-27-tweedekamer-7.seg12">Dan gaan we stemmen. Maar niet over agendapunten 16 en 17, want een meerderheid is voor uitstel.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

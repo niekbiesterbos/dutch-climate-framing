@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-03-15 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-03-15 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 60, Session 34 (2022-03-15)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 60, Session 34 (2022-03-15)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="60" xml:lang="en">Meeting 60</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="34" xml:lang="en">Session 34</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-03-15">Sitting 2022-03-15</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="21">21 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="21">21 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="944">944 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="944">944 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-03-15">2022-03-15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="73"/>
+               <tagUsage gi="seg" occurs="25"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="21"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-03-15">2022-03-15</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.head1">Wadden</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u1">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg1">Aan de orde is het tweeminutendebat Wadden. De minister van Infrastructuur en Waterstaat is binnengekomen. Van harte welkom. Het woord is aan de heer De Groot, die zal spreken namens D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note2">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u2">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg2">Voorzitter, dank u wel. Er is door het ministerie een agenda opgesteld voor de toekomst van de Wadden. Alleen, daar werden eigenlijk geen keuzes in gemaakt. Het wordt wel gedeeld dat het mooi is om zo'n agenda te hebben, maar we willen zeker voor de vergunningverlening ook keuzes kunnen maken. Toen heeft de minister de Kamer uitgedaagd: ik wil wel een beleidskader opstellen, maar geef mij dan ook richting mee. Daar zijn wij over in debat gegaan. We hebben daarover een hoorzitting georganiseerd. Daar komt eigenlijk uit dat breed wordt gedeeld dat de hoofddoelstelling van het Waddengebied natuur is. Maar er wonen natuurlijk mensen en er zijn bedrijven die ook een duurzaam bestaan moeten hebben. Dus als je aan de slag gaat vanuit die hoofddoelstelling natuur en een beleidskader opstelt, dan ga je vanuit dat beleidskader draagvlak zoeken. Dat is de volgorde waar de Kamer in ieder geval voor kiest als deze motie wordt aangenomen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note6">overwegende dat de hoofddoelstelling van de Waddenzee natuur is en er in het Waddengebied veel beschermde natuurgebieden zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note7">overwegende dat bewoners en bedrijven in het gebied een bestaan moeten hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note8">overwegende dat het gebied een erkenning heeft als UNESCO-werelderfgoed;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note9">overwegende dat een goed beheer van het gebied om heldere beleidsmatige kaders en definities vraagt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note10">verzoekt de regering een beleidskader op te stellen vanuit de hoofddoelstelling natuur en met oog voor de leefbaarheid, en daarbij draagvlak te zoeken bij betrokkenen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note12">Deze motie is voorgesteld door de leden Tjeerd de Groot en Bevers.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note13">Zij krijgt nr. kst-29684-224</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note14">Dank u wel. Dan is het woord aan de heer Wassenberg. Hij zal spreken namens de Partij voor de Dieren.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note15">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u3">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg3">Dank, voorzitter. Ik heb een viertal moties. Die dien ik allebei mede in namens collega Van Raan. De eerste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note16">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note17">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note18">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note19">constaterende dat het kabinet (via UNESCO) advies heeft gevraagd aan de International Union for Conservation of Nature (IUCN) over de gaswinning bij Ternaard;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note20">constaterende dat het advies van IUCN van belang is voor een gedegen afweging;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note21">verzoekt de regering om in ieder geval geen onomkeerbare stappen te nemen wat betreft de gaswinning bij Ternaard totdat het advies van IUCN met de Kamer is gedeeld,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note22">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note23">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note24">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note25">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note26">constaterende dat in de adviesaanvraag aan IUCN over de gaswinning bij Ternaard geen oordeel is gevraagd over zandsuppletie om bodemdaling door gaswinning te compenseren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note27">verzoekt de regering om alsnog een oordeel te vragen aan UNESCO/IUCN over zandsuppletie om bodemdaling door gaswinning te compenseren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note28">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note29">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note30">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note31">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note32">constaterende dat in Ecuador en Nieuw-Zeeland rechten zijn toegekend aan belangrijke natuurgebieden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note33">overwegende dat deze natuurgebieden daardoor een betere bescherming genieten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note34">verzoekt de regering om rechten toe te kennen aan het Waddengebied,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note35">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note36">Deze motie is voorgesteld door de leden Wassenberg en Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note37">Zij krijgt nr. kst-29684-225</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note38">Deze motie is voorgesteld door de leden Wassenberg en Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note39">Zij krijgt nr. kst-29684-226</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note40">Deze motie is voorgesteld door de leden Wassenberg en Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note41">Zij krijgt nr. kst-29684-227</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note42">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u4">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg4">Hier wil ik nog even iets bij zeggen, want de minister heeft toegezegd om dat te laten onderzoeken. Ik sluit ook helemaal niet uit dat ik de motie dadelijk aanhoud, maar dan heb ik in elk geval alvast iets. We kunnen namelijk niet bij elk debat zo'n motie indienen. Ik denk dus dat ik de motie aanhoud. Dan weet de minister dat alvast.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg5">Voorzitter. Dan mijn laatste 30 seconden.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note43">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note44">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note45">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note46">constaterende dat het kabinet voornemens is om tegen de afspraken in de gasproductie in Groningen te verhogen van 3,9 tot 4,6 miljard kuub gas;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note47">constaterende dat besparingsmaatregelen extra gaswinning overbodig zouden kunnen maken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note48">verzoekt de regering om eerst in te zetten op besparende maatregelen, met name voor industriële grootgebruikers van non-essentiële producten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note49">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note50">Deze motie is voorgesteld door de leden Wassenberg en Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note51">Zij krijgt nr. kst-29684-228</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note52">Dank u wel. Van de zijde van de Kamer hebben zich geen andere sprekers gemeld. Er zijn vijf moties ingediend.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note53">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note54">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:envir" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u5">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg6">Ik geef het woord aan de minister voor Natuur en Stikstof.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note55">Minister Van der Wal-Zeggelink</note>
+            <u who="#ChristianneanderWalZeggelink" ana="#guest topic:lands" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u6">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg7">Voorzitter, applaus! Het blijkt in de praktijk toch best lastig te zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg8">Voorzitter. Ik zal de eerste vier moties appreciëren. Daarna zal collega Harbers de vijfde motie beetpakken. Allereerst de motie op stuk nr. 224 van D66 over het beleidskader. Met de kanttekening dat het gaat om het UNESCO-werelderfgoed Waddenzee — daarvoor zal ik een beleidskader opstellen — en dat met "veel beschermde natuurgebieden" de acht met elkaar samenhangende Natura 2000-gebieden worden bedoeld, en met de opmerking dat ik hierop samenwerk met mijn collega van IenW, de heer Harbers, krijgt deze motie oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note56">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u7">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg9">Ik zie de heer De Groot knikken. De motie op stuk nr. 225.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note57">Minister Van der Wal-Zeggelink</note>
+            <u who="#ChristianneanderWalZeggelink" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u8">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg10">De motie op stuk nr. 225 gaat over de reactie van UNESCO op het besluit voordat er een besluit wordt genomen over de vergunning Ternaard. UNESCO heeft aangegeven dat wij vanuit de IUCN een advies kunnen verwachten. Dat heb ik toegezegd tijdens het debat en dat heb ik ook aangevraagd. Helaas kan UNESCO daarbij geen termijn geven waarbinnen wij een reactie kunnen vernemen. Ik ga er echter van uit dat wij deze binnen een redelijke termijn kunnen ontvangen. Met de kanttekening dat wij dit advies binnen een redelijke termijn ontvangen, kan ik de motie ondersteunen. Het punt is dat als het advies binnen is voor het besluit, ik het dan meeneem in de afweging. Zo niet, dan loop ik vast op die redelijke termijn en moeten we eerst het besluit nemen. Tot slot zal ik, zodra het advies binnen is, dat gewoon in alle transparantie met uw Kamer delen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note58">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u9">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg11">Een heel kort vraagje. De minister zegt: ik weet niet wat UNESCO een redelijke termijn vindt. Maar ze heeft het zelf over een redelijke termijn. Wat vindt de minister een redelijke termijn?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note59">Minister Van der Wal-Zeggelink</note>
+            <u who="#ChristianneanderWalZeggelink" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u10">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg12">Een redelijke termijn is voor de zomer. Als het UNESCO-advies daarna komt, kan ik niet anders dan een besluit nemen en dan achteraf het advies alsnog met uw Kamer delen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note60">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u11">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg13">De motie op stuk nr. 225 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note61">Minister Van der Wal-Zeggelink</note>
+            <u who="#ChristianneanderWalZeggelink" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u12">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg14">Met deze kanttekening. Anders wordt die ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note62">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u13">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg15">Zeker, zeker. We zitten hier niet voor niks in debat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note63">Minister Van der Wal-Zeggelink</note>
+            <u who="#ChristianneanderWalZeggelink" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u14">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg16">Heel goed. Dan de motie op stuk nr. 226, over bodemdaling. Het is niet ter compensatie. Door gaswinning zakt de bodem. Die wordt weer natuurlijk aangevuld via de Noordzee. Zandsuppletie wordt ingezet voor kustversterking. Daarom ontraden wij deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg17">Dan de vierde en voor mij laatste motie, op stuk nr. 227, met het verzoek om de Waddenzee als rechtspersoon aan te merken. Tijdens het commissiedebat Wadden van 25 januari jongstleden heb ik toegezegd om te onderzoeken of de Waddenzee rechten kunnen worden gegeven en om dit mee te nemen in het op te stellen beleidskader Natuur Waddenzee. Mijn advies is om deze motie aan te houden totdat ik deze verkenning heb afgerond.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note64">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u15">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg18">Dat was ook al een beetje aangekondigd. Ik zie dat de heer Wassenberg knikt.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note65">Op verzoek van de heer Wassenberg stel ik voor zijn motie (29684, nr. 227) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note66">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note67">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u16">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg19">Dan dank ik de minister voor Natuur en Stikstof voor de beantwoording en het oordeel over de moties en geef ik het woord aan de heer Harbers, minister van Infrastructuur en Waterstaat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note68">Minister Harbers</note>
+            <u who="#MarkHarbers" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u17">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg20">Voorzitter. Zoals we afspraken in het commissiedebat, doe ik ook de beantwoording namens de andere bewindspersonen die in dat commissiedebat waren. Deze motie op stuk nr. 228 ligt op het terrein van de staatssecretaris van Mijnbouw. Daar heb ik ook even contact mee gezocht, maar omdat dit ook een onderwerp is dat verder niet in het commissiedebat aan de orde was, verzoek ik de indieners om de motie aan te houden, ook al omdat er op korte termijn, overmorgen, een commissiedebat is over de gaswinning. Dan zou het inhoudelijk daar verder behandeld kunnen worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note69">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u18">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg21">We houden haar aan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note70">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u19">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg22">Op verzoek van de heer Wassenberg stel ik voor zijn motie (29684, nr. 228) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg23">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note71">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:envir" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u20">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg24">Dan dank ik u wel. We zijn aan het einde van het tweeminutendebat Wadden. Nogmaals dank aan de minister voor Natuur en Stikstof.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note72">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.note73">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.u21">
+               <seg xml:id="ParlaMint-NL_2022-03-15-tweedekamer-34.seg25">We gaan, als de sprekers aanwezig zijn — en die lijken aanwezig — direct door met het tweeminutendebat Luchtvaart.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

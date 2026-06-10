@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Upper House 2022-02-22 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2022-02-22 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 19, Session 20 (2022-02-22)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 19, Session 20 (2022-02-22)</title>
+            <meeting ana="#parla.upper #parla.meeting.regular" corresp="#EK" n="19" xml:lang="en">Meeting 19</meeting>
+            <meeting ana="#parla.upper #parla.session" corresp="#EK" n="20" xml:lang="en">Session 20</meeting>
+            <meeting ana="#parla.upper #parla.term #EK.36" corresp="#EK" n="36-upper" xml:lang="en">Meeting of the 36th Eerste Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.upper #parla.sitting" corresp="#EK" n="2022-02-22">Sitting 2022-02-22</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="152">152 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="152">152 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="13703">13,703 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="13703">13,703 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.eerstekamer.nl/</idno>
+               <date when="2022-02-22">2022-02-22</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="156"/>
+               <tagUsage gi="seg" occurs="232"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="152"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-02-22">2022-02-22</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.head1">Wijzigingen fosfaatrechtenstelsel</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note1">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u1">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg1">Aan de orde is de voortzetting van de behandeling van het wetsvoorstel 35949, Wijziging van de Meststoffenwet in verband met het begrip melkvee en enkele andere wijzigingen betreffende het stelsel van fosfaatrechten. We zijn nu toe aan het antwoord van de regering in eerste termijn.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note2">De beraadslaging wordt hervat.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note3">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u2">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg2">Ik geef het woord aan de minister van Landbouw, Natuur en Voedselkwaliteit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note4">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u3">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg3">Dank voor het woord, meneer de voorzitter. Vandaag mag ik het eerste overleg met u voeren als minister van Landbouw, Natuur en Voedselkwaliteit. Allereerst ben ik uw Kamer zeer erkentelijk dat u mij heeft gefeliciteerd met deze benoeming en met deze kans. Maar ik ben uw Kamer ook zeer erkentelijk dat u de behandeling van het wetsvoorstel spoedig heeft willen oppakken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg4">Specifiek gaat het over enkele aanpassingen in het stelsel van fosfaatrechten, zoals dat in de Meststoffenwet is geregeld. De leden van de fracties van GroenLinks, Partij van de Arbeid, Partij voor de Dieren, PVV en D66 hebben vragen gesteld over onderwerpen die toezien op de grote opgaven waar de landbouw voor staat. Met het coalitieakkoord zet het kabinet in op een ambitieus pakket aan maatregelen om de emissies vanuit de landbouw naar het milieu en de natuur te verminderen. Dat doen we via een gebiedsgerichte, integrale aanpak die tot doel heeft om de natuur, het klimaat en het water in Nederland in goede staat te brengen. Hiermee wil het kabinet recht doen aan de verscheidenheid van de gebieden in Nederland en werken aan een duidelijk en goed toekomstperspectief voor de agrarische sector. Daarbij is zekerheid nodig dat deze aanpak tijdig en onontkoombaar tot resultaat zal leiden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg5">Wij zijn nu hard aan de slag met de uitwerking van deze aanpak en wij zullen ook uw Kamer daarover informeren. Ik ben vanzelfsprekend graag bereid hierover, samen met mijn collega voor Natuur en Stikstof, het gesprek met uw Kamer aan te gaan. Maar dat reikt verder dan het vandaag voorliggende wetsvoorstel. Ik zal mij vandaag dan ook tot het voorliggende wetsvoorstel beperken, in lijn met de oproep die u, voorzitter, deed aan het begin van de eerste termijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg6">Het wetsvoorstel dat vandaag voorligt, regelt een aantal zaken. Ten eerste: het verduidelijken van de definitie van melkvee, zodat helder is welk jongvee wel en welk niet onder het fosfaatrechtenstelsel valt. Dit onderdeel is belangrijk voor de handhaving van het stelsel. Hiermee geef ik ook invulling aan een gerechtelijke uitspraak van het College van Beroep voor het bedrijfsleven. Twee. Het bieden van een wettelijke basis voor de reeds bestaande vrijstellingsregeling voor de zoogkoeienhouderij. Dit is belangrijk voor de zoogkoeienhouders die geen relatie hebben met de melkveehouderij. Drie. Het bieden van een beperkte mate van flexibiliteit aan ondernemers om onvoorziene omstandigheden op te vangen om verduurzaming te faciliteren. Dit betreft de gedeelten afromingsvrije lease en renovatielease. Hieraan ligt een breed gedragen wens vanuit de Tweede Kamer ten grondslag. Vier. Het doorvoeren van enkele technische aanpassingen, zoals de registratie van transacties rond de jaarwisseling en het herstellen van een omissie ten aanzien van de strafbaarstelling.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg7">Het betreft hier dus een wetsvoorstel van tamelijk technische aard. Het wetsvoorstel pakt neutraal uit qua milieueffect. Ik ben de eerste die zal zeggen dat het wetsvoorstel niet de oplossing is voor alle uitdagingen waar de landbouw, en in het bijzonder de melkveehouderij, voor staat. Daarvoor is veel meer nodig. Daarover zal ik, zoals ik net ook zei, zeker met uw Kamer komen te spreken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg8">Tegelijkertijd staat het wetsvoorstel het aangaan van uitdagingen niet in de weg. Het betreft in essentie een verduidelijking van het fosfaatrechtenstelsel en het bieden van enige flexibiliteit aan ondernemers binnen de kaders van het fosfaatrechtenstelsel zoals dat eerder wettelijk is vastgesteld. Niet meer en niet minder dan dat.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg9">Hierna zal ik de vragen van uw Kamer over het wetsvoorstel zo goed mogelijk proberen te beantwoorden. Dat doe ik aan de hand van een aantal blokjes. Eén. De beantwoording van enkele specifieke vragen die raken aan de reikwijdte van het wetsvoorstel. Twee. De relatie tussen het wetsvoorstel en de derogatie van de Nitraatrichtlijn, alsmede de wettelijk vastgestelde plafonds. Drie. De definitie van melkvee en de gevolgen voor de vleesveehouderij. Vier. Het onderdeel van de 100 kilo afromingsvrije lease. Vijf. Het onderdeel van de renovatielease. Zes. De handhaafbaarheid van het wetsvoorstel. En zeven. Nog wat overige zaken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg10">Meneer de voorzitter. Ik start met blok één. Dat betreft vragen van GroenLinks en de Partij van de Arbeid. Hoe vult het kabinet het voorzorgsprincipe en het verslechteringsverbod in voor de Natura 2000-gebieden? Dit gebeurt via de Wet natuurbescherming en op die wet gebaseerde vergunningverlening. De hoeveelheid melkvee die een landbouwer met fosfaatrechten houdt, moet binnen die vergunning passen. Dit wetsvoorstel verandert daarin niets.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg11">Dan de volgende vraag van GroenLinks en de Partij van de Arbeid. De minister moet kiezen voor boeren. Kiest hij dan voor grondgebonden boeren, voor derogatieboeren of voor alle boeren, was de vraag. Mijn antwoord daarop is dat ik kies voor alle boeren. Zij moeten namelijk opereren binnen de grenzen van het milieu en dan vind ik niet dat ik op dit moment onderscheid moet maken tussen boeren. Daarmee is het debat niet geholpen. Ik vind dat wij toekomstperspectief moeten geven aan alle boeren. Dat is met het coalitieakkoord ook gedaan. Daarover ga ik graag op een ander moment met u in gesprek. Ik zie wel het belang van het stapsgewijs toewerken naar een volledig grondgebonden melkveehouderij. Daarvoor ga ik mij de komende periode ook inzetten.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg12">Dan een vraag van de Partij voor de Vrijheid. Wil de minister meer duidelijkheid en zekerheid verschaffen aan boeren over emissiereductiefactoren van stallen en onderzoeken hierover vrijgeven? Er was ook een vraag over de problematiek rond het hoogveengebied in Overijssel. De vragen die door mevrouw Faber zijn gesteld over de emissiereductiefactoren van stallen en over het hoogveengebied in Overijssel zien niet op de inhoud van het wetsvoorstel. Inhoudelijk vallen deze onderwerpen ook deels onder de verantwoordelijkheid van de minister voor Natuur en Stikstof en van de provincie. Wij gaan graag op een ander moment met u het debat daarover aan.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg13">Ten algemene wil ik wel aangeven dat ik zeer hecht aan transparantie van beleid. Om boeren perspectief te geven, is het belangrijk dat zij weten waar ze aan toe zijn, zeker wat betreft de eisen die de overheid aan hun bedrijfsvoering stelt. U kunt er dus op rekenen dat ik mij hiervoor inzet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note5">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u4">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg14">Het is elke keer drie keer proberen voordat de microfoon het doet. Maar dat geeft niet, we komen er in ieder geval. Dat maakt dus niet uit. Ik ben in ieder geval blij dat de minister aangeeft dat hij hier staat voor alle boeren. Dat is dus een compliment. Ik ben niet zo complimenteus, dus ik zou zeggen: dat heeft u binnen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg15">Goed. Een ander punt is toch de renovatielease. Ik heb vragen gesteld over de renovatie van stallen om emissie te beperken. Daarvoor is die renovatielease. Wij hebben hier als Kamer ook de taak om te kijken of zaken uitvoerbaar zijn. Ik heb ook aangekaart: het klinkt allemaal wel heel mooi, die renovatielease, maar als je vervolgens je stal gaat renoveren en er blijkt vervolgens …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note6">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:housi" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u5">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg16">Mag ik even tussendoor komen? De minister heeft net aangegeven dat de renovatielease zijn vijfde blok is, als ik het niet verkeerd heb.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note7">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u6">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg17">Klopt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note8">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u7">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg18">Zullen we toch even wachten tot de minister daar … Anders gaan we het erg door elkaar gooien. Dan weten we zeker dat we hier morgenochtend nog zitten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note9">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u8">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg19">Ik begrijp uw standpunt, maar ik was erop ingehaakt omdat de minister dit specifiek op mijn vraag aangaf. Maar ik wil mijn vraag zeker uitstellen tot het blokje over de renovatielease. Dat vind ik prima, want dan hebben we alles bij elkaar. Dat is wat mij betreft helemaal geen probleem.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg20">Dan had ik nog een andere vraag. De minister haakte ook in op dat Wierdense Veld. Daar zou hoogveen moeten zitten. Dat gebied is niet groter dan onze plenaire zaal. De minister zegt daarvan: dat gaat een beetje buiten de reikwijdte. Maar de Natura 2000-gebieden zijn natuurlijk wel de aanjager van het hele probleem dat we hebben. Vandaar dat ik het wel op tafel had gelegd. Ik vind dat journalisten toch wel gewoon een kijkje moeten kunnen nemen met onafhankelijke experts in zo'n gebied. De minister geeft aan dat hij voor transparantie is. Ik moet me dus voor kunnen stellen dat de minister er wel voorstander van is dat bijvoorbeeld een journalist en experts ook in zo'n natuurgebied kunnen gaan kijken. Ik snap wel dat je zo bent uitgekeken op dat stukje …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note10">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u9">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg21">Uw vraag is duidelijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note11">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u10">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg22">Maar desalniettemin stel ik toch mijn vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note12">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u11">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg23">Ik heb volgens mij gezegd dat ik hecht aan transparantie van beleid. Dit gaat over provinciale gronden, dus ik doe daar geen uitspraak over. Maar ik zou me kunnen voorstellen dat er geen enkele belemmering is om gewoon in het gebied te kijken. Dat lijkt mij wat dat betreft geen enkel probleem.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg24">Ik kom straks nog terug op de andere vragen, mevrouw Faber.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg25">Dan is er namens de SP een vraag gesteld overdat er niet gekeken wordt of de wet positieve milieueffecten zou kunnen hebben. Het antwoord daarop namens het kabinet is dat dit wetsvoorstel, de technische aanpassingen, niet tot doel heeft gehad om de effecten op het milieu te beperken. Het heeft ook geen toenemend effect; dat heb ik net gezegd in mijn beantwoording. Het ziet enkel op de gewenste flexibiliteit voor landbouwers. Indien de verdere uitwerking van het coalitieakkoord, de aangekondigde transitie in de landbouw, er aanleiding toe geeft om dit weer aan te passen, dan zal er zeker een wetsvoorstel worden voorbereid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note13">De heer Janssen (SP)</note>
+            <u who="#RikJanssen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u12">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg26">Ik zal mijn interrupties beperken, voorzitter. Nee, het had het niet tot doel, maar mijn vraag was nu juist: kunnen we het ons nog veroorloven om eendimensionale maatregelen te nemen? Zouden we er niet naar op zoek moeten dat we bij iedere maatregel die we nemen, kijken of we daar niet een positief … Want alle beetjes helpen en we moeten heel veel. Dat was mijn vraag. Die gaat breder dan alleen dit wetsvoorstel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note14">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u13">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg27">Ik snap de vragen heel goed. Ik heb daar in mijn inleiding ook wat over gezegd, met name over mijn ambitie met betrekking tot de gebiedsgerichte brede aanpak en de transitie van de landbouw. Ik vind dat wij alle zaken die ertoe doen, aan moeten grijpen om aan te pakken. Maar dit wetsvoorstel gaat met name in op de technische aspecten. Vanuit de Kamer en de sector wordt de noodzaak ook gevoeld om dat aan te passen. Ik zie dit ook als mogelijkheid om de transitie te versnellen. Waar we in dit kader flexibiliteit aan kunnen brengen, is een heel goede zaak, denk ik.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg28">Is deze wet toekomstbestendig, wordt door de SP-fractie gevraagd. Gaan we niet iets regelen wat we later moeten terugdraaien? Ik heb daarop net al een voorschot genomen. De voorgestelde wijziging van het stelsel heeft geen gevolgen voor de wijze waarop het fosfaatrechtenstelsel bijdraagt aan het behalen van het doelbereik van de Nitraatrichtlijn en de Kaderrichtlijn Water. Op dit moment zijn er dan ook geen aanwijzingen voor dat er risico's zijn dat dit niet toekomstbestendig is. Ik zei richting de SP-fractie ook dat wij met uw Kamer nog gaan discussiëren over de toekomst van de landbouw.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg29">Dan het blokje derogatie en plafonds. Ik kom op de vragen van GroenLinks en de Partij van de Arbeid. Deze wet hangt samen met de derogatie. Waarom legt het kabinet die verbinding niet? Wat doet het met het vertrouwen van boeren in het kabinet? En wie betaalt de prijs als het onverwacht niet goed gaat? Ik zei ook net in antwoord op de vraag van de heer Janssen dat dit wetsvoorstel geen direct verband houdt met de derogatie. Daarom is dit verband ook niet gelegd. Over de derogatie wil ik wel aangeven dat mijn inzet erop gericht is om de derogatie verlengd te krijgen. Hierover worden momenteel gesprekken gevoerd met de Europese Commissie. Dat is niet gemakkelijk. Op het moment dat er meer duidelijkheid over is, zal ik uw Kamer hierover informeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note15">Mevrouw Kluit (GroenLinks)</note>
+            <u who="#SaskiaKluit" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u14">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg30">Het doet mij een beetje denken aan de gesprekken die gevoerd zijn rondom de kokkelvisserij, of — ik zeg het verkeerd — de pulskorfvisserij. Toen waren wij er in Nederland ook heel erg van overtuigd dat dit geen verband had. Maar ik constateer dat wij aan Europa communiceren dat wij de fosfaatbank minder snel vullen. Wij communiceren aan Europa dat wij een deel van de dieren niet meer onder het fosfaatrechtenstelsel laten vallen. We brengen ze niet naar de slacht, dus ze blijven wel poepen. De rechten blijven in het systeem en worden dus ook gebruikt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note16">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u15">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg31">Dus uw vraag is?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note17">Mevrouw Kluit (GroenLinks)</note>
+            <u who="#SaskiaKluit" ana="#guest topic:inter" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u16">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg32">Mijn vraag is of de minister … Ik wil de minister toch uitnodigen om erover na te denken dat ze in Europa heel goed op ons letten en ook dit soort signalen oppikken, ook al denken wij zelf dat het over verschillende dingen gaat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note18">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u17">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg33">Ik ben het met mevrouw Kluit eens. U bedoelde waarschijnlijk de pulskor?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note19">Mevrouw Kluit (GroenLinks)</note>
+            <u who="#SaskiaKluit" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u18">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg34">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note20">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u19">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg35">De pulskorvisserij. Dat klopt. We hadden een goede techniek, waarvan wetenschappelijk gedacht werd dat de techniek voldeed. Maar door een politiek besluit is het toch anders geworden. Ik kom in de rest van mijn beantwoording nog even verder terug op uw vraag, want natuurlijk is het belangrijk. Mijn stelling is dat de derogatie kan helpen, ook bij de transitie van de agrarische sector. Als de derogatie nu niet verleend zou worden — dat is ook de inzet richting de Europese Commissie — zou dat een behoorlijke lockdown betekenen voor de sector. Het betekent ook dat de transitie naar een toekomstbestendige landbouw echt in gevaar komt. Dat is ook de reden waarom wij ervan uitgaan, en ook hopen, dat die derogatie nu nog even verleend gaat worden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg36">Dan een vraag van de SGP-fractie: op welke wijze gaat de minister voorkomen dat boeren worden afgerekend op de trage besluitvorming rond de derogatie? Ik zei net dat de gesprekken gaande zijn en dat het lastige gesprekken zijn, maar mijn inzet is erop gericht om zo snel mogelijk duidelijkheid te verkrijgen, omdat dit, zoals ik net ook aangaf, nodig is voor de sector. Ik blijf me hiervoor inzetten, juist omdat dit positieve effecten heeft op onze milieudoelen en ook voor de toekomst van de landbouw.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg37">Dan een vraag van de SGP-fractie over onder of boven het fosfaatplafond.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note21">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u20">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg38">Meneer Schalk wil al interrumperen voordat u het antwoord gegeven heeft. Of wilt u nog even wachten op het antwoord, meneer Schalk?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note22">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u21">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg39">Voorzitter, ik wilde alleen maar reageren op het eerste antwoord. De minister was nu volgens mij met zijn tweede antwoord bezig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note23">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u22">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg40">Dat klopt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note24">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u23">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg41">Maar wat betreft het eerste antwoord: kan de minister ook een beginnetje van een tijdpad schetsen voor die derogatie? Hij geeft non-verbaal aan dat het ingewikkeld wordt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note25">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u24">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg42">Ik zou het graag willen. Daarmee geef ik al gelijk aan dat het niet allemaal gemakkelijk is wat we in Brussel aan het doen zijn. Ik heb daar gisteren ook weer met de Eurocommissaris over gesproken. Ik kan echt geen uitspraken doen over het vervolg. Wij doen ons best. Ik hoop zo snel mogelijk duidelijkheid te krijgen. Als die duidelijkheid er is, zorg ik er ook voor dat u daarover geïnformeerd wordt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg43">Dan de vraag of we nu onder of boven het fosfaatplafond zitten. Ik merk dat er enige verwarring is over fosfaatrechten, fosfaatproductie, wat de stand van zaken is en hoe dit samenhangt met de waterkwaliteit. Daarom wil ik — het wordt wat technisch — proberen om in mijn bijdrage wat helderheid te geven. Dat doe ik aan de hand van verschillende monitorgegevens die opgesteld worden. Het aantal fosfaatrechten dat in de markt aanwezig is, wordt geregistreerd en gemonitord door RVO. Per 1 januari 2022 zijn er circa 85 miljoen kilo fosfaatrechten in de markt geregistreerd, waarvan 700.000 kilo bij de vleesveehouderij. Tezamen is dit circa 100.000 kilo boven het sectorale fosfaatplafond van de melkveehouderij. Maar daarmee is niet gezegd dat de daadwerkelijke fosfaatproductie ook boven dit plafond ligt. De daadwerkelijke fosfaatproductie door de Nederlandse veestapel wordt door het CBS gemonitord en elk kwartaal gerapporteerd. Uit de vierde kwartaalrapportage over 2021 blijkt dat de melkveehouderij naar verwachting 74,1 miljoen kilo fosfaat geproduceerd heeft, ruim 13% onder het sectorale productieplafond. De stikstofproductie komt naar verwachting uit op 279,6 miljoen kilo, wat bijna 1% lager is dan het sectorale plafond. Tot slot monitort het RIVM overeenkomstig de vereisten van de Nitraatrichtlijn de ontwikkeling van de waterkwaliteit. De Nitraatrichtlijnrapportage wordt iedere vier jaar opgesteld. De laatste gegevens zijn opgenomen in het bij u bekende zevende actieprogramma Nitraatrichtlijn. Dit houdt dus geen direct verband met het wetsvoorstel dat we vandaag in uw Kamer behandelen, maar het leek mij wel dienend om u daarover helderheid te geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg44">Dan nog de vraag over het afromingspercentage naar 10%. De wet stelt dat binnen twee weken nadat de potentiële fosfaatproductie van melkvee onder het sectorale plafond blijft, het afromingspercentage moet worden aangepast naar 10%. Het eerder aanpassen van het afromingspercentage lijkt mij niet gewenst.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg45">Voorzitter, dan naar blokje drie. Een vraag van de Partij van de Arbeid en de GroenLinksfractie: waarom is er niet voor gekozen om jongvee onder de categorie melkvee te brengen? Het antwoord daarop is dat voor jongvee voor de vleesveehouderij ingevolge dit wetsvoorstel alleen fosfaatrechten nodig zijn als dieren een kalf krijgen of bestemd zijn om een kalf te krijgen. Deze groep valt onder de definitie van melkvee. Voor jongvee voor de vleesveehouderij dat nooit een kalf krijgt en dus niet bestemd is om een kalf te krijgen, en dat dus alleen gehouden wordt voor de productie van vlees, zijn geen rechten nodig. Dat valt dus niet onder de definitie. Met deze indeling wordt duidelijkheid gegeven voor welk jongvee fosfaatrechten nodig zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg46">Dan nog een vraag van de CDA-fractie. In de toelichting wordt aangegeven dat vleesveehouders waarbij jongvee alleen voor de slacht bedoeld is, worden vrijgesteld van fosfaatrechten en dat zij hun fosfaatrechten dienen in te leveren. Betekent dit dat deze fosfaatrechten worden ingeleverd bij de fosfaatbank, dan vervolgens 20% wordt afgeroomd en het restant beschikbaar blijft voor de grondgebonden melkveehouderij? Dat was de vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note26">De heer Koffeman (PvdD)</note>
+            <u who="#NikoKoffeman" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u25">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg47">De minister schetst een aantal verschillende categorieën rundvee en de al dan niet benodigde fosfaatrechten. Maar we hebben natuurlijk te maken gehad met een I&amp;R-fraude, waarbij het moeilijk bleek om hoeveelheden runderen aan te geven, laat staan de classificatie tussen die runderen onderling en het doel waarvoor ze gehouden worden. Dus wat geeft de minister nou het grote vertrouwen dat in een sector waar, om welke reden dan ook en met alle begrip voor de moeilijkheden van de boeren, toch veel dingen misgaan? Waarom denkt de minister dat we met een beperkte handhavingscapaciteit toch dat onderscheid heel goed kunnen handhaven?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note27">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u26">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg48">Ik kom straks nog over de handhaving te spreken, dus misschien dat ik het antwoord daar dan in kan vlechten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note28">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u27">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg49">Begrijp ik het goed? Als je jongvee dus vanuit melkvee onder een andere categorie plaatst, dan worden ze niet meegerekend met de fosfaatrechten. Maar ze produceren wel fosfaat. Dat is de reden waarom wij iedere keer zeggen "er is wel een risico op fosfaatproductie", dus graag daar nog een verheldering over. Waarom wordt dan halsstarrig vastgehouden aan neutraal? Dat is iedere keer waar u op terugkomt, maar wij constateren een verschuiving naar een andere categorie, die extra fosfaat uitstoot. Dat zal blijven, maar dat wordt niet meegerekend. Het effect daarvan is dat er in de melkveecategorie ruimte ontstaat, die weer opgevuld kan worden met nieuw melkvee. Dus dan heb je aan beide kanten extra productie van fosfaat. Die wordt alleen niet meegerekend, maar er is in de praktijk wel extra fosfaat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note29">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u28">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg50">Ik snap wat de heer Karakus zegt. De wet zag toe op de melkveehouderij en het plafond daarin en de manier waarop we daarover helderheid moesten verkrijgen. Wat we nu doen, is een verduidelijking van de wet invoeren. Ik snap wat u zegt. Ik kan me voorstellen dat dit onderdeel is van de discussie over de toekomst van de agrarische sector waar het gaat over plafonds. We spreken hier gewoon over een aanpassing van de wet en niet over de discussie of we nou van de ene naar de andere categorie moeten doorschuiven. Want u heeft groot gelijk: natuurlijk, ook deze diercategorie stoot mest uit. Alleen, deze wet ziet toe op de melkveehouderij, die de productie van melk met zich mee brengt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note30">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u29">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg51">Ja, maar we hebben het hier over een voorstel waardoor er extra productie van fosfaat is in de praktijk. Eigenlijk zou onze inzet moeten zijn: waar het kan, moeten we verlagen. En dat is zo, want u maakt die keuze wel in uw voorstel. Je kan ook zeggen: we gaan afromen. Daardoor kan je extra productie voorkomen. Dus het is niet zo dat het alleen maar om de definitie van "melkvee" gaat, het gaat ook om risico van extra fosfaat. Daar zou u maatregelen op kunnen nemen. Het verzoek van het CDA vanmiddag was ook om tot een betere balans te komen. Dus ik ben benieuwd naar de maatregelen die u gaat nemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note31">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u30">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg52">Ik heb al aangegeven in de eerdere vragen die ik beantwoord heb dat wij ten aanzien van het milieu geen toename zien van de belasting. Dat is ook de reden waarom wij nu dit voorstel doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note32">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u31">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg53">Geen tot slot, meneer Karakus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note33">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u32">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg54">Ja, maar ik snap 'm niet meer. Wij constateren toch dat er een toename is? Ik bedoel, dat is ook uw constatering. Er is een toename van de uitstoot van fosfaat. Alleen, dat is boekhoudkundig. Dat is het verhaal: het valt niet onder fosfaatrecht, onder de juridische kant. Daarmee zeggen we toch niet dat er geen extra fosfaatuitstoot is? Er wordt extra fosfaat geproduceerd, mede dankzij uw voorstel. De vraag is: waarom doet u dat?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note34">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u33">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg55">Ik heb net geantwoord dat wij, als we kijken naar de wet en de definitie die wij willen aanbrengen in deze aanpassing van de wet, geen toename zien van de milieudruk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note35">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u34">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg56">Minister, was u klaar?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note36">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u35">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg57">Ik was klaar met de beantwoording van deze vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note37">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u36">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg58">Een laatste poging. Minister, u geeft zelf al aan dat er in de praktijk extra fosfaatuitstoot plaatsvindt; punt. Dat is toch zo?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note38">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u37">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg59">Ik heb net gezegd in antwoord op uw vraag en op eerdere vragen dat wij beoordelen dat de milieudruk niet toeneemt. Dat is het antwoord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note39">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u38">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg60">De milieudruk neemt toe! Want extra fosfaatuitstoot betekent dat de milieudruk toeneemt. Alleen, u maakt er een juridisch, boekhoudkundig verhaal van. Maar de milieudruk neemt toch toe? Of vergis ik mij? Want dat zegt u zelf ook: extra fosfaat betekent extra milieudruk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note40">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u39">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg61">Ik ga geen ander antwoord geven dan ik eerder heb gegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note41">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u40">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg62">Vervolgt u uw betoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note42">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u41">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg63">Ik was bij de beantwoording van de CDA-vraag over de 20%. Het antwoord daarop is nee. Bij de keuze voor de vrijstellingsregeling zoogkoeienhouderij is er een randvoorwaarde dat de fosfaatrechten worden ingeleverd en doorgehaald. De doorgehaalde rechten zijn dus niet beschikbaar voor de fosfaatbank.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg64">Dan nog een tweede vraag: hebben wij het goed begrepen dat de handhaving van het onderscheiden van kalveren die wel voorbestemd zijn om te kalven en de kalveren die voor de slacht bestemd zijn, goed te realiseren is? Het antwoord daarop is: ik acht dat goed te realiseren. Naast de gerichte controles door de NVWA op het uitbreidingsverbod, kunnen ook bij andere inspecties op mestwetgeving overtredingen op het fosfaatrechtenstelsel worden geconstateerd. De NVWA mag bij een controle meer dan één jaar terugkijken. Zoals gebruikelijk heeft de NVWA een uitvoerbaarheids- en handhaafbaarheidstoets uitgevoerd op het wetsvoorstel. Het oordeel op dit wetsvoorstel was positief. Dat betekent dat het wetsvoorstel goed is te handhaven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note43">De heer Janssen (SP)</note>
+            <u who="#RikJanssen" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u42">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg65">Dat oordeel was positief. Maar ik hoor niks anders dan dat de NVWA alleen maar tekorten heeft om überhaupt het werk aan te kunnen dat op hun bordje ligt. Dus mijn vraag, die ik ook in eerste termijn gesteld heb, is: hebben ze gezegd "dit doen we er wel bij" of zeggen ze "ja, dit zou te handhaven zijn, wetstechnisch et cetera …"? Maar hebben ze er ook genoeg mensen voor? Zijn er mensen voor vrijgemaakt? Als zij hier mensen voor moeten verschuiven, wat gebeurt er dan niet meer? Dat is dus mijn vraag, want ik kijk naar het totaal en ik zie een dienst die overspannen is in de opgaven die ze hebben. Kunnen ze het theoretisch aan of kunnen ze het in de praktijk ook aan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note44">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u43">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg66">Deze vraag is bij de NVWA neergelegd. De NVWA heeft geantwoord zoals ik u net heb aangegeven. Dat betekent ook dat op het moment dat daar niet aan wordt voldaan, ik de NVWA daar ook op aan ga spreken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note45">De heer Janssen (SP)</note>
+            <u who="#RikJanssen" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u44">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg67">De vraag is of u een dienst mag aanspreken die ... De vraagstelling "kunt u dit aan?" lijkt me niet de vraagstelling die neergelegd is. De NVWA kennende, zullen ze ook gezegd hebben: ja, maar we hebben wel nogal wat bedenkingen, want we hebben qua capaciteit nog wel wat problemen links en rechts, want we hebben nog een paar andere klussen op ons bord liggen. Dus ik vind de enkele zin van de minister "we hebben gevraagd 'kunt u dit?' en ze hebben 'ja' gezegd en daarmee moet u het maar doen" erg mager.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note46">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u45">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg68">Om dat beeld dan gelijk maar weg te nemen: ik ben twee weken geleden bij de NVWA op bezoek geweest en ik vind dat de NVWA een organisatie is die prima op orde is. Natuurlijk zijn er zaken die extra aandacht behoeven. Daar is ook extra geld voor beschikbaar gesteld. Daar wordt ook hard aan gewerkt. Als op mijn vraag "is het mogelijk om dit handhaafbaar te toetsen?" de NVWA volmondig "ja" zegt, dan ga ik ervan uit dat ik daarop mag vertrouwen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note47">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u46">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg69">De heer Janssen, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note48">De heer Janssen (SP)</note>
+            <u who="#RikJanssen" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u47">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg70">Tot slot, voorzitter. Dan hoor ik de minister hier dus zeggen dat de NVWA geen capaciteitsproblemen heeft om dit in de volledige breedte te kunnen toetsen en ook uit te voeren in de handhaafbaarheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note49">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u48">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg71">Ik heb de heer Janssen dit horen zeggen. Ik heb antwoord gegeven op de vraag die de heer Janssen heeft gesteld. Ik ga ervan uit dat we op het moment dat de NVWA zegt "dit is uitvoerbaar" ik hen ook mag aanspreken op het moment dat dat nodig is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note50">De heer Koffeman (PvdD)</note>
+            <u who="#NikoKoffeman" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u49">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg72">Maar het is toch wel een probleem dat de NVWA keer op keer in negatieve zin in beeld komt bij bijvoorbeeld reportages die gaan over mestfraude of reportages die gaan over problemen in slachthuizen. Dan wordt duidelijk dat de NVWA niet handhaaft zoals de wetgever dat eigenlijk bedoeld heeft. Dan is het zo, en daar wil ik collega Janssen bijvallen, dat het toch wel heel lastig is om aan iemand aan wiens capaciteiten van handhaving regelmatig getwijfeld wordt — extern, dus in de media — te vragen "gaat het goed, kan je het?" en dat die zegt "ja, het gaat goed hier". Maar dat laat onverlet dat er voortdurend schandalen zijn rond die toezichthoudende dienst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note51">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u50">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg73">Dus uw vraag is?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note52">De heer Koffeman (PvdD)</note>
+            <u who="#NikoKoffeman" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u51">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg74">Mijn vraag is: zou er niet een externe toets op die handhavingscapaciteit kunnen worden ingesteld, anders dan aan de NVWA vragen "gaat het goed met u?"</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note53">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u52">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg75">Ik heb volgens mij duidelijk op de vraag van meneer Janssen geantwoord dat ik, op het moment dat de NVWA mij toezegt dat dit uitvoerbaar is, acht dat dat ook zo is en dat ik ze daaraan kan houden. De heer Koffeman spreekt over de NVWA alsof het een instantie is waar het niet goed is. Ik heb mij ervan laten overtuigen dat het een organisatie is die uitstekend in staat is om haar werk te doen. Dat er hier en daar capaciteitsproblemen zijn, is duidelijk. Daar is nu extra geld voor beschikbaar en daar wordt heel hard aan gewerkt. Er wordt hard gewerkt om meer medewerkers te krijgen om toezicht en handhaving op een nog hoger plan te brengen. Ik heb er vertrouwen in dat het plan dat door hen gepresenteerd is, gaat werken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note54">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u53">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg76">Tot slot, meneer Koffeman.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note55">De heer Koffeman (PvdD)</note>
+            <u who="#NikoKoffeman" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u54">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg77">Ik vind het een goede zaak dat de minister vertrouwen heeft in het kader van "laat uw ja, ja zijn en uw nee, nee". Ik herken dat wel. Maar de rijksoverheid heeft de NVWA een behoorlijk jasje uitgetrokken. Dat is bij de Belastingdienst ook gebeurd. Daarover hebben we dezelfde discussie gehad. Daarbij zeggen we ook tegen de verantwoordelijke bewindspersoon: ja, je kan wel zeggen dat er problemen zijn bij de Belastingdienst, maar die heb je zelf veroorzaakt. De vraag is dus: gaan we echt de capaciteitsuitbreiding bij de NVWA realiseren die hun goede voornemens waarheid kan maken, in plaats van dat het het plaveisel voor de weg naar de hel wordt?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note56">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u55">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg78">Ik hoop dat van harte. Ik heb toezeggingen vanuit de directie. Er wordt heel hard gewerkt. Zoals ik net ook al heb geschetst wordt er gevraagd om medewerkers. Ik volg het ook. Ik volg direct hoe het allemaal verloopt en ik ben hoopvol gestemd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note57">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u56">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg79">Vervolgt u uw betoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note58">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u57">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg80">Ik was aanbeland bij blokje vier, mijnheer de voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg81">Ik heb een vraag van de fractie van de Partij van de Arbeid en GroenLinks. Waarom wordt er op de 100 kilometer in lease niet afgeroomd? Met de versoepelingen registratieartikelen zijn boeren toch al geholpen? De maatregel 100 kilometer — 100 kilometer? Ik weet niet waar ik dat nou vandaan haal — 100 kilo afromingsvrije lease faciliteert het verwerven van fosfaatrechten om een onverwacht hogere melkproductie op te vangen en verbetert daarmee de werking van het fosfaatrechtenstelsel. Met alleen een versoepeling van de registratie wordt het aanbod van de te leasen fosfaatrechten niet echt groter.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg82">De vraag van D66: draagt dit voorstel van het vorige kabinet bij aan de doelstelling van het huidige kabinet over de transitie van de landbouw? Maakt dit het niet moeilijker? Ik heb daar net al wat over gezegd. Dit wetsvoorstel voorziet boeren in de gewenste flexibiliteit bij de afromingsvrije lease. Het wetsvoorstel ziet niet op de in het coalitieakkoord aangekondigde transitie van de landbouw. Daarover ga ik graag op een ander moment met u in gesprek.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note59">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u58">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg83">De heer Karakus. O, eerst de heer Pijlman.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note60">De heer Pijlman (D66)</note>
+            <u who="#HenkPijlman" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u59">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg84">Ik begrijp wat u zegt, maar de fosfaatbank neemt wel met 10% af. Dat betekent een moeilijkere transitie. Dus mijn vraag is: onderschrijft u dat?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note61">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u60">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg85">In de context van dit wetsvoorstel bedoelt u dat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note62">De heer Pijlman (D66)</note>
+            <u who="#HenkPijlman" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u61">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg86">Zeker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note63">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:trans" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u62">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg87">Onderschrijf ik dat? Ik zie dit wetsvoorstel en de aanpassing daarvan echt als een mogelijkheid om de transitie mogelijk te maken en helderheid en duidelijkheid te verschaffen. Dus het antwoord op uw vraag is nee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note64">De heer Pijlman (D66)</note>
+            <u who="#HenkPijlman" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u63">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg88">Ik snap dat u dat zegt over maatregel 1 en maatregel 3. Maar de minister van LNV kan er toch niet blij mee zijn dat de fosfaatbank met 10% afneemt voor een beetje flexibiliteit. Dat had ook echt wel anders gekund, want de flexibiliteit die u nu geeft, is nogal fors. Die nodigt uit om steeds op de grenzen te gaan zitten. Ik kan niet anders dan concluderen dat er een afname is van de fosfaatbank, die we zó nodig hebben om de transitie aan de gang te krijgen. Ik kan me niet voorstellen dat u daar blij mee bent.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note65">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u64">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg89">Ik kom daar in een antwoord zo meteen nog even nader op terug. Als u dan niet tevreden bent, dan horen we het graag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note66">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u65">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg90">Dan horen we het zeker. De heer Schalk namens de SGP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note67">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u66">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg91">Begrijp ik van de minister dat hij zijn antwoorden rondom de 100 kilo …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note68">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u67">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg92">Dat komt nog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note69">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u68">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg93">Het komt nog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note70">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u69">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg94">Zo gaat het lang duren. Vervolgt u uw betoog, minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note71">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u70">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg95">Ik zie een Kamer hongerig naar antwoorden. GroenLinks en de Partij van de Arbeid vragen hoe het afromingsvrij maken past in de visie van het kabinet richting circulaire landbouw en hoe deze wet consistent is met het kabinetsbeleid richting duurzame landbouw. Ik heb hier net ook al iets over gezegd. De wet ziet niet op de visie van het kabinet naar circulaire of duurzame landbouw. Mocht het bij de uitwerking van het coalitieakkoord over duurzame landbouw nog nodig blijken — ik zeg het nogmaals — om de Meststoffenwet aan te passen, dan zal hiervoor zeker een wetsvoorstel worden voorbereid. Het betreft vandaag slechts de technische wijzigingen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg96">Wil het kabinet een maximaal aantal periodes aan de lease koppelen? Nee. Er is voor gekozen dat een bedrijf, en daar komt-ie, in totaal per kalenderjaar maximaal 100 kilo afromingsvrij kan leasen. Dat is een beperkt aantal rechten. Landbouwbedrijven kunnen niet groeien via deze maatregel, omdat de geleasede fosfaatrechten terug moeten gaan naar het oorspronkelijke bedrijf. Permanente groei is dus niet aan de orde. Na invoering van de maatregel 100 kilo afromingsvrije lease zal ik via de Rijksdienst voor Ondernemend Nederland het verloop van de registraties nauwkeurig volgen. Mocht blijken dat de omvang van de afromingsvrije lease toch onvoldoende aansluit bij de gemiddelde landbouwpraktijk, dan ben ik bereid om na te denken over de bijstelling.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note72">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u71">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg97">De heer Karakus gaat niet zijn eerdere vraag herhalen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note73">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u72">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg98">Ik hoor heel vaak dat het een technische wijziging is. Maar met zo veel consequenties als de fosfaatbank en extra druk op het milieu kunt u toch niet blijven volhouden dat het alleen maar een technische wijziging is? Ik zou graag van u willen weten hoe u de consequenties van zo'n technische wijziging ziet. Wat zijn volgens u de nadelen daarvan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note74">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u73">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg99">Volgens mij heb ik in mijn inleiding antwoord gegeven op de vraag waarom wij achten dat deze wet op een aantal zaken technisch aangepast zou moeten worden. Het is een wens van de Tweede Kamer en wij achten dat deze wet daardoor duidelijker en eenvoudiger wordt. Dat is de reden waarom wij deze voorstellen aan de Tweede Kamer hebben gedaan en ook nu aan de Eerste Kamer voorleggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note75">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u74">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg100">Mijn vraag was: wat zijn volgens u de nadelen van de technische wijziging? Met andere woorden, wat zijn volgens u de consequenties?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note76">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u75">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg101">Het wordt een herhaling van zetten. Ik zie de nadelen niet. Ik zie voordelen van deze technische aanpassing. Het is een verduidelijking. Dat is de reden waarom ik het vandaag in uw Kamer verdedig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note77">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u76">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg102">Tot slot, meneer Karakus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note78">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u77">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg103">Dan ben ik straks wel benieuwd naar uw antwoord over de fosfaatbank. Het heeft toch een ernstige consequentie voor de boeren. U zegt "we komen op voor alle boeren", maar u laat die boeren straks in de steek. Dat is wel degelijk een consequentie van een technische wijziging.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note79">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u78">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg104">Mijn antwoord is dat dat niet het geval is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note80">Mevrouw Kluit (GroenLinks)</note>
+            <u who="#SaskiaKluit" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u79">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg105">Ik wil nog even bij de minister doorvragen op de consistentie van beleid. Ik hoor de minister zeggen dat hij opkomt voor alle boeren. Dat is een mooi streven, want ook GroenLinks wil met zo veel mogelijk boeren door naar de toekomst. De vraag is alleen hoe die boeren in de toekomst in Nederland nog kunnen boeren. Met dit wetsvoorstel — u noemt het een technische wijziging — blijkt toch dat, nadat we het op een aantal onderdelen hebben afgepeld, degene die de transitie in willen stappen, het moeilijker krijgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note81">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u80">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg106">Een korte vraag, mevrouw Kluit. Dit is uw vijftiende vraag in dit debat, dus graag een korte vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note82">Mevrouw Kluit (GroenLinks)</note>
+            <u who="#SaskiaKluit" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u81">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg107">Hoe plaatst u die effecten, waar de heer Karakus ook naar vroeg, in de richting die u wilt opgaan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note83">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u82">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg108">Dat is altijd een beetje lastig antwoord geven op deze vraag. Ik wil graag met uw Kamer in gesprek over de toekomst van de landbouw. Dit ziet op een technische wijziging van een bestaande wet. Daar moeten we het even mee doen. Ik wil heel graag met u het gesprek voeren over de toekomst en over de positie van boeren. Ik heb er bewust voor gekozen om te spreken over alle boeren, omdat ik vind dat dat recht doet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note84">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u83">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg109">Het brede gesprek komt bij de kennismaking, denk ik. Gaat uw gang, minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note85">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u84">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg110">Hoe voorkomen we — dat is een vraag van de Partij van de Arbeid en GroenLinks — dat er een situatie komt waarin boeren permanent tijdelijk dieren houden? Het antwoord daarop is dat dat niet mogelijk is via de maatregel van maximaal 100 kilo afromingsvrije lease. Een bedrijf kan daarbij in totaal per kalenderjaar slechts maximaal 100 kilo leasen. Landbouwbedrijven kunnen niet groeien via deze maatregel, omdat de geleasede fosfaatrechten terug moeten gaan naar een oorspronkelijk bedrijf. Op het moment dat niet aan de voorwaarden voor de 100 kilo wordt voldaan en teruglease bijvoorbeeld niet in hetzelfde kalenderjaar plaatsvindt als de heenlease, zal alsnog afroming plaatsvinden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg111">Dan de vraag van de D66-fractie. Een gemiddelde boer heeft 105 koeien. Een koe stoot 0,7 kilo fosfaat uit. Ja, cijfers hè? Dit maakt 73,5 kilo op een gemiddeld bedrijf. Waarom kiest het kabinet dan voor 100 kilo? Bij de bepaling van de 100 kilo is het uitgangspunt geweest dat de hoeveelheid voldoende moet zijn om in de meeste gevallen veehouders de benodigde flexibiliteit te geven in geval zich een onvoorziene stijging van de melkproductie voordoet. 100 kilo is dan ook voor een deel van de bedrijven die groter zijn dan gemiddeld nog voldoende. En andersom gesteld: indien de grens exact op de 73,5 gelegd zou worden, zal grofweg de helft van de bedrijven hier onvoldoende flexibiliteit aan kunnen ontlenen om onvoorziene omstandigheden op te vangen. Dat acht ik ontoereikend. Daarom heb ik de grens iets hoger gelegd, namelijk op 100 kilo.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg112">Waarom verzwakt u de fosfaatbank met 10%, terwijl u dit instrument nodig hebt in de transitie naar de circulaire landbouw? Het effect van de 10% acht ik aanvaardbaar, om zo te kunnen voorzien in de gewenste flexibiliteit in de bedrijfsvoering. Het principe van de invulling van de fosfaatbank en de uitgifte van tijdelijke ontheffingen ter bevordering van de grondgebondenheid blijft daarbij intact.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg113">Dan kom ik bij de SGP-fractie. Ziet de minister ruimte om de 100 kilo te verhogen als dit voor grote bedrijven niet werkt en wil de minister de Kamer in het voorjaar informeren of deze wet wel doet wat die beoogt? Het antwoord op de eerste vraag is: nee, ik zie die ruimte niet. Los van het feit dat in mijn ogen de voorgestelde 100 kilo ook voor grotere bedrijven voorziet in de gewenste flexibiliteit, is het in de uitvoering zeer moeilijk om te werken met twee verschillende hoogtes van afromingsvrije lease. Het informeren wil ik u zeker toezeggen. Mogelijk — ik geef u dat in overweging — komt dit voorjaar hiervoor te vroeg. Ik zal daarom de Kamer hierover in de tweede helft van dit jaar informeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note86">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u85">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg114">Bij alle rust die de minister uitstraalt, was ik net te vlug. Nu heb ik de antwoorden inderdaad gekregen. Dank daarvoor. Wat betreft het tweede punt: ik begrijp dat. U zegt dat het beter later in het jaar kan en dat is uiteraard prima. Dank voor die toezegging.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg115">Zojuist heeft de minister over die 100 kilo ook gezegd dat hij, als het onvoldoende aansluit, wil kijken of bijstelling nodig is. De minister heeft ook gezegd dat, als hij precies op 73,5 kilo zou gaan zitten, dat voor een belangrijk deel van de bedrijven misschien niet voldoende zou zijn. Stel nou dat in de loop van dit jaar blijkt dat die 100 kilo voor een deel van de bedrijven toch nog te laag is, wil de minister dan alsnog kijken of er mogelijkheden zijn om daar toch een aanpassing op te doen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note87">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u86">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg116">De minister en het kabinet zijn natuurlijk altijd in staat om na te denken op het moment dat iets niet werkbaar is. Dus het antwoord daarop is ja. Maar laten we voorlopig aan het werk gaan met deze 100 kilo. Ik acht dat, gezien alle berekeningen die ik heb gezien, echt goed werkbaar, en het komt ook tegemoet aan de wensen. Dus vandaar.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg117">De volgende vraag van de heer Schalk is: kunnen we niet meer ruimte geven voor het leasen van boeren met een grotere veestapel en rekening houden met de bedrijfsgrootte? Ik heb daar net ook al op geantwoord. Wat mij betreft doen we dat niet; die 100 kilo is het uitgangspunt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg118">Dan nog een vraag van de CDA-fractie. Wil de minister het gebruik van de afromingsvrije lease monitoren, en zo nodig ingrijpen? Ik heb daar net ook wat over gezegd. Dat is mijn bedoeling. Nogmaals, na invoering van de maatregel zal ik bij de Rijksdienst voor Ondernemend Nederland het verloop en de registraties nauwkeurig gaan volgen. En mocht er blijken dat het onvoldoende aansluit bij de praktijk, dan ga ik nadenken over een bijstelling.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg119">Dan heb ik nog drie pakketjes. Als ik sneller moet gaan, meneer de voorzitter, dan krijg ik van u een seintje, hè?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note88">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u87">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg120">Zeker, minister. Het is bijna zover.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note89">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u88">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg121">Er was een vraag van GroenLinks en de Partij van de Arbeid. Waarom is er nog geen algemene maatregel van bestuur en wanneer komt die? De inhoud van de maatregel waarmee de renovatielease mogelijk kan worden gemaakt, is nog niet bekend, omdat het proces nog niet is gestart. Ik beoog wel op korte termijn daarmee te starten.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg122">Waarom is gekozen voor de vorm van een AMvB en niet voor een aanvullend wetsvoorstel? Dat is om op korte termijn tegemoet te kunnen komen aan de wens voor renovatielease en omdat er voorzien is in een geclausuleerde delegatiegrondslag in het wetsvoorstel die de mogelijkheid biedt de optie bij de AMvB uit te werken. Het instrument van de AMvB sluit daarnaast beter aan bij het naar verwachting gedetailleerde karakter van de uitwerking van deze maatregel.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg123">Een vraag van GroenLinks en de Partij van de Arbeid was: onder welke condities wordt de renovatielease mogelijk gemaakt? Provincies moeten toch de regie kunnen blijven voeren op het verplaatsen van dieren, maar kunnen ze dat eigenlijk wel? De inhoud van de algemene maatregel van bestuur waarmee de renovatielease mogelijk wordt gemaakt is nog niet bekend, heb ik u net gezegd, omdat het nog niet gestart is. Voor het verplaatsen van bedrijven in de nabijheid van Natura 2000-gebieden is de Wet natuurbescherming van toepassing. Verplaatsingen van vee, al dan niet met gebruikmaking van de lease, zullen binnen de vergunning van de ontvangende landbouwer moeten passen, en op die vergunningen hielden en houden de provincies toezicht.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg124">Uitstellen van de inwerkingstreding. Met het onderdeel van de renovatielease wordt een wettelijke basis gelegd voor het kunnen opstellen van een algemene maatregel van bestuur. Met de inwerkingtreding van dit onderdeel zou alleen de grondslag voor die AMvB in werking treden en niet de maatregel zelf. De inwerkingtreding van deze grondslag kan worden uitgesteld totdat de AMvB gereed is. En ik zei u: de inhoud is nog niet bekend, omdat het proces nog moet worden opgestart.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg125">Kan de minister toezeggen dat het aan de Eerste Kamer wordt voorgelegd? Ja, dat kan ik uw Kamer toezeggen. Een opmerking hierbij is wel dat er niet in een voorhangprocedure is voorzien. Ik zal de reguliere procedure volgen en kijken wat het geschikte moment is om u het ontwerpbesluit voor te leggen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg126">Dan nog de vraag: maken CO-, stikstof- en fosfaatreductie of het verplaatsen van een bedrijf deel uit van de voorwaarden voor innovatielease? Ik neem aan dat u doelt op renovatielease. Op dit moment werk ik aan de onderliggende algemene maatregel van bestuur, zoals ik u net zei. Met renovatielease zet ik in op de verduurzaming van de landbouw. Dit kan een bijdrage leveren aan de reductie, onder andere van stikstof en fosfaat. Dit is onderdeel van de uitwerking.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg127">Dan de handhaafbaarheid. Een aantal van u vroeg daar iets over.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note90">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u89">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg128">Hé, de microfoon doet het in één keer! Ik had nog een openstaande vraag over de renovatielease. Die had ik nog even laten liggen tot u bij dat blokje was. Die ging over het renoveren van de stal. De leverancier geeft een bepaalde emissiefactor aan zo'n stal. Dan wordt die stal gebouwd en dan kan het zijn dat twee jaar later, als er in de praktijk wordt gemeten, de emissie veel hoger blijkt te zijn. Dan komt zo'n boer natuurlijk van de regen in de drup. Dat is natuurlijk niet de bedoeling, want op deze manier willen ze helemaal niet meer gaan renoveren met die stallen. De vraag aan de minister is of hij een oplossing ziet om dit soort problemen te voorkomen. Zou dan niet gewoon openbaar gemaakt moeten worden waarop de emissiefactor van zo'n type stal is gebaseerd?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note91">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u90">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg129">Volgens mij stelt mevrouw Faber vragen die niet helemaal in dit debat thuishoren. Het gaat over de Rav-lijst op basis waarvan beoordeeld wordt of een maatregel wel of niet kan leiden tot stikstofreductie. Dat hoort echt thuis in een ander debat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note92">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u91">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg130">Ik vind dit iets te gemakkelijk. We hebben het over renovatielease. Dat is de bedoeling voor verduurzaming, onder andere ook voor stallen. Dan moet het natuurlijk in de praktijk wel haalbaar zijn. We toetsen hier ook op haalbaarheid en handhaafbaarheid. U komt met een mooi voorstel over renovaties, maar als dat in de praktijk niet gaat werken, dan hebben we er natuurlijk weinig aan. Vandaar dat ik vraag om openbaar te maken hoe de emissiefactor wordt bepaald. Ik kan me best voorstellen dat de minister dat niet zo een-twee-drie paraat heeft, maar kan hij bijvoorbeeld in een later schrijven aan de Kamer laten weten hoe dat dan in elkaar steekt? Als hij dat zou willen doen, dan zou ik dat heel mooi vinden. Dan kunnen we altijd nog nader bekijken wat we er verder mee kunnen doen in de toekomst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note93">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u92">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg131">Ik denk dat ik het antwoord weet, mevrouw Faber. De Rav-lijst staat volgens mij gewoon keurig netjes en openbaar gepubliceerd op de website van de RVO. Daar staan ook de getallen achter. Dus als het gaat over openbaarheid van en inzichtelijkheid in de maatregelen die kunnen leiden tot minder stikstofuitstoot, dan staan die daar keurig vermeld. Hier gaat het over renovatielease, een tijdelijke oplossing voor een boer die een stal wil gaan renoveren en voor het tijdelijk uitplaatsen. Dat probeer ik met deze aanpassing van de wet te regelen. Het gaat hier niet over het terugdringen van stikstofgetallen of het veranderen van de Rav-lijst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note94">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u93">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg132">Tot slot, mevrouw Faber.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note95">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u94">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg133">Zijn in die Rav-lijst dan ook de staltypes opgenomen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note96">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u95">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg134">Zeker. Daarin staat een heel groot aantal types, vloeren en allerlei maatregelen die boeren in kunnen zetten om stikstofreductie te verwezenlijken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note97">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u96">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg135">Dank u wel. Vervolgt u uw betoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note98">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u97">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg136">Dan een vraag van de heer Koffeman van de Partij voor de Dieren. Is het verstandig om zo'n complex en moeilijk handhaafbaar systeem op te tuigen terwijl de sector onder druk staat en daarom fraudegevoelig is? Mijn antwoord namens het kabinet is dat de voorgestelde wetswijziging juist voorziet in een vereenvoudiging van de handhaving. De wijziging geeft duidelijkheid voor zowel de sector als de handhavende organisaties. Fraude zal dan ook lastiger zijn. Koeien die naar de slacht gaan, zijn goed te volgen en koeien die kalven, zijn eveneens goed te volgen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg137">Hoe is de handhaafcapaciteit in dit fraudegevoelige systeem? Ik heb daarnet ook al iets gezegd over de NVWA. Dit wetsvoorstel verduidelijkt het begrip "melkvee" en verbetert de handhaafbaarheid van het fosfaatrechtenstelsel nog verder. De handhaving van dit stelsel maakt integraal onderdeel uit van mestcontroles. Met de uitvoering daarvan, heb ik mij laten informeren, zijn 60 inspecteurs belast.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg138">Is de definitie van melkvee juridisch getoetst? Ja, dit wetsvoorstel is in dit kader voorgelegd aan de NVWA, zei ik u, dus daarmee ook uitvoerbaar.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg139">Een vraag van de SP: wat is er in de afgelopen jaren gebeurd sinds de uitspraak van het CBb en hoe was de praktijk dan in die periode? Was er dan geen handhaving? De uitspraak van het CBb heeft ertoe geleid dat de beleidsregel is geschrapt. Dit leidde opnieuw tot ongewenste onduidelijkheid voor de handhaving. Dat wordt met het voorliggende voorstel opgelost. Het fosfaatrechtenstelsel is in 2018 in werking getreden. De controle vindt plaats na een kalenderjaar. Dat betekent dat NVWA sinds 2019 controleert op dit stelsel. In de handhaving is jaarlijks rekening gehouden met die onduidelijkheid. Jaarlijks ontvangt uw Kamer ook de rapportage over de uitvoering en de handhaving op mestbeleid, inclusief dit stelsel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note99">De heer Janssen (SP)</note>
+            <u who="#RikJanssen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u98">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg140">Ik heb een korte verduidelijkende vraag. Hoe houd je rekening met onduidelijkheid? Is dat door niets te doen, of door alles naar het voordeel van de twijfel te schuiven?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note100">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u99">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg141">Ik heb helder aangegeven dat het met het voorliggende wetsvoorstel wordt opgelost en dat er helderheid en duidelijkheid is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note101">De heer Janssen (SP)</note>
+            <u who="#RikJanssen" ana="#guest topic:civil" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u100">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg142">Maar mijn vraag ging over de afgelopen twee jaar, waar onduidelijkheid gold. Dit is nu voor het nieuwe jaar. Sinds de uitspraak was er onduidelijkheid. De minister zei dat er rekening is gehouden met die onduidelijkheid. Mijn vraag is: hoe houd je dan rekening met onduidelijkheid? Handhaaf je dan niet en is het vrijheid, blijheid omdat je bang bent om nat te gaan? Of handhaaf je wel en neem je het risico dat je nat gaat? Het is een van de twee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note102">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u101">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg143">Ik heb in mijn antwoord gezegd dat de NVWA sinds 2019 controleert op dit stelsel. 60 inspecteurs zijn bezig met de handhaving van de mestwetgeving.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note103">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u102">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg144">Tot slot, meneer Janssen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note104">De heer Janssen (SP)</note>
+            <u who="#RikJanssen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u103">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg145">Ja, dat hoorde ik de minister zeggen, maar dat was voor de derde keer geen antwoord op mijn vraag. Ik kom er in tweede termijn nog wel even op terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note105">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u104">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg146">Heeft de minister overlegd met het Openbaar Ministerie over de capaciteit rondom de vervolging? Ja, de NVWA heeft hierover afspraken gemaakt met het Openbaar Ministerie in het zogenaamde handhavingsarrangement.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg147">Dan nog over het milieuneutraal zijn. Dat was een vraag van de SP en anderen. Iedere overtreding zal leiden tot een negatief effect. Hoe zit het dan met overtredingen van de Vogel- en Habitatrichtlijn? Is dit zo besproken in Brussel? Uiteraard hebben overtredingen van de milieuwetgeving een negatief effect op het milieu dat die wetgeving uiteraard probeert te beschermen. Dat geldt ook voor het wetsvoorstel dat qua milieudruk neutraal is, zoals ik heb betoogd, en ook voor de Wet natuurbescherming waarmee de Vogel- en Habitatrichtlijn wordt uitgevoerd. Daarom is het van groot belang dat er bij de voorbereiding van wetgeving oog is voor de gevolgen van handhaving en handhaafbaarheid. Dat is bij dit wetsvoorstel ook gebeurd, zoals ik al een aantal keren heb aangegeven. In de memorie van toelichting is aangegeven dat dit wetsvoorstel de handhaafbaarheid van het fosfaatrechtenstelsel niet wezenlijk wijzigt en dat de verduidelijking van het begrip "melkvee" de handhaafbaarheid van het fosfaatrechtenstelsel nog verder verbetert.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg148">Dan de laatste vraag op dit punt. Hoe wil de minister zijn bevoegdheid over de last onder dwangsom invullen: als discretionaire bevoegdheid of als handhavingsplicht? De bevoegdheid om de last onder dwangsom op te leggen zit al in de Meststoffenwet. Het is dus geen bevoegdheid waarin dit wetsvoorstel voorziet. De minister is bevoegd tot het opleggen van een last onder dwangsom ter handhaving van de in de Meststoffenwet gestelde verplichtingen, artikel 49. Het is een bevoegdheid, gericht op herstel van de rechtmatige situatie, die de minister kán inzetten als dat hem aangewezen lijkt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note106">De heer Janssen (SP)</note>
+            <u who="#RikJanssen" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u105">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg149">De minister kán het inzetten. Maar hoe ziet de minister dit? Ziet de minister dit als zijn plicht? Voelt dit als een soort handhavingsplicht omdat dit allemaal al op de rand is? Zegt hij: we moeten vooral geen overtredingen hebben, dus waar het kan zal ik dat ook doen? Of zegt hij: nou, ik zal er nog eens naar kijken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note107">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u106">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg150">De eerste lijn kies ik, meneer Janssen. Op het moment dat helderheid en duidelijkheid nodig is, moet die ook verschaft worden. En waar handhaving nodig is, is handhaving nodig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note108">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u107">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg151">Nog een poging. De minister heeft het over "milieudrukneutraal". Op basis waarvan vindt hij het milieudrukneutraal? We hebben zojuist geconstateerd dat de milieudruk in de praktijk juist toeneemt. Waarom vindt hij het dus milieudrukneutraal, en op basis waarvan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note109">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u108">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg152">Ik ga weer hetzelfde antwoord geven als ik eerder aan de heer Karakus heb gegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note110">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u109">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg153">Vat u het dan kort samen, als het echt hetzelfde is?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note111">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u110">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg154">Het is hetzelfde antwoord. Ik acht dat de milieudruk niet toeneemt met de wijziging die dit wetsvoorstel beoogt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note112">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u111">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg155">De wijziging heeft als consequentie dat je informeel fosfaatuitstoot krijgt als je van categorie ... Maar ja, dat mogen we niet zien en dat mogen we niet weten. Maar het vindt wel plaats en daardoor heb je extra milieudruk. Dat is toch een logisch gevolg van?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note113">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u112">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg156">Dit ziet toe op een aanpassing van het fosfaatrechtenstelsel. Wij voorzien met deze aanpassingen in wijziging van de Meststoffenwet en ik ga ervan uit dat de milieudruk niet toeneemt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note114">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u113">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg157">Jawel. Dat heeft u eerder ook aangegeven. Het is herhaling, maar ik zal het voor de zekerheid nogmaals bij u toetsen. We hebben zojuist het volgende geconstateerd. Je haalt melkvee van categorie A naar categorie B. Dat valt dan niet meer onder het fosfaatrecht, maar er vindt wel fosfaatuitstoot plaats. Dat is punt één. Het tweede punt. In de categorie waar melkvee uit is gehaald, kan weer extra melkvee bij omdat we niet aan het plafond zitten. Daar vindt ook extra fosfaatuitstoot plaats. Aan beide kanten hebben we dan toch extra fosfaatuitstoot en daardoor extra milieudruk? Ik kan het niet anders verklaren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note115">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u114">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg158">Volgens mij hebben we hier een verschil van inzicht. Ik kan niet anders dan constateren dat ik met deze aanpassingen een heldere, duidelijke werking van het fosfaatrechtenstelsel beoog. Volgens mij neemt de milieudruk niet toe.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note116">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u115">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg159">Nee, nee, nee. U heeft die vraag nu zes keer gesteld, meneer Karakus. Ik ga het niet nog een keer toestaan. U krijgt straks nog wel een tweede termijn. Dan kunt u die vraag uiteraard nog een keer stellen. Daarna kunt u de minister nog interrumperen. Ik geef nu het woord weer aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note117">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u116">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg160">Ik heb nog twee vragen die een antwoord nodig hebben. Dat gaat om de vraag van de D66-fractie waarom deze drie verschillende onderdelen zijn samengevoegd in één wetsvoorstel. De Eerste Kamer heeft zich via de motie-Hoekstra opgeworpen om hier terughoudend in te zijn. Ik heb dat heel duidelijk gehoord. Het antwoord is dat met dit wetsvoorstel de werking van het stelsel op een aantal onderdelen wordt verbeterd en het verwerven van fosfaatrechten om een onverwacht hoge melkproductie op te vangen, wordt gefaciliteerd. De verschillende onderdelen van het wetsvoorstel betreffen dus allemaal het fosfaatrechtenstelsel en hangen hierdoor voldoende samen voor één wetsvoorstel. Anders dan in de situatie waarop de motie-Hoekstra ziet, gaat het hier om één voorstel dat hetzelfde onderwerp regelt en niet om twee verschillende voorstellen die worden gekoppeld. Daarnaast is het niet de verwachting dat een van de onderdelen dermate politiek omstreden is dat het een goede parlementaire behandeling van andere onderdelen in het geding brengt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg161">Dan nog de vraag van de SGP-fractie. Hoe verhoudt deze wet zich tot de staatssteunbeschikking en heeft de Europese Commissie toestemming gegeven? Het antwoord daarop is dat er met de Europese Commissie ambtelijk is afgestemd dat de maatregelen van dit wetsvoorstel niet noodzaken tot een nieuwe goedkeuringsbeschikking van de Europese Commissie. Aangegeven is dat ze passen onder de gegeven staatssteunbeschikking zolang gewaarborgd is dat de productie te allen tijde onder het plafond voor de productie blijft. Deze uitkomst is onder andere in de memorie van toelichting openbaar gemaakt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg162">Voorzitter. Ik dacht dat dat de aan mij gestelde vragen waren. Ik hoop ze zo goed mogelijk te hebben beantwoord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note118">De heer Pijlman (D66)</note>
+            <u who="#HenkPijlman" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u117">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg163">Zonet vroeg ik u bij een interruptie waarom u het verantwoord vindt dat de fosfaatbank met 10% afneemt terwijl u die voor de transitie zo nodig heeft. Toen zei u: ik kom daar straks nog even op terug. Misschien is dat moment dan nu gekomen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note119">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u118">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg164">Het is heel verleidelijk om met uw Kamer — ik heb dat ook al eerder gezegd, ook op vragen van mevrouw Kluit — de visie op de landbouw voor de lange termijn te schetsen en een discussie te voeren over waar we naartoe zouden moeten. Vanmorgen was ik in eerste instantie graag bereid om daar uitgebreid mee te beginnen, maar uw voorzitter heeft mij terechtgewezen. Hij heeft gezegd: ik acht het moment daar niet toe geëigend, dus kom daar later op terug. Ik wil heel graag met uw Kamer dat toekomstbeeld schetsen, en de gevolgen en de kansen die dat met zich meebrengt, maar nogmaals, dit ziet toe op een aantal kleine wijzigingen in een bestaande wet. Dat is het voorstel dat hier vandaag voorligt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note120">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u119">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg165">Dank u wel. Voor de goede orde: niet zozeer ik, maar de commissie heeft mij gevraagd om deze wet, en niet een beleidsdebat, op de agenda te zetten. Maar dat leent zich natuurlijk heel goed voor een kennismakingsgesprek dat binnenkort ongetwijfeld zal plaatsvinden met de minister. Voor dat gesprek kunt u dan ruimschoots de tijd nemen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg166">Dan komen we thans aan bij de tweede termijn van de kant van de Kamer. Ik geef het woord aan mevrouw Kluit van de fractie van GroenLinks. Zij spreekt mede namens de fractie van de Partij van de Arbeid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note121">Mevrouw Kluit (GroenLinks)</note>
+            <u who="#SaskiaKluit" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u120">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg167">Dank, voorzitter. Het is een interessant debat geweest. Ik vrees — ik kijk naar mevrouw Prins — dat we er nog niet over uit zijn wat nou wel of niet het effect van deze wet is. Ik vind dat in zichzelf eigenlijk al een vrij zorgwekkende kwestie. We zouden toch aan het einde van de wetsbehandeling met z'n allen heel helder moeten hebben wat de effecten van wetgeving zijn in de praktijk. Ik blijf dus maar bij onze eigen mening. Meneer Karakus heeft dat fantastisch afgepeld. Er gaat een deel van de dieren buiten het systeem om. We weten niet hoeveel. We weten niet wat er met ze gaat gebeuren, maar één ding weten we wel: ze blijven poepen, dus de fosfaatuitstoot zal gaan toenemen en dat zal buiten het zicht gebeuren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg168">We hebben nog een aantal vragen. De eerste gaat over de 100 kilogramlease en de permanente inzet daarvan. Natuurlijk kan een boer die elk jaar aannemen en weer teruggeven, aannemen en weer teruggeven. Maar dat kan hij ook tien jaar achter elkaar doen. Als hij dat tien jaar achter elkaar doet, dan kan hij er volgens mij twee, drie koeien bij houden. Graag een reactie van de minister hoe hij dit gaat voorkomen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg169">Dan de renovatielease. Ik begreep niet helemaal hoe dat nu met de AMvB gaat lopen. Het wordt geen formele voorhang, maar we worden wel geïnformeerd. Welke zeggenschap hebben wij dan als Eerste Kamer? Het is belangrijk dat wij, wanneer wij stemmen over een wet, weten waarover wij nou precies stemmen en wat de gevolgen daarvan zijn. In dit geval is dat niet zo. Dit is juist een onderdeel waar we relatief enthousiast over kunnen zijn, dus we zouden ons daar graag over willen buigen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg170">Dan de uitvoerbaarheid. De heer Janssen vroeg daar al flink op door. Ik wil vragen of de minister nog eens bij de NVWA wil vragen of zij op papier kan stellen hoe ze deze extra taken gaat uitvoeren. Wij hebben er in deze commissie namelijk heel veel ervaring mee dat uitvoeringsorganisaties zeker een nieuwe minister graag ter wille zijn en zeggen "dat gaan we doen; het komt goed", maar dat we er dan later achter komen dat er onvoldoende mensen waren en dat de systemen niet op orde waren. Misschien kan de minister het antwoord aan ons terugkoppelen op de vraag: hebben ze voldoende capaciteit en kennis, en zijn er voldoende systemen op orde?</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg171">Dan komen we tot de oordeelsvorming. Wij denken: er komt een toename van dieren en een toename van problemen. Daarbij worden de transitiepaden, die voor alle boeren openstaan, bemoeilijkt. Ook wij zijn voor alle boeren, maar wij vinden dat die boeren wel een bepaalde kant op moeten. De fosfaatbank wordt minder gevuld, dus de transitiepaden worden bemoeilijkt. Dat geldt voor alle boeren. Dat is niet wat we moeten willen. We gaan daarbij ook onverantwoorde risico's aan voor de boeren die nu onder de derogatie werken. Wij zijn ervan overtuigd dat ze in Europa heel goed kijken naar wat wij op dit moment met elkaar bespreken, en niet alleen met betrekking tot een technische wet. Ik zou tegen mijn collega's die overwegen om voor deze wet te stemmen, het volgende willen zeggen. Dit wordt luid en duidelijk gehoord. Als je voorstemt en als de derogatie zo meteen sneuvelt, dan zadelen we — ik zeg niet "we", want wij gaan tegenstemmen — dan zadelen jullie de boeren op met een enorme financiële strop in het al lopende jaar. Dus die consistentie van beleid ... Ik heb de minister luid en duidelijk gehoord over waar hij met ons over in gesprek wil. Die consistentie van beleid is ontzettend belangrijk. Wij vinden dat hij vandaag moet beginnen. De minister geeft aan dat hij er heel druk mee bezig is en er bij ons op terugkomt, en dat we er dan echt mee van start gaan. Op het boerenerf komt alles samen. Het is slecht uit te leggen dat wij vandaag zeggen "u kunt een paar koeien erbij krijgen door te leasen", terwijl we over een paar maanden zeggen: helaas, er moeten toch extra rechten van af. Of: er moeten plafonds naar beneden gehaald worden. Wij zijn voor helderheid, dus helaas kunnen wij de minister deze keer niet helpen. Maar ik hoop dat dat de volgende keer anders zal zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note122">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u121">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg172">We zijn in de "julliesfeer" terechtgekomen, meen ik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note123">Mevrouw Kluit (GroenLinks)</note>
+            <u who="#SaskiaKluit" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u122">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg173">Excuus. Via de voorzitter, alles via de voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note124">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u123">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg174">En ook eigenlijk uw collega's hier vousvoyeren, niet tutoyeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note125">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:inter" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u124">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg175">Ik heb toch nog een vraag aan mevrouw Kluit. De minister heeft aangegeven dat hij volop bezig is met de derogatie, met allerlei onderwerpen die daarbij gehaald en gesleept worden. Denkt mevrouw Kluit nu dat men in Europa de afgelopen weken en maanden niet heeft geweten dat dit liep en dat dit echt de doorslaggevende reden zal zijn waarom de derogatie niet doorgezet zal worden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note126">Mevrouw Kluit (GroenLinks)</note>
+            <u who="#SaskiaKluit" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u125">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg176">Ik denk dat de evaluatie van de visserij waar we het net over hadden, precies dat heeft laten zien. Elk stapje dat genomen wordt, wordt geplaatst in het grotere kader van de normen en de doelen die in de Europese richtlijnen op ons neerkomen. Daar moeten wij ons aan houden en moeten wij ons toe verhouden. Het is nooit zo dat het op één moment misgaat. Het is een heel palet, waarvan zij zeggen: is dit nou de kleur die wij willen zien in een land?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note127">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u126">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg177">Dan zijn we in ieder geval terug bij dat het dus het hele, brede palet is dat altijd zal meespelen. Maar ik kan me niet voorstellen dat de minister — maar misschien wil hij daar straks nog op reageren — met deze geringe aanpassing zo'n enorme zaak als de derogatie in de waagschaal zou stellen. Ik ben benieuwd wat de minister daarvan vindt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note128">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u127">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg178">Dank u wel. Dan gaan we naar mevrouw Faber-van de Klashorst namens de fractie van de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note129">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u128">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg179">Dank u wel, voorzitter. Ik ben er verheugd over dat de minister al aangeeft dat hij nog dikwijls zal komen discussiëren over de landbouw in deze Kamer. Ik zie er nu al naar uit. Dat is een mooie binnenkomer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg180">Vervolgens over de fosfaatrechten. Er zijn te veel fosfaatrechten, maar eigenlijk heeft de minister, of zijn voorgangster, te veel rechten uitgegeven. Dan vind ik het toch nog heel knap dat deze sector 13% onder het fosfaatplafond zit voor de sector. Dat is eigenlijk al een hele mooie prestatie. Dat is eigenlijk al heel goed. Wat dat betreft zou de minister de teugels nog veel meer mogen laten vieren voor de boeren. Dit wetsvoorstel geeft de boeren een heel klein beetje meer flexibiliteit. Dat zal ook de reden zijn waarom de PVV voor gaat stemmen. In dit geval hebben wij liever meer dan minder. Maar goed, het is in ieder geval een begin.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg181">Dan over de derogatie. De collega van GroenLinks probeerde ons een beetje bang te maken door te zeggen dat de derogatie in het gedrang zou komen. Ik geloof niet dat we daar bang voor hoeven zijn. Ik denk dat de minister prima in staat is om dat in goede banen te leiden. Ik denk juist dat GroenLinks een factor is voor de boeren om bang voor te zijn. Maar goed, dat verder terzijde. Zo mag iedereen gewoon zijn eigen mening hebben in dit huis.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg182">Dank u, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note130">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u129">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg183">Dank u wel, mevrouw Faber. Dan de heer Schalk namens de SGP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note131">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u130">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg184">Dank u wel, voorzitter. Dank voor de antwoorden van de minister, waarin hij volgens mij iedereen hier heel blij gemaakt heeft toen hij aangaf dat hij er voor alle boeren is. Dat maakt, denk ik, iedereen een stuk gelukkiger. Hij heeft ook aangegeven dat de wet die we vandaag bespreken, gericht is op het bieden van flexibiliteit. Hij heeft naar mijn bescheiden mening daarbij ook goed uitgelegd dat we op dit moment in ieder geval onder het fosfaatplafond zitten. Zo heb ik hem in ieder geval begrepen. Als het anders is, dan hoor ik dat uiteraard nog graag. Ik vind ook dat de minister vrij goed heeft duidelijk gemaakt dat leasen betekent dat het terug moet, dus dat je eigenlijk niet kunt stapelen. Die vraag heb ik dan toch nog wel even aan de minister. Mevrouw Kluit gaf zojuist aan: als je het een paar jaar achter elkaar doet, heb je ineens een koe verdiend. Is dat nou echt waar? Of moet je het andersom zien: als je dit een paar jaar niet doet, ben je zomaar een paar koeien kwijt? Dat zou namelijk ook nog kunnen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg185">Voorzitter. Ik vond het in ieder geval ook van belang dat de minister heeft aangegeven — ik begrijp zijn voorzichtigheid rondom die 100 kilo, dus dat daar niet al te veel aan getornd moet worden — dat hij in de loop van dit jaar, en dat zal in het najaar zijn, zal terugkoppelen naar deze Kamer op welke wijze deze wet heeft gedaan wat we daarvan verwachten. Als dat onvoldoende aansluit, dan wil de minister in ieder geval kijken of er nog bijstelling nodig is, dus laten we inderdaad maar gewoon afwachten wat er uit de monitoring komt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg186">Voorzitter, helemaal ten slotte. Aan het begin van mijn eerste termijn ben ik helemaal vergeten om de minister te feliciteren met zijn nieuwe functie. Het is mijn gewoonte om van harte Gods zegen toe te wensen. Dat doe ik ook in dit zware ambt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg187">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note132">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u131">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg188">Dank u wel, meneer Schalk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note133">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u132">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg189">Nog één vraag. Wat vindt meneer Schalk ervan dat er wel uitstoot wordt geproduceerd, maar dat het niet wordt geregistreerd, dus dat we aan het ontkennen zijn? Dan is het heel makkelijk om onder het plafond te blijven, maar het wordt gewoon niet geregistreerd. Wat vindt meneer Schalk daarvan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note134">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u133">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg190">Ik denk dat de minister heel goed heeft uitgelegd dat op dit moment de wet wordt toegepast zoals die we hier met z'n allen hebben aangenomen. Als dat betekent dat bepaalde dieren, bijvoorbeeld in de vleesveehouderij, niet meetellen voor het fosfaatplafond, dan is dat opgenomen in de wet, dus daar kan je niet heel erg veel aan doen. Tenminste, zo begrijp ik de vraag van de heer Kárakus. Inmiddels heb ik zijn achternaam wel goed te pakken, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note135">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u134">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg191">Nee, nee, nee, want hij heet Karakús.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note136">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u135">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg192">Ah! Als voorzitter weet u het altijd beter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note137">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u136">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg193">We gaan een keer apart zitten, dan kunnen we oefenen!</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg194">Nee, maar dat is ook mijn punt, want het gebeurt. We ontkennen. Uiteindelijk hebben we te maken met natuur die hieronder gaat lijden en extra milieudruk. Het kwam vanavond bij mij over als: "Dat boeit ons niet, als we maar niet hoeven te registreren en als we maar onder het plafond blijven. Ja, we weten dat er extra uitgestoten wordt. Maar ja, dat zouden wij niet zo erg vinden." Dat is de indruk die ik krijg, dus vandaar ook mijn vraag: wat vindt u ervan? Ja, het is juridisch misschien correct. Ja, het valt niet onder de fosfaatrechten. Maar het gebeurt wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note138">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u137">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg195">Ik vind het heel jammer als de SGP te boek zou komen te staan als een partij die zou denken: het boeit ons niet zo erg. Ik denk dat we ongelofelijk lastige beslissingen hebben genomen, ook als SGP, ook in het verleden, rondom allerlei besluiten die genomen moesten worden over wetgeving die te maken heeft met het boerenbedrijf. Deze wet — die beoordeel ik op zijn merites — is wat mij betreft gewoon echt een stukje flexibiliteit bieden aan boeren die anders, zonder dat ze daar heel veel aan kunnen doen, afgeroomd worden. Ik zou met dat afromen heel graag terug willen naar de boter in plaats van het afromen van een complete koe.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note139">De heer Karakus (PvdA)</note>
+            <u who="#HamitKarakus" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u138">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg196">Als laatste. Over het afromen heeft u gelijk. Alleen, we gaan straks over een voorstel stemmen, maar de consequentie is wel heel erg, namelijk dat er wel extra uitstoot plaatsvindt. Dat is de consequentie van het voorstel. Ik doe een verzoek om daar ook rekening mee te houden. Ook al past het er formeel in, maar de uitstoot blijft. Het gaat om milieu, het gaat om natuur.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note140">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u139">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg197">Op het moment dat er geen afroming plaatsvindt, is het logisch dat er niet iets verdwijnt. Dat is duidelijk. Maar dat is dus elke keer om te voorkomen dat je afroming hebt waardoor je dieren kwijt bent, wat eigenlijk niet echt de bedoeling is, maar dat alleen maar met meetmomenten te maken heeft. De minister heeft een keer of zes, zeven meen ik uitgelegd dat hij vindt dat er in ieder geval geen verslechtering plaatsvindt. Ik ga daar op dit moment maar even in mee. Daar is niet iedereen het mee eens, maar mooier kan ik mijn antwoord niet maken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note141">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u140">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg198">Dan zou ik het er maar bij laten, meneer Schalk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note142">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u141">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg199">Dat doe ik, voorzitter. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note143">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u142">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg200">Dank u. Dan gaan we naar de heer Pijlman namens D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note144">De heer Pijlman (D66)</note>
+            <u who="#HenkPijlman" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u143">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg201">Dank, voorzitter. Dank aan de minister voor de beantwoording. U zegt eigenlijk: dit wetsvoorstel is technisch en is een verduidelijking van de fosfaatrechten, ik gun de boeren een beperkte mate van flexibiliteit en, ja, ik wil ook stapsgewijs naar een grondgebonden landbouw en veeteelt. Daar zijn we het eigenlijk helemaal met elkaar eens. U zegt ook: ik ga vechten voor de derogatie. Nou, ook dat snap ik. Want zou die in één keer wegvallen, dan hebben we in Nederland een enorme crisis. We weten overigens ook dat het nog weleens nodig zou kunnen zijn om met aanvullende maatregelen in het zevende actieplan nitraat te komen. Maar er is één ding dat ik gewoon niet begrijp. Dat heb ik ook steeds bij interruptie nog een keer geprobeerd: waarom vindt deze minister, die déze doelstellingen heeft, die dít regeerakkoord heeft, het nu verantwoord om te zeggen "dan skippen we 10% van de fosfaatbank, en die hebt u nodig om die doelstellingen te halen"? U zei: dat mag ik niet zeggen van de voorzitter. Nee, dat mag vast wel, want het is een consequentie van dit wetsvoorstel. Het gaat niet over de toekomst, het is een consequentie van dit wetsvoorstel. Daarom daag ik u daar toch nog een keer toe uit. Die 100 kilo is te veel. Die flexibiliteit had ook op een andere manier per bedrijf geregeld kunnen worden, dus ook voor grote bedrijven. Ik denk dat dat ook nog minder bureaucratisch zou zijn geweest.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg202">Dank voor de toezegging dat de AMvB op enige wijze zal worden voorgelegd aan deze Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg203">Ik sta voor een dilemma, voorzitter. Daarom verwees ik naar de motie-Hoekstra. Twee onderdelen vinden wij akkoord, maar dat ene onderdeel niet. Dat gaat over de toekomst. De jongveeregeling, akkoord. De renovatielease, akkoord. Maar zo'n grote krimp van de fosfaatbank vinden wij niet verantwoord. Daarom zal ik mijn fractie moeten adviseren om toch tegen te stemmen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note145">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u144">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg204">Dank u wel, meneer Pijlman. Dan is het woord aan de heer Koffeman namens de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note146">De heer Koffeman (PvdD)</note>
+            <u who="#NikoKoffeman" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u145">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg205">Voorzitter, dank u wel. Ik wil de minister hartelijk danken voor de beantwoording van onze vragen. Ook inderdaad van ons van harte welkom en gefeliciteerd met uw benoeming.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg206">De minister zegt: ik ben er voor alle boeren. Dat is op zich een mooi voornemen natuurlijk, maar ik weet dat de minister gezien zijn achtergrond — toch misschien ook wel iets met Spreuken 12 — ook zou kunnen zeggen: een rechtvaardige kent het leven van zijn dier. Op het moment dat je 2 miljoen kippen in de stal hebt, ken je het leven van je dieren niet en ben je geen rechtvaardige boer. Ik hoop dat u het "ik ben er voor alle boeren" kunt nuanceren met "ik ben er voor alle rechtvaardige boeren". Dat zou fijn zijn, want dan zitten we in ieder geval op één spoor om te kijken hoe we de landbouw kunnen verbeteren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg207">Ik kan u zeggen dat de Partij voor de Dieren ook de partij voor de boeren is. Er is geen partij die zo veel hartzeer heeft van het feit dat er zeven agrarische gezinsbedrijven per dag stoppen. Wij denken dat de wal het schip aan het keren is en dat het goed zou zijn dat er in het beleid ook vorm gegeven wordt aan een landbouw die recht doet aan alles wat van waarde is, dus zowel het leven van de dieren als het landschap als de natuur als het inkomen van de boer als de bestaanszekerheid van de boer. Op het moment dat we daar samen aan werken, kunnen we daar denk ik eensgezind in optrekken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg208">Ten aanzien van de toezichthouders heb ik nog even gekeken in het jaarplan 2022 — actueler is het er niet — van de NVWA. Daar zegt de NVWA dat externe onderzoeken, dus niet hun eigen onderzoeken "hebben aangetoond dat er al enige jaren sprake is van een disbalans tussen de taken en middelen bij de NVWA." En: "Dit leidt ertoe dat er scherpe keuzes zijn gemaakt in het werk dat de NVWA in 2022 kan uitvoeren." Ze voelen zich dus erg beperkt. "Samen met de opdrachtgevers, de ministeries van LNV en VWS, zet de NVWA in 2022 vol in op het herstellen van de balans tussen onze taken en middelen." Dus daar zit veel meer onvermogen in. Er is wel goede wil, maar niet van "ja, wij kunnen dat". Dus wat de minister eerder in dit debat zei, van "ja hoor, geen enkel probleem, ze doen dat gewoon; ik heb daar alle vertrouwen in", dat blijkt niet uit hun jaarplan 2022. Misschien heeft u het conceptjaarplan 2023 gezien, maar ik denk dat dat er nog niet is. Dus ik hoop dat de minister ook vanuit de zorg die de NVWA zelf uitspreekt de vinger aan de pols wil houden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg209">Ik vind het ook heel erg belangrijk dat we komen tot een integraal beleid voor de landbouw, vooral ook in het belang van de boeren. Boeren hebben er niks aan als ze elke keer met een nieuwe maatregel geconfronteerd worden. Ze worden op dit moment met een nieuwe maatregel geconfronteerd. Zelfs als de minister zegt dat het een behulpzame maatregel voor de boeren is, hebben ze er niks aan op het moment dat deze maatregel geïmplementeerd is en ze kort daarna alweer worden geconfronteerd met een nieuwe maatregel die niet helemaal in lijn is met deze maatregel. Want deze maatregel ziet niet op de vermindering van het aantal dieren in de veehouderij en het kabinetsbeleid ziet daar wel op. Dus dat betekent dat een boer die nu z'n fosfaatrechten aan het herinrichten is straks te horen gaat krijgen: nu gaan we afromen, maar dan in een andere zin.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg210">Ik heb ook nog geen duidelijk antwoord gehoord op de vraag van de heer Karakus, die zegt: als je in die categorieën gaat schuiven, dan ontstaat er aan twee kanten meer productie van fosfaat. De minister is echt niet helder geweest in de beantwoording daarvan. Hij heeft gezegd: ik heb gezegd wat ik gezegd heb. Dat is zeker waar — dat kan niemand ontkennen — maar dat is niet het antwoord op de vraag van de heer Karakus naar mijn gevoel. Ik denk dat het goed is om daar toch nog even bij stil te staan.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg211">We zien dat bij bijvoorbeeld de klimaatdoelen die in Europa gesteld worden er juichend wordt gesteld "ja, de uitstoot is verkleind, we hebben de doelen gehaald", maar dan in de kleine lettertjes blijkt dat de doelen niet de uitstoot van biomassacentrales, de luchtvaart en de zeer vervuilende scheepvaartindustrie bevatten. Ja, als je categorieën gaat buitensluiten, dan haal je al je doelstellingen natuurlijk, maar dat kan niet de bedoeling zijn. Dus ik zou toch de minister willen vragen, ook namens collega Karakus — ik hoop dat ik namens hem mag spreken in dit geval — om daar toch duidelijkheid in te verschaffen. Meer fosfaat, ook als dat buiten het contingent is, is meer fosfaat, en daar zitten we niet op te wachten.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg212">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note147">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u146">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg213">Dank u wel, meneer Koffeman. Dan is het woord aan de heer Janssen namens de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note148">De heer Janssen (SP)</note>
+            <u who="#RikJanssen" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u147">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg214">Voorzitter. Dank aan de minister voor de antwoorden. Bij het reguleren van sectoren via toezicht en handhaving — het maakt niet uit of dat nou de vleesindustrie is of de veeteelt of de chemische industrie — krijg je steeds één vraag terug: wees voorspelbaar, wees consequent en verander de regels niet ieder jaar, want daar worden wij gek van. Wat dat betreft snap ik de vragen van de heer Karakus. Ik heb zijn martelgang van vandaag gezien. Iets lijkt heel logisch, maar is niet conform de wet. De minister zegt: als we in de wet dingen niet meetellen, dan klopt het volgens de wet. Ik zal er zo nog iets over zeggen. Ik heb zijn martelgang gezien en ik sluit mij aan bij de oproep van de heer Koffeman om de heer Karakus wat geruster naar huis te laten gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg215">Vervolgens de NVWA. Daar wil ik toch nog even op door. De heer Koffeman heeft mij bespaard dat ik het citaat uit het jaarprogramma voor hoefde te lezen. Dat hoeft niet meer. Het is niet mijn doel om de NVWA aan te vallen. Integendeel juist: ik wil die dienst sterk hebben en in staat om hun taak uit te voeren. Het onderzoek van Deloitte in november 2020 waarin stond dat de NVWA dusdanig onderbezet was dat twee derde van de taken niet uitgevoerd kon worden, was schokkend. Dat los je niet binnen een jaar op. Dat kan niet zo zijn. Als ze nu extra geld konden krijgen, dan hebben ze daar geen nee tegen gezegd; dat kan ik snappen. Maar dat wil nog niet zeggen dat je het uit kan voeren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg216">Voorzitter. Ik zie en mijn fractie ziet een voorspelbaar verschil ontstaan tussen theorie en praktijk en tussen het Haagse bureau van de wetgeving en het boerenerf. Daarmee zien wij ook een probleem ontstaan in de uitvoerbaarheid en de handhaafbaarheid van dit wetsvoorstel. Het zal misschien niet als een verrassing komen dat dit voor de SP de reden is om het wetsvoorstel niet te kunnen steunen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg217">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note149">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u148">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg218">Dank u wel, meneer Janssen. Ik heb nog nooit een Kamerlid gezien dat met zo weinig spreektijd, namelijk nul minuten, zo'n grote schare aan volgers wist te mobiliseren. Dat is toch echt een prijs waard voor de heer Karakus.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg219">Wenst een van de leden in de tweede termijn nog het woord? Dat is niet het geval. Minister, bent u in de gelegenheid om direct te reageren op de vragen van de Kamer? Een paar minuten, hoor ik. Dan schors ik tot 20.20 uur.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note150">De vergadering wordt van 20.12 uur tot 20.20 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note151">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u149">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg220">Ik geef het woord aan de minister van Landbouw, Natuur en Voedselkwaliteit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note152">Minister Staghouwer</note>
+            <u who="#HenkStaghouwer" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u150">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg221">Voorzitter, dank voor het woord. Ik ga eerst proberen om wat misverstanden uit de weg te ruimen. De heer Karakus heeft mij een aantal keren bevraagd. Het is misschien mijn onervarenheid, maar ik ga toch proberen om een helder en duidelijk antwoord te geven op de vragen die hier door uw Kamer zijn gesteld en wil tevens wat onduidelijkheid wegnemen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg222">Het gaat hier over het totaal van het fosfaatproductieplafond. Alle dieren in Nederland vallen daaronder. Er is dus geen fosfaatboekhouding die van het een naar het ander gaat. Het gaat over het totaal van de fosfaatboekhouding in Nederland. Nederland heeft een totaalplafond en dat ligt vast in de Meststoffenwet. Dat is onderverdeeld in sectoren: melkvee, varkens, pluimvee en overig. Vleesvee valt in de categorie overig. Dat betekent dat voor de fosfaatproductie dit niet zou moeten worden meegerekend. Dit om een helder antwoord te geven op uw vragen, meneer Karakus.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg223">Dan ga ik proberen de heer Pijlman te overtuigen. De heer Pijlman heeft mij een aantal keren aangesproken op de flexibiliteit, die 10%. Mijn betoog daarover is dat 90% overeind blijft, dat ik bezig ben te koersen naar grondgebondenheid en dat ik specifieke wetgeving ga voorstellen die nog veel verder gaat. Ik zie dit als eerste stap en ik hoop dat ik de D66-fractie kan overtuigen dat dit een goede stap in de juiste richting is.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg224">Dan naar GroenLinks: de vraag over de zeggenschap van de Eerste Kamer over de AMvB over de renovatielease. Het wetsvoorstel kent voor deze AMvB geen voorhangprocedure. Wat ik heb toegezegd, is dat het ontwerp van de AMvB aan deze Kamer wordt toegezonden. Dat kan ik doen op het moment dat het ontwerp in internetconsultatie gaat. In het kader van de internetconsultatie kan eenieder op het ontwerp reageren. De reacties worden bij de verdere voorbereiding van de AMvB betrokken. Het staat uw Kamer vrij om deze brief te agenderen. Er is dus alle ruimte voor schriftelijke of mondelinge inbreng. Daar gaat u zelf over.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg225">Dan over aan de NVWA vragen of zij voldoende capaciteit hebben. Voor de handhaving op het fosfaatrechtenstelsel heeft de NVWA, zoals ik u heb gezegd, voldoende capaciteit ter beschikking. Samen met de NVWA maken wij scherpe selecties op basis van de mestregistratie en de I&amp;R-registratie. De bedrijven die in overtreding zijn, kunnen daarom met beperkte capaciteit risicogericht gecontroleerd worden. Daar zien wij scherp op toe.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg226">Er is gevraagd naar het stapelen van de 10%. Hoe wordt voorkomen dat er gestapeld wordt? Ik heb daarvan gezegd dat het niet te voorkomen is, maar dat in principe de 100 kilogramlease juist jaarlijks maximaal aflossingsvrij kan worden geleased om flexibiliteit te bieden. Dat wil niet zeggen dat een bedrijf elk jaar geconfronteerd wordt met een melkproductiestijging en hier dan gebruik van maakt. Het is dus niet zo dat een boer dat jaarlijks kan stapelen en zo kan groeien.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg227">Dan nog de opmerking over derogatie en de vraag of deze wet derogatie op het spel zet. Ik zet met deze wet de derogatie niet op het spel. Ik heb al eerder gezegd dat over het wetsvoorstel afstemming met de Europese Commissie heeft plaatsgevonden. Ik heb u gezegd dat de onderhandeling over de derogatie nog geen gelopen race is.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg228">En dan nog een laatste vraag over de handhaving door de NVWA. De NVWA heeft de afgelopen jaren in de handhaving geanticipeerd op dit wetsvoorstel. Ik heb u toegezegd dat ik daarop zal toezien.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg229">Voorzitter, dat waren de aan mij gestelde vragen. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note153">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u151">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg230">Dank u wel, minister. Ik sluit de beraadslaging en kom tot afhandeling van het wetsvoorstel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note154">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note155">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.u152">
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg231">Wenst een van de leden stemming over het wetsvoorstel? Dat is het geval. Dan stel ik voor dat we vanavond aan het einde van de vergadering stemmen over het wetsvoorstel. Ik dank de leden en de minister voor het debat.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.seg232">Ik heb even gewacht of de Kamer ermee zou komen. Dat is niet gebeurd, dus ik moet het zelf doen. Ik feliciteer namens u allen de minister met zijn verjaardag vorige week op Valentijnsdag, nota bene een kroonjaar. Veel geluk in het komend jaar, minister!</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-22-eerstekamer-20.note156">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

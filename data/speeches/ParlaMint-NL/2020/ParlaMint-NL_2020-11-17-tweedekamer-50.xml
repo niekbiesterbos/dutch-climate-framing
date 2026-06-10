@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2020-11-17 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-11-17 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 25, Session 50 (2020-11-17)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 25, Session 50 (2020-11-17)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="25" xml:lang="en">Meeting 25</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="50" xml:lang="en">Session 50</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2020-11-17">Sitting 2020-11-17</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="20">20 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="20">20 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1042">1,042 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1042">1,042 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2020-11-17">2020-11-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="64"/>
+               <tagUsage gi="seg" occurs="25"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="20"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-11-17">2020-11-17</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.head1">Gezond en veilig werken</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:labor" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u1">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg1">Ik heet de staatssecretaris van Sociale Zaken en Werkgelegenheid van harte welkom, en geef de heer Van Kent namens de SP als eerste spreker het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note2">De heer Van Kent (SP)</note>
+            <u who="#BartvanKent" ana="#regular topic:labor" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u2">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg2">Dank, voorzitter. We hebben een mooi debat gehad met ook een mooie toezegging, iets nieuws, namelijk om te gaan onderzoeken of de opbrengsten van boetes ten goede kunnen komen aan degene die het slachtoffer is van de overtreding van de werkgever. Een andere zaak die aan de orde is gekomen in het debat is het advies van de commissie-Heerts over schadeafhandeling in geval van beroepsziekten. Een van de adviezen daaruit zouden we eruit willen lichten en wat willen versterken via de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note6">constaterende dat de algemene financiële tegemoetkoming die nu voorgesteld wordt te laag is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note7">overwegende dat een snelle erkenning volgens de commissie bij slachtoffers persoonlijk leed kan verzachten bij beroepsziekten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note8">verzoekt de regering om de algemene financiële tegemoetkoming minimaal te verdubbelen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note10">Deze motie is voorgesteld door de leden Van Kent en Gijs van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note11">Zij krijgt nr. kst-25883-395</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note12">Dank u wel. Dan geef ik nu het woord aan de heer Gijs van Dijk namens de PvdA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note13">De heer Gijs van Dijk (PvdA)</note>
+            <u who="#GijsvanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u3">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg3">Dank, voorzitter. Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note14">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note15">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note16">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note17">overwegende dat het voor alle bedrijven verplicht is om de veiligheidsrisico's op de werkvloer te beschrijven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note18">constaterende dat dit voor kleine bedrijven lastig is en zij dit daarom vaak niet hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note19">overwegende dat werknemers bij een klein bedrijf zeker moeten kunnen zijn van een veilige werkplek;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note20">verzoekt de regering een experiment met kleine bedrijven te starten waarbij er deels met vooringevulde "Start-RI&amp;E" gewerkt wordt en hierover met sociale partners in overleg te treden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note21">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note22">Deze motie is voorgesteld door de leden Gijs van Dijk, Van Kent en Smeulders. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note23">Zij krijgt nr. kst-25883-396</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note24">De heer Gijs van Dijk (PvdA)</note>
+            <u who="#GijsvanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u4">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg4">Dank u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note25">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u5">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg5">Dank u wel. Dan geef ik nu het woord aan de heer Smals namens de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note26">De heer Smals (VVD)</note>
+            <u who="#BartSmals" ana="#regular topic:envir" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u6">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg6">Dank u wel, voorzitter. Ik heb twee moties. De risico's van asbest behoeven verder geen duiding. Het is van groot belang dat zo veel mogelijk asbest zo snel mogelijk tegen een zo laag mogelijke prijs op een zo veilig mogelijke manier wordt verwijderd. Wij willen de staatssecretaris graag helpen om richting te geven aan het asbeststelsel.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note30">constaterende dat het asbestveld sterk gepolariseerd is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note31">constaterende dat er per asbestsanering veel arbeidshygiënische data worden verzameld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note32">constaterende dat partijen — zonder het van elkaar te weten — dezelfde validaties uitvoeren, wat tot onnodige kosten leidt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note33">overwegende dat het doel is om zo veel mogelijk asbest te verwijderen tegen een fatsoenlijke prijs;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note34">overwegende dat transparantie leidt tot begrip;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note35">verzoekt de regering om TNO te vragen hoe met ingang van de lancering van SMA-rt nieuwe stijl de individuele validaties uit het systeem ten algemenen nutte kunnen worden gebruikt door hierover een geaggregeerde analyse op te stellen en de resultaten daarvan openbaar te maken voor opdrachtgevers, opdrachtnemers, werkgevers en particulieren, zodat zij toegang hebben tot deze kennis, en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note36">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note37">Deze motie is voorgesteld door de leden Smals, Von Martels en Stoffer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note38">Zij krijgt nr. kst-25883-397</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note39">Een korte vraag over de motie, meneer Van Kent.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note40">De heer Van Kent (SP)</note>
+            <u who="#BartvanKent" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u7">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg7">Dit is een vrij specifiek verzoek, om het maar heel zacht uit te drukken. Mijn vraag is: wat wil de VVD bereiken? Dat werkgevers kosten besparen of dat we de eisen die we stellen aan de veiligheid bij het verwijderen van die sluipmoordenaar gaan aanscherpen? Wat wil de VVD?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note41">De heer Smals (VVD)</note>
+            <u who="#BartSmals" ana="#regular topic:envir" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u8">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg8">Dat is een goede vraag. Het doel van de motie is om juist de data transparant te maken die gebruikt worden om te komen tot een veilige, goedkope manier van asbestverwijdering. Het gaat over transparantie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note42">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u9">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg9">De heer Van Kent, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note43">De heer Van Kent (SP)</note>
+            <u who="#BartvanKent" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u10">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg10">Ik heb een vermoeden waar dit verzoek vandaan komt. Het verzoek is ook echt bijzonder specifiek. Ik hoop dat de staatssecretaris straks bij het advies ook aan gaat geven dat veiligheid altijd op plaats één staat en dat het nooit zo kan zijn dat kostenoverwegingen, die de VVD wellicht ten gunste van werkgevers of opdrachtgevers zou willen organiseren of realiseren, de doorslag geven. Veiligheid moet altijd op een blijven staan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note44">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u11">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg11">Dat was het advies van de heer Van Kent over de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note45">De heer Smals (VVD)</note>
+            <u who="#BartSmals" ana="#regular topic:envir" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u12">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg12">De heer Van Kent vermoedt waarschijnlijk dat deze motie voortkomt uit een werkbezoek dat ik precorona heb gebracht aan een asbestlocatie. Daar kwamen we tot de conclusie dat het verstandig is om data openbaar te maken, omdat we daardoor op een veilige — daarin ga ik helemaal met hem mee — en goedkopere manier die asbest kunnen verwijderen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note46">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u13">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg13">Goed. U had nog een motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note47">De heer Smals (VVD)</note>
+            <u who="#BartSmals" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u14">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg14">Ik heb nog een motie, die veel korter is.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note48">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note49">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note50">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note51">constaterende dat het NSOB-rapport duidelijk maakt dat het asbestveld sterk gepolariseerd is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note52">verzoekt de regering nu door te pakken en de uitgangspunten van het rapport van Frissen serieus te nemen bij haar aanpak en daarmee als overheid de publieke sturing en handhaving op het asbestdossier te versterken, en de Kamer te informeren over de stand van zaken in het eerste kwartaal van 2021,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note53">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note54">Deze motie is voorgesteld door de leden Smals, Von Martels en Stoffer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note55">Zij krijgt nr. kst-25883-398</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note56">De heer Smals (VVD)</note>
+            <u who="#BartSmals" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u15">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg15">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note57">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u16">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg16">Dank u wel. De moties kunt u hier bij de griffier afgeven. Ik kijk even of de staatssecretaris behoefte heeft aan een korte schorsing. Ja, zie ik. Vijf minuten? Drie minuten? Dan schors ik de vergadering voor drie minuten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note58">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note59">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u17">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg17">Ik geef de staatssecretaris het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note60">Staatssecretaris Van 't Wout</note>
+            <u who="#BasvantWout" ana="#guest topic:labor" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u18">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg18">Dank u wel, voorzitter. Ik zal proberen het snel te doen, want we hebben nog een lange avond. En als degene die gaat over goede arbeidsomstandigheden, wil ik natuurlijk dat we vanavond allemaal op tijd op bed liggen. We hebben het in het algemeen overleg zelfs over nachtwerk gehad.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg19">Voorzitter. Ik ga gewoon even de moties langs. De motie op stuk nr. 395 is van de heer Van Kent. Wij hebben daar in het AO ook over gesproken. Voor die €20.000 hebben we aansluiting gezocht bij andere regelingen, zoals ik u daar ook heb verteld. Ik vind ook het volgende belangrijk. Een van de grote prestaties van de commissie-Heerts is wel dat het nou eindelijk eens gelukt is om echt breed draagvlak onder werkgevers en werknemers te creëren. Dat draagvlak wil ik niet in de waagschaal stellen door daar nu weer aan te gaan rommelen. Overigens hebben we ook gezegd en met elkaar gedeeld dat dit een tegemoetkoming is. Daarnaast kunnen mensen natuurlijk nog gewoon hun eigen procedures starten. We zijn het er volgens mij over eens dat het leed nooit helemaal zal worden weggenomen, welk bedrag je ook kiest. We doen nu echt een goede stap. Met die argumentatie moet ik de motie helaas ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg20">De motie van de heer Gijs van Dijk op stuk nr. 396 verzoekt om een pilot te starten met kleine bedrijven met vooringevulde RI&amp;E's. "Deels vooringevulde", staat in de motie. Ik heb onlangs de Week van de RI&amp;E mogen openen. Een van de dingen die we in dat kader doen, is het ontwikkelen van een tool. Die hebben we samen met het mkb gemaakt. Als je niet kunt terugvallen op een brancheorganisatie, biedt die tool een soort standaardje voor de belangrijkste risico's. Het is dan wel weer aan het bedrijf om dat voor het specifieke bedrijf aan te vullen, omdat iedere omstandigheid anders is. Als ik dát mag zien als de invulling van wat u vraagt, kan ik die motie oordeel Kamer geven. We zullen al deze dingen die we doen, ook nog gaan evalueren met sociale partners. We komen hier dus nog over te spreken. Maar het is een terecht punt van de heer Gijs van Dijk dat we de bekendheid en het gebruik van RI&amp;E bij met name kleinere bedrijven moeten vergroten. Daar werken we ook hard aan. Oordeel Kamer dus.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg21">Dan is er de motie van de heren Smals, Von Martels en Stoffer op stuk nr. 397. Uiteraard staat veiligheid voorop, maar op dat vlak hoorde ik bij de heer Smals geen enkele ruimte en ook niet bij de heer Van Kent. Volgens mij is dit een manier om te zoeken hoe je de innovaties toch een slagje verder kunt brengen, want heel veel wordt nu individueel opgeslagen en daar hebben anderen geen zicht op. Dit kan daar zeker bij helpen, dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg22">Dan is er nog de motie op stuk nr. 398 van hetzelfde trio. Die verzoekt mij nu het rapport serieus te nemen enzovoorts. Ik zie dit als precies aansluitend bij wat wij doen. Wij willen binnen dit stelsel ambitieuze wijzigingen aanbrengen en we willen ook een grotere publieke borging van SZW in dit complexe dossier. Oordeel Kamer dus.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg23">Dat waren de moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note61">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u19">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg24">Dank u wel. Daarmee zijn we aan het einde gekomen van dit VAO.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note62">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note63">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.u20">
+               <seg xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.seg25">Ik dank de staatssecretaris. Over de ingediende moties gaan we volgende week dinsdag stemmen.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-17-tweedekamer-50.note64">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2020-10-29 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-10-29 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 18, Session 9 (2020-10-29)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 18, Session 9 (2020-10-29)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="18" xml:lang="en">Meeting 18</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="9" xml:lang="en">Session 9</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2020-10-29">Sitting 2020-10-29</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="83">83 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="83">83 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="4282">4,282 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="4282">4,282 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2020-10-29">2020-10-29</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="140"/>
+               <tagUsage gi="seg" occurs="96"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="83"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-10-29">2020-10-29</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.head1">Telecommunicatie</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg1">Dan is aan de orde het VAO Telecommunicatie. Ik heet de staatssecretaris van harte welkom en zo ook de leden. Eens even kijken, heb ik ook een sprekerslijst? Ja. Ik geef als eerste het woord aan mevrouw Van den Berg van het CDA, voor twee minuten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note2">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg2">Voorzitter, dank u wel. Ook de radio heeft het enorm zwaar in deze coronatijd. Zij vragen geen geld, maar zij vragen om een verlenging van de tijd dat ze de huidige vergunning hebben. Daarom dien ik de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note6">constaterende dat alle radiostations die in het bezit zijn van een landelijk kavel financiële gegevens hebben aangeleverd aan een onafhankelijk onderzoeksbureau, waaruit blijkt dat de radiosector door zijn afhankelijkheid van de sterk dalende advertentieopbrengsten relatief hard geraakt wordt door de coronacrisis;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note7">constaterende dat diverse radiostations hierdoor een omvangrijke financieringsbehoefte hebben die potentieel bepalend is voor de continuïteit van de bedrijfsvoering, maar dat het aflopen van de frequentievergunningen per 1 september 2022 een belemmerende rol speelt bij het verkrijgen van krediet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note8">verzoekt de regering om in overleg met de sector te komen tot een verlenging van de bestaande FM-licenties voor commerciële radiostations voor de duur van drie jaar, tot 1 september 2025,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note10">Deze motie is voorgesteld door de leden Van den Berg, Weverling, Verhoeven, Bruins, Moorlag en Graus.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note11">Zij krijgt nr. kst-24095-519</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note12">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u3">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg3">Ik wil graag mijn bijzondere dank uitspreken aan collega Weverling, die ook heel veel werk aan deze motie heeft gehad.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg4">Voorzitter. Nu worden de frequenties verlengd. We hebben intussen het rapport-Don gekregen, dus we hopen dat we dat in een later stadium toch nog met elkaar gaan bespreken. Dat gaat over wel of niet veilen, ook voor de toekomst.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg5">Dan, voorzitter, heb ik nog twee vragen aan de staatssecretaris. In het algemeen overleg is ons toegezegd dat we nog een brief krijgen over de telefonische bereikbaarheid in Overijssel, waaronder de plaatsen Vilsteren en Hoge Hexel. We zouden graag willen weten wanneer we die brief tegemoet kunnen zien.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg6">En verder: heeft de staatssecretaris ook de indruk dat de ambitie van snel internet voor iedereen in 2023 onder druk staat door het strategisch marktgedrag van telecomproviders? Over snel internet is een eerdere motie van mij aangenomen. En is de staatssecretaris bereid om instrumenten te verkennen om dit tegen te gaan, zoals een coördinerende rol van de ACM?</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg7">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note13">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u4">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg8">Ik dank u. Dan geef ik het woord aan de heer Weverling van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note14">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u5">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg9">Dank u, voorzitter. Ik heb een motie over 5G.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note15">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note16">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note17">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note18">overwegende dat het noodzakelijk is om risico's voor de veiligheid en integriteit van het telecommunicatienetwerk te allen tijde te voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note19">constaterende dat nu in het kabinetsbeleid bij het toestaan van het gebruik van apparatuur van entiteiten met de mogelijke intentie om het telecommunicatienetwerk te misbruiken of uit te laten vallen een onderscheid wordt gemaakt tussen de kritieke en de niet-kritieke onderdelen van het netwerk;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note20">overwegende dat in diverse landen dit onderscheid niet meer gemaakt wordt, maar dergelijke apparatuur volledig uit het netwerk verbannen is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note21">verzoekt de regering te onderzoeken of naar de laatste veiligheidsinzichten het toestaan van dergelijke apparatuur in de huidige niet-kritieke onderdelen van telecommunicatienetwerken nog verantwoord en voldoende is om enige risico's voor de veiligheid en integriteit van het netwerk zo veel mogelijk uit te sluiten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note22">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note23">Deze motie is voorgesteld door de leden Weverling en Verhoeven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note24">Zij krijgt nr. kst-24095-520</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note25">Gaat u verder.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note26">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u6">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg10">En nog een motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note30">constaterende dat de snelle uitrol van 5G van groot belang is voor de toekomstige economische welvaart van Nederland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note31">overwegende dat gemeenten een belangrijke rol spelen in het faciliteren van de uitrol van 5G, onder andere door middel van het vergeven van vergunningen en het maken van lokaal beleid voor de aanleg van telecommunicatie-infrastructuur;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note32">overwegende dat gemeenten aangeven als gevolg hiervan onder druk te staan, mede vanwege de zeer actieve tegenbeweging die onder andere geleid heeft tot veel brieven met bezwaren, moties en bedreigingen van wethouders, ambtenaren en raadsleden, en behoefte hebben aan meer landelijke ondersteuning bij deze taken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note33">verzoekt de regering om in overleg met de VNG meer en betere landelijke ondersteuning bij de uitrol van 5G te bieden, onder andere door te werken aan een uniform antennebeleid, voorbeeldverordeningen, handleidingen en andere praktische ondersteuning,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note34">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note35">Deze motie is voorgesteld door het lid Weverling. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note36">Zij krijgt nr. kst-24095-521</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note37">Dank u wel. Het woord is aan mevrouw Bromet van GroenLinks.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note38">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u7">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg11">Voorzitter. Waterleiding, elektriciteit en riool zijn publieke voorzieningen. Snel vast internet is naar de mening van GroenLinks ook een publieke voorziening waar iedereen in Nederland recht op heeft. Dat gaat niet helemaal goed met de huidige marktwerking, want er blijven adressen verstoken van vast snel internet. Daarom deze motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note39">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note40">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note41">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note42">overwegende dat in het actieplan Digitale connectiviteit staat dat per eind 2023 alle huishoudens van Nederland de beschikking moeten kunnen hebben over een vaste internetverbinding van ten minste 100 megabit per seconde;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note43">constaterende dat uit het Dialogic-rapport in opdracht van het kabinet blijkt dat er in 2023 nog circa 10.000 adressen in Nederland zonder snel internet zullen zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note44">overwegende dat een groot deel van deze adressen afgelegen ligt waardoor de aansluiting onaantrekkelijk is voor investeringen van bedrijven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note45">overwegende dat een goede vaste internetverbinding een basisvoorziening is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note46">verzoekt de regering om financieringsmogelijkheden te onderzoeken voor de aanleg van vast internet voor huishoudens in witte gebieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note47">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note48">Deze motie is voorgesteld door de leden Bromet, Futselaar, Van den Berg en Moorlag. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note49">Zij krijgt nr. kst-24095-522</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note50">Dan is het woord aan de heer Graus van de PVV. Gaat uw gang.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note51">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u8">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg12">Dank u wel, meneer de voorzitter. Ik zit nu overigens simultaan in een algemeen overleg over dierenwelzijn, dus ik doe mijn zegje, maar bij het VAO Toerisme ben ik niet aanwezig, want dan zit ik in de commissiezaal. Dan weet u dat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note52">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u9">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg13">Dat is goed om te weten. Ik zal u niet langer ophouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note53">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:argic" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u10">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg14">Maar ook daarvoor heb ik een motie meeondertekend. Dat heb ik hier ook gedaan. Ik heb een motie meeondertekend van het lid Van den Berg, ten behoeve van de verlenging. Bedankt voor uw collegialiteit, mevrouw Van den Berg. U bent, net als de heer Weverling en de heer Bruins, een van de weinige Kamerleden die altijd ook andere mensen laten meetekenen, ook als ze niet hier aanwezig kunnen zijn. Dat is heel sympathiek. Ten behoeve van DAB heb ik een motie van het lid Bruins meeondertekend.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg15">Ik kreeg te horen dat was uitgelekt dat wij een motie zouden indienen ten behoeve van verlenging, maar toen was één nieuwkomer helemaal in paniek. Dat is KINK. Die heeft gevraagd om speciale aandacht aan de staatssecretaris te vragen, ook voor de nieuwkomer. Inmiddels heb ik van andere deskundigen ter zake begrepen dat ze in het verleden weleens bepaalde kansen hebben laten liggen. Dat komen we dus later te horen. Ik heb hiermee mijn plicht gedaan en ga terug naar het algemeen overleg Dierenwelzijn.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg16">Ik wens u een heel gezegende avond, meneer de voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note54">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u11">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg17">Ik dank u zeer. Dat wens ik u ook.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note55">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:domes" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u12">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg18">Bij het AO Toerisme teken ik ook een motie mee met het lid Aartsen van de VVD, dus daar ben ik op die manier ook vertegenwoordigd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note56">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u13">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg19">Wij zijn alvast gewaarschuwd. Ik dank u zeer. O, er is nog een interruptie voor u van mevrouw Bromet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note57">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u14">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg20">Mijn vraag is: voor wie komt de heer Graus nu op? Voor de radiostations uit de motie waar zijn naam onder staat, of voor KINK-radio? Dat is mij niet duidelijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note58">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u15">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg21">Dat is precies wat ik zeg. Ik ben tijdens het algemeen overleg heel duidelijk geweest. Ik werd toen inderdaad benaderd door nieuwkomers, die zeiden: je moet ook met ons rekening houden. Dat is ook wat ik vraag voor de toekomst. Dat standpunt heb ik ingenomen en eerlijk geventileerd. Ik heb ook eerlijk gecommuniceerd met de motie die ik met mijn collega's ben gaan indienen. Dat heb ik ze allemaal vooraf eerlijk gezegd. Ik ben daar dus open in. Bij dezen heb ik aandacht gevraagd voor de nieuwkomers. De toekomst zal het moeten uitwijzen. Dat zal in een nieuw debat zijn. Ik heb naderhand, vanmorgen nog, begrepen dat ze ook weleens een kans hebben laten liggen. Ze kunnen zich ook bij andere mensen aansluiten of samengaan. Ik heb in ieder geval mijn plicht gedaan. Ik heb beloofd dat ik dat zou benoemen. Dan doe ik dat ook.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg22">Maar u zat net toch ook met mij in het algemeen overleg Dierenwelzijn? Hoe bent u zo snel hier gekomen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note59">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u16">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg23">Ik ben ook simultaan aan het vergaderen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note60">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u17">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg24">We moeten vlug teruggaan, want mensen hebben meer stemmen dan dieren. Ik ga dus terug naar de dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note61">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u18">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg25">Maar zij zijn met meer. Goed, dank u zeer. Ik zou graag het woord aan de heer Futselaar geven, maar die is er niet, dus dat wordt ingewikkeld. Dan gaan we gauw naar de heer Bruins van de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note62">De heer Bruins (ChristenUnie)</note>
+            <u who="#EppoBruins" ana="#regular topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u19">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg26">Voorzitter. Ik dank de staatssecretaris voor de gedachtewisseling op dit technisch best wel ingewikkelde dossier. Je moet je daarbij altijd weer goed afvragen wat rechtvaardigheid is als het gaat om nieuwkomers en oudkomers.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg27">Ik heb één motie om in te dienen, die gaat over de radiostations die voorlopen en al helemaal klaar zijn om de overstap naar DAB+ te maken of al gemaakt hebben. Die motie klinkt als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note63">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note64">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note65">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note66">overwegende dat de koppeling tussen FM en DAB+ bij een eventuele noodverlenging behouden blijft, maar dat tegelijk DAB+ in belang zal groeien in de komende jaren waardoor "DAB only" uitzenden voor bepaalde radiostations meer opportuun wordt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note67">van mening dat verder overleg tussen de commerciële radiosector en het ministerie van EZK nodig is om tot een goede weging van de rapporten van de commissies-Don en onderzoeksbureau KWINK te komen en op basis daarvan tot een gedragen besluit te komen over de veiling of verlenging van de FM-frequenties na 2025;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note68">overwegende dat het belangrijk is om rust in de markt te zoeken en toe te werken naar een spoedige afronding van het overleg;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note69">verzoekt de regering om het overleg met de sector zo spoedig mogelijk te starten, en de Kamer regelmatig te informeren over het verloop;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note70">verzoekt de regering tevens om bij dat overleg rekening te houden met het belang van een zo spoedig mogelijke digitalisering van radio, met inbegrip van de mogelijkheid voor radiostations om zo snel mogelijk "DAB only" te kunnen uitzenden als zij dat willen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note71">verzoekt de regering ten slotte om daarbij ook te overleggen over de mogelijkheden om het beleid voor de lokale, regionale, landelijke en "DAB only"-partijen te splitsen waardoor maatwerk per deelsector beter mogelijk wordt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note72">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note73">Deze motie is voorgesteld door de leden Bruins, Weverling, Verhoeven, Moorlag, Graus en Van den Berg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note74">Zij krijgt nr. kst-24095-523</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note75">Dank u wel. Dan is tot slot het woord aan de heer Moorlag van de Partij van de Arbeid.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note76">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:energ" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u20">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg28">Voorzitter. Ik heb geen moties. Ik heb een aantal moties meegetekend, waaronder die van mevrouw Bromet. Daarin spreekt zij haar zorgen uit over de witte gebieden, waar geen vooruitzicht is op glasvezel. Ik wil graag een andere situatie aan de staatssecretaris voorleggen. Hier in Den Haag is een wijk waar niet één glasvezelnet wordt aangelegd maar waar er twee glasvezelnetten worden aangelegd. Eentje ligt er al en eentje gaat er overheen. Winkeliers overstuur. De straat gaat opnieuw over de kop. Klanten blijven weg. Mensen hebben daar last van. Er wordt wel eens gezegd dat de onzichtbare hand van Adam Smith alles goed ordent, maar het is geen voorbeeld van goede ordening als er dubbele glasvezelnetten worden aangelegd in een wijk. Vindt de staatssecretaris dit wel gewenst? Wil zij toch eens gaan kijken of we dat anders kunnen gaan reguleren? Het maakt mij niet uit welke partij het gaat aanleggen maar we staan ook niet toe dat wanneer er eenmaal ergens een windpark staat, een andere ontwikkelaar tussen de bestaande windmolens weer nieuwe windmolens zet. Dus naar mijn smaak moet hier echt iets aan gebeuren. Volgens mij wordt er ook wel aan gewerkt, maar mijn vraag is of dat versneld kan worden en of de staatssecretaris daar verscherpte aandacht voor wil hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note77">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u21">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg29">Een interruptie voor u van de heer Weverling.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note78">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u22">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg30">Inderdaad, heel interessant. Natuurlijk moet iedereen glasvezel kunnen aanleggen, maar het is ook van belang dat bestaande partijen kunnen vervangen wat ze al hebben. De vraag is dus wel of hetgeen u vraagt wel is op te lossen. Er is natuurlijk de gewone kabel van de kabelaars die vervangen moet worden. Daarnaast is er het kopernetwerk van KPN dat ook vervangen moet worden. Ik snap uw vraag en ik ben ook benieuwd naar het antwoord van de staatssecretaris, maar vervanging blijf je natuurlijk wel altijd houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note79">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:energ" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u23">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg31">Volgens mij moet je voorkomen dat je dubbele glasvezelnetten krijgt, dat je dubbele coaxnetten krijgt, dat je dubbele aardgasleidingen krijgt, dat je dubbele elektriciteitsaansluitingen krijgt en dat je dubbele ontwikkelaars in windparken krijgt. Dat is gewoon een vorm van suboptimalisatie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note80">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u24">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg32">Dan een interruptie van mevrouw Van den Berg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note81">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:domes" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u25">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg33">Ik ben blij met de vraag van de heer Moorlag. Ik heb dit onderwerp vanwege de beperkte seconden spreektijd maar beperkt kunnen aantikken. Vindt meneer Moorlag het ook een oplossing om de Autoriteit Consument &amp; Markt te vragen om te kijken naar het marktmachtgedrag van bepaalde telecomproviders? Er wordt in ieder geval niet samengewerkt, maar er wordt wel enorm tegengewerkt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note82">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u26">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg34">Ik weet niet of de ACM op dit moment op grond van de bestaande regelgeving voldoende tucht kan uitoefenen op partijen om dit te voorkomen. Naar mijn weten is dat niet het geval. Vandaar dat ik mij tot de staatssecretaris richt, maar als het binnen de bestaande regelgeving wel opgelost kan worden, dan heeft dat natuurlijk verre de voorkeur. Dat zou ook de snelste methode zijn maar als dat niet kan, moet hiervoor versneld regelgeving komen om deze vorm van suboptimalisatie en overlast voor burgers en winkeliers te voorkomen. Gemeenten zitten er ook mee in hun maag. Ik denk dat we gemeenten een dienst bewijzen als we voorkomen dat twee keer een straat wordt opengebroken voor de aanleg van glasvezelnetten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note83">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u27">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg35">U bent klaar met uw betoog, meneer Moorlag?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note84">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u28">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg36">Nou, ik heb nog een punt, voorzitter. Ik was het zeer eens met de motie van de heer Weverling om de uitrol van 5G te versnellen. Ik heb nog wel even en cri de coeur wat betreft mijn thuisgebied, namelijk Termunten, aan de rand van de Dollard en de Graanrepubliek. Daar is zelfs geen 3G en 4G. Ik heb er al schriftelijke vragen over gesteld. De staatssecretaris hoeft er nu niet op in te gaan, maar ik wil deze gelegenheid toch wel even benutten om ervoor te zorgen dat het voor die witte vlekken in Nederland wat betreft 3G en 4G opgelost wordt.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg37">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note85">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u29">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg38">Ik dank u zeer. Ik kijk naar de staatssecretaris. Zij kan meteen reageren. Dus ik geef haar graag het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note86">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u30">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg39">Dank u wel, voorzitter. Fijn om hier weer een keer te zijn. Ik heb een vijftal moties en tweeënhalve vraag.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg40">De eerste motie is de motie van mevrouw Van den Berg c.s. over het verlengen van de bestaande FM-licenties voor commerciële radiostations voor de duur van drie jaar, en wel tot 1 september 2025. Ik heb daarover op 3 oktober, uit mijn hoofd gezegd, een brief aan de Kamer gestuurd naar aanleiding van een verzoek van de bestaande radiostations. Het SEO had een onderzoek daarnaar gedaan en kwam tot de conclusie dat die verlenging op dat moment geen oplossing was voor het geconstateerde probleem. Echter, de coronacrisis duurde wel voort en is, anders dan eerder was voorzien, nog niet beteugeld. Daar waar eerder zicht was op herstel, lijkt dat herstel nu verder weg dan ooit. Ik zie hier een Kamermotie voor mij liggen waar gewoon een dikke meerderheid van de Kamer onder staat. Dat is voor mij aanleiding om, gelet op de bijzondere omstandigheden van de tweede golf waar we nu in zitten, te onderzoeken hoe je die tijdelijke verlenging vormgeeft. Daarvoor is het wel van belang, want de Kamer koppelt daar meteen een termijn aan, om in herinnering te roepen dat in het frequentiebesluit staat dat bestaande vergunningen niet worden verlengd, tenzij een verlenging het algemeen, cultureel of economisch belang dient. Ik zal dat dus moeten onderbouwen en daarbij dus moeten vaststellen wat daarvoor dan een redelijke termijn is. Tegelijkertijd zal ik daarvoor een prijs moeten berekenen. Je moet natuurlijk voorkomen dat door die prijs weer een nieuw financieel probleem ontstaat. Ook is het van belang om duidelijkheid te verschaffen aan de sector. Daar ging meneer Weverling al staan en mevrouw Van den Berg ook. Ik dacht: laat ik nu dit argument aan de orde stellen dat er wel duidelijkheid voor de sector ontstaat. Daarom vind ik dat je, als je verlengt op grond van de overwegingen die ook in deze motie staan, dat minimaal voor twee jaar moet doen en dat je vervolgens goed moet bezien wat dan een juiste termijn is, gezien het frequentiebeleid en gezien de noodzaak om met de verlengingsprijs geen ander financieel probleem te laten ontstaan. Dat heeft onderzoek nodig. Omdat deze motie hier nu ligt, ga ik dat onderzoek doen. Met deze woorden kan ik het oordeel over deze motie aan de Kamer laten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note87">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u31">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg41">De motie op stuk nr. 519 oordeel Kamer. Meneer Weverling.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note88">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:macro" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u32">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg42">Ik was even bang dat er allerlei omzwervingen kwamen bij de uitleg van de motie. Ik begrijp dus dat de staatssecretaris de intentie overneemt om te kijken of er drie jaar verlengd kan worden en dat zij dat onderzoekt. Wanneer denkt zij de Kamer te kunnen informeren? Over die drie jaar mag geen misverstand bestaan, want de markt heeft financieringsbehoefte en daarom moet ook dat onderzoek niet te lang duren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note89">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u33">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg43">Dat ben ik met de heer Weverling eens. Het is alleen niet iets wat je even doet, want je zult moeten onderbouwen wat dan de omstandigheden zijn waar het frequentiebesluit over spreekt en je zult vervolgens ook een prijs moeten vaststellen. Van dat laatste zou u wellicht denken "doe niet zo ingewikkeld, neem gewoon de prijs van de vorige keer", maar het is afhankelijk van de omstandigheden op de markt, geprognotiseerde advertentie-inkomsten bijvoorbeeld en de duur van de vergunning. Dus dat heeft echt wel even tijd nodig, maar omdat deze motie er gewoon ligt, is dat voor mij een politiek feit en ga ik dus verlengen met minimaal twee jaar, maar ik vind wel dat de Kamer mij de gelegenheid moet geven om dit ook op een juiste manier te onderbouwen. Want het zou zomaar eens kunnen dat je op enig moment jezelf moet verdedigen bij de rechter ten aanzien van het besluit dat je neemt. Dat moet wel goed onderbouwd zijn, want anders heeft helemaal niemand er iets aan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note90">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u34">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg44">Het lijkt me voor de goede gang van zaken toch wel goed als u een termijn kunt noemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note91">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u35">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg45">Dat kan ik op dit moment niet aan u zeggen, want ik heb niet paraat hoe lang zo'n onderzoek duurt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note92">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u36">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg46">Oké.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note93">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u37">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg47">Ik stel voor dat ik dat zo snel mogelijk aan u laat weten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note94">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u38">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg48">Ik zou zeggen voor dinsdag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note95">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u39">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg49">Ja, dat moet wel lukken, een inschatting hoeveel tijd hiervoor nodig is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note96">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u40">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg50">Dank u wel. Dan mevrouw Van den Berg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note97">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:domes" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u41">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg51">Ik zie graag op termijn dat onderzoek tegemoet, omdat de sector daar toch met smart op zit te wachten. Ik begrijp dat de staatssecretaris zegt: als je de termijn langer laat lopen, heeft dat ook effect op de prijs. Er moet dan een hogere prijs worden gevraagd. Ik weet niet of dat een mogelijkheid is, maar ik vraag om een paar scenario's in beeld te brengen ten aanzien van de prijs en de lengte van de verlenging. De sector heeft die kredieten nodig. Het kan dan ook nog zijn dat ze zeggen: in een bepaald scenario kunnen wij dat bankkrediet makkelijker krijgen dan in een ander scenario. Ik weet niet of dat een mogelijkheid is?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note98">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u42">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg52">Nee, dat weet ik niet voor aanstaande dinsdag. Gezien het feit …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note99">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u43">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg53">Ik denk dat daarmee de uitwerking van de motie wordt bedoeld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note100">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:macro" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u44">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg54">Ja, dat kan ik op dit moment niet toezeggen. Ik laat u voor volgende week weten hoelang ik nodig denk te hebben voor die twee onderzoeken, dus het onderbouwen van het maatschappelijk en economisch belang en het onderzoek naar de prijs die je moet bepalen. Ik laat voor dinsdag aan de Kamer weten hoelang ik daarvoor nodig heb. Maar gezien het feit dat het wel van belang is dat de sector duidelijkheid heeft over de minimale verlenging, zeg ik u wel toe dat de minimale verlenging een termijn van twee jaar is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note101">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u45">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg55">Mevrouw Van den Berg, kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note102">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u46">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg56">Misschien was ik daar niet duidelijk genoeg in. Het gaat mij erom dat de staatssecretaris misschien een combinatie kan maken van twee jaar verlenging met prijs X en drie jaar verlenging, maar dan zou het prijs Y zijn. Kan dat in het onderzoek worden uitgewerkt?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note103">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u47">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg57">Dat kan ik op dit moment niet overzien. Ik kom daar later op terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note104">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u48">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg58">Helder. Dan kom ik bij mevrouw Bromet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note105">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u49">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg59">Ik vind dat de staatssecretaris onder druk van een motie die hier wordt voorgelegd wel heel snel zegt dat er een nieuw politiek feit is. Ik zou zelf wel willen weten, ook voor de standpuntinname van GroenLinks, wat dit betekent voor nieuwkomers en wat dit betekent voor radiozenders die cultureel zijn, bijvoorbeeld de Concertzender. Daar heb ik geen idee van. Ik weet dan ook niet wat ik moet stemmen ten aanzien van die motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note106">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u50">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg60">Net werd aandacht gevraagd voor nieuwkomers. Ik heb hier te maken met een politiek feit, waarbij een dikke Kamermeerderheid mij vraagt om te verlengen. Blijkbaar hebben zij een ander oordeel dan wat is neergelegd in het SEO-rapport. De consequentie daarvan is dat bestaande vergunninghouders hun vergunning behouden tot in ieder geval 1 september 2024 en dat nieuwkomers dus pas daarna weer een mogelijkheid hebben om mee te doen aan een veiling.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note107">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u51">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg61">Ik ben nou juist zo nieuwsgierig wat de staatssecretaris daar zelf van vindt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note108">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:macro" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u52">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg62">Wat ik daar zelf van vind heb ik op 3 oktober in een brief neergelegd. Uit mijn hoofd gezegd was die brief van 3 oktober. Tegelijkertijd zijn we met elkaar in een tweede coronagolf terechtgekomen, met weer consequenties voor de financiën van deze zenders. In het SEO-rapport werd er, uit mijn hoofd gezegd, rekening mee gehouden dat de helft van inkomsten dan kan verdwijnen. De combinatie van de tweede golf, de effecten daarvan op de inkomsten en het politieke feit van deze Kamermeerderheid maakt dat ik — dat is ook democratie, zou ik tegen mevrouw Bromet willen zeggen — conform deze motie aan het werk ga. Daarbij houd ik de Kamer wel voor dat zij mij in de gelegenheid moet stellen om mijn werk te doen, om dus goed te onderbouwen wat die maatschappelijke en economische noodzaak is en te komen tot een goede vaststelling van de verlengingsprijs.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note109">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u53">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg63">Voorzitter, mag ik nog één opmerking maken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note110">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u54">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg64">Nou, als het heel kort is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note111">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:immig" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u55">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg65">Dat betekent dus dat er voor de nieuwkomers geen ruimte is. Dat is bijzonder verdrietig. Ik hoop dat de staatssecretaris daar iets op verzint.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note112">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u56">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg66">Niet in de FM-frequenties. Als je bestaande vergunninghouders verlengt, is daarmee een feit — hoe zeg je dat netjes, voorzitter? — gecreëerd. Dank u wel, meneer Moorlag!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note113">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u57">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg67">Ik heb u al een keer de gelegenheid gegeven, meneer Weverling. Ik zag overigens wel dat het AO hierover op 11 juni was, dus ik kan me best voorstellen dat dit nog tot enig debat leidt, maar we gaan het toch niet helemaal overnieuw doen. Meneer Weverling.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note114">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u58">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg68">Zeker niet, voorzitter, dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note115">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u59">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg69">Heel kort, hè?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note116">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u60">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg70">Ik ben niet zo enthousiast over het verschil tussen twee en drie jaar. De Kameruitspraak is heel duidelijk. Ik wil van de staatssecretaris weten of haar intentie nu is om drie jaar te verlengen. Ze zegt namelijk steeds "minimaal twee jaar", maar dat is niet wat in de motie staat. Het nieuwe feit dat gecreëerd is, is "drie jaar".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note117">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u61">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg71">Tegelijkertijd verlengt de Kamer geen vergunningen en bepaalt de Kamer ook niet de verlengingsprijs. Dat is het werk dat ik moet doen. Ik geef aan dat ik wel ervan uitga dat de Kamer mij in de gelegenheid stelt om mijn werk daarin goed te doen en ervoor te zorgen dat een besluit standhoudt. Gezien de duidelijkheid aan de sector is het wat mij betreft een minimumtermijn van twee jaar, maar ik ga gewoon kijken of ik voldoende kan onderbouwen om het langer te laten zijn, conform de wens van de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note118">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u62">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg72">Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note119">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u63">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg73">Dan heb ik een tweede motie. Dat is de motie op stuk nr. 520 van de heer Weverling, samen met de heer Verhoeven. Zij vragen om onderzoek te doen naar de laatste veiligheidsinzichten voor de niet-kritieke onderdelen van de telecommunicatienetwerken. Ze vragen of die verantwoord en voldoende zijn om enig risico voor veiligheid en integriteit van het netwerk zo veel mogelijk uit te sluiten. Ik laat het oordeel over deze motie aan de Kamer, vooropgesteld dat 100% veiligheid niet bestaat. Het verzoek in de motie sluit wel aan bij de structurele aanpak waar het kabinet voor staat. Hierbij worden ontwikkelingen in de dreiging en in de techniek steeds in samenhang met elkaar bezien. Indien nodig kan dit leiden tot aanvullende maatregelen. Dat is ook waar deze motie op doelt, vandaar mijn oordeel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note120">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u64">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg74">En dat is oordeel Kamer? Even voor de helderheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note121">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u65">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg75">Ja, voorzitter, daar was ik mee begonnen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note122">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u66">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg76">Sorry. De motie op stuk nr. 520 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note123">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u67">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg77">Terwijl ik het zei, dacht ik: zal ik het aan het einde doen of aan het begin?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note124">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u68">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg78">Het is aan u, maar ik had het even gemist. Excuses.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note125">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u69">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg79">Alstublieft, voorzitter. Dan de motie op stuk nr. 521 van de heer Weverling, waarin hij mij verzoekt om in overleg met de VNG meer en betere landelijke ondersteuning aan gemeenten te bieden bij de uitrol van 5G. Achter deze motie staan gewoon heel veel gemeenteambtenaren, wethouders en raadsleden die soms met de handen in het haar zitten, gezien de weerstand in sommige delen van de samenleving ten aanzien van 5G. Daaraan komt ook nog wel wat complotdenken te pas. Tegelijkertijd zijn die zorgen er. Deze motie zie ik als ondersteuning van beleid. Ik laat daarom het oordeel over deze motie aan de Kamer. We doen al heel veel. Er is overalsnelinternet.nl, je kunt bij het Kennisplatform EMV voor informatie terecht. Ik ben zelf ook het land in gegaan met ambtenaren van het ministerie om al die gesprekken met gemeenten te voeren. Het is altijd goed om te kijken waar nog meer behoefte aan is. In ieder geval vind ik het wel van belang om tegen mensen die op gemeentelijk niveau werken te zeggen: meld je bij de VNG, want dat is het niveau waarop ik altijd over dit onderwerp spreek. Als er behoefte is aan meer specifieke ondersteuning of als er onduidelijkheid is, ben ik zeer bereid om die te verhelderen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note126">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u70">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg80">De motie op stuk nr. 521 krijgt oordeel Kamer. De heer Weverling gaat kijken of hij daar nog iets aan kan doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note127">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u71">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg81">Ik ben het eens met de uitleg, maar als er dan gezegd wordt "ondersteuning van beleid", dan denk ik: ja, er wordt gedacht dat met ondersteuning van beleid de motie al wordt uitgevoerd. Waarom dienen we de motie dan nog in? Als de motie wordt aangenomen, gaat het erom dat we moeten voorkomen dat lokale ambtenaren van gemeenten in het verdomhoekje komen en dat ze zelf weer een gezondheidsonderzoek gaan doen naar 5G. Als gemeenten bijvoorbeeld problemen krijgen met de uitrol van 5G hebben wij landelijk een probleem. Dan ontstaan er blinde vlekken en dat is niet de bedoeling. Vandaar de informatieondersteuning die het ministerie moet bieden aan al die lokale ambtenaren en wethouders.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note128">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u72">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg82">Ja, helder. De staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note129">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:healt" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u73">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg83">Maar zoals de heer Weverling zelf al zegt: dat moet je ook niet doen. Je moet niet als individuele gemeente zelf een onderzoek gaan doen naar de gezondheidseffecten van 5G. Laten we daar toch ook helder over zijn: daar hebben wij een adviesraad voor. We hebben het Kennisplatform EMV, dat al die informatie bundelt. Ik heb een taskforce opgericht waarin het Rijk, de VNG en de gemeenten samenwerken om allerlei zaken te doen. Deze motie brengt dat nog een keer nadrukkelijk onder de aandacht. Als iemand die op gemeentelijk niveau actief is, nu zit te luisteren of er morgen over leest en denkt: hoe zit dat? Dan hebben we in ieder geval weer een stap gezet met elkaar. Deze motie maakt mij wel duidelijk dat er op gemeentelijk niveau blijkbaar nog steeds mensen in vertwijfeling zijn. Dan is het gewoon goed om ze te wijzen op al die informatie die voorhanden is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note130">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u74">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg84">Dan de vierde motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note131">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u75">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg85">Dan kom ik bij de motie-Bromet c.s. op stuk nr. 522, waarin de regering wordt verzocht om financieringsmogelijkheden te onderzoeken voor de aanleg van vast internet voor huishoudens in witte gebieden. Deze motie kan ik oordeel Kamer geven. Er staat hier nog een heleboel, maar volgens mij is dit voldoende.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note132">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u76">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg86">Een korte motie en een korte reactie. De motie op stuk nr. 522 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note133">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u77">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg87">De motie op stuk nr. 522 krijgt oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg88">Dan heb ik de motie-Bruins c.s. op stuk nr. 523 waarin mij gevraagd wordt om …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note134">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u78">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg89">Een heleboel. We hebben het allemaal gehoord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note135">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u79">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg90">Het gaat in ieder geval over DAB only. DAB is digitale radio, laat ik het maar even simpel houden. Ik kan het oordeel over deze motie aan de Kamer laten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note136">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u80">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg91">De motie op stuk nr. 523: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note137">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#guest topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u81">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg92">Dan heb ik nog een tweetal vragen. Mevrouw Van den Berg vroeg aan mij hoe het zit met de vragen die gesteld zijn ten aanzien van een tweetal plekken in de provincie Overijssel, waaronder Vilsteren. Ik streef ernaar deze vragen samen met de schriftelijke Kamervragen over mobiele bereikbaarheid in Termunten te beantwoorden. Dat wil ik snel doen. Als mij dat niet lukt, zal ik in die Kamervragen beantwoorden wanneer dat dan wel gaat. Er gelden termijnen voor Kamervragen, voorzitter, voordat u die vraag aan mij stelt.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg93">Dan heb ik nog een vraag die zowel door de heer Moorlag als door mevrouw Van den Berg gesteld werd, over de uitrol van glasvezel. Af en toe ontstaan er wel situaties waarvan je je afvraagt: moet dat nou zo? Tegelijkertijd staat de doelstelling zoals die geformuleerd is voor 2023 nog steeds bovenaan. De concurrentiestrijd is fel, maar ik ben daarover continu in gesprek met marktpartijen en met de ACM, zeg ik tegen mevrouw Van den Berg. Zoals toegezegd op 11 juni kom ik voor het eind van het jaar met een brief over de glasvezelmarkt, waarin ik deze twee verzoeken ook nadrukkelijk zal meenemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note138">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:techn" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u82">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg94">Dank u wel. Daarmee komt een einde aan dit VAO Telecommunicatie.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note139">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.note140">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:domes" xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.u83">
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg95">Over de ingediende moties zal aanstaande dinsdag gestemd kunnen worden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-10-29-tweedekamer-9.seg96">Omdat wij de staatssecretaris van Economische Zaken en Klimaat in ons midden hebben, en ook de sprekers voor het volgende VAO, gaan we daar ook direct mee verder. Dat is het VAO Toerisme.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

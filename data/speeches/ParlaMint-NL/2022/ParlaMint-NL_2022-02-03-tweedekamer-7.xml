@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-02-03 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-02-03 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 46, Session 7 (2022-02-03)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 46, Session 7 (2022-02-03)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="46" xml:lang="en">Meeting 46</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="7" xml:lang="en">Session 7</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-02-03">Sitting 2022-02-03</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="35">35 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="35">35 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1913">1,913 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1913">1,913 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-02-03">2022-02-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="85"/>
+               <tagUsage gi="seg" occurs="42"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="35"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-02-03">2022-02-03</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.head1">Aanscherping van de regels inzake industriële emissies</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:envir" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg1">Aan de orde is het tweeminutendebat Aanscherping van de regels inzake industriële emissies. Ik heet opnieuw welkom de staatssecretaris van Infrastructuur en Waterstaat, die ik nog ken uit een vorig leven, toen we allebei in Maastricht zaten, zij in de gemeenteraad en ik in Provinciale Staten. Vandaar dat wij het zo-even hadden over het Maastrichts praten; ik vind het altijd fijn om dat in de plenaire zaal te kunnen doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg2">Ik heet ook de woordvoerders van de zijde van de Kamer welkom. Tevens heet ik de mensen die het debat volgen welkom. Als eerste geef ik het woord aan de heer Van Raan van de fractie van de Partij voor de Dieren, die toevallig vandaag ook jarig is, waarmee ik hem van harte feliciteer. Het woord is aan de jarige heer Van Raan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note2">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg3">Voorzitter. Ik merk dat mijn microfoon het niet doet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note3">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg4">Excuus. Ik geef u opnieuw het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note4">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg5">Voorzitter. Ik zie dit toch als een vorm van obstructie, die mij in ieder geval niet verbaast. Maar alle gekheid op een stokje. Ik wil eerst mijn dank uitspreken voor het uitvoeren van de motie van mevrouw Leijten van de SP en mij voor het meten van de CO-uitstoot van biomassa. Dat wordt nu gemeten. Dat is het goede nieuws. Het tragische nieuws is dat die meting in 2019 door het CBS 19 megaton betrof. Dat is 19 megaton uitstoot van CO, welke administratief niet meetelt volgens de afspraken, maar die het klimaat natuurlijk wel beïnvloedt. Ik dien daar zo nog een motie over in.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg6">Voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note5">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note6">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note7">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note8">constaterende dat het nieuwe kabinet 35 miljard uittrekt voor het klimaat- en transitiefonds;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note9">overwegende dat er belastinggeld verspild wordt als de uitstoot niet afneemt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note10">constaterende dat de huidige nationale CO-heffing alleen van toepassing is op een deel van de industrie en alleen op de zogenoemde vermijdbare emissies;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note11">overwegende dat deze regering een gelijk speelveld ook belangrijk vindt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note12">verzoekt de regering onderzoek te doen naar de mogelijkheden voor het invoeren van een in de praktijk vlakke uniforme CO-heffing die van toepassing kan zijn op de volledige uitstoot van alle typen broeikasgassen in alle economische sectoren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note13">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note14">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note15">Zij krijgt nr. kst-33118-212</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note16">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg7">Dan de tweede motie. Die motie gaat over de gemeten CO-uitstoot van biomassa: 10% van de totale uitstoot, meer dan de vijf grootste uitstoters van Nederland.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note17">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note18">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note19">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note20">constaterende dat in 2020 door het gebruik van biogrondstoffen in totaal 19 megaton CO werd uitgestoten, aldus het CBS;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note21">constaterende dat het voor het klimaat niets uitmaakt dat deze uitstoot administratief niet meetelt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note22">verzoekt de regering deze uitstoot voortaan mee te laten tellen bij de reductiedoelstelling van het kabinet,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note24">Deze motie is voorgesteld door de leden Van Raan en Beckerman.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note25">Zij krijgt nr. kst-33118-213</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note26">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg8">Dat was 'm, voorzitter. Ik heb u nu al vergeven voor uw gedrag bij de inleiding. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note27">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg9">Dank u wel, meneer Van Raan. Het is prettig om te weten dat u mij vergeven hebt. Dan geef ik als volgende het woord aan de heer Haverkort. Hij spreekt namens de fractie van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note28">De heer Haverkort (VVD)</note>
+            <u who="#ErikHaverkort" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg10">De VVD maakt in deze termijn geen gebruik van haar spreekrecht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note29">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg11">Dat is heel goed, want dan lopen we weer enkele minuten in. Dan geef ik als volgende het woord aan mevrouw Beckerman. Zij spreekt namens de fractie van de Socialistische Partij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note30">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg12">Dank u wel, voorzitter. Bij mij doet de microfoon het gewoon; het is dus blijkbaar iets persoonlijks. Maar toch de felicitaties voor de heer Van Raan. Wij sluiten ons ook aan bij de woorden van de heer Van Raan. Wat wij nu zien gebeuren, is dat er goede stappen worden gezet, maar dat regels van toepassing zijn op een deel van de industrie. We zien ook dat bijvoorbeeld het Schone Lucht Akkoord van toepassing is op een deel van het land. Daarmee zien we eigenlijk twee dingen gebeuren: een ongelijkheid, want in de ene gemeente heb je er wel recht op en in een andere gemeente niet, en het is minder effectief. We zijn blij dat de motie-Leijten/Van Raan wordt uitgevoerd, maar er is meer nodig. Ik heb daarom één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note31">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note32">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note33">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note34">constaterende dat de maatregelen op het gebied van industriële emissies naar de lucht aangescherpt gaan worden ten behoeve van het Schone Lucht Akkoord;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note35">constaterende dat inwoners rondom Tata Steel een fors hogere kans op kanker hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note36">overwegende dat de aanscherping van maatregelen niet voor Tata Steel gaat gelden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note37">verzoekt de regering deze aanscherping van de maatregelen voor industriële emissies ook van toepassing te laten zijn op Tata Steel,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note38">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note39">Deze motie is voorgesteld door de leden Beckerman en Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note40">Zij krijgt nr. kst-33118-214</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note41">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg13">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note42">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:argic" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg14">Dank u wel, mevrouw Beckerman. Dan geef ik als laatste het woord aan mevrouw Van der Plas van de BoerBurgerBeweging voor haar twee minuten. Ik zie dat haar bijdrage wederom is uitgedraaid op groen papier.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note43">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg15">Ja, wij zijn supergroen als BBB. Ik had hier laatst een debat en toen hadden we het over industriële emissies. Ik heb toen een motie ingediend om in kaart te brengen welke industrieën nu precies wat uitstoten. Die motie is verworpen, onder meer omdat die werd ontraden door de minister-president. Hij zei dat het staand beleid is en dat al die emissies al worden gemeten. Dat is gewoon klinkklare nonsens; dat is helemaal niet waar. De coalitie is daarin meegegaan en dacht: het is staand beleid, dus dat hoeven we niet te doen. Maar wat schetste ieders verbazing? Een dag later stond heel groot in de krant dat Tata Steel veel meer schadelijke stoffen uitstoot dan dat ze zelf registreren. Ik heb dat zelfs nog aangegeven: ze mogen het zelf registreren. Is dat wenselijk? Weten we wel waar we mee bezig zijn in dit land? We gooien overal maatregelen op en vervolgens wordt er gezegd: we weten best wel wat ze uitstoten. Maar dat is gewoon totaal niet waar. Dus als we nu toch aan recyclen zijn, recycle ik mijn motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note44">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note45">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note46">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note47">constaterende dat er met enige regelmaat rapporten of nieuwsberichten naar buiten komen waaruit blijkt dat de hoogte van de emissies die industriële bedrijven uitstoten niet overeenkomt met wat zij opgeven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note48">overwegende dat er onvoldoende capaciteit bij de omgevingsdiensten is om dit te controleren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note49">overwegende dat de tegenstelling tussen opgegeven uitstoot en daadwerkelijke uitstoot vaak zeer groot is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note50">overwegende dat beleid effectiever en eerlijker is als de werkelijke uitstoot van alle industrie in beeld is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note51">verzoekt het kabinet om een plan van aanpak te ontwikkelen om de daadwerkelijke emissies van industriële bedrijven in beeld te krijgen, en daar de Kamer voor de zomer over te informeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note52">voorts gaan wij verder met het verspreiden van gezond verstand in de Tweede Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note53">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note54">Deze motie is voorgesteld door het lid Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note55">Zij krijgt nr. kst-33118-215</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note56">Dank u wel, mevrouw Van der Plas. Ik zie dat er nog een vraag is van de heer Van Raan.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note57">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg16">Nee, voorzitter, het is geen vraag, het is een mededeling, namelijk dat vanaf heden de tweede motie die ik indiende, de motie die ging over het laten meetellen van de CO-uitstoot van biomassa bij de reductiedoelstelling (33118, nr. 213) medeondertekend is door mevrouw Beckerman.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note58">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u15">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg17">Dat zal genoteerd worden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg18">Ik heb begrepen dat de staatssecretaris vijf minuten nodig heeft. Dat betekent dat we tot 12.33 uur schorsen, om dan verder te gaan met de beantwoording door de staatssecretaris.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note59">De vergadering wordt van 12.28 uur tot 12.35 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note60">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u16">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg19">Goed. De staatssecretaris is klaar met de appreciatie van de moties, dus ik geef het woord aan de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note61">Staatssecretaris Heijnen</note>
+            <u who="#VivianneHeijnen" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u17">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg20">Dank u wel, voorzitter. Ik ga in één keer achter het goede spreekgestoelte staan, dus dat scheelt alweer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg21">We hebben vandaag het tweeminutendebat over het Wijzigingsbesluit industriële emissies. Ik dank uw Kamer voor de moties en de inbreng, ook in het debat met mijn voorganger. Voor ik reageer op de moties, zou ik allereerst graag willen zeggen dat ik er enorm naar uitkijk om de komende jaren samen met uw Kamer stappen te zetten op het thema waarover we het vandaag hebben. Achter de vaak technische termen die wij hier gebruiken, zoals emissiegrenswaarden, minimalisatieverplichtingen en industriële emissies, schuilt iets dat letterlijk van levensbelang is voor ons allemaal, namelijk schone lucht. In Nederland gaan mensen gemiddeld negen maanden eerder dood door luchtvervuiling. Een op de vijf Nederlandse kinderen met astma heeft dat gekregen als gevolg van vervuilde lucht. Dat moet echt beter. Iedereen heeft recht op schone lucht.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg22">In het Schone Lucht Akkoord hebben mijn voorgangers met gemeenten en provincies afgesproken te gaan voor 50% gezondheidswinst door schonere lucht in 2030. Dat betekent dat mensen daardoor langer en gezonder zullen leven. Daar wil ik volop werk van maken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg23">Vandaag hebben wij het over de sectorindustrie. Die draagt voor 10% bij aan de negatieve effecten op de gezondheid door vervuilde lucht. Met gemeenten en provincies wil ik werken aan het terugdringen van de uitstoot van de industrie. Dit wijzigingsbesluit draagt daar ook aan bij door kleine- en middelgrote biomassacentrales, die bijvoorbeeld in woonwijken draaien om het zwembadwater warm te stoken, aan strengere eisen te laten voldoen. Eerder deze week werd bekend dat de Omgevingswet later in werking zal treden. Zoals u weet, is dit wijzigingsbesluit onderdeel van de Omgevingswet. Dat betekent dat het wijzigingsbesluit ook niet meer per 1 juli zal ingaan.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg24">Uw Kamer heeft een aantal moties ingediend. Daar wil ik graag verder op ingaan. Allereerst de motie op stuk nr. 212 van de heer Van Raan, die ik van harte feliciteer met zijn verjaardag. Ik zou die motie graag willen doorgeleiden naar de minister voor Klimaat en Energie, de heer Jetten, want dit is een onderwerp voor deze minister. De motie betreft beleid om CO te reduceren. Aangezien klimaatbeleid onder de verantwoordelijkheid valt van mijn collega, zal ik die motie graag naar hem doorgeleiden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note62">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u18">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg25">Dat leidt tot een vraag of een verzoek van de heer Van Raan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note63">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u19">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg26">Ik snap dat die motie wordt doorgeleid. Ik zou dan willen verzoeken om daar ook de staatssecretaris van Financiën bij te betrekken. De heffingen over CO-beleid vallen eigenlijk onder zijn domein. Als de appreciatie voor de stemmingen kan komen, zou dat fijn zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note64">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u20">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg27">Het is vandaag donderdag en de stemmingen zijn komende dinsdag. Redt de staatssecretaris het om de appreciatie van die andere bewindslieden vóór dinsdag te krijgen, of betekent dit dat die motie moet worden aangehouden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note65">Staatssecretaris Heijnen</note>
+            <u who="#VivianneHeijnen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u21">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg28">Ik zou willen vragen om de motie voor de zekerheid aan te houden. Maar we kijken wat we kunnen doen. Hetzelfde geldt in feite voor de tweede motie die meneer Van Raan heeft ingediend ... O, pardon.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note66">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u22">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg29">Even terug naar de motie op stuk nr. 212. De heer Van Raan geeft non-verbaal aan dat de motie wordt aangehouden.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note67">Op verzoek van de heer Van Raan stel ik voor zijn motie (33118, nr. 212) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note68">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note69">Staatssecretaris Heijnen</note>
+            <u who="#VivianneHeijnen" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u23">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg30">Hetzelfde geldt voor de motie van de heer Van Raan op stuk nr. 213, die verzoekt om de uitstoot van de biomassacentrale in het vervolg mee te nemen. Dat is ook een onderwerp voor de minister voor Klimaat en Energie. Ik zou die motie dus ook graag naar minister Jetten doorgeleiden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note70">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u24">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg31">Ik zie de heer Van Raan begrijpend knikken. Daaruit leid ik af dat ook deze motie is aangehouden. De heer van Raan knikt instemmend.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note71">Op verzoek van de heer Van Raan stel ik voor zijn motie (33118, nr. 213) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note72">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note73">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u25">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg32">De staatssecretaris gaat naar de motie op stuk nr. 214.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note74">Staatssecretaris Heijnen</note>
+            <u who="#VivianneHeijnen" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u26">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg33">Ja, voorzitter. Die is van mevrouw Beckerman en gaat over de maatregelen van het Schone Lucht Akkoord. Het gaat erom dat die ook van toepassing moeten zijn op Tata. Ik zou het oordeel daarover graag aan de Kamer willen laten. In het Schone Lucht Akkoord neem ik samen met medeoverheden maatregelen om de uitstoot van de industrie te reduceren. Dat geldt dus ook voor Tata. We willen bijvoorbeeld scherper vergunnen door het bevoegd gezag. De onderhavige aanscherping zal ook gelden voor Tata wanneer dat bedrijf de activiteiten uitvoert waar deze regels betrekking op hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note75">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u27">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg34">De motie op stuk nr. 214 krijgt oordeel Kamer. Dan de motie op stuk nr. 215.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note76">Staatssecretaris Heijnen</note>
+            <u who="#VivianneHeijnen" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u28">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg35">Dat was een motie van mevrouw Van der Plas met het verzoek om een plan van aanpak om daadwerkelijke emissies in beeld te brengen. Ik begrijp het verzoek van mevrouw Van der Plas. Ook het RIVM heeft onlangs in een rapport in het kader van Tata Steel aandacht gevraagd voor het in beeld brengen van emissies bij bedrijven. Dat wordt nu uitgezocht in samenwerking met het RIVM. De uitkomsten van die analyse zou ik graag willen gebruiken om vervolgstappen te bepalen. Dat komt binnen een halfjaar. Daarom zou ik willen verzoeken om deze motie aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note77">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u29">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg36">Het verzoek aan mevrouw Van der Plas is om de motie aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note78">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u30">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg37">Dan zou ik eigenlijk wel willen weten wat dat precies inhoudt, want het is altijd maar uitstel en uitstel. Het wordt almaar naar achteren geschoven. Ondertussen geven we tientallen miljarden uit aan beleid in het nieuwe regeerakkoord. Dus ik zou wel eerst willen weten wat dat dan precies inhoudt en of dat dan ook in lijn is met deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note79">Staatssecretaris Heijnen</note>
+            <u who="#VivianneHeijnen" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u31">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg38">Het is belangrijk om te weten wat er aan de hand is om ook goed te kunnen meten. Wij zien dat er in sommige gevallen heel veel verschillen zitten tussen wat bedrijven zelf meten, in het geval van Tata, en wat het RIVM constateert. Ook het RIVM zelf snapt niet goed hoe het verschil dusdanig groot kan zijn. Dus het is van belang om de partijen met elkaar het gesprek aan te laten gaan om te onderzoeken hoe groot die verschillen nou echt zijn. Ik zou dat soort dingen graag eerst in beeld willen hebben en compleet willen hebben voordat we mogelijk verdere stappen nemen. Als dat nodig is, dan moeten we dat zeker niet nalaten overigens.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note80">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u32">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg39">Ik wil het debat niet opnieuw gaan doen. Ik wil van mevrouw Van der Plas weten of ze haar motie aanhoudt of niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note81">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u33">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg40">Nee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note82">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u34">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg41">De motie wordt in stemming gebracht. Dat betekent dat zij daarmee ontraden is.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note83">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note84">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.u35">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.seg42">Ik dank de staatssecretaris, de Kamerleden en de mensen die dit debat gevolgd hebben. Wij zouden aansluitend doorgaan met het tweeminutendebat over het spoor, maar ik heb begrepen dat er eerst nog stemmingen tussendoor komen. Na de schorsing gaan we verder met de stemmingen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-7.note85">De vergadering wordt van 12.42 uur tot 12.47 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

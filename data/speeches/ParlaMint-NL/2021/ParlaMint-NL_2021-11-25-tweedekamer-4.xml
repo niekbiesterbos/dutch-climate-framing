@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-11-25 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-11-25 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 27, Session 4 (2021-11-25)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 27, Session 4 (2021-11-25)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="27" xml:lang="en">Meeting 27</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-11-25">Sitting 2021-11-25</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="41">41 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="41">41 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2278">2,278 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2278">2,278 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-11-25">2021-11-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="94"/>
+               <tagUsage gi="seg" occurs="55"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="41"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-11-25">2021-11-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.head1">Nederlands Herstel- en veerkrachtplan</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:macro" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg1">Thans is aan de orde het tweeminutendebat Nederlands Herstel- en veerkrachtplan. De commissievergadering over dit onderwerp vond plaats op de 17de november jongstleden. Een hartelijk woord van welkom aan de minister van Financiën; fijn dat u bij ons bent.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg2">De heer Van der Lee heeft niet deelgenomen aan het commissiedebat. Desondanks vraagt hij toestemming om toch hier het woord te mogen voeren. Ik vind eigenlijk dat hij dan eerst moet afwassen in de kantine of zo. Maar goed, ik stel toch voor, tenzij daar bezwaar tegen bestaat, om hem aan het woord te laten. Voor straf moet hij natuurlijk wel als laatste spreken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg3">Dan gaan we luisteren naar de eerste spreker van de zijde van de Kamer en dat is mevrouw Gündoğan van de fractie van Volt. Zij heeft zoals iedereen twee minuten spreektijd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note2">Mevrouw Gündoğan (Volt)</note>
+            <u who="#NilüferGündoğan" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg4">Dank u wel, voorzitter, en ook dank aan de collega's dat dit debat kan plaatsvinden want ik moest vorige week vanwege een hele drukke agenda heel snel weer weg. Dus ik begin snel. Een korte vraag en twee moties.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg5">De minister gaf in het commissiedebat vorige week aan dat de deadline voor indiening van de plannen van april 2022 ruimschoots gehaald zal worden en dat hij verwacht dat de Kamer in de lente een conceptplan voorgelegd krijgt. Als de Kamer en de decentrale overheden pas in de lente meegenomen worden, zie ik vrijwel geen tijd meer voor inspraak. Kan de minister ons nu, los van de formatietafel, een realistischer indicatie geven van het tijdpad wat betreft het consulteren van de Kamer en de decentrale overheden voor zowel de hervormingsplannen als de besteding van de RRF-gelden? Want VNG en IPO wachten met smart.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg6">Dan de moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note6">constaterende dat de formerende partijen onderhandelen over de besteding van de RRF-gelden die beschikbaar zijn voor Nederland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note7">verzoekt de regering de gelden uit het herstelfonds te besteden naar de geest van het Europees Herstelfonds, oftewel: nieuwe investeringen die een impuls geven aan de economie en Europa zo uit de crisis investeren (bouwsteen 2), in plaats van aan incidentele middelen uit de nationale begroting (bouwsteen 1),</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note8">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note9">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note10">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note11">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note12">constaterende dat uit onderzoek blijkt dat vrouwen disproportioneel hard getroffen zijn door de gevolgen van de COVID-19-pandemie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note13">constaterende dat de VN waarschuwen voor wereldwijde achteruitgang op het gebied van gendergelijkheid als gevolg van de pandemie en daarbij verwijzen naar de ongelijke werk/zorgverdeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note14">overwegende dat lidstaten, volgens de Europese regeling over de RRF-plannen, geacht worden uiteen te zetten hoe de nationale RRF-plannen bijdragen aan gendergelijkheid en gelijke kansen en daarbij tevens een samenvatting te verschaffen van het consultatieproces met relevante nationale stakeholders;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note15">verzoekt de regering om conform de Europese RRF-verordening het perspectief van gendergelijkheid en gelijke kansen nadrukkelijk te incorporeren in de planning, uitvoering en evaluatie van de nationale RRF-plannen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note16">verzoekt de regering om tegemoet te komen aan de voorwaarden van de Europese regeling over de RRF-plannen op het gebied van gendergelijkheid en gelijke kansen, en de Kamer hierover voor het kerstreces te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note17">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note18">Deze motie is voorgesteld door de leden Gündoğan, Dassen en Van der Lee.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note19">Zij krijgt nr. kst-21501-07-1795</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note20">Deze motie is voorgesteld door de leden Gündoğan, Dassen en Van der Lee.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note21">Zij krijgt nr. kst-21501-07-1796</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note22">Mevrouw Gündoğan (Volt)</note>
+            <u who="#NilüferGündoğan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg7">Ik word volgens mij steeds beter in snel praten, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note23">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg8">Ja, maar dan krijgt u ook nog een interruptie. Haal maar even goed adem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note24">De heer Hammelburg (D66)</note>
+            <u who="#AlexanderHammelburg" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg9">Een heel korte en een hele technische. Het kerstreces is al over drieënhalve week. Stel voor dat het kabinet zegt dat dat een beetje snel is en vraagt of het iets later mag. Zou Volt daarmee dan akkoord gaan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note25">Mevrouw Gündoğan (Volt)</note>
+            <u who="#NilüferGündoğan" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg10">Het is niet zo dat Volt daar nou een groot punt van wil maken, maar het hele RRF-traject begint onderhand wel een beetje gênant te worden. We zijn het enige land dat nog geen plannen heeft ingediend, waarbij de decentrale overheden er ook nog niet in zijn meegenomen. Ik maak mij ernstig zorgen om de totale omvang. Dus om van dat ene specifieke punt nu meteen een drama te maken, nee, maar ik ben wel heel teleurgesteld over de gang van zaken. Dat wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note26">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg11">We maken er geen drama van.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note27">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:trans" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg12">Ik heb een vraag om de motie van Volt goed te begrijpen. Een van de voorstellen gaat bijvoorbeeld over het bevorderen van de binnenvaart. Als het bevorderen van de binnenvaart niet bijdraagt aan gendergelijkheid, is Volt dus tegen dat plan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note28">Mevrouw Gündoğan (Volt)</note>
+            <u who="#NilüferGündoğan" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg13">Nou maakt u het zwart-wit. De tijd was ontoereikend om het in de context te plaatsen. We hebben het in Nederland gezien bij de covidpandemie. Als er in een gezin anderhalf inkomen was en de man zijn baan verloor, kwam het allemaal bij de vrouw terecht. Dan werkte zij door en werd het gezin extra hard getroffen. Om de binnenvaart — één micro-onderdeel — en de manier waarop die door de covidpandemie is getroffen eruit te halen, lijkt mij niet aan de orde. Wij willen graag meenemen dat vrouwen in de economie vaak worden vergeten. De 30% en 27% die al geoormerkt zijn, betreffen niet sectoren waar veel vrouwen werken. Daarom verzoeken wij om aandacht voor de gendergelijkheid en de gezinnen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note29">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg14">Helder. Dank u wel. Dan gaan we luisteren naar mevrouw Inge van Dijk van de fractie van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note30">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg15">Dank u wel, voorzitter. Ik ga beginnen met de motie, omdat twee minuten kort is.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note31">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note32">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note33">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note34">overwegende dat de voor Nederland gereserveerde middelen uit het Europese coronaherstelfonds (RRF) ingezet worden ten behoeve van de uitvoering van het beleid van het nieuwe kabinet om de Nederlandse economie vitaler en meer toekomstbestendig te maken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note35">constaterende dat alle Europese lidstaten inmiddels een herstelplan hebben ingediend bij de Europese Commissie behalve Nederland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note36">overwegende de brief van het kabinet over de ambities en afspraken over het vervolgproces met betrekking tot het Nederlandse RRP d.d. 1 november 2021;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note37">constaterende en hierbij tevens bevestigend dat het Nederlandse herstelplan moet voldoen aan Europese eisen omtrent duurzaamheid, arbeidsmarkt, innovatie en de aanbevelingen uit het Europees semester;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note38">overwegende dat het Nederlandse herstelplan moet inzetten op versterking van het unieke en innovatieve karakter van de Nederlandse economie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note39">overwegende dat het Nederlandse herstelplan moet bijdragen aan een versnelling van beleid op essentiële opgaven waarvoor Nederland zich gesteld ziet in de komende kabinetsperiode;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note40">verzoekt de regering zo snel mogelijk een herstelplan in te dienen bij de Europese Commissie en daarbij de volgende voorwaarden in acht te nemen:</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note41">bij de middelen die worden ingezet, wordt het mkb als norm genomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note42">het herstelplan sluit aan bij de Nederlandse klimaat- en energietransitie en de daarbij behorende woningbouwopgave;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note43">middelen worden ingezet voor de digitaliseringsopgave en om heel Nederland te voorzien van snel internet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note44">middelen worden ingezet om de economische gevolgen van de coronacrisis te mitigeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note45">middelen worden ingezet voor her-, om- en bijscholing en om knelpunten op de arbeidsmarkt weg te nemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note46">bij de inzet en uitgave van de middelen wordt rekening gehouden met landelijke spreiding;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note47">regio's, provincies, gemeenten en sectoren worden actief bij de totstandkoming en uitvoering van het herstelplan, zowel voor- als achteraf,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note48">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note49">Deze motie is voorgesteld door het lid Inge van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note50">Zij krijgt nr. kst-21501-07-1797</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note51">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:trade" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg16">Ten slotte wil ik de minister nog bedanken voor het feit dat hij in het commissiedebat heeft willen toezeggen dat hij bij de uitvoering van de motie-Palland ook een concurrentie-analyse gaat maken van wat RRP's van andere lidstaten betekenen voor de Nederlandse concurrentiepositie en het Europese speelveld. Dat is belangrijk om te weten voor ons bedrijfsleven, waaronder de maakindustrie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg17">Dank je wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note52">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg18">Dank u wel. Ik neem aan dat al die afkortingen gesneden koek zijn voor financiële woordvoerders. Eén vraag van meneer Van der Lee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note53">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg19">Ja, één vraag. Ik hoor heel veel voorwaarden. Maar mijn vraag aan het CDA, dat aan een andere tafel aan het onderhandelen is, is of het gaat om additionele projecten. Een van de voorwaarden is om het in overleg te doen met andere partijen. Of gaat het alleen maar om de financiering van plannen die door de coalitie in de onderhandelingen over het nieuwe regeerakkoord worden bedacht?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note54">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg20">Ik denk dat u op het laatste punt doelt. Daar gaat het over het erbij betrekken van lokale en provinciale overheden. Een van de voorwaarden is dat de plannen een breed draagvlak moeten hebben. Anders zal de uitvoering waarschijnlijk tekort gaan schieten. In de verschillende commissiedebatten hebben wij daar meermaals aandacht voor gevraagd. Ook hebben we er al eerder een motie over ingediend. Tot nu toe zien we dat er nog onvoldoende aansluiting wordt gezocht bij onder andere de provinciale overheden, die wij wel heel belangrijk vinden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note55">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u16">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg21">Heel goed. Dan gaan we luisteren naar de heer Alkaya van de fractie van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note56">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u17">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg22">Voorzitter, dank u wel. We hebben een goed debat gehad met de minister over zaken als Brusselse bemoeizucht en bureaucratie. U had het waarschijnlijk ook mooi gevonden. Ik heb daar geen vragen meer over. Ik beperk me tot het indienen van een motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note57">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note58">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note59">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note60">overwegende dat de hypotheekrenteaftrek voor een belangrijk deel terechtkomt bij hoge inkomensgroepen met dure woningen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note61">overwegende dat de hypotheekrenteaftrek een stuwend effect heeft op de huizenprijzen en dat een verdere beperking daarvan om die reden voor de hand ligt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note62">van mening dat desondanks de hypotheekrenteaftrek een nuttig instrument kan zijn om huishoudens met modale inkomens te helpen om een huis te kunnen kopen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note63">verzoekt de regering de hypotheekrenteaftrek niet af te schaffen, maar te beperken door het maximale hypotheekbedrag waarover de rente kan worden afgetrokken stapsgewijs af te bouwen, bijvoorbeeld tot de NHG-grens,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note64">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note65">Deze motie is voorgesteld door het lid Alkaya.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note66">Zij krijgt nr. kst-21501-07-1798</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note67">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u18">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg23">En NHG staat voor Nationale Hypotheek Garantie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note68">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u19">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg24">Even de ondertiteling; dat wordt gewaardeerd. De laatste spreker van de zijde van de Kamer is de heer Van der Lee van de fractie van GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note69">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u20">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg25">Dank, voorzitter, en dank aan de collega's voor de coulance. Ik had de begroting Buitenlandse Zaken toen het commissiedebat plaatsvond.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg26">Ik sta onder de moties, maar ik zag na dat debat nog een bericht op RTL staan over een boeiende reconstructie uit Wob-stukken van een discussie tussen Financiën en EZK over hoe om te gaan met dit fonds. Daarom vroeg ik net ook aan het CDA: gaat het hier nou om additionele projecten, of gaat het alleen om zaken die op een formatietafel worden uitonderhandeld, of is het, zoals bleek uit de Wob-stukken, eigenlijk een manier om de Nederlandse schuldpositie te verbeteren door die fondsen alleen te gebruiken voor financiering van bestaande activiteiten? Misschien is daar in het commissiedebat al uitvoerig over gesproken, maar ik zou toch graag een bevestiging van de minister van Financiën willen dat het geenszins de bedoeling is om dit Herstel- en veerkrachtfonds te gebruiken om de staatsschuld te verlagen, dan wel alleen maar bestaande activiteiten die we al van plan waren te financieren. Dit temeer daar we die projecten zouden willen ontwikkelen met andere spelers in Nederland — betrokken decentrale overheden en bedrijven — en we ook in het kader van de transitie echt nieuwe initiatieven nodig hebben. Dat is mijn vraag.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg27">De tweede vraag is om duidelijkheid te krijgen over de eis rond hervormingen. Waren bestaande hervormingen, die door Rutte III in gang zijn gezet, bijvoorbeeld de herziening van ons pensioenstelsel, in zichzelf niet al voldoende om een beroep te kunnen doen op het Herstel- en veerkrachtfonds? Waarom met de rug staan naar de hervormingen die al in gang zijn gezet en projectindiening uitstellen voor hervormingen die er vast nog wel aan zullen komen, maar nog ongewis zijn?</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg28">Dat waren mijn vragen. Dank, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note70">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u21">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg29">Heel goed. Vier moties en twee vragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note71">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u22">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg30">Voorzitter, dank. Dank ook aan de leden voor de verdere precisering van de dingen die we in het debat al besproken hebben. In die categorie valt ook de vraag van de heer Van der Lee. Ik heb in dat debat betoogd dat dit aan een volgend kabinet is, dat er duidelijke voorwaarden zijn gesteld aan het RRF, dat het een combinatie moet zijn van investeringen in bepaalde zaken maar ook hervormingen, en dat een van de ambtenaren op het ministerie mij er altijd aan herinnert dat money fungible is. Want of je het geld nou in het ene potje stopt en vervolgens met ander geld wat anders doet of precies andersom, dat maakt uiteindelijk niet uit. Het is aan een nieuw kabinet om zich in de volle breedte te buigen over wat te doen op het gebied van hervormingen, wat te doen op het gebied van investeringen en hoe aan te kijken tegen de overheidsfinanciën. Overigens zijn de criteria voor deze 6 miljard wel helder. Dat zou ik willen zeggen in reactie op de heer Van der Lee.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg31">Dan de moties, die — laat ik het voorzichtig zeggen — ook voortborduren op wat er in het debat besproken is. De eerste motie, de motie op stuk nr. 1795, sluit eigenlijk aan bij de vraag van de heer Van der Lee, maar gegeven hoe het op papier staat, moet ik de motie ontraden. In theorie zou men de motie kunnen aanhouden, maar ik moet die ontraden, gegeven alles wat ik daarover in het debat heb gezegd en wat ik net ook in de richting van de heer van der Lee heb gezegd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg32">Dan de tweede motie van mevrouw Gündoğan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note72">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u23">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg33">Eén vraag van mevrouw Gündoğan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note73">Mevrouw Gündoğan (Volt)</note>
+            <u who="#NilüferGündoğan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u24">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg34">Het kan dat ik het verkeerd heb begrepen, maar zegt de minister nou dat het niet uitmaakt uit welk potje je wat betaalt? Begrijp ik dat goed? Want ik probeer de woorden goed te begrijpen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note74">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u25">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg35">Wij hebben daar uitvoerig bij stilgestaan tijdens het commissiedebat, maar mevrouw Gündoğan had toen de zaal verlaten. Dat is volgens mij ook een van de redenen dat wij nu dit debat hebben. Ik heb toen uitvoerig stilgestaan bij de criteria zoals die gelden voor de RRF. Daar gaat het over investeringen op bepaalde beleidsterreinen — mevrouw Gündoğan zal dat herkennen — en hervormingen. Maar zoals dat typisch gaat bij een nieuwe coalitie, worden de partijen het ook eens over de contouren van wat men acceptabel vindt op het gebied van de schuld. Die twee dingen praten natuurlijk met elkaar. Krijg je geld voor bepaalde investeringen vanuit Brussel omdat je ook bepaalde hervormingen doorvoert, dan hoef je dat geld niet meer uit de normale rijksbegroting te betalen en kun je dat gebruiken voor de schuld. Je kan het ook vice versa doen. Dat maakt in theorie niet uit, want geld is geld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note75">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u26">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg36">Prima, motie op stuk nr. 1796.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note76">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u27">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg37">Ik las in de media dat mevrouw Gündoğan een Kamerlid is om op te letten, maar dat weet ik al. Dat zal ik ook op dit dossier blijven doen. Ik dank haar voor haar vraag.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg38">Dan kom ik op haar tweede motie. Ik zou willen vragen of ze die zou willen aanhouden. Ik herken wat ze zegt over de gendergelijkheid, die ook wordt aangekaart in de RRF-verordening. Zij heeft het er overigens over om die nadrukkelijk te incorporeren. In de verordening heeft men het woord "nadrukkelijk" niet nodig, maar de doelstelling is dezelfde. Ik begrijp heel goed wat zij verder nog schrijft in het tweede deel van het dictum. Omdat dit echt aan een volgend kabinet is, stel ik haar voor die tweede motie aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note77">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u28">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg39">Ik tuur naar mevrouw Gündoğan. Vooralsnog wil ze die niet aanhouden, kijkende naar mevrouw Gündoğan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note78">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u29">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg40">Sorry, ik doe één ding verkeerd. Ik zat niet goed te lezen in het tweede ding. Over de eerste heb ik gezegd dat ik die in principe zou willen ontraden, maar dat ik aan mevrouw Gündoğan de mogelijkheid wil bieden om die aan te houden. De tweede motie kan ik oordeel Kamer geven, gegeven dat die in overeenstemming is met de zaken die al in de verordening staan. Daarin kan ik haar nog verder tegemoetkomen. De tweede motie kan ik oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note79">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u30">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg41">Heel goed.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note80">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u31">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg42">Voorzitter. Dan de motie op stuk nr. 1797 van het CDA. Ik ben het eens met veel zaken die in de considerans en het dictum genoemd zijn, maar dit gaat wel precies over zaken waar formerende partijen zich over moeten buigen. Ik zou mevrouw Van Dijk willen vragen deze motie aan te houden. Ik verneem via de media dat de formatie geen eeuwigheid meer duurt. Dat zou betekenen dat een volgend kabinet al op vrij korte termijn met de Kamer hierover in debat kan en met de samenleving hierover in debat kan. Het kabinet kan dan ook aandacht vragen voor alle zaken die in deze motie staan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note81">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u32">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg43">Dan wil ik even weten wat mevrouw Van Dijk gaat doen. Dit is een verzoek van de minister aan het Kamerlid.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note82">Op verzoek van mevrouw Inge van Dijk stel ik voor haar motie (21501-07, nr. 1797) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note83">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note84">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u33">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg44">Voorzitter. Dan de motie op stuk nr. 1798. Die moet ik ontraden. Ik herken de gestelde beweging als zaken die ook in het SP-programma voorkomen. Daar kan het kabinet, zelfs nu het in demissionaire staat verkeert, zich niet mee verenigen. Ik moet die dus ontraden. Ik weet dat dit geen verrassing is voor de heer Alkaya.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note85">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u34">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg45">Het zal toch een klap voor hem zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note86">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u35">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg46">Het is een klap die hij, hem kennende, manmoedig zal weten te verwerken om vervolgens de motie op een ander moment opnieuw in te dienen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg47">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note87">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u36">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg48">U dreigt nu weg te gaan, maar de heer Van der Lee had nog twee vragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note88">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u37">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg49">Die meen ik aan het begin beantwoord te hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note89">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u38">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg50">Zijn die voldoende beantwoord? Ik kijk even naar de heer Van der Lee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note90">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u39">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg51">De heer Van der Lee was toen met iemand in gesprek. Ik heb toen non-verbaal contact met hem gezocht. Ga ik dan nu horen of dat afdoende is gedaan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note91">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u40">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg52">Hij blijft zitten, dus laten we snel dit debat beëindigen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg53">Hartelijk dank aan de minister voor zijn aanwezigheid.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note92">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note93">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:inter" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.u41">
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg54">Dinsdag stemmen we over de moties. Tot zover. Ik schors even en dan gaan we praten over de begroting Ontwikkelingssamenwerking.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.seg55">Dank u wel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-25-tweedekamer-4.note94">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

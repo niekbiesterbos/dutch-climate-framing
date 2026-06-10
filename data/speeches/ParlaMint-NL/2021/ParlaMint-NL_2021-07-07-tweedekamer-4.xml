@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-07-07 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-07-07 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 98, Session 4 (2021-07-07)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 98, Session 4 (2021-07-07)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="98" xml:lang="en">Meeting 98</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-07-07">Sitting 2021-07-07</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="95">95 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="95">95 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3578">3,578 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3578">3,578 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-07-07">2021-07-07</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="305"/>
+               <tagUsage gi="seg" occurs="99"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="95"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-07-07">2021-07-07</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.head1">Woningbouwopgave</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg1">Goedemorgen allemaal. We hebben op dit moment het tweeminutendebat Woningbouwopgave aan de orde. Ik heet de minister van Binnenlandse Zaken en ook de leden hartelijk welkom. Het eerste lid dat het woord krijgt, is de heer Heerma van het CDA voor zijn twee minuten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note2">De heer Pieter Heerma (CDA)</note>
+            <u who="#PieterHeerma" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg2">Dank u, voorzitter. Tijdens het commissiedebat dat we hebben gehad over de woningbouwopgave stond de vraag centraal of, zoals de heer Koerhuis zei, de minister te veel op de rem staat of dat er voldoende gas gegeven wordt. Tijdens het debat heeft de minister verschillende toezeggingen gedaan, bijvoorbeeld om het komende zomerreces of vlak daarna naar Alphen aan den Rijn of Noord-Holland Noord te gaan om te praten en te zorgen dat daar meer woningbouw gaat loskomen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg3">Tijdens het debat is ook door diverse aanwezigen aandacht gevraagd voor het grote probleem van dak- en thuislozen in de opvang en de rol die maatschappelijk vastgoed kan spelen in het tegengaan van dit grote probleem. Daarom wil ik namens een aantal partijen de volgende motie indienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note6">constaterende dat bij vervreemding van rijksvastgoed realisatie van woonplekken voor kwetsbare groepen zoals dak- en thuislozen mogelijk is indien niet alleen naar de financiële opbrengst wordt gekeken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note7">constaterende dat het voor maatschappelijke instellingen in concurrentie met commerciële marktpartijen vrijwel onmogelijk is om mee te bieden op vastgoed van het Rijksvastgoedbedrijf;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note8">overwegende dat maatschappelijk vastgoed een grotere rol kan spelen bij het terugdringen van dak- en thuisloosheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note9">overwegende dat het Rijksvastgoedbedrijf naast een financiële ook een maatschappelijke taak heeft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note10">verzoekt de regering om het Rijksvastgoedbedrijf aan te moedigen en in staat te stellen om vastgoed dat geschikt gemaakt kan worden voor huisvesting van spoedzoekers daarvoor ook beschikbaar te stellen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note12">Deze motie is voorgesteld door de leden Pieter Heerma, Beckerman, Grinwis, Boulakjar, Koerhuis en Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note13">Zij krijgt nr. kst-32847-767</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note14">Dank u wel. U mag de motie zo hier inleveren. Dan komen we bij de tweede spreker van vandaag in dit debat. Dat is mevrouw Beckerman van de SP.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note15">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg4">Goedemorgen. De wooncrisis wordt dieper en dieper. Die wacht niet op de formatie. Daarom drie moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note16">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note17">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note18">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note19">overwegende dat het aantal dak- en thuisloze mensen eerder toe- dan afneemt en er structureel te weinig passende woonplekken zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note20">constaterende dat sommige gemeenten (vaak al jaren achtereen) achterlopen in het creëren van passende woonplekken voor spoedzoekers, dak- en thuislozen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note21">voorts constaterende dat het aantal goedkope sociale huurwoningen met een huur tot €432 is afgenomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note22">verzoekt de minister er bij gemeenten op aan te dringen pas bouwvergunningen te verlenen als er een gedegen regionaal behoefteonderzoek beschikbaar is en de te bouwen woningen nauw aansluiten bij de getoetste maatschappelijke behoefte van de regio,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note24">Deze motie is voorgesteld door de leden Beckerman, Nijboer en Bromet.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note25">Zij krijgt nr. kst-32847-768</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note26">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg5">Voorzitter, dan de tweede motie. Dat is toch de olifant in de kamer. Als het goed is, moet hier een meerderheid voor zijn.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note30">constaterende dat de verhuurderheffing de wooncrisis verder vergroot;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note31">spreekt uit dat de verhuurderheffing moet worden afgeschaft en dit geld gebruikt moet worden voor de bouw, verbetering en het betaalbaar houden van sociale huurwoningen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note32">verzoekt de regering dit uit te werken in de begroting voor 2022,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note33">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note34">Deze motie is voorgesteld door de leden Beckerman, Nijboer en Bromet.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note35">Zij krijgt nr. kst-32847-769</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note36">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg6">De derde motie, voorzitter. "Tweebossen" geen werkwoord. Het heeft me diep geraakt wat er gebeurt in de Tweebosbuurt. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note37">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note38">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note39">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note40">overwegende dat VN-rapporteurs uiterst kritisch zijn op het Rotterdamse woonbeleid en de sloop van de Tweebosbuurt, waarbij mogelijk mensenrechten zijn geschonden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note41">constaterende dat het kunnen verkrijgen van rijksgeld doorslaggevend was voor woningbouwcorporatie Vestia om tot snelle sloop over te gaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note42">verzoekt de regering bij het verlenen van financiële steun, zoals uit het Volkshuisvestingsfonds of de RVV, te eisen dat zeggenschap voor bewoners goed geregeld is en dat bewoners recht op terugkeer hebben,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note43">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note44">Deze motie is voorgesteld door de leden Beckerman, Van Baarle, Nijboer en Bromet.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note45">Zij krijgt nr. kst-32847-770</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note46">Dank u wel.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note47">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg7">Dat was het.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note48">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg8">Dan gaan we naar mevrouw Den Haan van Fractie Den Haan voor haar twee minuten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note49">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg9">Dank u wel, voorzitter. Ik heb in het commissiedebat aandacht gevraagd voor ouderenhuisvesting en met name geclusterde woonvormen voor ouderen. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note50">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note51">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note52">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note53">overwegende dat er een opgave ligt om 1 miljoen woningen te gaan bouwen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note54">overwegende dat er een groot tekort is aan geclusterde woonvormen voor ouderen, zoals het hofjeswonen (Knarrenhof) en de thuishuizen, waar mensen zelfstandig wonen, in de nabijheid van anderen, van zorg en voorzieningen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note55">overwegende dat door het bouwen van dit soort geclusterde woonvormen ouderen kunnen verhuizen, waardoor hun (eengezins)woningen vrijkomen en er doorstroming op de woningmarkt op gang komt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note56">verzoekt de regering om te onderzoeken of het aandeel van de 1 miljoen te bouwen woningen dat wordt bestemd als geclusterde woonvormen voor ouderen voldoende is, en de Kamer daarover voor de begrotingsbehandeling te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note57">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note58">Deze motie is voorgesteld door de leden Den Haan, Van der Laan en Boulakjar.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note59">Zij krijgt nr. kst-32847-771</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note60">Dank u wel. Het woord is aan de heer Koerhuis van de VVD-fractie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note61">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg10">Dank u wel, voorzitter. Ik ga nog even door op twee punten uit het commissiedebat. Het eerste heb ik gevat in een motie over Valkenburg.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note62">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note63">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note64">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note65">constaterende dat de woningnood in Nederland hoog is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note66">constaterende dat voormalig vliegkamp Valkenburg een grote woningbouwlocatie is, waar 5.600 woningen worden gerealiseerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note67">constaterende dat de provincie Zuid-Holland, Katwijk, Wassenaar en het Rijksvastgoedbedrijf hierover een bestuursovereenkomst hebben gesloten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note68">constaterende dat tijdens de technische briefing is gebleken dat er nieuwe knelpunten zijn ontstaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note69">verzoekt de regering om opnieuw in te grijpen in de woningcrisis, de partijen de bestuursovereenkomst te laten nakomen en de Kamer na het zomerreces te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note70">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note71">Deze motie is voorgesteld door het lid Koerhuis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note72">Zij krijgt nr. kst-32847-772</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note73">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg11">Dan mijn tweede motie. In het debat hadden de minister en ik het over de woningbouwimpuls, die er niet moet zijn voor dure tussenwoningen. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note74">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note75">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note76">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note77">constaterende dat Utrecht tussenwoningen laat bouwen voor €750.000;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note78">overwegende dat er niet met landelijke subsidies tussenwoningen horen te worden gebouwd voor €750.000;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note79">verzoekt de regering om in de derde tranche van de Woningbouwimpuls als voorwaarde te laten opnemen dat de gemiddelde koopprijs niet hoger mag zijn dan de NHG-grens,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note80">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note81">Deze motie is voorgesteld door het lid Koerhuis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note82">Zij krijgt nr. kst-32847-773</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note83">Dank u wel. Dan komen we daarmee bij GroenLinks, bij mevrouw Bromet.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note84">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg12">Voorzitter. Er is een groot gebrek aan betaalbare woningen in Nederland. Het helpt niet als grondspeculanten grond opkopen. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note85">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note86">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note87">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note88">overwegende dat in veel gemeenten plannen worden gemaakt voor woningbouw, maar dat nog niet overal besloten is op welke locaties deze woningen worden gebouwd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note89">overwegende dat speculanten gronden proberen te kopen zodat zij die gronden met winst kunnen doorverkopen op het moment dat daar woningbouw gepland staat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note90">overwegende dat gemeenten de mogelijkheid hebben om via de Wet voorkeursrecht gemeenten tijdelijke maatregelen te nemen om de verkoop van gronden te beperken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note91">van mening dat het onwenselijk is dat grondspeculanten (massaal) gronden opkopen waardoor het hierdoor lastiger wordt om betaalbare woningen te realiseren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note92">verzoekt de regering om de mogelijkheden uit de Wet voorkeursrecht gemeenten op korte termijn nadrukkelijk onder de aandacht van gemeenten te brengen en om hen bij het gebruik van deze bevoegdheden zo mogelijk te ondersteunen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note93">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note94">Deze motie is voorgesteld door de leden Bromet, Beckerman en Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note95">Zij krijgt nr. kst-32847-774</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note96">Dank u wel. Dan komen we daarmee bij D66, de heer Boulakjar.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note97">De heer Boulakjar (D66)</note>
+            <u who="#FaissalBoulakjar" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg13">Dank, voorzitter. Ik heb één motie vanuit mijn fractie. En wij dienen de motie van de heer Heerma van het CDA en mevrouw Den Haan over ouderenhuisvesting uiteraard van harte mee in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note98">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note99">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note100">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note101">constaterende dat er een tekort aan woningen is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note102">overwegende dat uit onderzoek blijkt dat 20%-25% van de jaarlijkse woningbouwopgave kan worden voldaan door het beter benutten van de bestaande voorraad;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note103">overwegende dat naast het bouwen van voldoende nieuwe woningen ook de bestaande voorraad optimaal ingezet dient te worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note104">verzoekt de regering om beleidsopties om de bestaande voorraad optimaal te benutten actief onder de aandacht te brengen van corporaties en marktpartijen en vastgestelde belemmeringen weg te nemen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note105">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note106">Deze motie is voorgesteld door het lid Boulakjar.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note107">Zij krijgt nr. kst-32847-775</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note108">Dank u wel. Daarmee komen we bij de heer Van Baarle van DENK.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note109">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg14">Voorzitter, dank u wel. Het is in de debatten gegaan over de borg en over de mogelijkheden misstanden die daarbij kunnen plaatsvinden. Daar heb ik de volgende motie over.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note110">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note111">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note112">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note113">constaterende dat er veel misgaat rondom de terugbetaling van de borg bij (tijdelijke) huurcontracten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note114">constaterende dat verhuurders de borg steeds meer als verdienmodel zijn gaan zien;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note115">verzoekt de regering een wettelijke grondslag te creëren over wat als "redelijke borg" en "redelijke borgvoorwaarden" gezien kan worden, teneinde misstanden te voorkomen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note116">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note117">Deze motie is voorgesteld door de leden Van Baarle, Beckerman en Bromet.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note118">Zij krijgt nr. kst-32847-776</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note119">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg15">Voorzitter. Dan een motie over woningmarktdiscriminatie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note120">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note121">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note122">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note123">constaterende dat het probleem van woningmarktdiscriminatie nog steeds buitengewoon hardnekkig is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note124">verzoekt de regering om het mysteryguestonderzoek naar discriminatie op de woningmarkt minstens jaarlijks te herhalen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note125">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note126">Deze motie is voorgesteld door het lid Van Baarle.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note127">Zij krijgt nr. kst-32847-777</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note128">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg16">Dan een tweetal moties over de sloop van de Tweebosbuurt in Rotterdam, wat naar de mening van de fractie van DENK een schandvlek is op het woningmarktbeleid in Nederland, waarbij mensen hun wijk uit gejaagd worden ten faveure van mensen met een grotere portemonnee. Dat deugt van geen kant. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note129">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note130">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note131">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note132">constaterende dat de sloop van de Tweebosbuurt in de gemeente Rotterdam een (mogelijke) schending van de mensenrechten oplevert, aldus de Verenigde Naties;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note133">keurt de sloop van de Tweebosbuurt af,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note134">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note135">Deze motie is voorgesteld door de leden Van Baarle en Beckerman.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note136">Zij krijgt nr. kst-32847-778</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note137">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u16">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg17">Voorzitter. Aan het sloopproject in de Tweebosbuurt liggen ook discriminatoire beleidsvoornemens ten grondslag: op basis van inkomen en zelfs op basis van etniciteit met de Leefbarometer. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note138">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note139">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note140">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note141">constaterende dat aan woningbouwprojecten vanwege gentrificatie, de Rotterdamwet en de inzet van de Leefbarometer mogelijk discriminatoire beleidsvoornemens ten grondslag liggen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note142">verzoekt de regering om bij woningbouwprojecten die van rijkswege gefinancierd worden, een toets op discriminatoire beleidsvoornemens in te bouwen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note143">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note144">Deze motie is voorgesteld door de leden Van Baarle en Beckerman.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note145">Zij krijgt nr. kst-32847-779</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note146">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u17">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg18">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note147">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u18">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg19">U ook bedankt. Dan komen we bij de volgende spreker. Dat is de heer Grinwis van de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note148">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u19">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg20">Voorzitter, dank u wel. Ik heb drie moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note149">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note150">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note151">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note152">constaterende dat bijna 60% van Nederland overstroombaar is, dat grote delen te maken hebben met bodemdaling en dat de schade door droogte, wateroverlast en hitte in het bebouwde gebied kan oplopen tot wel 124 miljard euro in 2050 volgens de Unie van Waterschappen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note153">overwegende dat veel woningbouwplannen stammen uit de periode voor de kredietcrisis van 2008, toen de klimaatopgaven in de gebouwde omgeving niet scherp in beeld waren en de plannen daarmee vaak niet klimaatadaptief en waterrobuust waren en zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note154">verzoekt de regering om water en wateropgaven een sturend onderdeel te laten zijn bij ruimtelijkeordenings- en woningbouwvraagstukken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note155">verzoekt de regering tevens om klimaatadaptieve en waterrobuuste inrichting als voorwaarde te stellen, ten minste bij door haar meegefinancierde woningbouwprojecten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note156">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note157">Deze motie is voorgesteld door het lid Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note158">Zij krijgt nr. kst-32847-780</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note159">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u20">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg21">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note160">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note161">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note162">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note163">constaterende dat een groot deel van de voorgenomen woningbouw niet op de hooggelegen zandgronden, maar in gebieden met een potentieel significant overstromingsrisico is ingepland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note164">overwegende dat aan buitendijkse woningen extra eisen worden gesteld om schade bij overstroming te voorkomen, dat deze eisen logischerwijs niet gelden voor binnendijkse woningen, maar dat binnendijks wel lessen geleerd kunnen worden van buitendijks bouwen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note165">verzoekt de regering om in samenwerking met de Unie van Waterschappen en de deltacommissaris de bouwvoorschriften tegen het licht te houden en waterrobuust en klimaatadaptief te maken, en daarbij onder meer lessen te trekken uit de bouw van buitendijkse woningen voor het bouwen van binnendijkse woningen in gebieden met een potentieel significant overstromingsrisico,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note166">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note167">Deze motie is voorgesteld door het lid Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note168">Zij krijgt nr. kst-32847-781</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note169">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:trans" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u21">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg22">En als laatste een motie over vliegveld Valkenhorst bij Valkenburg.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note170">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note171">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note172">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note173">constaterende dat er financiële knelpunten zijn bij de gebiedsontwikkeling Valkenhorst, zoals gemeld door de provincie Zuid-Holland tijdens de technische briefing van de vaste Kamercommissie Binnenlandse Zaken op 23 juni jongstleden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note174">overwegende dat de voortgang en het tempo van deze grote gebiedsontwikkeling, waarbij 5.600 woningen gerealiseerd worden, belangrijk is voor de woningbouwopgave in het westen van Nederland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note175">verzoekt de regering om zich, samen met de provincie Zuid-Holland en de gemeente Katwijk, in te spannen om de financiële knelpunten bij de gebiedsontwikkeling Valkenhorst op te lossen, bijvoorbeeld door haar te betrekken bij bestaande regelingen als de Woningbouwimpuls, en over de voortgang de Kamer voor de begrotingsbehandeling te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note176">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note177">Deze motie is voorgesteld door de leden Grinwis, Boulakjar en Bisschop.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note178">Zij krijgt nr. kst-32847-782</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note179">Dank u wel. Daarover, over de laatste motie denk ik, krijgt u een vraag van de heer Koerhuis.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note180">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u22">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg23">De ChristenUnie heeft dit niet opgebracht bij het commissiedebat, dus ik heb hier wel een vraag over. De ChristenUnie lijkt te hinten op financiële ruimte bij het Rijk die hiervoor gebruikt kan worden. Ons is in de technische briefing over Valkenburg uitgelegd dat de Woningbouwimpuls hiervoor niet gebruikt kan worden. Ook de andere potjes bij minister Ollongren gaan niet over specifieke projecten. Nou heb ik ook bij minister Schouten gekeken, die nog weleens wat geld heeft voor stikstof. Maar dat is ook niet voor specifieke woningbouwprojecten. Waarop is de woordvoerder van de ChristenUnie aan het voorsorteren?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note181">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u23">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg24">Allereerst moet mij van het hart dat de ChristenUnie met vertrouwen naar de decentrale overheden kijkt en goed naar hen luistert en dus een wat minder negatief getoonzette motie indient dan collega Koerhuis. Ik vind hem toch wel erg negatief voor een liberaal met dat "er moet van bovenaf worden gedrukt op gemeenten", terwijl gemeenten heel graag willen bouwen. Dat is één. Twee. De gemeente geeft aan dat de knelpunten te maken hebben met onder andere stikstof en infrastructuur. Daarom is mijn verzoek aan de minister, en breder aan het kabinet, om naar al die regelingen die de afgelopen jaren in het leven zijn geroepen — dat is niet alleen de Woningbouwimpuls en daarom staat er in de motie ook "bijvoorbeeld" — creatief te kijken en om die eens ondersteboven te houden: hoe kun je hier nou de voortgang houden en zorgen dat binnen no time die 5.600 woningen er staan? 5.600 woningen, maar als het aan Wassenaar had gelegen, waren er het er 600 minder geweest. Maar dat weet u als VVD'er heel goed, want daar is een VVD-wethouder aan de slag. Maar dat even terzijde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note182">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u24">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg25">Een vervolgvraag, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note183">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u25">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg26">Wat mij betreft worden het 6.000 woningen. Ik heb daar nooit voor gelegen. Maar mijn vraag is: waar is de ChristenUnie op aan het voorsorteren? Er wordt namelijk gesuggereerd dat er financiële ruimte is. Ik ben daarnaar op zoek gegaan, en ik heb die niet gevonden. Ik wil ook best helpen, maar ik heb die niet gevonden. Dus nogmaals mijn vraag. Er zat een heleboel wolligheid omheen, maar mijn vraag is simpel: waar denkt de ChristenUnie het geld te vinden? Ik wil nu niet het makkelijke antwoord, maar gewoon het antwoord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note184">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u26">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg27">Als eerste: het was een lang antwoord, maar wel een duidelijk antwoord. Het was misschien niet een antwoord dat mijn collega aanstond. Ten tweede: de ChristenUnie gaat uit van het devies "de regels zijn er voor de mens; de mens is er niet voor de regels". Mijn oproep aan het kabinet is om met al die regelingen die in het leven zijn geroepen goed te kijken hoe je nou vaart krijgt in die fantastische woningbouwontwikkeling op het oude vliegveld Valkenburg, nu ook wel bekend als Valkenhorst. Ik vermoed dat ik meer vertrouwen heb in de creativiteit van deze minister dan collega Koerhuis. Ik nodig hem uit om datzelfde vertrouwen te hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note185">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u27">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg28">Daarmee komen we bij de volgende spreker in dit debat. Dat is de heer Bisschop van de SGP-fractie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note186">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u28">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg29">Voorzitter, ook buiten de microfoon gaat de discussie gelukkig nog een poosje door.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg30">Ik beperk mij tot twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note187">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note188">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note189">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note190">constaterende dat de mogelijkheden voor permanente bewoning van recreatiewoningen waarschijnlijk gaan toenemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note191">overwegende dat dit mogelijk kan zorgen voor een verlichting van de krapte op de woningmarkt, maar dat gemeenten, provincies en brancheorganisaties bedenkingen hebben bij deze verruiming, onder meer door de inbreuk die het kan hebben op de beleidsvrijheid van gemeenten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note192">verzoekt de regering in gesprek te gaan met gemeenten, provincies en brancheorganisaties om te bezien hoe tegemoetgekomen kan worden aan hun bezwaren, en de Kamer voor 2022 over de uitkomsten te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note193">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note194">Deze motie is voorgesteld door het lid Bisschop.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note195">Zij krijgt nr. kst-32847-783</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note196">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u29">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg31">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note197">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note198">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note199">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note200">constaterende dat er een grote woningbouwopgave ligt, en dat er in sommige gemeenten en provincies plannen zijn om een groot aantal woningen te bouwen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note201">overwegende dat de financiering van deze plannen soms lastig is en dat dit grote druk kan zetten op begrotingen van gemeenten en provincies, waardoor plannen vertraging op kunnen lopen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note202">constaterende dat in het Gemeentefonds gewerkt wordt met de t-2-systematiek, die nadelig kan uitpakken voor groeiende gemeenten met grote woningbouwplannen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note203">constaterende dat er in de Participatiewet een mogelijkheid voor gemeenten bestaat om onder voorwaarden aanvullende middelen te ontvangen indien er tekorten zijn op het budget;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note204">verzoekt de regering te bezien of en hoe in de systematiek van de verdeling van het Gemeentefonds meer rekening gehouden kan worden met de groeipotentie van gemeenten en de bijbehorende woningbouwplannen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note205">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note206">Deze motie is voorgesteld door de leden Bisschop en Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note207">Zij krijgt nr. kst-32847-784</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note208">Daarover heeft u een vraag van mevrouw Bromet van GroenLinks.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note209">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u30">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg32">Ik hoor "Participatiewet" en "woningbouwopgave". Is het de bedoeling dat er geld vanuit de Participatiewet, dat bedoeld is voor gemeentes om mensen aan het werk te houden en voor uitkeringen, wordt overgeheveld naar woningbouw?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note210">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u31">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg33">Nee. Misschien was het door de snelheid van de communicatie niet duidelijk. De Participatiewet biedt als het ware een precedent voor deze regeling. Er zijn mogelijkheden voor het Rijk om gemeenten bij te springen. Wij zeggen: doe dat nu ook bij de woningbouwopgave. De truc die je dan kunt uithalen, is om die t-2-systematiek even te parkeren en het gewoon naar voren te halen, zodat de gemeenten daadwerkelijk financiering hebben voor de grote plannen die ze hebben. Dan krijg je vanuit de gemeente een versnelling in de opgave.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note211">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u32">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg34">Dank u wel. Daarmee komen we bij de heer Nijboer van de Partij van de Arbeid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note212">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u33">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg35">Dank, voorzitter. Ik begin door twee moties die vannacht zijn ingediend even warm onder uw aandacht te brengen en aan te bevelen. Toen ging het over de Voorjaarsnota. Het punt dat ik daarbij namens de PvdA heb gemaakt, is dat er heel veel geld voor onderwijs is, 8,5 miljard, en dat er heel veel geld voor werkgelegenheid is, maar dat de woningnood eigenlijk wat wordt vergeten. En die trekt zich niks aan van een kabinet dat demissionair is. We kunnen daar als Kamer wel richting aan geven. Ik heb daar twee moties over ingediend, waar morgen over gestemd wordt, om het Volkshuisvestingsfonds met een jaar te verlengen, en ook de Woningbouwimpuls met een jaar te verlengen. Want het idee was: er zit dan een missionair kabinet, en dat kan dan met de formerende fracties aan de gang. Maar ja, dat gaat allemaal niet gebeuren voor de Miljoenennota er is, verwacht ik, en mensen zitten toch te wachten op een betaalbare woning. Dus dat zijn relevante moties, denk ik, ook voor deze woordvoerders, dus niet alleen voor de financieel woordvoerders.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg36">En dan heb ik nog één motie. Die is handgeschreven, voorzitter, want ik had mijn administratie voor geen meter op orde. Ik heb een hele stapel met moties wel uitgeprint, verdeeld met de collega's en ik weet niet wat allemaal meer, maar de motie die ik zou indienen, had ik er weer niet bij. Kortom, het is goedgekomen, maar zij is wel handgeschreven.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note213">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note214">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note215">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note216">overwegende dat huisjesmelkers misbruik maken van de woningnood;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note217">overwegende dat een landelijk vergunningstelsel gewenst is, maar alleen werkt als overtredingen ook worden beboet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note218">verzoekt het kabinet overtredingen van de Woningwet stevig te beboeten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note219">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note220">Deze motie is voorgesteld door de leden Nijboer, Beckerman en Bromet.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note221">Zij krijgt nr. kst-32847-785</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note222">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u34">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg37">Ik kon haar zelf lezen, voorzitter, met enige inspanning overigens, en ik hoop dat de rest dat ook lukt. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note223">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u35">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg38">Hartelijk dank. We komen daarmee bij de laatste spreker in deze termijn, en dat is de heer Jansen van Forum voor Democratie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note224">De heer Jansen (FVD)</note>
+            <u who="#ChrisJansen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u36">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg39">Voorzitter, dank u wel. Allereerst vind ik het een mooi gebruik om moties met de hand te schrijven, dus laten we dat gewoon vaker doen. Maar ik heb ook twee moties, en die zijn helaas wel getypt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note225">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note226">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note227">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note228">overwegende dat starters nauwelijks nog een woning kunnen krijgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note229">overwegende dat wachtlijsten voor sociale huurwoningen extreem lang zijn geworden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note230">constaterende dat statushouders in de meeste gemeenten nog altijd voorrang krijgen op sociale huurwoningen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note231">roept de regering op de huisvestingsopgave van statushouders voor gemeenten te schrappen opdat woningen weer aan Nederlanders kunnen worden toegewezen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note232">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note233">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note234">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note235">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note236">overwegende dat het voor veel starters heel moeilijk is om voldoende financiering te krijgen voor het kopen van een huis;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note237">overwegende dat een studieschuld hier een extra beperkende factor in kan zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note238">overwegende dat de minister van Financiën de wegingsfactor voor studieschuld al eerder heeft verlaagd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note239">verzoekt de regering te onderzoeken wat de effecten zijn van het verder verlagen van de wegingsfactor van studieschuld op de leencapaciteit,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note240">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note241">Deze motie is voorgesteld door het lid Jansen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note242">Zij krijgt nr. kst-32847-786</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note243">Deze motie is voorgesteld door het lid Jansen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note244">Zij krijgt nr. kst-32847-787</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note245">De heer Jansen (FVD)</note>
+            <u who="#ChrisJansen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u37">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg40">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note246">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u38">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg41">U ook bedankt. Daarmee zijn we aan het eind van deze termijn van de Kamer. Ik kijk even naar de minister, voor hoelang zij nodig heeft om te schorsen. Tien of vijf minuten? Vijf minuten. Dan gaan we schorsen tot 11.45 uur.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note247">De vergadering wordt van 11.38 uur tot 11.47 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note248">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u39">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg42">We gaan door met de termijn van de minister, waarin ze de vragen en de moties zal beantwoorden. Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note249">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u40">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg43">Dank, voorzitter. Dank aan de indieners van de moties. Het zijn er 21, als ik het goed heb geteld. Ja, 21. De eerste motie van de heer Heerma, op stuk nr. 767, geef ik graag oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note250">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u41">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg44">De motie op stuk nr. 767 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note251">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u42">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg45">De motie op stuk nr. 768 van mevrouw Beckerman moet ik ontraden, omdat de gemeenten die afweging al maken. Dat staat ook in de woonvisie. Ik ben dus van mening dat dat er al is en dat we niet iets extra's moeten toevoegen. Ik ontraad haar om die reden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note252">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u43">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg46">De motie op stuk nr. 768 krijgt oordeel ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note253">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u44">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg47">De motie op stuk nr. 769 gaat over de verhuurderheffing en hoe daarmee om te gaan. Ik denk dat het de Kamer genoegzaam bekend is wat ik daarvan vind en welke waarschuwingssignalen ik heb meegegeven aan de formerende partijen, et cetera. Ik kan niet vooruitkijken. Het kan best zijn dat het demissionaire kabinet de begroting moet opstellen. Dat sluit ik allemaal niet uit, maar de motie als zodanig is ongedekt. Om die reden moet ik haar toch ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note254">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u45">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg48">De motie op stuk nr. 769 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note255">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u46">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg49">Ik ben het gewoon eens met de motie op stuk nr. 770. De zeggenschap van bewoners, hun recht op terugkeer: dat soort zaken moet goed geregeld zijn. Ik geef de motie graag oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note256">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u47">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg50">De motie op stuk nr. 770 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note257">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u48">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg51">Voorzitter. De motie op stuk nr. 771, een onderzoeksmotie, geef ik ook oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note258">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u49">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg52">De motie op stuk nr. 771 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note259">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u50">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg53">De motie op stuk nr. 772 gaat in op de kwestie rond Valkenburg. Dat zie je niet zo duidelijk in de laatste zin, zeg ik maar tegen de indiener van de motie, maar als je alles leest, is het duidelijk dat het daarover gaat. Ik geef graag het oordeel aan de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note260">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u51">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg54">De motie op stuk nr. 772 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note261">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u52">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg55">Bij de motie op stuk nr. 773 wil ik de indiener, hoewel ik zijn intentie goed begrijp … Dit instrument is er niet om dure koopwoningen te subsidiëren, maar soms zijn dure koopwoningen wel nodig in een totaalproject. Maar de belangrijkste reden dat ik haar toch ontraad, is dat alles in de steigers staat om die derde tranche te openen. Als wij dit zouden doen, wat ik om inhoudelijke redenen ook niet verstandig vind, dan levert dat een enorme vertraging op, waarschijnlijk zo'n negen maanden. Daar ben ik geen voorstander van, dus ik ontraad de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note262">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u53">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg56">De minister zegt: soms zullen woningen duurder zijn. Dat sluit ik ook niet uit, want ik heb het over een gemiddelde prijs, maar is de minister er nu op aan het voorsorteren dat er toch dure tussenwoningen gebouwd gaan worden in de derde tranche?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note263">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u54">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg57">Nee, ik ben erop uit om in de derde tranche die woningbouwprojecten te helpen die op basis van de bestaande criteria … Overigens zijn die ook aangepast op aangeven van de heer Koerhuis. Hij weet dat we voor de derde tranche ook hebben toegewerkt naar kleinere projecten, dus van 200 woningen in plaats van 500 woningen. We hebben dus wel degelijk in overleg met de Kamer gezocht naar de best mogelijke invulling ervan. Maar ik zou niet willen dat we er nog verder aan sleutelen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note264">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u55">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg58">De motie op stuk nr. 773 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note265">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u56">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg59">De motie op stuk nr. 774 van mevrouw Bromet geef ik graag oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note266">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u57">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg60">De motie op stuk nr. 774 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note267">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u58">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg61">Dat geldt ook voor de motie op stuk nr. 775.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note268">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u59">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg62">De motie op stuk nr. 775 van de heer Boulakjar krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note269">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u60">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg63">Ja. Dan de motie op stuk nr. 776 van de heer Van Baarle. Ik kijk even waar de heer Van Baarle zit. Ik vraag hem of hij misschien met een hele kleine wijziging kan instemmen. Deze motie zet meteen één heel grote stap, namelijk: creëer een wettelijke grondslag. Ik heb echt wel sympathie voor de gedachten die erachter liggen, maar ik zou heel graag een eerste stap willen zetten, namelijk onderzoeken of een wettelijke grondslag hier de oplossing voor is. Ik wil het zeker niet uitsluiten. Ik zou graag het onderzoek willen doen, maar het zou mij helpen als de motie dan ook geformuleerd is als een verzoek om te onderzoeken of een wettelijke grondslag hier de beste oplossing voor is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note270">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u61">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg64">Akkoord met deze interpretatie. Dan weet ik niet of ik de motie ook nog even formeel moet wijzigen, of dat we het kunnen doen met de interpretatie van de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note271">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u62">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg65">Ik denk dat die wel nog even formeel gewijzigd moet worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note272">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u63">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg66">Dan wijzig ik de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note273">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u64">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg67">Daarmee krijgt die oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note274">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u65">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg68">De gewijzigde motie krijgt oordeel Kamer; zeker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note275">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u66">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg69">De gewijzigde motie op stuk nr. 776 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note276">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u67">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg70">Ja. Dan de motie op stuk nr. 777 over de mysteryguest. Ik vind ook dat we daarmee door moeten gaan, dus die geef ik graag oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note277">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u68">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg71">De motie op stuk nr. 777 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note278">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u69">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg72">De motie op stuk nr. 778 is volgens mij niet aan mij. Ik interpreteer die als een soort spreekt-uitmotie, dus die sla ik over.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg73">Dan de motie op stuk nr. 779, over een toets op discriminatoire beleidsvoornemens. Ik vind eigenlijk dat dit in alle wetgeving, beleidsvorming, et cetera goed geborgd moet zijn. In het kader van het debat over discriminatie heb ik daar ook met de Kamer over gesproken en heb ik ook gezegd dat we vanuit het departement gaan kijken of het nog beter kan, waar we toetsen aan de Grondwet. Dus met het voornemen ben ik het eens maar dit richt zich helemaal specifiek op de woningbouwprojecten en de instrumenten van het Rijk. Ik was niet van plan om het alleen daarvoor te doen. We willen dat eigenlijk heel breed aanpakken. Om die reden moet ik deze motie ontraden maar voor de achterliggende gedachte heb ik veel sympathie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note279">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u70">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg74">De motie op stuk nr. 779 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note280">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u71">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg75">De motie op stuk nr. 780 van de heer Grinwis geef ik kortheidshalve gewoon oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note281">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u72">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg76">De motie op stuk nr. 780 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note282">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u73">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg77">De motie op stuk nr. 781, ook van de heer Grinwis, zie ik als een verzoek om dat gesprek op te starten met de deltacommissaris, de unie en anderen. De doelstelling deel ik dus. Dus we gaan dat gesprek aan. Ik geef deze motie oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note283">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u74">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg78">De motie op stuk nr. 781 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note284">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u75">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg79">Ook voor de motie op stuk nr. 782 heb ik sympathie. Het enige wat ik er bij wil zeggen, is dat als je je gaat inspannen om iets op te lossen, dit iets anders is dan een financiële toezegging doen hier op deze plek. Dus dat is niet de bedoeling maar ik zie aan de indiener van de motie dat dit ook niet zijn bedoeling is. We gaan meedenken. We gaan kijken binnen de regelingen. We gaan ermee aan de slag. Ik geef de motie dan ook oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note285">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u76">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg80">Ik heb de heer Grinwis zien knikken, dus met die uitleg erbij krijgt deze motie oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note286">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u77">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg81">Ja. Dan de motie op stuk nr. 783 van de heer Bisschop over de permanente bewoning van recreatiewoningen. De motie verzoekt het gesprek aan te gaan met alle betrokkenen, gemeenten, provincies en brancheorganisaties over de bezwaren en de Kamer daarover te informeren. Daar ben ik vanzelfsprekend toe bereid. Ik geef deze motie dan ook oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note287">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u78">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg82">De motie op stuk nr. 783 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note288">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u79">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg83">Ja. Dan de motie op stuk nr. 784. Dat is iets ingewikkelder, want dit gaat over de systematiek van de verdeling van het Gemeentefonds. Daarbij heb ik te handelen in lijn met de Financiële-verhoudingswet. Dit lijkt mij eerlijk gezegd in strijd met de beginselen van die wet. Dus om die reden moet ik deze motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note289">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u80">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg84">De motie op stuk nr. 784 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note290">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u81">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg85">De motie op stuk nr. 785, de handgeschreven motie van de heer Nijboer, verzoekt het kabinet te beboeten. Ik heb een wetsvoorstel goed verhuurderschap in consultatie gebracht. Daarmee wordt, als het allemaal goed gaat, de verhuurvergunning geïntroduceerd. Ik vind het eigenlijk netjes om dat proces nu goed te doorlopen en nu niet vooruit te lopen op eventuele sancties die daarin opgenomen worden. Dus om die reden ontraad ik de motie en niet omdat ik het oneens zou zijn met het aanpakken van huisjesmelkers met de middelen die daarvoor nodig zijn, want dat steun ik vanzelfsprekend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note291">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u82">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg86">De motie op stuk nr. 785 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note292">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u83">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg87">Als dat wetsvoorstel komt, is het eigenlijk wel logisch dat er gelijk boetes in zitten. Dus ik vind het eigenlijk een vrij logische motie, want anders moeten we het straks van begin af aan doen. Dus dat is een beetje het voorstel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note293">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u84">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg88">Ja, ik sluit het ook helemaal niet uit, maar ik heb wel net iets in consultatie gebracht. Dus ik vind het vanwege de proceshygiëne van het voorstel beter om die consultatie nu af te wachten en daarna kan de Kamer gewoon oordelen of de boetes en andere sanctiemogelijkheden er voldoende in zitten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note294">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u85">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg89">De motie op stuk nr. 785 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note295">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u86">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg90">Dan ben ik bij de motie op stuk nr. 786 van de heer Jansen. Dit soort moties komen doorgaans van de heer Kops maar die is nu niet aanwezig, maar de heer Jansen vervangt hem. Ik ontraad deze motie ook nu.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note296">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u87">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg91">De motie op stuk nr. 786 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note297">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:educa" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u88">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg92">De motie op stuk nr. 787 en tevens de laatste, is een onderzoeksmotie. We hebben natuurlijk al vaker gekeken naar die wegingsfactor van de studieschuld. Die hebben we ook al eerder verlaagd. We hebben ook al eerder gekeken naar de leennormen. Desalniettemin, als de Kamer vraagt om dat verder te onderzoeken, wil ik de motie best oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note298">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u89">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg93">De motie op stuk nr. 787 krijgt oordeel Kamer. Er is nog een vraag van de heer Koerhuis van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note299">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u90">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg94">Die gaat over de motie op stuk nr. 774. Er is vandaag buiten een boerenprotest. Soms moeten we bouwen op landbouwgrond. De minister gaf de motie zo-even relatief snel oordeel Kamer, zonder echt een toelichting. Het kan toch niet zo zijn dat bijvoorbeeld boeren worden gedwongen te goedkoop grond te verkopen aan gemeentes? Het kan toch niet zo zijn dat met die lezing de minister deze motie oordeel Kamer geeft?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note300">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u91">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg95">Nou, nee. Het is heel goed dat de heer Koerhuis dit even aan de orde stelt. Ik kijk bij de motie vooral naar wat de regering wordt verzocht. Ons wordt verzocht de mogelijkheden die er al zijn, de mogelijkheden uit de Wet voorkeursrecht gemeenten, op korte termijn nadrukkelijk onder de aandacht van gemeenten te brengen. Die wet is er. Als de gemeenten daar vragen over hebben of als we dat nog eens onder de aandacht kunnen brengen, kunnen we daar natuurlijk geen nee tegen zeggen. Daarom heb ik "oordeel Kamer" gegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note301">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u92">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg96">De heer Koerhuis voor een vervolgvraag, ten slotte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note302">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u93">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg97">Maar dat is wat anders. Mijn vraag was echt: in die gesprekken gaat de minister toch niet de gemeentes te veel aansporen om boeren te dwingen hun landbouwgrond goedkoop te verkopen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note303">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u94">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg98">De heer Koerhuis spitst het nu toe op één onderdeel. Ik ga ervan uit dat gemeenten, provincies en het Rijk in een goed samenspel en met respect voor elkaars verantwoordelijkheden omgaan met dit soort vraagstukken. Soms is het misschien een hele mooie kans, als er agrarische grond beschikbaar komt voor woningbouw. We hebben ook nog andere problemen op te lossen in het land, zoals rondom stikstof. Maar het hoeft inderdaad niet. Ik vind dat dat meestal een lokale of regionale afweging is. Maar ik kan er niet tegen zijn om een wet die daarvoor geschikt is nog eens onder de aandacht te brengen en daar nog eens naar te kijken. Daarom heb ik "oordeel Kamer" gegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note304">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.u95">
+               <seg xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.seg99">Dank u wel. Daarmee komen we aan het eind. Althans, ik kijk even of er nog vragen zijn blijven liggen. De leden hebben met name moties ingediend. We zijn inderdaad aan het eind van deze termijn van dit tweeminutendebat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-07-tweedekamer-4.note305">De beraadslaging wordt gesloten.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

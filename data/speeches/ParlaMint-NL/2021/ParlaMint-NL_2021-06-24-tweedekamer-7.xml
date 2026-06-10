@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-06-24 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-06-24 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 93, Session 7 (2021-06-24)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 93, Session 7 (2021-06-24)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="93" xml:lang="en">Meeting 93</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="7" xml:lang="en">Session 7</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-06-24">Sitting 2021-06-24</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="74">74 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="74">74 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3077">3,077 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3077">3,077 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-06-24">2021-06-24</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="222"/>
+               <tagUsage gi="seg" occurs="77"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="74"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-06-24">2021-06-24</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.head1">Landbouw- en Visserijraad 28 en 29 juni</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg1">Wij gaan snel door met het tweeminutendebat over de Landbouw- en Visserijraad van 28 en 29 juni, met als eerste spreker mevrouw Vestering van de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note2">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg2">Dank u wel, voorzitter. Waar de minister zegt nu het verschil niet meer te kunnen maken voor het GLB kan zij dat wel voor de bijen. Ik kan de minister niet vaak genoeg op het hart drukken om de moties van Ouwehand en Wassenberg gewoon volledig uit te voeren en vast te houden aan een maximale bijensterfte door landbouwgif van 7% in plaats van 10% of zelfs 25% voor zowel honingbijen als hommels en wilde solitaire bijen. Omdat het onbestaanbaar is dat de discussie over de maximaal toelaatbare sterfte van bijen in de Europese Landbouw- en Visserijraad achter gesloten deuren plaatsvindt, de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note6">constaterende dat het bijenrichtsnoer geagendeerd is voor het besloten deel van de Landbouw- en Visserijraad;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note7">constaterende dat de Europese Ombudsman in 2019 heeft geoordeeld, onder andere op basis van het Verdrag van Aarhus, dat de Europese Commissie zich schuldig maakt aan wanbeheer door de discussie over het bijenrichtsnoer achter gesloten deuren te voeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note8">overwegende dat de Europese Commissie er onlangs op heeft aangedrongen dat het bijenrichtsnoer in de openbaarheid van de Landbouw- en Visserijraad gevoerd wordt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note9">overwegende dat de Raad van de Europese Unie heeft afgesproken dat debatten over belangrijke aangelegenheden die de belangen van de Europese Unie en haar burgers raken openbaar zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note10">verzoekt de regering zich te beroepen op het Verdrag van Aarhus en Raadsafspraken over transparantie en kenbaar te maken niet akkoord te gaan met een besloten discussie over het bijenrichtsnoer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note12">Deze motie is voorgesteld door het lid Vestering.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note13">Zij krijgt nr. kst-21501-32-1309</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note14">Dank, mevrouw Vestering. Het woord is aan de heer Van Campen, VVD. Aan u het woord.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note15">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg3">Voorzitter. Het worden warme dagen in het Brusselse. Het is te hopen dat de supertriloog tot resultaat gaat leiden, zodat er schot in de zaak komt en er eindelijk duidelijkheid komt over het toekomstig gemeenschappelijk landbouwbeleid, want daar hebben onze Nederlandse boeren volgens mij wel recht op. Eén motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note16">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note17">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note18">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note19">constaterende dat de besluitvorming over het toekomstig gemeenschappelijk landbouwbeleid (GLB) zich in de afrondende fase bevindt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note20">constaterende dat de Nederlandse uitwerking hiervan wordt opgenomen in het nog op te stellen Nationaal Strategisch Plan (NSP);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note21">van mening dat de uitwerking van het GLB en het NSP in de stal en op de akker voor de boer glashelder dient te zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note22">verzoekt de regering de uitkomsten van de pilots, klankbordgroepen en uitvoeringstoetsen met de Kamer te delen zodat dit betrokken kan worden bij het op te stellen NSP,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note24">Deze motie is voorgesteld door het lid Van Campen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note25">Zij krijgt nr. kst-21501-32-1310</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note26">Dank. Het woord is aan mevrouw Van der Plas, BBB.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note27">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg4">Dank u wel. Twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note28">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note29">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note30">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note31">overwegende dat er vanuit de eerste pijler van het GLB door de ecoregelingen aanvullende eisen aan boeren gesteld gaan worden op het gebied van duurzaamheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note32">overwegende dat een boer geen ontwikkelingen op het gebied van duurzaamheid kan zetten, als er geen middelen beschikbaar zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note33">constaterende dat het behoud van de middelen in de eerste pijler een randvoorwaarde zijn om in de praktijk stappen te kunnen zetten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note34">verzoekt de minister om de procentuele verdeling van de middelen in de eerste en tweede pijler te handhaven, en in de eerste pijler maximaal 20% beschikbaar te stellen voor ecoregelingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note35">voorts gaan we verder met het verspreiden van gezond verstand in de Tweede Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note36">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note37">Deze motie is voorgesteld door de leden Van der Plas en Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note38">Zij krijgt nr. kst-21501-32-1311</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note39">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg5">De motie is mede-ingediend door de heer Van Haga.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note40">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note41">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note42">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note43">constaterende dat de Europese Commissie is opgeroepen wetgeving op te stellen met als doel het beperken van de bodemberoerende visserij;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note44">constaterende dat dit enorme consequenties kan hebben voor Nederlandse vissers en hun bestaansrecht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note45">overwegende dat vissers de politiek smeken om ruimte in wet- en regelgeving om hun vak uit te kunnen blijven oefenen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note46">verzoekt het kabinet zich op Europees niveau maximaal in te zetten om verdere beperkende maatregelen ten aanzien van de Nederlandse visserij te voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note47">voorts gaan we verder met het verspreiden van gezond verstand in de Tweede Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note48">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note49">Deze motie is voorgesteld door de leden Van der Plas en Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note50">Zij krijgt nr. kst-21501-32-1312</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note51">Dank u wel. Het woord is aan de heer Boswijk, CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note52">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg6">Dank u wel, voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note53">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note54">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note55">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note56">constaterende dat veel boeren heel graag het natuurbeheer in hun omgeving willen doen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note57">overwegende dat daarvoor vertrouwen uit de samenleving en een verdienmodel nodig zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note58">constaterende dat contracten voor natuurbeheer door boeren doorgaans niet meer dan 6 jaar duren, terwijl boeren behoefte hebben aan zekerheid over een langere periode van bijvoorbeeld 20 tot 30 jaar;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note59">overwegende dat langere contracten voor agrarisch natuurbeheer zouden zorgen voor meer zekerheid zowel bij de boer als voor de natuur;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note60">constaterende dat het voor provincies wel mogelijk is om meer langjarige contracten voor natuurbeheer door boeren af te sluiten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note61">verzoekt de regering in gesprek te gaan met de provincies en de agrarische sector over de mogelijkheden om meer gebruik te maken van langjarige contracten voor agrarisch natuurbeheer, en de Kamer voor 1 oktober 2021 te informeren over de uitkomsten, mogelijkheden en vervolgstappen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note62">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note63">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note64">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note65">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note66">constaterende dat tijdens de Landbouw- en Visserijraad van 29 juni 2021 de minister voornemens is om in te stemmen met de Algemene Oriëntatie op de wijziging van de Controleverordening visserij;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note67">overwegende dat daarin veel richtlijnen zijn opgenomen, bijvoorbeeld rondom cameratoezicht aan boord, die als ze nu aangenomen worden, in de praktijk tot een onwerkbare situatie leiden omdat er nog te veel onduidelijkheid is over onder andere definities, kosten en uitvoerbaarheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note68">van mening dat een hoge nalevingsgezindheid van de aanlandplicht, goede controles en een gelijk speelveld belangrijk zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note69">constaterende dat de Kamer recent een motie heeft aangenomen over de agrarische praktijktoets rondom nieuwe wet- en regelgeving;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note70">verzoekt de regering om ervoor te zorgen dat, samen met de visserijsector, in lijn met het idee van de agrarische praktijktoets eerst de praktische uitvoerbaarheid van de wijziging van de Controleverordening visserij goed uitgewerkt wordt voordat definitief wordt ingestemd met de richtlijnen zoals verwoord in de Algemene Oriëntatie op de wijziging van de Controleverordening visserij,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note71">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note72">Deze motie is voorgesteld door de leden Boswijk, Bisschop, Van Campen, Grinwis, Tjeerd de Groot en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note73">Zij krijgt nr. kst-21501-32-1313</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note74">Deze motie is voorgesteld door de leden Boswijk en Bisschop.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note75">Zij krijgt nr. kst-21501-32-1314</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note76">De heer Van Campen heeft een vraag voor u. U moet nog even terug naar het spreekgestoelte.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note77">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg7">De commissie heeft na een aantal keren schriftelijk overlegd te hebben over de Landbouw- en Visserijraad gisteren het gesprek gevoerd met de minister. Er waren partijen in de commissie aanwezig die zeggen: die verdeling van geld tussen de eerste en de tweede pijler moet anders; er moet meer geld uit die eerste pijler, die conditionaliteit — zeg maar het inkomen van de boer — naar de tweede pijler, de ecoregelingen, om duurzamer te werken. Hoe staat het CDA in die verschuiving tussen de eerste en de tweede pijler?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note78">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg8">We zijn daar niet principieel op tegen. Laat ik de vraag zo maar beantwoorden. Ik geloof dat het verdienmodel van de boeren in de toekomst meer gaat verschuiven naar het beheer van ons landschap en ik zie dat als een kans. Dus nee, ik ben daar niet principieel op tegen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note79">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg9">Maar vindt het CDA het voorstel dat op dit moment op tafel ligt voldoende of wil het CDA dat er een schuif plaatsvindt van pijler 1 naar pijler 2?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note80">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg10">Ik vind het nu even te snel om hierop te antwoorden. Het voorstel dat er nu ligt, vind ik niet voldoende. Ik denk dat heel veel partijen dat op dit moment delen. Maar ik ga me nu niet vastpinnen op welk percentage naar welke pijler moet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note81">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg11">Dank u wel. Dan mevrouw Bromet, GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note82">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg12">Voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note83">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note84">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note85">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note86">overwegende dat het kabinet op dit moment bezig is met de formulering van het Nationaal Strategisch Plan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note87">overwegende dat de Europese Rekenkamer deze week een rapport publiceerde, waaruit blijkt dat in de vorige periode het gemeenschappelijk landbouwbeleid niet heeft geleid tot vergroening en dat dit voor de komende periode moet worden voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note88">overwegende dat er in de periode waarvoor dit Nationaal Strategisch Plan gaat gelden nieuwe wetgeving voortkomt uit de Green Deal, de onderliggende Farm to Fork-strategie, de biodiversiteitsstrategie en de aanscherping van de klimaatdoelstelling, bijvoorbeeld op het gebruik van pesticiden en nutriënten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note89">overwegende dat de Europese Commissie stuurt op het regelmatig bijwerken van de Nationale Strategische Plannen wanneer nieuwe Europese wetgeving wordt ontwikkeld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note90">verzoekt de regering om in het concept Nationaal Strategisch Plan rekening te houden met komende nieuwe wetgeving vanuit de Green Deal, waarvan nu al bekend is wat de algemene doelen zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note91">verzoekt voorts het Nationaal Strategisch Plan direct in lijn te brengen met nieuwe wetgeving uit de Green Deal wanneer deze wordt goedgekeurd in Brussel,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note92">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note93">Deze motie is voorgesteld door de leden Bromet en Thijssen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note94">Zij krijgt nr. kst-21501-32-1315</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note95">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:trans" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg13">Als tweede de gruttomotie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note96">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note97">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note98">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note99">constaterende dat het Aanvalsplan Grutto brede maatschappelijke steun krijgt en de achteruitgang van weidevogels onverminderd doorgaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note100">constaterende dat de financiering van het Aanvalsplan Grutto grotendeels gerealiseerd kan worden door een verschuiving van pijler 1 naar pijler 2 in het GLB en hierbij de voorwaarde is dat Rijk en/of provincies 25% van het totale bedrag cofinancieren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note101">constaterende dat gesprekken tussen de provincies en het Rijk over deze cofinanciering dreigen te verzanden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note102">overwegende dat er al twee moties met een ruime meerderheid door de Kamer zijn aangenomen over het Aanvalsplan Grutto, waarvan één specifiek oproept tot financiering van het Aanvalsplan Grutto door de minister van LNV;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note103">verzoekt de regering te zoeken naar geld om het Aanvalsplan Grutto tot aan de start van het nieuwe GLB te financieren en de financiering voor de daaropvolgende jaren te regelen binnen het GLB;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note104">verzoekt de regering voorts op zoek te gaan naar structurele financiering van het Aanvalsplan Grutto om participerende boeren te voorzien van langjarige zekerheid om het plan tot goede uitvoering te brengen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note105">verzoekt de regering om hier samen in op te trekken met de provincies en voor het zomerreces duidelijkheid te verschaffen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note106">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note107">Deze motie is voorgesteld door de leden Bromet, Thijssen, Boswijk, Grinwis, Beckerman en Tjeerd de Groot.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note108">Zij krijgt nr. kst-21501-32-1316</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note109">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg14">In april is er een motie ingediend door de heer De Groot, die heel duidelijk is. Gisteren heeft hij in het debat gezegd dat wat hem betreft het geld van pijler 1 naar pijler 2 mag. Dat is fair. In april is een motie van zijn hand verworpen, die daarom vroeg. Overigens heeft het CDA daar ook tegen gestemd. Ik zie nu wel een verschuiving in het voorstel van mevrouw Bromet, mede namens het CDA en enkele andere collega's. Zij doet het voorstel voor een verschuiving van pijler 1 naar pijler 2. Hoe moeten wij dat lezen? Is het doel van GroenLinks om daar de financiering vandaan te halen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note110">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u15">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg15">Het doel is om het Aanvalsplan Grutto tot uitvoer te brengen. Er is een maatschappelijk initiatief dat breed gedragen wordt, ook hier in de Kamer. We hebben in de landbouwcommissie talloze discussies waarin we het niet eens worden en waar de boel vertraagd wordt. Dit is iets wat van onderaf komt en waar iedereen enthousiast van wordt. Alleen het geld vinden, is een probleem. Dat wil ik graag oplossen met deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note111">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u16">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg16">Dat is helder, maar dan zou ik de minister willen vragen of zij in haar appreciatie in ogenschouw wil nemen dat er in april een motie is verworpen om financiering van pijler 1 naar pijler 2 over te hevelen. Ik kijk uit naar de appreciatie van de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note112">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u17">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg17">Ik ben ook benieuwd naar die appreciatie, maar ik zou ook aan de VVD willen vragen om het niet ingewikkelder te maken dan het al is. Er is een plan, er is geld nodig en wij gaan het regelen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note113">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u18">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg18">Ik dacht dat de heer Bisschop naar voren liep om het woord te voeren, maar hij heeft een interruptie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note114">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u19">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg19">Wat beweging is natuurlijk altijd goed. Ik constateer dat mevrouw Bromet op deze manier de rekening bij de boeren legt. Is het echt uw bedoeling om voor een maatschappelijk gewenste ontwikkeling de rekening eenzijdig bij de agrarische sector te leggen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note115">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u20">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg20">Dit plan wordt ook gedragen door de boeren die graag aan goed weidevogelbeheer willen doen en die voor hun inspanningen beloond willen worden. Ik weet niet waar de heer Bisschop over spreekt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note116">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u21">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg21">Heel kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note117">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u22">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg22">Simpel genoeg: als u budgetten van pijler 1 verhuist naar pijler 2 om dit te financieren, dan gaat dat ten koste van de inkomenssteun voor boeren. Is het echt uw bedoeling om de rekening daar eenzijdig te leggen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note118">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u23">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg23">Uw vraag is helder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note119">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u24">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg24">Er zijn boeren in Nederland die gewoon geld krijgen omdat ze land hebben. Mijn verdwenen collega Futselaar van de SP zei altijd: dat is geen inkomenssteun, dat is een inkomen. Dat gaat over boeren die soms €80.000 per jaar krijgen, louter omdat ze grond hebben. Het geld dat in het Europees landbouwbeleid verdeeld wordt is publiek geld. Dat is opgebracht door de inwoners van de Europese Unie. Ook de minister heeft bevestigd dat het publiek geld is dat naar publieke doelen zou moeten gaan. Een inkomen is geen publiek doel. Het mooie van het gruttoplan is dat er boeren zijn die zeggen: ik wil het wel doen, maar dat betekent dat ik iets minder opbrengsten uit productie kan halen en ik wil daarvoor gecompenseerd worden. Dus ja, er zal geld verdwijnen van de boeren die nu geld krijgen louter omdat ze land hebben en dat gaat dan naar andere boeren die daar heel graag de grutto voor willen redden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note120">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u25">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg25">Meneer Bisschop, het debat is gisteren geweest. We lopen hopeloos achter op het schema van vandaag. U heeft uw kans gehad. Ik ga u niet het woord geven. De heer Boswijk, is dit een herhaling of heeft u nog een nieuwe bijdrage?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note121">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u26">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg26">Een briljante bijdrage, heel kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note122">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u27">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg27">Zegt u zelf, nu al.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note123">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u28">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg28">U gaat het zo beoordelen. Ik vond dat de minister gisteren een heel goede nuance had. Mevrouw Bromet zegt: de boeren hebben land en daarom krijgen ze geld. Maar het is ook een publiek belang dat ze voedsel produceren, elke dag weer. De minister nuanceerde dat gisteren heel goed. Ik vind het wel belangrijk om dat ook in dit licht even te melden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note124">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u29">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg29">Briljant. Waarvan akte. Dank. Nu is het woord aan de heer Bisschop.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note125">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u30">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg30">Voorzitter. Ik zal niet de complete twee minuten gebruiken. Ik vond het laatste puntje wel een interessant gegeven, want waarom is die subsidieregeling ooit ingesteld? Ik vat het even heel kort samen: omdat de kostprijs van het voedsel laag moest blijven. Als er gezegd wordt dat de subsidies eraf kunnen, dan moet je ook eerlijk zijn en zeggen dat de prijs van eten, van voedsel, gewoon omhoog kan. Dat is de consequentie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg31">Voorzitter. Twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note126">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note127">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note128">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note129">constaterende dat in de trilogen over het gemeenschappelijk landbouwbeleid veel discussie is over de conditionaliteit van de inkomenssteun;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note130">overwegende dat het uit productie nemen van landbouwgronden voor Nederlandse boeren relatief grote gevolgen heeft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note131">overwegende dat al een aanzienlijk deel van het budget uit de eerste pijler geïnvesteerd zal worden in ecoregelingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note132">verzoekt de regering zich in de slotfase van de triloog actief te verzetten tegen verzwaring van de conditionaliteit, zoals het vergroten van het areaal bouwland dat uit productie genomen moet worden, en daarbij ruimte te zoeken voor toepassing van vanggewassen met bemesting,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note133">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note134">Deze motie is voorgesteld door het lid Bisschop.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note135">Zij krijgt nr. kst-21501-32-1317</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note136">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u31">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg32">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note137">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note138">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note139">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note140">verzoekt de regering zich in de slotfase van de triloog actief te verzetten tegen toetsing van de Nationale Strategische Plannen aan niet juridisch bindende doelen uit de Farm to Fork-strategie en andere onderdelen van de Green Deal en zich bij de invulling van het eigen Nationaal Strategisch Plan terughoudend op te stellen als het gaat om deze niet juridisch bindende doelen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note141">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note142">Deze motie is voorgesteld door het lid Bisschop.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note143">Zij krijgt nr. kst-21501-32-1318</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note144">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u32">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg33">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note145">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u33">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg34">Voorzitter. Dat was het. Dank.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note146">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u34">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg35">Tot slot het woord aan de heer De Groot, D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note147">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u35">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg36">Voorzitter. Drie moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note148">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note149">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note150">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note151">constaterende dat de grote uitdagingen waar de landbouw voor staat op het gebied van klimaat, stikstof, dierenwelzijn en biodiversiteit vragen om een correcte beloning voor de boer;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note152">constaterende dat met name in bufferzones rondom Natura 2000-gebieden en in veenweidegebieden grote kansen zijn voor klimaat- en stikstofwinst;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note153">constaterende dat juist in deze gebieden behoefte is aan ondersteuning van het agrarische verdienmodel;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note154">verzoekt de regering het Nationaal Strategisch Plan verder uit te werken, waarbij een zo groot mogelijk budget beschikbaar is voor innovatie, investeringen en agrarisch natuur- en landschapsbeheer in een meer gebiedsgerichte benadering, waarbij ook diensten van boeren op het gebied van onder andere bodem, water, emissies en dierenwelzijn kunnen worden aangeboden en vergoed,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note155">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note156">Deze motie is voorgesteld door de leden Tjeerd de Groot en Boswijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note157">Zij krijgt nr. kst-21501-32-1319</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note158">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u36">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg37">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note159">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note160">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note161">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note162">overwegende dat Nederland sterk hecht aan én zich inzet voor goede arbeidsomstandigheden in de agrarische sector;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note163">overwegende dat goede leef- en arbeidsomstandigheden in de wet zijn vastgelegd en dus niet een doelstelling van het GLB zouden moeten zijn maar een absolute voorwaarde, aangezien die wetten nog niet op alle plekken worden nageleefd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note164">verzoekt de regering zich bij de Landbouw- en Visserijraad uit te spreken voor invulling van de sociale dimensie als conditionaliteit in het gemeenschappelijk landbouwbeleid,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note165">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note166">Deze motie is voorgesteld door de leden Tjeerd de Groot en Boswijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note167">Zij krijgt nr. kst-21501-32-1320</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note168">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u37">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg38">En de derde motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note169">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note170">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note171">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note172">overwegende dat de Europese Rekenkamer heel erg kritisch is op de besteding van het Europese landbouwgeld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note173">overwegende dat inkomenssubsidie deels weglekt naar de grondprijzen en deels wordt afgeroomd door supermarkten, zodat boeren weer eens het kind van de rekening zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note174">overwegende dat voedsel ook wordt geproduceerd zonder dit geldverspillende Europese geldcircus;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note175">overwegende dat het gaat om belastinggeld van hardwerkende Nederlanders;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note176">verzoekt de regering om dit belastinggeld te besteden aan de beloning van boeren en aan doelen waar alle Nederlanders iets aan hebben,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note177">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note178">Deze motie is voorgesteld door het lid Tjeerd de Groot.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note179">Zij krijgt nr. kst-21501-32-1321</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note180">Dank. Na de schorsing gaan we luisteren naar de beantwoording van de minister.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note181">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note182">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u38">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg39">Ik geef het woord aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note183">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u39">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg40">Dank u wel, voorzitter. Eerst de motie op stuk nr. 1309. Ik zal vragen of het openbaar kan worden, maar als de vraag is om niet akkoord te gaan, dan betekent dat dat ik buiten de zaal sta en de rest waarschijnlijk doorgaat. Dan kunnen wij ook niet meer ons standpunt inbrengen. Dat lijkt me dan ook weer een beetje overdreven. Dus ik zal het verzoek doen. Alleen, ik ga niet buiten de zaal verder. Ik hoop ook niet dat mevrouw Vestering dat wil.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note184">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u40">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg41">Mevrouw Vestering, korte reactie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note185">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u41">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg42">Het is een heel belangrijke bespreking, daarom moet de minister natuurlijk daaraan deelnemen. Tegelijkertijd zijn er wel werkafspraken gemaakt over openbaarheid en transparantie. Ik wil echt dat de minister zich daarvoor inzet en dus niet akkoord gaat. Het gaat over de bescherming van de bijen. Het gaat over de bescherming van de ecosystemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note186">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u42">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg43">Oké.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note187">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u43">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg44">Ik vind het belangrijk dat de minister meer doet dan alleen informeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note188">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u44">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg45">Maar in de praktijk betekent dat, als ik niet akkoord ga, dat ik buiten sta, want de rest blijft gewoon echt binnen zitten. Dat lijkt me nu ook weer niet helemaal de bedoeling. Maar ik zal echt vragen of het openbaar kan. Dat heb ik al toegezegd in het debat. Dat doe ik hiermee nog een keer, maar zo scherp als deze motie is gesteld, ontraad ik haar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note189">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u45">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg46">Dus de motie wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note190">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u46">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg47">Maar ik hoop dat het filmpje op internet dan weer niet wordt dat ik dit niet wil, want ik heb al toegezegd dat ik me daarvoor zal inzetten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg48">De motie-Van Campen op stuk nr. 1310 kan ik oordeel Kamer geven. We gaan nu echt meer richting het invullen van het NSP. Daar wordt uw Kamer ook echt bij betrokken. We zullen zorgen dat de Kamer daar op de geëigende momenten over geïnformeerd gaat worden en dat u tijd heeft om het debat daarover met mij te voeren. In december moeten wij het hele pakket met de onderhavige stukken indienen bij de Commissie. Dat is een strakke planning, dus ik hoop dat de Kamer mij toestaat om het tempo erin te houden. Maar ik kan oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note191">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u47">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg49">Oordeel Kamer voor de motie op stuk nr. 1310. 1311.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note192">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u48">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg50">De motie op stuk nr. 1311 vraagt om in de eerste pijler maximaal 20% beschikbaar te stellen voor de ecoregelingen. We hebben al eerder in ons BNC-fiche aangegeven dat wij hebben ingezet op 30%. Wat ons betreft zou het dus al hoger moeten vanaf het begin. De Raadspositie is 20% geworden, maar we gaan waarschijnlijk ergens tot een compromis komen, dus ik moet deze motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note193">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u49">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg51">1311 wordt ontraden. 1312.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note194">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u50">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg52">De motie op stuk nr. 1312 is een heel algemene motie om verdere beperkende maatregelen ten aanzien van de Nederlandse visserij te voorkomen. Er zijn afspraken gemaakt in het Noordzeeakkoord over de plekken waar nog wel gevist kan worden en de plekken waar geen visserij mogelijk is, zoals beschermde natuurgebieden. Die afspraken zijn voor mij leidend, want die heb ik gemaakt, dus ik moet deze motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note195">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u51">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg53">Motie op stuk nr. 1312 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note196">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:labor" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u52">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg54">De motie op stuk nr. 1313 gaat over de vraag om langjarige contracten. De heer Boswijk had het in zijn motie over 20 tot 30 jaar. Dat zijn wel echt heel lange periodes, want dan heb je eigenlijk geen flexibiliteit meer. Moet u zich voorstellen dat we nu niet meer zouden kunnen afwijken van zaken die we in 2001 afspraken. Dat is ook wel weer heel heftig. Ik lees de motie zo dat we kijken hoe je meer continuïteit en stabiliteit kunt inbrengen. Als dat niet gelijk aan 20 of 30 jaar gebonden is, dan wil ik kijken wat er mogelijk is met de provincies door in ieder geval het gesprek daarover aan te gaan. Als ik de motie zo mag lezen, dan geef ik haar oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note197">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u53">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg55">Ik zie de heer Boswijk knikken, dus dat is het geval. Dan krijgt die oordeel Kamer. 1314.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note198">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u54">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg56">De motie op stuk nr. 1314 vraagt om niet in te stemmen met de Controleverordening of met de richtlijn voordat er een praktijktoets is geweest. Ik wil even het kader schetsen. De onderhandelingen over de wijziging van de Controleverordening lopen al sinds 2018. Nederland heeft in die tijd ook al een BNC-fiche opgezet voor wat de inzet daarbij zou zijn. De uitkomst is altijd ook weer een compromis. Dat is vaak zo in Europa. Ik denk dat voor Nederland het maximale daarin wel is bereikt en dat we daarmee dus ook de triloog kunnen gaan starten. Een aantal specifieke bepalingen, zoals over het motorvermogen en de electronic monitoring, de camera's, wordt nog uitgewerkt in uitvoeringsverordeningen. Die nieuwe regels worden dus niet zomaar ingevoerd. Ik heb ook al gezegd dat ik vind dat we via pilots de effectiviteit van die camera's moeten testen. Maar als dit een voorwaardelijkheid wordt, kan dat gewoon niet. Wij hebben al in 2018 onze positie vastgesteld en daar ook de onderhandelingen op gevoerd. Ik moet deze motie dus ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note199">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u55">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg57">Motie op stuk nr. 1314 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note200">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u56">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg58">Motie op stuk nr. 1315. Er zitten meerdere verzoeken in deze motie. Het eerste is om rekening te houden met de ambities van de green deal. Dat doen we ook, want we weten ook wat erin zit en Nederland heeft die ook onderschreven. Het tweede is om het NSP direct aan te passen wanneer de nieuwe wetgeving is goedgekeurd. Dat is wat ingewikkelder. Geen misverstand dat nieuwe wetgeving vanzelfsprekend voor iedereen geldt en dat we die ook dan moeten gaan invoeren, maar het verzoek om bij nieuwe wetgeving het NSP steeds aan te passen, is praktisch gezien echt best wel lastig. Het is ook zo, als je het aanpast, dat dit vaak bij de inwerkingtreding is, niet gelijk wanneer de wetgeving is aangenomen. Meestal zit daar ook nog een tijd tussen. Maar ik zou willen vragen of we dit debat nader kunnen voeren bij de bespreking van het NSP. Ik zou willen vragen aan mevrouw Bromet of ze haar motie dan zou willen aanhouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note201">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u57">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg59">Daartoe is mevrouw Bromet, als ik het goed zie, bereid.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note202">Op verzoek van mevrouw Bromet stel ik voor haar motie (21501-32, nr. 1315) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note203">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note204">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u58">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg60">Dan de motie op stuk nr. 1316. Ik ben met de provincies in gesprek om te komen tot een goede start voor het Aanvalsplan Grutto. Daar wil ik me ook echt aan committeren. Ik wil afspraken maken met de provincies over een evenwichtige financiering, want de provincies hebben hier een rol in en ook een verantwoordelijkheid, omdat het ook over natuurdoelen gaat. Ik ben bezig met dat gesprek. Als deze motie een aanmoediging is, zou ik haar oordeel Kamer willen geven. Ik zit heel even met "voor het zomerreces". Dat is hier formeel 9 juli, denk ik. Ik weet niet precies wanneer het zomerreces hier begint.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note205">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u59">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg61">Ja, dat klopt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note206">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u60">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg62">Ik weet niet of dat net gaat lukken, maar voor half juli probeer ik de Kamer daarover te informeren. Is dat goed?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note207">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u61">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg63">Daarmee stemt mevrouw Bromet in. Dus u heeft iets meer tijd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note208">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u62">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg64">Nou, gelukkig, dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note209">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u63">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg65">Dan de motie op stuk nr. 1317.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note210">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u64">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg66">Motie op stuk nr. 1317 vraagt om ons actief te verzetten tegen verzwaring van de conditionaliteit. Ik ben gister al inhoudelijk ingegaan op de verschillende vragen die er leefden over de verzwaring van de conditionaliteit. De concrete vraag hier, over vanggewassen met bemesting als optie voor de conditionaliteit, ligt gewoon helemaal niet meer op tafel in Brussel. Dus het zou ook echt niet realistisch zijn om dat nu weer erin te gaan zetten. En over die landschapselementen en dat gemiddelde van 3% à 4% heb ik het gisteren ook al gehad. De eisen die nu voorliggen lijken mij echt haalbaar voor de Nederlandse situatie. Dus ik ontraad deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note211">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u65">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg67">Motie op stuk nr. 1317 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note212">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u66">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg68">Dan motie op stuk nr. 1318: actief verzetten tegen toetsing NSP aan niet juridisch bindende doelen. Ik ben het eens dat NSP's getoetst moeten worden aan juridische bindende voorschriften, maar we moeten ons hoofd ook niet in het zand steken. We moeten ook niet doen alsof er geen uitdagingen zijn en dat er geen zaken zijn die besproken worden. De green deal bevat gewoon een aantal zaken die echt belangrijk zijn om te bespreken. Ik wil ook wel proberen om in die richting stappen te zetten, om ook die doelen te bereiken. Dus in deze context moet ik de motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg69">Motie op stuk nr. 1319 vraagt de regering om het NSP verder uit te werken met een zo groot mogelijk budget voor innovaties, investeringen et cetera. Ik ben het ermee eens, en die opdracht heb ik ook gekregen in het regeerakkoord, dat we het GLB meer moeten richten op doelgerichte betalingen. Dat is ook waarvoor ik mij steeds heb ingezet en ik hoop dat u dat zult zien in het NSP, dat wij straks naar uw Kamer zullen zenden. De vraag of dat dan groot genoeg is of niet zal hier vast een politieke discussie gaan worden. Maar zoals de motie nu is geformuleerd, ligt ze in de lijn met wat mij in het regeerakkoord is opgeroepen om te doen, dus dan ik haar ook oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note213">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u67">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg70">De motie op stuk nr. 1319 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note214">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:labor" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u68">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg71">Dan kom ik toe aan de motie op stuk nr. 1320, over de sociale dimensie. Daar is veel over gesproken tijdens alle raden. Ik heb aangegeven dat ik arbeidsomstandigheden sowieso buitengewoon belangrijk vind, los van het GLB of welke middelen dan ook. Ik vind namelijk niet dat je pas arbeidsomstandigheden moet respecteren als je er geld voor gaat krijgen; dat staat gewoon in de wet. In de handhaving dreigen allerlei systemen door elkaar te gaan lopen, wat voor de Inspectie SZW ook een ingewikkelde was, want die moest dan weer overleggen met de NVWA. Ik denk dat er nu een model ligt dat werkbaar is. In dat licht kan ik de motie oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note215">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u69">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg72">De motie op stuk nr. 1320 krijgt oordeel Kamer. Tot slot de motie op stuk nr. 1321.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note216">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u70">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg73">De motie op stuk nr. 1321. Dan kom ik toch maar weer even terug op het regeerakkoord: daarin is mij gevraagd om het GLB meer te richten op doelgerichte betalingen, daar staat niet in dat álle middelen dus gericht moeten worden op doelgerichte betalingen. Deze motie gaat daarin een stapje verder. De heer De Groot was ooit onderdeel van de coalitie, en die onderhandelingen liepen in die tijd al. We hebben precies gedaan wat zijn fractie mij heeft opgedragen, dus ik moet deze motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note217">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u71">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg74">De motie op stuk nr. 1321 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note218">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u72">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg75">Ik wil nog één ding mededelen: de Kamer krijgt hopelijk vrij snel een publieksversie van het NSP opgestuurd. Ik wil benadrukken dat dat de versie is die voor het publiek is bedoeld. Er zal voor u dus niet zo heel veel nieuwe informatie in zitten, maar het is in ieder geval wel een handzaam overzicht van alle zaken die we al eerder met de Kamer hebben gedeeld, zodat u daarvan kennis kunt nemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note219">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u73">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg76">Ik dank de minister voor haar antwoorden en voor deze laatste informatie.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note220">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note221">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.u74">
+               <seg xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.seg77">Over de dertien moties die u zojuist hebt ingediend, gaan we bij de aanvang van de middagvergadering stemmen.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-24-tweedekamer-7.note222">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

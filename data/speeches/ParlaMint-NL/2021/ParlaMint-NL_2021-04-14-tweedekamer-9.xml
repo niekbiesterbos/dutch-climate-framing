@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-04-14 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-04-14 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 68, Session 9 (2021-04-14)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 68, Session 9 (2021-04-14)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="68" xml:lang="en">Meeting 68</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="9" xml:lang="en">Session 9</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-04-14">Sitting 2021-04-14</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="11">11 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="11">11 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1198">1,198 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1198">1,198 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-04-14">2021-04-14</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="32"/>
+               <tagUsage gi="seg" occurs="19"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="11"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-04-14">2021-04-14</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.head1">Vliegveiligheid</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg1">Ik heet de minister van Infrastructuur en Waterstaat van harte welkom, en de leden en de kijkers thuis. Voordat ik het woord geef aan de eerste spreker, leg ik een verzoek over deelname aan het debat aan de leden voor. Dat is een nieuwe regel; het Reglement van Orde is gewijzigd. Die is dat mensen die niet hebben deelgenomen aan het commissiedebat of de schriftelijke inbreng, even de goedkeuring moeten hebben van uw Kamer om mee te mogen doen. Dat geldt in dit geval voor de heer Graus, en ook voor de heer Geurts, maar die heeft zich ingeschreven voor nul minuten. Is er bezwaar tegen dat beide leden hier aanwezig zijn en één lid ook meedoet aan het debat? Ik zie dat dat niet het geval is. Prima, dan kunnen we echt van start gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg2">Ik geef allereerst het woord aan de heer Alkaya van de SP voor zijn inbreng.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note2">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:labor" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg3">Voorzitter. Ik ben natuurlijk nieuw in deze commissie; ik heb volgens mij zojuist mijn eerste VAO in deze commissie gedaan. Maar de Kamerleden die mij van andere commissies kennen, zullen wel herkennen dat ik vaak opkom voor de rechten van werknemers, voor de emancipatie van de mensen op de werkvloer, die het alledaagse werk doen en het daardoor mogelijk maken dat ons land en onze economie draaiend blijven. Dan gaat het dus niet alleen om rechtvaardigheid, dat ze recht moeten hebben op een deel van de winst en zeggenschap moeten hebben over de koers van het bedrijf, maar het gaat er ook om dat zij vanwege dat alledaagse werk de beste ideeën hebben voor de weg voorwaarts. Dan gaat het ook over veiligheid. In dat kader heb ik ook een motie voor vandaag.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note6">constaterende dat de koepelorganisatie van verkeersvliegers nu niet structureel betrokken wordt bij de certificering van nieuwe vliegtuigtypen of varianten daarvan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note7">van mening dat de inzichten die opgedaan worden op de werkvloer van groot belang zijn, ook bij het opstellen van opleidings- en trainingsprogramma's;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note8">verzoekt de regering om er bij het Europees Agentschap voor de veiligheid van de luchtvaart voor te pleiten om de koepelorganisatie van verkeersvliegers structureel te betrekken bij de training- en opleidingseisen voor vliegers bij (her)certificering van vliegtuigen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note10">Deze motie is voorgesteld door het lid Alkaya.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note11">Zij krijgt nr. kst-31936-850</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note12">Dank u wel. Dan geef ik het woord aan mevrouw Bouchallikh. U staat in ieder geval op mijn … O, voor nul minuten. U heeft geen bijdrage. Dan de heer Van Raan van de Partij voor de Dieren. Excuus.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note13">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.u3">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg4">Voorzitter, dank u wel. De minister en ik wisselden al even informeel uit: daar zijn we weer. Dat klopt: daar zijn we weer. Misschien is het goed om dit VAO aan te grijpen als een soort nulmeting, omdat er ook een nieuwe periode begonnen is. Het VAO dat we voeren, gaat over vliegveiligheid, maar tegelijkertijd voeren we ook een debat over een onderwerp, luchtvaart, in tijden van een klimaatcrisis en in het licht van alle aanbevelingen die de Onderzoeksraad voor Veiligheid heeft gedaan om de vliegveiligheid te vergroten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg5">We hebben het in de afgelopen periode ook gehad over de enorm gegroeide overlast van de luchtvaart. We hebben het ook gehad — dat is ook goed om te markeren — over het geweldige verlies aan vertrouwen in het bestuur, de overheid, en de wijze waarop die besluit over de opening van vliegvelden, bijvoorbeeld Lelystad Airport.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg6">Het is denk ik ook goed om even te memoreren, misschien als nulmeting, waar we staan in de discussie over het fair share aan CO-budget dat de luchtvaart naar rato mag uitstoten als je gewoon de lijn volgt van Parijs en van het Klimaatakkoord. Dan kom je eigenlijk tot een CO-budget voor de luchtvaart van rond de 2,5 of 3,5 megaton in 2030, terwijl de sector zelf, en de overheid in haar nota, staat op 12 megaton. Dus houd dat als nulmeting in de gaten, zou ik de Kamer willen adviseren: 2,5, 3,5 megaton vanuit Parijs, als fair share en naar rato, terwijl de sector zelf 12 megaton denkt uit te stoten. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note14">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note15">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note16">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note17">constaterende dat een krimp van de luchtvaart onvermijdelijk is voor klimaat, leefomgeving en veiligheid van mens en dier;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note18">verzoekt de regering het aantal vliegtuigbewegingen van en naar Nederland en Nederlandse luchthavens te verminderen tot maximaal 300.000 per jaar,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note19">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note20">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note21">Zij krijgt nr. kst-31936-851</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note22">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.u4">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg7">Ik zag de minister bij de constatering al knikken ter herkenning. Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note23">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.u5">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg8">Dank u wel. Dan geef ik het woord aan de laatste spreker, de heer Graus van de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note24">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:trans" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.u6">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg9">Dank u wel, mevrouw de voorzitter. Ik heb geen motie, maar wel een verzoek. Ik kon niet bij dat AO Vliegveiligheid zijn op 25 november vorig jaar, omdat op die dag ook de begrotingsbehandeling van LNV was. Die waren niet exact op hetzelfde moment, maar ik moest het wel doen en voorbereiden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg10">Ik heb een vraag. Ik ben er al een paar keer over begonnen. Het heeft te maken met een soort "toxic air"-toestanden in de cabine, waar vooral piloten last van schijnen te hebben. Ik heb een arts gesproken die piloten obduceert, die dus overleden piloten openmaakt en van binnen bekijkt. Het schijnt dat er weleens stoffen worden gevonden die waarschijnlijk af komen van vliegtuigen die er in een lijn voor vliegen. Dat zegt hij. Dat komt dan naar binnen. Het schijnt allemaal heel eenvoudig op te lossen te zijn. De luchtvaartmaatschappijen geven daar geen gehoor aan. Ik heb al diverse luchtvaartmaatschappijen gevraagd of we kunnen samenwerken om dat eens te onderzoeken. Dus ik wil het nu bij de minister neerleggen om te kijken of wij dat kunnen onderzoeken en om die arts die die piloten heeft geobduceerd daar zeker bij te betrekken. Hij weet immers welke stoffen worden aangetroffen, bijvoorbeeld in longen of andere lichaamsdelen. Het zou heel fijn zijn als de minister dat zou kunnen toezeggen. Dan zorg ik dat de betreffende arts, de patholoog-anatoom, in contact komt met het ministerie van de minister.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg11">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note25">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.u7">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg12">Dank u wel. Ik kijk even naar de minister. Zij heeft de moties nog niet.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note26">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note27">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.u8">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg13">Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note28">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#guest topic:trans" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.u9">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg14">Dank u wel, voorzitter. Deze keer zijn de luchtvaartwoordvoerders bij elkaar. Ook hier zie ik wat vertrouwde gezichten en wat nieuwe gezichten. Mevrouw Bouchallikh heb ik nog niet eerder in een debat meegemaakt. Ik zie nog meer nieuwe gezichten. De heer De Hoop is ook nieuw. Allemaal van harte welkom. Heel fijn om met u over deze belangrijke onderwerpen verder van gedachten te gaan wisselen. Ik wens u heel veel werkplezier in de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg15">Voorzitter. Het aantal vragen is overzichtelijk, namelijk alleen die van de heer Graus. Hij stelde de problematiek van de cabinelucht aan de orde. Daar is ook een commissie voor in het leven geroepen: de Nationale Adviesgroep Cabinelucht, oftewel NAC. Misschien is dat wat makkelijker te onthouden in verband met de voetbalclub met dezelfde naam. Ik stel voor dat de heer Graus inderdaad even de gegevens doorgeeft. Maar ik zal in de verzamelbrief, die ik voor elk AO Luchtvaart stuur, sowieso rapporteren wat de laatste stand van zaken is van die Nationale Adviesgroep Cabinelucht.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg16">Dan kom ik bij de moties. De heer Alkaya verzoekt de regering in zijn motie op stuk nr. 850 om bij het Europees Agentschap voor de veiligheid van de luchtvaart te pleiten om de koepelorganisatie van verkeersvliegers structureel te betrekken bij de training- en opleidingseisen voor vliegers bij (her)certificering van vliegtuigen. Dat is natuurlijk allemaal meer pregnant naar voren gekomen naar aanleiding van de vreselijke ramp met de 737 MAX. Om u niet al te lang verder van het werk te houden: oordeel Kamer. Ik kan het dus ondersteunen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg17">Sommige dingen veranderen ook niet na de verkiezingen. De inbreng van de heer Van Raan klonk mij dus zeer vertrouwd in de oren, ook zijn pleidooi voor krimp, gekoppeld aan het getal van 300.000. Maar, meneer Van Raan, ook aan deze kant van de tafel is dat niet veranderd, dus ik ga ook deze keer de motie, die op stuk nr. 851, ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note29">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.u10">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg18">Dank u wel. De motie op stuk nr. 850 krijgt oordeel Kamer en de motie op stuk nr. 851 wordt ontraden. Daarmee zijn we aan het einde gekomen van deze beraadslaging.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note30">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note31">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.u11">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.seg19">Ik dank de minister. Ik dank de Kamerleden en de kijkers thuis.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-9.note32">De vergadering wordt van 14.04 uur tot 14.38 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

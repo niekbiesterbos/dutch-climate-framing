@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-06-23 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-06-23 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 92, Session 3 (2021-06-23)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 92, Session 3 (2021-06-23)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="92" xml:lang="en">Meeting 92</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="3" xml:lang="en">Session 3</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-06-23">Sitting 2021-06-23</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="29">29 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="29">29 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2490">2,490 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2490">2,490 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-06-23">2021-06-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="76"/>
+               <tagUsage gi="seg" occurs="45"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="29"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-06-23">2021-06-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.head1">Dutchbat III</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg1">Aan de orde is het tweeminutendebat Dutchbat III van het commissiedebat van 8 juni. Er hebben zich van de zijde van Kamer zes sprekers gemeld. De eerste spreker is mevrouw Belhaj namens de fractie van D66. Ik geef u graag het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note2">Mevrouw Belhaj (D66)</note>
+            <u who="#SalimaBelhaj" ana="#regular topic:defen" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg2">Voorzitter, in de eerste plaats van harte gefeliciteerd met het feit dat u voor de eerste keer mag voorzitten. We hebben als Tweede Kamerleden afgesproken dat we u ook een beetje zullen testen! Nee hoor. Van harte.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg3">Voorzitter. Bijna 26 jaar geleden viel de enclave Srebrenica. De Nederlandse eenheid Dutchbat III raakte in omstandigheden waarop ze niet voorbereid was, noch waarvoor ze toereikend was bewapend. Bovendien ontbeerde ze steun van buiten, waardoor het onmogelijke van de militairen werd gevraagd. Een kwart eeuw later, in 2021, wordt met het onderzoeksrapport Focus op Dutchbat III duidelijk dat Dutchbat III-veteranen onder andere erg weinig erkenning en waardering vanuit de overheid en Defensie hebben gevoeld. Dat is een pijnlijke constatering. Gelukkig pakt de minister de aanbevelingen van de commissie-Borstlap voortvarend op. Echter, er mist in mijn optiek nog iets in deze aanpak: de politiek zelf. De vaste commissie voor Defensie is te allen tijde politiek betrokken geweest bij de inzet van militairen en bij de evaluatie van missies. Echter, de politici staan op dit moment buiten het verwerkingsproces van de veteranen, terwijl een open dialoog tussen politiek en veteraan daar wel degelijk een bijdrage aan zou kunnen leveren. Wij, politici, zijn immers ook de brug tussen de samenleving en de oud- en huidige militairen. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note6">constaterende dat het kabinet aanbeveling 6 van de commissie-Borstlap overneemt, die voorstelt om terugkeerreizen naar Srebrenica te organiseren en te faciliteren voor Dutchbat III-veteranen en hun thuisfront die daaraan behoefte hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note7">constaterende dat Dutchbat III-veteranen een brede teleurstelling hebben ervaren ten opzichte van de politiek en de overheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note8">overwegende dat de vaste commissie voor Defensie politiek te allen tijde betrokken is bij inzet van militairen en evaluatie van missies en het daarom van toegevoegde waarde kan zijn voor de Dutchbat III-veteranen die betrokkenheid meer direct te tonen en meer in dialoog te gaan wanneer dit wenselijk is voor de Dutchbat III-veteranen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note9">spreekt uit dat de Kamer open staat voor dialoog met de Dutchbat III-veteranen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note10">spreekt uit dat de vaste commissie voor Defensie een eigen reis naar Srebrenica organiseert en tevens in overleg met vertegenwoordigers van de Dutchbat III-veteranen treedt, zodat indien men dit waardeert een aantal Dutchbat III-veteranen deel kunnen nemen aan deze reis in het verlengde van het aangaan van de dialoog met politici,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note12">Deze motie is voorgesteld door de leden Belhaj, Boswijk, Van Wijngaarden, Jasper van Dijk, Kuzu, Piri en Ceder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note13">Zij krijgt nr. kst-26122-51</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note14">Dank, mevrouw Belhaj. Als u de motie aan de Griffie geeft, ga ik graag naar de volgende spreker. Dat is de heer Ceder namens de ChristenUnie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note15">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:defen" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg4">Dank u wel, voorzitter. Ook ik wil u feliciteren met uw eerste keer hier als voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg5">Voorzitter. We hebben een debat gehad over Dutchbat. Volgens mij zijn er mooie stappen gezet. Ik heb nog twee moties waarvan ik denk dat die het proces kunnen verbeteren en die veteranen ook een steun in de rug kunnen bieden. Daarom de volgende twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note16">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note17">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note18">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note19">overwegende dat veteranen die gediend hebben in Dutchbat III er behoefte aan hebben om hetzelfde behandeld te worden als andere militairen en dat zij daarom ook in aanmerking willen kunnen komen voor een erkenning onder het normale decoratiestelsel;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note20">overwegende dat er gezien het tijdsverloop mogelijk regels zijn die dit in de weg staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note21">verzoekt de regering individuele aanvragen van Dutchbat III-veteranen voor decoraties uit het normale stelsel mogelijk te maken, daar waar nodig regels die dit in hun situatie in de weg staan, ruimhartig toe te passen, en voordrachten voortvarend te behandelen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note22">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note23">Deze motie is voorgesteld door het lid Ceder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note24">Zij krijgt nr. kst-26122-52</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note25">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg6">Ik heb een tweede motie. Die gaat over de uitkering en ervoor zorgen dat mensen die in de schulden zitten, niet zien dat hun geld bijvoorbeeld in de boedel terechtkomt als er sprake is van schuldsanering.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg7">Ik zie een interruptie, voorzitter. Het hoeft niet, maar toch wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note26">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg8">Meneer Van Wijngaarden heeft een korte vraag over de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note27">De heer Van Wijngaarden (VVD)</note>
+            <u who="#JeroenvanWijngaarden" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg9">Ik heb inderdaad een korte vraag over die motie. Er wordt verwezen naar regels die decoraties feitelijk in de weg staan. Dat kwam voor mij als nieuws. Kan de heer Ceder aangeven welke regels of belemmeringen er nu zijn?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note28">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:defen" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg10">Ik ben juist de mening toegedaan dat deze regels geen belemmering zouden moeten vormen. Maar het kan zo zijn dat er een belemmering is, ook omdat er nieuwe regels zijn, gezien het tijdsverloop, bij het decoreren van een militair voor iets wat hij of zij in positieve zin gedaan heeft. Als het zo lang geleden heeft plaatsgevonden, kan dat een belemmering opleveren. Tegelijkertijd blijkt uit het Dutchbatrapport dat veteranen hier behoefte aan hebben. Volgens mij is dit een wens die iedereen zou moeten willen. Het gaat hierbij overigens om veteranen die echt hebben kunnen laten zien dat ze daarvoor in aanmerking komen. Dit is expliciet geen voorkeursbehandeling, maar we willen wel de weg openen, zodat ze net als alle andere militairen die op missie zijn geweest, aanspraak kunnen maken op een mogelijke decoratie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note29">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg11">Helder. Uw tweede motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note30">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg12">Dank u wel.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note31">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note32">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note33">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note34">overwegende dat het onwenselijk zou zijn als de speciale uitkering die de leden van Dutchbat III krijgen, in sommige gevallen op zou kunnen gaan aan deurwaarders of aan de inboedel van de schuldsanering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note35">verzoekt het kabinet om afspraken te maken met de Recofa en/of schuldeisers, of op andere wijze te voorkomen dat de uitkering voor Dutchbatters in beslag genomen wordt, zonder dat dit een wezenlijke vertraging voor de uitbetaling van de uitkering oplevert,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note36">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note37">Deze motie is voorgesteld door het lid Ceder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note38">Zij krijgt nr. kst-26122-53</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note39">Dank voor uw moties, meneer Ceder. Dan zijn wij aangekomen bij de heer Van Wijngaarden voor zijn bijdrage namens de fractie van de VVD.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note40">De heer Van Wijngaarden (VVD)</note>
+            <u who="#JeroenvanWijngaarden" ana="#regular topic:defen" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg13">Voorzitter, ook namens mijn fractie felicitaties aan u. En veel succes, maar dat gaat natuurlijk helemaal goedkomen. Ik heb geen eigen motie, maar wil wel kort toelichten waarom wij een handtekening onder de motie van mevrouw Belhaj hebben gezet. Ik heb daar veel waardering voor. Minister Hennis, een ambtsvoorganger van deze minister, zei volgens mij ooit: waar anderen weigerden, besloot Nederland te gaan. Bij het onderkennen van de risico's, de gevaren, de mogelijkheden en de onmogelijkheden van de missie destijds zijn natuurlijk dingen niet goed gegaan. Ik denk dat het voor het parlement ook heel goed is om los van het aangaan van de dialoog met veteranen, ook de dialoog met zichzelf aan te gaan over de vraag of we altijd wel voldoende stilstaan bij de risico's en de gevaren van een missie. Als het veilig zou zijn, als er geen risico's zouden zijn, dan zouden we natuurlijk geen militairen maar diplomaten sturen. Ik denk dat dat ook een mooi punt is om mee te nemen in het proces dat mevrouw Belhaj hier vandaag in gang zet.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg14">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note41">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg15">Dank voor uw bijdrage, meneer Van Wijngaarden. Dan geef ik graag het woord aan mevrouw Piri namens de fractie van de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note42">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:defen" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg16">Voorzitter, ook namens mijn fractie uiteraard gefeliciteerd. Vele oud-Dutchbatters III voelen nog dagelijks de gevolgen van de missie in Srebrenica 25 jaar geleden. De missie mislukte door een beperkt mandaat van de Verenigde Naties en het uitblijven van luchtsteun. Daarnaast was er een gebrek aan mankracht, bewapening, brandstof en voedsel. Het ARQ-onderzoek laat ook zien dat de wonden niet meer volledig zullen helen bij alle betrokken veteranen en hun thuisfront. In die zin zijn de gebeurtenissen in en rond de enclave Srebrenica nooit af te sluiten. Velen stuiten ook nu nog vaak op een muur van onbegrip, al realiseert men zich terdege dat de schrijnende verhalen en ervaringen van de nabestaanden van de slachtoffers niet in verhouding staan tot hun eigen leed.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg17">Voor mijn fractie is het van het grootste belang dat de Vereniging Dutchbat 3 actief deelneemt aan de uitwerking van de aanbevelingen. Ook wil de PvdA de minister verzoeken om jaarlijks de Kamer op de hoogte te houden met een voortgangsrapportage waarin per aanbeveling duidelijk te volgen is wat de stand van zaken is, welke effecten te zien zijn en waar aanpassingen nodig zijn. Ik ben blij met de toezegging van de minister in het commissiedebat dat vanaf nu een apart hoofdstuk wordt opgenomen in de Veteranennota waarin de voortgang en de opvolging van het onderzoek en de aanbevelingen staan. Wanneer we dat borgen en nakomen, dan pas doen we recht aan het onderzoeksrapport en de aanbevelingen. Maar bovenal doen we dan recht aan de mannen en vrouwen van Dutchbat III en natuurlijk alle Dutchbatters, die we hopelijk bij de Nationale Veteranendag 2022 weer mogen begroeten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg18">Dank u, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note43">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg19">Dank voor uw bijdrage, mevrouw Piri. Dan zijn we aangekomen bij de heer Kuzu namens de fractie van DENK.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note44">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg20">Voorzitter, ook de fractie van DENK wil u van harte feliciteren met de eerste keer dat u voorzitter mag zijn. Het is ook de beste voorzitter die ik tot nu toe vandaag heb gezien!</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg21">Voorzitter. Een motie van mijn zijde.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note45">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note46">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note47">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note48">constaterende dat er al jarenlang op 11 juli tijdens de nationale Srebrenicaherdenking gebruik wordt gemaakt van een mobiel herdenkingsmonument;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note49">constaterende dat de gemeenten Rotterdam en Den Haag zich in juli 2020 bereid hebben getoond te zorgen voor de realisatie van een nationaal herdenkingsmonument;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note50">constaterende dat de burgemeester van Den Haag heeft aangegeven dat het van belang is om het drama dat zich in 1995 heeft afgespeeld te herdenken in de internationale stad van vrede en recht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note51">constaterende dat er inmiddels een werkgroep is ingericht die de realisatie van een nationaal herdenkingsmonument wil bewerkstelligen en dat de werkgroep inmiddels een geschikte locatie heeft gevonden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note52">overwegende dat het verwezenlijken van een nationaal herdenkingsmonument zal bijdragen aan het verwerken van de gebeurtenissen in Srebrenica voor de nabestaanden van de slachtoffers van de genocide evenals voor de Dutchbatveteranen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note53">overwegende dat de desbetreffende geschikte locatie zich bevindt in de internationale zone in Den Haag, die valt onder het domein van het Rijk;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note54">overwegende dat de burgemeester van Den Haag inmiddels een brief heeft gestuurd naar het Rijk waarin deze problematiek wordt aangestipt en dat de burgemeester tot op heden nog geen inhoudelijke reactie van het Rijk heeft ontvangen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note55">verzoekt de regering waar mogelijk binnen haar bevoegdheid belemmeringen weg te nemen en de gemeenten Rotterdam en Den Haag aan te moedigen om het nationaal Srebrenicaherdenkingsmonument spoedig te bewerkstelligen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note56">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note57">Deze motie is voorgesteld door de leden Kuzu en Belhaj.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note58">Zij krijgt nr. kst-26122-54</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note59">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:defen" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg22">Voorzitter, rest mij om af te sluiten met het gegeven dat we tijdens het commissiedebat, maar ook vandaag, stil hebben gestaan bij het leed van de Dutchbatveteranen. Dat werd na 25 jaar ook tijd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg23">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note60">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg24">Dank voor uw bijdrage, meneer Kuzu. Ik zie dat we daarmee aan het einde zijn gekomen van deze termijn van de zijde van de Kamer. Ik heb aangegeven dat de minister een kort ogenblik wil schorsen en nog wil nadenken over de moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note61">Minister Bijleveld-Schouten</note>
+            <u who="#AnkBijleveld-Schouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg25">Ik heb de laatste nog niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note62">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg26">Ik schors enkele ogenblikken.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note63">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note64">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:defen" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg27">Ik geef graag het woord aan de minister van Defensie, mevrouw Bijleveld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note65">Minister Bijleveld-Schouten</note>
+            <u who="#AnkBijleveld-Schouten" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg28">Dank u wel, voorzitter. Ik moet u natuurlijk ook feliciteren met uw eerste keer voorzitten in die stoel. Ik weet zelf nog van heel lang geleden dat het best spannend was bij sommige debatten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg29">Voorzitter. Laat ik beginnen met het feit dat ik het zelf heel belangrijk vond dat we met elkaar apart over Dutchbat III hebben gesproken hier in de Kamer, op verzoek van uw Kamer. Het is heel belangrijk geweest dat we dat hebben gedaan, losgetrokken van het debat over de Veteranennota, omdat ARQ Nationaal Psychotrauma Centrum na 25 jaar een onderzoek heeft gedaan op mijn verzoek. De commissie-Borstlap heeft daar conclusies bij getrokken die het verdienden om er met elkaar over te spreken, omdat Borstlap uiteindelijk ook alle geledingen aanhaalt. Zoals ook mevrouw Belhaj in de motie heeft gezegd, zitten daar aanbevelingen tussen voor de Dutchbatters, voor de volksvertegenwoordiging, voor het kabinet en voor de journalistiek, als je kijkt naar hoe het in die periode is gegaan. Ik vond het zelf ook heel mooi dat er in het debat steeds sprake was van reflectie van iedereen, ook gevraagd door de Kamer. Ik denk dat dat recht doet aan de mannen en vrouwen van Dutchbat III, die hun werk inderdaad onder verschrikkelijke omstandigheden hebben gedaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg30">Ik wou hier in uw Kamer nog aangeven, voor degenen die het niet hebben gezien, dat morgenavond een herhaling is van deel één van de documentaire van Coen Verbraak. De delen daarvan over de Dutchbatgemeenschap worden de komende week herhaald. Degenen die het nog niet hebben gezien, zou ik willen aanraden om daarnaar te kijken, omdat de mannen en vrouwen zelf vertellen hoe diep het hen heeft geraakt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg31">Voorzitter, dan de moties. De motie op stuk nr. 51 is een spreekt-uitmotie, eigenlijk aan de Kamer. Dus daar gaat de Kamer in die zin zelf over. Wel wil ik zeggen dat ik het belangrijk vind dat de Kamer dit ook doet. Hierover hebben wij in het commissiedebat ook gesproken. Wij nemen inderdaad als kabinet de aanbeveling over om op maat — ik heb zelf veel met veteranen, ook van Dutchbat, gesproken in de afgelopen vier jaar — terugkeerreizen te organiseren. Sommigen zullen dat wel willen, anderen niet, sommigen willen in een groep, anderen niet. Maar ik denk dat het belangrijk is dat de Kamer dat ook doet. U gaat zelf natuurlijk over dit "spreekt uit", dus het is niet aan de regering om daar een oordeel over te geven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg32">Ik wil er nog aan toevoegen dat het heel belangrijk is dat het aanstaande zaterdag natuurlijk Nationale Veteranendag is. Inderdaad, mevrouw Piri, kunnen we weer niet de gemeenschap ontmoeten dit jaar, bij het defilé of op het Malieveld. Maar er zijn wel degelijk, ook in het najaar, nog lokale veteranendagen, waarvan ik er zelf ook altijd een aantal bezoek in het jaar. Ik hoop dat de leden van uw Kamer dat ook doen. Het gaat natuurlijk niet alleen om het spreken met de Dutchbatveteranen, maar om het spreken met álle veteranen. Dat is uiteindelijk in de conclusies van Borstlap een belangrijk punt. Dat wilde ik nog even toevoegen aan wat er in de motie staat. Verder gaat de Kamer daar zelf over, dus het past mij niet om daar een beoordeling over te geven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg33">Dan de motie-Ceder op stuk nr. 52, over de decoraties. De heer Van Wijngaarden vroeg wat hieraan in de weg staat. Tegen de heer Van Wijngaarden zeg ik dat er allerlei besluiten ten grondslag liggen aan individuele decoraties. In sommige besluiten zitten bijvoorbeeld verjaringstermijnen. Dat geldt ook voor andere typen onderscheidingen. Ik weet toevallig zelf veel van het onderwerp, omdat ik er als commissaris van de Koning ook mee bezig ben geweest. Kijk naar de inhuldigingsmedailles. Soms zitten er wel en soms zitten er geen termijnen aan. Sommige onderscheidingen kun je nog heel lang aanvragen en andere niet. Dat zou hier het geval kunnen zijn. Voor de individuele onderscheidingen is dat hier inderdaad het geval. Daar kan de minister van afwijken. Voor de groepsonderscheidingen is dat niet het geval. Ik beschouw deze motie op stuk nr. 52 als een soort steun in de rug. Als er individuele aanvragen zijn, zal ik kijken of daarvan kan worden afgeweken. Er moet dan wel een aanvraag worden gedaan. Ik zou dus het oordeel over deze motie aan de Kamer willen laten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note66">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg34">Oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note67">Minister Bijleveld-Schouten</note>
+            <u who="#AnkBijleveld-Schouten" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg35">De motie op stuk nr. 53 verzoekt het kabinet afspraken te maken met schuldeisers. Dat zal ik zeker doen. Ik heb dat in het debat gezegd, maar ik denk dat het belangrijk is dat we dat hier ook vastleggen. In het debat heb ik gezegd dat we zouden gaan uitkeren. Inmiddels hebben meer dan 700 mensen hun uitkering ontvangen. Dat is goed om te horen, als je kijkt naar de totale groep. Onze organisatie is er heel actief mee aan het werk gegaan. Voor mensen die eventueel in de problemen zouden kunnen komen, maken we allemaal maatwerkregelingen. Met hen wordt contact opgenomen. Ik snap heel goed de achtergrond van deze motie en het is belangrijk dat we dit niet vergeten, dus ik wil ook hierover het oordeel aan de Kamer laten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note68">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg36">Een ogenblik. Meneer Ceder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note69">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg37">Ik ben hartstikke blij dat 700 mensen een uitkering hebben gehad. Voor de goede orde vraag ik toch het volgende. Van die 700 mensen was er niemand die in de financiële problemen zat? Ik vraag dat om te voorkomen dat een groep tussen wal en schip valt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note70">Minister Bijleveld-Schouten</note>
+            <u who="#AnkBijleveld-Schouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg38">Dat is expliciet zo aangestuurd, maar het is een terechte vraag in dit geval.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note71">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg39">Dus dat betekent voor de motie op stuk nr. 53 oordeel Kamer?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note72">Minister Bijleveld-Schouten</note>
+            <u who="#AnkBijleveld-Schouten" ana="#guest topic:defen" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg40">Ja.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg41">Dan ga ik naar de motie op stuk nr. 54, van het lid Kuzu. Ik heb dit zelf namens de vereniging gesteund bij de gemeente Den Haag. Ik wist eerlijk gezegd niet van de brief van de burgemeester aan iemand bij het Rijk. Ik zal de burgemeester vragen aan wie hij die brief heeft gestuurd. Ik zal inderdaad hierover contact opnemen, want ik ben het helemaal met u eens dat dit belangrijk is. Natuurlijk is het zo dat in Potočari zelf het hoofdmonument staat. Een keer in de vijf jaar is daar een vertegenwoordiger van de Nederlandse regering aanwezig. Wij hebben ook substantieel geïnvesteerd in het museum dat daar is. Kamerleden kunnen daar bij hun reis naartoe gaan en er aandacht aan besteden in hun gesprekken. Ik spreek natuurlijk ook met de Bosnische vertegenwoordigers en verenigingen. Dit is belangrijk en het wordt ook belangrijk gevonden. Dus ik zal daarachteraan gaan. Ik kan het oordeel over deze motie ook aan de Kamer laten. Ik vind het belangrijk dat het er spoedig is. De gemeente Rotterdam wil inderdaad financieel bijdragen. Dat hebben we in het debat ook aan de orde gehad. De verenigingen willen het graag in Den Haag hebben en niet in Rotterdam. Ik wist niet dat dit een belemmering was, dus ik zal het gewoon oppakken. Ik kan dus ook hierover het oordeel aan de Kamer laten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg42">Dan wil ik ermee afronden dat ik hoop dat veel Kamerleden op 11 juli op het Plein hier in Den Haag aanwezig zijn, waar de jaarlijkse herdenking is. Dat is op een zondag. De heer Kuzu riep daar trouwens ook toe op in het debat. Ikzelf als minister ben ermee begonnen om daar aanwezig te zijn, met de top van Defensie, maar ook met de Dutchbat III-veteranen. Ik hoop dus dat er ook dit jaar, zoals de heer Kuzu opriep in het commissiedebat, veel Kamerleden bij zullen zijn. Daarmee kan ik mijn beantwoording beëindigen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note73">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:inter" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg43">Dank. Ik kan dit uit eigen ervaring melden. Ik ben samen met de heer Kuzu in Srebrenica geweest en het is enorm de moeite waard en indrukwekkend om daarbij aanwezig te zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg44">Daarmee zijn wij aan het einde gekomen van de inbreng van de zijde van het kabinet.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note74">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note75">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.seg45">Over de ingediende moties wordt aanstaande dinsdag gestemd.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-06-23-tweedekamer-3.note76">De vergadering wordt van 10.40 uur tot 11.02 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

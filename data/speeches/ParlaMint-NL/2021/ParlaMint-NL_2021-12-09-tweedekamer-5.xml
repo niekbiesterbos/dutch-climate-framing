@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-12-09 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-12-09 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 33, Session 5 (2021-12-09)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 33, Session 5 (2021-12-09)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="33" xml:lang="en">Meeting 33</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="5" xml:lang="en">Session 5</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-12-09">Sitting 2021-12-09</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="103">103 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="103">103 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3363">3,363 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3363">3,363 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-12-09">2021-12-09</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="249"/>
+               <tagUsage gi="seg" occurs="118"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="103"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-12-09">2021-12-09</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.head1">Klimaat en energie</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg1">Dan is thans aan de orde het tweeminutendebat Klimaat en energie, met maar liefst tien sprekers, althans, die hebben zich als zodanig ingeschreven. De eerste is de heer Thijssen van de fractie van de Partij van de Arbeid. Hij heeft zoals iedereen twee minuten spreektijd. Het woord is aan hem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note2">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg2">Dank u, voorzitter. Ik heb drie moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note6">constaterende dat huishoudens met een laag inkomen vaak niet in staat zijn om duizenden euro's te investeren in woningisolatie, zonnepanelen of een elektrische auto, en daarmee ook niet kunnen profiteren van subsidies, saldering, energiebesparing en/of lagere gebruikskosten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note7">van mening dat het onwenselijk is dat duurzaamheidssubsidies voornamelijk terechtkomen bij mensen met een relatief hoog inkomen, zoals bijvoorbeeld blijkt uit de evaluatie van de SEEH-regeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note8">verzoekt de regering te onderzoeken hoe duurzaamheidssubsidies toegankelijker gemaakt kunnen worden voor huishoudens met een laag inkomen, en daarin de mogelijkheid van inkomensafhankelijke subsidies te betrekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note10">Deze motie is voorgesteld door de leden Thijssen en Kröger.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note11">Zij krijgt nr. kst-32813-941</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note12">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg3">Voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note13">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note14">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note15">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note16">van mening dat de compensatie voor de fors gestegen energierekening veel gerichter had moeten zijn, met volledige compensatie voor huishoudens in energiearmoede;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note17">overwegende dat het kabinet aangeeft dat de wens naar een snelle doorvoering van de maatregel ten grondslag lag aan de generieke compensatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note18">verzoekt de regering om voorbereidingen te treffen zodat bij een volgende forse stijging van de energierekening gericht compensatie geboden kan worden aan huishoudens die dat het meest nodig hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note19">verzoekt de regering het lopende onderzoek naar de mogelijkheid van compensatie via huurverlaging van slecht geïsoleerde woningen (motie Nijboer/Bromet 35925 VII, nr. 71) bij deze voorbereidingen te betrekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note20">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note21">Deze motie is voorgesteld door de leden Thijssen en Kröger.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note22">Zij krijgt nr. kst-32813-942</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note23">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg4">En de laatste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note24">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note25">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note26">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note27">overwegende dat verdere groei van het aandeel duurzame energie noodzakelijk is en dat er volgens het PBL tussen de 35 en 46 terawattuur aan plannen ligt bij de energieregio's;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note28">overwegende dat het plafond van 35 terawattuur aan hernieuwbare elektriciteit in de SDE++ nagenoeg is bereikt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note29">verzoekt de regering het plafond voor hernieuwbare elektriciteit los te laten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note30">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note31">Deze motie is voorgesteld door de leden Thijssen en Kröger.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note32">Zij krijgt nr. kst-32813-943</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note33">Dank u wel. Een korte vraag nog van de heer Bontenbal.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note34">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg5">Ik weet niet of ik het goed gehoord heb, maar had u het over inkomensafhankelijke …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note35">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg6">Had de heer Thijssen het …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note36">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg7">Sorry, voorzitter. Heb ik de heer Thijssen goed gehoord dat hij het over inkomensafhankelijke subsidies heeft gehad …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note37">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg8">Hij schudt nee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note38">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg9">… in zijn eerste motie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note39">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg10">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note40">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg11">Dus subsidies gaan we inkomensafhankelijk maken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note41">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg12">Nou, in ieder geval gaan we ervoor zorgen …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note42">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg13">Dus het isoleren van je …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note43">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg14">Ho, ho, de heer Thijssen geeft antwoord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note44">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg15">Excuus, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note45">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg16">In ieder geval gaan we ervoor zorgen dat de subsidies evenredig terechtkomen bij mensen die een lager inkomen hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note46">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg17">Ja, helder. Afrondend, nog één zinnetje.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note47">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg18">Oké. Dus u bedoelt niet …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note48">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg19">Dus de heer Thijssen bedoelt niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note49">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg20">Sorry, voorzitter. De heer Thijssen bedoelt niet dat als je je huis gaat isoleren er dan naar je inkomen gekeken wordt hoeveel subsidie je krijgt?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note50">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg21">De motie roept op om ervoor te zorgen dat subsidies ook terechtkomen bij lagere inkomens. Hoe dat geregeld kan worden, is de vraag aan de regering.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note51">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg22">Prima. De volgende spreker van de zijde van de Kamer is de heer Grinwis van de fractie van de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note52">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg23">Voorzitter, dank u wel. Ik heb drie moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note53">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note54">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note55">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note56">constaterende dat Meta, voorheen Facebook, voor de vestiging van een datacenter in Zeewolde nog 80 hectare grond wil aankopen en dat deze grond in eigendom is van het Rijksvastgoedbedrijf;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note57">overwegende dat het hier gaat om kwalitatief hoogwaardige landbouwgrond en dat verkoop hiervan ten behoeve van een datacenter tegen het staande beleid van het Rijksvastgoedbedrijf in gaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note58">verzoekt de regering sowieso zolang er nog geen landelijke visie op een afwegingskader voor de vestiging van hyperscale datacenters is opgesteld en deze in de Kamer is behandeld, geen grond van het Rijksvastgoedbedrijf te verkopen ten behoeve van deze hyperscale datacenters, waaronder het datacenter in Zeewolde,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note59">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note60">Deze motie is voorgesteld door het lid Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note61">Zij krijgt nr. kst-32813-944</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note62">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg24">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note63">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note64">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note65">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note66">constaterende dat zonnewarmte-installaties een groot deel van de warmtevraag in de gebouwde omgeving op een duurzame manier en lokaal kunnen invullen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note67">overwegende dat de huidige ISDE-subsidie van 20% van de gemiddelde totale investeringskosten onvoldoende is om deze installaties interessant te maken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note68">overwegende dat voor hybride warmtepompen een ISDE-subsidie van 30% van de gemiddelde totale investeringskosten geldt in 2022;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note69">verzoekt de regering de subsidie voor zonnewarmte-installaties gelijk te trekken met die voor hybride warmtepompen in de ISDE-regeling en deze installaties op te nemen in het stimuleringsprogramma voor hybride warmtepompen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note70">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note71">Deze motie is voorgesteld door het lid Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note72">Zij krijgt nr. kst-32813-945</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note73">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg25">De laatste motie, en dat is een lange.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note74">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note75">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note76">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note77">constaterende dat de ramingen uit de KEV 2020, plus de vertaling daarvan in het eindadvies basisbedragen SDE++ 2021, als basis dienen voor de toekenning van projecten en maximale subsidiebedragen in de 2021-ronde van de SDE++;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note78">overwegende dat energie- en COprijzen buitengewoon volatiel zijn en het afgelopen jaar enorm gestegen zijn, dat in de KEV 2020 nog gerekend werd met een ETS-prijs in 2025 van €30 en in 2030 van €46 per ton CO, dat de ETS-prijs bij de indiening van de aangenomen, maar nog onvoldoende uitgevoerde overprogrammerings- en anticipatiemotie (35668, nr. 35) in mei jongstleden ruim €50 was en inmiddels op €88 per ton CO ligt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note79">overwegende dat in de SDE++ weliswaar wordt overgeprogrammeerd, maar dat het PBL in de KEV 2020 met dermate conservatieve ramingen is gekomen inzake energie- en ETS-prijzen dat verdere onderuitputting en reserveopbouw in de SDE++ waarschijnlijk is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note80">overwegende dat hierdoor in 2021 minder duurzame projecten dreigen te worden gehonoreerd in de SDE++ dan potentieel mogelijk en dat dit de voortgang van de energietransitie en vooral de warmtetransitie schaadt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note81">verzoekt de regering voorafgaand aan de openstelling van de SDE++ 2022 en zo mogelijk ook nog voor de toekenning in 2021 een onafhankelijke second opinion op te laten stellen, waarbij cruciale variabelen, zoals de gehanteerde CO-prijsraming, tegen het licht worden gehouden, zodat ongewenste vertraging in de energietransitie wordt voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note82">verzoekt de regering tevens in samenspraak met het PBL te onderzoeken hoe bij toekomstige openstellingen van de SDE++ actuele en adequate ramingen van de energie- en ETS-prijzen kunnen worden gehanteerd dan wel meer risico kan worden genomen bij de mate van overprogrammering,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note83">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note84">Deze motie is voorgesteld door de leden Grinwis, Bontenbal, Erkens en Boucke.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note85">Zij krijgt nr. kst-32813-946</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note86">Korte en puntige moties, daar houden we van! Oorlog en vrede is van een gelijke grootte, volgens mij. De heer Erkens. Als uw interruptie korter kan zijn dan de motie, dan scoort u al bij mij.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note87">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:techn" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg26">Dank u, voorzitter. Ik vraag me eerst af of ik collega Grinwis niet op adem moet laten komen voordat ik mijn vraag stel, maar ik zal de vraag stellen, over de datacenter-motie. We hadden daar dinsdag in het vragenuurtje al over gesproken. Volgens mij was de uitspraak van de Kamer vrij breed dat nationale regie echt van belang zal zijn. Alleen is een motie vanuit de Kamer die oproept het Rijksvastgoedbedrijf daarvoor in te zetten wel vrij bijzonder. Mijn vraag aan de heer Grinwis is dan ook of hier een precedent voor is. Hebben we dit bij andere investeringen ook al eerder gedaan in Nederland en wat zouden daarvan wellicht de consequenties kunnen zijn?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note88">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg27">Sowieso is het in dit land goed gebruik dat de eigenaar over zijn eigen grond gaat en dat de eigenaar mag bepalen of hij die grond houdt of verkoopt. Pas in laatste instantie heeft de overheid, in het ruimtelijkeordeningsinstrumentarium, een instrument voor onteigening, maar dat is echt ten langen leste.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note89">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg28">Prima.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note90">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg29">De policy van het Rijksvastgoedbedrijf is om geen goede landbouwgrond te verkopen. Hier wordt goede landbouwgrond potentieel opgeofferd aan een datacenter. Dat lijkt mij geen goede ruil. Bovendien wil het Rijksvastgoedbedrijf het ook niet, dus deze motie is een steun in de rug voor het Rijksvastgoedbedrijf.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note91">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg30">Prima. Dank u wel. Dan gaan we luisteren naar mevrouw Teunissen van de fractie van de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note92">Mevrouw Teunissen (PvdD)</note>
+            <u who="#ChristineTeunissen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg31">Goedemorgen, voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note93">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note94">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note95">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note96">constaterende dat Nederland zich nog niet heeft aangesloten bij de Beyond Oil and Gas Alliance, het initiatief van Costa Rica en Denemarken om de productie van olie en gas uit te faseren en geen nieuwe vergunningen meer te verlenen voor het boren naar olie en gas;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note97">constaterende dat onder andere Frankrijk, Ierland en Zweden zich al als volwaardig lid hebben aangesloten bij deze alliantie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note98">constaterende dat de staatssecretaris van EZK aan de Kamer schreef dat ze het initiatief van de Beyond Oil and Gas Alliance waardeert, dat dit initiatief bijdraagt aan het behalen van de doelen uit het Parijsakkoord en dat dit initiatief aansluit bij recente internationale rapporten zoals de routekaart van het Internationaal Energieagentschap (IEA) richting een energievoorziening met nul uitstoot;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note99">spreekt uit dat Nederland zich alsnog dient aan te sluiten bij de Beyond Oil and Gas Alliance,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note100">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note101">Deze motie is voorgesteld door het lid Teunissen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note102">Zij krijgt nr. kst-32813-948</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note103">Mevrouw Teunissen (PvdD)</note>
+            <u who="#ChristineTeunissen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg32">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note104">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note105">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note106">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note107">constaterende dat in het recente Duitse regeerakkoord staat opgenomen dat in alle nieuwe wetsvoorstellen moet worden uitgelegd hoe het betreffende wetsvoorstel voldoet aan de nationale klimaatdoelstellingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note108">spreekt uit dat een dergelijke klimaattoets voor alle nieuwe wetsvoorstellen ook in Nederland dient te worden uitgevoerd,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note109">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note110">Deze motie is voorgesteld door het lid Teunissen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note111">Zij krijgt nr. kst-32813-947</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note112">Mevrouw Teunissen (PvdD)</note>
+            <u who="#ChristineTeunissen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg33">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note113">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg34">Hartstikke goed, dank u wel. Dan de heer Erkens van de fractie van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note114">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg35">Dank u, voorzitter. Twee moties van mijn kant.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note115">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note116">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note117">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note118">overwegende dat Nederland de komende jaren een importeur is van gas;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note119">constaterende dat de internationale gasmarkt geen vrije markt is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note120">constaterende dat de Nederlandse leveringszekerheid hierdoor de komende jaren in het geding kan komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note121">verzoekt de regering om een onafhankelijk onderzoek uit te zetten naar hoe de leveringszekerheid van gas de komende tien tot vijftien jaar beter geborgd kan worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note122">verzoekt de regering om naast of bij dit onderzoek ook een analyse naar de benodigde rol van de overheid en overheidsgelieerde bedrijven in de gasmarkt te laten doen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note123">verzoekt de regering dit onderzoek met de inzet van het kabinet qua beleidsopties naar de Kamer te sturen voorafgaand aan het commissiedebat Gasmarkt en leveringszekerheid,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note124">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note125">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note126">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note127">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note128">overwegende dat een versnelde overstap naar waterstof bij Tata Steel IJmuiden goed zou zijn voor het klimaat, de leefomgeving en de economie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note129">constaterende dat het voor snelle uitvoering randvoorwaardelijk is dat er geen vertraging wordt opgelopen op het gebied van vergunningsverlening en relevante procedures;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note130">verzoekt de regering om de — voor de overstap naar een groene staalproductie relevante — vergunningstrajecten en procedures waar mogelijk te versnellen en centraal te coördineren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note131">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note132">Deze motie is voorgesteld door het lid Erkens.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note133">Zij krijgt nr. kst-32813-949</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note134">Deze motie is voorgesteld door de leden Erkens en Boucke.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note135">Zij krijgt nr. kst-32813-950</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note136">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg36">Ik heb nog één vraag voor de staatssecretaris. Recent is de Cluster Energiestrategieën uitgebracht. Is het mogelijk dat de regering inventariseert welke knelpunten daar naar boven komen, welke mogelijke versnellingsopties er ook nog zijn en onder welke voorwaarden? Kan zij dit de Kamer doen toekomen voorafgaand aan het debat Verduurzaming industrie?</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg37">Dank u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note137">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg38">Helder. Dan de heer Boucke van de fractie van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note138">De heer Boucke (D66)</note>
+            <u who="#RaoulBoucke" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg39">Dank u wel, voorzitter. Eén motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note139">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note140">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note141">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note142">overwegende dat de Cluster Energiestrategieën aantonen dat er veel potentie ligt voor elektrificatie van de industrie en dat elektrificatie zal bijdragen tot significante uitstootvermindering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note143">overwegende dat naar aanleiding van de motie-Boucke c.s. er 10 GW extra wind op zee gerealiseerd dient te worden voor 2030;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note144">overwegende dat een beleidsdoel voor industriële elektrificatie zowel de industrie, de netbeheerders als wind-op-zee-ontwikkelaars meer investeringszekerheid zal geven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note145">constaterende dat uit onderzoek dat onderzoeksbureau AFRY uitvoerde blijkt dat om wind op zee subsidievrij te houden, het aanbod en de vraag naar hernieuwbare elektriciteit ongeveer gelijk moeten oplopen en dat in de groeiende vraag kan worden voorzien door industriële elektrificatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note146">verzoekt de regering om te bezien of een beleidsdoel voor het volume van industriële elektrificatie in 2030 vastgelegd moet worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note147">verzoekt de regering de toegankelijkheid en dekking voor elektrificatie in de SDE++ te verbeteren met ondersteuning voor meer draaiuren voor elektrificatie-opties op voorwaarde dat hernieuwbare elektriciteit wordt ingezet, op een wijze die past binnen het Europese staatssteunkader,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note148">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note149">Deze motie is voorgesteld door de leden Boucke, Grinwis en Thijssen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note150">Zij krijgt nr. kst-32813-951</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note151">De heer Boucke (D66)</note>
+            <u who="#RaoulBoucke" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg40">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note152">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg41">Dank u wel. Dan de heer Bontenbal van de fractie van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note153">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u41">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg42">Dank, voorzitter. Ik heb één motie en één vraag.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note154">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note155">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note156">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note157">constaterende dat de circulaire economie richting 2030 kan zorgen voor 7,2 megaton extra CO-reductie in Nederland en nog 4,9 megaton meer in het buitenland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note158">constaterende dat het klimaatbeleid vooral gefocust is op het beperken van Nederlandse uitstoot (scope 1- en scope 2-emissies), terwijl circulaire economie juist internationale ketens omvat waarbij CO-reductie vaak elders in de keten buiten Nederland wordt bewerkstelligd (scope 3-emissies);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note159">overwegende dat klimaatbeleid en circulaire-economiebeleid elkaar kunnen versterken als bedrijven worden beloond voor de emissiereducties die zij verderop in de keten realiseren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note160">constaterende dat er tot op heden geen systematische aanpak op het gebied van scope 3-emissies bestaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note161">verzoekt de regering uit te werken op welke wijze klimaatbeleid en circulaire economie elkaar kunnen versterken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note162">verzoekt de regering uit te werken op welke wijze bedrijven kunnen worden beloond voor het realiseren van emissiereducties in de keten en op welke wijze scope 3-emissies in de beleidsinstrumenten kunnen worden ingepast,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note163">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note164">Deze motie is voorgesteld door de leden Bontenbal en Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note165">Zij krijgt nr. kst-32813-952</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note166">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u42">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg43">Mijn vraag gaat over kolencentrales. We gaan één kolencentrale sluiten en er blijven er nog drie over. De eigenaars van die centrales zijn in een juridische procedure beland. Volgens mij kent zo'n procedure alleen maar verliezers, namelijk aan de kant van de bedrijven en aan de kant van de belastingbetaler, met claims van een paar miljard. Ik snap dat de eigenaren van die centrales dan hun procedures moeten staken, maar is het toch niet mogelijk om opnieuw aan tafel te gaan met de partijen en te komen tot een normale regeling, waarbij zij ook mogen kijken naar een alternatieve aanwending van hun centrales of eventueel een alternatieve aanwending van de locatie van hun centrales? Kunnen we niet weer in normaal overleg komen met die partijen en met hen werken aan oplossingen die bijdragen aan de energietransitie en ook goed zijn voor de portemonnee van de belastingbetaler?</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg44">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note167">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u43">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg45">Prima, dank u wel. Dan mevrouw Kröger van de fractie van GroenLinks. Ik neem aan dat zij de laatste spreker is van de zijde van de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note168">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u44">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg46">Voorzitter. Een tweetal moties en een vraag.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note169">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note170">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note171">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note172">constaterende dat volgens het PBL het "Fit for 55"-pakket waarschijnlijk betekent dat de elektriciteitsvraag zal toenemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note173">overwegende dat hier zo vroeg mogelijk op geanticipeerd dient te worden zodat deze stijging op duurzame wijze kan worden ingevuld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note174">verzoekt de regering in kaart te brengen wat deze stijging betekent voor duurzame elektriciteitsopwekking op land en ervoor zorg te dragen dat de duurzame elektriciteitsopwekking op land in lijn is met het "Fit for 55"-pakket,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note175">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note176">Deze motie is voorgesteld door de leden Kröger en Thijssen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note177">Zij krijgt nr. kst-32813-953</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note178">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u45">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg47">Dan de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note179">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note180">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note181">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note182">constaterende dat de bulk van de SDE++-subsidies uit de najaarsronde 2021 waarschijnlijk wordt beschikt aan CCS-projecten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note183">overwegende dat CCS-projecten omvangrijk zijn en dat wanneer een CCS-project niet doorgaat er relatief veel geld op de plank blijft liggen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note184">overwegende dat bij een steeds hogere CO-prijs er wellicht in de nabije toekomst geen onrendabele top meer is voor CCS-projecten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note185">verzoekt de regering, zodra bekend is dat een beschikking voor een CCS-project niet meer nodig is, dit geld zo snel mogelijk te besteden aan andere CO2-besparende projecten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note186">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note187">Deze motie is voorgesteld door de leden Kröger en Thijssen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note188">Zij krijgt nr. kst-32813-954</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note189">Een vraag van de heer Erkens.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note190">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u46">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg48">Ik heb een korte vraag …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note191">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u47">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg49">Even opnieuw beginnen. De microfoon stond niet open.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note192">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u48">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg50">Het gaat over de eerste motie. Mevrouw Kröger vraagt om de plannen van Fit for 55 ook door te vertalen naar wat ze betekenen voor opwek op land. Waarom alleen voor opwek op land? Waarom bekijken we het niet breder?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note193">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u49">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg51">De aanleiding voor deze motie is eigenlijk ook de doorrekening door PBL vandaag, waardoor heel duidelijk wordt dat er eigenlijk meer plannen liggen dan er op dit moment gehonoreerd gaan worden. Wij zien dat er in een heleboel gemeenten en een heleboel projecten heel veel energie in is gestopt om met dit soort plannen te komen. We weten dat het voor Fit for 55 nodig is om veel meer duurzame energie op te wekken. Daarom vinden wij het heel erg zonde als die plannen in de ijskast belanden. Het lijkt ons verstandig om een doorkijkje te geven: wat betekent Fit for 55 voor opwekken op land? We moeten snel met al die mensen en al die gemeenten die energie in die RES'en hebben gestopt, aan de slag gaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note194">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u50">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg52">Heel goed. Ik schors tien minuten …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note195">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u51">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg53">Voorzitter. Ik heb nog een vraag en nog 53 seconden op de klok.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note196">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u52">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg54">O, u had nog een vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note197">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u53">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg55">Dank u wel. Ik heb nog een vraag naar aanleiding van die PBL-analyse van de RES'en van vandaag. Vanuit de natuurorganisaties is er een analyse gekomen van hoe in een heleboel RES'en de natuur onvoldoende wordt beschermd en wat de mogelijkheden zijn om de natuur veel meer te versterken met opwek op land. Ik zou heel graag de staatssecretaris vragen om te reageren op deze analyse van de natuur- en milieufederaties en dit tijdig te doen, zodat we het kunnen betrekken bij een debat over de RES'en met de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note198">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u54">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg56">Was dat uw hele bijdrage?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note199">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u55">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg57">Dit was mijn hele bijdrage. Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note200">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u56">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg58">We zijn er echt. Ik schors tien minuten en dan gaan we luisteren naar de staatssecretaris.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note201">De vergadering wordt van 10.49 uur tot 10.59 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note202">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u57">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg59">Het woord is aan de staatssecretaris. We gaan er kort en puntig doorheen, want om 11.00 uur moeten we beginnen met het volgende debat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note203">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u58">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg60">Ik ga mijn best doen, voorzitter. Ik heb een heleboel moties, dus daar ga ik meteen mee beginnen. De motie op stuk nr. 941 van de heer Thijssen en mevrouw Kröger verzoekt te kijken hoe we inkomensafhankelijke subsidies kunnen vormgeven. Deze ontraad ik. Ik begrijp de insteek van de motie. De heer Thijssen heeft het vaker aangehaald. Er zijn een paar punten die ik daarbij wil aangeven. Het ministerie van BZK heeft al 150 miljoen euro beschikbaar gesteld, gericht op de kwetsbare groepen. Er loopt nu een gesprek van de collega van SZW met de VNG. Volgende week is er volgens mij ook een debat over, waar dat bij betrokken wordt, ook gericht op de kwetsbaardere groepen. Volgens mij is daar aan die kant juist heel veel aandacht voor, en worden er middelen vrijgemaakt. Dus deze ontraad ik.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg61">Dan kom ik bij de motie op stuk nr. 942.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note204">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u59">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg62">Er is één korte vraag van de heer Thijssen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note205">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u60">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg63">Ja, ik heb een vraag om te kijken of we elkaar niet begrijpen. Dit gaat voor mij niet over het geld dat beschikbaar is gesteld door de hogere gasprijzen, maar over bestaande subsidieregelingen, waarvan bekend is dat ze twee keer zoveel bij hogere inkomens als bij lagere inkomens terechtkomen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note206">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u61">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg64">Ik zie inderdaad letterlijk "inkomensafhankelijke subsidies" staan, en dus ontraad ik deze.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note207">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u62">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg65">Prima. De motie op stuk nr. 942.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note208">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u63">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg66">Die is ook van de heer de heer Thijssen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note209">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u64">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg67">Meneer Thijssen, ik sta maar één vraag per motie toe, alleen van de eerste indiener. Maar vooruit, omdat het bijna kerst is, heel kort. Ik ben veel te soft voor dit vak.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note210">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u65">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg68">Dank u, voorzitter. Als ik dan het laatste stuk van die zin schrap, en ervan maak "hoe we zorgen dat de duurzaamheidssubsidies toegankelijk worden gemaakt voor de huishoudens met een lager inkomen", kan de motie dan wel door? Daar gaat het namelijk om.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note211">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u66">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg69">Dat kunnen wij niet afspreken. Dan verzoek ik de heer Thijssen om de motie even aan te houden. Laten we kijken waar SZW volgende week mee komt. Ik begrijp dat de heer Thijssen zegt "dit gaat echt over iets anders", maar laten we daar nog even bij stilstaan als we iets meer tijd hebben, om te kijken of dit überhaupt te onderzoeken, te bekijken is. Dus dan zeg ik: houd de motie even aan. Daarvoor gaat u nu te snel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note212">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u67">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg70">De heer Thijssen heeft geknikt, dus dat is een politiek feit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note213">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u68">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg71">Op verzoek van de heer Thijssen stel ik voor zijn motie (32813, nr. 941) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg72">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note214">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u69">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg73">Dan zijn we bij de motie op stuk nr. 942 van de heer Thijssen en mevrouw Kröger. Die gaat onder andere over de huurverlaging voor slecht geïsoleerde woningen. Eigenlijk ligt dit in het verlengde hiervan, en zou ik willen vragen ook deze aan te houden, met name ook omdat SZW met de VNG aan het kijken is naar de vraag: wat kunnen we nou specifiek doen, gericht op die kwetsbare huishoudens? Dus ik heb het verzoek om deze daarnaartoe te geleiden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note215">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u70">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg74">Maar de heer Thijssen schudt van nee, dus ik wil een oordeel horen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note216">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u71">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg75">Dan is die ontraden, om die reden. Volgende week gaat mijn collega daar al inhoudelijk op in.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note217">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u72">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg76">Ja. De motie op stuk nr. 943.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note218">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:energ" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u73">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg77">Die is ook van de heer Thijssen en mevrouw Kröger, en gaat over het loslaten van het plafond voor hernieuwbare elektriciteit. Die ontraad ik. Het plafond is juist bedoeld om ook andere technieken uit het Klimaatakkoord te kunnen realiseren. Op het moment dat je dat loslaat, breng je bijvoorbeeld hernieuwbare warmte in het gedrang. Dus ik zou dat niet doen. Als er een verandering moet optreden bij de doelstelling rond het hernieuwbare plafond, dan is dat sowieso aan het kabinet. Maar er is hier ook een reden om te zeggen: zorg nou niet dat andere zaken in de knel komen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg78">Dan kom ik bij de motie op stuk nr. 944 van de heer Grinwis. Ik had sowieso wel dat kwartiertje of tien minuten nodig om die moties door te lezen. Voorzitter, u keek zo narrig naar mij, zo van: waarom heb je tijd nodig? Ik moet het wel kunnen lezen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note219">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u74">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg79">Het is allemaal de schuld van de heer Grinwis.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note220">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u75">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg80">Ja, dat is het bij twijfel altijd, toch? Nee hoor, grapje. Meneer Grinwis, ik vraag u om deze motie aan te houden. Want de hele simpele formulering is: het ligt bij mijn collega van BZK. Ik ga hier niet over. Er komt ook nog bij dat de gemeente aan zet is; dat is het bevoegd gezag. Dus ik zou zeggen: dien de motie hier niet in. Op allerlei niveaus loop ik hier vast, want ik ga er niet over.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note221">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u76">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg81">Ik vind het wel belangrijk dat wij een signaal afgeven voordat de raad erover gaat beslissen. Er is gisteren in de Staten van Flevoland nog een motie van treurnis aangenomen. Mijn vraag aan de staatssecretaris is of zij aan collega Knops wil vragen om voor de stemming een schriftelijke reactie naar de Kamer te sturen. Dan kijk ik of ik de motie aanhoud, maar eerst wil ik even de reactie van de collega van de staatssecretaris zien.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note222">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u77">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg82">Ik zal dat verzoek doorgeleiden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note223">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u78">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg83">Heel goed. Dan is de motie op stuk nr. 944 niet aangehouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note224">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u79">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg84">Nog niet. Maar ik stel de vraag aan mijn collega.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note225">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u80">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg85">Ja, maar dan ligt die motie wel ter stemming, dus dan wil ik ook een oordeel van u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note226">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:energ" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u81">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg86">Dan is de motie, omdat ik er niet over ga, sowieso ontraden. Ik geef het door aan mijn collega. Dan zien we wat ermee gebeurt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg87">Dan ga ik naar de motie op stuk nr. 945. Deze vraagt om heel veel. Ze verzoekt de regering om subsidie voor zonnewarmte gelijk te trekken met die voor hybride warmtepompen. Die kan ik oordeel Kamer geven, als ik daaraan mag toevoegen "mits er ruimte voor gesprek is voor opnemen in actieplan warmtepompen". We gaan dus met de branches voor warmtepompen in gesprek, en als daar ruimte voor is, nemen we dat op. Het is dus oordeel Kamer met één kleine kanttekening, maar ik zie dat de heer Grinwis mijn onsamenhangende zin goed heeft begrepen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note227">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u82">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg88">Exact.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note228">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u83">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg89">Dan hebben we die hele lange motie, de motie op stuk nr. 946. Ik ga maar meteen naar het preadvies.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note229">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u84">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg90">Ik zou het zo leuk vinden als u die gewoon met maar één woord recenseert.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note230">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u85">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg91">Dat is ook een motie van Grinwis. Die is oordeel Kamer. Dat zijn twee woorden. Nee, het is een mooi boekwerk. Ik moet zeggen dat Carla Dik-Faber, de voorganger van de heer Grinwis, ook heel erg goed was in dit soort ontiegelijk lange moties. Het is mooi om dat een beetje terug te zien.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note231">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u86">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg92">Het is een ChristenUnie-dingetje.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note232">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u87">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg93">Ja! Dat blijkt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note233">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u88">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg94">Dan de motie op stuk nr. 947.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note234">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u89">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg95">Deze motie is dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg96">De motie op stuk nr. 947 is van ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note235">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u90">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg97">Mevrouw Teunissen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note236">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u91">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg98">Mevrouw Teunissen. Dat is een spreekt-uitmotie. Daar ga ik dus zelf niet over.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg99">Dat geldt ook voor de volgende. Dat is ook een spreekt-uitmotie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg100">Dan ben ik bij de motie op stuk nr. 949, de motie-Erkens. Die krijgt van mij oordeel Kamer. Het is een belangrijk punt, waarop de heer Erkens terecht al een tijd blijft hameren. Hij komt nu met een goed voorstel. Dit gaan we dus doen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg101">De motie-Erkens/Boucke op stuk nr. 950 over de groene staalproductie krijgt ook oordeel Kamer. Het is goed om even te melden dat vanuit het ministerie van EZK al zeer nauw wordt samengewerkt met alle relevante overheden op het gebied van onder andere vergunningverlening en relevante procedures om het allemaal zo goed mogelijk te faciliteren. Daarbij spelen wij als EZK een centrale en coördinerende rol. Ik beschouw deze motie dan ook als steun in de rug om verder te gaan op die ingeslagen weg.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg102">Dan ben ik bij de motie van Boucke, Grinwis en Thijssen op stuk nr. 951. Deze motie krijgt oordeel Kamer. De inzet op elektrificatie is van groot belang voor de verduurzaming van onder andere de industrie. Het is wenselijk om te bezien of het nuttig is om hierop een beleidsdoel vast te leggen. Een dergelijk besluit kan dan door een nieuw kabinet worden genomen. Wij kunnen er dus al mee aan de slag, en dan kan een nieuw kabinet straks kijken wat het ermee doet.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg103">De motie op stuk nr. 952, Bontenbal en Grinwis, is oordeel Kamer. We kunnen dit onderzoeken. Het is misschien goed om nog even te melden richting de indieners dat ik op korte termijn met de staatssecretaris van IenW de Kamer een brief zal sturen over synergie tussen circulaire economie en klimaatmaatregelen. Die komt er dus aan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg104">De motie op stuk nr. 953 is van mevrouw Kröger en de heer Thijssen. Die motie is oordeel Kamer. Het is goed om daar nog even bij te zeggen dat het aan een nieuw kabinet is om in overleg met medeoverheden te kijken naar het formuleren van een nieuw doel. De afspraak in het Klimaatakkoord is om eerst te kijken naar wind op zee en kleinschalig op dak. Maar we kunnen dit wel ondertussen in kaart brengen. Vervolgens ga ik ervan uit dat de Kamer daarover met een nieuw kabinet het debat aangaat.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg105">Dan heb ik de laatste motie, die van mevrouw Kröger en de heer Thijssen, de motie op stuk nr. 954 met een vraag over de CCS-projecten binnen de SDE++. De motie zoals die er ligt, is ontraden, maar ik denk niet dat we heel veel uit elkaar liggen. Op het moment dat er minder middelen nodig zijn ten gevolge van bijvoorbeeld een aangepaste, veranderde, dus hoge ETS-prijs, blijft er automatisch meer geld over voor andere projecten. Dat gebeurt al automatisch. Daarvoor hoeven we dus geen beschikkingen voor CCS in te trekken. Wat mevrouw Kröger wil, is al automatisch het geval.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note237">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u92">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg106">Prima. Eén vraagje nog van mevrouw Kröger, en dan gaan we door naar het volgende debat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note238">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u93">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg107">De reden van deze motie is dat er natuurlijk vaker SDE-gelden niet worden uitgekeerd en dan uiteindelijk naar de algemene middelen vloeien. Eigenlijk vraagt deze motie dus dat er een systematiek komt waardoor die middelen snel ingezet kunnen worden voor het uiteindelijke doel van de SDE++, namelijk CO-besparende projecten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note239">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u94">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg108">Maar zo werkt het al. Wellicht is het goed om mevrouw Kröger dat op een briefje te laten zien en dat nog even na te geven, zodat we hier geen discussie hoeven te voeren over de werking van de SDE++. De SDE houdt daar namelijk al rekening mee. Dat is al zo; ik zie de heer Grinwis knikken. We hebben al eerder debatten gehad over de vraag: wat doe je als er ruimte overblijft? Dat gaat dus naar andere projecten. Dat gaat niet zomaar naar de algemene middelen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note240">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u95">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg109">Prima, helder. Tot zover.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note241">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:energ" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u96">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg110">Dan heb ik alleen nog een vraag van mevrouw Kröger en een vraag van de heer Bontenbal. Ik begin met de heer Bontenbal. Ik begrijp de hartenkreet. Er lopen allerlei schadeclaims over de kolencentrales. Kan dat niet anders? We zitten midden in dat proces, dus het is erg lastig om alles even on hold te zetten. Als al die claims worden ingetrokken en we vanaf nul zouden kunnen starten, zou ik het gesprek heel graag weer aangaan. Maar de situatie waar we in zijn beland, is wel heel ingewikkeld. Daar zaten we al in voordat de heer Bontenbal en ik hier waren, maar ik weet niet of we dat in een ander geval tegen hadden kunnen houden. We zitten nou eenmaal in een heel complex traject. Laat ik wel toevoegen: ik sta uiteraard altijd open voor gesprekken over mogelijkheden voor verduurzaming of ander gebruik van die centrales. Maar het traject rond het uitfaseren van kolen is wel helder ingezet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note242">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u97">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg111">Er is nog één korte vraag van de heer Bontenbal en dan gaan we door.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note243">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u98">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg112">Ik ben bij een van die partijen langsgeweest en zij verbazen zich erover dat dit gesprek niet plaatsvindt. Zegt u nu eigenlijk tegen hen: trek eerst die procedure in en dan komen we weer aan tafel? Het is toch wel gek om vanuit hen het signaal te krijgen dat er niet fatsoenlijk hierover wordt gesproken. Ik vind dat een beetje zielig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note244">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u99">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg113">Dit is echt al een heel langdurend proces. Het is heel complex en gaat over hele grote bedragen en claims. Ik denk dus niet dat wij dit in dit debat kunnen samenvatten. Natuurlijk heeft iedereen de gelegenheid gehad om hier wat van te vinden. Het heeft helaas geresulteerd in enorme claims. Ik ben het met de heer Bontenbal eens dat dat niet had gehoeven. Maar nu dit soort zaken lopen, kan ik die niet opzijzetten en een heel ander traject beginnen, want dat zou dat echt dwarsbomen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg114">Dan heb ik alleen nog een vraag van mevrouw Kröger. Zij vraagt: kan er een reactie komen op de analyse op natuur van de natuurfederaties? Ja, ik kom daar in een brief op terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note245">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u100">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg115">Ik had nog een hele korte vraag over de Cluster Energiestrategieën en de informatievoorziening daarover aan de Kamer voorafgaand aan het debat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note246">Staatssecretaris Yeşilgöz-Zegerius</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u101">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg116">Ja, dat is waar. Laten we afspreken dat ik voorafgaand aan het debat daarmee kom. Ik weet wat de heer Erkens heeft gevraagd en ik zal proberen zo dicht mogelijk bij zijn vraag te komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note247">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u102">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg117">Prima, tot zover dit debat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note248">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.note249">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.u103">
+               <seg xml:id="ParlaMint-NL_2021-12-09-tweedekamer-5.seg118">Dinsdag gaan wij hierover stemmen.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

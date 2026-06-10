@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2018-09-25 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2018-09-25 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 4, Session 25 (2018-09-25)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 4, Session 25 (2018-09-25)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="4" xml:lang="en">Meeting 4</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="25" xml:lang="en">Session 25</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2018-09-25">Sitting 2018-09-25</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="15">15 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="15">15 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1158">1,158 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1158">1,158 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2018-09-25">2018-09-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="68"/>
+               <tagUsage gi="seg" occurs="25"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="15"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-09-25">2018-09-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.head1">Digitalisering</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u1">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg1">De eerste spreker van de zijde van de Kamer is de heer Moorlag van de fractie van de Partij van de Arbeid. Het woord is aan hem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note2">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:techn" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u2">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg2">Voorzitter. De digitalisering die steeds verder voert, gaat ook steeds sneller. In de commissievergadering heb ik de collega's en de staatssecretaris deelgenoot gemaakt van mijn zorgen voor laaggeletterden en mensen die weinig digitale vaardigheden hebben. Als je in het verleden naar een parkeermeter ging, stopte je een euro in de parkeermeter, draaide je aan een knop, en dan had je de parkeermeter bediend. Maar tegenwoordig kom je als laaggeletterde voor een zuil met allemaal geschreven instructies. Dat onderstreept al hoe moeilijk het als laaggeletterde is om ook bij een heel basale functie, in dit geval het bedienen van de parkeermeter, om te gaan met digitalisering. Dat is een belangrijk punt voor de PvdA-fractie. Daarom wil ik graag de volgende motie indienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note6">overwegende dat we zeker moeten stellen dat mensen die kampen met laaggeletterdheid volwaardig moeten kunnen meedoen in een samenleving die steeds sneller en verder digitaliseert en dat sociaal-maatschappelijke uitsluiting moet worden voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note7">verzoekt de regering bij de uitwerking van de Digitaliseringsstrategie hier prioriteit aan te geven en een samenhangende aanpak te ontwikkelen met gemeenten en organisaties die ondersteuning bieden aan laaggeletterden en mensen met weinig digitale vaardigheden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note8">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note9">Deze motie is voorgesteld door het lid Moorlag. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note10">Zij krijgt nr. kst-26643-562</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note11">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:civil" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u3">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg3">Ten slotte heb ik een vraag aan de staatssecretaris. Het onderwerp privacy is aan de orde geweest in de commissievergadering. Internet of things is voor de PvdA-fractie wel een punt van zorg. Apparaten gaan communiceren, maar welke informatie van burgers gaan zij doorgeven aan derden? Het kan natuurlijk heel goed zijn dat het callcenter mij niet belt op het moment dat mijn magnetron aanstaat. Ze kunnen dat aflezen. Maar stel dat ik helemaal niet wil worden gebeld door dat callcenter en ze toch bellen omdat ze weten dat ik thuis ben, aangezien ik mijn magnetron heb aangezet. Dat type praktijken moeten we zien te voorkomen. Mijn vraag aan de staatssecretaris is of zij werk wil maken van de bescherming van de privacy van burgers bij het internet of things, dat nu een hoge vlucht neemt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg4">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note12">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u4">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg5">Dank u wel. Dan gaan we luisteren naar de heer Wörsdörfer van de fractie van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note13">De heer Wörsdörfer (VVD)</note>
+            <u who="#MartinWörsdörfer" ana="#regular topic:techn" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u5">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg6">Voorzitter, dank u wel. We hebben het over de Nederlandse Digitaliseringsstrategie gehad. Hartstikke goed. Die biedt een overzicht van alles wat wij als Rijk doen om de digitale economie een stevige impuls te geven. Er ontbrak evenwel een ding, en dat is inzicht in het geld dat Nederland daaraan denkt te kunnen gaan besteden. Daarom dien ik de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note14">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note15">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note16">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note17">constaterende dat digitalisering een wezenlijk en onlosmakelijk onderdeel vormt van de beleidsopgaven van alle bewindspersonen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note18">constaterende dat een financieel overzicht ontbreekt bij de Nederlandse Digitaliseringsstrategie en onvoldoende duidelijk is welke financiële middelen Nederland inzet voor de digitale economie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note19">constaterende dat er ook in de begroting geen financieel overzicht is van de kabinetsbrede beleidsuitgaven die betrekking hebben op en ten goede komen aan de digitale economie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note20">overwegende dat inzicht in de uitgaven van het Rijk aan de digitale economie nuttig is bij het bereiken van de doelstelling om Nederland digitale koploper te maken en invulling te geven aan de Digitaliseringsstrategie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note21">verzoekt de regering een financieel overzicht op hoofdlijnen te sturen over de middelen die het Rijk beschikbaar heeft voor de digitale economie en deze te betrekken bij de jaarlijkse rapportage over de voortgang van de Nederlandse Digitaliseringsstrategie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note22">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note23">Deze motie is voorgesteld door het lid Wörsdörfer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note24">Zij krijgt nr. kst-26643-563</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note25">Dank u wel. Dan de heer Verhoeven van D66.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note26">De heer Verhoeven (D66)</note>
+            <u who="#KeesVerhoeven" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u6">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg7">Voorzitter, dank voor het woord. Ik heb twee moties, die ik gelijk maar even indien om niet over mijn spreektijd heen te schrijden. Als het nodig is, kan ik ze altijd achteraf toelichten.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note30">overwegende dat landen als China en de Verenigde Staten, en ook ons omringende landen als Duitsland en Frankrijk, fors investeren in kunstmatige intelligentie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note31">overwegende dat kunstmatige intelligentie veel economische kansen biedt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note32">verzoekt de regering door de relevante topsectoren, departementen en kennisinstellingen een meerjarig programma op te laten stellen voor kunstmatige intelligentie om de ontwikkeling en benutting van deze sleuteltechnologie te versnellen en hiervoor middelen in te zetten vanuit de extra middelen voor innovatie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note33">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note34">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note35">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note36">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note37">overwegende dat kunstmatige intelligentie nu al van grote invloed is op onze economie en onze samenleving en dat die invloed in de toekomst verder zal toenemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note38">overwegende dat de Digitaliseringsstrategie van groot belang is voor de ontwikkeling van de digitale economie en om keerzijdes van technologie het hoofd te bieden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note39">verzoekt de regering bij de uitwerking van de Digitaliseringsstrategie en bij de digitale top kunstmatige intelligentie, zowel de kansen als de risico's, een centrale plek te geven,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note40">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note41">Deze motie is voorgesteld door het lid Verhoeven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note42">Zij krijgt nr. kst-26643-564</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note43">Deze motie is voorgesteld door de leden Verhoeven en Amhaouch. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note44">Zij krijgt nr. kst-26643-565</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note45">De heer Verhoeven (D66)</note>
+            <u who="#KeesVerhoeven" ana="#regular topic:techn" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u7">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg8">Zoals u heeft kunnen constateren, was de rode draad van mijn twee moties het onderwerp "kunstmatige intelligentie". Ik hoop daarover de komende tijd nog vaker met u en de Kamer en de minister en de staatssecretaris door te kunnen praten.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg9">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note46">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u8">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg10">Dank u wel. Dan geef ik graag het woord aan de laatste spreker van de Kamer, de heer Amhaouch van de fractie van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note47">De heer Amhaouch (CDA)</note>
+            <u who="#MustafaAmhaouch" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u9">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg11">Voorzitter, dank u wel. Excuseer dat ik later ben aangeschoven bij dit VAO. Ik neem even een slokje water ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note48">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u10">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg12">Het lijkt wel alsof u buiten adem bent.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note49">De heer Amhaouch (CDA)</note>
+            <u who="#MustafaAmhaouch" ana="#regular topic:techn" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u11">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg13">Dat klopt, maar de basisconditie is er.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg14">Voorzitter. We hebben een goed AO over digitalisering met de staatssecretaris gehad. Als Kamer maken we een hele grote stap om met drie departementen, Justitie en Veiligheid, EZK en BZK, en eigenlijk kabinetsbreed digitalisering op de agenda te zetten. Het CDA is ook heel blij dat we de economische kansen heel goed agenderen, want er valt geld mee te verdienen. De productiviteit kan verbeteren om onze concurrentiepositie in Nederland te versterken.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg15">Ik ben niet emotioneel, maar nog steeds een beetje buiten adem.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg16">Het is heel belangrijk dat we als Kamer duidelijke kaders neerzetten als we het hebben over ethische kwesties, over grondrechten en over legal: wie is waar verantwoordelijk voor? Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note50">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note51">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note52">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note53">constaterende dat het een goede ontwikkeling is dat grondrechten en ethiek in de digitale tijd in de Nederlandse Digitaliseringsstrategie zijn opgenomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note54">overwegende dat digitalisering enerzijds een goed middel is om economische en maatschappelijke uitdagingen op te pakken, maar anderzijds een ontwikkeling is die publieke waarden onder druk kan zetten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note55">overwegende dat het van belang is dat de mens grip houdt bij ethische dilemma's rond digitalisering door hier waar mogelijk vooraf ethische waarden en randvoorwaarden voor op te stellen en vast te stellen wie waar juridisch verantwoordelijk voor is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note56">verzoekt de regering om bij de uitwerking van de Digitaliseringsstrategie voldoende nadruk te leggen op grondrechten en ethiek;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note57">verzoekt de regering voorts om bij de uitwerking van de Digitaliseringsstrategie te borgen dat de mens centraal staat door ethische randvoorwaarden en juridische verantwoordelijkheden verder uit te werken en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note58">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note59">Deze motie is voorgesteld door de leden Amhaouch, Bruins, Verhoeven en Wörsdörfer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note60">Zij krijgt nr. kst-26643-566</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note61">Ik schors voor een enkel ogenblik en dan gaan we luisteren naar de staatssecretaris.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note62">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note63">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u12">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg17">Het woord is aan de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note64">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#regular topic:techn" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u13">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg18">Dank u wel, voorzitter. Een viertal moties en nog een vraag van de heer Wörsdörfer, namelijk of de bescherming van de privacy van de burgers op het netvlies staat bij de "internet of things"-apparaten, om ze zo maar eens te noemen. Ja, want dat is nou net een van de onderwerpen waar de privacyverordening over gaat.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg19">Dan de motie op stuk nr. 562 van de heer Moorlag, waarin hij verzoekt om bij de uitwerking van de Digitaliseringsstrategie prioriteit te geven aan digitale inclusie, zodat iedereen kan meedoen. Dat is onderdeel van het beleid. Dit past bij het plan digitale inclusie dat het ministerie van BZK aan het maken is. Daarmee is het ondersteuning van beleid en laat ik het oordeel aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg20">Dan de motie van de heer Wörsdörfer op stuk nr. 563, waarin hij vraagt om een financieel overzicht op hoofdlijnen over de middelen die het Rijk beschikbaar heeft voor de digitale economie. Ik snap de reden waarom de heer Wörsdörfer dit inzicht wil hebben, dus wij gaan een serieuze poging wagen om de informatie waar wij over beschikken, ook aan de Kamer te sturen. Dat zal best ingewikkeld zijn, want ondertussen is alles digitale economie, zou je bijna kunnen zeggen. Maar we gaan een poging wagen. Daarmee laat ik het oordeel over deze motie aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg21">Dan heb ik nog de motie op stuk nr. 564 van de heer Verhoeven van D66, waarin hij vraagt aan de regering om kunstmatige intelligentie onderdeel te laten zijn van het meerjarige programma dat opgesteld gaat worden door topsectoren, departementen en kennisinstellingen. We hebben voor de zomer een brief aan de Kamer gestuurd over het nieuwe innovatie- en topsectorenbeleid. Kunstmatige intelligentie, namelijk ICT, is een van de sleuteltechnologieën die daar onderdeel van is. In die brief is een proces afgesproken hoe die gelden besteed moeten gaan worden. Ik zie deze motie als een soort aanbeveling om dat geld uiteindelijk te gaan besteden, maar teken daarbij wel aan dat het geld is dat door de kennisinstellingen en de desbetreffende bedrijven besteed moet gaan worden. Dat is de vrijheid die daarbij hoort. Dat staat ook in die brief. Met die kanttekening laat ik het oordeel over die motie aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg22">Het oordeel over de motie op stuk nr. 565 van de leden Verhagen en Amhaouch laat ik ook aan de Kamer. Die motie vraagt erom, bij de uitwerking van de Digitaliseringsstrategie en bij de digitale top een centrale plek te geven aan kunstmatige intelligentie. Zoals aangegeven in het AO is dat op dit moment bijna een vanzelfsprekendheid, dus mag ik er ook van uitgaan dat het ook op die manier gaat gebeuren.</seg>
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg23">Dan kom ik bij de motie op stuk nr. 566 van de Amhaouch, die volgens mij wat verrast was door het snelle verloop van het eerdere VAO. Hij verzoekt de regering om bij de uitwerking van de Digitaliseringsstrategie te borgen dat de mens centraal staat en waar mogelijk ethische randvoorwaarden en juridische verantwoordelijkheden verder uit te werken en de Kamer hierover te informeren. Dat is ondersteuning van beleid. Ik laat het oordeel over die motie dan ook aan de Kamer. Dank u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note65">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u14">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg24">Heel goed. Dank aan de staatssecretaris voor haar aanwezigheid.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note66">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note67">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.u15">
+               <seg xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.seg25">Dinsdag gaan wij stemmen over de moties.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2018-09-25-tweedekamer-25.note68">De vergadering wordt van 16.08 uur tot 16.30 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

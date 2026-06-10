@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2015-07-02 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2015-07-02 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 104, Session 28 (2015-07-02)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 104, Session 28 (2015-07-02)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="104" xml:lang="en">Meeting 104</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="28" xml:lang="en">Session 28</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.28" corresp="#TK" n="28-lower" xml:lang="en">Meeting of the 28th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2015-07-02">Sitting 2015-07-02</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="5">5 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="5">5 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="496">496 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="496">496 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2015-07-02">2015-07-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="17"/>
+               <tagUsage gi="seg" occurs="6"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="5"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-07-02">2015-07-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.head1">Cao-onderhandelingen rijksoverheid</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note1">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.u1">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg1">Ik heet de minister hartelijk welkom. Er zijn drie deelnemers van de zijde van de Kamer, van wie er twee iets gaan zeggen. De eerste spreker is de heer Slob van de fractie van de ChristenUnie. Hij heeft zoals iedereen twee minuten spreektijd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note2">De heer Slob (ChristenUnie)</note>
+            <u who="#ArieSlob" ana="#regular topic:labor" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.u2">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg2">Voorzitter. De ontstane impasse om te komen tot een cao voor overheidspersoneel zit mijn fractie, en zoals gisteren bleek, veel andere fracties hoog. Na jaren van nullijn verdienen leraren, politieagenten, militairen en ander overheidspersoneel een fatsoenlijke cao. Het kabinet heeft dat ook op Prinsjesdag en daarna beloofd. Vandaar mijn oproep aan het kabinet om daadwerkelijk in beweging te komen. Hoewel dit niet gebruikelijk is, vraagt deze situatie erom; vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note6">overwegende dat in de troonrede is aangegeven dat in 2015 na jaren van nullijn de inkomens van leraren, politieagenten, militairen en ander overheidspersoneel weer kunnen meestijgen met de loonontwikkeling in de markt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note7">overwegende dat we inmiddels bijna tien maanden verder zijn en de onderhandelingen over een cao zonder nullijn nog steeds in een grote impasse verkeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note8">verzoekt het kabinet, zo spoedig mogelijk de onderhandelingen met de bonden te hervatten met als doel te komen tot cao's die van respect getuigen voor de betrokken ambtenaren én aansluiten bij de in de troonrede gedane belofte dat de nullijn gaat verdwijnen en de inkomens van leraren, politieagenten, militairen en anders overheidspersoneel weer gaan meestijgen met de loonontwikkeling in de markt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note9">verzoekt het kabinet tevens, uiterlijk voor 1 september 2015 de Kamer over de actuele stand van zaken te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note11">Deze motie is voorgesteld door de leden Slob, Fokke, Van Raak, Schouw, Bisschop, Voortman en Thieme.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note12">Zij krijgt nr. kst-34000-XVIII-23</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note13">De heer Van der Linde (VVD)</note>
+            <u who="#RoaldvanderLinde" ana="#regular topic:labor" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.u3">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg3">Voorzitter. De onderhandelingen voor een nieuwe cao liggen sinds april stil. Dat is buitengewoon spijtig. Een nieuwe cao is een kans om arbeidsvoorwaarden af te stemmen op de arbeidsmarkt van 2015 en hardwerkende ambtenaren zekerheid te bieden. Iedereen ziet graag dat de partijen weer snel aan tafel gaan, maar het past de Kamer niet om zich te bemoeien met cao-onderhandelingen. Onze grondwettelijke taak is wetgeving en controle. Je kunt geen controle uitoefenen als je jezelf eerst verantwoordelijk hebt gemaakt voor het onderhandelingsresultaat. Dat geldt voor de inhoud, dat geldt voor de timing, dat geldt voor alle aspecten van een onderhandelingsproces. Ook in praktische zin wil de VVD de minister niet voor de voeten lopen. Dat geldt voor al die aspecten.</seg>
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg4">Hoezeer de VVD ook hecht aan een spoedig resultaat, zij zal moties op dit punt dus niet steunen. De VVD wenst de partijen wijsheid en succes en ziet de resultaten graag te gepaster tijd langskomen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note14">Minister Blok</note>
+            <u who="#StefBlok" ana="#regular topic:labor" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.u4">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg5">Voorzitter. Met de heer Slob en de andere indieners van de motie deel ik de ambitie om zo snel mogelijk tot een goede cao voor de rijksambtenaren te komen, inderdaad — en dat realiseer ik mij heel goed — omdat zij daar na zo lange tijd naar snakken en omdat ik het als werkgever ook van belang vind dat wij weer een nieuwe cao afsluiten. Het zal duidelijk zijn dat wij van beide kanten wensen hebben en dat wij het daarover uiteindelijk met elkaar eens zullen moeten worden om tot een cao te kunnen komen, maar ik wil graag zo snel mogelijk weer om de tafel gaan zitten. De heer Slob gaf in zijn betoog van vandaag en ook gisteren al aan dat hij een beetje worstelt. Aan de ene kant heeft hij zorgen over het cao-proces. Aan de andere kant is er de rol van de Kamer: niet aan tafel, niet meeonderhandelend, maar wel bezorgd. Ik vind dat hij die balanceeract ook wel in de tekst van zijn motie laat neerslaan. Zonder dat ik kan beloven dat ik opeens heel veel geld zal hebben, heb ik wel de ambitie om snel aan de tafel te gaan zitten. Ik ben ook graag bereid om de Kamer daarover te informeren. Per saldo laat ik het oordeel over deze motie aan de Kamer.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note15">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note16">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.u5">
+               <seg xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.seg6">Wij stemmen vandaag nog over deze motie.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2015-07-02-tweedekamer-28.note17">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

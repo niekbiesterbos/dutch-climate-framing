@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-05-18 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-05-18 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 76, Session 15 (2021-05-18)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 76, Session 15 (2021-05-18)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="76" xml:lang="en">Meeting 76</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="15" xml:lang="en">Session 15</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-05-18">Sitting 2021-05-18</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="31">31 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="31">31 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2196">2,196 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2196">2,196 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-05-18">2021-05-18</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="73"/>
+               <tagUsage gi="seg" occurs="37"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="31"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-05-18">2021-05-18</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.head1">Belastingontwijking</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:macro" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u1">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg1">Goedemiddag, geachte leden van de Tweede-Kamer der Staten-Generaal. Laten we beginnen met het VAO Belastingontwijking. Welkom allemaal. Welkom ook aan de staatssecretaris, de heer Vijlbrief, die dit VAO met ons gaat doen. Er zijn acht mensen van de zijde van de Kamer die zich hebben ingeschreven om deel te nemen aan het debat. Daarvan zijn er twee niet aanwezig geweest bij het algemeen overleg dat op 11 februari heeft plaatsgevonden, maar ik ga er gemakshalve vanuit dat uw Kamer er geen bezwaar tegen heeft dat deze twee leden, namelijk mevrouw Gündoğan en meneer Mulder, die er overigens nog niet is, deelnemen aan dit debat. Ik hoor inderdaad geen bezwaar. Dat betekent dat ik de heer Van Raan namens de fractie van de Partij voor de Dieren uitnodig om zijn bijdrage te leveren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note2">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u2">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg2">Voorzitter, dank. Dank ook voor het debat. Het is een goed debat geweest. Het belang van belastingontwijking is weer eens haarfijn uitgelegd en vastgesteld. Om de minister een aansporing te geven en ook te helpen, dien ik de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note6">overwegende dat het wenselijk wordt geacht dat exportkredietverzekeringen worden gegeven aan bedrijven die transparant zijn over hun financiële structuur;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note7">overwegende dat openheid over waar hoeveel belasting wordt betaald onderdeel is van deze transparantie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note8">overwegende dat Nederland uiteindelijk publieke country-by-country reporting op Europees niveau hoopt te bewerkstelligen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note9">overwegende dat deze mate van transparantie nu reeds wenselijk is voor bedrijven die een beroep doen op de overheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note10">verzoekt de staatssecretaris met exportkredietverzekeraars in gesprek te gaan om afspraken met hen te maken over country-by-country reporting als criterium bij de aanvraag voor exportkredietverzekeringen, en daarover aan de Tweede Kamer terug te rapporteren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note12">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note13">Zij krijgt nr. kst-25087-274</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note14">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u3">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg3">Dat was 'm, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note15">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u4">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg4">Voordat u het spreekgestoelte verlaat: ik zie dat de heer Idsinga namens de VVD een interruptie voor u heeft.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note16">De heer Idsinga (VVD)</note>
+            <u who="#FolkertIdsinga" ana="#regular topic:trade" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u5">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg5">Dank u wel, voorzitter. Mijn maideninterruptie. Ik weet niet of dat ook telt. Belastingontwijking, daar willen we vanaf. De beste oplossing daarvoor is wereldwijde afspraken maken, want dan is het speelveld voor iedereen hetzelfde. Dat ging moeizaam tot voor kort. Sinds een paar weken zien we dat de nieuwe president van Amerika, de heer Biden, om is. Die wil vooroplopen daarmee. Vandaag was er een rapport van de Europese Commissie. De staatssecretaris is optimistisch. Ik heb hem recentelijk een aantal schriftelijke vragen gesteld. Hij was heel optimistisch en schreef: deze zomer gaan we stappen zetten. Er gaat dus veel gebeuren en dan is mijn vraag aan meneer Van Raan: waarom niet even wachten? Waarom nu Nederlandse maatregelen treffen terwijl we daarmee misschien toch een beetje voor de troepen uit lopen, wat ook schadelijk kan zijn voor Nederlandse bedrijven? En we hebben waarschijnlijk binnen een paar weken of maanden iets meer duidelijkheid over de internationale ontwikkelingen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note17">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u6">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg6">Dank voor deze maideninterruptie. Daarop mag je niet interrumperen geloof ik. Maar je mag er toch wel antwoord op geven, voorzitter? Alle gekheid op een stokje, maar het is eerlijk gezegd wel een klassiek voorbeeld van een VVD-redenering: waarom niet even wachten omdat er een misschien nog iets gaat komen. Met die redenering hebben we nu een klimaatcrisis en een diversiteitscrisis en zijn we belastingparadijs nummer drie in de wereld, geloof ik. Er is dus helemaal geen reden om te wachten. We kunnen dit nu al doen. Ik wil de VVD uitnodigen om gezien de crisis waar we mede dankzij beleid van de VVD in terecht zijn gekomen, of die daardoor veroorzaakt is, toch eens wat anders te proberen en een keer het voortouw te nemen om te innoveren op dit gebied. Dat is mijn antwoord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note18">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u7">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg7">Ik zie dat dat een reactie uitlokt bij de heer Idsinga, maar dat gaan we niet doen inderdaad. U heeft gewoon één interruptie en die had u al redelijk wijd uitgebreid, vond ik zelf. Mevrouw Gündoğan heeft ook een interruptie voor u, meneer Van Raan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note19">Mevrouw Gündoğan (Volt)</note>
+            <u who="#NilüferGündoğan" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u8">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg8">Het zette me aan het denken, voorzitter. De Partij voor de Dieren is voor samenwerking op fiscaal gebied, wil daar samen optrekken. Daar zijn wij bij Volt ook enorm voor. Maar wat me dan bevreemdt, is dat de Partij voor de Dieren niet voor handelsverdragen is en dat de Partij voor de Dieren niet voor Europese samenwerking is. Het lijkt me nu toch wel een beetje cherrypicking: wel de fiscale samenwerking, maar niet de economische samenwerking.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note20">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u9">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg9">Ik ben in ieder geval blij dat we u aan het denken zetten. Dat is altijd winst, uiteraard ook als ik zelf aan het denken wordt gezet. Het is een misverstand dat de Partij voor de Dieren — dat kan ik dan meteen wegnemen, dus dank hiervoor — tegen Europese samenwerking is. Dat is helemaal niet zo. Waar we wel tegen zijn, zijn de allesvernietigende handelsverdragen, bijvoorbeeld Mercosur. We hebben het voortouw genomen in het verzet daartegen. Dat heeft deze Kamer ook overgenomen. We zijn voor samenwerking, via Europa of handelsverdragen, maar niet daar waar het echt schadelijk is of waar bijvoorbeeld het democratisch gehalte van die samenwerkingsverbanden veel te laag is, bijvoorbeeld in Europa.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note21">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u10">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg10">Dank u wel voor uw bijdrage, meneer Van Raan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note22">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u11">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg11">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note23">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u12">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg12">Dan is het woord, als tenminste het spreekgestoelte even is gekuist, aan de heer Alkaya namens de Socialistische Partij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note24">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u13">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg13">Voorzitter. Multinationals blijven helaas belasting ontwijken via ons land. Er komen met enige regelmaat berichten naar buiten over de miljarden die de samenleving extra moet ophoesten, omdat bedrijven te weinig of soms zelfs helemaal geen belasting betalen. Elke keer tast dat weer ons rechtvaardigheidsgevoel aan, zeker als aan de andere kant onschuldige mensen door de Belastingdienst achterna worden gezeten alsof het fraudeurs zijn. Om die reden moeten wij belastingontwijking hard aanpakken, maar ook om te voorkomen dat andere landen belastinginkomsten mislopen door ons, door ons stelsel. Dit is dus allereerst inderdaad een internationale en gezamenlijke opdracht, maar als de internationale aanpak te lang op zich laat wachten, dan vindt de SP ook dat er nationaal stappen gezet moeten worden. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note25">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note26">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note27">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note28">constaterende dat recente voorbeelden aantonen dat er nog altijd constructies bestaan om belasting te ontwijken middels leningen en zeer hoge rentevergoedingen, die de belastinggrondslag uithollen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note29">verzoekt de regering dergelijke constructies zo spoedig mogelijk onaantrekkelijk te maken, desnoods unilateraal,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note30">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note31">Deze motie is voorgesteld door het lid Alkaya.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note32">Zij krijgt nr. kst-25087-275</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note33">Dank voor uw bijdrage, meneer Alkaya. Dan is de volgende spreker onderweg, terwijl de katheder een stukje schoner wordt. De heer Nijboer, namens de Partij van de Arbeid.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note34">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u14">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg14">Voorzitter. We hebben een belangrijk debat gehad. Ik heb een motie. Die spreekt voor zich. Die dien ik in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note35">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note36">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note37">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note38">overwegende dat de Verenigde Staten vergaande voorstellen doen om belastingontwijking een halt toe te roepen en internationaal pleiten voor minimumtarieven voor de winstbelasting;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note39">verzoekt het kabinet in Europa en de wereld het voortouw te nemen om belastingontwijking aan te pakken en een stevig minimumtarief voor de winstbelasting zo spoedig mogelijk te realiseren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note40">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note41">Deze motie is voorgesteld door het lid Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note42">Zij krijgt nr. kst-25087-276</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note43">Kort, krachtig en zonder interrupties. O nee, toch wel! Meneer Nijboer, gaat u nog even terug, want de heer Alkaya heeft een interruptie voor u.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note44">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u15">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg15">Voor alle duidelijkheid: is dat een Europees of internationaal minimumtarief, of kan het allebei? Is het een van beide?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note45">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u16">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg16">De PvdA-fractie is ook wel voor een Europees minimumtarief, maar de Amerikaanse voorstellen gaan natuurlijk over de wereld en het zou nog veel beter zijn om het op wereldschaal te doen. Maar ik wil alles zo snel mogelijk. Als het dus tot vertraging zou leiden, dan eerst op Europese schaal en daarna op wereldschaal. Maar ik denk eerlijk gezegd dat Amerika nu zo'n grote voorzet heeft gedaan dat het tegelijkertijd kan. Dat zou nog beter zijn. Zeker dat tarief van 21% spreekt mij zeer aan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note46">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u17">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg17">Daar ben ik het helemaal mee eens. Dan gaat het dus om een oproep aan het kabinet om zich in de EU hard te maken om het initiatief van de Verenigde Staten internationaal te steunen. Zo begrijp ik het dan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note47">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u18">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg18">Ja, in EU- en OESO-verband, in internationaal verband. Dat is hard nodig. Nederland heeft vaak iets van "meestribbelen" gehad in die zin dat we zeggen dat we het doen en vervolgens tien argumenten verzinnen waarom het eigenlijk toch niet past of anders moet, wat weer tot vertraging leidt. Deze motie geeft de richting om die globale lijn te steunen en te zorgen dat het zo snel mogelijk wordt ingevoerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note48">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u19">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg19">Dank u wel, meneer Nijboer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note49">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u20">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg20">Ik zie dat ik op steun van de SP kan rekenen. Dat is mooi, voorzitter. Ik had niet anders verwacht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note50">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u21">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg21">Ik kijk naar mevrouw Gündoğan, die als volgende spreker op onze lijst staat. Mevrouw Gündoğan spreekt namens Volt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note51">Mevrouw Gündoğan (Volt)</note>
+            <u who="#NilüferGündoğan" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u22">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg22">Voorzitter. Dit debat gaat over belastingontwijking, maar zolang wij het grotere plaatje onvoldoende schetsen en bespreken, klinken belastingen toch enigszins als mensen en ondernemers pesten. Niets is minder waar. Belastingen — bij Volt noemen we ze liever "maatschappelijke bijdragen" — houden de samenleving juist gezond, weerbaar en economisch vitaal. Volt steunt de vrije markt, maar dan moet de vrije markt wel vrij zijn. Gebruikmaken van die markt in de vorm van zijn arbeidskrachten, infrastructuur en consumenten zonder of met weinig maatschappelijke bijdragen zal leiden tot erosie van die vrije markt. De koek verdienen en de koek verdelen gaan dus hand in hand. Het is geen vraag van voor het bedrijfsleven zijn en tegen belastingen of vice versa, maar juist van voor beide willen pleiten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg23">Zeker omdat de markt feilbaar is, moet de overheid sturen en richting geven. Daar zijn middelen in de vorm van maatschappelijke bijdragen voor nodig. Wij zijn nu zover dat steeds meer mensen dat schoorvoetend toegeven. Maar de mythe dat belastingen een vorm van pesten zijn, wordt overeind gehouden door fabels als: daar is al een keer belasting over betaald. Het valt officieel buiten de scope van belastingontwijking omdat wij het toestaan, maar het is wel een vorm van geld onttrekken aan de maatschappelijke bijdrage: iemand die 3 ton aan huurinkomsten heeft uit box 3 kan door de fictieve vermogensbelasting circa 40k betalen, terwijl iemand die 3 ton verdient daarover bijna de helft betaalt via box 1. Het is tijd om belastingen eerlijker te beoordelen. Ik kijk dan terug naar de oude liberalen, die spraken over verdiend en onverdiend vermogen. Daar vallen erfenissen ook onder. Afgelopen weekend las ik daarom met blijdschap in Het Financieele Dagblad dat de OESO pleit voor hogere erfbelastingen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg24">Maar terug naar het hart van dit onderwerp, voorzitter. Ik besef terdege dat er al een weg is afgelegd maar dat er nog een langere weg te gaan is. Daarom dien ik samen met collega Van Weyenberg van D66 een motie in om nog een stap te zetten om van Nederland een land te maken waar de koek wordt verdiend én verdeeld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note52">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u23">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg25">Dat heeft u prachtig getimed, mevrouw Gündoğan. En een mooi bruggetje naar meneer Van Weyenberg! Meneer Van Weyenberg namens D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note53">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u24">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg26">Dank u wel, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg27">Het inmiddels demissionaire kabinet heeft echt een trendbreuk ingezet als het gaat om de rol van Nederland in het aanpakken van belastingontwijking en het doorsluizen van winsten door Nederland. Tegelijkertijd is er nog een boel te doen. Natuurlijk moet je niet alleen wachten op wat internationaal gebeurt, maar het is wel het allerbeste als je samen met landen de routes voor belastingontwijking afsluit. Daarover is inmiddels goed nieuws. Deze Kamer heeft zich in de afgelopen jaren niet uitgesproken voor een minimumtarief in Europees verband, maar ik hoop dat dat na vandaag anders is. Mijn motie lijkt op die van de heer Nijboer.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note54">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note55">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note56">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note57">overwegende dat een minimumwinstbelastingtarief een effectieve manier is om een gelijk speelveld te creëren tussen nationaal opererende mkb'ers en internationaal opererende bedrijven die hun belastingdruk vaak weten te verlagen door belastingontwijking;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note58">overwegende dat Nederland op grote schaal fungeert als doorsluisland van winsten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note59">constaterende dat nu ook de minister van Financiën van de Verenigde Staten zich positief heeft uitgelaten over een minimumwinstbelastingtarief, wat de kansrijkheid op een akkoord hierover vergroot;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note60">constaterende dat de Adviescommissie belastingheffing van multinationals heeft geadviseerd dat Nederland hierin een voortrekkersrol moet nemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note61">verzoekt de regering in de OESO en in de EU een voortrekkersrol te nemen teneinde een internationaal minimumwinstbelastingtarief af te spreken in de OESO of de EU,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note62">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note63">Deze motie is voorgesteld door de leden Van Weyenberg en Gündoğan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note64">Zij krijgt nr. kst-25087-277</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note65">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u25">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg28">Deze motie mag ik samen indienen met collega Gündoğan, maar dat had u net al gehoord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note66">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:macro" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u26">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg29">Dank u wel, meneer Van Weyenberg. Daarmee zijn we aan het einde gekomen van de eerste termijn van de Kamer. Ik geef het woord aan de staatssecretaris van belastingen. Heeft u alle moties inmiddels bij de hand?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note67">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u27">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg30">Ik heb de laatst ingediende motie nog niet, maar ik denk dat ik wel alvast kan reageren op de andere.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note68">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u28">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg31">Dan geef ik u het woord om te reageren. Meneer Vijlbrief.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note69">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u29">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg32">Voorzitter. Dit is een blijmakend debat. Er is breed veel overeenstemming in de Kamer over het aanpakken van belastingontwijking en de voorkeur voor een internationale route daarin. Ik ben dus heel blij met dit debat. Ik was al blij met het AO; dat had dezelfde soort vibe, in goed Nederlands.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg33">Ik loop even de moties langs. Allereerst de motie van de heer Van Raan op stuk nr. 274. Waar zit hij? Daar. Ik heb de heer Van Raan toegezegd dat ik daarmee aan de slag zou gaan. Dat gaan we ook doen. In de monitor kom ik daarop terug. Ik zou kunnen zeggen "houd die motie maar even aan", maar gegeven de sfeer van het debat zou ik ook gewoon kunnen zeggen "oordeel Kamer", want ik steun op zich de lijn. Ik ben het overigens ook met de heer Idsinga eens dat als we het internationaal kunnen doen, we dat ook moeten doen. Daar bent u het, denk ik, ook mee eens. Dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg34">Dan de motie van het lid Alkaya op stuk nr. 275. Ook daar ben ik het mee eens. Namens het kabinet geef ik oordeel Kamer, want dit is precies wat wij willen doen en wat wij ook zo spoedig mogelijk willen doen. We wachten even op de vorming van een nieuw kabinet — dat gaat vliegensvlug — en dan gaan we er weer mee aan de slag. Ik ben hier echt veel mee bezig. Ik beschouw dit als ondersteuning van het beleid, dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg35">Dan heb ik nog twee moties van mevrouw Gündoğan en de heer Van Weyenberg, op stuk nr. 277, en van de heer Nijboer, op stuk nr. 276. Die lijken zo veel op elkaar dat ze moeilijk uit elkaar te houden zijn. Ik begrijp ze allebei zo dat de moties eigenlijk tegen het kabinet zeggen ... De heer Nijboer was daar het meest expliciet in. Hij zei: ga nou niet zitten knoeien, maar ga er gewoon achteraan en ga het voortouw nemen. Als u tegen een staatssecretaris van D66 zegt "neem het voortouw in Europa", dan weet u dat dat eigenlijk overbodig is. Dat gaan we namelijk doen. Dat gaan we doen. Ik ben enthousiast over de inhoud van het voorstel van mevrouw Yellen en ik ben ook enthousiast over het idee om daar in Europa zo veel mogelijk werk van te maken. We zullen zien. Voor mij is de geprefereerde route: we maken goede afspraken in de OESO in juli en dan kunnen we die implementeren in de EU. Maar mocht het misgaan in de OESO, dan ga ik weer in de EU mijn best doen voor een minimumwinstbelasting, want ik ben daar altijd voor geweest. Dus ze krijgen allebei oordeel Kamer. Dat is de oogst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note70">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u30">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg36">Dank u wel, staatssecretaris. Ik kijk even rond. De Kamer is hier voor nu tevreden mee.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note71">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note72">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.u31">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.seg37">Deze moties worden volgende week dinsdag in stemming gebracht. Dank aan de staatssecretaris en dank aan de leden. Ik schors kort.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-15.note73">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

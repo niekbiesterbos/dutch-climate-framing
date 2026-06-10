@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-11-24 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-11-24 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 26, Session 9 (2021-11-24)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 26, Session 9 (2021-11-24)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="26" xml:lang="en">Meeting 26</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="9" xml:lang="en">Session 9</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-11-24">Sitting 2021-11-24</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="11">11 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="11">11 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1184">1,184 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1184">1,184 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-11-24">2021-11-24</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="48"/>
+               <tagUsage gi="seg" occurs="16"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="11"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-11-24">2021-11-24</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.head1">NAVO/OVSE</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:inter" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg1">Dan gaan we nu starten met het tweeminutendebat NAVO/OVSE. Ik heet de minister van Buitenlandse Zaken van harte welkom. We hebben twee sprekers vandaag. De eerste is de heer De Roon van de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note2">De heer De Roon (PVV)</note>
+            <u who="#RaymonddeRoon" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg2">Voorzitter. De secretaris-generaal van de NAVO, de heer Stoltenberg, heeft gezegd dat de legers van de wereld in gelijke mate moeten meedoen met de wereldwijde inspanningen om de klimaatverandering aan te pakken. Daarom moeten zij hun carbon foot print verminderen overeenkomstig vastgestelde benchmarks. Ik denk dat de meeste legers in de wereld dit niet gaan doen. In Rusland, in Moskou in het Kremlin, in Peking, maar waarschijnlijk ook op veel andere plaatsen zullen ze hier hartelijk om lachen. Die gaan dat gewoon niet doen. Maar goed, meneer Stoltenberg was ooit speciaal gezant van de VN voor climate change. Hij heeft dat maar kort gedaan, maar er is blijkbaar toch iets in zijn hoofd blijven hangen. Hij komt met dit voorstel, waarmee hij zich naar mijn mening schaart in een groep van klimaathysterici. Ik zie het nut er niet van in, maar ik zie wel problemen. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note6">constaterende dat de NAVO aan een plan werkt om de CO₂-uitstoot van NAVO-legers te berekenen en de NAVO deze cijfers wil koppelen aan klimaatdoelstellingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note7">constaterende dat dit plan pas definitief uitgewerkt kan worden als alle NAVO-lidstaten hiermee akkoord gaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note8">overwegende dat dit plan, indien uitgevoerd, door (klimaat-)activisten aangegrepen kan worden om onze krijgsmacht tot vergaande maatregelen te dwingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note9">overwegende dat dit een enorm negatieve impact kan hebben op onze nationale veiligheid en op de verdediging van ons eigen grondgebied en dat van bondgenoten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note10">verzoekt de regering niet in te stemmen met het plan om de CO₂-uitstoot van onze krijgsmacht te berekenen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note12">Deze motie is voorgesteld door het lid De Roon.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note13">Zij krijgt nr. kst-28676-378</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note14">Dank u wel, meneer De Roon.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note15">De heer De Roon (PVV)</note>
+            <u who="#RaymonddeRoon" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.u3">
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg3">Dan heb ik nog een tweede motie. Die zal ik zonder inleiding voorlezen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note16">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note17">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note18">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note19">constaterende dat Nederland de militaire samenwerking met Oekraïne de komende tijd "nader vorm wil geven";</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note20">overwegende dat Oekraïne geen NAVO-lid is en het nader vormgeven van de samenwerking onder meer vanwege de spanningen in de regio onwenselijk is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note21">verzoekt de regering de militaire samenwerking met Oekraïne niet te intensiveren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note22">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note23">Deze motie is voorgesteld door het lid De Roon.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note24">Zij krijgt nr. kst-28676-379</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note25">Dank u wel. Dan geef ik het woord aan de heer Brekelmans van de VVD.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note26">De heer Brekelmans (VVD)</note>
+            <u who="#RubenBrekelmans" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.u4">
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg4">We hebben in dit debat vandaag met name gesproken over de Russische dreiging en over de troepenopbouw aan de grens met Oekraïne. Dit baart ons allemaal zorgen, zeker gezien de omvang en de tijd van het jaar. We hebben besproken dat het nodig is om maximale tegendruk uit te oefenen, maar de minister gaf begrijpelijk aan dat het verstandig is om daar niet al te openlijk over te speculeren en over te spreken. Het is echter duidelijk dat dit ons zorgen baart en dat we ons daartegen moeten verzetten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg5">We hebben ook gesproken over verschillende dreigingen en spanningen in de bredere regio Belarus, Balkan en Nagorno-Karabach. Dat laat het belang zien van de NAVO en van het NAVO 2030-proces waar we mee bezig zijn. Het is van belang om ons te richten op de bescherming van onze eigen regio, maar het is ook van belang om ons te beschermen tegen de globale dreigingen die ons op ons grondgebied kunnen raken, zoals cyberaanvallen van China, potentiële dreigingen met hypersonische raketten en ook de toenemende activiteiten in bijvoorbeeld de Noordpoolregio.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg6">Daarnaast hebben we ook gesproken over Afghanistan. De deelname van de taliban, eventueel potentieel, aan bijeenkomsten van multilaterale organisaties kan de schijn wekken dat er internationale erkenning van de taliban plaatsvindt. Dat is onwenselijk. Het is belangrijk dat dit niet gebeurt en dat deze schijn niet wordt gewekt. Daarom wil ik de volgende motie indienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note30">constaterende dat de taliban door de meeste landen, inclusief Nederland, niet wordt erkend als het legitieme regime van Afghanistan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note31">overwegende dat erkenning en hulpgeld de belangrijkste drukmiddelen van de internationale gemeenschap tegen de taliban zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note32">overwegende dat deelname van talibanvertegenwoordigers namens Afghanistan aan bijeenkomsten van multilaterale organisaties de indruk wekt dat de taliban internationaal wordt gezien als de legitieme vertegenwoordiger van Afghanistan, en deze indruk dient te worden voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note33">overwegende dat er op korte termijn bijeenkomsten van multilaterale organisaties gepland zijn waarvoor niet duidelijk is wie namens Afghanistan zal deelnemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note34">verzoekt de regering er binnen multilaterale organisaties op aan te dringen dat talibanafgevaardigden niet namens Afghanistan deelnemen en dat bij relevante multilaterale organisaties hierover een gemeenschappelijk standpunt wordt ingenomen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note35">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note36">Deze motie is voorgesteld door het lid Brekelmans.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note37">Zij krijgt nr. kst-28676-380</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note38">Dank u wel, meneer Brekelmans. Dan schors ik de vergadering voor vijf minuten voor de voorbereiding van de moties.</note>
+            <note type="time" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note39">De vergadering wordt van 20.05 uur tot 20.10 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note40">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:inter" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.u5">
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg7">Ik geef het woord aan de minister van Buitenlandse Zaken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note41">Minister Knapen</note>
+            <u who="#BenKnapen" ana="#guest topic:defen" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.u6">
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg8">Voorzitter. Veel dank voor de moties en aansporingen die daarin zijn vervat. De eerste motie op stuk nr. 378 van de heer De Roon gaat erover dat er geen footprint opgesteld wordt voor wat Defensie zoal doet. Deze motie wil ik ontraden. In de discussie heb ik al aangegeven dat het spanningsveld tussen klimaat en veiligheid altijd op een adequate manier zal worden uitgelegd. Geen zorgen dus. Ik zou de motie willen ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg9">Bij de volgende motie, de motie-De Roon op stuk nr. 379, wil ik even iets preciezer stilstaan. Wij worden verzocht om de militaire samenwerking met Oekraïne niet te intensiveren. Nu is het zo dat er binnen het versterkte partnership dat op dit moment al bestaat, mogelijkheden zijn om dingen te doen. Wij zouden binnen dit partnerschap bijvoorbeeld iets extra's kunnen doen op het gebied van cyberassistentie. We zouden ook iets extra's kunnen doen op het gebied van medische ondersteuning. Het zou wat vreemd zijn wanneer wij nu zouden afspreken dat wij dit versterkte partnership en de mogelijkheden die het biedt, niet zouden benutten. Dat zou al helemaal vreemd zijn op het moment dat de behoefte eraan misschien heel groot is. Ik wil de motie om die reden ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg10">Op de motie-Brekelmans op stuk nr. 380 wil ik even heel precies reageren, want dit let nauw. Als het gaat om internationale organisaties, dan is het over het algemeen zo dat het juridische kader van die organisaties maakt dat plenaire organen beslissen over toelating. Wij proberen ons in die zin, ook vanuit het volkenrechtelijke standpunt, terughoudend op te stellen. Ik moet er meteen het volgende bij zeggen. Als het gaat om de uitvoering van een aantal moties van deze Kamer, zijn wij in praktische zin soms, helaas maar onvermijdelijk, aangewezen op de taliban, omdat zij in Kabul nu eenmaal aan de touwtjes trekken. Maar ik zeg er meteen bij: wij willen de aanwezigheid uiteraard zoveel mogelijk ontmoedigen. Ik zou de motie als volgt willen uitleggen. Overal waar dit speelt, dus bij multilaterale organisaties waar dit aan de orde is en als organisaties vragen om een gemeenschappelijk standpunt, zullen wij ervoor pleiten dat eventuele toelating, waar wij geen voorstander van zijn, in elk geval geen erkenning van de taliban inhoudt. Dus we zullen het zoveel mogelijk ontmoedigen, maar mocht het zover komen, dan is het geen impliciete erkenning van de taliban.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg11">Overigens even heel praktisch voor volgende week: Zweden gaat ervan uit dat de taliban niet aanwezig zullen zijn bij de ministeriële conferentie van de OVSE in Stockholm. Dat hebben we na het debat van vanochtend kunnen verifiëren. Afghanistan is geen lid, maar het grenst aan drie lidstaten, dus als waarnemer zou het land aanwezig kunnen zijn, maar Zweden gaat ervan uit dat men volgende week afwezig is. Als ik het geheel zo mag uitleggen, dan geef ik de motie graag oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note42">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.u7">
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg12">Ik kijk even naar de heer Brekelmans of hij zich kan vinden in uw interpretatie. Het woord is aan de heer Brekelmans.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note43">De heer Brekelmans (VVD)</note>
+            <u who="#RubenBrekelmans" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.u8">
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg13">Ik kan me wel vinden in die interpretatie, maar ik heb toch één vraag. De minister formuleerde het vrij passief. Hij zei: als het aan ons wordt gevraagd, dan zullen wij dit doen. Ik zou de minister willen vragen om er een actieve rol in te spelen. We hadden vandaag een discussie over de OVSE en daar kwam in naar voren dat het nog niet helemaal duidelijk was. Gelukkig heeft de minister dat vandaag geverifieerd, dus veel dank daarvoor. Maar waar het juridisch mogelijk is, zou ik graag willen dat Nederland een proactieve rol speelt in die multilaterale organisaties, om het standpunt mede te bepalen en op te helderen of de taliban wel of niet mogen deelnemen. Ik hoop dat u die aanmoediging wilt meenemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note44">Minister Knapen</note>
+            <u who="#BenKnapen" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.u9">
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg14">Dat is me duidelijk. Ik denk dat we over hetzelfde spreken. Ik heb de formulering gebruikt dat we dat zo veel mogelijk willen ontmoedigen. Dat kun je niet doen door te zwijgen, maar alleen door actief je stem te laten horen. Daarmee heb ik zo uitgelegd als de heer Brekelmans zojuist aangaf. Daar kunnen wij heel goed mee leven. Ik geef de motie daarmee graag oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note45">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.u10">
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg15">Daarmee zijn we aan het einde gekomen van deze beraadslaging.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note46">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note47">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.u11">
+               <seg xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.seg16">We gaan morgenmiddag stemmen over de ingediende moties. Dat komt omdat de NAVO-Raad volgende week dinsdag en woensdag vergadert. Ik dank de minister voor zijn aanwezigheid hier. Ik schors de vergadering voor vijf minuten. Daarna gaan we verder met het debat over de begroting van Justitie en Veiligheid.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-11-24-tweedekamer-9.note48">De vergadering wordt van 20.16 uur tot 20.19 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

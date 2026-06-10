@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-02-04 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-02-04 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 53, Session 3 (2021-02-04)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 53, Session 3 (2021-02-04)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="53" xml:lang="en">Meeting 53</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="3" xml:lang="en">Session 3</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-02-04">Sitting 2021-02-04</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="25">25 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="25">25 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2425">2,425 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2425">2,425 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-02-04">2021-02-04</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="28"/>
+               <tagUsage gi="seg" occurs="44"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="25"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-02-04">2021-02-04</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.head1">Initiatiefwetsvoorstel-Verhoeven Wet Zerodays Afwegingsproces</head>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note1">Zie vergadering van 13 oktober 2020.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note2">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:techn" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg1">Aan de orde is de derde termijn van het voorstel van wet van het lid Verhoeven houdende een regeling voor een afwegingsproces voor het gebruik van kwetsbaarheden in geautomatiseerde werken door de overheid, Kamerstuk 35257. Ik heet de initiatiefnemer, de heer Verhoeven, van harte welkom. Ook heet ik van harte welkom zijn ondersteuner, de heer Olivier Schmidt. Tevens heet ik welkom de minister van Justitie en Veiligheid en de minister van Binnenlandse Zaken en Koninkrijksrelaties. Zij zullen bij de behandeling van dit wetsvoorstel optreden als adviseurs van de Kamer. De eerste termijn van de Kamer vond plaats op 18 juni 2020. De voortzetting was op 23 september. En na 133 dagen kunnen wij hopelijk tot een afronding komen van deze wet. Ik zie dat de heer Verhoeven een beetje moeilijk kijkt, maar ik weet dat hij het kan en dat hij dat ook voor elkaar gaat krijgen.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note3">De algemene beraadslaging wordt heropend.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note4">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg2">Ik geef het woord aan de heer Van Meenen namens D66, die ik als enige spreker op mijn lijst zie. O, mevrouw Buitenweg ook? Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note5">De heer Van Meenen (D66)</note>
+            <u who="#PaulvanMeenen" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg3">Voorzitter, dank. Laat ik deze gelegenheid aangrijpen, aangezien het waarschijnlijk de laatste keer is dat de heer Verhoeven en ik elkaar in deze zaal zullen toespreken, om hem te bedanken voor ruim acht jaar collegialiteit. Hij is ook vijf jaar mijn kamergenoot. En u weet zelf uit ervaring, voorzitter, dat dat niet altijd makkelijk is, maar dat het toch ook een feest is. Dus Kees, enorm bedankt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg4">Voorzitter. Ik heb een vraag en die is gericht aan de minister van Binnenlandse Zaken, en dat is de cruciale vraag: is het aangepaste voorstel van de indiener werkbaar voor de diensten, voor de AIVD en de MIVD?</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg5">Ik dank u zeer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note6">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg6">Dank u wel, meneer Van Meenen. Dan geef ik nu het woord aan mevrouw Buitenweg namens GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note7">Mevrouw Buitenweg (GroenLinks)</note>
+            <u who="#KathalijneBuitenweg" ana="#regular topic:techn" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg7">Dank u wel, mevrouw de voorzitter. Ik had het debat gisteren gehoord en ik begreep dat u ook toen problemen had met de blik van de heer Verhoeven, maar ik kan zeggen dat hoewel zijn blik soms getormenteerd is, ik hem heb leren kennen als een buitengewoon constructieve collega. Ook ik wil hem heel erg bedanken voor de samenwerking in de afgelopen jaren, juist op het gebied van digitalisering.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg8">We hebben nu de derde termijn. De vorige keer hebben we inhoudelijk al van alles gewisseld. Ik heb toen onder meer ook een motie ingediend over een afwegingskader. Dat is een motie die toen oordeel Kamer heeft gekregen van de minister van JenV. Ik zou dan ook graag van hem nu willen horen hoe hij mijn motie ziet in relatie tot het wetsvoorstel en de aanpassingen die nu ingediend zijn door de heer Verhoeven. Mijn vraag aan de heer Verhoeven is hoe ik dit nieuwe, aangepaste wetsvoorstel moet zien, ook in relatie tot mijn motie. Hoe ziet hij nu de verdere behandeling daarvan?</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg9">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note8">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg10">Dank u wel, mevrouw Buitenweg. Dan kijk ik naar de heer Verhoeven, natuurlijk als eerste spreker. Dan de minister. Ik weet niet of jullie eerst willen overleggen. Nee?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note9">De heer Verhoeven (D66)</note>
+            <u who="#KeesVerhoeven" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg11">Een halfuurtje schorsen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note10">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg12">Een half uur schorsen, nee. Misschien kunt u onderling even afstemmen wie als eerste wil beginnen. Het is wel zo netjes dat u als initiatiefnemer begint, meneer Verhoeven. Het is uw voorstel. Dan geef ik nu het woord aan de heer Verhoeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note11">De heer Verhoeven (D66)</note>
+            <u who="#KeesVerhoeven" ana="#regular topic:defen" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg13">Dank u, voorzitter. Er is inderdaad een geschiedenis van bijna zeven maanden of misschien nog wel meer met betrekking tot dit wetsvoorstel. In het eerste gedeelte van de behandeling is heel duidelijk naar voren gekomen, zowel uit de Kamer als uit het kabinet, dat het gedeelte waarin ik in het oorspronkelijke wetsvoorstel een beoordelingsorgaan voorstel, tot veel bezwaren leidt. Ik vond dat ik daarnaar moest luisteren. In deze nota van wijziging heb ik besloten om dat beoordelingsorgaan eruit te halen, zo zeg ik in antwoord op mevrouw Buitenweg. De problemen die daarbij naar voren kwamen, werden door zo veel mensen genoemd, dat ik heb gezegd dat we dat hier niet moeten doen, hoewel het er in andere landen wel is. Daarmee zet ik nadrukkelijk een stap in de richting van kritische Kamerfracties en het kabinet.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg14">Voorzitter. Daarmee zijn we in een gekke situatie terechtgekomen. Er is een motie ingediend door GroenLinks, waarin gevraagd wordt om één kader voor al die verschillende organisaties: politie, Defensie en de inlichtingendiensten. Die motie kreeg van het kabinet oordeel Kamer, omdat dat voor een deel de richting is waarin het kabinet beweegt. Ik denk dat de minister dat zelf dadelijk beter kan zeggen dan dat ik dat namens hem zeg in het licht van wat hij eerder heeft gezegd. Omdat ik als initiatiefnemer echt graag wil dat er een wettelijk kader komt dat uniform is voor alle organisaties, vind ik het beter om dat via de wet te doen. Daarom heb ik het voorstel zodanig aangepast dat het inhoudelijk overeenkomt met datgene wat de motie zegt, alleen dan in een wet. Je zou kunnen zeggen: in plaats van een motie komt er een amendement of een wetsvoorstel; dat is dwingender. Dat is mijn reactie op wat mevrouw Buitenweg heeft gevraagd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg15">Verder kan ik zeggen dat ik op allerlei mogelijke manieren heel graag wil dat we hier een stap kunnen zetten, omdat ik echt vind dat het voor de veiligheid van Nederland nodig is dat er een goede afweging wordt gemaakt bij het inzetten van die onbekende kwetsbaarheden door Defensie, politie en de inlichtingendiensten. Dat is wat ik beoog. Het oordeel van het kabinet over mijn aangepaste voorstel snap ik, maar de probleempunten die het kabinet naast de waardering voor mijn aanpassing naar voren brengt, vind ik dusdanig dat we een weg zouden moeten kunnen vinden om hier op wetsbasis iets te regelen. Dat is de reden waarom ik deze derde termijn toch graag wilde.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg16">Voorzitter, dank u wel. Daar laat ik het bij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note12">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg17">Dank u wel, meneer Verhoeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note13">De heer Verhoeven (D66)</note>
+            <u who="#KeesVerhoeven" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg18">En ik dank de collega's voor hun hele aardige woorden en u voor het altijd kort houden van mijn aardige woorden. Ik spreek dat geheel wederzijds uit. De vraag van de heer Van Meenen was niet aan mij gericht, maar aan de minister. Vandaar dat ik daar niet op inga.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note14">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg19">Ja, dat klopt. Dank u wel, meneer Verhoeven. De vraag van de heer Van Meenen was gericht aan de minister van Binnenlandse Zaken. Ik geef haar nu het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note15">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:techn" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg20">Dank, voorzitter. Nu het toch een beetje het moment is om de heer Verhoeven te bedanken, wil ik mij daar graag bij aansluiten. De hele tijd dat hij in de Kamer zit, maakt hij zich sterk voor onderwerpen die met onze digitale veiligheid te maken hebben. Dat is cruciaal in deze tijd; een snel digitaliserende samenleving heeft behoefte aan controle. Mijn complimenten aan de heer Verhoeven daarvoor.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg21">We hebben al eerder gesproken over het initiatiefwetsvoorstel van de heer Verhoeven over het gebruik van onbekende kwetsbaarheden. Collega Grapperhaus en ik hebben namens het kabinet een aantal bezwaren geuit. De heer Verhoeven heeft zijn voorstel daarop aangepast. De Kamer heeft daarover een brief van het kabinet ontvangen. Daarbij kom ik meteen bij de vraag van de heer Van Meenen: is het voorstel werkbaar voor de diensten? In de kabinetsappreciatie kunt u dit zien. Met het nieuwe voorstel zijn echt belangrijke bezwaren weggenomen, waarvoor dank, maar blijven nog enkele bezwaren staan, waarvan ik er twee wil noemen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg22">Ten eerste moet met dit voorstel nog steeds zeer gevoelige operationele informatie gedeeld worden met derden. Dat luistert heel nauw. In artikel 3 van het voorstel staat een kan-bepaling. Daarin staat dat het bestuursorgaan kán besluiten een onbekende kwetsbaarheid niet bekend te maken, of om die alleen bekend te maken aan betrokkenen die de vitale infrastructuur beheren. Dat is artikel 3, lid 2. Die kan-bepaling is essentieel. Die betekent dat in het uiterste geval niet tot bekendmaking hoeft te worden overgegaan. Je zou zeggen dat het tot zover eigenlijk heel goed gaat. Geen probleem.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg23">Lid 3 van artikel 3 is geen kan-bepaling, maar een moet-bepaling. Op basis van dat lid móet het bestuursorgaan overleggen met vertegenwoordigers van betrokkenen die vitale infrastructuur beheren, alvorens een besluit te nemen over de bekendmaking. Dat kan problematisch zijn. Als je spreekt met die vertegenwoordigers, zul je namelijk ook iets moeten prijsgeven van de kwetsbaarheid waar het om gaat. Anders kunnen deze mensen daar niet zo veel mee doen. In sommige gevallen kan dat zeer gevoelige operationele informatie zijn die niet, of in ieder geval niet op dat moment of nog niet, met derden kan worden gedeeld. Dat zijn de uitzonderlijke gevallen, maar het zijn wel precies die gevallen waarbij voor de diensten de nationale veiligheid in het geding is. Die overweging zal worden gemaakt. Dat levert extra risico's op voor de operatie en mogelijkerwijs ook voor samenwerking met andere diensten, en dus risico's voor de veiligheid.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg24">Ten tweede: de organisaties waar het om gaat, hebben een afwegingskader. Dat is heel belangrijk. Dat roept bij ons de vraag op wat je daar op dit specifieke punt nog aan toevoegt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg25">Voorzitter. Zo kijken wij ertegen aan. Belangrijke bezwaren zijn weggenomen. Op dit specifieke onderdeel rest voor de diensten nog wel een bezwaar.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg26">De andere vraag was aan collega Grapperhaus gesteld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note16">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg27">Dank u wel. Dan gaan we even ruilen, maar eerst schoonmaken. Dan geef ik nu het woord aan de minister van Justitie en Veiligheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note17">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg28">Voorzitter, dank. U heeft gisteren een brief van het kabinet gekregen met daarin de appreciatie. Daar is mijn collega van BZK al op ingegaan. Ik onderschrijf dat het kabinet nog steeds belangrijke bezwaren tegen dit wetsvoorstel heeft op het punt van het dubbele kader van het proces voor de opsporing, met mogelijk divergerende besluiten. De motie van mevrouw Buitenweg zou overigens op dat punt niet tot dubbeling leiden. Anders dan de heer Verhoeven veronderstelde, hebben politie en OM wel degelijk een afwegingskader voor het melden van onbekende kwetsbaarheden. Ik wil dat nog eens benadrukken. Ook omwille van de tijd ga ik dat nu niet uitvoerig uitwerken. Dat is al in de brief gedaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg29">Voorzitter. Ten tweede levert het delen van gevoelige informatie met vertegenwoordigers uit vitale sectoren echt operationele risico's op. Mijn collega noemde dat al.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg30">Ten derde heeft het kabinet in de brief aangegeven dat nadere normering van binnendringsoftware bij AMvB overbodig is. Conform de motie-Recourt worden onbekende kwetsbaarheden of binnendringsoftware die daar mogelijk gebruik van maakt ook nu al alleen ingezet in het uiterste geval. Verder zijn in het regeerakkoord afspraken opgenomen over de aanschaf van binnendringsoftware door de politie. Die regeling is bevestigd bij de parlementaire behandeling van de Wet computercriminaliteit III.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg31">Al met al in de eerste plaats respect voor het feit dat de heer Verhoeven dit initiatief heeft genomen. Dat wil ik nog benadrukken. Ik bewaar mooie herinneringen aan hoe de heer Verhoeven en ik, vooral in de Eerste Kamer, hebben samengewerkt wat betreft zijn initiatiefwetsvoorstel met betrekking tot de majesteitsschennis. Dat was zoals het tussen kabinet en Kamer kan gaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note18">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg32">Ik hoor uw telefoon afgaan. Ik wil hem hebben!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note19">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg33">Voorzitter, excuus. Ik heb de laatste tijd ongeveer vier schermen die tegelijk afgaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note20">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg34">Of mevrouw Buitenweg, die is ook geïnteresseerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note21">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg35">Het zou de Raad van State kunnen zijn geweest. Je weet het nooit.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg36">Voorzitter. Ik wilde dat even gezegd hebben. Ik herhaal nogmaals dat het kabinet overwegende bezwaren houdt tegen dit wetsvoorstel.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg37">Dank.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note22">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg38">Ik zie mevrouw Yeşilgöz-Zegerius. Wilt u wat vragen? Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note23">Mevrouw Yeşilgöz-Zegerius (VVD)</note>
+            <u who="#DilanYeşilgöz-Zegerius" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg39">Ik heb geen interruptie. Ik wil alleen langs deze weg ook de heer Verhoeven danken voor zijn harde werken en inzet. Dat lijkt me wel zo netjes, ook aangezien ik namens mijn collega Jan Middendorp hier aanwezig ben. Gezien de brief van het kabinet en de toelichting van de bewindspersonen zullen wij helaas dit voorstel niet steunen. Maar toch heel veel dank voor al het werk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note24">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg40">Dank u wel. De heer Verhoeven wil nog een paar afsluitende woorden zeggen. Ik vind dat prima. Ik ga u niet onderbreken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note25">De heer Verhoeven (D66)</note>
+            <u who="#KeesVerhoeven" ana="#regular topic:defen" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg41">Voorzitter. Ik heb natuurlijk ook de brief van het kabinet gelezen. Ik hoor ook de toelichting van beide bewindspersonen. Dat is ook duidelijk. Ik zal het heel kort houden. Wat ik heb beoogd is om, in plaats van een allegaar aan regelingen, dan wel door een motie die is ingediend in de Kamer die heeft geleid tot een leidraad bij de diensten, dan wel door andere regimes die gelden bij politie en Defensie, dit uniform te regelen. Nu is het allemaal op verschillende wijzen geregeld. Er wordt overal gezegd dat er al een leidraad is en dat er al een afwegingskader is. Ik wil graag dat dat in één wet geregeld wordt. Alle andere zaken die in deze brief naar voren komen, die schuren of tot problemen leiden, zijn volgens mij oplosbaar. Ik zal nog een keer heel goed naar mijn voorstel kijken. Ik zal kijken of ik het nog aanpas. En anders komt het volgende week in stemming. Maar ik zal nog één keer kijken naar de mogelijkheden die er zijn om wel tegemoet te komen aan datgene wat gezegd is. Tegelijkertijd is het echt mijn mening — dat blijft ook zo — dat dit nog niet op een manier geregeld is die zodanig uniform en stevig is dat we hier ook de vitale infrastructuur veilig houden. We hebben in de Verenigde Staten gezien dat onzorgvuldig gebruik van onbekende kwetsbaarheden kan leiden tot enorm grote schade aan de samenleving. Ik zal goed luisteren, nogmaals, naar wat het kabinet gezegd heeft op de onderdelen. Ik ben zeer beweeglijk op dit vlak, misschien wat beweeglijker dan normaal, omdat ik echt graag een kleine stap vooruit wil zetten. Ik dank u voor alle moeite en de aardige woorden, maar ik wil echt ook hier een resultaat boeken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note26">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg42">Dank u wel, meneer Verhoeven. Ook ik wil u ontzettend bedanken voor het initiatiefwetsvoorstel. We weten allemaal hoe zwaar het is om als Kamerlid met weinig ondersteuning sowieso je controlerende rol uit te oefenen, laat staan om ook een wetsvoorstel voor te bereiden. Natuurlijk ook dank aan de ondersteuning, de heer Schmidt. Ik ga geen afscheid van u nemen, meneer Verhoeven; dat wil ik eigenlijk niet. Dat komt op een gegeven moment. Ik spaar alles op tot het laatste moment. Ik houd de spanning er dus in. Voor nu dank ik de heer Verhoeven, de minister van Justitie en Veiligheid, de minister van Binnenlandse Zaken, de heer Schmidt, maar ook de Kamerleden. Veel succes.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note27">De algemene beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.note28">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg43">Volgende week gaan we, hoop ik, daarover stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-04-tweedekamer-3.seg44">Dan ga ik nu naar de hamerstukken. Daar hoeft u niet bij te zijn. Dat is gewoon een soort huishoudelijke mededeling. En nee, meneer Verhoeven, zolang ik niet geschorst heb, mag u niet naar het kabinet in vak-K. Maar ik ben zo klaar.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

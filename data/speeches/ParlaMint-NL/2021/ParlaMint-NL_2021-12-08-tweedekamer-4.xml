@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-12-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-12-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 32, Session 4 (2021-12-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 32, Session 4 (2021-12-08)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="32" xml:lang="en">Meeting 32</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-12-08">Sitting 2021-12-08</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="49">49 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="49">49 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2284">2,284 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2284">2,284 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-12-08">2021-12-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="120"/>
+               <tagUsage gi="seg" occurs="55"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="49"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-12-08">2021-12-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.head1">JBZ-Raad van 9 en 10 december 2021 (vreemdelingen- en asielonderwerpen)</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:immig" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg1">Aan de orde is het tweeminutendebat JBZ-Raad van 9 en 10 december 2021 (vreemdelingen- en asielonderwerpen). Ik heet de staatssecretaris van Justitie en Veiligheid van harte welkom. Ook heet ik de woordvoerders, de mensen op de publieke tribune en de kijkers thuis van harte welkom. Ik geef de eerste spreker, de heer Jasper van Dijk van de SP, het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note2">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg2">Voorzitter, dank. Er zijn grote zorgen over de noodwetgeving die de Europese Commissie heeft gemaakt. Ik vind het belangrijk dat die noodwetgeving getoetst wordt aan de vigerende regelgeving, zoals dat heet. Mevrouw Koekkoek dient daar straks een motie over in, die ik van harte heb meeondertekend.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg3">Er is ook het Europese migratiebeleid in het algemeen. Dat schiet niet op, want 27 lidstaten op dit terrein op één lijn krijgen, lukt gewoon niet goed. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note6">constaterende dat het gezamenlijk Europees asielbeleid al jaren stilligt en dat er vanwege een veelheid aan opvattingen van lidstaten weinig zicht is op vooruitgang;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note7">overwegende dat een daadkrachtig Europees asielbeleid hard nodig is, gezien de zorgwekkende situatie aan de Europese buitengrenzen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note8">van mening dat mensenrechten alsmede het Vluchtelingenverdrag gerespecteerd dienen te worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note9">verzoekt de regering met gelijkgestemde lidstaten een kopgroep te vormen en stappen te zetten om tot een gezamenlijk asielbeleid te komen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note11">Deze motie is voorgesteld door het lid Jasper van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note12">Zij krijgt nr. kst-32317-724</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note13">Dank u wel. Ik geef het woord aan mevrouw Koekkoek van Volt.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note14">Mevrouw Koekkoek (Volt)</note>
+            <u who="#MariekeKoekkoek" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg4">Dank u wel, voorzitter. In het debat is veel aan bod gekomen. Waar zijn nou de grenzen? Welke criteria en welke waarborgen hebben we? Ik weet dat Nederland daar in het algemeen altijd naar kijkt, maar juist vanwege die noodmaatregelen en de uitzonderlijke situatie is het belangrijk om daar nu alvast op voor te sorteren. We moeten duidelijk hebben: dit zijn de grenzen. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note15">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note16">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note17">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note18">constaterende dat artikel 78, lid 3 TFEU gebruikt is als wettelijke basis voor het instellen van noodmaatregelen met betrekking tot de situatie aan de grens met Belarus;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note19">constaterende dat het Europees Gerechtshof in 2017 oordeelde dat dergelijke maatregelen zowel voldoende waarborgen moet hebben, proportioneel en tijdelijk moeten zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note20">constaterende dat artikel 78, lid 3 TFEU specifiek betrekking heeft op migratiecrises;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note21">overwegende dat Eurocommissaris voor Binnenlandse Zaken stelde dat er in dit geval geen sprake is van een migratiecrisis (Euronews, 23-11-2021);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note22">verzoekt de regering de noodmaatregelen te toetsen aan de wettelijke basis, de Conventie van Genève en het EU-asiel acquis, alvorens zulke maatregelen te steunen in Raadsverband,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note24">Deze motie is voorgesteld door de leden Koekkoek, Kröger, Jasper van Dijk en Piri.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note25">Zij krijgt nr. kst-32317-725</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note26">Dank u wel, mevrouw Koekkoek. Dan geef ik het woord aan mevrouw Piri van de PvdA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note27">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg5">Dank u, voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note28">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note29">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note30">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note31">constaterende dat de Europese Commissie noodwetgeving heeft gepresenteerd om de situatie aan de Belarussische grens te adresseren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note32">constaterende dat onder deze wetgeving de mogelijkheden voor migranten om asiel op Europees grondgebied aan te vragen wordt ingeperkt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note33">van mening dat het recht op het aanvragen van asiel, dat onder meer is vastgelegd in het VN-Vluchtelingenverdrag en het EU-recht, op deze wijze wordt bedreigd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note34">verzoekt de regering om niet akkoord te gaan met Europese noodwetgeving die de facto het recht op asiel onmogelijk maakt aan de Europese grens,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note35">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note36">Deze motie is voorgesteld door de leden Piri en Kröger.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note37">Zij krijgt nr. kst-32317-726</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note38">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg6">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note39">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note40">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note41">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note42">constaterende dat de Europese Commissie in gesprek is met Polen, Litouwen en Letland over het vrijmaken van Europese gelden voor grensbewaking;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note43">van mening dat grensbewaking hand in hand moet gaan met respect voor Europees en internationaal recht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note44">verzoekt de regering zich in Europees verband hard te maken om financiële steun voor grensbewaking voorwaardelijk te maken aan de bereidheid van lidstaten om de grenszone toegankelijk te maken voor Europese agentschappen als EASO en Frontex, VN-organisaties als UNHCR, humanitaire organisaties en journalisten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note45">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note46">Deze motie is voorgesteld door de leden Piri en Kröger.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note47">Zij krijgt nr. kst-32317-727</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note48">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg7">Ten slotte, voorzitter. Ik denk dat de hele Kamer met afkeer kijkt naar wat er gebeurt en wat president Loekasjenko doet in Wit-Rusland. De manier om daarmee om te gaan is: nog meer staan voor de Europese waarden, voor de Europese democratie, en daar niets aan afdoen. De vrees van mijn fractie is dat we met de huidige maatregelen in Europa er helaas niet democratischer op worden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg8">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note49">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg9">Dank u wel, mevrouw Piri. Dan geef ik het woord aan mevrouw Kröger van GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note50">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg10">Voorzitter. Ook van mijn hand een tweetal moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note51">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note52">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note53">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note54">overwegende dat het ontbreekt aan adequaat inzicht in de vraag en het aanbod van opvangvoorzieningen in de afzonderlijke EU-lidstaten en aan coördinatie van inspanningen om het draagvlak voor vreemdelingenopvang en andere vormen van ondersteuning te vergroten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note55">overwegende dat inmiddels is voorzien in een EU-terugkeercoördinator;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note56">verzoekt de regering om te onderzoeken of de Europese Commissie een EU-relocatiecoördinator kan aanstellen om bij te dragen aan een betere afstemming van vraag en aanbod in opvangvoorzieningen en aan het versterken van het draagvlak voor opvangvoorzieningen in de Europese Unie, en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note57">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note58">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note59">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note60">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note61">constaterende dat de Schengen Grenscode voorschrijft dat lidstaten moeten voldoen aan het EU-Handvest wanneer zij Schengenregels toepassen aan hun grenzen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note62">overwegende, dat het Europese antifoltercomité recent heeft geconstateerd dat de Kroatische autoriteiten zelfs politiegeweld toepassen om vreemdelingen buiten de Europese Unie te houden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note63">verzoekt de regering om de eventuele toetreding van Kroatië tot de Schengenzone afhankelijk te stellen van de mate waarin de aan vreemdelingen toekomende mensenrechten aantoonbaar in de praktijk worden gerespecteerd,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note64">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note65">Deze motie is voorgesteld door de leden Kröger, Koekkoek en Piri.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note66">Zij krijgt nr. kst-32317-728</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note67">Deze motie is voorgesteld door de leden Kröger, Koekkoek en Piri.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note68">Zij krijgt nr. kst-32317-729</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note69">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg11">Tot slot, voorzitter. We hebben net een stevig debat gevoerd over de voorliggende noodwetgeving waar de staatssecretaris in het kader van "any other business" morgen over gaat spreken. Mijn fractie maakt zich grote zorgen over de implicaties van deze wetgeving voor de mensenrechten van mensen die asiel aanvragen. De staatssecretaris ontweek de vraag of het recht op asiel op Europees territorium echt een harde randvoorwaarde is. Ze bleef zeggen "ja, recht op asiel", maar dat kan kennelijk ook buiten Europees territorium. Dat is niet wat het Europese grondrecht zegt. Ik wil dus heel graag dat de staatssecretaris daar nog op ingaat.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg12">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note70">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg13">Dank u wel, mevrouw Kröger. Dan geef ik tot slot het woord aan de heer Ceder van de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note71">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg14">Voorzitter, dank u wel. Ik had nog een vraag over het Europees monitoringsmechanisme in Griekenland. Die is beantwoord. Daarom zal ik geen motie indienen, omdat er een toezegging ligt. Ik vind het debat wel ingewikkeld, omdat er wordt aangegeven dat het nog bestudeerd wordt, terwijl het parlement wel de kans moet krijgen om zich echt volledig uit te spreken over wat er ligt. We zullen de moties bestuderen. Daarbij geef ik wel aan dat er wat mijn fractie betreft in het kader van het formatieproces niet vooruit kan worden gelopen op sommige standpunten, maar we zullen de moties goed overwegen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg15">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note72">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg16">Dank u wel, meneer Ceder. Ik kijk even naar de staatssecretaris. De staatssecretaris geeft aan tien minuten nodig te hebben voor de voorbereiding.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note73">De vergadering wordt van 15.11 uur tot 15.20 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note74">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:immig" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg17">Aan de orde is het tweeminutendebat JBZ-Raad van 9 en 10 december 2021 (vreemdelingen- en asielonderwerpen).</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg18">Ik geef het woord aan de staatssecretaris zodat zij een appreciatie kan geven van de ingediende moties. Het woord is aan de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note75">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg19">Voorzitter, dank. Allereerst de motie van de heer Van Dijk op stuk nr. 724 over de kopgroep. Die moet ik helaas ontraden, want het kabinet wil zo snel en zo veel mogelijk voortgang ten aanzien van het pact. Dat doen we met gelijkgezinden, niet met een kopgroep.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note76">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg20">Als ik het woord "kopgroep" vervang door "gelijkgezinden", dan krijgt de motie dus oordeel Kamer?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note77">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u16">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg21">Ik heb ook in het debat tegen de heer Jasper van Dijk gezegd dat het Nederlandse kabinet actief samenwerking zoekt met gelijkgezinden om het pact verder te kunnen brengen. Actief contact zoeken met gelijkgezinden: daar gaat het over.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note78">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u17">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg22">Tot slot, de heer Jasper van Dijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note79">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u18">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg23">Ik kijk nog even naar de motie. Wordt vervolgd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note80">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u19">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg24">Voorzitter. De tweede motie, de motie op stuk nr. 725 van mevrouw Koekkoek c.s., gaat over het toetsen van noodmaatregelen aan artikel 78, lid 3 TFEU als wettelijke basis. Ik snap de motie, maar we doen het al. Daarom moet ik haar helaas ontraden. In het kader van de BNC-fiches toetst het kabinet een wettelijk voorstel van de Commissie altijd op de bevoegdheid, de subsidiariteit en de proportionaliteit. Daarnaast kan bij een BNC-fiche het geldend internationaalrechtelijk kader worden betrokken, en dat zullen we in dit geval zeker doen. Voor het kabinet staat in dit geval voorop dat het recht op asiel en respect voor het principe van non-refoulement ook onder dit voorstel wordt nageleefd; het zal daar ook aan toetsen. We proberen het BNC-fiche sneller naar voren te brengen. Het wordt aan de Tweede Kamer voorgelegd voordat de Raad besluit. Misschien is het goed om te vermelden dat Nederland een studievoorbehoud heeft gemaakt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note81">Mevrouw Koekkoek (Volt)</note>
+            <u who="#MariekeKoekkoek" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u20">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg25">Dat laatste lijkt me heel goed. Het is ook goed om te horen dat het BNC-fiche er snel komt. Om even de context van de motie toe te lichten, juist omdat het om een uitzonderingssituatie gaat: de wettelijke basis die wordt aangehaald, is niet bedoeld voor de situatie die we nu hebben. Maar goed, het is onze enige wettelijke basis. Daar moeten we scherp op zijn. Omdat het Europese tijdpad nog weleens afwijkt van het nationale tijdpad, lijkt het mij heel goed dat achter het BNC-fiche haast gezet wordt, opdat de Kamer zich hier nog goed op kan beraden en zich hierover kan uitspreken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note82">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u21">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg26">Normaal is de termijn voor een BNC-fiche zes weken. We proberen echt alles op alles te zetten om dit te versnellen, want wij denken ook dat het belangrijk is dat de Kamer zo snel mogelijk weet wat het standpunt is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note83">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u22">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg27">Trekt u daarmee de motie op stuk nr. 725 in? Zij wordt ontraden. Nee, we gaan niet allemaal op elkaars moties reageren. Mevrouw Koekkoek.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note84">Mevrouw Koekkoek (Volt)</note>
+            <u who="#MariekeKoekkoek" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u23">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg28">Ik ga de motie niet intrekken, alhoewel ik wel waardeer wat de staatssecretaris hier toelicht. Ik laat haar even liggen, gewoon als haakje, opdat we het zeker weten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note85">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u24">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg29">Dat is aan u. Nee, mevrouw Kröger. We gaan niet op elkaars moties reageren, ook gezien de tijd. Uw naam staat ook onder de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note86">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u25">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg30">Ik heb een vraag naar aanleiding van de toezegging die de staatssecretaris hier deed op een punt waarover ook in het debat uitgebreid is gewisseld. Het BNC-fiche wordt zo snel mogelijk gestuurd, zegt de staatssecretaris, maar kan zij garanderen dat het zo tijdig wordt gestuurd dat de Kamer zich daarover kan buigen voordat een definitief standpunt is bepaald?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note87">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u26">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg31">Ik heb zojuist gezegd dat het aan de Tweede Kamer wordt voorgelegd voordat de Raad besluit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note88">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u27">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg32">Dank u wel. Dan de motie op stuk nr. 726.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note89">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u28">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg33">Ja, dan motie op stuk nr. 726 van mevrouw Piri. Die is prematuur, want er is nog geen BNC-fiche en in het BNC-fiche kijken we ook naar het recht op asiel. Daarom zou ik aan mevrouw Piri willen voorstellen de motie aan te houden. Anders moet ik haar ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note90">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u29">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg34">Ik kijk even naar mevrouw Piri, PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note91">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u30">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg35">Ik begreep al uit het debat dat het kabinet nog geen standpunt heeft ingenomen, dus ik snap deze opmerking van de staatssecretaris. Ik heb wel een standpunt ingenomen: volgens mij is de noodwetgeving niet in lijn met het recht op asiel. Dus ik houd de motie niet aan, maar ik breng haar gewoon in stemming.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note92">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u31">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg36">En het kabinet, Nederland, heeft juist een studievoorbehoud gemaakt bij het voorstel, en dat is niet voor niks, omdat we precies willen weten wat alle haken en ogen en implicaties zijn van het voorstel van de Commissie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note93">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u32">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg37">De motie op stuk nr. 727.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note94">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u33">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg38">De motie op stuk nr. 727 is ook van mevrouw Piri. Die moet ik ook ontraden. We zijn vóór toegang voor deze organisaties en dat geven we ook aan. Maar geld inhouden gaat te ver, en dat maakt de financiële EU-systematiek ook niet mogelijk. Daarnaast is het ook nog zo dat het kabinet van oordeel is, of ik van oordeel ben, dat we humanitaire hulp niet moeten politiseren, want dat zou dus het resultaat hiervan zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note95">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u34">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg39">Nu ben ik enigszins verbaasd, want ik heb hier specifiek de woorden gebruikt van de staatssecretaris die zij in het debat ook zei. Natuurlijk kan er sprake van zijn dat er geld gaat naar grensbewaking. Het gaat niet om het inhouden van geld; het gaat om extra financiële middelen, die 200 miljoen euro die is toegezegd. Toen zei de staatssecretaris: "Natuurlijk betekent dat dat er toegang moet zijn voor: ...". Dat rijtje heb ik opgesomd in de motie. En nu ontraadt ze die toch, dus ik snap niet helemaal hoe de staatssecretaris hierbij komt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note96">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u35">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg40">Ik heb zojuist gezegd dat wij vóór toegang zijn voor de organisaties die genoemd staan in de motie, en andere organisaties die humanitaire doelen voor ogen hebben. Dat geven we ook aan; dat hebben we aangegeven en dat geven we ook aan. Maar geld inhouden — want in de motie staat "voorwaardelijk te maken" — gaat te ver. En daarvan zeg ik ook: de financiële Europese Uniesystematiek maakt dat niet mogelijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note97">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u36">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg41">Mevrouw Piri, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note98">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u37">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg42">Het gaat niet om geld inhouden. Het gaat om extra geld, dat nu is of wordt aangevraagd door deze landen. Voor het eerst gaat de Europese Unie, in tegenstelling tot wat de voorzitter van de Commissie zei, muren en prikkeldraad financieren met Europees geld. Mijn vraag is: vindt u dan ook dat er als voorwaarde toegang moet zijn voor Frontex, EASO, het Rode Kruis, VN-organisaties tot dat gebied? Of zegt u eigenlijk: prima, bouw die muur maar; wij hoeven niet te zien wat daar gebeurt?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note99">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u38">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg43">Mevrouw Piri legt mij nu iets in de mond wat verre van mij is, zo van "doe maar, ga maar bouwen" enzovoort. Wij zijn als het Nederlandse kabinet voor toegang van deze organisaties. Het enige wat ik zeg is: wat in de motie staat, om dat "voorwaardelijk te maken aan de bereidheid" om enzovoort, dat gaat te ver. Iets anders heb ik niet gezegd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note100">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u39">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg44">Helder. De motie op stuk nr. 728.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note101">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u40">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg45">De motie van mevrouw Kröger op stuk nr. 728 gaat over een relocatiecoördinator. Daar hebben we het ook in het debat over gehad. Ik heb zonet in het commissiedebat ook gezegd: de eerste stap is om in het Europees asiel- en migratiepact afspraken te maken over verantwoordelijkheid en solidariteit. Aan de hand van die nieuwe afspraken kan te zijner tijd worden bezien of het aanstellen van een relocatiecoördinator nodig is. Maar op dit moment vind ik het prematuur, en daarom ontraad ik de motie, maar ik snap de overweging.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note102">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u41">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg46">Dank u wel. De motie op stuk nr. 729.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note103">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u42">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg47">De motie op stuk nr. 729 is ook van mevrouw Kröger. De Commissie heeft geconcludeerd dat Kroatië aan de technische eisen voldoet. Dat verandert niets aan de verplichting die op Kroatië rust ten aanzien van respect voor fundamentele rechten, inclusief mensenrechten. Maar op deze manier moet ik de motie ontraden. Want ik sta wel sympathiek tegenover de onderliggende gedachte van mevrouw Kröger, maar Nederland zal ook in de toekomstige rapportage van de Commissie rekening houden met fundamentele mensenrechten. De verplichting is er al, en de Commissie heeft geconcludeerd dat Kroatië aan de technische vereisten voldoet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note104">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u43">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg48">De motie gaat niet over die technische vereisten, maar die gaat over het moment dat er sprake is van een eventuele toetreding van Kroatië tot de Schengenzone. Als dat het geval is, kunnen we dat afhankelijk stellen van de mate waarin aantoonbaar de mensenrechten worden gerespecteerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note105">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u44">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg49">Er zijn speciale benchmarks waaraan getoetst wordt voor de toetreding. In dit geval van Kroatië is ook gezegd — en dat heb ik in de schriftelijke beantwoording op vragen, nog niet zo lang geleden, ook geantwoord — dat Kroatië aan de technische eisen voldoet. Dat betekent niet dat Kroatië gaat toetreden nu. Daarvoor gaan we eerst kijken hoe we met die hele Schengengrenscode verdere verbeteringen gaan aanbrengen en dergelijke. Ik sta sympathiek tegenover wat mevrouw Kröger heeft gezegd. Nederland zal zeker bij toekomstige rapportages rekening houden met wat mevrouw Kröger hier gezegd heeft. Mensenrechten zijn voor Nederland heel belangrijk. Maar om te zeggen dat we het afhankelijk stellen van mensenrechten, terwijl de Commissie nota bene al gezegd heeft dat Kroatië voldoet aan alle vereisten, gaat op dit moment te ver. Daarom moet ik de motie ontraden. Maar zoals gezegd, zullen wij daar zeker rekening mee houden en het er zeker bij betrekken wanneer de daadwerkelijke toetreding van Kroatië aan de orde is. Daar zijn we nog niet, want daarvoor hebben we eerst nog eens een keer de Schengengrenscode, enzovoort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note106">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u45">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg50">Dank u wel. Dan heb ik nog even een vraag aan de heer Jasper van Dijk over zijn eerste motie, want we gaan natuurlijk straks meteen stemmen. Wat gaat hij doen met de motie op stuk nr. 724?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note107">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u46">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg51">U heeft helemaal gelijk dat er enige spoed bij is. Ik heb het dictum nu als volgt gewijzigd: "verzoekt de regering actief met gelijkgestemde lidstaten stappen te zetten om tot een gezamenlijk asielbeleid te komen". Ik vraag de staatssecretaris of dat de formulering was waar we het net over hadden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note108">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u47">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg52">De motie-Jasper van Dijk (, nr. ) is in die zin gewijzigd dat zij thans luidt:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note109">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note110">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note111">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note112">constaterende dat het gezamenlijk Europees asielbeleid al jaren stilligt en dat er vanwege een veelheid aan opvattingen van lidstaten weinig zicht is op vooruitgang;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note113">overwegende dat een daadkrachtig Europees asielbeleid hard nodig is, gezien de zorgwekkende situatie aan de Europese buitengrenzen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note114">van mening dat mensenrechten alsmede het Vluchtelingenverdrag gerespecteerd dienen te worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note115">verzoekt de regering actief met gelijkgestemde lidstaten stappen te zetten om tot een gezamenlijk asielbeleid te komen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note116">en gaat over tot de orde van de dag.</note>
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg53">Zij krijgt nr. , was nr. 724 ().</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note117">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u48">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg54">Met die formulering kan ik de motie oordeel Kamer geven.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note118">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note119">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.u49">
+               <seg xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.seg55">Dank u wel. Daarmee zijn we aan het einde gekomen van deze beraadslaging. Ik schors de vergadering voor tien minuten en dan gaan we daarna meteen stemmen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-12-08-tweedekamer-4.note120">De vergadering wordt van 15.32 uur tot 15.44 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

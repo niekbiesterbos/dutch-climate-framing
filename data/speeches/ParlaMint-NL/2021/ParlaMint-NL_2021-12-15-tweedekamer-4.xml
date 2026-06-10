@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-12-15 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-12-15 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 35, Session 4 (2021-12-15)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 35, Session 4 (2021-12-15)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="35" xml:lang="en">Meeting 35</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-12-15">Sitting 2021-12-15</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="79">79 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="79">79 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3849">3,849 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3849">3,849 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-12-15">2021-12-15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="239"/>
+               <tagUsage gi="seg" occurs="95"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="79"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-12-15">2021-12-15</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.head1">Mijnbouw/Groningen</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg1">Aan de orde is een tweeminutendebat Mijnbouw/Groningen. Hartelijk welkom aan de beide bewindspersonen. Als eerste op mijn lijst staat mevrouw Beckerman, SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note2">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg2">Voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note6">constaterende dat er geen draagvlak is voor gaswinning onder de Waddenzee;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note7">constaterende dat onafhankelijk juridisch advies aan deze Kamer aangaf dat het kabinet deze vergunning kan weigeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note8">overwegende dat er een vernietigende MER-rapportage ligt en UNESCO de Waddenzee van de werelderfgoedlijst kan halen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note9">verzoekt de regering de voorgenomen gaswinning onder de Waddenzee niet door te laten gaan,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note11">Deze motie is voorgesteld door de leden Beckerman, Kröger, Nijboer, Van Raan en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note12">Zij krijgt nr. kst-33529-917</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note13">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg3">Mijn tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note14">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note15">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note16">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note17">constaterende dat de ongelijkheid in de schadeafhandeling toeneemt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note18">verzoekt de regering om, conform het advies van de Onafhankelijk Raadsman, het IMG te vragen gelijkwaardige schades in dezelfde omgeving gelijk af te handelen en een overgangsregeling op te stellen voor schades die zijn gemeld voordat er nieuwe kaders werden ingevoerd,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note19">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note20">Deze motie is voorgesteld door de leden Beckerman, Nijboer, Van Raan en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note21">Zij krijgt nr. kst-33529-918</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note22">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg4">Mijn derde motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note23">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note24">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note25">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note26">constaterende dat de versterking al jaren niet opschiet en het tekort aan uitvoeringscapaciteit alleen maar toeneemt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note27">verzoekt de regering voor februari 2022 een plan van aanpak klaar te hebben hoe er meer uitvoeringscapaciteit georganiseerd gaat worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note28">verzoekt de regering om, conform het advies van de Onafhankelijke Raadsman, de NCG op te dragen praktisch en doortastend op te treden voor gedupeerden en niet vanuit hoe kosten achteraf op de NAM verhaald kunnen worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note29">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note30">Deze motie is voorgesteld door de leden Beckerman, Nijboer, Van Raan en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note31">Zij krijgt nr. kst-33529-919</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note32">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg5">De vierde motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note33">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note34">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note35">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note36">overwegende dat de NAM (Shell en Exxon) een betalingsachterstand heeft bij het Rijk van 1,3 miljard euro;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note37">constaterende dat het kabinet "geen juridisch middel onbenut wil laten";</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note38">verzoekt de regering ook het leggen van beslag op bezittingen van NAM (Shell en Exxon), zoals de kleine gasvelden, als serieuze optie mee te nemen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note39">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note40">Deze motie is voorgesteld door de leden Beckerman en Alkaya.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note41">Zij krijgt nr. kst-33529-920</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note42">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg6">En de laatste, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note43">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note44">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note45">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note46">constaterende dat de waardevermeerderingsregeling een compensatie is voor de ellende die Groningers wordt aangedaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note47">overwegende dat afschaffen van deze regeling leidt tot ongelijkheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note48">spreekt uit dat de waardevermeerderingsregeling moet blijven bestaan,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note49">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note50">Deze motie is voorgesteld door de leden Beckerman, Nijboer en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note51">Zij krijgt nr. kst-33529-921</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note52">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg7">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note53">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg8">Dank aan mevrouw Beckerman. Dan is nu het woord aan mevrouw Mulder, CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note54">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg9">Goedemorgen. Ik begin met de motie en heb dan nog wat toelichting.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note55">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note56">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note57">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note58">constaterende dat de regering de unaniem aangenomen motie met oordeel Kamer van het lid Agnes Mulder (33529, nr. 759) van 27 mei 2020, om de evaluatie door een onafhankelijke instantie met anderhalf jaar te vervroegen en af te ronden in 2021, niet heeft uitgevoerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note59">constaterende dat deze handelswijze pas duidelijk werd na vragen van de Kamer over de stand van zaken ten aanzien van die evaluatie en dat de regering dus verzuimd heeft de Kamer zelf proactief te informeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note60">overwegende dat het gevolg daarvan is dat de evaluatie met een jaar is opgeschoven, hetgeen leidt tot grote onzekerheid bij inwoners in Twente;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note61">overwegende dat de Mijnraad adviseert om het voorzorgsprincipe toekomstbestendig toe te passen, gezien alle negatieve ervaringen die onze samenleving met mijnbouw in Groningen al heeft opgedaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note62">overwegende dat de onrust in Twente over afvalwaterinjectie vanwege de vele incidenten die er de afgelopen jaren geweest zijn met de afvalwaterinjectie, een schoolvoorbeeld is om gehoor te geven aan dat voorzorgsprincipe, door op de kortst mogelijke termijn van afvalwaterinjectie in Twente over te gaan op afvalwaterzuivering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note63">verzoekt de regering zo snel mogelijk een besluit te nemen over een alternatieve wijze van verwerking van het afvalwater;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note64">verzoekt de regering om de afvalwaterinjectie, in afwachting van een besluit naar aanleiding van de evaluatie over de verwerking van afvalwater uit Schoonebeek, per direct op te schorten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note65">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note66">Deze motie is voorgesteld door de leden Agnes Mulder, Grinwis en Boucke.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note67">Zij krijgt nr. kst-33529-922</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note68">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg10">Voorzitter. Ik heb al eerder, in 2016, een motie ingediend om de afvalwaterinjectie op te schorten. Dat was ook rondom de evaluatie. Wij betreuren het ten zeerste dat die evaluatie er nu nog niet ligt en we willen dat voorzorgsprincipe ook vandaag op een goede manier toepassen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg11">Voorzitter. Daarnaast vinden wij het goed dat er onderzoek komt naar de schade in het gebied om de gasopslag Norg. Maar voor ons is het ook belangrijk dat dit niet de eerste van vele onderzoeken wordt. Hoe gaan we voorkomen dat we net als in Groningen van onderzoek naar onderzoek gaan, terwijl de inwoners in onzekerheid blijven?</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg12">Voorzitter, dank.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note69">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg13">Dank aan mevrouw Mulder. Dan is nu het woord aan mevrouw De Vries, VVD. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note70">Mevrouw Aukje de Vries (VVD)</note>
+            <u who="#AukjedeVries" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg14">Dank u wel, voorzitter. We hebben nog een briefje gekregen van de minister van Onderwijs, Cultuur en Wetenschap over het erfgoed, maar ik ben daar niet helemaal tevreden over. Vandaar een motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note71">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note72">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note73">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note74">overwegende dat het behoud en herstel van monumenten en erfgoed in Groningen van groot belang is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note75">constaterende dat het programma erfgoed (monumenten) in Groningen nog doorloopt in 2022 en 2023;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note76">constaterende dat de bijdragen voor het programma erfgoed vanuit het ministerie van BZK, de Nationaal Coördinator Groningen (NCG) en de provincie Groningen wel doorgaan, maar die van het ministerie van Onderwijs, Cultuur en Wetenschap niet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note77">constaterende dat daardoor in 2022 en 2023 4,5 miljoen euro per jaar minder beschikbaar is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note78">verzoekt de regering te onderzoeken of en, zo ja, hoe binnen de bestaande budgetten van het ministerie van OCW ook een bijdrage voor 2022 en 2023 beschikbaar kan worden gesteld, en de Tweede Kamer daarover uiterlijk medio januari 2022 te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note79">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note80">Deze motie is voorgesteld door de leden Aukje de Vries, Agnes Mulder, Grinwis en Boucke.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note81">Zij krijgt nr. kst-33529-923</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note82">Mevrouw Aukje de Vries (VVD)</note>
+            <u who="#AukjedeVries" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg15">Tot slot nog een vraag over de afvalwaterinjectie in Twente. De evaluatie duurt heel lang. Ik ben benieuwd of de minister kan toezeggen dat de evaluatie eerder komt; ik hoop begin volgend jaar al. Op basis daarvan kunnen dan besluiten genomen worden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg16">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note83">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg17">Daar heeft de heer Nijboer een vraag over.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note84">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg18">Als ik goed heb opgelet, stond de VVD niet onder de motie die zojuist door het CDA en de andere coalitiepartijen is ingediend over de afvalwatering in Twente. Ik vroeg me af waarom dat zo was. Wil de VVD niet stoppen met afvalwaterlozing daar?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note85">Mevrouw Aukje de Vries (VVD)</note>
+            <u who="#AukjedeVries" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u16">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg19">Ik heb zonet al gevraagd naar het vervroegen van de evaluatie. Ik heb ook van de minister begrepen dat er op basis van wat er nu ligt geen gronden zijn om te stoppen met de huidige vergunning. Ik vind het dan raar — we leven ook in een rechtsstaat — om te zeggen: laten we per direct stoppen. Juridisch gezien is daar waarschijnlijk niet voldoende grond voor. Als dat anders is, hoor ik dat ook graag van de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note86">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u17">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg20">Dank aan mevrouw De Vries. Dan is het woord aan mevrouw Bromet, GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note87">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u18">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg21">Voorzitter. Ook namens mijn collega Suzanne Kröger, die niet aanwezig kan zijn, heb ik de volgende moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note88">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note89">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note90">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note91">overwegende dat gas- en oliewinning in de jaren veertig en vijftig onomstreden was en de nadelen ervan onbekend of ondergeschikt aan andere belangen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note92">overwegende dat veel van de wet- en regelgeving, vergunningen en het afwegingskader nog uit die tijd stamt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note93">overwegende dat we inmiddels weten van de nadelen van fossiele energie en de risico's die gepaard gaan met de winning ervan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note94">overwegende dat de nadelen en risico's van gas- en oliewinning enerzijds en de baten ervan anderzijds geografisch, sociaaleconomisch en in de tijd ongelijk zijn verdeeld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note95">verzoekt de regering om een breed opgezette maatschappelijke kosten- en batenanalyse op basis van het bredewelvaartsbegrip in opdracht te geven naar de beste langetermijnopties voor de oliewinning in Schoonebeek, met daarin nadrukkelijk de lokale belangen van Drenthe en Twente en die van toekomstige generaties,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note96">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note97">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note98">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note99">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note100">overwegende dat de bescherming van het leefmilieu in en via verschillende mensenrechtenverdragen is geborgd en de VN-Mensenrechtenraad op 8 oktober het recht op een schoon, gezond en duurzaam leefmilieu heeft erkend als apart mensenrecht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note101">overwegende dat dreiging van schending van mensenrechten een doorslaggevende rol speelde in de Urgenda-klimaatzaak en de Shell-klimaatzaak;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note102">overwegende dat mensenrechten niet zijn meegenomen in de juridische adviezen van de landsadvocaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note103">overwegende dat UNESCO heeft aangekondigd dat schade door gasboringen onverenigbaar is met de werelderfgoedstatus;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note104">verzoekt de regering te onderzoeken of de voorgenomen vergunning in lijn is met het Urgenda-arrest, de jurisprudentie in milieuzaken van het Europees Hof voor de Rechten van de Mens en uitleg van door Nederland erkende mensenrechten als leven, gezondheid en water, en de Kamer hier voor 15 januari over te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note105">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note106">Deze motie is voorgesteld door de leden Bromet, Kröger, Beckerman en Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note107">Zij krijgt nr. kst-33529-924</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note108">Deze motie is voorgesteld door de leden Bromet, Kröger, Beckerman en Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note109">Zij krijgt nr. kst-33529-925</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note110">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u19">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg22">En de laatste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note111">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note112">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note113">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note114">overwegende dat er grote onrust is om de hervatting van de injecties van afvalwater uit Schoonebeek in de bodem van Twente;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note115">overwegende dat er eerder in Nederland lekkages waren en recent ook in Duitsland giftig water is gelekt dat nu langzaam naar de oppervlakte komt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note116">constaterende dat door de serie storingen aan de verouderde installaties, gebrekkige inspecties en curatele van het SodM, het vertrouwen van omwonenden weg is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note117">constaterende dat het anno 2021 volstrekt ongepast is om vervuild afvalwater onder de grond te injecteren, omdat de langetermijneffecten niet helder zijn en de oliewinning een eindige activiteit is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note118">overwegende dat Shell en Exxon de NAM willen ontbinden en dat daarmee zowel de uitvoering van de huidige operaties in Schoonebeek en Twente als alle langetermijnverantwoordelijkheid in vreemde handen dreigt te komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note119">verzoekt de regering een moratorium in te stellen op afvalwaterinjecties totdat er een alternatief is voor de afvalverwerking, waardoor de huidige manier van afvalwaterinjecties overbodig is,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note120">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note121">Deze motie is voorgesteld door de leden Bromet, Kröger, Omtzigt, Nijboer, Beckerman, Stoffer en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note122">Zij krijgt nr. kst-33529-926</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note123">Dank aan mevrouw Bromet. Het woord is nu aan de heer Nijboer.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note124">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u20">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg23">Dank u wel, voorzitter. Het is een spannende week voor de inwoners van Twente die te maken hebben met afvalwaterinjectie. Ze hebben vorige week het debat gezien. De Kamer was kritisch. Vandaag zijn er de moties en morgen de stemmingen over die moties. Ik snap heel goed dat mensen er heel bezorgd over zijn dat het vervuilde afvalwater onder hun waardevolle grond terechtkomt. Er waren immers ook lekkende leidingen. Het is aan de Kamer om dit een halt toe te roepen, want de minister weigert dat te doen. Ik zag dat een aantal coalitiepartijen een motie indienden. Ik heb zelf ook een motie ingediend om dit een halt toe te roepen, samen met GroenLinks, de SP, de Partij voor de Dieren en een paar andere partijen. Ik denk dat die motie morgen een meerderheid gaat halen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg24">Het tweede punt dat aan de orde kwam, was: handen af van de Waddenzee. Houd toch op met die gasboringen. Ook daar is zojuist mede namens de PvdA een motie over ingediend. Ook daar zullen we morgen over stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg25">Ik heb zelf nog één motie. Die gaat over iets wat mij echt aan het hart gaat, namelijk de monumenten en beeldbepalende gebouwen. We kregen er vanochtend nog een briefje over. Ik denk dat de motie ook een beetje in lijn ligt met de motie die zojuist door mevrouw De Vries is ingediend. Die kunnen we nog in elkaar schuiven. Het is nog makkelijker als de minister gewoon zegt: we gaan het gewoon doen. Dan is het ook geregeld. Maar dat zien we zo in het vervolg van het debat.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note125">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note126">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note127">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note128">overwegende dat monumenten en beeldbepalende gebouwen veel te lijden hebben onder de aardbevingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note129">overwegende dat onze monumentale en beeldbepalende boerderijen, molens en kerken de ziel van het Groninger land vormen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note130">overwegende dat de regelingen met steun voor monumenten telkens overtekend zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note131">verzoekt het kabinet de steun voor monumenten en beeldbepalende gebouwen met volle kracht voort te zetten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note132">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note133">Deze motie is voorgesteld door de leden Nijboer, Beckerman en Bromet.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note134">Zij krijgt nr. kst-33529-927</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note135">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u21">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg26">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note136">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u22">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg27">Dank aan de heer Nijboer. Het woord is aan de heer Van Raan van de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note137">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u23">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg28">Het is terecht dat we ons zorgen maken over het lozen van vervuild water. Ik heb vier moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note138">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note139">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note140">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note141">constaterende dat door ONE-Dyas een vergunning is aangevraagd om in gasveld NO5S-A aardgas te winnen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note142">overwegende dat deze bedrijven van plan zijn om onder andere benzeen, kwik, zink en methanol via het productiewater in de Noordzee te lozen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note143">constaterende dat het Staatstoezicht op de Mijnen dit onwenselijk noemt, maar er weinig tegen kan doen omdat regelgeving ontbreekt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note144">constaterende dat de Mijnraad zorgen over de omvang van de lozingen heeft uitgesproken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note145">overwegende dat dit op nog geen 20 kilometer gebeurt boven Schiermonnikoog en dit project een net hersteld schelpdierrif bedreigt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note146">verzoekt de regering om lozingen van vervuild productiewater niet toe te staan,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note147">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note148">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note149">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note150">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note151">constaterende dat het kabinet in het dossier over gaswinning bij Ternaard stelt dat het niet anders kan dan zich aan de wet te houden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note152">constaterende dat het kabinet zegt dat het gehouden is aan de wet en de rechtsstaat, en deze behoort uit te voeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note153">constaterende dat er bedrijven opereren zonder natuurvergunning, waaronder Schiphol;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note154">constaterende dat Schiphol al in 2019 is verzocht een natuurvergunning aan te vragen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note155">constaterende dat deze staatsdeelneming niet aan de wet wordt gehouden door het kabinet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note156">verzoekt de regering om handhavend op te treden wanneer een bedrijf, en zeker een staatsdeelneming niet beschikt over de benodigde vergunningen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note157">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note158">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note159">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note160">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note161">constaterende dat de minister stelt dat (schuin) boren van buiten het Natura 2000-gebied om gas te winnen onder het Natura 2000-gebied niet in strijd is met het uitgangspunt dat er geen gas meer kan worden gewonnen in de Natura 2000-gebieden Waddenzee en Noordzeekustzone;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note162">constaterende dat de Kamer boren in het Waddenzeegebied onmogelijk heeft gemaakt met het aangenomen amendement van Vos uit 2016 (34348, nr. 103);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note163">spreekt uit dat het schuin boren van buiten en onder de Natura 2000-gebieden Waddenzee en Noordzeekustzone ook vallen onder de Mijnbouwwet, en dat het kabinet derhalve niet kan instemmen met het winningsplan,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note164">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note165">Deze motie is voorgesteld door de leden Van Raan en Beckerman.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note166">Zij krijgt nr. kst-33529-928</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note167">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note168">Zij krijgt nr. kst-33529-929</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note169">Deze motie is voorgesteld door de leden Van Raan en Beckerman.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note170">Zij krijgt nr. kst-33529-930</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note171">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u24">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg29">De laatste motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note172">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note173">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note174">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note175">constaterende dat zandsuppletie ingezet mag worden als compensatie bij bodemdaling door gaswinning;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note176">constaterende dat compensatie door zandsuppletie niet rijmt met het voorzorgprincipe van onze natuurbeschermingswetten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note177">constaterende dat de gevolgen van zandsuppletie op bodemdaling en na-ijleffecten niet zijn onderzocht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note178">verzoekt de regering om niet toe te staan dat zandsuppletie ingezet wordt als compensatie voor bodemdaling door gaswinning bij Ternaard,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note179">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note180">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note181">Zij krijgt nr. kst-33529-931</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note182">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u25">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg30">Voorzitter, dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note183">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u26">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg31">Dank aan de heer Van Raan. Ik kijk even naar de bewindspersonen. Is tien minuten schorsen voldoende? Ja.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note184">De vergadering wordt van 11.00 uur tot 11.10 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note185">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u27">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg32">Wij gaan luisteren naar minister Ollongren in reactie op de vijftien moties die zijn ingediend. Aan u het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note186">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u28">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg33">Dank, voorzitter. We hanteren dezelfde volgorde als in het commissiedebat. Ik zal drie moties bespreken. Daarna volgt mijn collega met de overige moties. Ik begin bij de motie op stuk nr. 919 van mevrouw Beckerman cum suis. Ik heb in het debat al gezegd dat we nu het meerjarenversterkingsprogramma hebben. In vervolg daarop komt in februari een overleg met de bouwtafels en alle partijen uit de sector. Dat wordt door de NCG georganiseerd. Daarna kunnen de bouwers gaan inschrijven op projecten. Ik beschrijf dit allemaal om te zeggen dat deze manier van werken ertoe leidt dat we in het eerste kwartaal van volgend jaar kunnen doen wat de motie vraagt. Dat plan van aanpak voor de uitvoeringscapaciteit zal dan namelijk gereed zijn. Als ik de motie dus zo mag lezen dat we in het eerste kwartaal van 2022 inzichtelijk maken hoe de uitvoeringscapaciteit wordt opgeplust en georganiseerd — er staat nu namelijk "februari 2022" — dan geef ik de motie graag oordeel Kamer, want voor het overige ben ik het helemaal eens met de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note187">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u29">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg34">Ik zie mevrouw Beckerman instemmend knikken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note188">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:lands" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u30">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg35">Dank. Dan wil ik iets zeggen over twee moties, namelijk de motie op stuk nr. 923 van mevrouw De Vries en de motie op stuk nr. 927 van de heer Nijboer. Die gaan beide over de monumenten. Ik heb in het vorige commissiedebat al gezegd dat er geld is vanuit andere bronnen dan OCW. De minister van OCW heeft ook nog overbruggingsfinanciering beschikbaar gesteld. Gisterenavond of vanochtend vroeg is er nog een brief gekomen — ik weet niet precies wanneer de Kamer die heeft gekregen — met verdere uitleg van de kant van OCW.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg36">Nu zie ik in ieder geval in de motie op stuk nr. 923 van mevrouw De Vries dat er wordt gevraagd om medio januari de Kamer nader te informeren. Ik zou mevrouw De Vries, en eigenlijk ook de heer Nijboer, het volgende willen suggereren. Wij hebben met elkaar nu wel duidelijk gemaakt hoe belangrijk we de monumenten vinden in de aanpak van Groningen. Ik denk dat we vanuit het buitengewoon demissionaire kabinet heel erg ons best hebben gedaan om zo veel mogelijk beschikbaar te hebben en dat daarmee de oproep duidelijk is aan het volgende kabinet om daar, net zoals in deze periode, structureel meer geld voor beschikbaar te stellen vanuit OCW. Maar in deze omstandigheden is het kabinet heel erg demissionair en kunnen we niet nog meer doen. Ik denk dat ik nu echt het maximale heb gedaan van wat we in de demissionaire periode kunnen doen. Ik zou de Kamer willen suggereren om beide moties aan te houden en straks bij het nieuwe kabinet — ik durf niet te zeggen wanneer het precies aantreedt, maar dat zou weleens een beetje kunnen samenvallen met de planning die in de motie op stuk nr. 923 staat — te kijken of het nog nodig is om deze moties in stemming te brengen. Mijn suggestie voor beide moties zou zijn om ze aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note189">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u31">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg37">Ik zie de heer Nijboer nee schudden. Dat betreft de motie op stuk nr. 927. Meneer Nijboer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note190">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u32">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg38">We zijn als Kamer al acht maanden zo missionair als wat, dus wij kunnen gewoon stemmen. Dit is wat wij vinden. Ik hou de motie niet aan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note191">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u33">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg39">Helder. Mevrouw De Vries.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note192">Mevrouw Aukje de Vries (VVD)</note>
+            <u who="#AukjedeVries" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u34">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg40">In principe zou ik daar wel toe bereid zijn, maar ik vind het dan ingewikkeld dat de heer Nijboer zijn motie wel in stemming brengt. Ik ga er dus nog eventjes over nadenken. Ik snap wat de minister zegt, ook op het gebied van de demissionaire status, maar we hopen natuurlijk allemaal dat er heel snel een nieuw kabinet zit. Ik heb nog wel de vraag of het dan zou helpen als de termijn wat naar achteren zou worden geschoven. Ik kan me voorstellen dat het misschien wat te krap zou zijn. Zou dat tot een ander oordeel kunnen leiden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note193">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u35">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg41">Ja, want als de moties wel in stemming worden gebracht, dan krijgen ze het oordeel "ontraden"?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note194">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u36">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg42">Ja, maar overigens niet vanwege de inhoud, want ik ben het met de inhoud eens. Het is meer omdat ik als demissionair minister — dan spreek ik ook namens mijn collega's — geen verdere stappen hierin kan zetten. Als de Kamer zegt "we beschouwen dit als een aanmoediging voor het volgende kabinet", dan daar ga ik verder niet over. Ik zeg: wij hebben gedaan wat we kunnen, dus hou ze aan tot een nader moment. Mevrouw De Vries vroeg of het helpt als het later is. Wist ik maar wanneer het volgende kabinet aantreedt. Dan kon ik met meer zekerheid zeggen dat dat helpt, maar ik weet wel één ding zeker: half januari is wel heel snel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note195">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u37">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg43">Oké, maar dan krijgen beide moties dus het oordeel "ontraden".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note196">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u38">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg44">Als mevrouw De Vries niet zou besluiten om ze aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note197">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u39">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg45">Ja, precies.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note198">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u40">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg46">Nogmaals, niet vanwege de inhoud, maar gewoon puur en alleen vanwege de timing en de demissionaire status.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note199">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u41">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg47">Daar gaat ze zich op beraden. Dat waren de moties op stukken nrs. 923 en 927.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note200">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u42">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg48">Dat waren de moties op stukken nrs. 923 en 927. Daarmee ben ik aan het eind van de beantwoording gekomen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note201">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u43">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg49">Dan geef ik het woord aan minister Blok voor de overige moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note202">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:energ" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u44">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg50">Dank u wel, voorzitter. De motie op stuk nr. 917 van mevrouw Beckerman met anderen verzoekt de regering de voorgenomen gaswinning onder de Waddenzee niet door te laten gaan. Zoals ik de Kamer eerder heb aangegeven, loopt er een aanvraagprocedure in het kader van de Mijnbouwwet en de Natuurbeschermingswet en zijn de collega van LNV en ik gehouden aan de procedure volgens die wetten. Ook dat is de rechtsstaat. Daarop vooruitlopend kunnen wij geen beslissing nemen om de winning niet door te laten gaan. Ik moet de motie op stuk nr. 917 dus ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg51">De motie op stuk nr. 918, ook van mevrouw Beckerman met anderen, verzoekt de regering conform het advies van de Onafhankelijk Raadsman het IMG te vragen gelijkwaardige schades in dezelfde omgeving gelijk af te handelen en een overgangsregeling in te stellen. Ik heb tijdens het debat aangegeven dat het IMG serieus aan het kijken is naar hoe moet worden omgegaan met de verschillen. Het IMG heeft eerder al in overleg met de keuringsinstellingen de procedure geharmoniseerd, maar in de verhouding tussen de minister en het IMG die de Kamer kent, past het niet als de minister vervolgens het IMG gaat vragen om op grond daarvan te handelen. Ik heb al aangegeven dat ik de Kamer wel zal informeren over de conclusie die het IMG trekt. Per saldo wordt ook de motie op stuk nr. 918 ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg52">De motie op stuk nr. 920 van mevrouw Beckerman verzoekt de regering ook het leggen van beslag op bezittingen van de NAM, zoals kleine gasvelden, als serieuze optie mee te nemen. Ik heb meerdere malen aangegeven dat het kabinet er vertrouwen in heeft dat de kosten van schadeherstel en versterking in Groningen kunnen worden verhaald op de NAM, dat de NAM een arbitrageprocedure is gestart en dat die nu haar beloop zal hebben, maar dat het niet logisch is om daarop vooruitlopend al beslag te gaan leggen. Ook de motie op stuk nr. 920 moet ik dus ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note203">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u45">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg53">De NAM, Shell en Exxon hebben nu een betalingsachterstand van 1,3 miljard voor de ellende die in Groningen is aangericht; 1,3 miljard! Beslaglegging vindt de SP gewoon een hele logische optie. Waarom doen we dat wel — daar is de SP tegen — bij huishoudens in het toeslagenschandaal, waarbij er heel makkelijk beslag wordt gelegd, maar niet als het om Shell, Exxon en de NAM gaat, die zo'n ramp hebben aangericht in Groningen? Ik begrijp niet waarom het kabinet dit niet eens als serieuze optie wil meenemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note204">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u46">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg54">Het gaat om het moment waarop we ons in de procedure bevinden. Er vindt een arbitrage plaats. Ik heb al aangegeven dat het kabinet alle vertrouwen in die procedure heeft, maar dan ga je niet op dit moment beslag leggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note205">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u47">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg55">Groningers moesten jarenlang zelf in hun eentje die strijd aangaan met de NAM, Shell en Exxon. Er zijn gedupeerden die zeiden: "Het lijkt alsof ik met een rietje moet strijden tegen een roedel wolven." Nu maakt het kabinet zelf mee hoe ongelijk en onrechtvaardig die strijd is. Ze hebben al 1,3 miljard niet betaald en dan nog staan we hier met: ja, we kijken een beetje naar de juridische mogelijkheden. Waar blijft het lef van het kabinet om te zeggen: we gaan er echt heel hard in, want Groningen verdient die toekomst, dat schadeherstel en die versterking en daar moeten Shell en Exxon hun eerlijke deel van betalen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note206">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u48">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg56">Juist in het belang van de juridische positie van de Staat moeten we zorgvuldig handelen. Beslag leggen is een stap die je ergens in de procedure kan nemen, maar niet op het moment waarop je nog in arbitrage zit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note207">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u49">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg57">Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note208">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u50">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg58">De motie op stuk nr. 921, ook van mevrouw Beckerman …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note209">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u51">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg59">Dat is een spreekt-uitmotie. Daar hoeft u niet …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note210">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u52">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg60">De motie heeft wel financiële consequenties. Wegens gebrek aan dekking moet ik haar dus ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg61">De motie op stuk nr. 922 van mevrouw Agnes Mulder verzoekt de regering de afvalwaterinjectie, in afwachting van een besluit naar aanleiding van de evaluatie over de verwerking van afvalwater uit Schoonebeek, per direct op te schorten. Ik heb tegenover de Kamer aangegeven dat de NAM daar werkt op basis van een verleende vergunning en dat daarbij een nauwgezette evaluatieprocedure geldt. Zolang iemand een vergunning heeft — of dat nu een meneer of mevrouw De Bruin is of de NAM — en aan de voorwaarden voldoet, is er geen rechtsgrond om de activiteiten die onder die vergunning vallen, stop te zetten. Dat geldt ook hiervoor en daarom ontraad ik deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg62">Mevrouw Mulder vroeg naar aanleiding van het door mij aangekondigde onderzoek naar oorzaken van bodemdaling rond de gasopslag Norg en hoe we voorkomen dat we van onderzoek naar onderzoek gaan. Dat is inderdaad zeer onwenselijk. Nu uit de onderzoeken die op verzoek van het IMG zijn gedaan, blijkt dat er behoudens een paar gebieden geen relatie is met de gaswinning, denk ik dat het verstandig is om te onderzoeken wat dan wél de oorzaak is. Bij mijn bezoek aan het gebied hoorde ik die wens ook; het was in ieder geval een wens van de bewoners die ik gesproken heb. Ik heb niet de intentie om daarna nog een serie onderzoeken te starten. Laten we dit in overleg met de bewoners en het lokale bestuur zorgvuldig doen. Natuurlijk zullen de resultaten met de Kamer gedeeld worden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg63">Mevrouw De Vries vroeg mij de evaluatie van de waterinjecties in Twente zo snel mogelijk te delen. Ik ben graag bereid om het zo snel mogelijk te doen. Ik heb in het debat aangegeven dat het SodM aan de NAM heeft gevraagd om de zorgen over twee putten waar waterinjectie plaatsvindt, mee te nemen in de evaluatie en dat dat de reden is dat het niet is gelukt om de evaluatie naar voren te schuiven. Maar natuurlijk zal die zo snel mogelijk naar de Kamer komen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg64">De motie op stuk nr. 924 van Bromet en anderen verzoekt de regering om een breed opgezette maatschappelijke kosten-batenanalyse uit te voeren naar de langetermijnopties voor de oliewinning in Schoonebeek. In het debat heb ik aangegeven dat ik het verstandig en logisch vind dat we in het kader van de weg naar nul CO in 2050 en de stappen die we daarbij moeten zetten naar andere energiebronnen, zorgvuldig moeten blijven bekijken welke energiebronnen we in Nederland kunnen inzetten en hoe we daarmee omgaan, terwijl we er in de tussentijd voor zorgen dat de huizen verwarmd worden en bedrijven kunnen blijven draaien. Ik ben dus graag bereid om ook de oliewinning in Schoonebeek daarvan onderdeel te laten zijn, en wel als een onderdeel van die bredere afweging: waar komt de energie in Nederland eigenlijk vandaan op weg naar 2050 en in 2050? Met die toelichting laat ik het oordeel over deze motie graag aan de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note211">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u53">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg65">De motie op stuk nr. 924 krijgt oordeel Kamer. Mevrouw De Vries heeft een vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note212">Mevrouw Aukje de Vries (VVD)</note>
+            <u who="#AukjedeVries" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u54">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg66">Niet over de motie, maar over het eerdere antwoord van de minister. Hij zegt "zo spoedig mogelijk". Is daar een tijdsindicatie bij aan te geven? Zou dat bijvoorbeeld einde eerste kwartaal 2022 kunnen zijn?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note213">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u55">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg67">Nogmaals, het is niet zo dat ik er belang bij heb om die evaluatie te vertragen. Ik begrijp heel goed waarom het SodM heeft gezegd: neem de zorgen over die twee putten mee. Het SodM is onafhankelijk, en zo hoort dat ook. Ik kan dat onderzoek dus niet doorkruisen. Ik kan dus alleen maar zeggen: zo snel mogelijk.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg68">Dan de motie op stuk nr. 925, ook van mevrouw Bromet. Daarin wordt de regering verzocht te onderzoeken of de voorgenomen vergunning in lijn is met het Urgenda-arrest en met de jurisprudentie in milieuzaken van het Europees Hof voor de Rechten van de Mens. Zoals de Kamer weet, loopt er een uitgebreide en zorgvuldige procedure in het kader van de daarbij relevante wetgeving. Nederlandse wetgeving vindt altijd plaats tegen de achtergrond van internationale verplichtingen van Nederland zoals mensenrechtenverdragen. Ik zie dus geen reden om een apart onderzoek te doen naar het in lijn zijn van deze vergunningsprocedure met mensenrechtenverdragen en relevante jurisprudentie, want dat zit al automatisch in de procedure. Daarom ontraad ik de motie op stuk nr. 925.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg69">De motie op stuk nr. 926, ook van mevrouw Bromet met anderen, verzoekt een moratorium in te stellen op afvalwaterinjecties. Dat is eigenlijk dezelfde motie als net besproken, dus het oordeel is daar ook hetzelfde over: ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg70">De motie op stuk nr. 928 van de heer Van Raan gaat in op de afvalwatersituatie met betrekking tot de mogelijke nieuwe gaswinning ten noorden van Schiermonnikoog, en verzoekt de regering om lozingen van vervuild productiewater niet toe te staan. Ook hiervoor geldt dat er een vergunningsprocedure in het kader van de Mijnbouwwet doorlopen wordt op dit moment, en dat de MER-procedure over die afvalwaterlozing heeft aangegeven dat er geen significante nadelige effecten te verwachten zijn bij de gekozen procedure. Daarom ontraad ik deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg71">De motie op stuk nr. 929, ook van de heer Van Raan, legt een verbinding, zoals de heer Van Raan ook tijdens het debat deed, tussen vergunningen voor gaswinning en Schiphol. Omdat hij dat doet, moet ik overleg plegen met de verantwoordelijke bewindspersoon. Dus ik wil hier graag schriftelijk op terugkomen. Nu kijk ik natuurlijk even verwachtingsvol naar de heer Van Raan om te zien of die gelegenheid er is. Anders moet ik deze ontraden, omdat ik mij anders ga uitspreken over het beleidsterrein van een collega.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note214">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u56">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg72">Dank aan de minister voor de bereidheid om te overleggen en hiernaar te kijken. Dat is aan de ene kant verbazingwekkend, omdat we al weten dat Schiphol geen natuurvergunning heeft. We weten al dat dat problematisch is. We weten al dat het kabinet daarover gesproken heeft. We weten ook dat deze minister, júíst deze minister, inderdaad heel erg hecht aan zaken als de rechtsstaat, het correct aflopen van de procedures et cetera.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note215">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u57">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg73">Uw vraag?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note216">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u58">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg74">Dus als dat overleg plaats kan vinden vóór de stemmingen, dan zou dat heel fijn zijn. Want er hoeft geen nieuwe informatie gevonden te worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note217">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u59">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg75">Bedankt voor het compliment. Alle ministers hechten zeer aan de rechtsstaat. Ik zal mijn best doen om vóór de stemmingen — die zijn morgen, neem ik aan — met een gezamenlijke brief naar de Kamer terug te komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note218">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u60">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg76">En dan, zo vraag ik aan de heer Van Raan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note219">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u61">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg77">Tja, voorzitter, dan zou ik zeggen: dan houd ik de motie aan tot morgen. Maar ik weet niet wat dat voor betekenis heeft.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note220">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u62">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg78">Of u trekt hem in, omdat het een toezegging is; dat is ook nog een optie. Dat zou zomaar kunnen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note221">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u63">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg79">Dat heb ik er niet in gelezen. De toezegging om met een brief te komen, is nog niet hetzelfde als ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note222">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u64">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg80">Ik maak het makkelijk: ik zorg ervoor dat er morgen vóór de stemmingen een brief is met een oordeel van de regering.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note223">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u65">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg81">Dat lijkt me heel goed.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note224">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u66">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg82">Mooi. Dank aan de heer Van Raan. Dan gaan we naar de motie op stuk nr. 930.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note225">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u67">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg83">De motie op stuk nr. 930, ook van de heer Van Raan, spreekt uit dat het schuin boren onder de Natura 2000-gebieden Waddenzee en Noordzeekustzone ook vallen onder de Mijnbouwwet. Eigenlijk vraagt de heer Van Raan aan de minister, die net een compliment kreeg voor zijn rechtsstatelijkheid, om bij motie de Mijnbouwwet te wijzigen. Dat gaan we niet doen, dus deze ontraad ik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note226">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u68">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg84">De heer Van Raan wil daar heel graag iets over zeggen. Het is bovendien een spreekt-uitmotie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note227">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u69">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg85">Ja, het is een spreekt-uitmotie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note228">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u70">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg86">Dan hoeft de minister, strikt genomen, daar niet eens een oordeel over te geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note229">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u71">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg87">Nee, dat begrijp ik, maar omdat de minister ook zelf aan geestelijke gymnastiek doet om — laten we zeggen — een wet te interpreteren ... In de memorie van toelichting op dat amendement werd heel duidelijk gemaakt dat boringen onder de Waddenzee niet gewenst zijn. Het amendement is aangenomen en maakt daarmee deel uit van die wet. Dus de constatering die de minister maakt, van "ik of de Kamer ga de wet wijzigen met deze motie", dat misverstand wil ik even weghalen; dat is niet zo.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note230">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u72">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg88">Oké.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note231">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u73">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg89">O, dan wil ik dit misverstand weghalen: in 2016 was heel goed bekend dat schuin boren onder de Waddenzee wel was toegestaan. Dus ik kom echt niet tot een ander oordeel over de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note232">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u74">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg90">Dat was de motie op stuk nr. 930. Dan gaan we naar ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note233">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u75">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg91">De motie op stuk nr. 931, ook van de heer Van Raan, verzoekt de regering om niet toe te staan dat zandsuppletie wordt ingezet als compensatie voor bodemdaling door gaswinning bij Ternaard. Er vindt, zoals bezoekers van het Waddengebied — waaronder ikzelf — kunnen vaststellen, echt bij alle Waddeneilanden met grote regelmaat zandsuppletie plaats, en dat is maar goed ook voor de bewoners van de Waddeneilanden. In de MER wordt aangegeven dat er mogelijk wat extra zandsuppletie nodig is, maar het is echt niet zo dat er geen zandsuppletie plaatsvindt als er wel of geen gaswinning plaatsvindt. Dus de motie die oproept om dat niet te gaan doen, moet ik echt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note234">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u76">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg92">De motie op stuk nr. 931 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note235">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u77">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg93">Daarmee ben ik tevens aan het eind gekomen van mijn reactie op de ingediende moties, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note236">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u78">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg94">Ik dank beide bewindspersonen voor hun komst naar de Kamer en ik dank mijn collega's.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note237">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note238">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.u79">
+               <seg xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.seg95">Morgen zal er worden gestemd over de ingediende moties. Ik schors de vergadering tot 12.00 uur en dan gaan we door met het coronadebat.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-12-15-tweedekamer-4.note239">De vergadering wordt van 11.29 uur tot 12.02 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

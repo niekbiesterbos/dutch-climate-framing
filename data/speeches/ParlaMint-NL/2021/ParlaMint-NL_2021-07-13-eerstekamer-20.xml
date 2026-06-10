@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Upper House 2021-07-13 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2021-07-13 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 46, Session 20 (2021-07-13)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 46, Session 20 (2021-07-13)</title>
+            <meeting ana="#parla.upper #parla.meeting.regular" corresp="#EK" n="46" xml:lang="en">Meeting 46</meeting>
+            <meeting ana="#parla.upper #parla.session" corresp="#EK" n="20" xml:lang="en">Session 20</meeting>
+            <meeting ana="#parla.upper #parla.term #EK.36" corresp="#EK" n="36-upper" xml:lang="en">Meeting of the 36th Eerste Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.upper #parla.sitting" corresp="#EK" n="2021-07-13">Sitting 2021-07-13</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="25">25 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="25">25 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3651">3,651 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3651">3,651 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.eerstekamer.nl/</idno>
+               <date when="2021-07-13">2021-07-13</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="28"/>
+               <tagUsage gi="seg" occurs="52"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="25"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-07-13">2021-07-13</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.head1">Uitvoering verordening identiteitskaarten</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note1">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:immig" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u1">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg1">Aan de orde is de behandeling van het wetsvoorstel 35552-(R2148), Wijziging van de Paspoortwet in verband met de uitvoering van Verordening (EU) 2019/1157 van het Europees Parlement en de Raad van 20 juni 2019 betreffende de versterking van de beveiliging van identiteitskaarten van burgers van de Unie en van verblijfsdocumenten afgegeven aan burgers van de Unie en hun familieleden die hun recht van vrij verkeer uitoefenen (PbEU 2019, L 188), kortweg Uitvoering verordening identiteitskaarten. Ik heet de staatssecretaris van Binnenlandse Zaken en Koninkrijksrelaties van harte welkom in de Eerste Kamer.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note2">De beraadslaging wordt geopend.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note3">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u2">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg2">Ik geef het woord aan de heer Van Hattem namens de fractie van de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note4">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u3">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg3">Dank, voorzitter. Waar een paspoort bij uitstek altijd een symbool is van een soevereine staat en het meest tastbare bewijs dat een burger tot die staat behoort, wordt ook dit instrument steeds meer vanuit Brussel weggeroofd bij de natiestaten en onderdeel gemaakt van de EU-superstaat. Het EU-dictaat dat aan deze wet ten grondslag ligt, beveelt zelfs dat de blauwe EU-vlag pontificaal en full colour op ons paspoort geprint moet worden. In de volksmond werd het oude Nederlandse paspoort dat vanaf de jaren vijftig werd gebruikt, het model-1950, ook wel "het zwarte vod" genoemd — ik heb hier het exemplaar van wijlen mijn opa meegenomen als voorbeeld — voordat dit een mooi bordeauxrood jasje kreeg. Met de blauwe vlag der eurocraten erop kunnen we voortaan beter spreken van "het blauwe vod". In ruil voor die vlag komt de EU met deze nieuwe Europese verordening identiteitskaarten ook even een stuk privacy opeisen. Vanwege deze EU-verordening en middels de voorliggende wet wordt afname van vingerafdrukken voor paspoorten en identiteitskaarten weer verplicht, en dat terwijl Nederland in 2014 zelf had besloten de verplichte vingerafdrukken af te schaffen, omdat dit technisch ondeugdelijk en onwerkbaar was gebleken. Nu komt het niet uit eigen beweging maar op last van Brussel weer terug.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg4">Van de organisatie Privacy First ontving deze Kamer afgelopen week een brief waarin zij punctueel uiteenzette welke juridische belemmeringen zij ziet bij de uitvoerbaarheid van deze wet ten aanzien van de verplichte vingerafdrukken. Vanmiddag hebben we daarover ook nog een petitie in ontvangst mogen nemen. In de memorie van antwoord gaf de staatssecretaris op antwoord op de vraag van onze PVV-fractie over het tegemoetkomen aan eerdere bezwaren tegen het opnemen van vingerafdrukken slechts aan dat in EU-verband onvoldoende medestanders konden worden gevonden. Privacy First wijst echter op diverse bezwaren en belemmeringen. Bij gebrek aan een tweede schriftelijke ronde vraag ik de staatssecretaris in dit debat om op deze aandachtspunten in te gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg5">Allereerst heeft in mei 2016 de Raad van State geoordeeld dat vingerafdrukken in Nederlandse identiteitskaarten in strijd zijn met het recht op privacy wegens een gebrek aan noodzaak en proportionaliteit. Kan de staatssecretaris aangeven hoe dit wetsvoorstel aan deze bezwaren van de Raad van State tegemoetkomt?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg6">Volgens Privacy First is uit Wob-verzoeken gebleken dat het te bestrijden fenomeen van lookalikefraude met ID-documenten zo kleinschalig is dat verplichte afgifte van vingerafdrukken ter bestrijding hiervan disproportioneel en daarmee onrechtmatig zou zijn. Kan de staatssecretaris reflecteren op dit bezwaar en op de eventuele kansen op juridische procedures die op grond hiervan zouden kunnen volgen?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg7">Verder stellen zij dat bij vingerafdrukken in paspoorten en identiteitskaarten enkele jaren geleden sprake zou zijn van een biometrisch foutenpercentage van 30%. Hierbij wordt verwezen naar een brief van staatssecretaris Teeven van 31 januari 2013. In 2011 gaf minister Donner aan dat het zou gaan om een foutenpercentage van 21% tot 25%. Vanwege deze hoge foutenpercentages werden de vingerafdrukken in identiteitsbewijzen in de praktijk niet meer gebruikt. Kan de staatssecretaris aangeven wat thans de verwachting is ten aanzien van foutenpercentages en welke stappen nu zijn gezet om zulke hoge foutenpercentages te voorkomen?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg8">Voorts wordt gesteld dat staatssecretaris Bijleveld in september 2009 vanwege deze hoge foutenpercentages alle Nederlandse gemeenten instrueerde om in principe geen vingerafdrukverificatie uit te voeren bij de uitgifte van paspoorten en identiteitskaarten, omdat bij een mismatch het ID-document retour gezonden dient te worden naar de paspoortfabrikant. Dat zou voor problemen aan gemeentebalies zorgen, zeker bij hoge aantallen. Kan de staatssecretaris aangeven in hoeverre dit beletsel inmiddels weggenomen is? Kan hij daarbij tevens ingaan op het punt dat wij in de schriftelijke ronde hebben voorgelegd, namelijk de situatie bij een defecte chip? De staatssecretaris zegt dat het ID-document dan ook zal worden ingenomen. Maar kunnen burgers dan ook snel een vervangend ID-document krijgen waarmee ze alsnog op reis kunnen? Er zijn tijdelijke paspoorten die worden uitgegeven, waar overigens in Almere vandaag nogal wat problemen mee waren. Zijn die te zien als een gelijkwaardig uitgeefbaar document?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg9">Volgens Privacy First lopen sinds 2016 bij het Europees Hof voor de Rechten van de Mens in Straatsburg diverse individuele Nederlandse rechtszaken, waarin verplichte afgifte van vingerafdrukken voor paspoorten en ID-kaarten aangevochten wordt wegens strijd met artikel 8 EVRM, het recht op privacy. De PVV-fractie heeft niet veel op met het Europese Hof, maar het is wel van belang of dit misschien nog tot problemen gaat leiden. Kan de staatssecretaris aangeven wat de stand van zaken is en wat de te verwachten consequenties zijn voor de uitvoerbaarheid van deze wet?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg10">In 2011 werd de decentrale en geplande centrale opslag van vingerafdrukken na een rechtszaak van Privacy First inzake de Paspoortwet afgeschaft. In hoeverre wordt nu aan die bezwaren tegemoetgekomen?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg11">De argumentatie bij dit wetsvoorstel vanuit de regering is maar magertjes: het moet nu eenmaal van de EU, dus doen we het maar gewoon. Gelet op alle eerdere bezwaren is het maar de vraag of er niet vroeg of laat een politieke verrassing als een duveltje uit een doosje zal komen. Zo'n onaangename verrassing overkwam ook de bewindslieden van het kabinet-Lubbers, in de jaren tachtig, toen zij probeerden een nieuw, fraudebestendig, Europees paspoort te ontwikkelen. Dat leidde uiteindelijk tot een parlementaire enquête, onder leiding van de hier welbekende Loek Hermans, en het opstappen van minister Van Eekelen en staatssecretaris René van der Linden, hier ook welbekend. Kan de huidige demissionaire staatssecretaris dan ook beargumenteren wat hij heeft gedaan om een ambtsopvolger niet met een nare politieke verrassing op te zadelen, gelet op de vele bezwaren op juridisch vlak en ten aanzien van de uitvoerbaarheid?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg12">Voorzitter, tot slot. In de memorie van antwoord geeft de staatssecretaris aan dat onder andere Frontex veel gevallen van paspoortfraude tegenkomt. Dan is het een druppel op een gloeiende plaat om de veiligheidseisen van ID-documenten aan te scherpen terwijl de grenzen wagenwijd open blijven staan. In een EU zonder effectieve grenscontroles en met open grenzen is dit dus ook niet meer dan een schijnoplossing. Wat de PVV betreft hebben we deze EU-bemoeizucht dan ook helemaal niet nodig.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg13">Voorzitter, tot zover in eerste termijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note5">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u4">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg14">Dank u wel, meneer Van Hattem. Dan is het woord aan de heer Dittrich namens de fractie van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note6">De heer Dittrich (D66)</note>
+            <u who="#BorisDittrich" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u5">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg15">Voorzitter. Vandaag bespreken we hoe de nieuwe identiteitskaart in Nederland eruit gaat zien. Maar wat is identiteit eigenlijk? Identiteit kies je niet, die krijg je opgeplakt, of zoals Sinan Çankaya het zegt in interviews over zijn boek Mijn ontelbare identiteiten, uit 2020: "Identiteit is altijd relationeel. Het gaat vooral over hoe de omgeving jou definieert en op jou reageert. Je identiteit bezit je niet."</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg16">En toch heeft de Europese Commissie besloten dat er binnen de Europese Unie uniforme identiteitskaarten moeten komen, met als hoofddoelen: fraude beter aanpakken bij de grenzen van de EU en het recht op vrij verkeer van EU-burgers vergemakkelijken. De ontelbare identiteiten van een persoon worden in de kaart gereduceerd tot een naam, een geboortedatum, nationaliteit, een nummer, vergezeld van twee vingerafdrukken en een gezichtsopname. De kaart wordt "versierd", zeg ik met name tegen de heer Van Hattem, met de Europese blauwe vlag met gele sterren, in de wereld inmiddels een bekend symbool van Europa.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg17">De nieuwe identiteitskaart zal, nadat de wet te zijner tijd is aangepast, niet meer het geslacht van de persoon vermelden. De staatssecretaris gaat eind 2022 het wetsvoorstel dat dat mogelijk maakt bij de Tweede Kamer indienen. Maar waarom niet veel eerder? In Europa hebben Griekenland en Duitsland de geslachtsregistratie, die ook wel sekseregistratie wordt genoemd, op hun identiteitskaarten al afgeschaft. Bij de Nederlandse regering wordt er al lang op aangedrongen onnodige geslachtsregistraties achterwege te laten. Zo heeft Human Rights Watch in een rapport uit 2011 over de rechten van transgendermensen in Nederland al de aanbeveling gedaan formulieren en documenten te ontwerpen die mensen de mogelijkheid bieden hun gender of sekse niet meer te vermelden. En in 2007 en 2017 hebben de internationale experts die de Jogjakarta-beginselen hebben opgesteld, het internationale mensenrecht "the right to legal recognition" uitgewerkt. De experts roepen staten op ervoor te zorgen dat identiteitsdocumenten alleen persoonlijke informatie behelzen die relevant, redelijk en noodzakelijk is. Beëindig de registratie van sekse of gender in identiteitsdocumenten, adviseerden zij in 2007 en 2017. Sinds 2007 hebben alle Nederlandse regeringen die Jogjakarta-beginselen onderschreven. Als laatste punt wil ik noemen dat de Nederlandse regering de Equal Rights Coalition heeft opgericht samen met Uruguay. Daar zijn inmiddels 42 landen in de wereld lid van. Zij huldigen dit standpunt ook.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note7">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u6">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg18">Ik heb een vraag aan mijn collega ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note8">De heer Dittrich (D66)</note>
+            <u who="#BorisDittrich" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u7">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg19">Dittrich.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note9">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u8">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg20">Uiteraard. Ik wilde even de rust in het debat brengen, en dat is gelukt. Maar dus even een vraag aan collega Dittrich. Kan hij het zich ook voorstellen dat er kwetsbare mensen zijn die het juist heel fijn en belangrijk vinden om hun geslacht te laten vermelden op hun identiteitskaart?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note10">De heer Dittrich (D66)</note>
+            <u who="#BorisDittrich" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u9">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg21">Daar moet ik even over nadenken. Het gaat erom dat er een aantal gegevens op een identiteitskaart staan die de identiteit van de persoon waarborgen. In de regeling die gaat gelden zijn dat naam, bsn-nummer, nationaliteit en dan die biometrische gegevens. Dat zijn de noodzakelijke en ook redelijke eisen die je kunt stellen aan een identiteitskaart. Ik vind dat een goeie opzet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note11">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u10">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg22">Ja, maar dan toch een stapje verder, terug naar mijn vraag. Zijn er ook mensen in een kwetsbare positie die het juist fijn vinden dat bij die belangrijke gegevens ook aangegeven wordt dat ze man of vrouw zijn?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note12">De heer Dittrich (D66)</note>
+            <u who="#BorisDittrich" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u11">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg23">Ik kan mij zo voorstellen dat een identiteitskaart eigenlijk alleen noodzakelijke gegevens heeft. Ik begon mijn inleiding met te zeggen dat de identiteit van een persoon uit veel meer lagen en gegevens bestaat dan de reductie op de kaart. Als iemand het belangrijk vindt dat zijn of haar geslacht deel uitmaakt van de identiteit, kun je dat op heel andere manieren vormgeven. Dat hoeft niet bij deze kaart, die uiteindelijk via technische manieren wordt gelezen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note13">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u12">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg24">Ik stel voor dat u uw betoog vervolgt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note14">De heer Dittrich (D66)</note>
+            <u who="#BorisDittrich" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u13">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg25">Ook in het regeerakkoord van 2017 zegt de regering toe om onnodige geslachtsregistratie tegen te gaan. Bij brief van 3 juli vorig jaar schrijft minister Van Engelshoven aan de Eerste Kamer, mede namens deze staatssecretaris, wat de stand van zaken is. Er blijkt een rapport verschenen te zijn van de Universiteit Utrecht. Organisaties als Atria en Transgender Netwerk Nederland hebben een toolkit ontworpen over hoe overheden, het bedrijfsleven en maatschappelijke organisatie onnodige geslachtsregistraties kunnen verminderen. Die gegevens zijn overduidelijk. Er is dus helemaal geen verder onderzoek meer nodig. Dat brengt mij tot de vraag aan de staatssecretaris waarom het zo langzaam gaat. Zo moeilijk is het toch niet om een wetsvoorstel te schrijven? Zou de staatssecretaris ons willen toezeggen dat hij dat wetsvoorstel eerder gaat indienen dan eind 2022, zoals hij in de stukken schrijft?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg26">Voorzitter. Dan heb ik nog een aantal vragen over de uitvoerbaarheid van het voorliggende wetsvoorstel. De nieuwe identiteitskaart, nu dus nog met die geslachtsregistratie, wordt vanaf 2 augustus aanstaande verstrekt. In de schriftelijke voorbereiding heeft de staatssecretaris op vragen van D66 geantwoord dat er niet voorzien is in extra aandacht voor het indammen van etnisch profileren bij de controle van de kaart. Dat antwoord baart de fractie van D66 toch zorgen, moet ik zeggen. Officieel mogen de vingerafdrukken alleen geverifieerd worden als er qua foto onduidelijkheid bestaat over de identiteit van de persoon, maar we kennen natuurlijk allemaal de verhalen over zwarte mannen of vrouwen met een hoofddoek die extra worden gecontroleerd. Is de staatssecretaris bereid om de introductie van de nieuwe identiteitskaart aan te grijpen om de controleurs — denk aan de marechaussee, de Douane of de politie — erop te wijzen dat etnisch profileren uit den boze is?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg27">De biometrische gegevens komen alleen op de identiteitskaart te staan en, zo heeft de staatssecretaris uitgelegd, ze worden niet centraal opgeslagen. Dat lijkt ons inderdaad heel terecht. De staatssecretaris zegt dat er een sleutel wordt ontwikkeld die de landen de mogelijkheid geeft de gegevens op de kaart te lezen. Maar die sleutel is er nog helemaal niet. Andere landen kunnen de vingerafdrukken dus nog niet controleren, mocht er gerede twijfel zijn over de identiteit van een persoon. Wat is de stand van zaken nu? Klopt het overigens dat de sleutel die ontworpen wordt, ook toegang geeft tot het burgerservicenummer, de biometrische gezichtsopname en andere persoonlijke feiten die in de chip op de kaart staan? Hoever zijn de andere landen met hun apparatuur? Hoever is Nederland? Zal die apparatuur veilig genoeg zijn en bestand zijn tegen bijvoorbeeld hacken? Want we weten allemaal hoe die techniek zich ontwikkelt en we kennen allemaal verhalen dat op het darkweb vingerafdrukken van onschuldige burgers worden verhandeld. Wij willen graag van de staatssecretaris horen dat de sleutel die ontworpen zal worden, veilig is. Wil de staatssecretaris ons daarover informeren?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg28">Binnen 90 dagen na afgifte van de identiteitskaart worden de biometrische gegevens gewist en vernietigd door de gemeente die de kaart heeft uitgegeven. In de schriftelijke beantwoording schreef de staatssecretaris ons dat de minister van BZK toezicht houdt op de daadwerkelijke vernietiging. Maar hoe gaat dat toezicht op de daadwerkelijke vernietiging in de praktijk nou eigenlijk in z'n werk? Want we moeten niet hebben dat biometrische gegevens blijven rondslingeren. Dat gebeurde in 2006 wel met lege paspoorten. Dat was ook gedecentraliseerd. Die werden gestolen en verhandeld. De vraag, de achterliggende gedachte, is natuurlijk: is het veilig genoeg om het toezicht op zo'n manier te verankeren?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg29">Tot slot, meneer de voorzitter, nog een vraag over Nederlanders in het buitenland. Een nieuwe identiteitskaart mag alleen afgegeven worden nadat de persoon fysiek is verschenen en zijn biometrische gegevens heeft afgestaan. Maar woon je als Nederlander in een ver land, ver van de ambassade of Nederlandse vertegenwoordiging, ben je ziek of zijn er andere zwaarwegende omstandigheden waardoor je niet in persoon op de aanvraaglocatie kunt verschijnen, dan is het praktisch onmogelijk om aan die verschijningsplicht te voldoen. De door de regering gevonden oplossing is het — nu komt een vreselijk woord — mobiel vingerafdrukopnameapparaat, het MVA. Dan wordt aan huis voldaan aan de verschijningsplicht. Op zichzelf lijkt me dat een mooie oplossing, maar hoe gaat dat in het buitenland in z'n werk, bijvoorbeeld als je in een groot land leeft waar geen Nederlandse vertegenwoordiging is? Ik noem maar even Kameroen of Zambia, waar de Nederlandse ambassades zijn opgeheven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg30">Voorzitter. D66 zou graag zien dat als dit wetsvoorstel in werking treedt, de technische aspecten rond de vingerafdrukopname qua veiligheid zullen worden geëvalueerd. Is de staatssecretaris daartoe bereid? In het kader van de evaluatie denken wij ook dat het heel belangrijk is dat de uitkomsten van de rechtszaken die nu bij het Europees Hof voor de Rechten van de Mens in Straatsburg aanhangig zijn, worden meegenomen in de evaluatie. De vraag nu is wat de stand van zaken is met betrekking tot die rechtszaken. Is de staatssecretaris bereid om daar in de evaluatie ook op te letten?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg31">Daarmee kom ik tot het einde van mijn bijdrage. Ik ben heel benieuwd naar de beantwoording van de staatssecretaris.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg32">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note15">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u14">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg33">Dank u wel, meneer Dittrich. Dan is nu het woord aan de heer Schalk namens de fractie van de SGP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note16">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u15">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg34">Voorzitter, dank u wel. Bij een identiteitskaart draait het uiteraard om datgene wat er op die kaart staat, maar soms is het ook van belang te bespreken wat er niet op staat. Ik spreek nu misschien nog in raadselen, maar die zal ik oplossen in mijn betoog. Eén ding is zeker: de normale gegevens zijn nodig en dat wordt nu aangevuld met een gezichtsopname en twee vingerafdrukken. Het is vrij logisch dat daar een verschijningsplicht bij hoort. Ook is het van belang om oog te hebben voor degenen die niet kunnen verschijnen door allerlei beperkingen. Hier wordt terdege rekening mee gehouden. Mijn fractie zegt dank daarvoor.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg35">Voorzitter. Wat kan en/of moet er nog meer op de identiteitskaart staan? De Raad van State heeft aangegeven dat er een transponeringstabel gevoegd moet worden bij een verordening, met name om weer te geven hoe de regering omgaat met de beleidsruimte van een dergelijke verordening. In deze transponeringstabel staat een element dat vragen oproept bij mijn fractie. Bij artikel 3 staat in het vak "omschrijving beleidsruimte" genoteerd: vermelding geslacht op identiteitskaarten optioneel. Vervolgens staat er onder de toelichting op de keuzen bij de invulling van de beleidsruimte dat op grond van artikel 3 van de Paspoortwet het geslacht wordt vermeld. Mijn vraag is waarom dit element is opgenomen in de transponeringstabel, terwijl er verder helemaal niet naar verwezen wordt in dit wetsvoorstel.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg36">Ik zag dat de staatssecretaris bij de behandeling in de Tweede Kamer zijn eerste termijn begon met te zeggen dat de Paspoortwet zo dynamisch is, ik citeer, "omdat er allerlei dimensies aan vastzitten, zoals het gendervraagstuk, de dimensie van de privacy en de dimensie van de veiligheid". Op mijn schriftelijke vragen over dit thema heeft de regering geantwoord dat dit element valt onder de nationale bevoegdheid en dat dit nu niet aan de orde is in deze wet. Ik zou daar graag nog wel een nadrukkelijke bevestiging van hebben. Maar waarom is het hier dan toch genoemd? Wat is het voordeel van het wel of niet noemen van het geslacht in het kader van de veiligheid en in het kader van identiteitsverificatie?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg37">De staatssecretaris heeft in de schriftelijke ronde dus laten weten dat er in deze fase niet gesleuteld wordt aan de registratie van het geslacht op de identiteitskaart. Hij heeft aangekondigd dit in de toekomst wel te willen gaan doen, maar hoe verhoudt dat voornemen zich met het doel om de identiteitsverificatie van de identiteitskaart te optimaliseren? Het lijkt hier te draaien om het woordje "onnodige": onnodige geslachtsregistratie. Is de staatssecretaris het met mij eens dat het juist in het kader van veiligheid en identiteit van belang is om te weten of er mannen of vrouwen de grens overgaan? Denk aan terroristische aanslagen. Denk ook aan de laffe aanslag onlangs op Peter R. de Vries, waarna onmiddellijk een signalement uitging waardoor je de helft van de eventuele daders eigenlijk al elimineerde. Ziet de staatssecretaris met mij dat het wel heel vreemd zou zijn als er bij een signalement niet meer gesproken zal of mag worden over een man of een vrouw? Daarmee elimineer je immers al de helft van de potentiële daders.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg38">Voorzitter. Dan nog iets over de Europese verordening, maar dat is een ander punt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note17">De heer Dittrich (D66)</note>
+            <u who="#BorisDittrich" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u16">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg39">Ik begrijp eerlijk gezegd niet goed waarom de politie, als zij een signalement wil doen uitgaan, niet zou kunnen zeggen: wij verdenken een man of een vrouw. Wat heeft dat met die identiteitskaart te maken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note18">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u17">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg40">Dat begrijp ik. Misschien heb ik een te grote gedachtesprong gemaakt, maar het kan zomaar zijn bij terroristische aanslagen dat iemand de grens over wil. Dan heeft hij een identiteitskaart en komt hij bijvoorbeeld bij een vliegveldgate waar hij zijn identiteitskaart laat zien. Daar heb ik aan gedacht toen ik dit voorbeeld noemde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note19">De heer Dittrich (D66)</note>
+            <u who="#BorisDittrich" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u18">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg41">Als een potentiële terrorist een aanslag wil plegen en hij of zij laat een identiteitskaart zien, dan is het toch totaal niet relevant of er op die identiteitskaart "man" of "vrouw" staat?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note20">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u19">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg42">Ik heb de gedachtesprong gemaakt of je het, als je het niet meer op een identiteitskaart wil of mag zetten, nog wel mag roepen of zeggen. Ik ben blij dat de heer Dittrich het met mij eens is dat je dat gewoon voluit mag blijven roepen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note21">De heer Dittrich (D66)</note>
+            <u who="#BorisDittrich" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u20">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg43">Ja, want we hebben het hier over de noodzakelijke gegevens die op een kaart moeten staan. Alles wat onnodig is, hoeft er niet meer op. U bent het met mij eens dat het geslacht niet nodig is op die identiteitskaart.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note22">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u21">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg44">Die laatste conclusie trek ik nog niet met u. Ik denk juist dat het wel nodig kan zijn. Daarover heb ik zojuist een interruptiedebatje met u gevoerd. Daar wil ik vooral op ingaan als de staatssecretaris ooit zou komen met een voorstel. Je brengt misschien ook wel een hele grote groep mensen in de problemen door het niet facultatief te maken en te zeggen: wij vinden het onnodig, dus we zetten het niet meer op een kaart. Ik kan me zomaar voorstellen dat een aantal mensen, met name uit de kwetsbare groep, het heel erg ingewikkeld zouden kunnen vinden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note23">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u22">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg45">Vervolgt u uw betoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note24">De heer Schalk (SGP)</note>
+            <u who="#PeterSchalk" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u23">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg46">Dat ga ik doen, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg47">Dan wil ik nog even iets zeggen over deze Europese verordening die leidt tot de nieuwe identiteitskaart, waar het stempel van de EU op komt. Dat gaat er nog even overheen, want er moet en zal een Europese vlag op staan. Wat voegt dit element eigenlijk toe aan de veiligheid en de identiteitsverificatie? Naast de EU-vlag, blauw met gele sterren, worden overigens de letters van de lidstaat op de kaart afgedrukt. Is het ook toegestaan, vraag ik de staatssecretaris, om daar de nationale driekleur bij af te beelden? Mogen de Europese vlag en de Nederlandse vlag beide afgebeeld worden? Dat zou ik een interessante optie vinden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg48">Voorzitter. Mijn fractie is benieuwd naar de antwoorden, zoals altijd natuurlijk, ook op de vragen over de vermelding van het geslacht bij deze wijziging. Als ondubbelzinnig blijkt dat dit nu niet aan de orde is, kan mijn fractie deze wijziging van de identiteitskaart wellicht positief bejegenen. Ik ben dus benieuwd naar de reactie van de staatssecretaris.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg49">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note25">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u24">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg50">Dank u wel, meneer Schalk.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg51">Wenst een van de leden in de eerste termijn nog het woord? Dat is niet het geval.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note26">De beraadslaging wordt geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note27">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:trade" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.u25">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.seg52">Dan gaan we straks verder met dit onderwerp, na een korte derde termijn van de behandeling van het wetsvoorstel inzake Invest International.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-20.note28">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

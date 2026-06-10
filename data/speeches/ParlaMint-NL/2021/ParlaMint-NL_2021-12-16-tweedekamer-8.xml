@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-12-16 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-12-16 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 36, Session 8 (2021-12-16)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 36, Session 8 (2021-12-16)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="36" xml:lang="en">Meeting 36</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="8" xml:lang="en">Session 8</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-12-16">Sitting 2021-12-16</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="35">35 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="35">35 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2506">2,506 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2506">2,506 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-12-16">2021-12-16</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="145"/>
+               <tagUsage gi="seg" occurs="59"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="35"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-12-16">2021-12-16</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.head1">Kansspelen</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:domes" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg1">Aan de orde is het tweeminutendebat Kansspelen, met als eerste spreker de heer Heerema, VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note2">De heer Rudmer Heerema (VVD)</note>
+            <u who="#RudmerHeerema" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg2">Voorzitter, dank. Ik begin meteen met de moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note6">constaterende dat in samenspraak met organisaties die tot doel hebben verslaving aan kansspelen te beperken en te voorkomen een nieuwe waarschuwende tekst is ontwikkeld die gehanteerd dient te worden bij wervings- en reclameactiviteiten voor kansspelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note7">constaterende dat deze waarschuwende tekst voor alle kansspelen ongeacht hun risicoprofiel zal gelden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note8">overwegende dat het hanteren van de nieuwe waarschuwingstekst voor alle kansspelen op gespannen voet staat met het besluit van de regering om in toekomstige wet- en regelgeving het risicoprofiel van het kansspel meer centraal te stellen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note9">overwegende dat in toegestane uitzendtijden van kansspelreclames en bij de inzet van beroepssporters in werving en reclame reeds een onderscheid wordt gemaakt tussen risicovolle kansspelen en risicoarme kansspelen zoals loterijen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note10">overwegende dat wanneer loterijen de nieuwe waarschuwingstekst zouden moeten hanteren dit mogelijk een negatief effect heeft op de maatschappelijke afdrachten voor de sport en goede doelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note11">verzoekt de regering in de vorm van een wetswijziging loterijen vanwege hun risicoarme spelaanbod toe te staan, een alternatieve waarschuwende tekst te hanteren bij hun wervings- en reclameactiviteiten, de effecten hiervan te monitoren en de uitkomsten hiervan te betrekken bij de evaluatie van de Wet kansspelen op afstand,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note12">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note13">Deze motie is voorgesteld door het lid Rudmer Heerema.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note14">Zij krijgt nr. kst-24557-181</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note15">De heer Rudmer Heerema (VVD)</note>
+            <u who="#RudmerHeerema" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg3">Ik doe de tweede motie er meteen achteraan.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note16">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note17">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note18">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note19">constaterende dat loterijen een belangrijke bijdrage leveren aan de financiering van goede doelen en de sport;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note20">overwegende dat onderscheid op basis van het risicoprofiel van het kansspel van belang is voor zowel kanalisatie als de fondsenwervende functie van risicoarme kansspelen en daarmee de doelstellingen van het kansspelbeleid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note21">overwegende dat de regering voornemens is om in toekomstige wet- en regelgeving het risicoprofiel van het kansspel meer centraal te stellen, onder andere ten behoeve van innovatie van het spelaanbod van risicoarme kansspelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note22">verzoekt de regering in wet- en regelgeving die betrekking heeft op kansspelbeleid het onderscheid tussen risicovolle en risicoarme kansspelen te verankeren zodat de gevolgen voor risicoarme kansspelen worden meegewogen bij elke wijziging van kansspelbeleid, wet- en regelgeving,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note24">Deze motie is voorgesteld door het lid Rudmer Heerema.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note25">Zij krijgt nr. kst-24557-182</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note26">Dank aan de heer Heerema. Dan is nu het woord aan mevrouw Kathmann van de PvdA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note27">Mevrouw Kathmann (PvdA)</note>
+            <u who="#BarbaraKathmann" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg4">Voorzitter. De onlinegokmarkt is open en dat hebben we geweten ook. We zijn platgegooid met gokreclames en daardoor als Kamerleden platgegooid met mails van bezorgde ouders, partners en verslavingsgevoeligen. Klachten niet alleen over gokreclames, maar ook over gepersonaliseerde advertenties na het bezoek van onlinegoksites over het aanvragen van kredietjes en leningen tegen torenhoge rentes. Zorgen over de giftige cocktail van lockdown en lockdownachtige maatregelen, gecombineerd met de toestroom aan reclames die met name kwetsbare jongeren naar goksites moeten lokken. Het derde punt zijn de meldingen over kinderen die op de accounts van hun ouders gokken door geld vanaf hun eigen rekening over te maken op de accounts van hun ouders.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg5">Bij al deze zorgen horen wat de Partij van de Arbeid betreft de volgende voorstellen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note28">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note29">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note30">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note31">constaterende dat mensen die online gokken na het bezoek van onlinegokwebsites onlinereclames krijgen die snelle kredieten en leningen aanbieden tegen torenhoge rentes;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note32">overwegende dat dit gokverslaafden in grote financiële problemen kan brengen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note33">verzoekt de regering te onderzoeken wat mogelijk is om gepersonaliseerde advertenties na het bezoek van gokwebsites tegen te gaan en daarbij te kijken naar de wenselijkheid op een verbod op gepersonaliseerde advertenties na het bezoeken van gokwebsites,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note34">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note35">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note36">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note37">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note38">overwegende dat de onlinegokmarkt ten tijde van de coronacrisis is geopend;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note39">overwegende dat bovenmatig gokgedrag moet worden voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note40">overwegende dat het aantal kwetsbare jongeren als gevolg van de coronacrisis is toegenomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note41">van mening dat voorkomen moet worden dat jongeren door de coronamaatregelen bij gebrek aan andere ontspanningsmogelijkheden gaan gokken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note42">verzoekt de regering te laten onderzoeken in hoeverre jongeren door de coronamaatregelen zijn gaan gokken, en daarover binnen twee maanden de Kamer te berichten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note43">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note44">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note45">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note46">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note47">constaterende dat er van derde rekeningen geld gestort kan worden op onlinegokaccounts;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note48">overwegende dat dit drempelverlagend werkt voor kinderen om stiekem op het account van ouders te gokken, aangezien kinderen vanaf hun eigen rekening geld kunnen overmaken naar een account aangemaakt op de identiteit van de ouder;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note49">overwegende dat het op goksites zoals Unibet zelfs niet mogelijk was om geld te storten op een account met een rekening van een derde, dan werd je account direct geblokkeerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note50">van mening dat we alles moeten doen om te voorkomen dat kinderen online gaan gokken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note51">verzoekt de regering ervoor te zorgen dat het storten van geld op een onlinegokaccount via de bankrekening van een derde onmogelijk wordt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note52">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note53">Deze motie is voorgesteld door de leden Kathmann en Van Nispen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note54">Zij krijgt nr. kst-24557-183</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note55">Deze motie is voorgesteld door de leden Kathmann, Kuik en Van Nispen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note56">Zij krijgt nr. kst-24557-184</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note57">Deze motie is voorgesteld door de leden Kathmann, Van Nispen en Kuik.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note58">Zij krijgt nr. kst-24557-185</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note59">Ik vind het echt een applaus waard. U was een ware spraakwaterval, maar u was binnen de tijd. Ik wens u toe dat u even ademhaalt om weer bij te komen. Het was vrij indrukwekkend wat u hier ten gehore bracht.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note60">Het woord is aan de heer Van Nispen van de SP.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note61">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg6">Dank u wel, voorzitter. Ik heb in zo'n geval ook altijd respect voor de stenografen. Dat vind ik ook altijd een prestatie op zichzelf.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg7">Wij maken ons grote zorgen sinds de opening van de gokmarkt. We worden inderdaad bestookt door reclames. We zien dat er heel grote risico's zijn. Ook de SP denkt dat er nu reden is om in te grijpen. Daarom twee moties.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg8">De eerste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note62">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note63">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note64">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note65">constaterende dat sinds de opening van de onlinekansspelmarkt er een grote toename is van het aantal uren dat mensen doorbrengen op onlinegoksites en dat consumenten bestookt worden op allerlei media met een grote hoeveelheid ongerichte reclames voor kansspelen op afstand;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note66">overwegende dat het aanwakkeren van het deelnemen aan kansspelen niet het doel was van het legaliseren van online kansspelen, maar nu in feite wel het resultaat is, met mogelijk grote maatschappelijke gevolgen, zoals financiële problemen en verslavingsproblematiek;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note67">overwegende dat het grote aantal reclames niet in verhouding staat met het doel van de Wet kansspelen op afstand, namelijk het realiseren van kanalisatie naar legaal aanbod;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note68">verzoekt de regering, een verbod in te stellen op ongerichte reclames voor risicovolle kansspelen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note69">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note70">Deze motie is voorgesteld door de leden Van Nispen, Kathmann, Bikker, Kröger, Kuik, Simons, Wassenberg, Van der Staaij, Azarkan en Koekkoek.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note71">Zij krijgt nr. kst-24557-186</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note72">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg9">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note73">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note74">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note75">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note76">overwegende dat inherent aan gokken is dat sommige mensen verslaafd raken aan gokken, maar de informatie over verslavingszorg nu onvoldoende onder de aandacht wordt gebracht van consumenten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note77">verzoekt de regering onlineaanbieders van kansspelen te verplichten om op hun onlineplatforms consumenten, op de hoofdpagina én bij het opstarten van een spel, duidelijk en zichtbaar te wijzen op verslavingszorg en het bestaan van het Centraal Register Uitsluiting Kansspelen (CRUKS);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note78">verzoekt de regering tevens, er voor zorg te dragen dat consumenten die zich inschrijven in CRUKS ook direct worden geïnformeerd over verslavingszorg en het aanbod wordt gedaan dat mensen kunnen worden gebeld door een hulpverlener,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note79">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note80">Deze motie is voorgesteld door de leden Van Nispen, Kathmann, Kuik en Bikker.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note81">Zij krijgt nr. kst-24557-187</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note82">Dank aan de heer Van Nispen. Dan is nu het woord aan mevrouw Bikker van de ChristenUnie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note83">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u7">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg10">Voorzitter, dank u wel. Ik heb een tweetal moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note84">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note85">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note86">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note87">constaterende dat het WODC stelt dat er meer moet worden gedaan om jongeren te beschermen tegen gokreclames;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note88">overwegende dat juist internationale sportevenementen met een Nederlandse vertegenwoordiging een grote aantrekkingskracht hebben op minderjarigen en jongvolwassenen en gokadvertenties momenteel juist rondom dit soort evenementen plaatsvinden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note89">overwegende dat bijvoorbeeld de Belgische VRT heeft besloten geen gokreclames uit te zenden rondom de Olympische Spelen en het EK voetbal;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note90">verzoekt de regering op korte termijn met de publieke en commerciële omroepen te komen tot afspraken over het stopzetten van gokreclames rondom goed bekeken internationale sportevenementen met een Nederlandse vertegenwoordiging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note91">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note92">Deze motie is voorgesteld door de leden Bikker, Van Nispen en Kuik.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note93">Zij krijgt nr. kst-24557-188</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note94">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u8">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg11">De tweede motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg12">De Kamer,</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg13">gehoord de beraadslaging,</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg14">constaterende ...</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg15">Voorzitter, ik heb twee keer dezelfde motie geprint. Mijn medewerker is ziek en je ziet meteen hoe onthand ik ben. Hoe gaan we dit oplossen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note95">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u9">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg16">Ik geef u de ruimte om uw tweede motie straks alsnog in te dienen. Gaat u daar dus naar op zoek.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note96">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u10">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg17">Dank u wel, en excuus. Mijn medewerker zal ik niet vinden, dus ik ga zoeken naar de tweede motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note97">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u11">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg18">Dan geef ik tussendoor het woord aan mevrouw Kuik, CDA. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note98">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u12">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg19">Voorzitter, dank. Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note99">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note100">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note101">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note102">constaterende dat uit onderzoek van Britse gedragswetenschappers blijkt dat het instellen van een speellimiet door deelnemers van onlinekansspelen zelf ertoe leidt dat ze een limiet kiezen die tot wel 50% lager is dan wanneer zij speellimieten voorgesteld krijgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note103">constaterende dat er in de huidige Wet kansspelen op afstand geen verplichting bestaat voor het instellen van speellimieten voor deelnemers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note104">overwegende dat het wenselijk is dat er een speellimiet komt voor onlinekansspelen en dat deelnemers bij aanmelding bij een onlinekansspelaanbieder zelf een limiet moeten instellen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note105">verzoekt de regering om het instellen van maximale speellimieten bij onlinekansspelen vast te leggen in de wet op een wijze waarop deelnemers zelf bepalen wat hun speellimiet is, en de Kamer daarover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note106">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note107">Deze motie is voorgesteld door de leden Kuik, Van Nispen, Bikker en Kathmann.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note108">Zij krijgt nr. kst-24557-189</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note109">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u13">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg20">Dan heb ik nog anderhalve minuut om vol te spreken om zo mevrouw Bikker de ruimte te geven, maar misschien ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note110">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u14">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg21">Nee, daar gaan we heel makkelijk mee om. We geven namelijk eerst nog het woord aan de heer Sneller van D66. Ik heb goede hoop dat mevrouw Bikker daarna haar tweede motie kan indienen. Loopt u dus heel langzaam, meneer Sneller. Neem uw tijd. Het woord is aan de heer Sneller.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note111">De heer Sneller (D66)</note>
+            <u who="#JoostSneller" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u15">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg22">Dank, voorzitter. Op de dag dat het rapport-Van der Staaij wordt gepresenteerd, dacht ik, als lid van de werkgroep: geen moties vandaag.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg23">Maar er waren nog twee punten waarop ik wilde terugkomen naar aanleiding van het debat. Punt een is dat ik de minister helemaal heb laten wegkomen zonder een definitie van "kanalisatie" met ons te delen. Dat wil ik dus graag hebben rechtgezet.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg24">Het tweede punt is dat ik aan de ene kant toch zou nadenken over de overvloed aan reclames. Ik ben niet voor een geheel verbod, ook niet ongericht, voor alleen maar risicovolle kansspelen, zoals in de aangekondigde motie is voorgesteld. Maar de minister zei in het debat: in 2023 of 2024 is het wel een keer uitgetrild en zullen wij de balans wel kunnen opmaken. Dat vind ik te laat. De afgesproken Reclamecode wordt ook pas in oktober 2022 geëvalueerd. Dat vind ik ook te laat, zeker omdat we weten dat er in april nog een aantal nieuwe toetreders zijn. Ik zou de minister dus willen vragen om niet alleen een monitoring met ons te delen van hoe er is omgegaan met die Reclamecode, maar om daar ook een eigen opvatting bij te geven. De minister heeft in het debat namelijk ook gezegd: ik kan mij voorstellen dat er een moment komt dat wij meer regels en wettelijke beperkingen moeten stellen. Het lijkt mij goed om daarover begin volgend jaar een nieuwe weging te hebben, in de brief die in het debat ook al is aangekondigd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg25">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note112">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u16">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg26">Dank. Dan is nu, rapapa, rapapa, het woord aan mevrouw Bikker voor haar tweede motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note113">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u17">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg27">Voorzitter, dank u wel. Die twee minuten had ik al voor de helft verbruikt, hoor.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note114">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note115">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note116">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note117">constaterende dat het WODC stelt dat er meer moet worden gedaan om jongeren te beschermen tegen gokreclames;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note118">overwegende dat de Reclamecode Online Kansspelen weliswaar venstertijden voor onlinereclame bevat, maar dat handhaving op een reclamecode omslachtig is en altijd enkel achteraf bij klachten kan plaatsvinden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note119">overwegende dat al in 2016 een Kamermeerderheid vroeg venstertijden voor gokreclames ook online te laten gelden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note120">verzoekt de regering in regelgeving vast te leggen dat onlinegokreclames aan dezelfde venstertijden moeten voldoen als gokreclames op televisie en radio,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note121">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note122">Deze motie is voorgesteld door de leden Bikker, Van Nispen en Kuik.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note123">Zij krijgt nr. kst-24557-190</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note124">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u18">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg28">Met grote dank aan uw genadevolle blik, voorzitter. En ook dank aan de medewerker van D66 die als een razende gerend heeft om deze motie te printen, wat we niet verder vertellen. Maar het staat wel in de Handelingen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note125">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u19">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg29">Dank, mevrouw Bikker. Ik schors voor enkele ogenblikken en dan gaan we luisteren naar de beantwoording door de minister.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note126">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note127">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u20">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg30">Ik geef het woord aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note128">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u21">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg31">Dank u wel, voorzitter. Goed om het debat dat we gisteren zijn begonnen, hier plenair af te ronden. Het was een goed debat, want we zitten allemaal boven op de opening van de markt. Dat levert een bijdrage aan de kanalisatie en ik denk dat dat goed is, want we halen mensen weg uit het illegale aanbod en we geven de Ksa meer mogelijkheden om in te grijpen. Tegelijkertijd willen we natuurlijk ook allemaal kijken wat er gebeurt. Leidt het niet juist tot meer onmatig spelgedrag? Wat gebeurt er met de reclames, et cetera, et cetera? Ik denk dat we allemaal wel bepaalde zorgen delen, maar we verschillen misschien nog wat van mening over de vraag of we nu al moeten ingrijpen of het nog even moeten aanzien. Daar gaan de meeste moties over.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg32">Voordat ik de moties doe, beantwoord ik twee vragen van de heer Sneller. De eerste gaat eigenlijk over "die reclames van het najaar te laat" of "de settlement van de markt in '23/'24 te laat". We zouden er eigenlijk in het voorjaar al meer bovenop moeten zitten en dan ook moeten kijken wat er gebeurt. Daarna moeten we ons ook een oordeel vormen over de vraag of dat dan toch om extra maatregelen vraagt. Ik vind dat terecht en ik zeg dat toe. Ik loop niet vooruit op wat dan precies, maar we moeten inderdaad niet alleen kijken naar wat er gebeurt, maar ook of er reden is om bij te sturen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg33">De tweede vraag gaat over de definitie van kanalisatie. Het idee van kanalisatie is dat zo veel mogelijk spelers bij een legale aanbieder spelen. Mijn definitie van kanalisatie is het percentage van het totale aantal Nederlandse spelers dat speelt via een legale aanbieder. Hopelijk is er dan nog maar een klein percentage dat nog steeds illegaal speelt bij een niet-vergunde aanbieder.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg34">De motie op stuk nr. 181. Daarover hebben we gisteren uitvoerig gediscussieerd. Wat we nu hebben gedaan, is wat de wet ons vraagt. Daar liggen overigens ook rapporten onder. Ik kan in principe goed leven met de uitkomst, maar ik zeg er ook bij dat ik me kan voorstellen dat de Kamer zegt: we hadden het amendement-Mei Li Vos niet zo bedoeld en daarom willen we dat herzien. Deze motie vraagt om een uitspraak van de Kamer daarover en ik kan daarom het oordeel ook aan de Kamer laten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg35">Datzelfde geldt voor de motie op stuk nr. 182: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg36">Voorzitter. Dan de motie op stuk nr. 183. Ik zou die oordeel Kamer willen geven, met dien verstande dat ik eerst wil kijken in hoeverre dit echt al zo het geval is. De indiener heeft dat kennelijk geconstateerd of gehoord, maar dat moeten we natuurlijk eerst even goed checken. Als dit gebeurt, zou ik het ook zeer onwenselijk vinden. Het zou dan redelijk zijn om daartegen op te treden. Dat vraagt misschien ook nog wel wat aan de kant van Financiën, want dit gaat verder dan alleen maar het kansspelbeleid. Maar daar zal ik me dan hard voor maken. Oordeel Kamer!</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg37">Het oordeel over de motie op stuk nr. 184 kan ik ook aan de Kamer laten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg38">Voorzitter. De motie op stuk nr. 185 is overbodig, want het besluit Koa geeft al aan dat storting vanaf derde rekeningen niet is toegestaan. Als daar wel sprake van is, dan is het veel effectiever dat de Ksa weet waar dat precies gebeurt, want dan zijn partijen in overtreding en kan zij handhavend optreden. Daarmee is deze motie niet nodig en kan ik haar ontraden. Sterker nog, de motie zou ondermijnen wat we in de wet- en regelgeving hebben, want wat in de motie wordt verondersteld, mag niet.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg39">Voorzitter. De motie op stuk nr. 186 ontraad ik onder verwijzing naar het debat van gisteren. Dit zou heel concreet betekenen dat er geen reclames meer mogelijk zouden zijn op de televisie. Ik sluit niet uit dat dat in de toekomst ooit een keer nodig zou kunnen zijn, maar ik vind het daarvoor nu te vroeg.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg40">Voorzitter. Het oordeel over de motie op stuk nr. 187 kan ik aan de Kamer laten als ik haar zo mag interpreteren dat mensen geïnformeerd worden, zodra ze op een website komen. Dat moet natuurlijk altijd wel zo gedimensioneerd worden dat het niet ... Nou, het moet een nette plek krijgen, want er moet ruimte zijn voor andere dingen. Datzelfde geldt voor het inschrijven in Cruks. Ik weet niet of dat allemaal via de telefoon moet, maar als mensen zich inschrijven, dan doen ze dat niet voor niets en dan moeten ze ook goed geïnformeerd worden over waar ze terechtkunnen voor meer hulp.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg41">Voorzitter. De motie op stuk nr. 188 vind ik een ingewikkelde motie, want die vraagt mij om afspraken te maken met de publieke en commerciële omroepen, ook als het gaat om de Ster-uitzendingen. Ik ben een tijdje staatssecretaris geweest van Media en dan geldt de onafhankelijkheid van de media niet alleen maar voor de programma's die ze maken, maar zelfs voor de reclameblokken. Daarom heeft de Ster ook een onafhankelijke positie. Ik voel mij daarom niet senang met het maken van afspraken over dit soort zaken. We hebben daar ook geen wettelijke titel voor. Dat zou voor mij de reden zijn om deze motie nu te ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg42">Ik zie wel uw punt. Dit gaat ook over zelfbeheersing en over afspraken die de markt natuurlijk wel kan maken. Daar ligt ook de reclamecode die deze week is goedgekeurd. Ik wil natuurlijk net als u in het voorjaar zien dat dat leidt tot verbeteringen. Als dat onvoldoende is, hebben we het moment van de heer Sneller en kunnen we altijd weer ingrijpen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note129">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u22">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg43">Voordat u verdergaat heeft mevrouw Bikker hier een vraag over.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note130">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u23">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg44">Ik zie ook wel dat de minister geen ijzer met handen kan breken, zeker niet omdat hier geen wettelijk grondslag voor is, daarover nadenkend. Tegelijkertijd merk ik ook dat hij wel meevoelt wat dit probleem betreft. Zou hij het zien zitten om in ieder geval een oproep te doen aan de betrokkenen om tot zulke afspraken te komen of in ieder geval een oproep om zich hierin te beheersen? Dan heeft hij dit voorjaar een prettiger gesprek met deze Kamer en de gokbedrijven denken wellicht zelf na over wat het effect is van wat zij doen. Zou hij dat zien zitten? Als hij de motie zo leest, hoe kijkt hij er dan naar?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note131">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u24">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg45">Die oproep doe ik graag. Ik maak mij geen illusies. Via de televisie wordt er door verschillende partijen goed meegekeken en goed meegeluisterd met wat wij bespreken in dit debat. Volgens mij voelt iedereen ook aan, zeker de aanbieders, dat als het gaat om de reclames, er ook politiek grote zorgen zijn, zo niet wrevel, en dat het ook maar net op het randje is of de politiek zegt: wij vinden het genoeg, wij grijpen in. De waarschuwing naar de markt, naar de sector is dus: hou daar rekening mee. Ik heb liever dat ze het zelf regelen, onderling, en dat ze nadenken over matiging. Ik weet niet of het zo ver moet gaan als u in die motie vraagt, namelijk stopzetten. Ik zou daar zelf iets meer ruimte in willen bieden. Maar dat men rond dit soort dingen echt doodgegooid wordt met reclames over online gokken gaat er, denk ik, vroeg of laat een keer toe leiden dat de Kamer gaat ingrijpen. Dus voorkom dat moment, zeg ik tegen de sector. Hierbij heb ik die oproep dan ook onmiddellijk gedaan. Zorg voor matiging.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note132">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u25">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg46">Dan dank ik de minister voor de oproep en houd ik de motie op dit moment aan. Maar andersom is ook wel mijn duidelijke stelling: als die oproep geen effect heeft, dan gaat die motie heel snel terugkomen. En anders passen we haar gewoon aan op een manier die beter past bij de wetgeving.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note133">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u26">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg47">Op verzoek van mevrouw Bikker stel ik voor haar motie (24557, nr. 188) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg48">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note134">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u27">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg49">Voorzitter. De motie op stuk nr. 189. Ik gaf gisteren al in de richting van mevrouw Kuik aan dat ik die motie niet nodig had, maar dat ik haar positief zou beoordelen, mocht deze toch ingediend worden. Als ik het zo bekijk, vraagt u eigenlijk: als je het spel gaat spelen, vraag dan aan de speler om zelf een eigen maximumlimiet in te stellen. Dat lijkt me heel erg zinvol en ik kan het oordeel over die motie aan de Kamer laten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg50">Voorzitter. Als ik de tel niet helemaal kwijt ben, kom ik nu toe aan de motie ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note135">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u28">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg51">De motie op stuk nr. 190, van mevrouw Bikker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note136">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u29">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg52">Voorzitter. Ook daarover kan ik het oordeel aan de Kamer laten, met dien verstande — het staat niet zo expliciet in de motie, maar we hadden net een discussie met de heer Heerema over het onderscheid tussen hoog en laag risico — dat het de indiener waarschijnlijk te doen is om de hoogrisicospelen, de online kansspelen, en niet de loterijen. Als ik de motie zo mag interpreteren, dan kan ik uit de voeten met deze motie en laat ik het oordeel aan de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note137">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u30">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg53">De motie op stuk nr. 190 krijgt oordeel Kamer. Ik zie de indiener instemmend knikken. Mevrouw Kathmann, u heeft hier een vraag over?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note138">Mevrouw Kathmann (PvdA)</note>
+            <u who="#BarbaraKathmann" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u31">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg54">Ik moest even nadenken over de motie op stuk nr. 185. Daarom ploeg ik er even naar terug. We hebben het in het debat al vaak gehad over de papieren werkelijkheid en de echte werkelijkheid. Als de minister aangeeft dat het geregeld is, dan vraag ik me daarbij wel af of de accounts dan ook echt geblokkeerd worden. Als hij ook kan toezeggen dat er dus strenger op gehandhaafd wordt, dan wil ik de motie nog wel even aanhouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note139">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u32">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg55">Het is geregeld in artikel 4.27 van het Besluit kansspelen op afstand. Dat stelt dat het storten vanaf derde rekeningen onmogelijk is. In principe is het gewoon niet mogelijk gemaakt, dus je mag alleen maar van een gekoppelde rekening op naam — die is ook geïdentificeerd — van dezelfde persoon geld overmaken. Als er een aanbieder is die dat niet goed doet, die daaromheen werkt, die daar te laks mee is, dan zou dat in mijn ogen — ik ben natuurlijk niet de handhaver — in strijd zijn met deze regel. Dan zou ik zeggen: meld dat bij de Ksa. Dit vind ik namelijk echt een punt waarop ik aan de Ksa vraag om daar stevig tegen op te treden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note140">Mevrouw Kathmann (PvdA)</note>
+            <u who="#BarbaraKathmann" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u33">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg56">Dan hou ik de motie aan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note141">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u34">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg57">Op verzoek van mevrouw Kathmann stel ik voor haar motie (24557, nr. 185) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg58">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note142">Ik dank de minister voor zijn beantwoording.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note143">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note144">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.u35">
+               <seg xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.seg59">Ik schors voor enkele ogenblikken.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-12-16-tweedekamer-8.note145">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

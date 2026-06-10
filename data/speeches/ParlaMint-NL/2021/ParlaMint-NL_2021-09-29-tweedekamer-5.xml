@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-09-29 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-09-29 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 5, Session 5 (2021-09-29)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 5, Session 5 (2021-09-29)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="5" xml:lang="en">Meeting 5</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="5" xml:lang="en">Session 5</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-09-29">Sitting 2021-09-29</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="73">73 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="73">73 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3521">3,521 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3521">3,521 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-09-29">2021-09-29</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="153"/>
+               <tagUsage gi="seg" occurs="81"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="73"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-09-29">2021-09-29</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.head1">Besluit huurprijzen woonruimte</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg1">Aan de orde is het debat over het Besluit huurprijzen woonruimte (maximering aandeel punten WOZ-waarde in woningwaardering). Op dit moment hebben zich daar drie collega's voor aangemeld, maar ik geef eerst de heer Ephraim graag het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note2">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg2">Ik begrijp en respecteer dat de kleine fractie een bedelaar is die om aalmoezen moet smeken. Wij waren niet in staat om het desbetreffende commissiedebat bij te wonen. Derhalve vraag ik beleefd belet aan de collega's en de voorzitter om aan dit tweeminutendebat mee te mogen doen en enige moties in te dienen. Ik herstel: schriftelijk overleg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note3">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg3">Het was een vervolgoverleg, waar de VVD met wat vertraging op de lijn kwam. Maar ik heb ook een motie over deze aangelegenheid, dus ik hoop dat het wordt toegestaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note4">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg4">Dan kijk ik even naar de collega's of daar bezwaar tegen is. Ik zie niet dat dat het geval is. De heer Boulakjar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note5">De heer Boulakjar (D66)</note>
+            <u who="#FaissalBoulakjar" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg5">Ik sta ook niet op de sprekerslijst. Ik zou me willen inschrijven met nul minuten. Ik heb zelf geen motie, maar ik zou misschien eventueel een interruptie willen plaatsen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note6">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg6">Nul minuten gaat denk ik nog wat sneller bij de collega's, dus dan noteer ik de heer Ephraim en de heer Nijboer als extra sprekers en geef ik als eerste het woord aan de heer Koerhuis van de VVD-fractie. Er is een vraag. Ik heb nog geen bewindspersoon. Ik ben helemaal gefocust op de Kamer. We wachten even totdat de bewindspersoon er is; dat lijkt me ook wel praktisch. En daar is ze. Van harte welkom, mevrouw Ollongren voor het tweeminutendebat Besluit huurprijzen woonruimte. Ik geef als eerste het woord aan de heer Koerhuis van de VVD-fractie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note7">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg7">Voorzitter. De huurprijzen zijn hoog in Nederland. We moeten daar iets aan doen. De WOZ-cap doet daar iets aan, maar naar aanleiding van de laatste schriftelijke ronde heb ik nog een vraag. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note8">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note9">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note10">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note11">constaterende dat de regering voornemens is om een regeling in te voeren en het aantal WOZ-punten in het woningwaarderingsstelsel te maximeren op 33% van het totaal aantal punten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note12">constaterende dat de regering voornemens is om de regeling niet alleen te laten gelden voor nieuwe aankopen van huurwoningen maar ook voor bestaande huurwoningen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note13">constaterende dat hierdoor circa 40.000 bestaande middenhuurwoningen worden teruggetrokken naar de sociale huursector;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note14">constaterende dat dit het eigendomsrecht schaadt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note15">constaterende dat er al een conceptdagvaarding ligt voor een schadeclaim van 10 miljard euro;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note16">constaterende dat de regering de Raad van State nog om advies gaat vragen over de regeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note17">verzoekt de regering om de Raad van State expliciet advies te vragen over het eigendomsrecht en de regeling met het advies voor te leggen aan de Kamer voor de voorgenomen invoering,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note18">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note19">Deze motie is voorgesteld door het lid Koerhuis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note20">Zij krijgt nr. kst-27926-348</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note21">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg8">Het begon zo hoopvol. De VVD constateert dat de huurprijzen te hoog zijn. Veel mensen kunnen dat niet meer betalen. Vervolgens hoor ik een motie waarin de VVD toch pleit om deze verlaging niet door te voeren. Hoe moet ik dit precies interpreteren?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note22">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg9">Nee, wij zijn voor die WOZ-cap. Alleen, als die het eigendomsrecht schaadt, kun je van de regen in de drup komen als er een concept-dagvaarding bij het ministerie ligt en als die kans van slagen maakt. Dus ik zou daar graag de Raad van State over om advies vragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note23">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg10">Heel helder, maar wat vindt u nu belangrijker, betaalbare huren of dat eigendomsrecht? Want de minister kiest hier toch in en zegt toch gewoon "eindelijk" en "ik vind dit nog veel te weinig", maar we gaan toch een beetje zorgen dat de huren betaalbaarder worden? Wat vindt u belangrijker?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note24">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg11">We hebben de Raad van State als ons adviesorgaan. Als er zo'n concept-dagvaarding ligt en deze vraag is er, dan lijkt het me niet meer dan logisch om de Raad van State hierover om advies te vragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note25">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg12">Dan is er nog een vraag van collega Boulakjar van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note26">De heer Boulakjar (D66)</note>
+            <u who="#FaissalBoulakjar" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg13">Dank u wel, voorzitter. Goed om te horen dat de VVD voor de WOZ-cap is. De heer Koerhuis steunt ook de protesten rondom de wooncrisis. We hebben enorm veel behoefte aan betaalbare woningen. De heer Koerhuis vraagt nu een advies bij de Raad van State. De heer Koerhuis weet dat dat zes, zeven, acht maanden kan gaan duren. Kan de heer Koerhuis niet gewoon voor de snelle weg kiezen en de minister vragen om dat uit te zoeken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note27">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg14">De minister gaat sowieso de regeling nog naar de Raad van State sturen voor advies. Mijn verzoek is: als de minister dat doet, neem dan even de vraag mee over het eigendomsrecht, zeker gegeven de enorme concept-dagvaarding die er al ligt op haar ministerie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note28">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg15">Dank. Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note29">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg16">Dat was hem. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note30">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg17">Helemaal prima. Dan komen we bij de volgende spreker. Dat is mevrouw Beckerman van de SP-fractie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note31">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg18">Voorzitter. Door de grote invloed van de WOZ op het puntenstelsel kan de huur van een Amsterdamse woning sinds 2013 drie keer zo hoog worden, van €500 naar €1.500. In Utrecht gaat het om een verdubbeling, in Breda om anderhalf keer. Het huidige voorstel is een stap, maar gaat wat de SP betreft niet ver genoeg. Daarom de volgende moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note32">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note33">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note34">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note35">overwegende dat de betaalbaarheid van volkshuisvesting onder druk staat, mede door de invloed van de hoge huizenprijzen vertaald in de WOZ;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note36">constaterende dat het huidige regeringsvoorstel voornamelijk voordeel oplevert voor huurders in de allergrootste steden, zoals Amsterdam en Utrecht, en dat dat lang niet de enige steden zijn waar huurders te maken hebben met zeer hoge huren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note37">verzoekt de regering om de WOZ-waarde in het WWS te maximeren op 20%,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note38">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note39">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note40">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note41">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note42">overwegende dat de betaalbaarheid van de volkshuisvesting in Nederland onder druk staat, mede onder invloed van de hoge huizenprijzen, vertaald in de WOZ;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note43">constaterende dat het voorstel van de regering over het beperken van de WOZ-waarde in het WWS alleen gaat gelden als de huur hoger is dan de liberalisatiegrens;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note44">verzoekt de regering om het voorstel toe te passen op alle huren en niet alleen die boven de liberalisatiegrens,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note45">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note46">Deze motie is voorgesteld door de leden Beckerman en Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note47">Zij krijgt nr. kst-27926-349</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note48">Deze motie is voorgesteld door de leden Beckerman en Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note49">Zij krijgt nr. kst-27926-350</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note50">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg19">En de laatste.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note51">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note52">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note53">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note54">overwegende dat het woningwaarderingsstelsel voor veel huurders zeer ingewikkeld is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note55">constaterende dat met deze nieuwe regeling het systeem nog ingewikkelder wordt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note56">verzoekt de regering om samen met huurdersorganisaties te onderzoeken op welke manieren het WWS-systeem kan worden vereenvoudigd, zodat huurders zelf ook beter zicht hebben op wat een eerlijke en rechtvaardige huur zou moeten zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note57">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note58">Deze motie is voorgesteld door de leden Beckerman en Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note59">Zij krijgt nr. kst-27926-351</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note60">Dank u wel.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note61">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg20">Graag gedaan. Tot ziens.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note62">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg21">Tot straks. Dan komen we nu bij de volgende spreker van de zijde van de Kamer. Dat is de heer Geurts van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note63">De heer Geurts (CDA)</note>
+            <u who="#JacoGeurts" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg22">Voorzitter. Het CDA vindt het belangrijk dat er voor diverse groepen, zoals starters, mensen met een laag inkomen of middeninkomen, ouderen maar ook zeker kwetsbare groepen, voldoende geschikte, betaalbare maar ook toegankelijke woningen zijn. Het knelt op dit moment in de volkshuisvesting. Vooral in de steden zijn de huren inmiddels torenhoog, waardoor het wonen in de stad voor veel mensen onbetaalbaar is geworden. Mevrouw Beckerman refereerde er net al aan. Dit hangt zonder meer samen met het feit dat het aantal woningen in het gereguleerde segment de afgelopen jaren flink is verminderd. Het CDA steunt daarom het besluit van de minister om een cap te plaatsen op de WOZ-waarde in het puntensysteem, zodat er meer huurwoningen beschikbaar blijven voor mensen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg23">Ik heb nog één vraag aan de minister. We hebben afgelopen jaar gezien dat de Huurcommissie het enorm druk heeft gehad met een groot aantal zaken dat binnenkwam. Ook nu nog moeten er grote achterstanden worden weggewerkt. Invoering van de WOZ-cap betekent dat de Huurcommissie nog meer zaken te verwerken krijgt, is mijn stellige overtuiging. Daarom vraag ik de minister of de Huurcommissie goed is voorbereid op de invoering van het besluit en in staat is om zaken gerelateerd aan de invoering van de WOZ-cap op te vangen. Graag een reactie van de minister.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg24">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note64">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg25">U ook bedankt. Dan komen we bij de heer Ephraim van de Groep Van Haga.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note65">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg26">Dank u wel, voorzitter en collega's.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg27">Motie één.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note66">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note67">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note68">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note69">constaterende dat voorgesteld wordt om de WOZ-cap te bepalen op 33%;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note70">overwegende dat dit percentage erg laag is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note71">verzoekt de regering het voorgestelde percentage voor een WOZ-cap te bepalen op 40% van het totaal aantal punten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note72">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note73">Deze motie is voorgesteld door het lid Ephraim.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note74">Zij krijgt nr. kst-27926-352</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note75">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg28">Motie twee.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note76">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note77">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note78">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note79">overwegende dat eigenaren in verband met het eigendomsrecht niet gekort kunnen worden op bestaande huursituaties en de huidige prijsniveaus;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note80">verzoekt de regering bij de invoering van de WOZ-cap op te nemen dat deze regeling alleen geldt voor objecten die nog niet eerder verhuurd waren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note81">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note82">Deze motie is voorgesteld door het lid Ephraim.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note83">Zij krijgt nr. kst-27926-353</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note84">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg29">Motie drie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note85">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note86">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note87">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note88">overwegende dat het goed zou zijn om te stimuleren dat kleine woningen (kleiner dan 40 m) gebouwd en gerenoveerd worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note89">verzoekt de regering de WOZ-cap niet te laten gelden voor nieuwbouwwoningen kleiner dan 40 m die gebouwd zijn in 2018 of later dan wel bestaande woningen kleiner dan 40 m die zijn gerenoveerd tot een energielabel gelijk aan de nieuwbouwnormen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note90">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note91">Deze motie is voorgesteld door het lid Ephraim.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note92">Zij krijgt nr. kst-27926-354</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note93">U heeft de derde motie afgerond, begrijp ik? Dan kijk ik, voordat u verdergaat, even naar de heer Nijboer.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note94">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg30">Het gebeurt hier niet alle dagen, maar de heer Koerhuis wordt hier rechts gepasseerd. Een hogere bijtelling van de WOZ-waarde betekent dat de huren nog meer kunnen stijgen en nog hoger worden dan ze nu al zijn. Hoe haalt u het in uw hoofd om dat voor te stellen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note95">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg31">Ik zou bijna zeggen dat de SP de communisten graag ter linkerzijde wilde inhalen door eigendomsrecht ondergeschikt te maken aan betaalbare woningen. Goed, dat is ook een politieke opvatting. Maar de heer Koerhuis zei ook al dat het eigendomsrecht in de bepaling van de waarde een belangrijk facet is. De claims liggen allang klaar. Mag ik mijn vierde motie nog indienen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note96">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg32">Eerst komt er nog een vraag van mevrouw Beckerman van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note97">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg33">Dit is inderdaad de heer Koerhuis in overdrive. Hoe kan dit? Ik noemde net al het voorbeeld dat een kleine huurwoning in Amsterdam in 2013 €500 kostte en nu €1.500. Wat mag die woning van u gaan kosten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note98">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg34">De markt bepaalt de huur. Als u zo'n bezwaar heeft tegen de stijgende huizenprijzen, waar ik me iets bij kan voorstellen, mag ik u dan aanraden om eens even bij de ECB te gaan informeren of de rente wat hoger en marktconform kan worden? U bent bekend met TINA, "there is no alternative", voor het beleggen in zakelijke waarden en aandelen. U moet ook eens eventjes kijken naar de immigratiestroom en de bevolkingstoename. Dat lijkt me ook geen slecht idee. En verder waren er volgens mij ook nog een stikstofprobleempje, Natura 2000 en Europa. Dit zijn allemaal factoren die een rol spelen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note99">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg35">Het is Koerhuis én Margaret Thatcher in overdrive hier. Het is iedereen z'n schuld, maar u wil de huren verhogen. U weet toch dat de helft van de huurders nu al moeite heeft om rond te komen, zo vraag ik via de voorzitter. U weet toch dat een kwart zo in de knel zit dat ze niet in noodzakelijk levensonderhoud kunnen voorzien? U gaat dan naar iedereen wijzen, naar migratie, naar stikstof en naar de ECB, om vervolgens stiekem zelf de huren verder te verhogen. Wilt u dit nou werkelijk?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note100">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg36">Goed. Dit zijn retorische vragen. Dat begrijp ik vanuit uw politieke overtuiging. Mag ik mijn vierde motie afmaken, voorzitter?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note101">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg37">Nee, nog niet, want er is ook een vraag van de heer Boulakjar van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note102">De heer Boulakjar (D66)</note>
+            <u who="#FaissalBoulakjar" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg38">Dit is een belediging voor de heer Koerhuis. De heer Koerhuis is tenminste bij al die commissiedebatten over de woningmarkt geweest. De heer Ephraim en zijn partij zijn geen enkele keer aanwezig geweest. Hij komt hier even drie moties indienen die zorgen voor hogere huren in het middensegment. Hoe reflecteert de heer Ephraim daarop?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note103">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg39">De huurmarkt en de woningmarkt zijn ook markten. Huizen weer terugbrengen in de sociale sector is gewoon onteigening. Dat is schending van het eigendomsrecht. Dat heb ik al een paar keer gezegd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note104">De heer Geurts (CDA)</note>
+            <u who="#JacoGeurts" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg40">Ik ben redelijk verbijsterd; dat gebeurt me niet zo vaak meer. Dit is echt out of the way. Wat zegt de heer Ephraim tegen alle huurders als deze moties tot uitvoering zouden komen? Ik schat in dat dit niet zo'n heel grote kans meer heeft, maar wat zegt hij tegen de huurders als deze moties tot uitvoering komen? Zegt hij dan tegen de huurders dat de huren bij wijze van spreken onbeperkt kunnen gaan stijgen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note105">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg41">Dan zeg ik dat we eerst moeten gaan beginnen met bouwen. Het stikstofprobleem is daarbij een heel grote belemmering. Je komt dan ook weer bij Natura 2000 en Europa, waar iedereen hier zo dol op is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note106">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg42">Tot slot, de heer Geurts.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note107">De heer Geurts (CDA)</note>
+            <u who="#JacoGeurts" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg43">Dit is toch echt te makkelijk. Wat zegt de heer Ephraim ondertussen tegen al die huurders die zo meteen mogelijk een hele grote huurverhoging voor hun kap moeten nemen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note108">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u41">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg44">Ik ben er niet van overtuigd dat dit zonder meer tot hele grote huurverhogingen leidt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note109">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u42">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg45">Ik sluit me aan bij het eerste stuk van mijn collega Boulakjar. Ik heb de heer Ephraim bij welk commissiedebat dan ook nog niet gezien, zelfs niet bij een schriftelijk overleg en ook niet bij dit schriftelijk overleg. Ik neem dus aan dat hij, nu hij er drie of vier moties weet uit te pompen in anderhalve minuut of twee minuten, wel bij de volgende paar debatten aanwezig is. Ik zou dat dan wel op prijs stellen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note110">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u43">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg46">Prima. Het is trouwens maar één minuut.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note111">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u44">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg47">Dan kunt u verder met uw laatste motie. U heeft nog 18 seconden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note112">De heer Ephraim (Groep Van Haga)</note>
+            <u who="#OlafEphraim" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u45">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg48">18 seconden? Zo ver ga ik het genadebrood niet eten. Ik houd het hierbij, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note113">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u46">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg49">Dank u wel. Dan komen we bij de volgende spreker. Dat is de heer Nijboer van de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note114">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u47">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg50">Dank u wel, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note115">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note116">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note117">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note118">constaterende dat de verhuurderheffing door hogere WOZ-waarden blijft stijgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note119">overwegende dat hierdoor minder betaalbare woningen kunnen worden gebouwd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note120">verzoekt het demissionaire kabinet om, zolang de verhuurderheffing niet is afgeschaft, het aandeel van de WOZ in de verhuurderheffing te bevriezen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note121">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note122">Deze motie is voorgesteld door de leden Nijboer, Beckerman en Bromet.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note123">Zij krijgt nr. kst-27926-355</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note124">Dank u. Ik kijk even naar de minister hoelang zij nodig heeft. Dat is een minuut of vijf.</note>
+            <note type="time" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note125">De vergadering wordt van 11.26 uur tot 11.31 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note126">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u48">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg51">Ik geef het woord aan de minister, maar voordat ik dat doe, is er nog een opmerking of vraag van de heer Koerhuis.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note127">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u49">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg52">De heer Ephraim stond hier net. Hij heeft niet meegedaan, zelfs niet aan een schriftelijk overleg, maar hij wist er toch drie moties uit te pompen in anderhalve minuut. Ik vraag me af hoe we nu verdergaan, want hij heeft niet meegedaan aan het schriftelijk overleg, aan geen enkel debat over wonen, pompt er drie moties uit en is niet eens bij de appreciatie van de minister van zijn moties. Dus hoe gaan we hiermee verder?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note128">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u50">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg53">U heeft net zelf toestemming gegeven om de heer Ephraim het woord te geven. Misschien is het ook aan u als Kamer om dat in het vervolg te heroverwegen, zeg ik er maar even bij. De moties zullen gewoon worden beoordeeld door de minister. Het kan zijn dat de heer Ephraim ook gewoon terugkeert naar de zaal. Soms heb je ook even tijd nodig voor een paar dingen. Het kan zijn dat hij er zo weer is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg54">Ik zie ook de heer Nijboer van de PvdA bij de microfoon staan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note129">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u51">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg55">Maar chic is het niet, voorzitter. Hij is op deze manier een beetje een politieke hooligan: een beetje moties indienen, niet meedoen en dan weer weglopen bij de beantwoording. Ik vind het goed hoor, en in staatsrechtelijke zin moet de minister gewoon antwoorden, maar mijn advies aan de minister zou zijn: houd het kort. We moeten volgende keer echter wel even weten wie welk verzoek doet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note130">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u52">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg56">Ik constateer dat er hier even les wordt gegeven. De goede verstaander luistert. Ik ga naar de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note131">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u53">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg57">Dank u wel, voorzitter. Ik zal alle moties van een appreciatie voorzien, de ene wat langer dan de andere.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg58">Er is één vraag gesteld, namelijk door de heer Geurts van het CDA. Hij vroeg of de Huurcommissie nieuwe instroom naar aanleiding van deze wijziging aankan. De Huurcommissie heeft een uitvoeringstoets gedaan op het voorstel, en zij is sowieso ook bezig met de aanpassing van de huurprijscheck op haar website. Er komt een aanpassing aan de cap. We hebben de Huurcommissie al eerder extra geld gegeven, ook voor de invoering van deze maatregel. We hebben hier rekening mee gehouden door de Huurcommissie in staat te stellen om om te gaan met de extra instroom die er kan komen. Overigens is het niet de verwachting dat er een enorme extra instroom zal zijn, maar het kan inderdaad wel leiden tot extra gevallen. We hebben hier dus rekening mee gehouden, dus ik zou de heer Geurts op dat punt willen geruststellen. Zowel het ministerie als de Huurcommissie zelf houdt daar dus rekening mee. Dit doen we in overleg met de Huurcommissie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg59">Dan kom ik op de moties. De eerste motie, op stuk nr. 348, is van de heer Koerhuis. Nou begrijp ik best zijn achterliggende gedachte, maar ik wil hem eigenlijk geruststellen. De Raad van State wordt inderdaad na dit overleg geconsulteerd. Dat gebeurt gewoon regulier. Er is dus een besluit, er is een voorhangprocedure en dan gaat het voorstel naar de Raad van State, en de Raad van State gaat dat beoordelen. De Raad van State neemt daar sowieso het punt van het eigendomsrecht in mee. Ter geruststelling van de heer Koerhuis zeg ik dat ik denk dat we de Raad van State daartoe niet hoeven aan te moedigen via een motie. Om die reden ontraad ik dan ook de motie. Het is gewoon het werk van de Raad van State. Men weet dat heel erg goed en men heeft geen aanmoediging nodig. De Raad van State per motie aanmoedigen, doen we in andere gevallen eigenlijk ook niet. Dus ik zou er geen voorstander van zijn om dit ook nog in een motie vast te leggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note132">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u54">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg60">De motie roept de regering op, niet de Raad van State. Dat wil ik wel even helder hebben, want nu doet de minister net alsof ik de Raad van State oproep. Nee, ik roep de regering op om expliciet advies te vragen over het eigendomsrecht. Want het is nogal wat, die conceptdagvaarding die er ligt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note133">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u55">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg61">Ik heb het goed gelezen en ik zag dat de heer Koerhuis het via de regering doet. Dat begrijp ik ook best, maar daarmee vraagt hij mij om de Raad van State te vragen om hun werk goed te doen en dat vind ik weer ingewikkeld. De Raad van State doet per definitie zijn werk goed. Het eigendomsrecht en het toetsen daaraan is gewoon onderdeel van het werk dat de Afdeling advisering zal gaan doen, namelijk een juridische toets, heel degelijk, inclusief het eigendomsrecht. We kunnen er echt allemaal op vertrouwen dat het onderdeel zal uitmaken van het advies dat we van de Raad van State zullen ontvangen. Dus ik blijf bij mijn oordeel over de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note134">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u56">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg62">De motie op stuk nr. 348 is ontraden. Tot slot op dit punt, meneer Koerhuis.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note135">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u57">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg63">En het tweede deel van het dictum? Het dictum heeft twee onderdelen en ik kan overwegen om het eerste deel weg te halen. Hoe zit het met het tweede deel, dus om, gegeven de zorgen die er leven, in ieder geval bij mijn fractie, de regeling met het advies voor te leggen aan de Kamer voor de voorgenomen invoering?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note136">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u58">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg64">Ook daarbij zou ik willen voorstellen om gewoon het reguliere traject te volgen, dus: naar de Raad van State, vervolgens komt er een advies van de Raad van State en dat kan wel of geen aanleiding zijn voor mij om weer terug te gaan naar de ministerraad. De heer Koerhuis wijst op het eigendomsrecht. Stel dat de Raad van State daar opmerkingen over heeft en een zwaarwegend advies uitbrengt, dan moet ik me daartoe verhouden en moet ik in ieder geval terug naar de ministerraad. Is het van dien aard dat het zou leiden tot een wijziging van het voorstel, dan kom ik vanzelf weer bij de Tweede Kamer terug. Is dat niet het geval, dan hoeft dat niet en dan kan het besluit gewoon van kracht worden en worden ingevoerd per 1 januari aanstaande, zoals ik in ieder geval beoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note137">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u59">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg65">De motie op stuk nr. 348: ontraden. Dan de motie op stuk nr. 349.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note138">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u60">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg66">De motie op stuk nr. 349 is van mevrouw Beckerman, die de WOZ-waarde in het stelsel wil maximeren op 20%. We hebben heel zorgvuldig gekeken naar het geheel van het stelsel en over het algemeen functioneert het op een goede wijze. Maar we willen het op een specifiek onderdeel aanpassen. Op de langere termijn zou een te laag aandeel ongunstig zijn, want dan krijgen we een geringer aanbod van sociale huurwoningen en dat zou ik niet willen. We zoeken eigenlijk naar een optimum in de balans. 20% is te laag. We willen eigenlijk 25% gemiddeld en dat kun je dan per definitie nooit halen. Ik moet de motie dus ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note139">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u61">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg67">De motie op stuk nr. 349: ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note140">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u62">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg68">De motie op stuk nr. 350 verzoekt de regering om het voorstel toe te passen op álle huren en niet alleen de huren boven de liberalisatiegrens. Ik zei net dat het stelsel in het algemeen met het huidige gemiddelde goed functioneert. We willen het probleem van een situatie waarin veel WOZ-punten leiden tot liberalisatie, ondervangen. Liberalisatie is niet mogelijk bij woningen met minder dan 142 punten. Ik zou het voorstel van mevrouw Beckerman niet willen volgen, want dan bereiken we niet wat we willen bereiken. Ik ontraad de motie dus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note141">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u63">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg69">De motie op stuk nr. 350: ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note142">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u64">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg70">De motie op stuk nr. 351, ook van mevrouw Beckerman, roept op om met huurdersorganisaties te kijken naar een vereenvoudiging van het systeem. Wij hebben net het hele systeem heel uitvoerig geëvalueerd, dus vind ik het niet voor de hand liggen om dat nu weer te gaan doen. Ik ontraad daarom de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note143">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u65">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg71">De motie op stuk nr. 351: ontraden. Maar er is ook een vraag over van mevrouw Beckerman.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note144">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u66">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg72">Dit was mijn meest sympathieke motie, dus ik ga het hier nog even proberen. Misschien heb ik de motie niet duidelijk geformuleerd. Het gaat erom dat het nu zo is dat huurders proberen om hun punten te checken om te kijken of hun huur redelijk is. Dat wordt steeds ingewikkelder. Mijn vraag hier was eigenlijk hoe dat zo eenvoudig mogelijk kan worden gemaakt voor de huurders.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note145">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u67">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg73">Ah. Of ik lees het dan niet goed of het staat er een beetje multi-interpretabel. Als het doel niet is om het stelsel te vereenvoudigen, maar om het voor de huurders inzichtelijker te maken in overleg met de Huurcommissie, dan heb ik veel meer sympathie voor de motie. Dat is dan de uitleg die we er gezamenlijk aan moeten geven. Misschien kan mevrouw Beckerman de motie op dat punt nog verduidelijken. Maar daar zou ik wel toe bereid zijn, want dan treed ik in overleg over de vraag of het voor huurders inzichtelijk genoeg is en, zo niet, of we dat verder kunnen verduidelijken voor hen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note146">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u68">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg74">Ik zie inderdaad dat ik beide gedachten in die motie heb geformuleerd. Ik denk dat ik het dictum even zo moet aanpassen — ik kan dat niet hier uit mijn hoofd doen — dat eruit blijkt dat het inzichtelijker wordt gemaakt. Dan hebben we dat in ieder geval gedekt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note147">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u69">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg75">Dan ga ik ervan uit dat mevrouw Beckerman de motie zo aanpast dat het gaat over het inzichtelijk maken voor de huurders en dat ik daar graag onderzoek naar wil doen, in overleg over wil treden et cetera. In dat geval geef ik de aangepaste motie oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note148">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u70">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg76">Op dit moment heeft de motie op stuk nr. 351 het oordeel ontraden, maar deze kan oordeel Kamer krijgen met de uitleg zoals die net is gegeven door zowel mevrouw Beckerman als de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note149">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u71">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg77">Dat klopt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg78">Voorzitter. De moties op stukken nrs. 352, 353 en 354 ontraad ik.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg79">De motie op stuk nr. 355 is van de heer Nijboer. De heer Nijboer refereert aan hetgeen de Kamer vorige week in ieder geval deels bij motie heeft uitgesproken, namelijk een forse daling van de verhuurderheffing. Die komt er, want dat wil de Kamer. Dat gaan we natuurlijk doen. Ik heb daar al van gezegd dat dit al een hartstikke mooie stap is. Maar de heer Nijboer zegt dat hij die grondslag helemaal wil bevriezen in afwachting van verdere stappen bij de verhuurderheffing. Vanwege die structurele korting en vanwege het feit dat wat de heer Nijboer vraagt eigenlijk gewoon onuitvoerbaar is voor het komende jaar, moet ik de motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note150">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u72">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg80">De moties op stukken nrs. 352, 353, 354 zijn ontraden. Ook de motie op stuk nr. 355 is ontraden. Daarmee komen we aan het einde van dit tweeminutendebat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note151">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note152">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.u73">
+               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.seg81">Ik schors even voor een changement van de voorzitter.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-5.note153">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

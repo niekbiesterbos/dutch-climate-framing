@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-04-14 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-04-14 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 73, Session 5 (2022-04-14)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 73, Session 5 (2022-04-14)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="73" xml:lang="en">Meeting 73</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="5" xml:lang="en">Session 5</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-04-14">Sitting 2022-04-14</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="84">84 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="84">84 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="4844">4,844 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="4844">4,844 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-04-14">2022-04-14</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="261"/>
+               <tagUsage gi="seg" occurs="115"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="84"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-04-14">2022-04-14</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.head1">Leefstijlpreventie</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg1">Dan is thans aan de orde het tweeminutendebat Leefstijlpreventie. Het commissiedebat vond plaats op 24 maart jongstleden. Een hartelijk woord van welkom aan de staatssecretaris. Fijn dat u bij ons bent. Wij hebben tien deelnemers van de zijde van de Kamer. De eerste spreker staat reeds in de startblokken te trappelen van ongeduld. Dat is mevrouw Van Esch van de fractie van de Partij voor de Dieren. Ik geef graag haar het woord. Zij heeft twee minuten spreektijd, zoals alle deelnemers. Het woord is aan haar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note2">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:argic" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg2">Uiteraard, voorzitter. Ik sta in de startblokken. Ik heb één vraag en drie moties, dus ik ga ook nog eens een keer heel snel uit die startblokken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg3">Mijn eerste vraag gaat over het artikel van Follow the Money over de invloed van de voedingsindustrie dat deze week verschenen is. Ik was benieuwd of de staatssecretaris daarop zou kunnen reageren, zeker in het licht van de aangenomen motie van de Partij voor de Dieren over de volledige transparantie die wij hier als Kamer hebben gevraagd.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg4">Dan ga ik snel door naar de drie moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note6">overwegende dat de Kamer zich eerder heeft uitgesproken dat kindermarketing vooral beperkt moet zijn tot producten uit de Schijf van Vijf;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note7">overwegende dat kindermarketing in 97% van de gevallen ingezet wordt voor de promotie van producten buiten de Schijf van Vijf;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note8">overwegende dat sociale media een grijs gebied zijn waardoor de Reclame Code Commissie geen uitspraak kan doen over klachten voor online junkfood marketing;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note9">verzoekt de regering uit te werken hoe de grijze gebieden in de huidige regelgeving weggenomen kunnen worden zodat kindermarketing alleen nog toegestaan wordt voor producten uit de Schijf van Vijf, en de Kamer voor de begrotingsbehandeling VWS te informeren over de aanpak,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note11">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note12">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note13">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note14">constaterende dat de uitbreiding van verkooppunten voor alcohol kan leiden tot meer alcoholgebruik, meer verslaving, meer overlast en meer verkeersongevallen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note15">constaterende dat kinderen en jongeren vaker in aanraking kunnen komen met alcohol;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note16">van mening zijnde dat de invoering van mengformules niet mag leiden tot extra alcoholschade;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note17">verzoekt de regering advies in te winnen bij experts op het gebied van gezondheid, verslaving en verkeersveiligheid over de risico's op extra alcoholschade en de maatschappelijke kosten daarvan,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note18">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note19">Deze motie is voorgesteld door de leden Van Esch, Hijink, Westerveld en Den Haan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note20">Zij krijgt nr. kst-32793-585</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note21">Deze motie is voorgesteld door de leden Van Esch, Den Haan en Mutluer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note22">Zij krijgt nr. kst-32793-586</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note23">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg5">En de laatste motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note24">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note25">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note26">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note27">constaterende dat de afgelopen zeven jaar weinig resultaat is geboekt met het verlagen van vet, suiker en zout in voedingsmiddelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note28">overwegende dat de voedselproducenten belang hechten aan stapsgewijze verlaging;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note29">overwegende dat het belangrijk is om die verlaging scherp te volgen om te voorkomen dat de komende zeven jaar ook weinig oplevert;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note30">verzoekt de regering om jaarlijkse doelen op te nemen in de Nationale Aanpak Productverbetering,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note31">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note32">Deze motie is voorgesteld door de leden Van Esch, Hijink, Westerveld, Den Haan en Mutluer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note33">Zij krijgt nr. kst-32793-587</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note34">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg6">Ik wil nog heel kort aangeven dat ik volgende week een motie in stemming wil brengen en een nieuwe appreciatie van deze nieuwe staatssecretaris zou willen vragen. Het is de motie op stuk nr. 65 (35925-XVI), ingediend bij de afgelopen begrotingsbehandeling van het ministerie van VWS. Ik kan de motie ook nu nog even geven, mocht dat handig zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note35">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg7">Heel goed, dank u wel. Dan mevrouw Van der Laan van de fractie van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note36">Mevrouw Van der Laan (D66)</note>
+            <u who="#JeanetvanderLaan" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg8">Ik heb een vraag en twee moties, voorzitter. Ik wil graag aan de staatssecretaris vragen om zijn reflectie op het project Lifelines in Noord-Nederland. Dat project kon de volksgezondheid monitoren en het heeft zichzelf bewezen tijdens de coronacrisis. Het zou ook heel goed kunnen werken voor het monitoren van de doelen uit het Nationaal Preventieakkoord. Ik zou graag zijn visie willen om te bekijken of dit een grotere rol zou kunnen spelen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg9">Dan de twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note37">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note38">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note39">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note40">overwegende dat de vrije keuze voor gezonde voeding door kinderen moeilijker wordt gemaakt door de marketing ongezonde voeding;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note41">constaterende dat de afspraken over reclame voor ongezonde voeding tot op heden is beperkt tot de leeftijd van 13 jaar;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note42">verzoekt de regering om samen met de levensmiddelenindustrie de bestaande afspraken in de Reclamecode voor Voedingsmiddelen uit te breiden naar 18 jaar,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note43">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note44">Deze motie is voorgesteld door de leden Van der Laan, Kuik en Bikker.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note45">Zij krijgt nr. kst-32793-588</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note46">Mevrouw Van der Laan (D66)</note>
+            <u who="#JeanetvanderLaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg10">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note47">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note48">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note49">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note50">constaterende dat er steeds meer gezondheidsproblemen ontstaan, omdat er te veel suiker, zout en verzadigd vet zit in verwerkte producten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note51">constaterende dat gefaseerde productverbetering nodig is om gezondheidswinst te behalen en marketing kan helpen de gezonde keuze te stimuleren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note52">overwegende dat in de nieuwe aanpak productverbetering bindende afspraken worden gemaakt om producten gezonder te maken en dat het communiceren hierover een extra prikkel geeft dit te doen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note53">overwegende dat er echter door EU-regelgeving (nr. 1924/2006) beperkt ruimte is om te communiceren dat producten minder toevoegingen bevatten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note54">verzoekt de regering om samen met voedselproducenten alternatieven op te stellen binnen de kaders van de Europese regelgeving, zodat zij eerder en effectiever kunnen communiceren over productverbetering, en dit te koppelen aan de nieuwe aanpak productverbetering,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note55">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note56">Deze motie is voorgesteld door de leden Van der Laan, Kuik en Bikker.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note57">Zij krijgt nr. kst-32793-589</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note58">Heel goed. Dan de heer Rudmer Heerema van de fractie van de VVD.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note59">De heer Rudmer Heerema (VVD)</note>
+            <u who="#RudmerHeerema" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg11">Voorzitter, dank. Ik heb een motie en twee vragen. Allereerst de motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note60">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note61">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note62">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note63">overwegende dat 86% van de longkankergevallen wordt veroorzaakt door roken en dat roken ook de kans op andere kankersoorten vergroot;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note64">overwegende dat niet roken, het niet beginnen met roken en het stoppen met roken het meest effectieve beleid is om vermijdbare kanker te voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note65">constaterende dat tot op heden 69 gemeenten in het lokale preventieakkoord geen paragraaf hebben opgenomen met maatregelen tegen roken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note66">verzoekt de regering met deze 69 gemeenten in gesprek te gaan en te bevorderen dat deze paragraaf met maatregelen tegen roken toegevoegd wordt aan het lokale preventieakkoord,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note67">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note68">Deze motie is voorgesteld door het lid Rudmer Heerema.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note69">Zij krijgt nr. kst-32793-590</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note70">De heer Rudmer Heerema (VVD)</note>
+            <u who="#RudmerHeerema" ana="#regular topic:educa" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg12">Voorzitter. Dan even een terugblik op het commissiedebat dat we hebben gehad. Ik heb daar een lans gebroken voor het betrekken van sportverenigingen bij scholen. Ik heb de staatssecretaris verzocht om daar actie op te ondernemen. Er is een mooie toezegging geweest van de staatssecretaris om samen met zijn collega van OCW te kijken welke mogelijkheden er zijn, bijvoorbeeld binnen het project de rijke schooldag. Dat wil ik hier in de plenaire zaal ook uitgesproken hebben, omdat ik het ongelofelijk belangrijk vind dat wij kijken hoe wij die gezonde generatie kunnen stimuleren om met sport om te gaan. De vraag die daarbij hoort, is: heeft deze staatssecretaris reeds contact gehad met zijn collega? Zo nee, wanneer is de staatssecretaris van plan om dat te doen?</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg13">Voorzitter. Dan mijn laatste vraag. Tijdens het debat hebben we het ook gehad over het suikergehalte in frisdranken. Ik begrijp dat er een flat tax komt. Dat betekent dat de industrie die al grote stappen heeft gezet op dezelfde manier belast gaat worden als het deel van de industrie dat geen stappen heeft gezet. De vraag aan de staatssecretaris is: op welke wijze kunnen wij zorgen dat de achterblijvende industrieën door deze maatregel worden gestimuleerd en worden meegenomen om toch over te gaan tot minder suiker in frisdranken? Dit betekent vooral iets voor de energiedranken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg14">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note71">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg15">Er is nog een vraag van mevrouw Bikker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note72">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg16">Voorzitter. Het voetpedaal van de interruptiemicrofoon was van iemand met een uitschuifbeen, maar ik heb het voetpedaal weer in bereik.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg17">Ik heb de volgende vraag aan collega Heerema. Ik zie zijn inzet heel goed. Ik vind zijn inzet echt top om het suikergehalte terug te dringen voor de gezondheid van onze kinderen. Maar eerlijk gezegd denk ik dat juist industrieën die al stappen hebben gezet, veel minder hinder zullen ondervinden van de nieuwe belasting, omdat zij al hebben nagedacht over hoe hun product lekker kan worden gemaakt zonder de toevoeging van veel suiker. Zou het niet zo zijn dat juist de fabrikanten van de meest vervuilende, de meest suikerrijke drankjes zo'n taks het meest gaan voelen, en dat daarmee eigenlijk al het antwoord op zijn vraag besloten ligt in het instrument dat wij kiezen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note73">De heer Rudmer Heerema (VVD)</note>
+            <u who="#RudmerHeerema" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg18">Dat zou zo zijn als wij een progressieve suikertaks zouden invoeren op dit onderwerp, maar dat doen wij niet. Wij doen een flat tax. Dat betekent het volgende. Ook al zitten er twintig suikerklontjes in jouw energiedrankje of één suikerklontje in een appelsapje, het wordt allemaal op dezelfde manier getakst. Dat geeft mij niet het vertrouwen dat juist de industrieën die geen stappen hebben gezet om het aantal suikerklonten in de energiedranken te verminderen, zwaarder getroffen zullen worden of gestimuleerd zullen worden om mee te gaan. Iedereen wordt namelijk op exact dezelfde manier getakst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note74">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg19">Kort, mevrouw Bikker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note75">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg20">Volgens mij moeten we het nog verder gaan hebben over de plannen voor die taks en hoe die er precies uit gaat zien. Ik zou heel graag willen dat we met elkaar in de besprekingen het principe vasthouden: hoe kunnen we zorgen dat we echt de gezondheid bevorderen? Dit in plaats van alleen: hoe halen we belasting op? Ik ben blij collega Heerema daarin te vinden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note76">De heer Rudmer Heerema (VVD)</note>
+            <u who="#RudmerHeerema" ana="#regular topic:educa" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg21">Als ik kort mag reageren: dat is bijvoorbeeld ook mijn voorstel geweest met betrekking tot de sportverenigingen en scholen. Het gaat juist om het stimuleren van goed gedrag in plaats van alleen het bestraffen van slecht gedrag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note77">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg22">Prima. De volgende spreker is mevrouw Kuik van de fractie van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note78">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg23">Voorzitter. De volgende epidemie is nu al gaande. Het gaat om de vierde doodsoorzaak wereldwijd. Deze epidemie, een sluipmoordenaar die onze samenleving steeds meer in zijn greep krijgt, is fysieke inactiviteit. Wij Nederlanders zijn kampioen in Europa als het gaat om zitten. Wanneer je makkelijker een hamburger kan krijgen dan een stuk groente of fruit, moeten gemeenten meer instrumenten krijgen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg24">Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note79">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note80">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note81">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note82">constaterende dat het aantal vestigingen van fastfoodketens de afgelopen jaren gestaag is gestegen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note83">constaterende dat volgens de wetenschap de voedselomgeving een belangrijke oorzaak is van toenemend overgewicht in de samenleving;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note84">constaterende dat uit onderzoek van de Universiteit van Amsterdam blijkt dat gemeenten geen juridische instrumenten hebben om tegen nieuwe vestigingen van fastfoodketens op te treden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note85">overwegende dat gemeenten aangeven wettelijke instrumenten te willen krijgen om nieuwe vestigingen van fastfoodketens te weren en een gezonde voedselomgeving te stimuleren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note86">verzoekt de regering in kaart te brengen welke wettelijke, zoals de Warenwet, en niet-wettelijke instrumenten gemeenten nodig hebben om vestigingen van fastfoodketens te weren, en de Kamer hier zo spoedig mogelijk een wetsvoorstel voor toe te zenden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note87">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note88">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note89">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note90">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note91">overwegende dat zorgverzekeraars alleen leefstijlcoaches en stoppen-met-rokencoaches vergoeden die een erkende opleiding hebben gedaan en zijn ingeschreven in een kwaliteitsregister;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note92">constaterende dat voor patiënten dan wel consumenten door de veelheid aan zelfbenoemde leefstijlcoaches moeilijk te onderscheiden is wat effectieve en kwalitatief goede hulp is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note93">overwegende dat een substantieel deel van de Nederlanders een complex van ongezonde gedragingen vertoont, waarvoor een geïntegreerde aanpak het uitgangspunt zou moeten zijn om te komen tot duurzaam gezonder leefstijlgedrag;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note94">verzoekt de regering samen met de beroepsgroep te onderzoeken hoe voor consumenten inzichtelijk gemaakt kan worden welke leefstijlcoaches daadwerkelijk voldoen aan de kwaliteitseisen die ook zorgverzekeraars stellen aan leefstijlcoaches, zodat consumenten een weloverwogen keuze kunnen maken voor effectieve en kwalitatief goede hulp,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note95">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note96">Deze motie is voorgesteld door de leden Kuik, Bikker, Westerveld, Den Haan, Mutluer en Van Esch.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note97">Zij krijgt nr. kst-32793-591</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note98">Deze motie is voorgesteld door de leden Kuik en Bikker.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note99">Zij krijgt nr. kst-32793-592</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note100">Een korte vraag van de heer Heerema.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note101">De heer Rudmer Heerema (VVD)</note>
+            <u who="#RudmerHeerema" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg25">Een korte vraag. Ik kan me voorstellen dat het CDA bij die laatste motie ook zelf al een beeld heeft van wat het dan verwacht. Is dat bijvoorbeeld een BIG-register of iets dergelijks? Wat moet ik me daarbij voorstellen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note102">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg26">Het is belangrijk dat de beroepsgroep daarin wordt meegenomen en dat die aangeeft welke kwaliteitseisen men wil stellen. We zien nu een veelheid aan zelfbenoemde coaches, mensen die een dagdeel een cursus hebben gevolgd; dat zien we op Instagram ook. Het is belangrijk dat mensen die hulp nodig hebben niet door beunhazen worden geholpen maar kwalitatief goede hulp krijgen. De beroepsgroep is heel erg van belang om die kaders te stellen, evenals de zorgverzekeraars. Die kaders zijn er nu niet, en wij willen daar voor consumenten toch meer duidelijkheid in krijgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note103">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg27">Heel goed. Dan mevrouw Westerveld van de fractie van GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note104">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg28">Dank u, voorzitter. We weten dat gezonde voeding ook bijdraagt aan een sneller herstel van patiënten of van mensen die in een zorginstelling zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg29">Daarom heb ik de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note105">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note106">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note107">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note108">constaterende dat er in de zorg wordt gewerkt met professionele standaarden: medische normen die beschrijven hoe te handelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note109">constaterende dat gezonde voeding óók bijdraagt aan sneller herstel, maar dat het ontbreekt aan richtlijnen voor gezonde voeding in zorginstellingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note110">constaterende dat de kwaliteit van voeding in ziekenhuizen, instellingen voor ouderenzorg, jeugdzorg en gehandicaptenzorg enorm verschilt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note111">verzoekt de regering om samen met zorgverleners, voedingsdeskundigen en vertegenwoordigers van bewoners een richtlijn gezonde voeding te maken, zodat dit integraal onderdeel wordt van goede zorg,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note112">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note113">Deze motie is voorgesteld door de leden Westerveld, Van Esch en Den Haan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note114">Zij krijgt nr. kst-32793-593</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note115">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg30">Dan heb ik nog een vraag aan de staatssecretaris. Het mag toch heel duidelijk zijn dat een pizza met groente niet gezond is en dat het ook geen groente is, en een komkommer wel. Daarom zou ik de staatssecretaris willen vragen hoe het kan dat het zo lang duurt voordat de btw op groente en fruit verlaagd wordt. Als het ons in Nederland lukt om de accijnzen op brandstoffen binnen een paar weken te verlagen, dan moet het toch met politieke wil ook lukken om de btw op groente en fruit te verlagen? Ik zou daar graag een duidelijk antwoord op willen van de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note116">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg31">Dank u wel. Dan mevrouw Mutluer van de fractie van de Partij van de Arbeid. Mevrouw Kuik, wat mag ik voor u betekenen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note117">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg32">Tot mijn grote schande heb ik mevrouw Van Esch niet als tweede onder mijn motie genoemd, maar die hoort er wel op te staan. Excuus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note118">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg33">Die voegen wij toe. Zoals al gezegd mevrouw Mutluer van de Partij van de Arbeid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note119">Mevrouw Mutluer (PvdA)</note>
+            <u who="#SongülMutluer" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg34">Dank u wel, voorzitter. Enige teleurstelling over het preventiebeleid, dat heb ik geuit tijdens de commissievergadering. Wat mij betreft is er meer lef en ambitie nodig en een integrale blik en kijk op hoe je preventie goed kan doen. Ik hoop dat dat in goede handen is bij deze staatssecretaris. De lat ligt hoog. In mijn beleving gaat het namelijk niet alleen om de drie leefstijlthema's, maar ook om mentale gezondheid en de daadwerkelijke achterliggende oorzaken van ongezonde keuzes. De rol van partners, waaronder onderwijs en zorgverzekeraars, is daarin heel erg belangrijk. Daar heb ik twee moties over.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note120">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note121">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note122">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note123">overwegende dat scholen een cruciale rol spelen in een gezonde leefomgeving voor kinderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note124">overwegende dat scholen nu nog zelf kunnen beslissen om een Gezonde School te worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note125">verzoekt de regering om in samenspraak met het onderwijs te onderzoeken wat nodig is om alle scholen voor het einde van deze kabinetsperiode een Gezonde School te laten zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note126">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note127">Deze motie is voorgesteld door de leden Mutluer en Van Esch.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note128">Zij krijgt nr. kst-32793-594</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note129">Mevrouw Mutluer (PvdA)</note>
+            <u who="#SongülMutluer" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg35">De volgende motie heeft betrekking op de zorgverzekeraars, die in mijn beleving wel profiteren van de baten, maar geen bijdrage leveren als het gaat om preventie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note130">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note131">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note132">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note133">overwegende dat investeren in preventie niet alleen een taak is van de overheid, maar ook van partners zoals zorgverzekeraars;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note134">overwegende dat er op dit moment geen betaaltitel is voor preventie-uitgaven voor zorgverzekeraars en dat een betaaltitel preventie-uitgaven bij deze partijen kan stimuleren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note135">verzoekt de regering om te verkennen hoe je een dergelijke betaaltitel voor preventie kunt verankeren in de wet,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note136">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note137">Deze motie is voorgesteld door de leden Mutluer, Bikker, Van Esch en Kuik.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note138">Zij krijgt nr. kst-32793-595</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note139">Heel goed, dank u wel. Dan mevrouw Den Haan van de Fractie Den Haan.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note140">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg36">Dank u wel, voorzitter. Ik mocht dit mooie commissiedebat voorzitten en wil de staatssecretaris en de collega's nogmaals danken voor het fijne, plezierige en inhoudelijke debat. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note141">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note142">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note143">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note144">constaterende dat in Nederland elk jaar 40.000 mensen worden getroffen door een beroerte;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note145">overwegende dat mensen met boezemfibrilleren, een vorm van een hartritmestoornis, vijf keer zoveel kans hebben om een beroerte te krijgen ten opzichte van iemand met een normaal risico;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note146">overwegende dat een op de vier mensen van 55 jaar of ouder boezemfibrilleren ontwikkelt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note147">overwegende dat beroertes door boezemfibrilleren te voorkomen zijn met preventieve opsporing en vervolgens een behandeling met directe orale anticoagulantia (DOAC's);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note148">verzoekt de regering in samenspraak met het veld te onderzoeken hoe beter ingezet kan worden op beroertepreventie door middel van preventieve opsporing en de inzet van DOAC's,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note149">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note150">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note151">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note152">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note153">constaterende dat het RIVM concludeert dat volwassenen na zes jaar Akkoord Verbetering Productsamenstelling gemiddeld per dag maar een snufje minder zout en circa twee suikerklontjes minder binnenkrijgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note154">constaterende dat de regering nu regie neemt op de nieuwe Nationale Aanpak Productverbetering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note155">overwegende dat de staatssecretaris op dit moment een juridische verkenning uitvoert naar de wettelijke maatregelen voor productverbetering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note156">overwegende dat iedere twee jaar de resultaten en afspraken uit de Nationale Aanpak Productverbetering worden gemonitord;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note157">verzoekt de regering de resultaten uit de juridische verkenning onderdeel te maken van de NAPV;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note158">verzoekt de regering bij iedere monitoring van de NAPV naar de voortgang te kijken en bij tegenvallende resultaten extra maatregelen uit de juridische verkenning te nemen om de afspraken te halen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note159">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note160">Deze motie is voorgesteld door de leden Den Haan en Van Esch.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note161">Zij krijgt nr. kst-32793-596</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note162">Deze motie is voorgesteld door het lid Den Haan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note163">Zij krijgt nr. kst-32793-597</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note164">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg37">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note165">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg38">Dank u wel. Dan mevrouw Bikker van de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note166">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg39">Voorzitter, dank u wel. In Nederland zijn de gezondheidsverschillen naargelang de plek waar je geboren bent huizenhoog. Word je geboren in Moerwijk, dan leef je naar alle waarschijnlijkheid ten minste zeven jaar korter dan wanneer je iets verderop wordt geboren in het chique Statenkwartier. Dat is wat er in Nederland aan de hand is en dat is wat er anders moet. Juist daarom vindt mijn fractie leefstijlpreventie zo belangrijk en hopen wij dat dit kabinet de grote stappen gaat zetten die nodig zijn, zoals het stimuleren van gezond voedsel door de btw op groente en fruit te verlagen of eigenlijk af te schaffen, en het bevorderen van preventie op het mentale vlak. Ik vond het een feest om de staatssecretaris te horen spreken over zijn grote plannen. Ik wens hem veel succes en zegen in de uitvoering daarvan. Ik zie dat graag met veel daadkracht tegemoet.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg40">Voorzitter. Ter aanmoediging heb ik toch nog één motie. Dat is de volgende.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note167">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note168">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note169">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note170">overwegende dat de Atlas van Afgehaakt Nederland de gezondheid benoemt als thema dat er scherp en alarmerend uitspringt en dat grote invloed heeft op het algemeen welbevinden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note171">overwegende dat de aanpak Opgroeien in een Kansrijke Omgeving (ook wel bekend als het IJslandse model) een bewezen effectieve manier is om het welzijn van jongeren te vergroten en middelengebruik te verminderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note172">overwegende dat dit programma uitbreiding verdient en in januari 2023 nieuwe gemeenten hierbij aan kunnen sluiten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note173">verzoekt de regering gemeenten met de grootste gezondheidsachterstanden ten opzichte van het Nederlandse gemiddelde te stimuleren om mee te doen aan de volgende ronde van het programma Opgroeien in een Kansrijke Omgeving,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note174">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note175">Deze motie is voorgesteld door de leden Bikker, Mutluer en Kuik.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note176">Zij krijgt nr. kst-32793-598</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note177">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg41">Ik heb dus echt voor ogen dat wij het meest aan de slag gaan in wijken waar wij zien dat kinderen minder kans hebben op een gezonde toekomst — we kunnen ze er zo uithalen — om te zorgen dat juist deze kinderen een betere toekomst hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg42">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note178">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg43">Een korte vraag van mevrouw Westerveld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note179">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg44">Een korte vraag over de eerste woorden van mevrouw Bikker. Ze heeft gelijk: als je in een wijk opgroeit waar men het goed voor elkaar heeft en ouders hebt die hebben gestudeerd, leef je langer. Tegelijkertijd heeft de fractie van de ChristenUnie tegen een motie van de Partij voor de Dieren gestemd waar wij ook onder stonden die vraagt om de btw op groente en fruit per direct terug te brengen. Ik ben heel benieuwd waarom dat is gedaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note180">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:argic" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg45">Ik ben heel blij met deze vraag, want mijn fractie heeft altijd gepleit voor het goedkoper en aantrekkelijker maken van gezond voedsel. Wij hebben allemaal verkiezingsdebatten gehad waarin wij met afgrijzen moesten constateren dat een kilo frikandellen goedkoper was dan een kilo appels. Ik wil ervan af dat het op die manier gaat. Dat is één. Wij hebben hier als parlement ook gezegd, ook met de commissie-Bosman, dat we wel te luisteren hebben naar de uitvoeringskracht van de organisaties die dit moeten trekken. Er is duidelijk gezegd: ja, dit willen we graag. Daarom staan wij daarachter, roep ik de staatssecretaris hier telkens op om vaart te maken en doet collega Grinwis dat bij staatssecretaris Van Rij. U kunt ook een motie vinden van de hand van de ChristenUnie om daar vaart achter te zetten, alleen niet in het onmogelijke. Als het voor 1 juli kan, ga ik samen met mevrouw Westerveld een hele gezonde appel kopen en lekker juichen, maar als het niet lukt … Ik wil gewoon dat het zo snel mogelijk gebeurt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note181">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg46">Heel goed. Eet smakelijk, zou ik zeggen. Mevrouw Maeijer van de fractie van de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note182">Mevrouw Maeijer (PVV)</note>
+            <u who="#VickyMaeijer" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg47">Dank, voorzitter. Gezondheid is niet maakbaar. Den Haag moet niet bepalen wat er op tafel staat. Het is de taak van de overheid om voorlichting te geven, gevaren te benoemen en te ondersteunen, niet om een leefstijl te dicteren. Uiteindelijk moeten mensen kunnen kiezen wat ze eten en drinken en hoeveel ze bewegen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg48">Voorzitter. Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note183">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note184">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note185">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note186">verzoekt de regering geen prijsverhogende maatregelen te treffen op boodschappen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note187">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note188">Deze motie is voorgesteld door het lid Maeijer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note189">Zij krijgt nr. kst-32793-599</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note190">Kort en krachtig. De laatste spreker van de zijde van de Kamer is mevrouw Van der Plas van de fractie van BBB.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note191">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg49">Dank u wel, voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note192">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note193">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note194">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note195">constaterende dat een ongezonde leefstijl een belangrijke oorzaak is van ziekten en dit zorgt voor meer druk op de zorg;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note196">overwegende dat de consumptie van verse voedselproducten, zoals groenten, fruit, noten en dierlijke eiwitten, bijdragen aan een gezonde leefstijl;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note197">overwegende dat gedragsverandering begint bij kennis;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note198">overwegende dat investeren in voedseleducatie en gezond eten op langere termijn veel problemen kan voorkomen op het gebied van gezondheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note199">verzoekt het kabinet om te onderzoeken hoe structureel voedselonderwijs, inclusief boerderijeducatie en kooklessen, ingepast kan worden in lesprogramma's op basisscholen en voortgezet onderwijs, zodat kinderen al vanaf jonge leeftijd leren hoe vers voedsel bijdraagt aan gezond leven, kinderen zelf met verse producten leren koken en kinderen leren waar hun voedsel vandaan komt, waardoor de kans groter is dat ze ook op latere leeftijd vaker voor gezond en vers voedsel kiezen en gezonder leven,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note200">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note201">Deze motie is voorgesteld door het lid Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note202">Zij krijgt nr. kst-32793-600</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note203">Dank u wel. Was dat uw bijdrage?</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note204">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg50">Nee, nog eentje. U moet het nog een minuutje met mij doen, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note205">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg51">O, geweldig. Mevrouw Westerveld heeft een vraag over het voorafgaande.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note206">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:educa" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u41">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg52">Volgens mij heeft mevrouw Van der Plas deze motie vaker ingediend. Ook in een eerder debat heb ik aangegeven dat we in een andere commissie, de commissie voor Onderwijs, een gesprek hebben over wat er in en uit het curriculum van scholen zou moeten. In deze Kamer vinden we vanuit allerlei commissies dat het onderwijs van alles moet gaan oplossen, maar we weten ook dat docenten ontzettend overwerkt zijn. We kunnen niet alles aan de scholen overlaten. Daarom zou ik mevrouw Van der Plas willen vragen om deze motie aan te houden en om deze inbreng te leveren in het debat waarin we het echt hebben over het lesprogramma van scholen ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note207">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u42">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg53">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note208">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u43">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg54">Mijn vraag is al duidelijk, zie ik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note209">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u44">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg55">Het antwoord ook.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note210">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u45">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg56">Ik geloof gewoon in deze motie. Het klopt dat we die vaker hebben ingediend. Wij houden bij BBB heel erg van recyclen. Ik moet het even overwegen. Ik heb natuurlijk maar één zetel, dus ik kan niet in alle commissies zitten. Ik kan dit niet constant daar inbrengen. Ik overweeg het.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note211">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u46">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg57">U gaat erover nadenken. Mevrouw Westerveld, afrondend. Kort en puntig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note212">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:educa" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u47">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg58">Dat begrijp ik, maar gisteren kwam de Staat van het Onderwijs uit, het onderwijsjaarverslag van de inspectie. Daaruit blijkt dat er enorme achterstanden zijn bij taal en rekenen. Tegelijkertijd willen wij gezonde voeding in het lesprogramma, dat scholen aan antipestprogramma's gaan doen en dat er meer bewegingsonderwijs komt. Ik kan een hele waslijst opnoemen. Dat is de reden waarom ik mevrouw Van der Plas vraag om deze motie niet hier in te dienen, maar om dit mee te nemen in de onderwijsdebatten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note213">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u48">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg59">Het verzoek is duidelijk, denk ik. De heer Heerema.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note214">De heer Rudmer Heerema (VVD)</note>
+            <u who="#RudmerHeerema" ana="#regular topic:educa" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u49">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg60">In lijn met mevrouw Westerveld: het zou voor mij echt helpen, ook richting mijn fractie en juist als het gaat om de overbelasting van het onderwijs, als ik hoor wat er uit het onderwijs zou moeten als deze motie wordt aangenomen. Wat gaan we schrappen? Want als u bijvoorbeeld zegt dat er minder bewegingsonderwijs kan plaatsvinden, dan ga ik natuurlijk niet instemmen met deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note215">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u50">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg61">De VVD loopt nu wel heel erg hard. In de motie staat: te onderzoeken hoe het kan. Ik zeg niet: morgen moeten we voedselonderwijs hebben en rap een beetje. Dat zeg ik helemaal niet. Ik vraag om een onderzoek. De VVD gaat er gelijk al van uit dat het moet. Lees het dictum.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg62">Dan mijn tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note216">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note217">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note218">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note219">constaterende dat uit onderzoek blijkt dat bij een verbod op tabaksverkoop in supermarkten ongeveer 500 (vooral kleine) supermarkten failliet zullen gaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note220">overwegende dat deze supermarkten van groot belang zijn voor de leefbaarheid in dorpen en wijken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note221">verzoekt de regering nadrukkelijk rekening te houden met de gevolgen van het tabaksverkoopverbod voor kleine supermarkten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note222">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note223">Deze motie is voorgesteld door het lid Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note224">Zij krijgt nr. kst-32793-601</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note225">Heel goed. Dank u wel. Ik schors voor een kwartier. Daarna gaan we luisteren naar de staatssecretaris. Een klein erratum: ik schors voor tien minuten.</note>
+            <note type="time" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note226">De vergadering wordt van 10.44 uur tot 11.02 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note227">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u51">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg63">Het woord is aan de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note228">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u52">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg64">Dank, voorzitter. Ik begin even met de verschillende vragen. Daarna ga ik naar de moties, met uw welnemen. Allereerst een vraag van de Partij voor de Dieren over het artikel van Follow the Money, vooral in het kader van transparantie. Ik wil echt nadrukkelijk aangeven dat we er alles aan doen om zo transparant als mogelijk te zijn over de manier waarop we werken aan productverbetering. We werken ook verder aan de communicatie daarover en we werken met de industrie goed verder aan de doelen. We hebben ook openbare verslagen van de stakeholderoverleggen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg65">Dan de vraag van D66 of we verder zouden kunnen met Lifelines. Er is een mooie langetermijncohortstudie, waarin veel verschillende gezondheidsgegevens van burgers worden verzameld. We gaan kijken of we de data uit die cohorten verder kunnen toepassen, en of die ons kunnen helpen bij het verbeteren van het preventiebeleid.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg66">Dan de vraag van GroenLinks waarom het zo lang duurt voordat de btw op groente en fruit wordt verlaagd. Ik heb daar natuurlijk al eerder antwoord op gegeven: er wordt gewerkt aan een heldere scheidslijn tussen de diverse producten. Dat moet natuurlijk niet alleen maatschappelijk goed uitlegbaar zijn, maar vooral ook juridisch, want we hebben er niks aan als dat niet meteen goed is.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg67">Dan een vraag van de heer Heerema …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note229">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u53">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg68">Mevrouw Westerveld, kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note230">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:argic" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u54">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg69">De staatssecretaris zegt: een heldere scheidslijn. Maar de scheidslijn bij wat onbewerkte groente is, is een hele heldere. Ziet de staatssecretaris dat ook zo?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note231">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u55">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg70">Maatschappelijk zijn er allerlei scheidslijnen te bedenken die ik ook goed kan volgen. Alleen, het moet wel tot op de laatste precisie uitgevoerd kunnen worden. We hebben hier natuurlijk al snel een beeld van waar die scheidslijn ongeveer ligt, maar het moet in de precisie zo werken dat het tot in de supermarkt daadwerkelijk goed functioneert. Dat is de kunst die we hier aan het beoefenen zijn. We zijn er hard mee bezig. Ik heb ook al eerder aangegeven dat we er voor de zomer op terugkomen, en dat alles erop is ingericht om het ook zo snel mogelijk te doen, maar wel in één keer goed.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg71">Dan de vraag van de heer Heerema over hoe achterblijvers in de frisdrankindustrie kunnen worden gestimuleerd. En is de huidige keuze niet juist te generiek? Nogmaals, twee dingen hierover. Allereerst, gaan we de verbruiksbelasting verhogen. Die is bij alle frisdrankproducten hetzelfde. De uitzonderingen hebben we al besproken in het commissiedebat; die ga ik niet herhalen. Vervolgens ben ik aan het verkennen om uiteindelijk wel naar die progressieve suikertaks toe te groeien. Dat is de verslimming die we aan kunnen brengen. Alleen, de eerste slag slaan we op deze manier, en vervolgens gaan we door naar de verslimming en de progressieve suikertaks.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg72">Dan de vraag van de VVD over de rijke schooldag. Ook hierover heb ik natuurlijk veel contact met collega Wiersma. We gaan ook nog een specifieke gezamenlijke afspraak hierover beleggen. Dat doen we voor het commissiedebat Sport en bewegen, dat gepland staat in juni, dacht ik. Dan kunnen we het daarin goed meenemen, zodat uw Kamer daar weer goed van op de hoogte is.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg73">Dank, voorzitter. Dan ga ik naar de appreciatie van de moties. Allereerst de motie op stuk nr. 585 …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note232">De heer Rudmer Heerema (VVD)</note>
+            <u who="#RudmerHeerema" ana="#regular topic:domes" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u56">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg74">Ik probeer even te taxeren hoe de uitkomst van dat gesprek met de heer Wiersma naar ons toekomt. We hebben op 24 juni inderdaad een sportdebat in de Tweede Kamer, hét debat van het jaar, het enige commissiedebat elk jaar dat over sport gaat. Krijgen we dan een soort van gespreksverslag van de staatssecretaris? Krijgen we een brief met voorstellen? Wat kan ik dan van de staatssecretaris verwachten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note233">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:educa" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u57">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg75">We zijn op het moment al bezig met een aanpak sport en bewegen. Dat weet u ook. Die aanpak voor sport en bewegen doen we natuurlijk in heel nauwe samenwerking met minister Helder. Ik denk dat we er het best op kunnen mikken dat wij de informatie over die aanpak en de combinatie met de rijke schooldag voorafgaand aan het debat met u delen. Als het dan niet de hele aanpak is, dan is het in ieder geval de stand van zaken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note234">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u58">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg76">Heel kort nog even, mevrouw Van der Laan, want ik wil echt naar de moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note235">Mevrouw Van der Laan (D66)</note>
+            <u who="#JeanetvanderLaan" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u59">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg77">Het is kort, maar ik wil het ook niet in de lucht laten hangen. In navolging van de heer Heerma heb ik een vraag over het project Lifelines: hoe krijg ik daar een terugkoppeling op?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note236">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u60">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg78">Ik kom daar vóór de begrotingsbehandeling bij u op terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note237">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u61">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg79">Prima. De moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note238">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u62">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg80">De motie op stuk nr. 585 van mevrouw Van Esch, Partij voor de Dieren, cum suis over kindermarketing geef ik graag oordeel Kamer, met dit ene punt ter nuancering: u vraagt om voor de begrotingsbehandeling terug te komen op dit punt, maar ik zou u willen verzoeken om daar "voor het einde van het jaar" van te maken. Ik denk namelijk dat wij dat niet redden voor de begrotingsbehandeling.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg81">Dan de motie op stuk nr. 586 van mevrouw Van Esch over alcoholschade door mengformules. Ook die zou ik oordeel Kamer willen geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg82">Dan de motie op stuk nr. 587 over de jaarlijkse doelen voor productverbetering. Deze motie moet ik helaas ontraden. De doelen zijn gesteld voor 2030. We hebben een tweejaarlijkse monitoring om te kijken of we de doelen realiseren. Het is echt te veel werk om dat jaarlijks te gaan doen. We hebben ook een tussentijdse monitoring om te zien of we voldoende op streek zijn voor 2030. Deze motie moet ik dus helaas ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note239">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u63">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg83">Mevrouw Van Esch, kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note240">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u64">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg84">Ik ben wel benieuwd hoe de staatssecretaris dan gaat sturen op het behalen van die doelen in 2030. Stel dat we over twee jaar een monitoring krijgen waarin staat: we halen het nog niet. En dan? Daar ben ik benieuwd naar. Als we die reductiedoelen niet per jaar opstellen, wat gaat deze staatssecretaris dan doen om het wel te bereiken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note241">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u65">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg85">Twee dingen. Nogmaals, die tweejaarlijkse monitoringcyclus blijft. Daarmee zien we ook heel goed wat er gebeurt. Bovendien hebben we een doel gesteld voor 2030 en zijn we voornemens om tussentijds een evaluatie te doen om vast te stellen hoever we op streek zijn om de doelen van 2030 te realiseren. Als je naar een jaarlijkse monitoring toegaat, is het maar de vraag of dat helpt om te sturen. Het tweede is dat dit een enorme administratieve last gaat betekenen, omdat je dan elk jaar moet bezien welke verbeteringen er zijn. Dat is denk ik te veel van het goede.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note242">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u66">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg86">Afrondend, kort en puntig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note243">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u67">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg87">Ik bedoelde meer: welke stok achter de deur heeft deze staatssecretaris, als je geen jaarlijkse of tweejaarlijkse reductiedoelen opstelt, om tegen de industrie te zeggen: we zien in de monitoring nog steeds dat het snufje zout een snufje zout blijft? Welke stok achter de deur heeft hij dan om die doelen wel te halen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note244">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u68">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg88">Daarvoor zijn de tussentijdse evaluaties bedoeld, die ik ook heb genoemd. We gaan niet pas in 2030 het totaalpakket evalueren en kijken of we de doelen gehaald hebben; we gaan dat ook tussentijds doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note245">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u69">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg89">De motie op stuk nr. 588.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note246">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u70">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg90">De motie op stuk nr. 588 zou ik graag oordeel Kamer willen geven, met ook hier wel één kanttekening. Er staat namelijk specifiek om de reclamecode voor voedingsmiddelen daarvoor te benutten, maar die is natuurlijk van de sector zelf. Dat is niet een code die wij hebben opgesteld. Daarvoor geldt dus dat wij dat wel als een inspanning willen doen en het gesprek daarover willen aangaan, maar de sector zelf is daar verantwoordelijk voor. Die gaat er uiteindelijk over. Met die kanttekening krijgt de motie oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg91">Dan de communicatie over productverbetering. Dat is de motie op stuk nr. 589. Ik doe het even kort. Die krijgt ook oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg92">Hetzelfde geldt voor de motie over roken en lokale preventieakkoorden, de motie op stuk nr. 590.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg93">De motie op stuk nr. 591 over de wettelijke instrumenten voor de voedselomgeving. Hier wil ik toch even een paar woorden over zeggen. Allereerst: ja, we zijn aan het zoeken welke niet-wettelijke maar ook wettelijke instrumenten nodig zijn voor gemeenten om hier een stap in te kunnen zetten. Dat is overigens ook in de brief aangekondigd. Maar we moeten eerst nog eens even kijken wat er precies nodig is voordat we, inderdaad zo spoedig mogelijk, een wetsvoorstel toe gaan zenden. Daar zet ik dus wel even een kringeltje bij. We gaan eerst even goed kijken wat er nodig is, en vervolgens gaan we kijken wat daarvoor dan in de wet nodig is, maar die twee dingen zijn wel gescheiden van elkaar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note247">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u71">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg94">En dus?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note248">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u72">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg95">Op deze manier uitgelegd, met een goede scheidslijn tussen die twee, kan ik de motie oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note249">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u73">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg96">Het gaat mij erom dat er, als duidelijk is wat er nodig is, dan niet wordt getreuzeld, maar dat de boel ook wel direct in gang wordt gezet om het naar de Kamer toe te brengen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note250">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u74">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg97">Dat snap ik en dat wil ik ook niet doen. Maar de wettelijke verankering, waar je dat doet en op welke manier, zou nog wel een kunststukje op zichzelf kunnen zijn. Bovendien is het de vraag of alles uit de wet nodig is, of misschien ook wel andere dingen. We verkennen dus eerst goed. Vervolgens gaan we inderdaad niet treuzelen. Dat zou ik nooit willen doen, en zeker niet op dit belangrijke onderwerp.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg98">Dan de motie op stuk nr. 592. Die gaat over de leefstijlcoaches. Ik zou willen vragen om die aan te houden. Het klinkt op zichzelf namelijk hartstikke sympathiek en ik zou de stap ook wel willen zetten, maar ik wil toch even de implicaties bekijken. Ik zou dus eigenlijk willen dat hij wordt aangehouden. Ik heb eerder toegezegd om u voor de zomer te informeren over preventie in het zorgstelsel en leefstijlgeneeskunde. Daar kan deze motie eigenlijk heel goed bij betrokken worden. Ik zou die er zelf ook bij willen betrekken om te kijken of dat kan. Dan kom ik daar in de brief op terug, en dan kunt u in de brief kijken en bepalen of u vindt dat de motie is uitgevoerd of niet. Als u dat zou willen, kunt u haar dan aanhouden tot u in de brief heeft gelezen of we hiermee inderdaad uit de voeten kunnen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note251">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u75">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg99">Ik heb slecht nieuws voor u. Mevrouw Kuik houdt de motie niet aan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note252">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u76">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg100">Ach. Nou, ik heb zó goed mijn best gedaan. Maar het is wat het is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note253">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u77">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg101">Het is bikkelhard.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note254">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u78">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg102">Dan moet ik de motie overigens wel ontraden, want ik vind de implicatie op dit moment niet te overzien, dus dan moet ik haar ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note255">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u79">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg103">Exact. Dat wou ik nog even horen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note256">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u80">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg104">Dan de motie op stuk nr. 593 over gezonde voeding in zorginstellingen. Hier hebben we in het commissiedebat natuurlijk uitdrukkelijk over gesproken. Het is een belangrijk onderwerp. Ik heb ook met u gedeeld hoe ik denk dat we die stappen kunnen gaan zetten. Maar u gaat in deze motie net iets te ver. U vraagt namelijk om een richtlijn te maken waarmee gezonde voeding integraal onderdeel wordt van zorg. Daarmee zouden we in de curatieve sector, om toch maar even één beeld te geven van hoe dat dan bijvoorbeeld in het pakket zou uitpakken, toch wel een heel ingewikkelde combinatie maken. Kortom, dat gaat te ver. Ik heb u al eerder aangegeven dat er een voedselrichtlijn is voor zorginstellingen. We kunnen nog eens even kijken of we die niet kunnen verbreden en ook breder kunnen toepassen, en vooral ook kunnen zorgen dat de sector zelf over de volle breedte van de zorg daar meer mee gaat werken. Dat zou ik heel graag willen doen, maar echt die koppeling maken en het integraal onderdeel maken van goede zorg, zoals hier in de motie staat, dat kunnen we niet doen. Deze motie moet ik dan ook op deze manier ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg105">De motie op stuk nr. 594 kan ik oordeel Kamer geven, maar er is wel één punt. In de overwegingen staat namelijk dat scholen nu nog zelf kunnen beslissen om een gezonde school te worden. Ik zou willen zeggen dat ik die vrijwilligheid graag wil vasthouden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg106">De motie op stuk nr. 595 gaat over een betaaltitel voor preventie. Ik heb al eerder aangegeven dat ik kom met een brief over preventie in het zorgstelsel. Daarbij gaan we ook kijken op welke manier de verzekeraars kunnen bijdragen aan gezondheid in plaats van aan ziekte. In die brief komen we hier dus op terug. Ik zou dus ook bij deze motie willen vragen om haar aan te houden tot die brief om te kijken of we daar voldoende aan tegemoetkomen. Als u dat niet voldoende vindt, moet ik de motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note257">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u81">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg107">Ik zie geen actie bij mevrouw Mutluer. Dan is de motie bij dezen dus ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note258">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u82">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg108">De motie op stuk nr. 596 over beroertepreventie zou ik oordeel Kamer willen geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg109">Over de motie op stuk nr. 597, die over de productsamenstelling gaat, heb ik eigenlijk al iets gezegd. We gaan de nieuwe aanpak goed monitoren. We verkennen de juridische mogelijkheden voor productverbetering. Deze motie loopt daar nu te ver op vooruit. Deze motie moet ik dus helaas ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg110">De motie op stuk nr. 598 van de ChristenUnie over de Atlas van Afgehaakt Nederland en de IJslandse aanpak kan ik oordeel Kamer geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg111">De motie op stuk nr. 599 over de prijsverhogende maatregelen moet ik ontraden, want we zijn met elkaar natuurlijk in de volle breedte bezig met bekijken welke stimuli en prikkels daar juist in zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg112">De motie op stuk nr. 600 over voedselonderwijs op scholen moet ik ontraden, want ik zou echt willen vragen om niet te veel onderwerpen toe te voegen aan het curriculum. Dat zeg ik zeker ook namens de minister van p.o. en vo. Wij hebben zelf ook ons eigen programma Gezonde School, waarmee we volop aan het werk zijn om het voedselonderwijs op school zo goed mogelijk te stimuleren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg113">De motie op stuk nr. 601 gaat over het tabaksverkoopverbod en vraagt om uitdrukkelijk rekening te houden met de gevolgen daarvan. Daar ben ik zeer toe bereid, want ik wil die gevolgen voor de supermarkten in de regio inderdaad zo klein mogelijk houden. Die motie kan ik dus oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note259">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u83">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg114">Prima. Dank u wel. Tot zover dit debat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note260">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.note261">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.u84">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-5.seg115">Dinsdag stemmen wij over de moties. Ik wens u natuurlijk veel succes bij uw werkbezoek aan IJsland.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

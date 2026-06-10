@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-02-10 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-02-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 49, Session 16 (2022-02-10)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 49, Session 16 (2022-02-10)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="49" xml:lang="en">Meeting 49</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="16" xml:lang="en">Session 16</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-02-10">Sitting 2022-02-10</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="90">90 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="90">90 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3666">3,666 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3666">3,666 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-02-10">2022-02-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="178"/>
+               <tagUsage gi="seg" occurs="108"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="90"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-02-10">2022-02-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.head1">Exportkredietverzekeringen</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:domes" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u1">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg1">Aan de orde is het tweeminutendebat Exportkredietverzekeringen. Ik heet de staatssecretaris van Financiën van harte welkom, evenals de collega's, de mensen op de publieke tribune en de kijkers thuis. Ik geef meteen het woord aan de heer Edgar Mulder van de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note2">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u2">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg2">We hebben vandaag nog meer te doen, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note6">overwegende dat vele banen op de tocht komen te staan door de zogenaamde vergroening van de exportkredietverzekering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note7">overwegende dat vele sectoren, zoals de maritieme sector en de fossiele energie-industrie, afhankelijk zijn van de exportkredietverzekeringen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note8">constaterende dat de zogenaamde vergroening van de exportkredietverzekering slecht is voor de werkgelegenheid, de gehele exportsector en de Nederlandse economie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note9">verzoekt de regering af te zien van de voorgenomen vergroening van de exportkredietverzekering en geen afbouwpad van exportkredietverzekeringssteun aan fossiele projecten in te zetten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note11">Deze motie is voorgesteld door het lid Edgar Mulder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note12">Zij krijgt nr. kst-26485-384</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note13">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder" ana="#regular topic:trade" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u3">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg3">Ik denk dat ik het woord "exportkredietverzekering" vaker heb genoemd dan iedereen die nog gaat komen. Die prijs heb ik dus al wel gewonnen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg4">We gaan over naar de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note14">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note15">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note16">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note17">verzoekt de regering om kernenergie en gas op te nemen als zijnde groen in de exportkredietverzekeringentaxonomie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note18">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note19">Deze motie is voorgesteld door het lid Edgar Mulder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note20">Zij krijgt nr. kst-26485-385</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note21">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u4">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg5">En dan de laatste motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note22">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note23">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note24">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note25">verzoekt de regering in het kader van de exportkredietverzekering af te zien van het bieden van ruimere dekkingsmogelijkheden voor zogenaamde groene risicovollere transacties,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note26">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note27">Deze motie is voorgesteld door het lid Edgar Mulder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note28">Zij krijgt nr. kst-26485-386</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note29">Ik dank u zeer, meneer Mulder.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note30">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u5">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg6">Graag gedaan, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note31">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u6">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg7">Dan gaan we naar de heer Heinen van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note32">De heer Heinen (VVD)</note>
+            <u who="#EelcoHeinen" ana="#regular topic:trade" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u7">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg8">Dank u wel, voorzitter. De Nederlandse economie draait op de export. Er is geen plek in de wereld waar je geen Nederlanders tegenkomt, geen Nederlandse producten in de winkels ziet liggen of geen Nederlanders aan het werk ziet. We zijn overal en dat maakt ons een machtig mooi land. Soms nemen we zelfs zulke mooie en grote opdrachten aan dat bedrijven geen normale verzekering kunnen krijgen. Daarvoor kunnen die bedrijven dan terecht bij de overheid, de zogenaamde exportkredietverzekering; ik noem dat woord maar één keer. De Glasgowverklaring die de Nederlandse regering eind vorig jaar heeft getekend, zet een rem op die verzekeringen voor projecten in de fossiele industrie. Laat Nederland nou net daar goed in zijn. Voor Nederland is het belangrijk dat ook concurrerende landen deze verklaring inmiddels hebben getekend. Tegelijkertijd biedt die Glasgowverklaring ook ruimte voor uitzonderingen. Landen gaan natuurlijk op zoek naar die uitzonderingen. Denk bijvoorbeeld aan een project waarbij landen worden geholpen om over te schakelen van kolen naar gas. Dat levert CO-reductie op, maar het is wel een fossiel project. In de Kamerbrief werd daar ook naar verwezen. We moeten voorkomen dat concurrerende landen dit soort projecten wél blijven steunen maar Nederland niet, waardoor het Nederlandse bedrijfsleven dan op achterstand wordt gezet en banen op het spel komen te staan. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note33">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note34">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note35">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note36">overwegende dat de Glasgowverklaring ruimte biedt voor verschillende interpretaties door de deelnemende landen, wat kan leiden tot een ongelijk speelveld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note37">verzoekt de regering de verklaring niet strenger te interpreteren dan andere landen die de verklaring hebben getekend, met het bedrijfsleven in gesprek te gaan over de reikwijdte van de verklaring en de duurzame transities en om het gelijke speelveld voor het Nederlandse bedrijfsleven internationaal te bewaken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note38">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note39">Deze motie is voorgesteld door de leden Heinen, Romke de Jong en Inge van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note40">Zij krijgt nr. kst-26485-387</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note41">Dank u wel. Er is een vraag van de heer Van Raan, Partij voor de Dieren.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note42">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u8">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg9">We horen heel vaak het verhaal over het gelijke speelveld dat Nederland of deze regering zou moeten bewaken. Ik wil er met de heer Heinen best een eind in meegaan dat dat belangrijk is, maar dan neem ik aan dat in zijn motie ook het feit verwerkt zit dat het Nederlandse bedrijfsleven ontzettend veel fiscale voordelen heeft, zowel op de vennootschapsbelastingachtige constructies als op de fossiele subsidies. Klopt dat?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note43">De heer Heinen (VVD)</note>
+            <u who="#EelcoHeinen" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u9">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg10">Mijn motie ziet toe op het bewaken van het gelijke speelveld als het gaat om de Glasgowverklaring. Op zich is de richting een goede; daar zijn we het over eens, maar ik wil voorkomen dat omringende, concurrerende landen de verklaring anders interpreteren. Het gaat echt om die verklaring. Wat u er nu bij haalt, is geen onderdeel van de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note44">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u10">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg11">De heer Van Raan tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note45">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u11">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg12">Dank voor deze duidelijkheid. Dat betekent dus dat de VVD de facto het ongelijke speelveld in stand houdt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note46">De heer Heinen (VVD)</note>
+            <u who="#EelcoHeinen" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u12">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg13">Het gaat om de concurrentiepositie van Nederland. Die is dankzij dat fiscale vestigingsklimaat van ons ontzettend goed. Dat zou ik inderdaad graag zo willen houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note47">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u13">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg14">Dank u wel, meneer Heinen. Dan geef ik het woord aan de heer Van Raan van de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note48">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u14">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg15">Voorzitter. Ik moet de ratelmachine weer even aanzetten. Excuses daarvoor; het zijn veel moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note49">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note50">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note51">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note52">constaterende dat via exportkredietverzekeringen (ekv) met Nederlands belastinggeld de veehouderij in het buitenland wordt opgebouwd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note53">constaterende dat Nederlandse boeren op die manier via de belastingen bijdragen aan het financieren van hun buitenlandse concurrentie, terwijl de prijzen voor Nederlandse boeren al jaren onder druk staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note54">overwegende dat alleen grote bedrijven uit de agro-industrie hiervan profiteren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note55">verzoekt de regering niet langer met publiek geld gefinancierde exportkredietverzekeringen te verstrekken voor het opbouwen van de veehouderij in het buitenland,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note56">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note57">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note58">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note59">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note60">constaterende dat het een tijd kan duren voordat dekkingstoezeggingen voor exportkredietverzekeringen worden omgezet in polissen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note61">overwegende dat pas per eind 2022 steun voor fossiel moet zijn beëindigd en het dus onwenselijk is als na de deadline van 31 december 2022 dekkingstoezeggingen worden omgezet in polissen die steun geven aan de fossiele sector;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note62">verzoekt de regering de Tweede Kamer gedurende het jaar 2022 in de rapportages over de uitvoering van de COP26-verklaring op de hoogte te houden van nieuwe aanvragen en verleende dekkingstoezeggingen voor fossiele projecten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note63">verzoekt de regering uiterlijk 31 december 2022 polissen voor fossiele projecten af te ronden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note64">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note65">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note66">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note67">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note68">overwegende dat Nederland het klimaatakkoord van Parijs heeft ondertekend;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note69">overwegende dat volgens het IEA en IPCC 1,5⁰C-rapporten nieuwe upstreamprojecten niet te verenigen zijn met het 1,5⁰C-doel van het klimaatakkoord van Parijs;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note70">overwegende dat nieuwe upstreamprojecten decennialang toekomstige uitstoot vastleggen en risico's met zich meebrengen op gestrande activa als de vraag naar fossiele brandstoffen afneemt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note71">overwegende dat de COP26-verklaring per 1 januari 2023 ingaat en het tegen het klimaatakkoord van Parijs indruist als in het jaar 2022 nieuwe upstreamprojecten publieke financiële steun krijgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note72">overwegende dat het Verenigd Koninkrijk al sinds maart 2021 gestopt is met het ondersteunen van fossiele projecten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note73">verzoekt de regering per direct geen publieke financiële steun te geven aan nieuwe upstreamprojecten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note74">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note75">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note76">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note77">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note78">overwegende dat het tegen de geest van de COP26-verklaring ingaat als exportkredietsteun gegeven blijft worden aan projecten die de fossiele infrastructuur ten dele faciliteren, bijvoorbeeld het uitbaggeren van een haven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note79">verzoekt de regering ook beperkingen op te leggen aan exportkredietverzekeringen voor projecten die de fossiele infrastructuur ten dele faciliteren, en deze mee te nemen in de rapportages aan de Tweede Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note80">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note81">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note82">Zij krijgt nr. kst-26485-388</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note83">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note84">Zij krijgt nr. kst-26485-389</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note85">Deze motie is voorgesteld door de leden Van Raan, Maatoug, Nijboer en Alkaya.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note86">Zij krijgt nr. kst-26485-390</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note87">Deze motie is voorgesteld door de leden Van Raan, Maatoug en Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note88">Zij krijgt nr. kst-26485-391</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note89">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u15">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg16">Voorzitter, de laatste.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note90">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note91">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note92">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note93">constaterende dat het bij aanvragen voor categorie-A-projecten van de exportkredietverzekering niet duidelijk is wanneer bijvoorbeeld een mvo-mits of een dekkingstoezegging is gegeven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note94">overwegende dat het vanuit het oogpunt van de transparantie voor het maatschappelijk middenveld en belanghebbenden in de projectlanden essentieel is dat men ex ante inzicht kan krijgen in de status van de exportkredietverzekeringaanvraag;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note95">verzoekt de regering voor alle categorie-A-projecten de status van de aanvraag publiekelijk te vermelden in de ex-ante lijst,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note96">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note97">Deze motie is voorgesteld door de leden Van Raan, Maatoug en Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note98">Zij krijgt nr. kst-26485-392</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note99">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u16">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg17">Voorzitter, dank u wel. Pfiew.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note100">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u17">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg18">Dank u wel, meneer Van Raan. En dat allemaal naar aanleiding van één debat. Het is indrukwekkend.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg19">Dan geef ik het woord aan mevrouw Inge van Dijk van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note101">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u18">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg20">Dank u wel, voorzitter. Ik wil een aantal zaken voorleggen aan de nieuwe staatssecretaris. Tijdens het commissiedebat was de vorige staatssecretaris redelijker dan ik aanvankelijk had verwacht. De zorg van mijn fractie over te abrupt stoppen met de ekv is in dat debat enigszins weggenomen. Ik wil nogmaals benadrukken dat het CDA het van belang vindt dat we met ons groene handelsbeleid ons bedrijfsleven niet het land uitjagen, rekening houdend met het Europese speelveld en ook rekening houdend met de impact op lokaal niveau, wanneer wij geen risicoprojecten meer financieren in lage-inkomenslanden. De klimaattransitie ligt voor een groot deel in de mentaliteit en consumptieverandering bij ons in het Westen. Het grootbedrijf als vervuiler zien wij net zo goed als onderdeel van de oplossing.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg21">Bij het commissiedebat bleven een aantal vragen openstaan. Een belangrijke vraag is hoe het staat met het overleg met het bedrijfsleven. Er zijn namelijk drie departementen die praten met het bedrijfsleven. Hoe wordt dat georganiseerd? Welke rol speelt de staatssecretaris daarbij? Zijn er al resultaten van deze gesprekken? Ik prefereer grondigheid boven snelheid in dezen, zodat het ook echt gaat gebeuren en we later niet met verrassingen komen te zitten. Mijn fractie gaat voor realisme en uitvoering en niet voor snelheid en de bühne. Dat wil dus niet zeggen — dit zeg ik tegen onze criticasters — dat wij tegen uitfasering van fossiele brandstof zijn, maar zoals ik al eerder zei, willen wij dat goed doen. Daarom vraag ik ook naar de inhoud van het flankerende beleid. Daar kon de staatssecretaris tijdens het commissiedebat geen antwoord op geven, maar wellicht nu wel.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg22">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note102">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u19">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg23">Dank u wel, mevrouw Van Dijk. Dan geef ik het woord aan de heer Alkaya van de SP. Nee, die ziet er volgens mij van af, want hij heeft nul minuten opgegeven. Tot slot is het woord aan de heer Romke de Jong van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note103">De heer Romke de Jong (D66)</note>
+            <u who="#RomkedeJong" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u20">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg24">Voorzitter, dank u wel. In het commissiedebat zei ik al dat onze ondernemers en ondernemingen met hun harde werk en goede inzet de toekomst van dit land mede bepalen, hier en in het buitenland. Die toekomst zit vol met opgaven, ook rond duurzaamheid. Ik ben ook heel blij dat Nederland die Glasgowverklaring heeft getekend.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg25">De opgave van dit jaar is de implementatie van het akkoord. Om ervoor te zorgen dat er geen eindsprint wordt getrokken met projecten die alsnog vervuilend blijven, ver na 2030, vraag ik of in de voortgangsrapportage kan worden opgeschreven welke projecten een exportkredietverzekering hebben gekregen die na implementatie van de COP26-verklaring geen ekv zouden hebben gehad.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg26">Voorzitter. Het is ook goed om te zien dat volgens mij 11 van de 27 EU-landen de COP26 hebben getekend, maar dat kan betekenen dat nog steeds 16 andere landen doodleuk kunnen doorgaan met vervuilende ekv's. Gaat de minister zich inzetten voor Europese wetgeving, om ekv's voor fossiele projecten in alle landen te stoppen?</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg27">Dit zijn een aantal vragen om vervuiling tegen te houden, maar exportkredietverzekeringen bieden juist kansen voor duurzame initiatieven voor het Nederlandse bedrijfsleven, bijvoorbeeld als het gaat over vergroening van de energie in Afrika. Wat doet het kabinet om export van duurzame projecten te versnellen?</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg28">Voorzitter. Exportkredietverzekeringen — volgens mij zeg ik het nu bijna net zo vaak als de PVV — bieden ook kansen voor duurzame ontwikkelingen in andere landen. Dat is een groot goed voor het Nederlandse bedrijfsleven. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note104">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u21">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg29">Dank u wel. Dan schors ik de vergadering tot 13.55 uur, voor de voorbereiding van de staatssecretaris om nog een enkele vraag te beantwoorden en om een appreciatie te geven van de ingediende moties.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note105">De vergadering wordt van 13.46 uur tot 13.57 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note106">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:macro" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u22">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg30">Ik geef het woord aan de staatssecretaris van Financiën.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note107">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:inter" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u23">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg31">Dank u wel, voorzitter. Ik dank de Kamer voor de inbreng. Ik wil eerst antwoord geven op een aantal vragen die gesteld zijn, met name door het CDA en D66. Dan zal ik een appreciatie geven van de ingediende moties.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg32">Het CDA heeft gevraagd naar het proces om tot een uitwerking van de COP26-verklaring te komen. Deze verklaring is ambitieus. Het kabinet wil die op een zorgvuldige manier implementeren. Daarvoor moet overleg plaatshebben met stakeholders, ngo's en betrokken bedrijven. Dat is van fundamenteel belang. Die gesprekken zijn gestart. Er is een publiek-private high-level group opgericht, onder voorzitterschap van de thesaurier-generaal van het ministerie van Financiën, met deelname van de CEO's van grootgebruikers van de exportkredietverzekeringsfaciliteit, VNO-NCW en verschillende directeuren-generaal, onder meer van Buitenlandse Handel en Ontwikkelingssamenwerking en EZK. Daaronder zijn twee publiek-private werkgroepen opgericht, waar ook bedrijven aan deelnemen. Een daarvan bekijkt de interpretatie, de reikwijdte en de mogelijke uitzonderingen, de ander het flankerend beleid. Aan deze werkgroepen nemen vier ministeries deel: Financiën, het eerdergenoemde Buitenlandse Handel en Ontwikkelingssamenwerking, Economische Zaken en Klimaat en Infrastructuur en Waterstaat. Ook exportkredietverzekeraar Atradius, de uitvoerder van de ekv, neemt deel. Tevens wordt ingezet op consultatie van ngo's en een gezamenlijk overleg met bedrijven en ngo's. Aan dat laatste hecht ik zelf ook zeer. Tegelijkertijd zoeken we actief afstemming met de andere landen die de COP26-verklaring hebben getekend over hún interpretatie. Kortom, het proces is opgestart en we hebben de kennis aan tafel die we nodig hebben, maar zorgvuldigheid vergt uiteraard ook enige tijd. Ik streef ernaar uw Kamer, zoals verzocht in de motie-Klink, vóór de zomer te informeren over de uitwerking van de COP26-verklaring, dus in het tweede kwartaal. Ik zal u in maart ook nader over de voortgang van het proces informeren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg33">Dan de vragen gesteld door het Kamerlid Romke de Jong van D66. Dat waren, als ik het goed heb, drie vragen. Eén vraag was: wat doet de regering aan vergroening als het om exportkredietverzekeringen gaat, rekening houdend met de COP26-verklaring? Er zijn meerdere vergroeningsmaatregelen. Zo is er de groendekking op innovatieve projecten. Die is overigens niet nieuw; die is al in gang gezet maar zal verder geïntensiveerd worden. Ook gaat het om een ruimere dekking op risicovolle transacties. De ambassades identificeren ook groene kansen. Ten slotte participeert de Staat ook in groenfondsen, waaronder Climate Investor One, dat met name in ontwikkelingslanden projecten zoekt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg34">De tweede vraag van de heer Romke de Jong was: worden fossiele transacties straks in alle landen verboden? Op dit moment wordt de Nederlandse uitwerking van COP26, zoals ik zojuist heb uitgelegd, nader vormgegeven. Ik kan dus nog niet bevestigen óf en voor welke landen er uitzonderingen gemaakt worden, want dat zijn we op dit moment aan het inventariseren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg35">De derde en laatste vraag ging over EU-wetgeving. Zoals wel vaker bij dit soort onderwerpen: het is pas echt succesvol als je multilateraal samenwerkt op OESO-niveau, maar ook op EU-niveau. We zetten zeker in op afspraken met andere landen. Dat wil overigens niet zeggen dat je vervolgens daarop zou moeten wachten om als Nederland iets te doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg36">Voorzitter. Dan de appreciaties van de moties. Ik doe het in de volgorde waarin ze ingediend zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg37">De eerste motie was de motie-Mulder van de PVV op stuk nr. 384, die verzoekt om af te zien van de voorgenomen vergroening en geen afbouwpad van exportkredietverzekeringssteun aan fossiele projecten in te zetten. Met het ondertekenen van de COP26-verklaring heeft Nederland er juist voor gekozen het voortouw te nemen bij het vergroenen van de exportkredietverzekeringsfaciliteiten en bij het beëindigen van steun aan fossiele projecten. Daar staan we niet alleen in en het is nu zaak, zoals zojuist ook uitgelegd, om die verklaring zorgvuldig te interpreteren. Het advies is hier dus: ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg38">Dan de motie op stuk nr. 385. Dat was ook een motie van de heer Mulder, van de PVV. Die verzoekt de regering om kernenergie en gas op te nemen als zijnde groen in de exportkredietverzekeringentaxonomie. Ook die krijgt van ons het oordeel ontraden mee. De motie loopt vooruit op de uitwerking van het beleid. Bij die uitwerking kijken we onder meer naar de EU-taxonomie. Deze raad ik dus af.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg39">De motie op stuk nr. 386 verzoekt de regering, in het kader van de exportkredietverzekering, af te zien van het bieden van ruimere dekkingsmogelijkheden voor zogenaamde groene risicovollere transacties. In het antwoord dat ik heb gegeven op de vraag van de heer Romke de Jong, is al duidelijk geworden dat wij deze motie ook ontraden, want juist die vergroening is een onderdeel van het nieuwe beleid.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg40">Dan ga ik naar de motie van de heer Heinen, de heer De Jong en mevrouw Van Dijk, op stuk nr. 387. Die verzoekt de regering de verklaring niet strenger te interpreteren dan andere landen die deze hebben ondertekend. Het kabinet hecht waarde aan een zorgvuldige implementatie, zoals al eerder door mij aangegeven. In dat traject is er overleg met het bedrijfsleven en ook met ngo's, zoals zojuist door mij toegelicht. De manier waarop andere landen de verklaring interpreteren is relevant voor onze uitwerking, gelet op het belang van een gelijk internationaal speelveld. Dat deel ik met de heer Heinen cum suis. Het kabinet zoekt daarom ook actief afstemming met de andere landen. Tot nu toe hebben het Verenigd Koninkrijk, Denemarken en Zweden beleid uitgewerkt ten aanzien van de COP26-verklaring. Andere landen zijn net als Nederland nog bezig. Het is onduidelijk op welk moment andere voor ons relevante landen hun beleid gaan presenteren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg41">Er is in deze Kamer ook een motie-Klink aangenomen. Die heeft gevraagd om in het tweede kwartaal van 2022 een heldere afbakening, een tijdspad en een stevig pakket voor behoud van kennis en banen gereed te hebben, zodat het internationaal opererende bedrijfsleven de transitie van fossiel naar niet-fossiel goed mee kan maken. Aan het einde van het tweede kwartaal kunnen wij dan de balans opmaken over de uitwerking, het internationale speelveld en de benodigde zorgvuldigheid voor implementatie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note108">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u24">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg42">Dat klinkt positief.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note109">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u25">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg43">Het is te vroeg om daar nu al conclusies aan te verbinden, dus ik geef u in overweging om de motie tot die tijd aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note110">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u26">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg44">Ik kijk naar de heer Heinen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note111">De heer Heinen (VVD)</note>
+            <u who="#EelcoHeinen" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u27">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg45">Ik hou van zuinige staatssecretarissen van Financiën, maar dit vind ik wel heel zuinig. Er staat namelijk geen deadline in de motie. Het roept dus gewoon … Eigenlijk dacht ik, toen ik het betoog van de staatssecretaris hoorde: dat is dan onderdeel van het beleid, dus dat kan oordeel Kamer krijgen. U vraagt nu om de motie aan te houden. Daar zie ik eigenlijk geen reden toe. Dat was ik niet van plan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note112">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u28">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg46">De heer Heinen geeft aan dat hij de motie niet aanhoudt. Dan is uw appreciatie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note113">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u29">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg47">Ik begrijp dat hij de motie wil aanhouden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note114">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u30">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg48">Niet aanhouden. Wat is uw appreciatie dan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note115">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u31">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg49">Zoals het ook geldt voor andere moties die ik ga appreciëren: als het niet aanhouden is, dan wordt het toch ontraden op dit moment omdat we nog bezig zijn met het proces.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note116">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u32">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg50">Helder. Meneer Heinen, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note117">De heer Heinen (VVD)</note>
+            <u who="#EelcoHeinen" ana="#regular topic:inter" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u33">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg51">Ja, tot slot. Ik hoorde de staatssecretaris zeggen: we weten nog niet precies wat andere landen doen, waardoor het lastig is voor ons om te oordelen. Maar, nogmaals, in de motie staat geen deadline. Dus er kan natuurlijk ook op gewacht worden. De motie roept op om in gesprek te gaan en om in de gaten te houden wat daar gebeurt; bewaak dat speelveld en zorg dan uiteindelijk dat je niet strenger interpreteert. Dus het een sluit het ander niet uit. Ik snap dan ook niet op welk punt de motie wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note118">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u34">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg52">Heel simpel: we willen het huiswerk gewoon eerst goed doen. Deze motie stuurt een bepaalde richting uit. En misschien wordt dat wel die richting nadat we ons huiswerk hebben gedaan. Dat is dus eigenlijk het enige wat ik vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note119">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u35">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg53">Ja. Dan gaan we naar de vijfde motie. We moeten ietsjes sneller door de appreciaties gaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note120">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u36">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg54">Ja, dat zal ik doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note121">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u37">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg55">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note122">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u38">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg56">Het zijn ook zo veel moties. Dan kom ik op de motie van de heer Van Raan waarin de regering wordt gevraagd ook beperkingen op te leggen aan exportkredietverzekeringen voor projecten die de fossiele infrastructuur ten dele faciliteren, en deze mee te nemen in de rapportages aan de Tweede Kamer. Ook hiervoor geldt wat ik zojuist heb gezegd. We zitten midden in het proces. Dus graag afwachten totdat we met onze rapportage terugkomen en dan kunnen we het debat daarover voeren op basis van waar we dan staan. Dus: ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note123">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u39">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg57">Ik kijk even naar de heer Van Raan of hij bereid is om de vijfde motie aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note124">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u40">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg58">Ik begrijp dat deze rapportage in het tweede kwartaal komt. Ik ben wel bereid om die motie aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note125">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u41">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg59">Dat betekent dat de vijfde motie wordt aangehouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note126">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u42">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg60">Dan de motie …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note127">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u43">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg61">De heer Van Raan nog?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note128">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u44">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg62">Excuus dat ik u onderbreek, voorzitter, maar volgens mij is dat — met dat "ten dele" — niet de vijfde motie, maar een andere motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note129">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u45">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg63">Ik kijk even naar de staatssecretaris over welke motie hij het net had. Mijn volgorde is …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note130">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u46">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg64">O, wacht even. Ik zie hier dat de vijfde motie gaat over de exportkredietverzekering voor het opbouwen van veehouderij in het buitenland. Ook daarvan zou ik zeggen: aanhouden is prima. Dan zullen we dat wat mij betreft vervolgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note131">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u47">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg65">Over welke motie had u het net?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note132">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u48">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg66">Dat is de motie die bij mij met nr. 5 staat aangegeven, maar het is niet de motie met nr. 5. Als ik het zo zie, is dat een van de laatste moties van de heer Van Raan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note133">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:argic" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u49">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg67">Als u daar even naar kijkt, dan kijk ik eerst even naar de heer Van Raan of hij bereid is om de vijfde motie aan te houden. Dat is de motie op stuk nr. 388, over het niet meer verstrekken van exportkredietverzekeringen voor het opbouwen van de veehouderij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note134">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u50">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg68">Voorzitter, dank. Die motie staat eigenlijk los van het rapporteren daarover, dus die wil ik graag in stemming brengen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note135">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u51">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg69">Die brengt u in stemming. Dan is de appreciatie: ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note136">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u52">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg70">Ja, dan is die ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note137">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u53">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg71">Dan gaan we naar de motie waar nu even wat onduidelijkheid over is. Ik kijk even naar de griffier. Misschien kunt het verzoek nog even herhalen, want dan weten we welke motie het is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note138">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u54">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg72">Dit was 5, die wat ons betreft dus wordt ontraden. Zou ik dan mogen doorgaan met de motie met nr. 6, in de volgorde van de moties? Dan pakken we de draad weer op.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note139">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u55">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg73">Ja, graag. Meneer Van Raan blijft gewoon even staan. Dat lijkt me het handigste.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note140">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u56">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg74">Om even helemaal helder te zijn: de motie met nr. 6 verzoekt de regering voor alle categorie-A projecten de status van de aanvraag publiekelijk te vermelden in de ex-ante lijst. Dan is het bij mij omgegooid. Excuses daarvoor.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note141">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u57">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg75">Het is de negende motie waar u het nu over heeft: "voor categorie-A-projecten de status van de aanvraag publiekelijk te vermelden in de ex-ante lijst." Dat is de negende motie, op stuk nr. 392.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note142">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u58">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg76">Excuses. Mijn lijst is omgegooid, die staat bij mij als nr. 6.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note143">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u59">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg77">Ja. En uw appreciatie over die negende motie is?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note144">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u60">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg78">De appreciatie voor die motie is: oordeel Kamer. Waarbij ik de motie zo lees dat u vraagt om bij de ex-ante-publicatie die 30 dagen van tevoren plaatsvindt ook aan te geven of er een dekkingstoezegging is afgegeven en er een mvo-mits geldt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note145">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u61">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg79">De negende motie … De heer Van Raan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note146">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u62">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg80">Met die interpretatie die de staatssecretaris geeft, is het prima.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note147">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u63">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg81">Mooi. De negende motie, de motie-Van Raan/Maatoug/Nijboer op stuk nr. 392, krijgt oordeel Kamer. Dan kijk ik weer naar de staatssecretaris, welke motie we nu doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note148">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u64">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg82">Ja, precies.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note149">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u65">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg83">Kan gebeuren. Geen probleem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note150">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u66">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg84">Excuses. Mijn motie met nr. 7 van de heer Van Raan is de motie met: "verzoekt de regering de Tweede Kamer gedurende het jaar 2022 in de rapportage over de uitvoering van de COP26-verklaring …"</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note151">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u67">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg85">Dat is de zesde motie. Wat is uw appreciatie van die motie, op stuk nr. 389?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note152">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u68">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg86">Dat is "eventueel aanhouden", met de argumentatie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note153">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u69">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg87">Dat was aanhouden. Daartoe was de heer Van Raan bereid. De zesde motie wordt aangehouden: "verzoekt de regering uiterlijk 31 december 2022 polissen voor fossiele projecten af te ronden". Deze motie wordt aangehouden. Dan hebben we nog twee moties van de heer Van Raan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note154">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u70">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg88">Ja, de motie die ik nu voor me heb liggen: "verzoekt de regering per direct geen publieke financiële steun te geven aan nieuwe upstreamprojecten".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note155">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u71">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg89">Dat is de zevende motie, op stuk nr. 390.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note156">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u72">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg90">Daar is de appreciatie "ontraden", omdat de COP-verklaring zelf zegt dat we tot eind 2022 de tijd hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note157">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u73">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg91">De zevende motie, op stuk nr. 390, wordt ontraden. Meneer Van Raan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note158">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u74">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg92">Ik snap dat de staatssecretaris hier een hele letterlijke interpretatie geeft van die COP26-verklaring, maar ook als je wilt stoppen, conform de COP26-verklaring, dan moet je nu al dingen niet meer in gang willen zetten. Dát beoogt de motie; laten we het daarover eens zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note159">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u75">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg93">Heel kort: dat kan niet, omdat we midden in het proces van overleg zitten. Dus het is de letterlijke interpretatie. 31 december 2022 is al heel snel. En we willen eerst dat overleg doen en dan terugkomen naar de Kamer. Dus: ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note160">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u76">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg94">Dan hebben we nog één kans, de achtste motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note161">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u77">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg95">Motie 8. Ik denk dat daar ook iets …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note162">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u78">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg96">"Verzoekt de regering ook beperkingen op te leggen aan exportkredietverzekeringen voor projecten die de fossiele infrastructuur ten dele faciliteren, en deze mee te nemen in de rapportages aan de Tweede Kamer."</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note163">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u79">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg97">Ook daarvoor geldt dat wij ook hier tijd nodig hebben voor het proces. Dus ook dat is: ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note164">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u80">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg98">Behalve als de heer Van Raan deze motie aanhoudt, dus de achtste motie. De heer Van Raan. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note165">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u81">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg99">Ik moet het even beter begrijpen, want dit gaat ook over die rapportage. Ik hoor de staatssecretaris net zeggen dat er een rapportage komt voor het tweede kwartaal. Dus ik ben best bereid de motie aan te houden als dit wordt meegenomen in die eerdergenoemde rapportage voor het tweede kwartaal.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note166">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u82">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg100">We zullen, zoals ik al heb gezegd, zo uitgebreid mogelijk rapporteren in die rapportage van het tweede kwartaal. We komen overigens ook al in maart terug met een eerste tussentijdse rapportage.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note167">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u83">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg101">Ik kijk even naar de heer Van Raan of dit voldoende is om de motie aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note168">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u84">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg102">Nog één vraag dan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note169">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u85">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg103">Heel kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note170">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u86">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg104">Ja, heel kort. De staatssecretaris zei "zo uitgebreid mogelijk". Dit gaat echt over die "ten dele"-financiering. Als we het daarover eens zijn, binnen het "zo duidelijk mogelijk", dan vind ik het prima. Ik vind het ook prima om de motie aan te houden, want dan kunnen we eerst even kijken wat de staatssecretaris daaronder verstaat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note171">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u87">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg105">Als u mij die gelegenheid wilt geven, heel graag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note172">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u88">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg106">Dat is heel mooi. Ik dank u wel, meneer Van Raan.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note173">Op verzoek van de heer Van Raan stel ik voor zijn motie (26485, nr. 391) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note174">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note175">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u89">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg107">Daarmee zijn we aan het einde gekomen van dit tweeminutendebat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note176">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note177">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.u90">
+               <seg xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.seg108">Ik dank de staatssecretaris van Financiën van harte voor zijn beantwoording. Ik schors de vergadering voor een enkel moment, waarna we overgaan tot het tweeminutendebat naar aanleiding van de motie-Westerveld/Ceder over afspraken met schuldeisers om vordering van financiële compensatie te voorkomen.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-10-tweedekamer-16.note178">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

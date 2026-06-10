@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2016-11-02 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2016-11-02 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 17, Session 8 (2016-11-02)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 17, Session 8 (2016-11-02)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="17" xml:lang="en">Meeting 17</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="8" xml:lang="en">Session 8</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.28" corresp="#TK" n="28-lower" xml:lang="en">Meeting of the 28th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2016-11-02">Sitting 2016-11-02</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="5">5 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="5">5 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="89">89 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="89">89 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2016-11-02">2016-11-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="17"/>
+               <tagUsage gi="seg" occurs="5"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="5"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-11-02">2016-11-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.head1">Waarborgfonds Sociale Woningbouw</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:housi" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.seg1">Ik heet de minister voor Wonen en Rijksdienst van harte welkom.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note2">De heer Van Vliet (Van Vliet)</note>
+            <u who="#RolandvanVliet" ana="#regular topic:other" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.seg2">Voorzitter. Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note6">overwegende dat de rol van het Waarborgfonds Sociale Woningbouw (WSW) als borgsteller publiekrechtelijk wordt gereguleerd via de Woningwet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note7">overwegende dat de minister eerder heeft aangegeven te willen borgen dat de objectieve analyse van financiële risico's en de beheersing daarvan centraal staan in het goedkeuringsproces naar het WSW toe, waarbij de Autoriteit woningcorporaties (Aw) een betekenisvolle rol speelt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note8">overwegende dat een krachtige samenwerking tussen het WSW en de Aw zeer wenselijk is en dat daarvoor noodzakelijk is dat beide instanties uitgaan van dezelfde financiële kaders en waarderingsregels, hetgeen tevens resulteert in lagere administratieve lasten voor corporaties;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note9">overwegende dat twee jaar na invoering van de nieuwe Woningwet eindelijk aangestuurd moet worden op een verticaal toezichtmodel waarin de financiële kaders wettelijk worden vastgesteld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note10">verzoekt de regering, de Kamer voor het einde van dit jaar duidelijkheid te geven over invoering van zo'n model voor het WSW en de Aw, dat minstens dezelfde waarderingsgrondslag voor sociaal vastgoed bevat en dezelfde keuze voor een focus op liquiditeit dan wel solvabiliteit,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note12">Deze motie is voorgesteld door het lid Van Vliet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note13">Zij krijgt nr. kst-29453-428</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note14">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.seg3">We zorgen ervoor dat de motie zo snel mogelijk wordt gekopieerd. Ik zie dat de minister er gelijk op kan reageren. Dat is heel fijn. Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note15">Minister Blok</note>
+            <u who="#StefBlok" ana="#regular topic:other" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.seg4">Voorzitter. De heer Van Vliet was zeer kort van stof door alleen de motie voor te lezen. Ik kan ook kort van stof zijn door te verklaren dat dit ondersteuning van beleid is.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note16">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.note17">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2016-11-02-tweedekamer-8.seg5">We zullen volgende week dinsdag over deze motie stemmen.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

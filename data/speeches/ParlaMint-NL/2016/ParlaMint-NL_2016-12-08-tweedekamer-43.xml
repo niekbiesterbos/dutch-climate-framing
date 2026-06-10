@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2016-12-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2016-12-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 33, Session 43 (2016-12-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 33, Session 43 (2016-12-08)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="33" xml:lang="en">Meeting 33</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="43" xml:lang="en">Session 43</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.28" corresp="#TK" n="28-lower" xml:lang="en">Meeting of the 28th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2016-12-08">Sitting 2016-12-08</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="3">3 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="3">3 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="119">119 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="119">119 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2016-12-08">2016-12-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="14"/>
+               <tagUsage gi="seg" occurs="6"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-12-08">2016-12-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.head1">Regeling van werkzaamheden (stemmingen)</head>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.u1">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.seg1">Voordat wij gaan stemmen, geef ik de heer Omtzigt het woord voor het intrekken van zijn motie.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note1">Hilariteit</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:inter" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.u2">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.seg2">Voorzitter. Daar is het onderwerp, namelijk marteling in Turkse gevangenissen, te erg voor. Ik zou echter het eerste dictum willen wijzigen in: "verzoekt de regering, in de aanstaande Raad Algemene Zaken voor te stellen om een onderzoek in te stellen of EU-gelden direct of indirect gebruikt zijn voor marteling." Daarmee zijn enkele partijen iets comfortabeler. Vervolgens is het belangrijk dat het onderzoek er komt.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.u3">
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.seg3">De motie-Omtzigt c.s. (, nr. ) is in die zin gewijzigd dat zij thans luidt:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note2">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note3">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note4">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note5">constaterende dat de EU onder de preaccessiesteun aan Turkije in 2016:</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note6">114 miljoen euro in Turkije heeft ingezet voor projecten ter ondersteuning van democratie en openbaar bestuur;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note7">119 miljoen euro heeft ingezet voor rechtsstaat en fundamentele rechten, waarvan 22 miljoen specifiek voor het versterken van de justitiële sector en capaciteitsopbouw van detentiecentra;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note8">constaterende dat:</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note9">Amnesty International zegt dat zij bewijs heeft verzameld dat mensen die zijn opgepakt na de mislukte coup in Turkije worden geslagen, gemarteld en in sommige gevallen verkracht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note10">de speciale VN-rapporteur voor marteling, Nils Melzer, concludeert dat in de dagen en weken na de staatsgreep in Turkije arrestanten op grote schaal lijken te zijn gemarteld en mishandeld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note11">het rapport van het Europees Comité voor de Preventie van Foltering en Onmenselijke of Vernederende Behandeling of Bestraffing van het bezoek aan Turkije (Istanbul, lzmir en Ankara) in augustus 2016 nog steeds geheim gehouden wordt door de Turkse regering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note12">verzoekt de regering, in de aanstaande Raad Algemene Zaken voor te stellen om een onderzoek in te stellen of EU-gelden direct of indirect gebruikt zijn voor marteling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note13">verzoekt de regering tevens, voor 15 januari 2017 aan de Kamer terug te koppelen of er duidelijke aanwijzingen zijn of dat er bewijs gevonden is dat EU-geld gebruikt is voor de financiering van Turkse detentiecentra waar marteling plaatsvindt of heeft plaatsgevonden of dat mensen die EU-gefinancierde mensenrechtencursussen gevolgd hebben, betrokken zijn bij martelingen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.note14">en gaat over tot de orde van de dag.</note>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.seg4">Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.seg5">Zij krijgt nr., was nr. 1704 ().</seg>
+               <seg xml:id="ParlaMint-NL_2016-12-08-tweedekamer-43.seg6">Ik stel vast dat wij hier nu over kunnen stemmen.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

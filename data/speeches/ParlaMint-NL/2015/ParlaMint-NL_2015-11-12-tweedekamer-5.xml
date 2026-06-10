@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2015-11-12 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2015-11-12 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 24, Session 5 (2015-11-12)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 24, Session 5 (2015-11-12)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="24" xml:lang="en">Meeting 24</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="5" xml:lang="en">Session 5</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.28" corresp="#TK" n="28-lower" xml:lang="en">Meeting of the 28th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2015-11-12">Sitting 2015-11-12</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="57">57 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="57">57 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2702">2,702 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2702">2,702 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2015-11-12">2015-11-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="131"/>
+               <tagUsage gi="seg" occurs="69"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="57"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-11-12">2015-11-12</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.head1">Trans-Atlantische Handels- en Investeringsovereenkomst (TTIP)</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note1">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg1">Ik heet de minister, alsmede haar ambtenaren, de sprekers en de meeluisteraars van harte welkom. Voor dit AO hebben zich drie sprekers aangemeld, te beginnen met de heer Jasper van Dijk namens de fractie van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note2">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg2">Voorzitter. Ik heb vier moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note6">constaterende dat Europese landen inzake de onderhandelingen over het TTIP-verdrag een alternatief hebben voorgesteld voor het ISDS-systeem waarbij bedrijven landen kunnen aanklagen, namelijk het ICS (Investment Court System);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note7">overwegende dat het ISDS-systeem nog altijd deel uitmaakt van het CETA-verdrag met Canada;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note8">verzoekt de regering, de Raad van State een vergelijkende juridische studie te vragen naar de verschillen tussen de ISDS-clausule in CETA en het ICS in TTIP, inclusief de verhouding van deze systemen tot de eigendomsrechten in Nederland, en de resultaten naar de Kamer te zenden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note10">Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note11">Zij krijgt nr. kst-21501-02-1539</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note12">De heer Jan Vos (PvdA)</note>
+            <u who="#JanVos" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg3">Ik ben een beetje verbaasd. Wat is dat nou voor een motie, mijnheer Van Dijk? Een onderzoekje? U was toch gewoon tegen die clausule? Waarom zegt u niet gewoon dat dat moet worden aangepast?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note13">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg4">Ik zou zeggen: even geduld, mijnheer Vos. Ik heb vier moties; u wordt op uw wenken bediend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note14">De heer Jan Vos (PvdA)</note>
+            <u who="#JanVos" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg5">Dat is helemaal flauw. U dient er eentje in waarvan u denkt dat wij haar steunen en eentje waar wij sowieso tegen zijn, zodat er weer stennis over kan worden geschopt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note15">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg6">Via de voorzitter aan de heer Van Dijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note16">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:domes" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg7">Voorzitter, dit is heel interessant. Ik stel voor dat iedereen deze interruptie van de heer Vos uitprint en boven zijn bureau hangt. Want hier zegt de Partij van de Arbeid: wij zijn te slap om de echte motie van de SP te steunen, namelijk weg met dat schadeclaimsysteem, het ISDS, maar we steunen misschien wel een onderzoek. Ik nodig mijnheer Vos uit om al mijn moties te steunen, zijn rug eens recht te houden en niet alleen aan management by speech te doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note17">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg8">Gaat u verder. Moties zijn moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note18">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg9">Zo is het, voorzitter!</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note19">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note20">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note21">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note22">constaterende dat het Europees Hof van Justitie heeft geoordeeld dat de toetreding van de Europese Unie tot het Europees Verdrag tot bescherming van de rechten van de mens niet verenigbaar is met de EU-verdragen, omdat het mogelijk de autonomie van het Europese rechtssysteem aantast;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note23">overwegende dat de door het Hof gebruikte argumentatie mogelijk ook toepasbaar is op het systeem van investeerder-staatarbitrage (ISDS) of het ICS, waarbinnen arbiters zich over het EU-recht uitspreken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note24">constaterende dat lidstaten de mogelijkheid hebben om advies in te winnen bij het Hof van Justitie over de verenigbaarheid van voorgenomen overeenkomsten, zoals het handelsakkoord tussen de EU en Singapore, maar ook CETA en TTIP, met de EU-verdragen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note25">verzoekt de regering, bij het Europees Hof van Justitie advies in te winnen over de verenigbaarheid van het ISDS in het ontwerphandelsakkoord tussen de EU en Singapore met de EU-verdragen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note26">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note27">Deze motie is voorgesteld door de leden Jasper van Dijk en Klaver. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note28">Zij krijgt nr. kst-21501-02-1540</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note29">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg10">Daar komt-ie, mijnheer Vos. Goed luisteren!</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note30">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note31">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note32">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note33">overwegende dat het CETA-verdrag met Canada een ISDS-clausule bevat die bedrijven de mogelijkheid geeft om landen aan te klagen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note34">constaterende dat de regering reeds een alternatieve investeringsbeslechtingsprocedure (ICS) heeft uitgewerkt voor het TTIP-verdrag met de VS;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note35">van mening dat Amerikaanse bedrijven met behulp van de ISDS-clausule in CETA alsnog de mogelijkheid hebben om Europese landen aan te klagen, waarmee de nieuwe EU-standaard (ICS) wordt gepasseerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note36">verzoekt de regering, de onderhandelingen over het CETA-verdrag te heropenen teneinde de huidige ISDS-clausule te schrappen uit het verdrag,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note37">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note38">Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note39">Zij krijgt nr. kst-21501-02-1541</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note40">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg11">Tot slot een heel korte motie, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note41">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg12">Gelukkig.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note42">Motie</note>
+            <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note43">De Kamer,</note>
+            <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note44">gehoord de beraadslaging,</note>
+            <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note45">van mening dat ingrijpende verdragen een volksraadpleging rechtvaardigen;</note>
+            <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note46">verzoekt de regering, een raadgevend referendum te organiseren over het CETA-verdrag met Canada,</note>
+            <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note47">en gaat over tot de orde van de dag.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note48">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:civil" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg13">Over die laatste motie zou ik tegen de minister het volgende willen zeggen. Zeg nou niet: referenda organiseren moeten jullie zelf doen. Dat kan de regering ook, bijvoorbeeld via een tijdelijke referendumwet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note49">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg14">Voorzitter. Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note50">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note51">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note52">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note53">constaterende dat de onderhandelingen over het CETA-verdrag tussen Canada en de EU zijn afgerond;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note54">constaterende dat in het CETA-verdrag een ISDS-clausule staat die niet overeenkomt met de nieuwe voorstellen van de Europese Commissie in het TTIP-verdrag;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note55">verzoekt de regering, bij de Europese Commissie aan te dringen op een zo snel als mogelijke modernisering van de ISDS-clausule in het CETA-verdrag met Canada,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note56">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note57">Deze motie is voorgesteld door het lid Agnes Mulder. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note58">Zij krijgt nr. kst-21501-02-1543</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note59">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg15">Het CDA staat positief-kritisch tegenover een vrijhandelsverdrag tussen de Europese Unie en de VS, maar dat moet wel onder strikte voorwaarden. Vrijhandel kan Nederland en Europa veel welvaart en economische groei brengen. Voor het CDA is het belangrijk dat onze Europese en Nederlandse standaarden te allen tijde gewaarborgd worden. Het CDA hecht er daarbij aan dat nadrukkelijk aandacht wordt gegeven aan mensenrechten, standaarden en publiekrechtelijke normen. Het CDA vindt ook dat maatregelen genomen zouden moeten worden wanneer sectoren echt uitzonderlijk hard worden getroffen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg16">Het CDA pleit ervoor dat het kabinet tijdens de onderhandelingen specifiek Nederlandse belangen binnen de kaders van EU-normen waarborgt. De onderhandelingen over TTIP zijn nog steeds in volle gang. Daarom is het voor het CDA op dit moment nog te vroeg voor een definitief oordeel.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg17">Een belangrijk zorgpunt is ISDS. Gelukkig lijkt EU-Commissaris Malmström de kritiek op ISDS ter harte te nemen en wil zij het moderniseren. Nieuwe voorstellen garanderen een volledig transparant internationaal investeringshof, met gekwalificeerde rechters op basis van vooraf vastgestelde regels. Tevens komt er een mogelijkheid tot hoger beroep. Voor CETA echter, waarover de onderhandelingen al zijn afgerond, gelden nog steeds de oude ISDS-principes. Wat het CDA betreft mag CETA niet de achterdeur zijn voor Amerikaanse bedrijven om toch claims in te dienen in de Europese Unie; daarom heb ik zojuist de motie ingediend.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg18">Dan nog een ander punt. De minister heeft in het AO aangegeven dat zij alle ISDS-clausules in de Nederlandse handelsverdragen wil gaan onderzoeken en deze zal moderniseren. Wij horen graag wanneer de minister deze exercitie wil afronden. Wij zien daarover graag een antwoord tegemoet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note60">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg19">Tot slot is het woord aan de heer Vos. Excuus, daarna komt mevrouw Thieme nog aan het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note61">De heer Jan Vos (PvdA)</note>
+            <u who="#JanVos" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg20">Voorzitter. Gisteren had de Tweede Kamer de gelegenheid om de heer Ignacio Bercera, de hoofdonderhandelaar namens de EU, te ontvangen. Het leek hem heel goed mogelijk dat met de komst van een nieuwe Canadese regering nog eens goed gekeken wordt naar die clausule, waar verschillende partijen vandaag aan hebben gerefereerd, voor geschillenbeslechting tussen staten en multinationals. Die clausule in het CETA-verdrag zou, zo vinden de meeste partijen hier, in overeenstemming moeten worden gebracht met wat we ook voor TTIP hebben afgesproken. Ik wil de minister graag complimenteren, want het was vooral dankzij haar inspanningen dat die clausule gewijzigd is en dat dat foeilelijke private geschillenbeslechtingssysteem is omgevormd tot een publiek systeem. Daarom wil ik volgende motie indienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note62">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note63">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note64">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note65">overwegende dat het toekomstige handelsverdrag tussen de EU en Canada (CETA) nog steeds het Investor-State Dispute Settlement (ISDS-clausule) bevat, terwijl deze clausule in de TTIP-onderhandelingen onlangs is vervangen door het Investment Court System (ICS);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note66">verzoekt de regering, zorg te dragen om alvorens CETA ter stemming aan het Europees Parlement wordt voorgelegd, de ISDS-clausule in CETA aan te passen zoals er thans over ISDS binnen TTIP wordt onderhandeld,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note67">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note68">Deze motie is voorgesteld door de leden Jan Vos en Teeven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note69">Zij krijgt nr. kst-21501-02-1544</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note70">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg21">Dit is een buitengewoon interessante motie. Wat betekent dit evenwel voor de politieke stellingname van deze twee partijen? Betekent dit dat deze twee partijen niet akkoord gaan met het CETA met Canada, als de minister het ISDS-systeem waardoor bedrijven landen kunnen aanklagen niet aanpast?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note71">De heer Jan Vos (PvdA)</note>
+            <u who="#JanVos" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg22">De heer Van Dijk is aan het preluderen op wat er allemaal mogelijk kan zijn in de toekomst. Ik denk dat heel helder is dat de SP, het CDA en de PvdA graag zien dat het in CETA anders geregeld wordt dan nu het geval is. We zeggen dit weliswaar in verschillende bewoordingen, maar we willen die bedrijven niet de gelegenheid bieden om via private geschillenbeslechting hun problemen met staten, onder andere Nederland, uit te vechten. De woordkeuze van de heer Van Dijk is iets anders dan die van mij. Hij wil meteen iets openbreken, maar dat vind ik nogal vergaand. Maar daarom is hij lid van de SP en ik van de PvdA. Ik verzoek de regering om zorg te dragen voor het standpunt dat ik zojuist heb uitgesproken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note72">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg23">Het standpunt dat de heer Vos in zijn motie verwoordt, is vreselijk vaag. De clausule ISDS moet worden aangepast. De vraag is in hoeverre. In de schriftelijke vragen heeft de heer Vos nog gevraagd of de minister bereid was om de onderhandelingen open te breken. Hier laat hij wat ruimte open, maar we weten allang dat de minister zal zeggen dat ze hier en daar wat technische aanpassingen kan doen, maar dat openbreken van de onderhandeling echt lastig zal worden. De vraag is dus hoe stevig de stellingname van de heer Vos is? Moet ISDS uit CETA of niet?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note73">De heer Jan Vos (PvdA)</note>
+            <u who="#JanVos" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg24">De heer Van Dijk winkelt even in mijn motie en pakt er dan een stukje uit. Ik vind dat niet helemaal passen. Ik heb gezegd dat CETA moet worden aangepast, zoals dat nu ook gebeurt in TTIP, en dat er een vergelijkbaar systeem als in TTIP in CETA moet worden opgenomen. Wat ik niet ga doen — dat is misschien ook een cultuurverschilletje tussen de heer Van Dijk en mij — is de minister dicteren wat daaruit moet komen. Wat ik wel ga doen, is hier in de Kamer het eindresultaat beoordelen. Als het inderdaad een gemengd verdrag wordt, kunnen wij met elkaar besluiten — de heer Bercero heeft aangegeven dat dat zeer waarschijnlijk is — of wij voor of tegen het eindresultaat stemmen dat de Europese Unie met Canada is overeengekomen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note74">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg25">Dank u wel. Ik neem tenminste aan dat u hebt afgerond.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note75">De heer Jan Vos (PvdA)</note>
+            <u who="#JanVos" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg26">Eigenlijk niet, maar als u het zo zegt dan zal ik mij daarbij neergeleggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note76">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg27">Het was een lichte aanmoediging, maar het werkt wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note77">Mevrouw Thieme (PvdD)</note>
+            <u who="#MarianneThieme" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg28">Voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note78">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note79">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note80">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note81">overwegende dat een handelsakkoord tussen de Verenigde Staten en de Europese Unie een grote impact zal hebben op onze samenleving, doordat het veranderingen met zich mee kan brengen in democratische bevoegdheden, onze rechtsstaat en in de regelgeving die privacy, arbeidsomstandigheden, milieu en voedselveiligheid beschermen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note82">van mening dat een dergelijk verstrekkend verdrag alleen tot stand kan komen wanneer de bevolking daar actief voor kiest;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note83">verzoekt de regering, een (raadgevend) referendum te organiseren over de wenselijkheid van een vrijhandelsakkoord als TTIP tussen de Europese Unie en de Verenigde Staten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note84">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note85">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note86">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note87">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note88">constaterende dat er in het kader van het vrijhandelsakkoord tussen de VS en de EU (TTIP) onderhandeld wordt over investeringsgeschillenbeslechting (ISDS/ICS);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note89">overwegende dat de inzet van het kabinet is dat TTIP het niveau van bescherming van mens, dier en milieu niet mag aantasten en de onderhandelingsinzet is om op deze gebieden volledige beleidsvrijheid te behouden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note90">constaterende dat de mogelijkheid om regels op te stellen om mens, dier en milieu te beschermen, beperkt wordt wanneer het voor bedrijven mogelijk is om deze regels aan te vechten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note91">verzoekt de regering, zich ervoor hard te maken dat regels ter bescherming van mens, dier en milieu uitgesloten zullen worden van de mogelijkheid tot investeringsgeschillenbeslechting,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note92">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note93">Deze motie is voorgesteld door de leden Thieme en Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note94">Zij krijgt nr. kst-21501-02-1545</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note95">Deze motie is voorgesteld door het lid Thieme. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note96">Zij krijgt nr. kst-21501-02-1546</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note97">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg29">Daarmee zijn wij aan het einde gekomen van de termijn van de Kamer. Er zijn acht moties ingediend. De minister heeft gevraagd om een korte schorsing.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note98">De vergadering wordt van 10.31 uur tot 10.38 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note99">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:inter" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg30">Er zijn acht moties ingediend. De minister voor Buitenlandse Handel en Ontwikkelingssamenwerking gaat aan haar beantwoording beginnen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note100">Minister Ploumen</note>
+            <u who="#LiliannePloumen" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg31">Voorzitter. Ik dank de Kamer voor de acht moties, die ik één voor één zal langslopen, te beginnen met de motie op stuk nr. 1539 van de heer Jasper van Dijk over een juridische vergelijking van het ISDS-systeem in het CETA en in het TTIP. Ik zou die motie willen ontraden, want zoals de heer Van Dijk maar ook de andere leden van de commissie weten, zet Nederland in op een wijziging van de huidige ISDS-clausule in het CETA. Het is dus een beetje merkwaardig om ons nu te gaan inspannen en de Raad van State aan het werk te zetten, terwijl dat wellicht niet nodig is. De Kamer weet echter dat ik de heer Van Dijk doorgaans, net als de andere leden, graag ter wille ben. Ik ontraad de motie, maar ik ga de Raad van State wel alvast polsen of de Raad van State genegen is — en of het past binnen zijn mandaat — om iets dergelijks te doen. Die tegemoetkoming zou ik wel willen doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note101">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg32">De motie op stuk nr. 1539 wordt ontraden, …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note102">Minister Ploumen</note>
+            <u who="#LiliannePloumen" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg33">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note103">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg34">… maar met een toelichting daarbij. Ik zag de heer Van Dijk al knikken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note104">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg35">Ik vind dat heel interessant. Als de minister ons informeert over haar gesprek met de Raad van State wil ik mijn motie aanhouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note105">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg36">Op verzoek van de heer Jasper van Dijk stel ik voor, zijn motie (21501-02, nr. 1539) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg37">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note106">Minister Ploumen</note>
+            <u who="#LiliannePloumen" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg38">De motie-Jasper van Dijk/Klaver op stuk nr. 1540 wil ik ook ontraden. We komen nu in een Drosteblikjesdebat terecht, maar ik vraag de Kamer om mij de gelegenheid te geven om even te polsen bij de Raad van State hoe die ertegenaan kijkt. Dat zal ik vervolgens melden aan de Kamer, waarna het weer aan de Kamer is.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg39">Ik kom op de motie-Jasper van Dijk op stuk nr. 1541, over het heropenen van de onderhandelingen over CETA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note107">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg40">Ik ben mede-indiener van de motie op stuk nr. 1540, vandaar dat ik daar een vraag over wil stellen. Als ik de minister goed heb begrepen, sluit zij niet uit om bij het Europees Hof van Justitie advies in te winnen, maar wil zij het eerst bij de Raad van State navragen. Als ik het goed heb begrepen, moet dat echter voor 23 november gebeuren. Ik ben dus best bereid om de motie aan te houden, maar dan zou ik wel graag …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note108">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg41">We.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note109">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg42">… zouden we graag voor die datum een bericht krijgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note110">Minister Ploumen</note>
+            <u who="#LiliannePloumen" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg43">Dan zeg ik toe dat ik mijn uiterste best zal doen om dat te proberen. Ik moet eerlijk zeggen dat ik geen goed zicht heb op hoe snel de raderen van de Raad van State draaien, maar ik begrijp de urgentie dus ik zal dat doen. Mocht ik aanwijzingen hebben dat dit echt niet gaat lukken, dan zal ik dat melden aan de Kamer. Dan is het aan de Kamer om te bezien wat zij verder wil doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note111">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg44">Ik kijk even naar mijn collega Van Dijk. Hij knikt. Wij houden de motie graag aan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note112">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg45">Op verzoek van de heer Jasper van Dijk stel ik voor, zijn motie (21501-02, nr. 1540) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg46">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note113">Minister Ploumen</note>
+            <u who="#LiliannePloumen" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u41">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg47">De motie op stuk nr. 1541 van de heer Jasper van Dijk ga ik gewoon full speed ontraden. Niks toezeggingen, niks tegemoetkomingen. Wij zetten in op een wijziging van de ISDS-clausule in CETA en wij doen dat in het kader van de legal scrubbing, het proces dat zich nu afspeelt.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg48">De motie-Jasper van Dijk/Thieme op stuk nr. 1542 ontraad ik ook. Ik ga de heer Van Dijk zelf eens even citeren: het is vooral aan de Kamer. Het CETA-verdrag is nog niet afgerond en klaar voor verzending naar het Europees Parlement. Daar zet het democratische proces zich ook voort, dus ik ontraad de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg49">Ik kom op de motie op stuk nr. 1543, van mevrouw Mulder. Die ontraad ik, maar dat doe ik met de toelichting dat ik liever de motie-Jan Vos/Teeven op stuk nr. 1544 ondersteun. Die is namelijk iets preciezer in wat er gevraagd wordt aan inzet van de regering.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note114">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u42">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg50">In mijn beleving liggen de motie van PvdA en VVD en mijn motie behoorlijk in dezelfde lijn. Ik vind het ook heel verrassend dat de minister mijn motie ontraadt, die haar eigenlijk meer ruimte geeft dan de andere motie. Maar ik zal bekijken of we de moties in elkaar kunnen voegen. Daar hebben we zonet ook al over gesproken. Dat zullen we bekijken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note115">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u43">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg51">Dat wachten we dan even af. Voor nu is het oordeel in ieder geval helder. De motie op stuk nr. 1543 wordt ontraden. Wellicht wordt dat straks op de stemmingslijst één motie met de motie op stuk nr. 1544.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note116">Minister Ploumen</note>
+            <u who="#LiliannePloumen" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u44">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg52">Zoals gezegd, zie ik de motie op stuk nr. 1544 als ondersteuning van beleid, met een precieze aanwijzing voor de regering. Deze motie laat ik over aan het oordeel van de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg53">Ik kom op de motie op stuk nr. 1545 van mevrouw Thieme …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note117">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u45">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg54">Voordat u daaraan begint, heeft de heer Van Dijk een heel korte vraag voor u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note118">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:inter" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u46">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg55">Ja, een beetje in het verlengde van de vraag van mevrouw Mulder. We hebben nu de moties op de stukken nrs. 1541, 1543 en 1544. Die hebben eigenlijk dezelfde intentie, namelijk: verander ISDS in CETA. Over de motie op stuk nr. 1541 was de minister heel duidelijk. Die wilde zij niet. De minister heeft echter op het Plein, voorafgaand aan het algemeen overleg waaraan dit VAO is ontsproten, gezegd: ISDS is dood. Herinnert de minister zich dat nog?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note119">Minister Ploumen</note>
+            <u who="#LiliannePloumen" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u47">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg56">Ik heb daar een heel heldere herinnering aan. Sterker nog, ook nu vind ik dat. Ik heb net een toelichting gegeven op mijn oordeel over de motie op stuk nr. 1541, waarin wordt gevraagd om heropening van de onderhandelingen. Ik ga ervan uit dat in het proces van de legal scrubbing, dat wij nu doorlopen, mogelijk is wat wij met elkaar willen. Dat is de reden waarom ik de motie heb ontraden. Het gaat mij dus om het proces. Als de heer Van Dijk het proces op een andere manier wil verwoorden, staat hem dat vrij. Ik ga er echter vanuit dat in het proces van de legal scrubbing mogelijk is wat wij graag zouden zien in CETA. Dat hebben wij ook al een paar keer uitgesproken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note120">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u48">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg57">Is ISDS nou dood of niet?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note121">Minister Ploumen</note>
+            <u who="#LiliannePloumen" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u49">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg58">Ik heb gezegd wat ik heb gezegd. ISDS is dood en begraven ten faveure van de nieuwe systematiek. Het is de inzet om die nieuwe systematiek, ICS, in het proces van de legal scrubbing ook in het CETA-verdrag verwerkt te krijgen. Dat is wat ik altijd al zei, dat houd ik vol en daar zet ik mij ten zeerste voor in. Ik denk namelijk dat dit een buitengewoon verstandig plan is.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg59">De motie op stuk nr. 1545 van mevrouw Thieme en de heer Van Dijk moet ik ontraden. Daar heb ik net al iets over gezegd. Deze motie gaat overigens ook over TTIP, waarvoor de onderhandelingen niet zijn afgerond. Ik ga niet herhalen wat ik daarover bij eerdere moties al heb gezegd.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg60">De motie op stuk nr. 1546 ga ik ontraden, maar ik moet daar wel wat bij zeggen. Ik ontraad de motie omdat zij zo breed geformuleerd is. Mevrouw Thieme heeft echter ongetwijfeld gelezen dat in het TPP-verdrag, dat onlangs tussen de Verenigde Staten en de Pacific is gesloten, de tabaksindustrie is uitgesloten. Ik zou dat heel graag nader bestuderen om daar onze appreciatie van te geven. Wellicht biedt dat soelaas. Nu is de motie erg breed geformuleerd, maar ik ga me er nader in verdiepen, als mevrouw Thieme dat goedvindt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note122">Mevrouw Thieme (PvdD)</note>
+            <u who="#MarianneThieme" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u50">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg61">Daar kan ik natuurlijk niet tegen zijn. Wel zou ik dan graag, zodra de minister zich hierin heeft verdiept, op korte termijn een brief van haar ontvangen. Ik zou graag zien dat zij daarin aangeeft welke normen en waarden, die wij in Europa en Nederland kennen, volgens haar uitgesloten zouden moeten worden van deze investeringsbeslechting.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note123">Minister Ploumen</note>
+            <u who="#LiliannePloumen" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u51">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg62">Ik zou mevrouw Thieme willen verzoeken mij de gelegenheid te geven een goede appreciatie te maken van TPP. Ik zal zo snel als mogelijk, mede op basis daarvan, reageren. Ik aarzel een beetje om een brief toe te zeggen, omdat ik voel dat mevrouw Thieme op heel precieze voorwaarden duidt. Ik zou haar willen vragen mij de ruimte te geven om die brief op te stellen. Dan kunnen we er altijd in een Kamerdebat over spreken; daar sta ik altijd voor open.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note124">Mevrouw Thieme (PvdD)</note>
+            <u who="#MarianneThieme" ana="#regular topic:inter" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u52">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg63">Om te voorkomen dat ik dezelfde opmerking maak richting de minister, namelijk dat zij te breed gaat antwoorden — zo breed als mijn motie — zou ik in de reactie van de minister graag een nadere precisering krijgen van de onderwerpen die volgens haar uitgesloten zouden moeten worden van ISDS, of van ICS, zoals het nu heet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note125">Minister Ploumen</note>
+            <u who="#LiliannePloumen" ana="#regular topic:trade" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u53">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg64">Nu heeft mevrouw Thieme mij tuk natuurlijk. De Kamer krijgt een brief met de informatie die ik op dat moment beschikbaar heb over TPP en de manier waarop de Nederlandse regering aankijkt tegen verdere uitwerking daarvan in het nieuwe ICS. Ik zal daar niet al te lang mee wachten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note126">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u54">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg65">Houdt u de motie aan, mevrouw Thieme?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note127">Mevrouw Thieme (PvdD)</note>
+            <u who="#MarianneThieme" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u55">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg66">Zeker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note128">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u56">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg67">Op verzoek van mevrouw Thieme stel ik voor, haar motie (21501-02, nr. 1546) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg68">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note129">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note130">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.u57">
+               <seg xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.seg69">Ik dank de minister voor Buitenlandse Handel en Ontwikkelingssamenwerking voor haar antwoorden. Over de ingediende moties zal komende dinsdag worden gestemd.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2015-11-12-tweedekamer-5.note131">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

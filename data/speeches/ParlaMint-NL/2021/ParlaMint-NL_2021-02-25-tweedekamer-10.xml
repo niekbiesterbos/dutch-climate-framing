@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-02-25 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-02-25 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 59, Session 10 (2021-02-25)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 59, Session 10 (2021-02-25)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="59" xml:lang="en">Meeting 59</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="10" xml:lang="en">Session 10</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-02-25">Sitting 2021-02-25</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="65">65 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="65">65 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2966">2,966 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2966">2,966 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-02-25">2021-02-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="252"/>
+               <tagUsage gi="seg" occurs="89"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="65"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-02-25">2021-02-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.head1">Armoede- en schuldenbeleid</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u1">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg1">We gaan verder met het VAO Armoede- en schuldenbeleid. Ik heet de minister van Sociale Zaken en Werkgelegenheid van harte welkom en natuurlijk ook de woordvoerders. Ik geef de heer Jasper van Dijk namens de SP als eerste spreker het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note2">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u2">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg2">Dank, voorzitter. Het is belangrijk onderwerp, armoede en schulden. Daarom heb ik vijf moties. Ik ga snel van start.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note6">van mening dat mensen in de bijstand niet direct op hun uitkering gekort dienen te worden voor het ontvangen van giften zoals boodschappen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note7">van mening dat het beleid hieromtrent per gemeente verschilt, maar dat een meer eenduidig beleid wenselijk is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note8">verzoekt de regering voor mensen in de bijstand een landelijke vrijstelling van giften te realiseren van €1.200 per jaar,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note10">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note11">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note12">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note13">overwegende dat talloze mensen onbedoeld de zogenaamde inlichtingenplicht in de Participatiewet hebben geschonden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note14">constaterende dat velen van hen hierdoor ten onrechte een boete hebben gekregen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note15">van mening dat deze mensen recht hebben op compensatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note16">verzoekt de regering een "compensatieloket" te openen, opdat mensen die ten onrechte gekort zijn, gecompenseerd kunnen worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note17">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note18">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note19">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note20">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note21">overwegende dat jongeren van 21 in veel gemeenten nog geen zicht hebben op een sociale huurwoning;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note22">overwegende dat de kostendelersnorm ongunstig uitpakt voor jongeren, mantelzorgers en daklozen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note23">verzoekt de regering een voorstel te doen om daklozen, mantelzorgers en jongeren tot en met 27 jaar uit te zonderen van de kostendelersnorm,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note24">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note25">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note26">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note27">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note28">overwegende dat de jongerenuitkering niet voldoende is om van rond te komen en dakloosheid bevordert;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note29">verzoekt de regering de mogelijkheid te onderzoeken om de jongerenuitkering als standaardvoorziening aan te vullen tot een volwaardige uitkering voor jongeren die geen ouders hebben of om andere redenen niet meer thuis kunnen wonen, en hierover voor de zomer te rapporteren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note30">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note31">Deze motie is voorgesteld door de leden Jasper van Dijk, Bruins, Renkema en Gijs van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note32">Zij krijgt nr. kst-24515-580</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note33">Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note34">Zij krijgt nr. kst-24515-581</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note35">Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note36">Zij krijgt nr. kst-24515-582</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note37">Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note38">Zij krijgt nr. kst-24515-583</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note39">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u3">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg3">Tot slot, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note40">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note41">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note42">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note43">verzoekt de regering het minimumloon te verhogen naar €14 per uur,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note44">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note45">Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note46">Zij krijgt nr. kst-24515-584</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note47">Dank u wel, meneer Jasper van Dijk. Dan geef ik nu het woord aan de heer Gijs van Dijk namens de Partij van de Arbeid.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note48">De heer Gijs van Dijk (PvdA)</note>
+            <u who="#GijsvanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u4">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg4">Dank, voorzitter. Om met dat laatste van de heer Jasper van Dijk te beginnen:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note49">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note50">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note51">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note52">overwegende dat als je werkt, je een fatsoenlijk loon moet kunnen verdienen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note53">constaterende dat er steeds meer mensen zijn die niet rond kunnen komen aan het eind van de maand;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note54">spreekt uit om na de verkiezingen van maart 2021 het minimumloon, inclusief de daaraan gekoppelde AOW- en bijstandsuitkering, fors te verhogen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note55">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note56">Deze motie is voorgesteld door het lid Gijs van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note57">Zij krijgt nr. kst-24515-585</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note58">De heer Gijs van Dijk (PvdA)</note>
+            <u who="#GijsvanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u5">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg5">Een goede motie, hoor ik de heer Jasper van Dijk zeggen. Dat is het ook. Laten we dat maar zo snel mogelijk doen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg6">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note59">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note60">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note61">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note62">constaterende dat één op de negen kinderen leeft in armoede en daardoor niet kan voetballen, mee op schoolreisje kan of goede schoenen kan aanschaffen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note63">van mening dat het onbestaanbaar is dat in een rijk land als Nederland kinderen in armoede opgroeien en dat alles op alles moet worden gezet om kinderarmoede uit te bannen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note64">verzoekt de regering het budget om kinderen uit de armoede te krijgen te verdubbelen zodat elk kind zeker kan zijn van een mooie toekomst,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note65">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note66">Deze motie is voorgesteld door het lid Gijs van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note67">Zij krijgt nr. kst-24515-586</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note68">De heer Gijs van Dijk (PvdA)</note>
+            <u who="#GijsvanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u6">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg7">Dank. De laatste motie komt eigenlijk voort uit een jarenlange samenwerking naar tevredenheid met de ChristenUnie op dit onderwerp.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note69">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note70">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note71">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note72">constaterende dat het doorverkopen van schulden mensen met schulden vaak verder in de problemen brengt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note73">overwegende dat de doorverkoop van schulden het voor schuldhulpverleners vaak lastig maakt om na te gaan of de vordering nog wel klopt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note74">verzoekt de regering om te borgen dat doorverkochte vorderingen altijd herleidbaar zijn tot de oorspronkelijke vordering en dat schuldhulpverleners kunnen nagaan wat de geschiedenis van deze vordering is,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note75">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note76">Deze motie is voorgesteld door de leden Gijs van Dijk en Bruins. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note77">Zij krijgt nr. kst-24515-587</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note78">De heer Gijs van Dijk (PvdA)</note>
+            <u who="#GijsvanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u7">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg8">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note79">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u8">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg9">Dank u wel, meneer Gijs van Dijk. Dan geef ik nu het woord aan de heer Renkema namens GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note80">De heer Renkema (GroenLinks)</note>
+            <u who="#Wim-JanRenkema" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u9">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg10">Voorzitter, dank u wel. De heer Gijs van Dijk en ik hadden een motie op het punt van de giften. Een vergelijkbare motie is net ingediend door de heer Jasper van Dijk van de SP en de ChristenUnie. Ik heb zonet even overlegd en ik wil eigenlijk voorstellen dat onze namen ook onder die motie gaan. Anders hebben we twee identieke moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note81">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u10">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg11">Mag ik dan voor de Handelingen opmerken dat mijn eerste motie inderdaad medeondertekend mag worden door de heer Renkema en de heer Gijs van Dijk? Dan is mijn eerste motie, over de giften; €1.200.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note82">De heer Renkema (GroenLinks)</note>
+            <u who="#Wim-JanRenkema" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u11">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg12">Daar wil ik nog één ding over zeggen. Een amendement om dat te regelen heb ik al in december ingediend. Helaas heeft de Kamer besloten om geen wetgevingsoverleg te voeren over de Participatiewet. Dan hadden we dit soort moties niet meer hoeven in te dienen en hadden we dit al kunnen regelen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg13">Ik heb een tweede motie. Die betreft het hervormen van de Participatiewet. De motie luidt als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note83">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note84">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note85">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note86">constaterende dat er de afgelopen jaren een te grote focus is geweest op fraudebestrijding in de Participatiewet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note87">constaterende dat hierdoor mensen in armoede terecht zijn gekomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note88">overwegende dat deze fraudejacht voortkomt uit strenge wetgeving die is gebaseerd op wantrouwen en op het idee dat mensen gedwongen en bestraft moeten worden om aan het werk te komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note89">constaterende dat het Sociaal en Cultureel Planbureau in de evaluatie van de Participatiewet heeft geconcludeerd dat straffen en dwingen niet helpt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note90">constaterende dat de tijdelijke commissie Uitvoeringsorganisaties aandacht vraagt voor een overheid die oog heeft voor de menselijke maat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note91">van mening dat iedereen een rechtvaardige behandeling van de overheid verdient;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note92">verzoekt de regering om nog voor de formatie voorstellen uit te werken voor een hervorming van de Participatiewet, waarbij vertrouwen de basis is en gemeenten meer ruimte krijgen voor maatwerk;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note93">verzoekt de regering tevens daarbij uit te gaan van het principe dat een gemeente verplichtingen kan opleggen als dat nodig is en mensen kan bestraffen als zij niet meewerken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note94">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note95">Deze motie is voorgesteld door het lid Renkema. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note96">Zij krijgt nr. kst-24515-588</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note97">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u12">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg14">Dank u wel. Dan geef ik nu het woord aan mevrouw Van Brenk namens 50PLUS.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note98">Mevrouw Van Brenk (50PLUS)</note>
+            <u who="#CorrievanBrenk" ana="#regular topic:labor" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u13">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg15">Dank, voorzitter. Ik heb twee vragen aan de minister. Er was een toezegging aan deze commissie dat geen enkele Wajongere er op achteruit zou gaan. Dat is nu wel gebeurd. Mijn vraag is dus hoe dit kan en vooral: hoe gaat de minister dit oplossen?</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg16">Voorzitter. Kan ik de minister een probleemgeval doormailen waar hij dan naar zou kunnen kijken? Het gaat om iemand die met de IVA werkt en door arbeidskorting die niet wordt toegekend er netto €342 per maand op achteruitgaat. Ik wil dit graag even doorsturen, zodat hij zijn ambtenaren hiernaar kan laten kijken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg17">Voorzitter. Dan mijn laatste motie voor deze minister. Wat mij betreft is dit niet zomaar een motie, het is een hartenkreet. Ik hoop dan ook dat de minister de motie zodanig waardeert dat hij mijn hart niet breekt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note99">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note100">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note101">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note102">overwegende dat rondkomen van alleen een AOW-uitkering in een particulier woon-zorgcentrum onmogelijk is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note103">overwegende dat gemeenten niet maandelijks via de bijzondere bijstand zouden moeten bijpassen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note104">overwegende dat er onvoldoende aandacht wordt besteed aan deze specifieke groep ouderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note105">verzoekt de minister een ambtelijke afvaardiging in gesprek te laten gaan met de werkgroep bestaanszekerheid van KBO-Brabant teneinde zich goed te laten informeren, zodat dit probleem wordt opgelost,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note106">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note107">Deze motie is voorgesteld door de leden Van Brenk en Peters. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note108">Zij krijgt nr. kst-24515-589</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note109">Mevrouw Van Brenk (50PLUS)</note>
+            <u who="#CorrievanBrenk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u14">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg18">Voorzitter. Ik heb nog een cadeautje voor de minister. Dat is het rapport van de tijdelijke commissie Uitvoeringsorganisaties, waar ik deel van uit mocht maken. Ik vertrouw erop dat dit ook voor de minister leerzaam is. Voorzitter, ik wil u publiekelijk bedanken voor uw strenge maar rechtvaardige wijze van voorzitten en dank voor uw bezielende leiding.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note110">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u15">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg19">Dank u wel, mevrouw Van Brenk. Ik wilde nog een opmerking maken, maar ik ben meteen omgekocht, dus die houd ik voor me. Ik heb het rapport vanochtend in ontvangst genomen en u krijgt hem, minister, dat komt goed. Het is ook openbaar, dus het mag. Alleen, het moet allemaal officieel en zo. Maar goed, ik ben nu even minder streng. Dank u wel, mevrouw Van Brenk. Het is trouwens wederzijds. Dan geef ik het woord aan de heer Peters namens het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note111">De heer Peters (CDA)</note>
+            <u who="#RenéPeters" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u16">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg20">Dank u wel, voorzitter. Fijn om hier nog even te staan in deze mooie commissie-SZW. Dit is de derde bewindspersoon die deze portefeuille doet, maar met alle drie was heel prima voort te boeren, moet ik zeggen. Ook mijn dank daarvoor.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg21">Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note112">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note113">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note114">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note115">constaterende dat artikel 255, vierde lid, van de Gemeentewet voor gemeenteraden de bevoegdheid schept om ruimere vermogensnormen te hanteren voor kwijtschelding van gemeentelijke belastingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note116">voorts constaterende dat deze bevoegdheid uitgewerkt dient te worden in Nadere regels kwijtschelding gemeentelijke en waterschapsbelastingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note117">overwegende dat reserveren voor onvoorziene uitgaven verstandig is om schuldenproblematiek te voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note118">verzoekt de regering de Nadere regels kwijtschelding gemeentelijke en waterschapsbelastingen voor 1 mei 2021 aan te passen en daarin te bepalen dat de vermogensnorm voor kwijtschelding verruimd kan worden tot maximaal de vermogensnorm in de Participatiewet,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note119">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note120">Deze motie is voorgesteld door de leden Peters en Bruins. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note121">Zij krijgt nr. kst-24515-590</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note122">Dank u wel, meneer Peters. Dan geef ik nu het woord aan meneer Kuzu namens DENK.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note123">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u17">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg22">Dank u wel, voorzitter. Van de fractie van DENK drie moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note124">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note125">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note126">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note127">constaterende dat de regering de maximale kredietrente op consumptief krediet verlaagd heeft van 14% naar 10%;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note128">overwegende dat 10% nog steeds een hoge rente is, die in geen enkele verhouding staat tot de marktrente en die het schuldenprobleem niet oplost maar juist verergert;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note129">verzoekt de regering te bewerkstelligen de maximale kredietrente verder te verlagen, in de richting van de wettelijke rente van 2%,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note130">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note131">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note132">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note133">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note134">constaterende dat het aantal daklozen in de afgelopen tien jaar is gestegen van circa 20.000 naar circa 40.000 personen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note135">overwegende dat dakloosheid een schrijnende vorm van armoede is die niet thuishoort in een welvarend land zoals Nederland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note136">overwegende dat er in Finland een sluitende, actieve aanpak is die dakloosheid tot een minimum terugbrengt, met een doelstelling om deze over een aantal jaar terug te brengen tot nul;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note137">verzoekt de regering om te bezien of de Finse aanpak in Nederland toepasbaar is, welke middelen hiervoor nodig zijn, en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note138">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note139">Deze motie is voorgesteld door het lid Kuzu. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note140">Zij krijgt nr. kst-24515-591</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note141">Deze motie is voorgesteld door het lid Kuzu. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note142">Zij krijgt nr. kst-24515-592</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note143">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u18">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg23">En de laatste alweer, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note144">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note145">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note146">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note147">constaterende dat er door het vorige kabinet gelden zijn vrijgemaakt voor de bestrijding van armoede onder kinderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note148">overwegende dat inmiddels gebleken is dat deze gelden niet altijd voor dit doel worden uitgegeven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note149">verzoekt de regering deze middelen te oormerken en erop toe zien dat deze middelen worden gebruikt ter bestrijding van de armoede onder kinderen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note150">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note151">Deze motie is voorgesteld door het lid Kuzu. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note152">Zij krijgt nr. kst-24515-593</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note153">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u19">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg24">Voorzitter. Een afsluitende opmerking over deze commissie. Het is een commissie waarin goed met elkaar wordt samengewerkt, maar als we in de volgende periode echt slagen willen slaan op dit onderwerp, moeten we ervoor zorgen dat die coördinerende bewindspersoon ook meer doorzettingsbevoegdheid krijgt. Het valt onder Sociale Zaken en Werkgelegenheid, maar een deel ligt bij Justitie en Veiligheid en weer een ander deel zit weer bij een ander ministerie. De volgende periode moet dat echt bij elkaar worden gebracht. Dat is een hartenkreet van mijn zijde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note154">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u20">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg25">Dank u wel. Dan geef ik nu het woord aan mevrouw Van Beukering-Huijbregts namens D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note155">Mevrouw Van Beukering-Huijbregts (D66)</note>
+            <u who="#MarijkevanBeukering-Huijbregts" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u21">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg26">Dank u wel, voorzitter. Ik zou graag twee moties willen indienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note156">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note157">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note158">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note159">constaterende dat de huidige schuldhulpverlening complex en versnipperd is en bestaat uit verschillende trajecten met verschillende uitvoerders;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note160">overwegende dat het aantal personen dat toetreedt tot de Wsnp al jaren daalt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note161">overwegende dat de huidige opeenvolging van trajecten ervoor zorgt dat het tot acht jaar nadat problemen met schulden zijn ontstaan kan duren voor deze persoon schuldenvrij is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note162">van mening dat schuldenaren, schuldeisers en de maatschappij baat hebben bij een overzichtelijke en effectieve schuldhulpverlening;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note163">verzoekt de regering om in 2021 het samenvoegen van het minnelijke traject en de Wsnp te verkennen en daarbij in ieder geval de NVVK, de BBW, de rechtspraak en de VNG te betrekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note164">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note165">Deze motie is voorgesteld door het lid Van Beukering-Huijbregts. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note166">Zij krijgt nr. kst-24515-594</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note167">Mevrouw Van Beukering-Huijbregts (D66)</note>
+            <u who="#MarijkevanBeukering-Huijbregts" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u22">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg27">Dan de tweede motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note168">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note169">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note170">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note171">constaterende dat de verhoging van de tarieven van de gerechtsdeurwaarders een onderdeel is van een bredere set noodzakelijke hervormingen die worden doorgevoerd als beschreven in de brief van 4 februari 2020;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note172">overwegende dat de voorgenomen verhoging van de tarieven van gerechtsdeurwaarders per 1 januari jongstleden geen doorgang heeft gevonden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note173">overwegende dat de positie van schuldenaren juist in tijden van crisis dient te worden versterkt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note174">overwegende dat onder meer het afschaffen van kickback fees hiertoe bijdraagt en per 1 januari jongstleden is doorgevoerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note175">verzoekt de regering de voorgenomen verhoging van de tarieven van gerechtsdeurwaarders uit te stellen en pas per 1 juli 2021 door te voeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note176">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note177">Deze motie is voorgesteld door de leden Van Beukering-Huijbregts en Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note178">Zij krijgt nr. kst-24515-595</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note179">Mevrouw Van Beukering-Huijbregts (D66)</note>
+            <u who="#MarijkevanBeukering-Huijbregts" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u23">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg28">Voorzitter. Tot slot wil ik nog een paar woorden tot de commissie richten. Ik heb er een jaar deel van uit mogen maken en inderdaad drie bewindspersonen op deze onderwerpen gezien. Ik vind het mooi dat we als Kamer een aantal stappen hebben gezet. Uit de moties die we vandaag hebben ingediend, blijkt eigenlijk wel dat we het met elkaar eens zijn. U ook, voorzitter, dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note180">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u24">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg29">Dat vind ik heel lief. Dank u wel, mevrouw Van Beukering-Huijbregts. Ik neem nog afscheid van jullie, dus jullie krijgen allemaal spannende verhalen te horen. Dat valt wel mee, maar het is wel mooi om jullie daaraan te herinneren. De heer Wörsdörfer van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note181">De heer Wörsdörfer (VVD)</note>
+            <u who="#MartinWörsdörfer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u25">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg30">Voorzitter. Dit is ook voor de VVD een belangrijk onderwerp en daarom heb ik drie moties. Die spreken voor zich, hoop ik, dus ik ga ze gewoon voorlezen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note182">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note183">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note184">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note185">overwegende dat het te prijzen is als werkgevers hun werknemers die met schulden kampen een helpende hand willen toesteken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note186">constaterende dat vroegtijdig ingrijpen bij problematische schulden veel persoonlijk leed voorkomt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note187">verzoekt de regering met werkgevers bestaande mogelijkheden en belemmeringen in kaart te brengen en waar mogelijk, in overleg met de werkgevers, met voorstellen te komen om bestaande belemmeringen op te heffen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note188">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note189">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note190">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note191">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note192">constaterende dat kleine ondernemers die schuldeiser zijn in schuldsaneringstrajecten relatief harder geraakt kunnen worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note193">overwegende dat kleine ondernemers niet zelf in problematische schulden zouden moeten komen door schuldsaneringstrajecten van anderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note194">verzoekt het kabinet op dit punt een aantal scenario's en juridische (on)mogelijkheden op een rij te zetten, en de Tweede Kamer daarover in de zomer te rapporteren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note195">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note196">Deze motie is voorgesteld door het lid Wörsdörfer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note197">Zij krijgt nr. kst-24515-596</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note198">Deze motie is voorgesteld door het lid Wörsdörfer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note199">Zij krijgt nr. kst-24515-597</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note200">De heer Wörsdörfer (VVD)</note>
+            <u who="#MartinWörsdörfer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u26">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg31">En tot slot:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note201">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note202">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note203">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note204">constaterende dat onlineverkoop een grote vlucht heeft genomen en er geregeld (over)financiering bij wordt aangeboden met als gevolg toename van (problematische) schulden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note205">constaterende dat daarbij algoritmes van webwinkels een belangrijke rol spelen, waardoor aannemelijk is dat deze marketing zich in toenemende mate focust op mensen die hier gevoelig voor zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note206">van mening dat consumenten een eigen verantwoordelijkheid hebben maar dat tevens inzichtelijk moet zijn of de consumentenbeschermingsregels hierop voldoende toegerust zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note207">verzoekt het kabinet om in overleg met in elk geval de ACM, AFM en het bedrijfsleven te inventariseren hoe telemarketing op basis van algoritmes zich verhoudt tot het bestaande kader voor consumentenbescherming en welke risico's ten aanzien van het ontstaan van problematische schulden nog onvoldoende geadresseerd worden, en de Kamer daarover voor de zomer te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note208">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note209">Deze motie is voorgesteld door de leden Wörsdörfer en Kuzu. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note210">Zij krijgt nr. kst-24515-598</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note211">De heer Wörsdörfer (VVD)</note>
+            <u who="#MartinWörsdörfer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u27">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg32">Ik zal mijn afsluitende woorden achterwege laten, voorzitter. Dit was het.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note212">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u28">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg33">Dank u wel, meneer Wörsdörfer. Dit was het. Dat waren de laatste woorden. Ik schors de vergadering voor vijf minuten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note213">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note214">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u29">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg34">Ik geef de minister het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note215">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u30">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg35">Dank u wel, voorzitter. Dank aan de Kamerleden voor de gestelde vragen en de ingediende moties. Inderdaad, ik ben de derde bewindspersoon op dit thema. Sterker nog, het AO heeft u met staatssecretaris Van 't Wout gedaan, die ondertussen is gepromoveerd tot minister. Dat gebeurt vaak op mijn departement. Daarom mag u het met mij doen vandaag. Ik ga het snel doen, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg36">De motie van de heer Jasper van Dijk op stuk nr. 580 over giften. Wij zijn in overleg met de gemeenten over punten als hardheid en de beleidsvrijheid van gemeenten en of we dat een beetje kunnen harmoniseren. Ook de gemeenten hebben daar behoefte aan. Er zijn rondetafelgesprekken over met een delegatie van de gemeenten. Ik wilde eigenlijk alles bij elkaar vegen of bij elkaar pakken om dat klaar te leggen voor de formatie, zal ik maar zeggen. Tegen die achtergrond wil ik deze concrete motie ontraden, maar dit is wel onderdeel van de gesprekken. Dat wil ik nog even meegeven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg37">De tweede motie van de heer Jasper van Dijk gaat over een compensatieloket voor onterechte terugvorderingen. Als er onterecht wordt teruggevorderd, dan is dat uiteraard onwenselijk, en dat moeten we zo veel mogelijk voorkomen. Maar in de P-wet is er wel ruimte voor bezwaar en beroep, en herziening van een vordering kan al. Tegen die achtergrond ontraad ik deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg38">Het wordt een beetje een herhaling, maar ook de derde motie moet ik ontraden, tegen de achtergrond dat er nu een verkenning loopt over de kostendelersnorm, en dat weet uw Kamer. We proberen deze binnenkort naar de Kamer te sturen, zodat deze ook onderdeel kan zijn van de formatiebesprekingen. Daar wil ik niet op vooruitlopen, dus ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg39">Hetzelfde geldt voor de vierde motie, om de jongerenuitkering standaard aan te vullen bij knelpunten en de Kamer voor de zomer te informeren. Bij een aanvulling komt de uitkering hoger uit dan het minimumloon voor deze leeftijdsgroep, want we hebben nog steeds het jongerenminimumloon. Het wordt ook wel heel kwetsbaar als je daar een onderscheid in gaat krijgen. De heer Van Dijk fluistert dat dit wordt afgeschaft als de Partij van de Arbeid voldoende zetels krijgt om bij de formatie een rol van betekenis te spelen, maar dat moeten we eerst nog maar zien. Tegen die achtergrond: ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg40">Ik wil de motie-Jasper van Dijk op stuk nr. 584 samennemen ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note216">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u31">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg41">Maak uw zin af.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note217">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u32">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg42">Met die van de heer Gijs van Dijk op stuk nr. 585. Niet omdat ik verdeeldheid in het linkse kamp wil aanmoedigen, maar de motie op stuk nr. 585 is gewoon slimmer geformuleerd dan die op stuk nr. 584.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note218">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u33">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg43">Dat kunt u de heer Jasper van Dijk niet aandoen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note219">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u34">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg44">Nee, oké. Ik zal het eufemistischer formuleren. Ik vind de formulering van de motie op stuk nr. 585 beter, want die spreekt uit en daar mag ik geen oordeel over vormen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note220">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u35">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg45">Ja, dat dacht ik al.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note221">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u36">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg46">De motie op stuk nr. 584 is ontraden en de motie op stuk nr. 585 is niet aan mij. De motie op stuk nr. 584 gaat over het wml en dat ligt natuurlijk aan de formatietafel. Ik heb de verkiezingsprogramma's gelezen. Ik lees ook dat veel partijen dit voorstel in hun programma hebben, maar het is niet aan een demissionair kabinet om daar iets over te vinden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note222">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u37">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg47">Hoe gaat u hiermee om, meneer Jasper van Dijk?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note223">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u38">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg48">Slecht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note224">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:labor" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u39">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg49">Je kan ook zeggen: als de motie op stuk nr. 585 wordt aangenomen, gebeurt er niks, en als de motie op stuk nr. 584 wordt aangenomen, gaat het minimumloon naar €14. Dat laat ik even aan de overige partijen. Overigens zal ik de motie op stuk nr. 585 met liefde steunen, want de boodschap is helder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note225">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u40">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg50">Dat dacht ik al. En uw vraag?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note226">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u41">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg51">Ik wil even naar de motie op stuk nr. 583. De heer Renkema wees mij er terecht op dat die motie vraagt om een onderzoek: de mogelijkheid te onderzoeken om de jongerenuitkering aan te vullen tot een volwaardige uitkering. Het pakt dus niet zo stellig uit als de minister net suggereerde. Misschien geeft dat nog wat ruimte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note227">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u42">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg52">Er bestaan nu al maatwerkmogelijkheden in de P-wet als de ouders niet kunnen ondersteunen. Er is een ondersteuningsplicht tot 21 jaar. Als dat niet kan, is er de mogelijkheid voor maatwerk om daarvan af te zien als gemeente. Het tweede punt is: als je een aanvulling voor jongeren introduceert, moet je ook iets gaan oplossen bij het jongeren-wml. De heer Jasper van Dijk wil dat, dat weet ik, maar dat is op dit moment niet het geval. De huidige stand is dat er een jongerenminimumloon is. Dat zou dan wel heel onevenwichtig uitpakken. Tegen die achtergrond en met deze twee argumenten is de motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note228">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u43">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg53">Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note229">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u44">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg54">De motie-Gijs van Dijk op stuk nr. 586 vraagt om een verdubbeling van het budget inzake kinderarmoede. Dat is natuurlijk een sympathiek onderwerp. Ik denk dat hier Kamerbreed veel steun voor is. Maar ik heb geen dekking voor een verdubbeling van dat budget, dus tegen die achtergrond moet ik die motie ontraden. Het is ook meer een thema voor de formatie, zeg ik eerlijk.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg55">De motie-Gijs van Dijk/Bruins op stuk nr. 587. Ik begrijp dat de doorverkoop van vorderingen een aandachtspunt is. Ik wil een onderhandelingetje openen met de heer Gijs van Dijk, namelijk of ik een onderzoek mag doen hoe we dit doorverkopen kunnen voorkomen, want er zitten echt wel haken en ogen aan. Het is echt ingewikkeld en niet zomaar opgelost. Dan zou ik de motie oordeel Kamer kunnen geven. Maar als het is "regel dit", dan moet ik de motie ontraden. Als de heer Gijs van Dijk genoegen neemt met een onderzoek …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note230">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u45">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg56">Ik zie dat hij ja zegt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note231">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u46">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg57">Dan geef ik deze motie oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg58">Bij de motie-Renkema op stuk nr. 588 past dezelfde opmerking als bij de eerste motie van de heer Jasper van Dijk. Wij zijn bezig met rondetafelgesprekken met de gemeenten over hardheid in de Participatiewet, over giften, terugvorderingen en dat soort zaken. Daar wil ik even op wachten en dat samenpakken om geïntegreerd te kijken wat je daar zou kunnen doen. Tegen die achtergrond wil ik de motie ontraden, maar ik begrijp het signaal van de heer Renkema en dat nemen we ook mee in die gesprekken met de gemeenten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg59">De motie op stuk nr. 589 is de hartenkreet van mevrouw Van Brenk. Als zij zoiets vraagt op die manier, kan ik dat natuurlijk niet weigeren. Ik geef de motie oordeel Kamer. Het is goed om hierover in gesprek te gaan. Het raakt heel veel terreinen: BZK over wonen, VWS over zorg, bijzondere bijstand. Het is een terecht aandachtspunt om daar eens naar te kijken. Oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg60">Mevrouw Van Brenk heeft ook twee vragen gesteld. De eerste ging over de Wajong. Daarover zijn vragen ingediend door de heer Jasper van Dijk en volgens mij ook door de Eerste Kamer. Die beantwoording komt er binnenkort aan en heb ik nu niet paraat hier. Ook dat is voor een deel een portefeuilleschuif geweest van de staatssecretaris naar mij, dus ik weet niet precies hoe het daar zit. De antwoorden op de vragen van Jasper van Dijk komen eraan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg61">Op uw andere vraag, mevrouw Van Brenk, kom ik zo meteen terug, want die zit in dit mapje.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note232">Mevrouw Van Brenk (50PLUS)</note>
+            <u who="#CorrievanBrenk" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u47">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg62">Ik ga ervan uit dat het het streven van deze minister is om de toezegging waar te maken dat geen enkele Wajongere erop achteruitgaat. Ongeacht onder welke regeling ze vallen, oud, nieuw of wat dan ook, zou niemand erop achteruitgaan. Is dat dan ook het streven?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note233">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u48">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg63">Ik weet het oprecht niet. Ik ken de achtergrond van deze toezegging en deze debatten niet, want ik was daar niet bij. Die waren met Tamara van Ark, toentertijd de staatssecretaris. Ik weet dat er serieuze vragen liggen en dat ik daar serieus naar ga kijken. Ik weet ook niet wat de achtergrond is van deze ontwikkeling, dus ik voel me een beetje onthand. Ik ga ervan uit dat als er afspraken zijn gemaakt met de Kamer, die door het kabinet worden waargemaakt. Ik moet me er echt even in verdiepen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note234">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u49">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg64">Dat is goed. Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note235">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u50">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg65">De motie op stuk nr. 590 is van de heren Peters en Bruins. De minister van BZK heeft het voornemen om u mede namens mij op korte termijn over dit onderwerp te informeren naar aanleiding van een eerder aangenomen motie van het lid Krol. Daarnaast heeft uw Kamer nog gevraagd om een plenair debat over het VSO kwijtschelding, dat op de rol staat. Ik zou u willen vragen om deze motie aan te houden totdat de collega van BZK de Kamer hierover heeft geïnformeerd en het VSO kwijtschelding is afgerond. Anders moet ik de motie ontraden omdat ik nu niet de ruimte heb om even te overleggen met collega's in het kabinet, maar het staat nog op de rol.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg66">Dan de motie op stuk nr. 591 van de heer Kuzu. De maximale kredietrente is inderdaad recent verlaagd van 14% naar 10%. Dit onderwerp is overigens de verantwoordelijkheid van de minister van Financiën. Ik wil de motie nu ontraden omdat er net een stap is gezet en ik niet alle consequenties kan overzien. Bovendien moet dit echt met de minister van Financiën worden besproken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg67">Meneer Kuzu, ik wil u vragen om de motie op stuk nr. 592 even aan te houden. Dit ligt formeel op het terrein van Paul Blokhuis, de staatssecretaris van VWS. Ik wil even met hem in overleg. Als u de motie even wil aanhouden totdat er een appreciatie over gestuurd kan worden, graag. Anders ontraad ik 'r.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note236">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u51">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg68">Dit is eigenlijk wat ik net ook probeerde aan te stippen aan het einde van mijn inbreng. Veel onderwerpen die in deze portefeuille zitten, liggen weer bij andere bewindspersonen. Deze motie vraagt om een succesvolle aanpak te onderzoeken en om dat hier te doen. Ik ga de motie niet aanhouden. De Kamer kan daar volgens mij zelf over oordelen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note237">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u52">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg69">O, prima. Wat is het oordeel?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note238">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u53">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg70">Oké. Dat is goed, maar het oordeel is dan formeel "ontraden". Ik begrijp wat de heer Kuzu zegt. Ik denk dat dit al gebeurd is, maar ik weet het niet.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg71">De motie op stuk nr. 593 gaat over het oormerken van het kinderarmoedebudget. Dat gaat echt in tegen de gedachte van de decentralisatie en de ruimte voor gemeenten om maatwerk toe te passen. Daarmee wil ik deze ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg72">De motie op stuk nr. 594 van mevrouw Van Beukering verzoekt de regering om het samenvoegen van het minnelijke traject en de Wsnp te verkennen. Oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg73">De motie op stuk nr. 595 is ook van mevrouw Van Beukering. Er is overleg geweest met de minister voor Rechtsbescherming. Ik geef de motie oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg74">De motie op stuk nr. 596 van de heer Wörsdörfer verzoekt de regering om met de werkgevers de bestaande mogelijkheden te verkennen. Oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg75">De motie op stuk nr. 597 over het op een rij zetten van een aantal scenario's met de juridische mogelijkheden en onmogelijkheden op het punt van de kleine ondernemers en de schulden: oordeel Kamer. Er lopen op dit terrein overigens goede gesprekken, ook met MKB-Nederland.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg76">De laatste motie, de motie op stuk nr. 598 van de heren Wörsdörfer en Kuzu over overleg met de ACM, de AFM en het bedrijfsleven over telemarketing en algoritmes: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg77">Er is nog een vraag blijven liggen van mevrouw Van Brenk, maar die ben ik nu gewoon kwijt. Ik had die vraag wel in mijn setje zitten, maar ik weet niet waar die is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note239">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u54">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg78">Hoe kan dat nou, dat u een vraag van mevrouw Van Brenk vergeet?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note240">Mevrouw Van Brenk (50PLUS)</note>
+            <u who="#CorrievanBrenk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u55">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg79">Ik dacht dat de minister weleens over mij droomde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note241">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u56">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg80">Ja, dat dacht ik ook.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note242">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u57">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg81">O, ik heb 'm.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note243">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u58">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg82">We gaan even kijken hoe hij de vraag beantwoordt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note244">Mevrouw Van Brenk (50PLUS)</note>
+            <u who="#CorrievanBrenk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u59">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg83">Ik kan het de minister ook toesturen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note245">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u60">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg84">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note246">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u61">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg85">Ja, stuurt u die concrete IVA-casus naar mij toe. Dan gaan wij daar serieus naar kijken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note247">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u62">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg86">Goed zo. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note248">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u63">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg87">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note249">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u64">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg88">Daarmee zijn we aan het einde gekomen van dit VAO.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note250">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note251">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.u65">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.seg89">Over de moties zullen we vandaag aan het eind van de dag stemmen. Ik dank de minister.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-10.note252">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

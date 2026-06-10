@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2020-11-26 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-11-26 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 30, Session 9 (2020-11-26)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 30, Session 9 (2020-11-26)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="30" xml:lang="en">Meeting 30</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="9" xml:lang="en">Session 9</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2020-11-26">Sitting 2020-11-26</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="20">20 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="20">20 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1158">1,158 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1158">1,158 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2020-11-26">2020-11-26</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="54"/>
+               <tagUsage gi="seg" occurs="28"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="20"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-11-26">2020-11-26</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.head1">Duurzaam vervoer</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:trans" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg1">Aan de orde is het VSO Duurzaam vervoer. Ik geef mevrouw Kröger namens GroenLinks het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note2">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:envir" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg2">Voorzitter. Het is echt alweer een tijd geleden dat we het schriftelijke debat hebben gehad over duurzaam vervoer. De urgentie is er niet minder op geworden. Ik denk dat qua klimaatbeleid alle alarmbellen rinkelen. Toch lopen we gruwelijk achter. Ik heb een motie voorbereid. Die ga ik wel indienen, maar ik realiseer me ook dat het, doordat we nu alweer een halfjaar verder zijn, alleen maar ingewikkelder wordt. Dat gaat eigenlijk over hoe we nou daadwerkelijk die klimaatdoelen halen die dit kabinet zichzelf gesteld heeft. Het is eigenlijk heel verdrietig om te moeten constateren, met de laatste KEV, dat het er echt niet goed uit ziet, zeker niet qua mobiliteit. Ik wil de staatssecretaris dus vragen of zij in de paar maanden die ze nog heeft, eigenlijk de handvatten kan bieden, ook voor een nieuw kabinet, om de stappen te zetten om die doelen wel te halen. En wat kan je zelf nog in gang zetten wat in gang gezet kan worden? Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note6">overwegende dat met het huidige beleid slechts de helft van de beoogde CO-reductie van het verkeer in 2030 zal worden bereikt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note7">verzoekt de regering om nog deze periode met additionele maatregelen te komen die de realisatie van de CO-doelstellingen voor de mobiliteitssector in beeld brengt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note8">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note9">Deze motie is voorgesteld door het lid Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note10">Zij krijgt nr. kst-32813-620</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note11">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u3">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg3">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note12">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u4">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg4">Dank u wel, mevrouw Kröger. Dan geef ik het woord aan de heer Remco Dijkstra namens de VVD. Ik zag u een beetje ondeugend kijken. Ik weet niet wat u allemaal gaat zeggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note13">De heer Remco Dijkstra (VVD)</note>
+            <u who="#RemcoDijkstra" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u5">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg5">Voorzitter. Ik heb twee moties en een vraag.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg6">Ik wil eerst mijn medewerker Juliëtte Verhaaren bedanken. Zij begint per 1 december aan een nieuwe baan, na het 3,5 jaar met mij te hebben uitgehouden. Ik vond het een pretje. Bedankt, voor je vrolijkheid en je inzet!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note14">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u6">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg7">Dan is ook haar naam in de Handelingen vereeuwigd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note15">De heer Remco Dijkstra (VVD)</note>
+            <u who="#RemcoDijkstra" ana="#regular topic:energ" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u7">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg8">Daarom. Dat is toch mooi.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg9">Dan heb ik één vraag aan de staatssecretaris en twee moties. De vraag is of er een voorhang zou kunnen komen voor de AMvB als het gaat om het besluit hernieuwbare energie en vervoer.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg10">Dan twee moties, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note16">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note17">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note18">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note19">constaterende dat er stappen worden ondernomen per 2022 om een nieuwe roetfiltertest op basis van het aantal roetdeeltjes in de algemene periodieke keuring, de apk, op te nemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note20">constaterende dat deze test ervoor zorgt dat 100.000 tot 125.000 auto's bij de apk in 2022 afgekeurd zullen worden, die elders in Europa wel nog door een keuring zouden komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note21">constaterende dat deze strenge interpretatie van Europese regelgeving de te goeder trouw handelende automobilist op hoge kosten jaagt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note22">overwegende dat er op Europees niveau wordt gesproken over het invoeren van een Europese roetdeeltjestest, die ervoor zorgt dat roetfilters in Europese dieselvoertuigen op een gelijke manier beoordeeld worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note23">verzoekt de regering voor nu de focus te leggen op voertuigen waar met opzet een roetfilter is verwijderd en niet de te goeder trouw handelende automobilist te bestraffen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note24">verzoekt de regering voorts van de invoering van deze roetfiltertest af te zien en zich te richten op de Europese invoering van deze test,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note25">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note26">Deze motie is voorgesteld door de leden Remco Dijkstra en Postma. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note27">Zij krijgt nr. kst-32813-621</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note28">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:envir" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u8">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg11">Denkt de heer Dijkstra ook niet dat het voor al die mensen met longklachten en voor al die 11.000 vroegtijdige doden door luchtverontreiniging in Nederland niet uitmaakt of die roetfilter daar te goeder trouw of te kader trouw zit, maar dat het uitmaakt dat die roetdeeltjes niet in de lucht komen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note29">De heer Remco Dijkstra (VVD)</note>
+            <u who="#RemcoDijkstra" ana="#regular topic:envir" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u9">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg12">We hebben Europees luchtkwaliteitsbeleid. Dat horen we te hebben. We hebben dat ook in Nederland. Lucht houdt zich niet aan grenzen. Hier dreigen 100.000 tot 125.000 mensen, die gewoon een auto hebben waarvan ze verwachten dat die gewoon goed is en waar niks mee aan de hand is, zo meteen met een waardeloze auto te zitten. Dat vind ik niet goed. Vandaar deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note30">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u10">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg13">Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note31">De heer Remco Dijkstra (VVD)</note>
+            <u who="#RemcoDijkstra" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u11">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg14">Dank u wel.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note32">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note33">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note34">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note35">constaterende dat er geen kwaliteitseis is opgenomen om enkel pure bio-ethanol toe te staan in E10;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note36">constaterende dat een dergelijke kwaliteitseis wel in de ons omringende landen en de meeste EU-lidstaten wordt gehanteerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note37">overwegende dat een dergelijke kwaliteitseis de concurrentiepositie van de Nederlandse bio-ethanolsector kan versterken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note38">overwegende dat een dergelijke kwaliteitseis naar verwachting zou kunnen leiden tot een grotere feitelijke CO-reductie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note39">verzoekt de regering de effecten van een dergelijke kwaliteitseis voor bio-ethanol op tankstationhouders, consumenten en importeurs in kaart te brengen, en de resultaten hiervan voor het kerstreces naar de Kamer te sturen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note40">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note41">Deze motie is voorgesteld door de leden Remco Dijkstra en Ziengs. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note42">Zij krijgt nr. kst-32813-622</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note43">Dank u wel, meneer Dijkstra. Ik kijk even naar de staatssecretaris. De laatste moties worden rondgedeeld. Ik schors voor een paar minuten.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note44">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note45">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u12">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg15">Ik heropen de vergadering en geef de staatssecretaris het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note46">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:envir" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u13">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg16">Dank u wel, voorzitter. Ik begin met de motie-Kröger op stuk nr. 620. We staan er gelukkig beter voor dan vorig jaar qua CO-reductie, maar er komen ook nog een heleboel maatregelen aan. Die zijn nog niet doorgerekend, omdat het PBL stopte met rekenen per 1 mei. In de tussentijd hebben we natuurlijk wel hard doorgewerkt, als het gaat om biobrandstoffen, zero-emissiezones, zero-emissiebestelbusjes en personenauto's. Kortom, er zit nog heel veel in de pijplijn. Ik ontraad deze motie, maar we zijn er gewoon hard mee aan de slag. Dus deze motie voegt dan niets toe.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg17">Dan de motie op stuk nr. 621. De heer Dijkstra zegt eigenlijk: we moeten steeds zoeken naar een balans, ook als het gaat om nieuwe verplichtingen. Dat ben ik met hem eens en dat hebben we ook gedaan. Voor oudere dieselauto's van vóór 2015 geldt een soepele norm. Hiermee komen auto's met een klein roetfilterdefect gewoon door de test. Bovendien ga ik voor deze auto's de overgangsregeling verruimen. Men kan het roetfilter bij de RDW afmelden, waarna er in de apk geen roetfiltertest meer wordt gedaan. Dan betaal je wel de roettaks. Met deze verruiming kan voor naar schatting tot maximaal 75% van de auto's die niet door de test komen een beroep worden gedaan over de overgangsregeling. Dat vind ik zelf een zeer soepele regeling. Als je echt een grote scheur hebt en je dus echt een defect hebt op luchtkwaliteit, kun je geen beroep doen op die overgangsregeling. Dat vind ik ook terecht, omdat er dan echt een effect is op de leefomgeving.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg18">Meneer Dijkstra vroeg ook: lopen we niet te ver vooruit? Nee, Duitsland plant de invoering voor 2021/2022. Ook België is bezig met de voorbereidingen. Wachten op de Commissie duurt nog 8 jaar. Al die 8 jaar rijden mensen met een grote scheur in het roetfilter dan gewoon rond. Dat vind ik over de balans heen. Dan slaat de balans door. dus ik ontraad deze motie. Ik zou wel eventueel de vinger aan de pols kunnen houden. We kunnen evalueren hoe het gaat. Daar ben ik uiteraard toe bereid, maar ik ontraad de huidige motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note47">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u14">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg19">Dan de volgende motie. Ik geef u zo het woord, zeg ik tegen de heer Dijkstra.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note48">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:envir" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u15">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg20">Dan de motie op stuk nr. 622 van de VVD. Het oordeel daarover laat ik aan de Kamer. Alle in Nederland gebruikte brandstof moet voldoen aan de Europese kwaliteitseisen, ook wanneer een benzine ethanol bevat. We kunnen het onderzoeken, maar dan gaan we het onderzoek iets breder nemen en het ook richten op brandstoffenleveranciers en op de effecten op het gebied van handelspolitiek en CO-reductie in de keten. Dus we trekken het onderzoek dan meteen iets breder, maar ik kan de motie 'oordeel Kamer' geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note49">De heer Remco Dijkstra (VVD)</note>
+            <u who="#RemcoDijkstra" ana="#regular topic:trans" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u16">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg21">Met die verbreding ben ik het eens, dat is fijn. Dank u wel daarvoor. De eerste motie heeft u ontraden, maar de toezegging over de evaluatie neem ik graag tot me, zeker als gekeken kan worden of er wel voldoende van die apparatuur is. Het moet niet zo zijn dat in Europa zo meteen apparatuur gewenst is, terwijl wij al andere apparatuur hebben. Dat zou de garagisten op kosten jagen. Ik kijk nog even wat ik doe met die motie, of ik haar aanhoud of niet. Ik ben in ieder geval blij met die verruiming. Fijn dat de staatssecretaris dat zegt; dat is in ieder geval een goede ontwikkeling.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note50">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u17">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg22">U heeft tot dinsdag de tijd, want dan gaan we stemmen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note51">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u18">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg23">Nogmaals, die evaluatie om te kijken of het niet gewoon in de praktijk tot problemen leidt, bijvoorbeeld omdat er niet genoeg apparaten zouden zijn, zullen we zeker doen. We gaan ermee aan de slag en houden met de evaluatie en de monitoring in de gaten hoe het in de praktijk uitwerkt. Laten we die afspraak dan maken.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg24">Voor het onderzoek is die afspraak gemaakt. Voorhang is volgens de wet niet verplicht, maar we gaan de Kamer hierover informeren, dus dan heeft u alle gelegenheid om daarover te spreken.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg25">Dat was het, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note52">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u19">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg26">Dank u wel. Daarmee zijn we aan het einde gekomen van dit VSO.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note53">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.note54">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.u20">
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg27">Over de ingediende moties zullen we volgende week dinsdag stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-26-tweedekamer-9.seg28">Ik dank de staatssecretaris en ik dank de Kamerleden, de bodes, de griffiers en de stenografische dienst. Dank jullie wel.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

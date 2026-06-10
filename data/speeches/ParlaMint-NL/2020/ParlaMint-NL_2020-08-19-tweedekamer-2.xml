@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2020-08-19 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2020-08-19 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 94, Session 2 (2020-08-19)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 94, Session 2 (2020-08-19)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="94" xml:lang="en">Meeting 94</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="2" xml:lang="en">Session 2</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2020-08-19">Sitting 2020-08-19</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="10">10 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="10">10 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="275">275 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="275">275 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2020-08-19">2020-08-19</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="1"/>
+               <tagUsage gi="seg" occurs="11"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="10"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-08-19">2020-08-19</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.head1">Regeling van werkzaamheden</head>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.u1">
+               <seg xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.seg1">Ik heb van meer dan 30 leden het verzoek gekregen om met een regeling van werkzaamheden te beginnen. Dat verzoek is gedaan door de heer Klaver. Ik geef hem het woord. Daarna schorsen we even voor een mogelijk debat. Het woord is aan de heer Klaver.</seg>
+            </u>
+            <u who="#JesseKlaver" ana="#regular topic:healt" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.u2">
+               <seg xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.seg2">Voorzitter. Ik wil graag een debat aanvragen, mede namens de collega's van de PVV, van de Partij van de Arbeid, van de SP, van de Partij voor de Dieren, van DENK, Van Kooten-Arissen en de heer Krol. Ik moest even nadenken over hoe het nou zit met de namen van de groepen, voorzitter. Ik wil een kort debat, met een spreektijd van twee minuten, voorafgaand aan de stemmingen van straks. Het zal niemand zijn ontgaan dat we vorige week niet hebben gestemd over moties over het verhogen van de salarissen in de zorg. Ik wil heel graag dat we hier in de Kamer de kans hebben om nog een keer alle argumenten naar voren te brengen waarom het zo belangrijk is dat we de salarissen in de zorg structureel verhogen. Ik hoop dat we daar de coalitie van weten te overtuigen zodat de moties een meerderheid kunnen halen.</seg>
+            </u>
+            <u who="#KlaasDijkhoff" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.u3">
+               <seg xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.seg3">Dat kunnen we steunen.</seg>
+            </u>
+            <u who="#PieterHeerma" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.u4">
+               <seg xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.seg4">Steun voor het verzoek.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.u5">
+               <seg xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.seg5">Wacht u even, want eerst moet de microfoon worden schoongemaakt, meneer Van der Staaij. We moeten weer even wennen.</seg>
+            </u>
+            <u who="#KeesvanderStaaij" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.u6">
+               <seg xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.seg6">Ik dacht het slim te doen met de voetmicrofoon, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.seg7">Steun.</seg>
+            </u>
+            <u who="#RobJetten" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.u7">
+               <seg xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.seg8">Steun, voorzitter.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.u8">
+               <seg xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.seg9">Steun voor het debat, voorzitter.</seg>
+            </u>
+            <u who="#CorrievanBrenk" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.u9">
+               <seg xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.seg10">Steun.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.u10">
+               <seg xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.seg11">Dan heeft u een ruime meerderheid voor uw verzoek, meneer Klaver. Ik stel voor om eerst vijf minuten te schorsen, voor inschrijvingen, maar ook om de bewindspersonen de mogelijkheid te geven zich hier te melden.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2020-08-19-tweedekamer-2.note1">De vergadering wordt van 13.03 uur tot 13.09 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-05-26-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2020-05-26 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2020-05-26 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 74, Session 5 (2020-05-26)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 74, Session 5 (2020-05-26)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="74" xml:lang="en">Meeting 74</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="5" xml:lang="en">Session 5</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2020-05-26">Sitting 2020-05-26</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="3">3 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="3">3 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="124">124 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="124">124 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2020-05-26">2020-05-26</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="2"/>
+               <tagUsage gi="seg" occurs="4"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-05-26">2020-05-26</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-05-26-tweedekamer-5.head1">Regeling van werkzaamheden (stemmingen)</head>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-05-26-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2020-05-26-tweedekamer-5.seg1">We hebben een korte regeling van werkzaamheden voor de stemmingen. Ik stel voor zo dadelijk ook te stemmen over de Verzamelspoedwet COVID-19 (35457).</seg>
+               <seg xml:id="ParlaMint-NL_2020-05-26-tweedekamer-5.seg2">Ik geef nu het woord aan de heer Nijboer, maar die zie ik niet in de zaal. Ik geef het woord aan mevrouw Kuiken namens de heer Nijboer. Het gaat over de motie op stuk nr. 11.</seg>
+            </u>
+            <u who="#AttjeKuiken" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-05-26-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2020-05-26-tweedekamer-5.seg3">Ja, het gaat om de motie op stuk nr. 11, een motie van de heer Nijboer. Ik weet alleen even het Kamerstuknummer niet. Ik val hier volledig door de mand, maar ik wil graag uitstel van die stemming aanvragen.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:housi" xml:id="ParlaMint-NL_2020-05-26-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2020-05-26-tweedekamer-5.seg4">Het gaat om motie van de heer Nijboer op stuk nr. 11 bij agendapunt 12, Wijziging van de Wet maatregelen woningmarkt 2014. Die wordt aangehouden.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-05-26-tweedekamer-5.note1">Op verzoek van de heer Nijboer stel ik voor zijn motie (35409, nr. 11) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2020-05-26-tweedekamer-5.note2">Daartoe wordt besloten.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

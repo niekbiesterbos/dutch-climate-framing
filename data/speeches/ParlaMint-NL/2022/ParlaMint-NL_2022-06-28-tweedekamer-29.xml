@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-06-28 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-06-28 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 97, Session 29 (2022-06-28)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 97, Session 29 (2022-06-28)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="97" xml:lang="en">Meeting 97</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="29" xml:lang="en">Session 29</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-06-28">Sitting 2022-06-28</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="88">88 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="88">88 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3937">3,937 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3937">3,937 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-06-28">2022-06-28</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="426"/>
+               <tagUsage gi="seg" occurs="111"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="88"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-06-28">2022-06-28</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.head1">Langeretermijncoronabeleid</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u1">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg1">Aan de orde is het tweeminutendebat Langeretermijncoronabeleid. Ik heet de minister van Volksgezondheid, Welzijn en Sport van harte welkom. Ook welkom aan de minister voor Langdurige Sport … De minister voor Langdurige Zorg en Sport, bedoel ik. "Langdurige sport" is sowieso wel goed. Ook welkom aan de minister van Sociale Zaken en Werkgelegenheid, de woordvoerders, de mensen op de publieke tribune en de mensen die op een andere manier het debat volgen. Ik geef meteen mevrouw Van den Hil van de VVD het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note2">Mevrouw Van den Hil (VVD)</note>
+            <u who="#JacquelinevandenHil" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u2">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg2">Dank je wel, voorzitter. Ik heb vier moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note6">constaterende dat de Kamer in september wordt geïnformeerd over de uitkomsten van het traject sectorale plannen, waarin het kabinet de specifieke maatregelenladders zal presenteren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note7">constaterende dat er voor geen enkele maatregel op dit moment juridische grond bestaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note8">constaterende dat de rioolwateranalyse, de stijgende verkoop van zelftesten en het toenemende aantal ziekenhuisopnames laten zien dat een nieuwe coronagolf aanstaande lijkt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note9">verzoekt de regering om de aangekondigde sectorplannen medio juli te publiceren, en daarbij aan te geven welke rol de Kamer heeft in de besluitvorming,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note11">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note12">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note13">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note14">overwegende dat het kabinet inzet op herstel van zorgmedewerkers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note15">overwegende dat zorgmedewerkers idealiter dusdanig herstellen dat zij het weer aankunnen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note16">overwegende dat werknemersorganisaties aangeven dat er een groep is die niet meer van werk naar werk begeleid kan worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note17">constaterende dat de omvang van dit probleem niet helder is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note18">verzoekt de regering om samen met het UWV de aard en de omvang van bovenstaand probleem in beeld te brengen, en de Kamer hier voor het einde van de zomer over te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note19">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note20">Deze motie is voorgesteld door de leden Van den Hil, Tielen en Paulusma.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note21">Zij krijgt nr. kst-25295-1888</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note22">Deze motie is voorgesteld door de leden Van den Hil en Tielen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note23">Zij krijgt nr. kst-25295-1889</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note24">Voordat u verdergaat, is er een vraag van mevrouw Agema, PVV.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note25">Mevrouw Agema (PVV)</note>
+            <u who="#FleurAgema" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u3">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg3">Sectorplannen. Dan hebben we het over looplijnen, placering, spatschermen, allemaal toestanden waarvan we weten dat ze zinloos zijn op het moment dat je niks doet aan de ventilatie. Als de ventilatie niet goed is, dan heb je zeker weten een probleem. Dan kun je een superspreading event veroorzaken. Waarom zet de VVD in op sectorplannen en verlangt zij niet de juiste ventilatie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note26">Mevrouw Van den Hil (VVD)</note>
+            <u who="#JacquelinevandenHil" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u4">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg4">Volgens mij heeft de VVD daar ook naar gevraagd, ook in eerdere debatten. Ik denk dat het een kwestie van en-en is. Ik denk dat nu in dit geval de sectorplannen naar voren gekomen zijn en dat de ventilatie daar parallel aan gaat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note27">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u5">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg5">U vervolgt uw betoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note28">Mevrouw Van den Hil (VVD)</note>
+            <u who="#JacquelinevandenHil" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u6">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg6">Voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note29">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note30">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note31">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note32">constaterende dat het OMT het advies heeft gegeven om digitale ondersteuningsmiddelen, zoals de CoronaMelder-app en een digitaal meldportaal voor zelftesten, een plek te geven in het langetermijncoronabeleid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note33">overwegende dat het kabinet bezig is om het langetermijncoronabeleid concreter vorm te geven maar dat de besmettingscijfers al lijken op te lopen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note34">overwegende dat digitale ondersteuningsmiddelen een belangrijke aanvulling zijn op de communicatie en publiekscampagnes om de samenleving te betrekken en regie te geven bij de bestrijding van het coronavirus;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note35">verzoekt de regering om ervoor te zorgen dat nog gedurende de zomer van 2022 digitale ondersteuningsmiddelen beschikbaar zijn en gebruikt worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note36">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note37">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note38">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note39">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note40">constaterende dat de Taskforce Ondersteuning optimale inzet zorgverleners adviseert om de flexibele inzetbaarheid van personeel binnen de acute, operatieve en intensieve zorgketens te optimaliseren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note41">overwegende dat zorgpersoneel via gerichte modulaire opleidingstrajecten, daarbij rekening houdend met opgedane competenties in de praktijk, makkelijker kan doorstromen binnen verpleegkundige beroepen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note42">verzoekt de regering om op korte termijn een passend, modulair programma voor ok-assistenten en anesthesiemedewerkers op te stellen, zodat deze medewerkers makkelijker door kunnen stromen binnen de voorgenoemde ketens met behoud van kwaliteit,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note43">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note44">Deze motie is voorgesteld door de leden Van den Hil, Tielen en Paulusma.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note45">Zij krijgt nr. kst-25295-1890</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note46">Deze motie is voorgesteld door de leden Van den Hil en Tielen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note47">Zij krijgt nr. kst-25295-1891</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note48">Mevrouw Van den Hil (VVD)</note>
+            <u who="#JacquelinevandenHil" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u7">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg7">Dank je wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note49">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u8">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg8">Er is een vraag van mevrouw Westerveld, GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note50">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u9">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg9">Ik heb een vraag over de derde motie. Ik vroeg me af over welke digitale middelen we het dan hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note51">Mevrouw Van den Hil (VVD)</note>
+            <u who="#JacquelinevandenHil" ana="#regular topic:techn" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u10">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg10">Dat is op zich een goede vraag. Ik neem dit debat over van een collega. Het gaat om de apps die er al zijn of die verder uitgebouwd kunnen worden, ook om andere manieren van signalering daarin mee te nemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note52">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u11">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg11">Dank u wel. Dan geef ik het woord aan de heer Hijink voor zijn bijdrage.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note53">De heer Hijink (SP)</note>
+            <u who="#MaartenHijink" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u12">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg12">Dank, voorzitter. Naar aanleiding van het debat heb ik drie moties om in te dienen. Het is veel tekst, dus ik ga ze meteen voorlezen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note54">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note55">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note56">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note57">constaterende dat patiënten met postinfectieuze klachten, zoals na een coronabesmetting, een grote diversiteit aan klachten en symptomen hebben, waar veel verschillende behandelopties voor bestaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note58">constaterende dat het in het belang van de patiënten en de maatschappij is dat er snel effectieve en goed aangepaste behandelingen worden ontwikkeld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note59">overwegende dat voor andere ziekten, zoals Q-koorts en Lyme, expertisecentra daar een belangrijke rol in spelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note60">verzoekt de regering om, in gesprek met ziekenhuizen, een landelijk expertisecentrum op te richten waar kennis en ervaring verzameld wordt voor de behandeling van postcovid en andere postinfectieuze aandoeningen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note61">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note62">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note63">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note64">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note65">constaterende dat duizenden werknemers in de zorg en in het onderwijs tijdens hun werk COVID-19 hebben opgelopen en daardoor kampen met postcovid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note66">constaterende dat zij hierdoor naast gezondheidsschade ook vaak financiële schade hebben geleden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note67">verzoekt de regering deze groep te compenseren, bijvoorbeeld via een fonds, en de Kamer hierover voor Prinsjesdag 2022 een voorstel te doen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note68">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note69">Deze motie is voorgesteld door de leden Hijink en Paulusma.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note70">Zij krijgt nr. kst-25295-1892</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note71">Deze motie is voorgesteld door de leden Hijink, Westerveld en Kuiken.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note72">Zij krijgt nr. kst-25295-1893</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note73">De heer Hijink (SP)</note>
+            <u who="#MaartenHijink" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u13">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg13">Ik wil graag nog effe met de pen door deze motie heen als dat mag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note74">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u14">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg14">Dat snap ik. Uw volgende motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note75">De heer Hijink (SP)</note>
+            <u who="#MaartenHijink" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u15">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg15">Voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note76">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note77">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note78">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note79">constaterende dat ruim twee jaar nadat de coronacrisis is uitgebroken een CO-meter nog altijd niet standaard in de Nederlandse klaslokalen hangt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note80">verzoekt de regering om ervoor te zorgen dat vanaf het schooljaar 2022-2023 CO-melders in alle klaslokalen hangen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note81">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note82">Deze motie is voorgesteld door het lid Hijink.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note83">Zij krijgt nr. kst-25295-1894</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note84">Dank u wel. Dan geef ik het woord aan de heer Van Haga van de Groep Van Haga. Gaat uw gang.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note85">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u16">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg16">Voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note86">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note87">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note88">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note89">overwegende dat ventilatie een bijdrage levert aan het verminderen van besmettingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note90">verzoekt de regering, in overleg met zorginstellingen en brancheverenigingen, het gebruik van CO-meters op hoogrisicolocaties te bevorderen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note91">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note92">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note93">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note94">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note95">overwegende dat het kabinet voortaan een beroep doet op de eigen verantwoordelijkheid van sectoren en burgers bij het voorkómen van besmettingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note96">verzoekt de regering met een voorstel te komen om het zorg dragen voor een schoon binnenklimaat, bijvoorbeeld door het bewaken van de CO-waarde, te belonen met een uitzondering op eventuele capaciteitsbeperkende maatregelen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note97">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note98">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note99">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note100">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note101">verzoekt de regering in overleg met brancheverenigingen te komen tot een "menukaart" met adviezen om een schoon binnenklimaat te bevorderen, waaruit de sectoren hun keuze kunnen maken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note102">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note103">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note104">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note105">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note106">verzoekt de regering in overleg met gemeenten best practices te verzamelen over het doeltreffend ventileren van klaslokalen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note107">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note108">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note109">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note110">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note111">verzoekt de regering een publiekscampagne te starten over ventilatie en luchtbehandeling van binnenruimtes,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note112">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note113">Deze motie is voorgesteld door de leden Van Haga en Ephraim.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note114">Zij krijgt nr. kst-25295-1895</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note115">Deze motie is voorgesteld door het lid Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note116">Zij krijgt nr. kst-25295-1896</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note117">Deze motie is voorgesteld door het lid Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note118">Zij krijgt nr. kst-25295-1897</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note119">Deze motie is voorgesteld door het lid Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note120">Zij krijgt nr. kst-25295-1898</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note121">Deze motie is voorgesteld door het lid Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note122">Zij krijgt nr. kst-25295-1899</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note123">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u17">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg17">En dan de laatste.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note124">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note125">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note126">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note127">constaterende dat de onderzoeksdata van het rapport over de oversterfte van het RIVM en het CBS niet toegankelijk is voor onafhankelijke wetenschappers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note128">constaterende dat hierdoor geen toetsing op de conclusies kan plaatsvinden, waardoor de validiteit van dit onderzoek discutabel is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note129">verzoekt de regering de onderzoeksdata van het RIVM en het CBS alsnog zo snel mogelijk toegankelijk en openbaar te maken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note130">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note131">Deze motie is voorgesteld door de leden Van Haga en Smolders.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note132">Zij krijgt nr. kst-25295-1900</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note133">Dank u wel. Dan gaan we luisteren naar de heer Slootweg, CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note134">De heer Slootweg (CDA)</note>
+            <u who="#Evert-JanSlootweg" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u18">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg18">Dank u wel, voorzitter. Namens mevrouw Van den Berg wil ik de bewindslieden bedanken voor het debat en de beantwoording van de vragen. Namens haar dien ik ook twee moties in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note135">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note136">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note137">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note138">constaterende dat de coronacrisis heeft laten zien hoe kwetsbaar onze samenleving is bij onvoorziene gebeurtenissen zoals een pandemie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note139">overwegende dat Nederland veel topkennis bezit op het gebied van voorbereiding op infectieziektedreigingen en water- en klimaatgerelateerde rampen, maar dat een meerjarige integrale aanpak over meerdere beleidsterreinen ontbreekt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note140">verzoekt de regering in de plannen voor pandemische paraatheid de opties mee te nemen van het instellen van een crisiscommissaris die als onafhankelijke regeringscommissaris kan adviseren en sturing geven op samenhang en voortgang van kabinetsbreed beleid voor rampen en pandemieën, en daarnaast een onafhankelijk interdisciplinair kenniscentrum in te richten dat de noodzakelijke kennis verzamelt ten behoeve van de aanpak van rampen en pandemieën,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note141">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note142">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note143">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note144">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note145">van mening dat in het coronabeleid structureel te weinig aandacht is voor technologische oplossingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note146">overwegende dat de in maart 2021 Kamerbreed aangenomen motie-Van den Berg c.s. op stuk nr. 1071 (25295) verzocht praktijkonderzoek uit te laten voeren naar de vraag of en, zo ja, onder welke voorwaarden technische innovaties zoals het gebruik van luchtreinigers de transmissie van het coronavirus in binnenruimtes verminderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note147">constaterende dat dit praktijkonderzoek echter veel te langzaam op gang komt en de minister aangeeft dat het volgens hem nog onbekend is of luchtreinigers meerwaarde hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note148">constaterende dat onder andere het Amerikaanse CDC al sinds december 2020 wel adviseert in te zetten op luchtreinigers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note149">verzoekt de regering zo spoedig mogelijk uitgebreid in te gaan op de advisering van het Amerikaanse CDC op het gebied van luchtreinigers en de conclusies hiervan op te nemen in het kabinetsbeleid richting het najaar,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note150">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note151">Deze motie is voorgesteld door de leden Slootweg en Van den Berg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note152">Zij krijgt nr. kst-25295-1901</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note153">Deze motie is voorgesteld door de leden Slootweg en Van den Berg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note154">Zij krijgt nr. kst-25295-1902</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note155">Dank u wel, meneer Slootweg. Dan geef ik het woord aan mevrouw Den Haan van de Fractie Den Haan. En daarna geef ik het woord aan mevrouw Westerveld.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note156">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u19">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg19">Dank u wel, voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note157">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note158">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note159">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note160">overwegende dat er in de langetermijnaanpak geen enkele regie is vanuit de regering maar de verantwoordelijkheid bij de sectoren wordt neergelegd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note161">overwegende dat de sectoren daarbij kaders en regie nodig hebben, hier ook om vragen maar dit niet krijgen vanuit de regering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note162">overwegende dat de sectorplannen tegengestelde belangen kunnen hebben ten opzichte van elkaar;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note163">constaterende dat het van belang is dat de sectorplannen integraal rekening houden met elkaar en ook de gezondheid van de meest kwetsbaren in de samenleving moeten kunnen borgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note164">verzoekt de regering vaste kaders te stellen aan de sectorplannen, regie te voeren en ervoor te zorgen dat de sectorplannen integraal worden getoetst op tegengestelde belangen en op borging van de positie van de mensen met een kwetsbare gezondheid in onze samenleving,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note165">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note166">Deze motie is voorgesteld door de leden Den Haan, Kuiken, Paulusma, Van den Berg, Van Esch, Sylvana Simons en Westerveld.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note167">Zij krijgt nr. kst-25295-1903</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note168">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u20">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg20">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note169">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note170">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note171">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note172">overwegende dat het van belang is dat de acute as in ziekenhuizen efficiënter wordt georganiseerd om een eventuele uitbraak van het coronavirus en een grotere belasting op de acute as te kunnen opvangen en de ic te kunnen ontlasten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note173">constaterende dat het expertteam covidzorg in zijn rapport schrijft dat het van belang is om zo spoedig mogelijk zorgmedewerkers breed op te leiden voor verschillende werkzaamheden binnen de acute as;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note174">verzoekt de regering om daarbij ook anesthesiemedewerkers te betrekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note175">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note176">Deze motie is voorgesteld door de leden Den Haan, Kuiken en Sylvana Simons.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note177">Zij krijgt nr. kst-25295-1904</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note178">Dank u wel. Dan geef ik het woord aan mevrouw Westerveld van GroenLinks.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note179">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u21">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg21">Dank, voorzitter. Ik spreek hier mede namens de PvdA. In het debat hebben we al gezegd: laten we alles op alles zetten om te voorkomen dat een nieuwe lockdown nodig is. Laten we ervoor zorgen dat we investeren in het beschikbaar stellen van voldoende beschermingsmiddelen. Laten we ervoor zorgen dat de GGD-capaciteit op orde is, maar ook de ic-capaciteit. Daar gaat mijn eerste motie over.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note180">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note181">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note182">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note183">constaterende dat de capaciteit van de intensive care in Nederland tot de laagste in Europa behoort en een lage capaciteit onwenselijk is bij calamiteiten zoals een pandemie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note184">constaterende dat tijdens de coronacrisis aan het licht kwam dat er een groot verschil bestond tussen de ic-capaciteit in theorie en in de praktijk;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note185">overwegende dat de Nederlandse Vereniging voor Intensive Care en V&amp;VN stellen dat het "een goede keuze is om meer basiscapaciteit na te streven" op de ic;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note186">verzoekt de regering om te streven naar een ic-basiscapaciteit van ten minste 1.150 bedden en met regelmaat in de praktijk te toetsen of deze capaciteit ook wordt gehaald,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note187">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note188">Deze motie is voorgesteld door de leden Westerveld en Kuiken.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note189">Zij krijgt nr. kst-25295-1905</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note190">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u22">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg22">Voorzitter. Dan een tweede motie, over vaccinatiebereidheid.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note191">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note192">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note193">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note194">constaterende dat deskundigen waarschuwen voor een nieuwe coronagolf die de zorg dreigt te overbelasten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note195">constaterende dat het er keer op keer op lijkt dat een-op-eencontact met een vertrouwde medisch deskundige een effectieve manier is om de vaccinatiebereidheid verder te verhogen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note196">overwegende dat de vaccinatiebereidheid onder kwetsbaren nog niet optimaal is, met name onder mensen met overgewicht en/of diabetes;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note197">verzoekt de regering in gesprek te gaan met huisartsen en relevante medisch specialisten om tijdens hun reguliere consulten met patiënten coronavaccinatie bij hen onder de aandacht te brengen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note198">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note199">Deze motie is voorgesteld door de leden Westerveld en Kuiken.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note200">Zij krijgt nr. kst-25295-1906</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note201">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u23">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg23">Dan nog één opmerking over onze eerste motie. Ik hoor meerdere partijen vaker hun zorgen uitspreken over de ic-capaciteit, ook partijen van de coalitie. Ik hoop dat zij niet alleen maar zorgen uitspreken, maar vervolgens ook met de Kamer proberen om daar echt wat aan te doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note202">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u24">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg24">Dank u wel. Dan geef ik het woord aan mevrouw Agema, PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note203">Mevrouw Agema (PVV)</note>
+            <u who="#FleurAgema" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u25">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg25">Dank u wel, voorzitter. We zitten in de bespottelijke situatie dat ondanks dat wij in december vorig jaar als enige land in Europa voor de vierde keer in een lockdown zaten en voor de vierde keer reguliere zorg werd afgeschaald, waaronder 120.000 mensen die op een operatie moesten wachten, er nog niet begonnen is met een structurele verhoging van de intensivecarecapaciteit. Dit ondanks dat onze eigen minister in zijn vorige rol nog aangaf dat corona een extra ziekte is die vraagt om extra ziekenhuiscapaciteit, zowel klinisch als voor ic. We zitten ook in de bespottelijke situatie dat in Nederland de ventilatie nog steeds niet bovenaan het lijstje staat van dingen die de overheid zou moeten regelen. Nee, de overheid gaat zo direct sectorplannen vragen. Krijgen we straks weer mandjes waar je mee moet lopen en spatschermen? We krijgen weer looplijnen, we krijgen weer placering; al die toestanden krijgen we weer. Maar niemand verlangt de juiste ventilatie. De juiste ventilatie, dat is wat ons verder brengt. Dat zei ook Van Ranst, de viroloog uit België. Die man verwonderde zich erover dat wij hier in Den Haag nog altijd niet overal CO-meters hebben hangen. We hebben ze gewoon niet. Hij pestte ons ook een beetje. Hij zei: jullie zaten voor de vierde keer in een lockdown; wij niet in België, want wij hadden twee keer zoveel ic-capaciteit.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg26">Voorzitter. In de vijf jaar voor de coronacrisis zijn er negentien intensive cares gesloten. Laten we er in ieder geval voor zorgen dat dat stopt. Ik heb daarom één andere motie dan anders, want ik heb ze allemaal al zo vaak meegenomen. Die motie luidt als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note204">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note205">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note206">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note207">verzoekt de regering te voorkomen dat de ic-bedden in het LangeLand Ziekenhuis verdwijnen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note208">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note209">Deze motie is voorgesteld door het lid Agema.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note210">Zij krijgt nr. kst-25295-1907</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note211">Dank u wel, mevrouw Agema. Dan gaan we luisteren naar mevrouw Paulusma, D66.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note212">Mevrouw Paulusma (D66)</note>
+            <u who="#WiekePaulusma" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u26">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg27">Voorzitter. Ik heb drie moties en ik begin meteen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note213">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note214">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note215">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note216">constaterende dat tijdens de eerste coronagolf zorgmedewerkers en soms ook ander essentieel personeel zoals onderwijspersoneel besmet zijn geraakt met het coronavirus die daar soms in hevige mate postcovidklachten aan hebben overgehouden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note217">overwegende dat deze medewerkers inmiddels zowel voor hun herstel als inkomenspositie tegen de grenzen van reeds bestaande regelgeving aanlopen, te "vroeg" waren voor de huidige regelingen of zelfs al arbeidsongeschikt verklaard worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note218">overwegende dat juist deze groep tijdens de eerste golf hun werk heeft voortgezet in een periode met schaarste van middelen en onbekendheid over het gevaar van het virus;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note219">overwegende dat er momenteel al geruime tijd gesprekken plaatsvinden over de juiste manier om deze mensen te helpen en dat deze mensen al maanden moeten wachten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note220">verzoekt de regering om zo spoedig mogelijk, maar ten minste binnen twee maanden met een brief te komen waarin staat op welke manier verder invulling zal worden gegeven aan de aanpak van de problemen van deze "eerste golf"-groep en dan in het bijzonder als het gaat om financiën, her- en bijscholing en mogelijke re-integratie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note221">verzoekt voorts om te verkennen om voor deze "eerste golf"-groep de vergoeding van zorgkosten die zijn gemaakt ten gevolge van postcovid en die bijdragen aan hun herstel, in overleg met zorgverzekeraars aanvullend mogelijk te maken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note222">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note223">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note224">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note225">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note226">constaterende dat patiënten met postcovid een grote diversiteit aan klachten en symptomen hebben, waar veel verschillende behandelopties voor bestaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note227">constaterende dat in Nederland vele honderdduizenden patiënten postcovidklachten hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note228">overwegende dat voor veel van die patiënten postcovid een grote impact heeft op hun leven en dat we nog niet genoeg weten over de adequate behandeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note229">verzoekt de regering om, in gesprek met het veld, te onderzoeken of huidige lopende onderzoeken naar postcovid goed aansluiten bij de wensen voor onderzoek uit het veld, met speciale aandacht voor biomedisch onderzoek, en hier eventueel meer prioriteit aan te geven indien blijkt dat er momenteel te weinig biomedisch onderzoek wordt gedaan naar postcovid,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note230">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note231">Deze motie is voorgesteld door de leden Paulusma en Bikker.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note232">Zij krijgt nr. kst-25295-1908</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note233">Deze motie is voorgesteld door de leden Paulusma, Tielen en Bikker.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note234">Zij krijgt nr. kst-25295-1909</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note235">Dank u wel, mevrouw Paulusma.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note236">Mevrouw Paulusma (D66)</note>
+            <u who="#WiekePaulusma" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u27">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg28">Ik heb er nog één. Ik kan niet zo snel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note237">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u28">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg29">Ik zie dat u een beetje naar adem hapt. Ik geef u dus de gelegenheid om de laatste motie voor te lezen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note238">Mevrouw Paulusma (D66)</note>
+            <u who="#WiekePaulusma" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u29">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg30">Dank u.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note239">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note240">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note241">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note242">constaterende dat er in het veld vele geluiden zijn over het ongeschikt zijn van het huidige onderzoeksmodel voor crisisgerelateerd onderzoek;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note243">overwegende dat het voor het maken van beleid, zeker in een crisissituatie, essentieel is dat er snel wetenschappelijke kennis beschikbaar komt om het beleid beter te sturen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note244">constaterende dat de minister van Onderwijs, Cultuur en Wetenschap recent plannen heeft gepresenteerd waarin er mede wordt geïnvesteerd in (bio)medisch onderzoek;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note245">overwegende dat er voor de verdere verdeling van die middelen plannen worden gemaakt en dat een externe commissie hierover adviseert, waarvoor zij input ophalen bij de medische sector;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note246">verzoekt de minister van Volksgezondheid, Welzijn en Sport om in gesprek te gaan met de medische sector over deze plannen en hierbij de onderwerpen pandemische paraatheid en wendbaarheid van medisch onderzoek in tijden van crisis te agenderen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note247">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note248">Deze motie is voorgesteld door het lid Paulusma.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note249">Zij krijgt nr. kst-25295-1910</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note250">Mevrouw Paulusma (D66)</note>
+            <u who="#WiekePaulusma" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u30">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg31">Dank voor deze extra tijd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note251">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u31">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg32">Dank u wel. Dan geef ik het woord aan mevrouw Van der Plas van BBB. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note252">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u32">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg33">Dank u wel. Ik wil mijn tijd graag gebruiken om een mail, althans een deel van een mail, van een van de mensen uit de frontlinie voor te lezen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg34">"Vanaf mijn 17de ben ik werkzaam geweest in de zorg en ben ik in de meest bizarre situatie terechtgekomen, van leven tot dood en alles ertussen. Niets was mij te veel en al het werk werd met liefde en volle overgave gedaan, 24/7. Daar waar ieder ander gezin samen kerst vierde, zaten wij op straat met een boterham, nooit wetende of je weer op tijd thuis zou zijn. Ik heb de eerste voetbalwedstrijd van mijn zoon gemist, ouderavonden, feestjes, partijen et cetera.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg35">Dan is het 2020. De pandemie is uitgebroken. Als een van de eersten raakte ik besmet tijdens mijn werk. Niemand in mijn omgeving is ziek, enkel ik. Ik heb erg zieke patiënten gezien, waarvan we toen niet wisten wat we nu wel weten, ondanks dat RIVM en VWS wisten wat er speelde in de wereld. Hadden zij hun werk gedaan, dan waren mijn protocollen aangepast en had het vliegtuig met beschermingsmiddelen nooit zijn vlucht gemaakt naar China.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg36">Nu ben ik mijn baan kwijt. 28 maanden later zit ik voor 100% in de WIA/WGA, heb ik al 16 maanden inkomensverlies en word ik al 28 maanden niet beter. Los van het belachelijk slechte medische beleid met betrekking tot long covid in Nederland en het ontbreken van enige serieuze biomedischestudiesubsidies vanuit ZonMw anders dan enquêtes, laten de huidige ministers ons vallen als een baksteen. Ondanks gesprekken met minister Helder, is er geen enkele urgentie en geen enkel excuus of begrip, anders dan applaus en de woorden "waardering en "respect". In ons gesprek durfde minister Helder ons zelfs te vertellen dat zij ook in de frontlinie had gestaan. "Wie denk je dat in de provincie mondkapjes aan het rondrijden was?" Dit vergeleek zij met ons werk. Een misplaatste opmerking. Jaren gediend voor de maatschappij en nooit iemand in de kou laten staan, en nu dit, met als bevestiging de brief die jullie als Kamer kregen naar aanleiding van ons gesprek met de minister, met de belofte dat we buddy's kregen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg37">Mijn buddy's zitten thuis: mijn vrouw en zoon. Mijn buddy's zitten bij de vakbonden. Mijn buddy's zitten in de Kamer; dat zijn Pieter, Caroline, Nienke en Henny, die altijd reageren. Ik was er voor jullie, wees er nu voor ons. Erkenning, compensatie en biomedisch onderzoek, en geen compensatie voor de werkgevers; wij bloeden en zij krijgen de pleister."</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg38">Was getekend: Roger Schleipen, namens alle mensen die in de frontlinie zijn besmet met covid.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg39">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note253">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u33">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg40">Dank u wel. Dan geef ik het woord aan mevrouw Bikker, ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note254">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u34">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg41">Voorzitter, dank u wel. We hebben een uitvoerig commissiedebat gehad over het langeretermijncoronabeleid. Ik wil de minister ook danken voor de vele antwoorden die hij daarbij gegeven heeft.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg42">Over één punt, namelijk long covid, hebben we gezegd: we wachten op een brief van het kabinet. Die brief is gekomen en eerlijk gezegd geeft die brief nog weinig nieuwe duidelijkheid. Daar heb ik wel de balen van, om het maar in rond Hollands te zeggen. Want juist de zorgmedewerkers van het eerste uur moeten ook wel helderheid gaan krijgen, en met deze brief weten we nog niet wanneer die helderheid er gaat komen. Ik kijk de verschillende bewindspersonen die daarover gaan daarop aan. Dat is ook de reden dat ik met mevrouw Paulusma, die nu heel even weg is maar dat vast van harte ondersteunt, de motie heb ingediend. Dat is omdat ik het echt belangrijk vind dat er helderheid ontstaat over zowel de kosten die mensen maken om te herstellen als de inkomensderving.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg43">Voorzitter. Ten tweede hebben de beperkende maatregelen vanwege corona heel veel gevolgen gehad op een aantal kwetsbare mensen: op jongeren en hun mentale gezondheid, en op ouderen die in eenzaamheid zijn. Sommigen ervaren die gevolgen nog steeds. We hebben gezien dat juist het maatschappelijk middenveld heel veel voor deze groepen kan betekenen, terwijl zij niet vallen onder de sectorplannen. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note255">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note256">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note257">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note258">overwegende dat de maatregelenladders, die een plek in de sectorplannen krijgen en maatregelen bevatten die verspreiding van corona beperken, soms noodzakelijkerwijs het maatschappelijk verkeer bij oplopende besmettingen beperken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note259">overwegende dat na twee jaar COVID-19 de gevolgen van beperkende maatregelen zich steeds dieper doen voelen, qua mentale gezondheid in het bijzonder bij jongeren en qua eenzaamheid in het bijzonder bij ouderen, en dat de noodzaak tot sociale, psychische en praktische ondersteuning van mensen in kwetsbare posities veelvuldig onderstreept is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note260">overwegende dat zowel de VNG als de Nationale ombudsman adviseren om de opgaven van corona te vermaatschappelijken en oog te houden voor de consequenties van de crisis voor mensen in een kwetsbare positie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note261">verzoekt de regering om naast de sectorplannen ook de maatschappelijke verbanden zoals voedselbanken, kerken, bibliotheken en buurtcentra uit te dagen en te ondersteunen in de ontwikkeling van een omgekeerde maatregelenladder en daarbij in het bijzonder de positie van jongeren samen met hen te expliciteren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note262">verzoekt de regering voorts in overleg met de VNG een kader uit te werken hoe sociaal, psychisch en praktisch ondersteuning geboden kan blijven worden aan kwetsbare doelgroepen naarmate de epidemiologische maatregelen toenemen en de sectorplannen worden opgeschaald,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note263">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note264">Deze motie is voorgesteld door de leden Bikker, Van der Staaij, Van den Berg, Den Haan en Kuzu.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note265">Zij krijgt nr. kst-25295-1911</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note266">Dank u wel, mevrouw Bikker. Dan geef ik het woord aan mevrouw Van Esch, Partij voor de Dieren.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note267">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u35">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg44">Voorzitter. Ik heb twee moties en een korte inleiding voor de moties. Wij weten dat in een ongezonde samenleving die we zijn, we onszelf kwetsbaarder maken voor COVID-19. Veel mensen willen graag gezonder leven maar vinden dit moeilijk omdat hun omgeving uitnodigt tot ongezond gedrag. Gelet op deze feiten kun je bij allerlei maatregelen die het kabinet tijdens de coronacrisis heeft genomen achteraf denken: was dit nou wel zo verstandig? Het kabinet wilde bijvoorbeeld de impact van het virus verkleinen, maar gooide de sportsector maandenlang dicht. Ondanks de vele oproepen van artsen en wetenschappers werd er niet massaal ingezet op preventie. Het kabinet liet toe dat supermarkten dankzij de coronacrisis dikke winsten konden uitkeren maar hun productaanbod niet gezonder maakten. Dit mag wat ons betreft niet weer gebeuren. Daarom heb ik twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note268">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note269">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note270">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note271">constaterende dat er een Maatschappelijk Impact Team (MIT) wordt opgericht waarbij verschillende sociaal-maatschappelijke en economische invalshoeken aan bod zullen komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note272">constaterende dat uit de wetenschapstoets van het langetermijncoronabeleid van de regering blijkt dat preventie onvoldoende terugkomt en nauwelijks is uitgewerkt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note273">verzoekt de regering ervoor te zorgen dat gezondheidsbescherming en -bevordering worden opgenomen in de adviezen van het MIT,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note274">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note275">Deze motie is voorgesteld door het lid Van Esch.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note276">Zij krijgt nr. kst-25295-1912</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note277">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u36">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg45">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note278">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note279">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note280">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note281">constaterende dat uit de wetenschapstoets van het langetermijncoronabeleid van de regering blijkt dat preventie onvoldoende terugkomt en nauwelijks is uitgewerkt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note282">overwegende dat preventie in alle facetten van het langetermijncoronabeleid geïntegreerd dient te worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note283">verzoekt de regering het langetermijncoronabeleid uit te breiden met specifieke preventiemaatregelen gericht op het verminderen van de impact van het virus en het tegengaan van gezondheidsverschillen, en hierover in gesprek te gaan met RIVM, GGD'en en andere belanghebbenden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note284">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note285">Deze motie is voorgesteld door het lid Van Esch.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note286">Zij krijgt nr. kst-25295-1913</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note287">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u37">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg46">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note288">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u38">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg47">Dank u wel, mevrouw Van Esch. Dan geef ik het woord aan de heer Goudzwaard, JA21.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note289">De heer Goudzwaard (JA21)</note>
+            <u who="#MaartenGoudzwaard" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u39">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg48">Dank, voorzitter. In het debat over het langetermijnbeleid voor corona is veel aandacht besteed aan mensen die kampen met de nasleep van corona, en terecht. Ik voel de behoefte om ook van mijn kant nogmaals de positie van scholieren en studenten nadrukkelijk voor het voetlicht te brengen. De funeste nasleep van niet naar school kunnen, van niet mogen sporten en niet uitgaan; die druk is zwaar. De samenleving opnieuw lamleggen betekent het leven van honderdduizenden jongeren lamleggen. Sluiting van het onderwijs is feitelijk geen optie meer. Voor JA21 is het onaanvaardbaar om scholieren en studenten ooit nog eens zo in de kou te plaatsen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg49">Over de ic-capaciteit heeft mijn fractie het laatste woord nog niet gesproken. De minister schermt met getallen over het aantal patiënten op ic's, over operationele capaciteit en over potentieel opschaalbare capaciteit, maar schermen met de huidige situatie in het huidige systeem verhult waar het werkelijk over hoort te gaan, namelijk dat ons zorgstelsel bij het eerste het beste beroep piept en kraakt in al zijn voegen. Wij hoeven niet uitgelegd te krijgen wat er niet kan binnen de starre kaders, maar wel wat er mogelijk is als we nieuwe kaders gaan opstellen. Wij komen daarop terug.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg50">In de afronding van dit commissiedebat constateren we alvast dat het kabinet pertinent weigert om de crisisbestendigheid van de zorg structureel op orde te brengen. Dat is jammer en onbegrijpelijk.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg51">Dank u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note290">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u40">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg52">Dank u wel. Dan geef ik het woord aan mevrouw Sylvana Simons van BIJ1.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note291">Mevrouw Sylvana Simons (BIJ1)</note>
+            <u who="#SylvanaSimons" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u41">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg53">Dank u, voorzitter. Ik sluit me graag aan bij de woorden van mevrouw Bikker over het goede debat dat we hebben gevoerd, alsmede bij de moties die zij met mevrouw Paulusma heeft ingediend. Ik heb er twee.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note292">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note293">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note294">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note295">overwegende dat langdurige covid grote gevolgen heeft voor het dagelijks leven van mensen, door bijvoorbeeld aantasting van cognitieve functies, (extreme) vermoeidheid, ademhalingsproblematiek, hartproblemen en nog veel meer;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note296">overwegende dat de omvang van langdurige covid in verschillende gradaties steeds duidelijker wordt, nu het RIVM laat weten dat de helft van de besmettingen langdurige klachten van drie maanden of meer oplevert en dat twee derde van de mensen met langdurige covid volledig wordt afgekeurd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note297">overwegende dat het RIVM aangeeft dat vaccinaties wel beschermen tegen een aantal van de directe gevolgen van een besmetting, maar niet of nauwelijks tegen langdurige covid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note298">constaterende dat dit betekent dat het risico op langdurige covid ook na vaccinatie reëel is, terwijl we nog weinig weten over de uiteindelijke duur van klachten of verdere effecten op de lange termijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note299">van mening dat het wenselijk is dat mensen duidelijk worden geïnformeerd over deze risico's;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note300">verzoekt de regering om de samenleving middels een campagne te informeren over de potentiële gevolgen van langdurige covid, evenals het feit dat hier op dit moment nog geen beschermingsmiddel tegen bestaat, zodat mensen een eerlijke afweging kunnen maken over wat een coronabesmetting kan betekenen voor hun gezondheid en welzijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note301">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note302">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note303">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note304">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note305">constaterende dat zorgpersoneel tijdens de eerste golf zonder voldoende beschermingsmiddelen en met gevaar voor eigen leven heeft gewerkt om de samenleving door de pandemie te loodsen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note306">overwegende dat duizenden van hen hierbij besmet zijn geraakt, ziek zijn uitgevallen, nooit meer de oude zijn geworden en hierdoor al tijden aan de kant staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note307">overwegende dat dit in veel gevallen betekent dat zij tot wel 30% van hun inkomen zijn verloren, het verlies van hun koopkracht verder wordt verergerd door de stijgende inflatie en de overheid hier nog altijd geen menswaardige oplossing voor heeft gevonden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note308">constaterende dat Stichting Inkomensverlies Corona en vakbond CNV de overheid oproepen om zo snel mogelijk met een oplossing te komen en zij zich anders genoodzaakt voelen om naar de rechter te stappen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note309">van mening dat het schandalig zou zijn om het zover te laten komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note310">verzoekt de regering om nog voor het zomerreces haar intentie over het compenseren van deze groep mensen uit te spreken en zo snel mogelijk met hen om de tafel te gaan zitten om de compensatie, aan de hand van hun noden, concreet uit te werken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note311">verzoekt de regering tevens om te inventariseren welke andere beroepsgroepen, zoals leraren en treinpersoneel, tegen dezelfde problematiek aanlopen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note312">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note313">Deze motie is voorgesteld door het lid Sylvana Simons.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note314">Zij krijgt nr. kst-25295-1914</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note315">Deze motie is voorgesteld door het lid Sylvana Simons.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note316">Zij krijgt nr. kst-25295-1915</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note317">Dank u wel. Dan geef ik het woord aan de heer Omtzigt.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note318">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u42">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg54">Voorzitter. De minister beloofde om in gesprek te gaan met de mensen van Vergeet Ons Niet. Ik hoop dat hij dat niet vergeten is en dat hij dat spoedig zal doen. De gevolgen van long covid zijn zeer ernstig. Daar moet echt iets aan gedaan worden. Ik kom met een motie die onder andere gaat over biomedisch onderzoek, maar die ook aangeeft: kijk hoe vaak het voorkomt. Verder zou ik de regering op het hart willen drukken dat we weer in dezelfde val dreigen te raken, dat we corona aan de ene kant eigenlijk het liefst vergeten en dat we als we weinig maatregelen nemen die laaghangend fruit zijn, zoals ventilatie en andere zaken, straks weer in lockdowns terechtkomen. Dus zorg er alsjeblieft voor dat de wet tijdig op orde is, om maatregelen te nemen. Ik heb één motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note319">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note320">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note321">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note322">constaterende dat honderdduizenden mensen langdurig klachten hebben of gehad hebben na een doorgemaakte coronabesmetting;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note323">verzoekt de regering te bevorderen dat er structureel meer onderzoek gedaan wordt naar long covid, de diagnose, de biomedische oorzaak van long covid, de frequentie en de mogelijke behandelmethodes;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note324">verzoekt de regering de Kamer daarover binnen ongeveer een maand te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note325">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note326">Deze motie is voorgesteld door de leden Omtzigt, Westerveld, Van der Plas, Kuiken, Agema, Den Haan, Koekkoek, Gündoğan, Azarkan, Eerdmans, Stoffer, Van den Berg en Hijink.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note327">Zij krijgt nr. kst-25295-1916</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note328">Dank u wel. Dan geef ik tot slot het woord aan de heer Van Houwelingen, Forum voor Democratie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note329">De heer Van Houwelingen (FVD)</note>
+            <u who="#PepijnvanHouwelingen" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u43">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg55">Dank u wel, voorzitter. Ik heb zes korte moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note330">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note331">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note332">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note333">overwegende dat de vorige lockdowns ongeëvenaarde economische en psychische schade hebben aangericht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note334">verzoekt de regering om alles in het werk te stellen om een lockdown te voorkomen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note335">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note336">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note337">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note338">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note339">overwegende dat de ic-capaciteit het grootste pijnpunt is gebleken de afgelopen twee jaar;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note340">verzoekt de regering om de ic-capaciteit te verdubbelen om een lockdown te voorkomen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note341">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note342">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note343">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note344">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note345">overwegende dat het kabinetsbeleid het afgelopen jaar voor discriminatie van ongevaccineerden heeft gezorgd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note346">verzoekt de regering om de rechten van ongevaccineerden te allen tijde te garanderen, opdat zij niet gediscrimineerd worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note347">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note348">Deze motie is voorgesteld door het lid Van Houwelingen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note349">Zij krijgt nr. kst-25295-1917</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note350">Deze motie is voorgesteld door het lid Van Houwelingen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note351">Zij krijgt nr. kst-25295-1918</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note352">Deze motie is voorgesteld door het lid Van Houwelingen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note353">Zij krijgt nr. kst-25295-1919</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note354">De heer Van Houwelingen (FVD)</note>
+            <u who="#PepijnvanHouwelingen" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u44">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg56">De vierde motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note355">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note356">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note357">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note358">verzoekt de regering om het CBS aan te sporen om in de doodsoorzaakverklaring bij sectie D2 een veld toe te voegen waarin de arts kan aangeven of de overledene een coronavaccinatie heeft gehad,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note359">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note360">Deze motie is voorgesteld door het lid Van Houwelingen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note361">Zij krijgt nr. kst-25295-1920</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note362">De heer Van Houwelingen (FVD)</note>
+            <u who="#PepijnvanHouwelingen" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u45">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg57">Motie vijf, dank u.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note363">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note364">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note365">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note366">spreekt uit dat ongevaccineerden vanwege hun vaccinatiestatus nooit beboet of opgesloten mogen worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note367">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note368">Deze motie is voorgesteld door het lid Van Houwelingen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note369">Zij krijgt nr. kst-25295-1921</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note370">De heer Van Houwelingen (FVD)</note>
+            <u who="#PepijnvanHouwelingen" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u46">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg58">Dan de laatste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note371">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note372">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note373">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note374">overwegende dat uiteenlopende meningen belangrijk zijn om tot een weloverwogen besluit te komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note375">verzoekt de regering om bij het samenstellen van het OMT rekening te houden met meerdere perspectieven en ervoor te zorgen dat "tegendenkers" ook vertegenwoordigd zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note376">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note377">Deze motie is voorgesteld door het lid Van Houwelingen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note378">Zij krijgt nr. kst-25295-1922</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note379">De heer Van Houwelingen (FVD)</note>
+            <u who="#PepijnvanHouwelingen" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u47">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg59">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note380">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u48">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg60">Dank u wel, meneer Van Houwelingen. Daarmee zijn we aan het einde gekomen van de termijn van de kant van de Kamer. De bewindspersonen hebben aangegeven ongeveer een kwartier nodig te hebben om zich voor te bereiden. Ik schors de vergadering tot 18.00 uur.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note381">De vergadering wordt van 17.45 uur tot 18.00 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note382">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u49">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg61">Ik geef als eerste het woord aan de minister van Volksgezondheid, Welzijn en Sport.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note383">Minister Kuipers</note>
+            <u who="#ErnstKuipers" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u50">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg62">Dank u wel, voorzitter. De meeste moties zal ik van een appreciatie voorzien. Een aantal moties worden door mijn collega's van een appreciatie voorzien, maar dat ziet u wel aan mijn nummering.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg63">Ik begin met de motie op stuk nr. 1888. Het advies is oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg64">De motie op stuk nr. 1890 krijgt eveneens oordeel Kamer. Vanwege de vragen van zojuist, licht ik de appreciatie even toe. Digitale ondersteuningsmiddelen spelen een belangrijke rol in het langetermijncoronabeleid. Ik heb een Taskforce DOBC en een Taskforce gedragswetenschappen gevraagd om mij te adviseren over CoronaMelder. Dit advies krijgt u binnen een week schriftelijk opgestuurd. Daarnaast bieden andere instrumenten mensen de kans bij te dragen aan de monitoring van het virus, zoals een infectieradar. Mensen die dat willen, kunnen dan hun klachten over het digitale zelfzorgadvies doorgeven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg65">Voorzitter. De motie op stuk nr. 1892 is wat mij betreft oordeel Kamer, als ik die zo mag lezen dat ik expertise en onderzoek bij elkaar breng en bundel, maar dat de onderzoekers niet fysiek in één gebouw moeten zijn. Onderzoekers zitten nu al op veel verschillende plekken. Je wilt de kennis en kunde bundelen, maar ik vind niet dat je onderzoekers van verschillende locaties in Nederland op één locatie moet laten zitten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note384">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u51">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg66">Ik zie dat de heer Hijink knikt. Hij kan zich vinden in uw interpretatie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note385">Minister Kuipers</note>
+            <u who="#ErnstKuipers" ana="#guest topic:educa" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u52">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg67">Prima, dank.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg68">De motie op stuk nr. 1894 is ontraden. Het is echt aan de scholen om dit te regelen. We doen er wel alles aan om dit te ondersteunen, ook op financieel gebied.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg69">De motie op stuk nr. 1895 gaat over het bevorderen van CO-melders in overleg met de branchevereniging. Die krijgt oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg70">De motie op stuk nr. 1896 is ontraden. De motie op stuk nr. 1897 is eveneens ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg71">De motie op stuk nr. 1898 is overnemen. Dit doen we al via een programma.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note386">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u53">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg72">Wij willen inderdaad dat er meer moties worden overgenomen, als dat kan. Alleen, de heer Van Haga is er helaas niet, dus ik kan geen toestemming aan hem vragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note387">Minister Kuipers</note>
+            <u who="#ErnstKuipers" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u54">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg73">Het alternatief wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note388">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u55">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg74">Nou, dat wordt dan oordeel Kamer. Ik zeg u maar even: we hebben een brief gestuurd naar alle bewindspersonen over dat er wat verwarring was over overnemen en welke appreciatie er gegeven moet worden als de motie niet wordt overgenomen. Die zou dan oordeel Kamer zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note389">Minister Kuipers</note>
+            <u who="#ErnstKuipers" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u56">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg75">U hoort mijn toelichting. We doen het al.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note390">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u57">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg76">Dan is het oordeel Kamer. Als het niets verandert … We hebben deze nieuwe afspraak met elkaar gemaakt. De motie op stuk nr. 1898 krijgt dus oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note391">Minister Kuipers</note>
+            <u who="#ErnstKuipers" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u58">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg77">Dat wist ik wel, maar … Haha!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note392">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u59">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg78">En geen discussie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note393">Minister Kuipers</note>
+            <u who="#ErnstKuipers" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u60">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg79">En geen discussie. Dan ga ik gewoon door, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg80">De motie op stuk nr. 1899 is ontraden. De motie op stuk nr. 1900 is eveneens ontraden. De motie op stuk nr. 1901 is ontraden. De motie op stuk nr. 1902 is ontraden. De motie op stuk nr. 1903 is oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg81">Voorzitter. De motie op stuk nr. 1905 is oordeel Kamer, mits ik die als volgt mag appreciëren. Ik heb tijdens de break al even overlegd met mevrouw Westerveld. Ik heb haar het volgende gevraagd. De motie krijgt oordeel Kamer, mits ik die zo mag interpreteren dat er te allen tijde een basiscapaciteit van 1.150 ic-bedden beschikbaar is, in termen van kamer, apparatuur et cetera, maar dat die niet te allen tijde operationeel is. Ik heb dat in het coviddebat toegelicht. Vanochtend lagen er 673 patiënten op een ic. Daarvoor waren ruim 1.000 bedden beschikbaar. Als je die nu zou willen opplussen naar 1.150 bedden, dan is er heel veel reservecapaciteit nodig. Die mensen zouden zich ook op allerlei andere plekken kunnen inspannen. Mevrouw Westerveld gaf mondeling aan mij aan dat zij zich kon vinden in deze interpretatie, dus dan is het oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note394">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u61">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg82">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note395">Minister Kuipers</note>
+            <u who="#ErnstKuipers" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u62">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg83">Dan heb ik de motie op stuk nr. 1906 over het in gesprek gaan met huisartsen en medisch specialisten. Dat gebeurt al. Wat dat betreft is het overnemen. Aangezien mevrouw Westerveld er niet meer is, begrijp ik dat het dan ook oordeel Kamer wordt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg84">Dan de motie op stuk nr. 1907 over ic-bedden in het LangeLand Ziekenhuis. Die ontraad ik. De motie op stuk nr. 1909: oordeel Kamer. De motie op stuk nr. 1910: eveneens oordeel Kamer. De motie op stuk nr. 1911: oordeel Kamer. De motie op stuk nr. 1913: ontraden. De motie op stuk nr. 1914: eveneens ontraden. De motie op stuk nr. 1916: oordeel Kamer, gelijk aan de motie op stuk nr. 1910.</seg>
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg85">In de motie op stuk nr. 1917 wordt gevraagd om alles in het werk te stellen om een lockdown te voorkomen. Daar werken we aan. Wat mij betreft kan de motie worden overgenomen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note396">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u63">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg86">Ik kijk even naar de heer Van Houwelingen of we deze motie kunnen overnemen. Ja, dat is het geval. Bestaat daar bezwaar tegen? Dat is niet het geval.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note397">De motie-Van Houwelingen (, nr. ) is overgenomen.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note398">Minister Kuipers</note>
+            <u who="#ErnstKuipers" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u64">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg87">De motie op stuk nr. 1918: ontraden. De motie op stuk nr. 1919: eveneens ontraden. De motie op stuk nr. 1920: ontraden. De motie op stuk nr. 1921 is een spreekt-uitmotie, dus geen oordeel van mijn kant. De motie op stuk nr. 1922 is ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note399">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u65">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg88">Dank u wel. Dan geef ik het woord aan de minister voor Langdurige Zorg en Sport voor haar appreciatie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note400">Minister Helder</note>
+            <u who="#LilianHelder" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u66">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg89">Dank u wel, voorzitter. De motie op stuk nr. 1891: overnemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note401">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u67">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg90">Ik kijk even naar mevrouw Van den Hil of zij daar toestemming voor geeft.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note402">Mevrouw Van den Hil (VVD)</note>
+            <u who="#JacquelinevandenHil" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u68">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg91">Ik zou dat graag willen, maar ik wil er wat spoed achter hebben. Daarom heb ik deze motie ingediend. Vanuit de taskforce liggen er allerlei plannen, maar dat duurt en dat duurt. Gezien de acute tak die dit bestrijdt, denk ik dat het in het kader van de huidige opkomst van corona goed zou zijn om dit naar voren te trekken in tegenstelling tot alle andere zaken die daarin staan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note403">Minister Helder</note>
+            <u who="#LilianHelder" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u69">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg92">Ik kan toezeggen dat ik in ieder geval zo snel als mogelijk zal kijken wat we hier aan tempo kunnen winnen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note404">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u70">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg93">Kan de motie dan worden overgenomen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note405">Mevrouw Van den Hil (VVD)</note>
+            <u who="#JacquelinevandenHil" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u71">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg94">Ja, voorzitter. Daar ben ik blij mee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note406">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u72">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg95">Er is geen bezwaar tegen.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note407">De motie-Van den Hil/Tielen (, nr. ) is overgenomen.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note408">Minister Helder</note>
+            <u who="#LilianHelder" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u73">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg96">Dan de motie op stuk nr. 1893 van de heer Hijink: ontraden. De motie op stuk nr. 1904 van mevrouw Den Haan: overnemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note409">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u74">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg97">Ik kijk even naar mevrouw Den Haan of zij daar toestemming voor geeft. Dat is het geval. Is daar bezwaar tegen? Dat is niet het geval.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note410">De motie-Den Haan c.s. (, nr. ) is overgenomen.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note411">Minister Helder</note>
+            <u who="#LilianHelder" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u75">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg98">Dan de motie op stuk nr. 1908 van mevrouw Paulusma en mevrouw Bikker. Als ik de motie mag beperken tot de zorg, want daarvoor ben ik verantwoordelijk, en als ik de zinsnede "op welke manier" mag lezen als "of en, zo ja," dan kan ik de motie oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note412">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u76">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg99">Ik kijk even naar mevrouw Paulusma of zij zich kan vinden in deze interpretatie. Dat is het geval. Dan krijgt de motie op stuk nr. 1908 oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note413">Minister Helder</note>
+            <u who="#LilianHelder" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u77">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg100">De motie op stuk nr. 1915: ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note414">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:labor" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u78">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg101">Dank u wel. Dan geef ik tot slot het woord aan de minister van Sociale Zaken en Werkgelegenheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note415">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u79">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg102">Dank u wel, voorzitter. De motie op stuk nr. 1889 van mevrouw Van den Hil is voor ons oordeel Kamer, mits wij de motie iets anders mogen invullen. Ja, we willen die groep uitzoeken, maar of we dat met het UWV moeten doen, is even de vraag, want het UWV komt pas na twee jaar in beeld. Misschien moeten we juist naar bedrijfsartsen kijken. Dan heb je allerlei privacy-issues, maar daar gaan we naar kijken. De vraag om de groep in beeld te brengen, is een terechte. Als u het met die invulling eens bent, is het oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note416">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u80">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg103">Mevrouw Van den Hil knikt, dus zij kan zich vinden in die appreciatie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note417">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u81">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg104">Dan de motie op stuk nr. 1912 over het Maatschappelijk Impact Team. Het is de eerste keer dat wij over dat team spreken. Ik wil er twee opmerkingen over maken. De regering wordt verzocht om iets te doen met het MIT. Ik vind het heel erg belangrijk om hier te zeggen dat ik dat niet kan doen. Ik kan wel een verzoek doorgeleiden. Ik kan een vraag doorgeleiden, maar ik wil geen opdracht aan het MIT geven. Ik heb juist een kwartiermaker, beoogd voorzitter, gevonden in de persoon van mevrouw Jolande Sap, omdat zij onafhankelijk en zelfstandig kan oordelen. Het is heel erg belangrijk dat het MIT zelfstandig en onafhankelijk van ons oordeelt. Ik kan uw vraag doorgeleiden en daar allerlei kleuring aan geven in die zin dat ik het een goede vraag vind, maar ik vind het heel belangrijk dat wij ervoor zorgen dat zij zelf dat oordeel kan vormen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note418">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u82">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg105">Wij hebben begrepen dat er binnenkort een gesprek gepland staat met de beoogd voorzitter van dat MIT. Wij willen graag nadrukkelijk dat de regering aangeeft dat zij het belangrijk vindt dat dit onderdeel daarvan wordt. Of het dat ook wordt, is inderdaad aan het MIT zelf, maar het zou wel fijn zijn als de urgentie daarvan in ieder geval wordt doorgegeven aan het team bij dat gesprek, dat volgens mij binnenkort plaatsvindt. Maar als ik het goed begrijp, zitten we op dezelfde lijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note419">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u83">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg106">Ja. Het tweede is dat inhoudelijke punt. De kerntaak van het Maatschappelijk Impact Team is de maatschappelijke en economische gevolgen in kaart brengen van bijvoorbeeld het plaatsen van een spatscherm of het sluiten van de scholen. Ik kan me heel goed voorstellen dat je daarbij ook kijkt naar de preventieve kant. Als mensen meer gaan sporten, kunnen ze bijvoorbeeld beter een corona-infectie doorstaan. Dat weten we allemaal niet zeker, maar dat denken we wel. Als het Maatschappelijk Impact Team het belangrijk vindt om dat daarbij te betrekken, dan is daar zeker ruimte voor. Wij hechten ook heel erg aan preventie. Ik zal dat met die kleuring doorgeven, maar met de aantekening dat het aan mevrouw Sap en haar team is om zelf te bepalen hoe breed of hoe smal zij die opdracht maken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note420">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u84">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg107">Mevrouw Van Esch, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note421">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u85">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg108">Op zich is dat prima. Volgens mij heeft het kabinet, ook bij monde van de heer Kuipers, al meerdere keren uitgesproken dat preventie voor dit kabinet een zeer belangrijk thema is, ook bij de bestrijding van het coronavirus. Dus ik zou het wel fijn vinden om dat verzoek op die manier bij het MIT neer te leggen. Dank.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note422">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u86">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg109">Ja, en als het een verzoek is, dan is het oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note423">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u87">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg110">Dank u wel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note424">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note425">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.u88">
+               <seg xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.seg111">Ik dank de bewindspersonen voor de beantwoording en ook de woordvoerders. We gaan volgende week dinsdag stemmen over de ingediende moties. Ik dank ook de mensen op de publiek tribune. Ik schors de vergadering voor een enkel moment. Daarna starten we met het tweeminutendebat Geneesmiddelenbeleid.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-06-28-tweedekamer-29.note426">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-07-06 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-07-06 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 101, Session 15 (2022-07-06)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 101, Session 15 (2022-07-06)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="101" xml:lang="en">Meeting 101</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="15" xml:lang="en">Session 15</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-07-06">Sitting 2022-07-06</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="49">49 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="49">49 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1764">1,764 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1764">1,764 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-07-06">2022-07-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="163"/>
+               <tagUsage gi="seg" occurs="56"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="49"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-07-06">2022-07-06</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.head1">Medische preventie / Verslavingszorg / Drugspreventie</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u1">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg1">Aan de orde is het tweeminutendebat Medische preventie / Verslavingszorg / Drugspreventie. Ik heet welkom de staatssecretaris van Volksgezondheid, Welzijn en Sport. Ik heet de Kamerleden welkom. Ik vraag de Kamerleden om beknopt te zijn in hun inbreng. We hebben 30 tweeminutendebatten vandaag en morgen. Waar het kan, zou ik hun willen vragen om zich te beperken tot het indienen van de moties en het stellen van een of meer vragen aan de staatssecretaris. Ik verzoek de staatssecretaris ook om dadelijk beknopt te antwoorden op de gestelde vragen en een korte appreciatie van de moties te geven. Dan wil ik als eerste het woord geven aan de heer Mohandis. Hij spreekt namens de fractie van de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note2">De heer Mohandis (PvdA)</note>
+            <u who="#MohammedMohandis" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u2">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg2">Voorzitter, dank u wel. Tijdens het commissiedebat over medische preventie is er onder andere gesproken over het rotavaccin. Er ligt een amendement, dat ontraden is, om het z.s.m. te regelen. Nu ligt hier een motie om de staatssecretaris iets meer ruimte te geven. We zijn heel benieuwd hoe deze motie gaat landen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note6">constaterende dat er gemiddeld 3.600 jonge kinderen per jaar worden opgenomen in het ziekenhuis vanwege een rotavirusinfectie en enkelen zelfs overlijden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note7">constaterende dat het rotavaccin dit leed kan voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note8">constaterende dat de Gezondheidsraad adviseert om het rotavaccin in het Rijksvaccinatieprogramma op te nemen, en het kabinet dit advies niet opvolgt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note9">van mening dat het onwenselijk is dat dit vaccin nu alleen toegankelijk is voor ouders die het zich kunnen veroorloven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note10">verzoekt de regering om het advies van de Gezondheidsraad op te volgen en in september met een plan van aanpak te komen over hoe het rotavaccin vanaf 2023 daadwerkelijk in het Rijksvaccinatieprogramma kan worden opgenomen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note12">Deze motie is voorgesteld door het lid Mohandis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note13">Zij krijgt nr. kst-32793-617</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note14">De heer Mohandis (PvdA)</note>
+            <u who="#MohammedMohandis" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u3">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg3">We hebben het ook gehad over het proefbevolkingsonderzoek, afgekort als CEM. Ook hierover heb ik een motie, gezien een eerdere Kamermotie die wij in 2021 hebben ingediend.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note15">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note16">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note17">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note18">overwegende dat bij vrouwen met zeer dicht borstweefsel op een mammografie borstkanker vaker gemist wordt en dat een mammografie met contrastvloeistof (CEM) voor deze vrouwen een goed alternatief kan zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note19">constaterende dat het proefbevolkingsonderzoek CEM nog niet is opgestart, omdat ZonMw onvoldoende onderzoeksbudget beschikbaar heeft gesteld bij de subsidieoproep;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note20">constaterende dat er sinds sluiting van de subsidieoproep op 8 maart 2022 nog geen herziening van de oproep heeft plaatsgevonden en de minister hier pas in 2023 op wil terugkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note21">van mening dat CEM zo snel mogelijk aan vrouwen met zeer dicht borstweefsel moet worden aangeboden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note22">verzoekt de regering om CEM zo snel mogelijk aan te bieden, en de Kamer voor het eind van het jaar hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note24">Deze motie is voorgesteld door de leden Mohandis en Westerveld.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note25">Zij krijgt nr. kst-32793-618</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note26">Dank u wel, meneer Mohandis. Dan geef ik als volgende spreker het woord aan mevrouw Den Haan. Zij spreekt namens de Fractie Den Haan.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note27">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u4">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg4">Dank u wel, voorzitter. Ik heb drie moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note28">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note29">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note30">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note31">constaterende dat het gemiddeld negen jaar duurt vanaf het moment dat EMA een vaccin goedkeurt voordat het in Nederland toegankelijk is voor de burger, onder meer doordat het gemiddeld zes jaar duurt voordat een vaccin op de werkagenda van de Gezondheidsraad terechtkomt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note32">overwegende dat al in 2019 de motie van de leden Veldman en Renkema werd aangenomen waarin zij de regering vragen om een wettelijke regeling die erin voorziet dat geregistreerde vaccins direct worden voorzien van een advies;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note33">constaterende dat in het advies "Het vaccinatiestelsel in Nederland nader verkend" van de Raad voor Volksgezondheid en Samenleving waar de voormalig staatssecretaris de uitvoering van deze motie bij betrok, geen spoor meer is te vinden van eerdergenoemde motie of de uitvoering daarvan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note34">verzoekt de regering zo spoedig mogelijk in overleg met veldpartijen tot voorstellen te komen die de doorlooptijd voor vaccins van EMA-goedkeuring tot inzet in de praktijk in Nederland drastisch omlaag brengt, waaronder het uitvoeren van de motie-Veldman/Renkema,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note35">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note36">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note37">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note38">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note39">constaterende dat beroertes in de top tien van de duurste ziektes staan in Nederland en dat de zorgkosten als gevolg van beroertes worden geschat op 1,7 miljard euro;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note40">constaterende dat het krijgen van een beroerte veel leed met zich meebrengt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note41">overwegende dat door preventieve opsporing veel beroertes voorkomen kunnen worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note42">verzoekt de regering om in gesprek te gaan met huisartsen, medisch specialisten, trombosediensten, patiënten, verzekeraars en leefstijladviseurs over hoe beter ingezet kan worden op preventieve opsporing van beroertes, en de Kamer te informeren over de concrete vervolgstappen die voortkomen uit die gesprekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note43">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note44">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note45">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note46">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note47">overwegende dat gemiddeld een op de vier tot vijf patiënten in ziekenhuizen, zorginstellingen en de thuiszorg is ondervoed;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note48">overwegende dat ondervoeding bij patiënten vaak niet wordt opgemerkt, waardoor herstel langzamer gaat en het risico op vallen toeneemt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note49">verzoekt de regering in gesprek te gaan met de verschillende beroepsgroepen en ervoor zorg te dragen dat de screening op en dieetbehandeling van ziektegerelateerde ondervoeding onderdeel wordt van de intakegesprekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note50">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note51">Deze motie is voorgesteld door de leden Den Haan en Rudmer Heerema.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note52">Zij krijgt nr. kst-32793-619</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note53">Deze motie is voorgesteld door de leden Den Haan en Kuzu.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note54">Zij krijgt nr. kst-32793-620</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note55">Deze motie is voorgesteld door de leden Den Haan en Kuzu.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note56">Zij krijgt nr. kst-32793-621</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note57">Dank u wel, mevrouw Den Haan. Dan geef ik nu het woord aan de heer Kuzu. Hij spreekt namens de fractie van DENK.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note58">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u5">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg5">Voorzitter. Mijn fractie vindt dat er in Nederland te veel softdrugs worden geconsumeerd. Tijdens de coronaperiode zagen we dat heel duidelijk: lange wachtrijen voor de coffeeshops. En daar moet wat aan gedaan worden. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note59">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note60">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note61">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note62">constaterende dat volgens de Nationale Drug Monitor 2021 het aantal mensen dat "in het afgelopen jaar" geblowd heeft tussen 2016 en 2020 is gestegen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note63">constaterende dat over de verkoop van cannabis geen omzetbelasting wordt geheven vanwege EU-jurisprudentie, evenals dat er geen accijns wordt geheven op softdrugs;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note64">verzoekt de regering om te onderzoeken hoe via belastingen en heffingen het gebruik van softdrugs kan worden ontmoedigd,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note65">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note66">Deze motie is voorgesteld door de leden Kuzu en Den Haan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note67">Zij krijgt nr. kst-32793-622</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note68">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u6">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg6">Voorzitter. De tweede motie handelt over de rookvrije generatie. Dat is op dit moment een belangrijke inzet van het kabinet, maar om daadwerkelijk een rookvrije generatie te creëren verwijs ik naar het voorbeeld van Nieuw-Zeeland.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note69">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note70">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note71">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note72">constaterende dat in Nieuw-Zeeland met succes een wet is aangenomen, die het voor iedereen die in 2008 of later is geboren verbiedt om tabaksproducten te kopen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note73">overwegende dat met een dergelijke wet geen enkele sigaret wordt afgepakt van reeds rokende burgers en in plaats daarvan wordt gezorgd dat de volgende generatie de sigaret gewoonweg nooit krijgt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note74">overwegende dat hiermee daadwerkelijk het begin wordt ingezet van een rookvrije generatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note75">verzoekt de regering om, naar het voorbeeld van Nieuw-Zeeland, wetgeving voor te bereiden die het voor iedereen die in 2010 of later is geboren verbiedt om tabaksproducten te kopen vanaf het moment dat zij 18 jaar zijn geworden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note76">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note77">Deze motie is voorgesteld door de leden Kuzu, Den Haan en Mohandis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note78">Zij krijgt nr. kst-32793-623</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note79">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u7">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg7">Ik zou de staatssecretaris willen meegeven om niet alleen naar het jaar 2010 te kijken. Het jaar kunnen we aanpassen. Maar het idee om een rookvrije generatie te creëren door middel van een verbod op roken voor een nieuwe generatie, is het voorstel dat op tafel ligt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg8">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note80">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u8">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg9">Dank u wel, meneer Kuzu. Dan geef ik het woord aan mevrouw Bikker. Zij spreekt namens de fractie van de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note81">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u9">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg10">Voorzitter, dank u wel. Omwille van uw kerstregime, dat vroeg valt dit jaar, lees ik alleen de motie voor.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note82">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note83">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note84">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note85">constaterende dat de vorig jaar aangenomen motie-Bikker c.s. de regering verzocht onderzoek te laten doen via welke kanalen jonge mensen aan synthetische drugs komen en met preventieve voorstellen te komen om dit aanbod en daarmee het gebruik van deze drugs terug te dringen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note86">overwegende dat de uitvoering van deze motie blijkens de brief van 6 juli vooral zo is opgevat dat bekeken is wat al mogelijk is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note87">voorts overwegende dat hieruit blijkt dat er veel handelingsverlegenheid is en dat een maatregelenpakket om het aanbod en daarmee het gebruik van deze onveilige drugs terug te dringen, zeker onder minderjarigen, nodig is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note88">verzoekt de regering alsnog samen met politie en verslavingszorg uitvoering te geven aan de aangenomen motie, onderzoek te laten doen welke aanvullende maatregelen preventief kunnen bijdragen en daaropvolgend met een maatregelenpakket te komen om het aanbod en daarmee het gebruik van synthetische drugs terug te dringen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note89">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note90">Deze motie is voorgesteld door de leden Bikker, Slootweg en Mohandis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note91">Zij krijgt nr. kst-32793-624</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note92">Mevrouw Bikker (ChristenUnie)</note>
+            <u who="#MirjamBikker" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u10">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg11">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note93">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u11">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg12">Dank u wel, mevrouw Bikker. U hebt gelijk: kerst valt inderdaad vroeg dit jaar. Dan geef ik het woord aan de heer Rudmer Heerema. Hij spreekt namens de fractie van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note94">De heer Rudmer Heerema (VVD)</note>
+            <u who="#RudmerHeerema" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u12">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg13">Voorzitter. Van mijn kant geen moties. Ik heb alleen een vraag aan de staatssecretaris; dat scheelt ook weer in de stemmingslijst. We hebben in het commissiedebat gesproken over longkanker. We zien dat er bevolkingsonderzoeken plaatsvinden naar borstkanker, darmkanker en baarmoederhalskanker. Longkanker is een vorm van kanker die drie keer zoveel doden veroorzaakt als deze drie genoemde kankers bij elkaar, maar daar doen we geen bevolkingsonderzoek naar. Mijn vraag aan de staatssecretaris is welke ruimte hij ziet om bevolkingsonderzoek op het gebied van longkanker te kunnen faciliteren. Wat zijn zijn argumenten om het niet te doen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note95">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u13">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg14">Dank u wel, meneer Heerema. Dan geef ik het woord aan de heer Slootweg. Hij spreekt namens de fractie van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note96">De heer Slootweg (CDA)</note>
+            <u who="#Evert-JanSlootweg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u14">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg15">Dank u wel, voorzitter. Het is een goed debat geweest. Het was hier en daar ook een pittig debat. Dat leidde bij ons toch wel tot wat vragen over hoe het nu precies zit met gezondheidswinst, rekenmodellen en vaccinaties. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note97">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note98">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note99">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note100">constaterende dat Nederland momenteel een van de weinige landen is dat vanuit het Rijksvaccinatieprogramma een vaccin aanbiedt dat slechts bescherming biedt tegen twee typen humaan papillomavirus (HPV);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note101">constaterende dat de meeste andere landen in hun vaccinatieprogramma's kiezen voor vaccins die bescherming bieden tegen vier of negen typen HPV;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note102">overwegende dat er aanwijsbaar meer gezondheidswinst geboekt wordt, waaronder bescherming tegen enkele vormen van kanker, door de inzet van deze polyvalente HPV-vaccins;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note103">constaterende dat in 2024 een nieuwe aanbesteding start voor HPV-vaccins;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note104">verzoekt de regering om in de nieuwe aanbesteding bij het RIVM aandacht te vragen voor maximale gezondheidswinst en de mogelijke rol daarbij van polyvalente HPV-vaccins,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note105">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note106">Deze motie is voorgesteld door het lid Slootweg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note107">Zij krijgt nr. kst-32793-625</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note108">De heer Slootweg (CDA)</note>
+            <u who="#Evert-JanSlootweg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u15">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg16">Het tweede deel van de discussie ging over drugspreventie. Vandaar de volgende motie, die ik samen met mevrouw Bikker indien.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note109">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note110">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note111">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note112">constaterende dat Utrechtse studentenverenigingen de noodbel hebben geluid over de normalisering van het drugsgebruik onder hun leden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note113">overwegende dat deze verenigingen geholpen worden wanneer al aan de keukentafel gesprekken plaatsvinden tussen ouders en jongeren over de schadelijke gezondheidseffecten van drugsgebruik;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note114">verzoekt de regering om in overleg met verslavingszorg de voorlichting ook te richten op ouders, zodat ze handvatten hebben om hun kinderen beter te beschermen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note115">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note116">Deze motie is voorgesteld door de leden Slootweg en Bikker.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note117">Zij krijgt nr. kst-32793-626</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note118">Dank u wel, meneer Slootweg. Dan geef ik als laatste spreker van de Kamer het woord aan mevrouw Agema. Zij spreekt namens de PVV.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note119">Mevrouw Agema (PVV)</note>
+            <u who="#FleurAgema" ana="#regular topic:argic" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u16">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg17">Dank u wel, voorzitter. Ik probeer al een paar jaar aandacht te vragen voor de bestrijding van de teek. Dat lukt niet goed. Daarom ga ik daar nu voor de eerste keer een motie over indienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note120">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note121">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note122">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note123">verzoekt de regering in een landelijke tekenaanpak de bestrijding van de teek via vogels die ze graag eten en schimmels waar ze niet tegen kunnen, uit te breiden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note124">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note125">Deze motie is voorgesteld door het lid Agema.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note126">Zij krijgt nr. kst-32793-627</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note127">Kort maar krachtig. Dank u wel, mevrouw Agema. De staatssecretaris heeft aangegeven tien minuten nodig te hebben, dus ik schors de vergadering voor tien minuten. Dat betekent dat we iets over 16.00 uur verdergaan.</note>
+            <note type="time" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note128">De vergadering wordt van 15.51 uur tot 15.58 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note129">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u17">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg18">Ik geef het woord aan de staatssecretaris van Volksgezondheid, Welzijn en Sport voor de appreciatie van de moties en de beantwoording van de vragen die zijn gesteld. Het woord is aan de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note130">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u18">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg19">Dank u wel, voorzitter. Ik heb één vraag gehad, van de heer Heerema, over een bevolkingsonderzoek naar longkanker en de screening daarvoor. Daar is op 8 juli 2020 door mijn voorganger, de heer Blokhuis, een brief over gestuurd. Daarin is aangegeven dat het niet zo logisch is om dit te doen, omdat de uitsnede nogal moeilijk te bepalen is. Ik verwijs u, ook vanwege de tijd, even naar de brief waarin dit uitgebreider is onderbouwd.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg20">Dan ga ik naar de moties. De motie op stuk nr. 617 gaat over het rotavirus. Ik heb de Kamer uitstekend gehoord, ook in het debat. Volgens mij is er ook een stevige toezegging naar voren gekomen. Ik heb aangegeven dat ik ga kijken of het haalbaar is en wat er haalbaar is. Ik kom daar voor de begrotingsbehandeling op terug. Ik kijk dan ook nog, zoals de fractie van D66 had aangegeven, naar wat er te behalen is door goedkopere vaccins. Uiteraard zal er dan altijd een dekkingsvraagstuk overblijven. Ik zal dus nog eens elke steen omdraaien om te kijken of er een mogelijkheid is. Het is dus niet volledig in lijn met de motie zoals die hier voorligt en daarom moet ik de motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note131">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u19">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg21">De motie op stuk nr. 617 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note132">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u20">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg22">Dan de motie op stuk nr. 618, over het proefbevolkingsonderzoek CEM. De minister is hiervoor verantwoordelijk. CEM is inderdaad veelbelovend. De minister wil graag aan de slag met het bevolkingsonderzoek, maar we moeten wel kijken of het financieel allemaal rond is. De motie kan in ieder geval uitstekend door, dus ik zou zeggen: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note133">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u21">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg23">De motie op stuk nr. 618 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note134">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u22">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg24">De motie op stuk nr. 619 is in lijn met de stelselaanpak, met het vaccinatiestelsel, waarover ik afgelopen week informatie naar de Kamer heb gestuurd, dus die motie kan oordeel Kamer krijgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note135">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u23">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg25">De motie op stuk nr. 619 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note136">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u24">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg26">De motie op stuk nr. 620 gaat over beroertepreventie. Daar is eerder een motie over aangenomen. Dat gesprek is ook gevoerd met de sector. Wij constateren nog steeds dat hier een professionele verantwoordelijkheid ligt. Daarom moet ik deze verdergaande motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note137">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u25">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg27">De motie op stuk nr. 620 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note138">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u26">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg28">De motie op stuk nr. 621 …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note139">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u27">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg29">Mevrouw Den Haan heeft daar nog een vraag over.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note140">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u28">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg30">Ik begrijp dat er een gesprek is geweest met de vereniging voor cardiologen, maar dat dat niet specifiek over dit onderwerp is gegaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note141">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u29">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg31">Dat gaan we dan nog ophelderen; dat kan ik mee terugnemen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg32">De motie op stuk nr. 620 hadden we gehad. Dan de motie op stuk nr. 621, over ondervoeding. We bekijken dit heel goed. Het is een terecht punt dat mevrouw Den Haan hier aanstipt. Wij doen dat met name via de landelijke stuurgroep die hiervoor is ingericht. Dat is net even anders dan hoe het in de motie geformuleerd is. Daarom moet ik ook deze motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg33">Dan de motie op stuk nr. 622. Dat is nog steeds de illegale markt en over illegale producten worden uiteraard geen belastingen geheven, dus ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg34">De motie op stuk nr. 623 gaat over een interessant model. Dat volgen we ook uitstekend. In de brief over de verdere tabaksmaatregelen kom ik terug op dit model. Daarmee ontraad ik ook deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note142">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u30">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg35">De heer Kuzu heeft daar nog een vraag over.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note143">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u31">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg36">De staatssecretaris weet dat er coffeeshops bestaan in Nederland.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note144">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u32">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg37">Is dat zo?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note145">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u33">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg38">Ja, misschien is het verrassend voor hem, maar die bestaan wel. Op de producten die daar worden verkocht, wordt geen accijns of omzetbelasting geheven. Het enige wat betaald wordt, is inkomstenbelasting, waardoor het gebruik voor consumenten binnen handbereik is. Het is gewoon goedkope stuff die je kan kopen. Waarom is de staatssecretaris er dan op tegen om te onderzoeken hoe je via de aanscherping van belastingen en heffingen het gebruik verder kan ontmoedigen? Want dezelfde staatssecretaris wil een pakje sigaretten €40 maken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note146">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u34">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg39">Omdat het een illegaal product is dat gedoogd wordt, maar nog steeds een illegaal product is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note147">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u35">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg40">De motie op stuk nr. 622 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note148">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u36">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg41">De motie op stuk nr. 624 zou ik graag samen met de minister van Justitie en Veiligheid verder willen oppakken. Daarmee zou ik hem graag oordeel Kamer willen geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg42">Over de motie op stuk nr. 625 hebben we het ook in het debat natuurlijk uitgebreid gehad. Volgens mij is het goed om dit mee te wegen in de volgende aanbestedingsronde. Daarmee zou ik hem oordeel Kamer willen geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note149">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u37">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg43">De moties op stukken nrs. 624 en 625 oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note150">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u38">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg44">De motie op stuk nr. 626 idem dito. Volgens mij heel terecht dat we hiermee aan de slag gaan, dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg45">De motie op stuk nr. 627 neem ik mee in een brief na de zomer waarin wij dit ook meenemen, dus ik zou zeggen dat deze motie dan overbodig is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note151">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u39">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg46">Betekent dit dat u zegt dat de motie is overgenomen, of moet zij worden aangehouden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note152">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:argic" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u40">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg47">Ik neem de tekenaanpak en de bestrijding ervan na de zomer in een brief mee, en of dat dan uiteindelijk uitmondt in een landelijke tekenaanpak met allerlei vogels weet ik nog niet. In ieder geval kom ik op de tekenaanpak in de zomer terug, en daarmee zou ik zeggen dat deze motie overbodig is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note153">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u41">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg48">Ja, maar de vraag is: is de motie daarmee ontraden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note154">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u42">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg49">Dan ontraad ik de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note155">Mevrouw Agema (PVV)</note>
+            <u who="#FleurAgema" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u43">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg50">Dit is nou zo ontzettend flauw, want hier hebben we het ook in onze strategische procedurevergadering over gehad. Als bij mijn collega's een motie ondersteuning van beleid is en overbodig is, dan is het oordeel Kamer, maar bij mij is het dan ontraden. Dus alstublieft, doe niet zo flauw. Bij de anderen is het als het ondersteuning van beleid is ook oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note156">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u44">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg51">Ja, maar daar zit helemaal niks flauws achter, eerlijk gezegd. Ik wil er wat ruimte in hebben hoe we de tekenaanpak vormgeven in die brief na de zomer. Daarom ontraad ik de motie omdat we de tekenaanpak zelf meenemen na de zomer. Volgens mij maken we hier een punt dat niet nodig is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note157">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u45">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg52">Ik geef mevrouw Agema nog één mogelijkheid om hierop te reageren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note158">Mevrouw Agema (PVV)</note>
+            <u who="#FleurAgema" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u46">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg53">Ja, maar de staatssecretaris kan de motie prima zo lezen. Dan zegt hij "gehoord de beraadslaging" en zeg ik "neem het mee, oordeel Kamer".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note159">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u47">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg54">Ik heb hier volgens mij mijn opvatting over gegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note160">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u48">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg55">Dan blijft het oordeel over motie op stuk nr. 627 ontraden. Ik sluit hiermee dit tweeminutendebat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note161">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note162">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.u49">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.seg56">Ik dank de staatssecretaris van Volksgezondheid, Welzijn en Sport, ik dank de Kamerleden. Over de moties zal morgen, op 7 juli, worden gestemd. Dan schors ik de vergadering voor een enkel moment en gaan we zo meteen verder met het volgende tweeminutendebat met dezelfde staatssecretaris. Dat zal zijn het tweeminutendebat Onderzoek veiligheidsbeleving onder jongeren in jeugdzorg met verblijf.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-15.note163">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

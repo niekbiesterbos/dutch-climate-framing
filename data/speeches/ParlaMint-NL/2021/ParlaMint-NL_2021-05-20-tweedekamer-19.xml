@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-05-20 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-05-20 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 78, Session 19 (2021-05-20)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 78, Session 19 (2021-05-20)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="78" xml:lang="en">Meeting 78</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="19" xml:lang="en">Session 19</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-05-20">Sitting 2021-05-20</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="44">44 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="44">44 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2062">2,062 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2062">2,062 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-05-20">2021-05-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="109"/>
+               <tagUsage gi="seg" occurs="50"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="44"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-05-20">2021-05-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.head1">Landbouw- en Visserijraad van 26 en 27 mei 2021</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u1">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg1">Een hartelijk dank aan de minister van OCW dat zij vandaag bij ons was voor dit megadebat. Wij gaan in een vloeiende beweging door met het tweeminutendebat Landbouw- en Visserijraad. Die Landbouw- en Visserijraad vond plaats op 26 en 27 mei jongstleden. We hebben vier sprekers van de zijde van de Kamer. De eerste is mevrouw Vestering van de fractie van de Partij voor de Dieren. Het woord is aan haar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note2">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u2">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg2">Voorzitter, dank u wel. De minister deelt onze zorgen over de gruwelen van internationale diertransporten, met name naar landen buiten de Europese Unie. Nederland heeft geen zicht op deze transporten als de haven van bestemming niet in de EU ligt. Dit betekent dat er geen zicht is op het welzijn en de gezondheid van de dieren, dan wel op het naleven van de hiervoor geldende regelgeving. Ook is het niet mogelijk om hierop te controleren, dan wel te handhaven, omdat we worden belemmerd door Europese regelgeving. We willen grote dierenwelzijnsrampen, die nu met enige regelmaat plaatsvinden, in de toekomst voorkomen. We zien dat het Verenigd Koninkrijk na het verlaten van de Europese Unie direct een verbod heeft aangekondigd op de export van levende dieren. Europa staat hiermee in zijn hemd. Hoe gaat de minister dit moment benutten om ervoor te zorgen dat Europa zo snel mogelijk dit voorbeeld volgt en om te doen waar opeenvolgende kabinetten al twintig jaar toe oproepen: paal en perk stellen aan lange internationale diertransporten?</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg3">Voorzitter. Het is vandaag ook Wereld Bijendag. Daarom nog één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note6">constaterende dat de Europese Commissie voorstelt om het neonicotinoïde landbouwgif sulfoxaflor te verbieden voor open teelten vanwege de risico's voor bijen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note7">overwegende dat sulfoxaflor ook giftig is voor mensen en zeer schadelijk voor het waterleven en dat andere neonicotinoïden inmiddels geheel verboden zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note8">verzoekt de regering spoedig aan de Europese Commissie kenbaar te maken voor een geheel verbod op sulfoxaflor te zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note10">Deze motie is voorgesteld door het lid Vestering.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note11">Zij krijgt nr. kst-21501-32-1296</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note12">Dank u wel. Dan mevrouw Bromet van de fractie van GroenLinks.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note13">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u3">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg4">Voorzitter. Ik heb twee moties. Eén.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note14">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note15">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note16">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note17">overwegende dat het Nationaal Strategisch Plan een grote rol gaat spelen in de uitvoering van de Europese Green Deal en van groot belang is voor het behalen van de klimaat- en biodiversiteitsdoelstellingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note18">verzoekt de regering het Planbureau voor de Leefomgeving een doorrekening te laten maken om te kijken in hoeverre Nederland met het concept-Nationaal Strategisch Plan de doelstellingen uit de Green Deal kan halen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note19">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note20">Deze motie is voorgesteld door de leden Bromet en Thijssen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note21">Zij krijgt nr. kst-21501-32-1297</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note22">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u4">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg5">En de tweede.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note23">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note24">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note25">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note26">overwegende dat er brede steun is om boeren te ondersteunen om landschapselementen op hun erf te maken ten gunste van biodiversiteits- en klimaatdoelstellingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note27">overwegende dat de landbouwsector een onmisbare rol speelt in de vergroening van het landelijk gebied en hier daarom een financiële vergoeding tegenover zou moeten staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note28">verzoekt de regering bij de onderhandelingen over ruimte voor natuur tijdens de supertrialogen in te zetten op 10% groenblauwe dooradering voor de gehele landbouwsector en middelen te reserveren zodat de agrarische sector financieel gecompenseerd kan worden voor het behalen van deze doelen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note29">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note30">Deze motie is voorgesteld door de leden Bromet en Thijssen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note31">Zij krijgt nr. kst-21501-32-1298</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note32">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u5">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg6">Beide moties zijn ingediend namens mijn linkse vriend Thijssen van de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note33">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u6">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg7">Ha, die weg is, ja. Dan de heer Tjeerd de Groot van de fractie van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note34">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u7">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg8">Dank, voorzitter. Twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note35">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note36">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note37">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note38">constaterende dat Nederland en de Europese Commissie de consument centraal stellen in een omslag naar een meer duurzame landbouw;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note39">constaterende dat het Europees biologisch keurmerk kan helpen hier een positieve bijdrage aan te leveren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note40">van mening dat supermarkten een grote invloed hebben op de keuzes die een consument maakt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note41">overwegende dat supermarkten een maatschappelijke verantwoordelijkheid hebben voor de producten die zij verkopen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note42">constaterende dat supermarkten in andere Europese landen een belangrijke katalysator zijn van de groei van biologische producten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note43">verzoekt de regering een convenant te sluiten over de inzet van supermarkten op het gebied van voorlichting, schapruimte en aanbod van biologische producten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note44">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note45">Deze motie is voorgesteld door de leden Tjeerd de Groot en Boswijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note46">Zij krijgt nr. kst-21501-32-1299</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note47">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u8">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg9">Mijn tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note48">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note49">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note50">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note51">overwegende dat de groei van het biologisch areaal in Nederland achterblijft bij de rest van Europa;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note52">constaterende dat Nederland in het huidige GLB als enige land in de Europese Unie geen budget reserveert voor biologische landbouw;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note53">overwegende dat biologische landbouw geldt als een van de voorbeelden van kringlooplandbouw;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note54">overwegende dat het Nationaal Strategisch Plan ruimte biedt om samenwerkingsverbanden voor kwaliteitsschema's te ondersteunen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note55">overwegende dat landen als Duitsland en Frankrijk biologische certificering zullen inzetten als invulling van de ecoregelingen — onder de eerste pijler;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note56">verzoekt de regering de biologische landbouw in het Nationaal Strategisch Plan een prominente plek te geven,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note57">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note58">Deze motie is voorgesteld door de leden Tjeerd de Groot en Boswijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note59">Zij krijgt nr. kst-21501-32-1300</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note60">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u9">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg10">Voorzitter. De resterende tijd wil ik graag benutten om aandacht te vragen voor het transport van levende dieren over zee. De Europese Commissie heeft aangegeven dat de controles daarop schorten. Ik wil de minister vragen wat zij in Europa écht gaat doen aan deze ongelofelijke misstanden, zoals we die hebben gezien met de schepen El Beik, Karim Allah en natuurlijk Ever Given, die tot de dood van duizenden dieren hebben geleid. Wat gaat de minister daaraan doen, vooral richting de landen in Europa die exporterende havens hebben? Daarop moet echt beter worden toegezien.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg11">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note61">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u10">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg12">Dank u wel. De laatste spreker van de zijde van de Kamer is de heer Boswijk van de fractie van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note62">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u11">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg13">"Some men see things as they are and say why, I dream things that never were and say why not". Dit is een quote van Robert Kennedy, die ook van toepassing is op de volgende casus. Eens in de zoveel jaar is er weer heel veel te doen over sojateelt en de ontbossing. Begrijpelijk, want wat daar gebeurt, is natuurlijk vreselijk. Daar zijn we het, denk ik, allemaal over eens. Vervolgens verzandt de discussie in de vraag hoeveel verantwoordelijkheid er ligt bij de landbouw en gaan we er eigenlijk best wel makkelijk aan voorbij dat in zowat alle producten die we vandaag de dag gebruiken, soja is verwerkt. Maar deze discussie is eigenlijk helemaal niet interessant, want het is natuurlijk een bizar idee dat we soja helemaal uit Zuid-Amerika halen. Dat is slecht voor de natuur en voor het milieu. Tegelijkertijd zijn we erg afhankelijk op geopolitiek niveau en zijn we daardoor ook kwetsbaar. Dat terwijl Chinese bedrijven sinds 2010 in Frankrijk voor 80 miljard euro aan landbouwgronden opkopen voor eigen gebruik. Daarom het pleidooi om soja te verbouwen in Europa. Dat is in het belang van het klimaat, het Amazonegebied en onze geopolitieke positie. Hiervoor dien ik een motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note63">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note64">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note65">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note66">constaterende dat op dit moment het overgrote deel van de in veevoer gebruikte soja van buiten Europa wordt geïmporteerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note67">overwegende dat het inzetten op in Europa verbouwde soja beter zou zijn; dit zorgt voor minder ontbossing, transparante aanvoerketens en minder geopolitieke afhankelijkheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note68">overwegende dat de innovatie en veredeling die nodig zijn voor het realiseren van nieuwe soorten die passen in het Europese klimaat ook een economische impuls kunnen geven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note69">verzoekt de regering in EU-verband in te zetten op "made in Europe"-eiwitten en daarbij tevens te onderzoeken welke maatregelen daaraan kunnen bijdragen, en hoe veevoerbedrijven gestimuleerd kunnen worden om meer eiwithoudende grondstoffen uit Europa te halen, zonder dat dit ontbossing in Europa tot gevolg heeft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note70">verzoekt de regering de Kamer in het najaar van 2021 hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note71">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note72">Deze motie is voorgesteld door de leden Boswijk, Bromet, Bisschop, Grinwis, Tjeerd de Groot, Thijssen en Van Campen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note73">Zij krijgt nr. kst-21501-32-1301</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note74">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u12">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg14">Deze motie is meeondertekend door de verloren zoon van Bromet: Thijssen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note75">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u13">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg15">Dank u wel. Tot zover de termijn van de Kamer. De minister vraagt om een minuutje bedenktijd.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note76">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note77">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u14">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg16">Ik geef het woord aan de minister. Ik loop al bijna een uur achter op het schema, dus wat mij betreft kort en puntig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note78">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:trans" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u15">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg17">Ja. Eerst de vraag van mevrouw Vestering. Wat ga ik doen om te zorgen de transporten over lange afstand, en ook zeker de zeetransporten over lange afstand, worden beperkt? Ik geef dan ook gelijk antwoord op de vraag van de heer De Groot. Ik ben daar zelf proactief al een paar jaar mee bezig. Wij hebben een groep landen gevormd die er bij de Commissie op aandringt om de transportverordening aan te passen op dit punt. Dat doen we in die groep, maar dat doen we ook op alle andere momenten dat dat voorhanden is. We hebben pas nog een presentatie gegeven aan het Europees Parlement om te laten zien hoe wij tegen diertransporten aankijken. Daar hebben wij ook weer gepleit voor dat soort zaken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg18">Ik snap het ongeduld van de Kamer en dat deel ik, maar dit moet de Commissie zelf gaan oppakken. Het voorzitterschap heeft een en ander ook wel weer gevraagd aan de Commissie. Ook daar is onze inzet dat wij langeafstandstransporten willen beperken; zeker ook daar. Maar het moet echt vanuit de Commissie komen. Ik kan daar gewoon geen ijzer met handen breken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note79">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u16">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg19">Mevrouw Vestering, kort, puntig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note80">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u17">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg20">Dank voor de inzet van de minister op dit terrein. Wij kunnen inderdaad niet wachten. We zijn inmiddels behoorlijk ongeduldig. Ik denk dat mijn specifieke vraag in de richting van de minister is of zij bereid is om opnieuw met de vuist op tafel te slaan en te zeggen: kijkend naar het voorbeeld van Engeland, hoe kunnen we dit binnen Europa overnemen, zodat we de export van levende dieren buiten Europa kunnen stopzetten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note81">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u18">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg21">Op alle momenten dat ik dat kan doen, doe ik dat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note82">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u19">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg22">Dank voor de inzet die de minister pleegt op dit dossier. Het gaat niet alleen om de transportverordening maar ook om de controles. Nederland heeft ook bilaterale contacten. Is de minister bereid om via het netwerk dat zij heeft, of via het netwerk van Landbouwraden, toch nog een keer in die landen met exporterende havens te gaan kijken of er op het belang van goede controles kan worden gewezen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note83">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u20">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg23">Het antwoord daarop zal ook zijn: het mag Europees. De lidstaten gaan zelf over de handhaving in hun eigen omgeving. De weg zou dan meer zijn via de Commissie, want die kan wel tegen lidstaten zeggen: hé, houd u zich aan de handhavingsregels die wij hebben afgesproken. In de gremia waarin ik dit bespreek, zal ik in het algemeen daarbij ook de handhaving benoemen als een aandachtspunt. Nogmaals, dat zal niet een-op-een met de lidstaten zijn, maar echt via de route van de Commissie, want die heeft ook het ticket om lidstaten daarop aan te spreken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note84">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u21">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg24">Prima.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note85">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u22">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg25">Dan de moties, eerst die van mevrouw Vestering. Er is SCoPAFF geweest. Wij hebben aangegeven dat we echt een voorstel van de Europese Commissie willen op dit punt, met de onderbouwing zoals normaal ook altijd het geval is. Op de een of andere manier heeft de Commissie dat hier niet gedaan. Dat is wel echt de route. Ik wil op grond daarvan vragen om de motie aan te houden, zodat wij straks een voorstel hebben waarover we ons kunnen buigen, met de argumenten van de Commissie. Die heb ik nu niet. Ik hecht wel aan die normale procedure, dus ik zou willen vragen om deze motie aan te houden tot we dat verzoek van de Commissie hebben gehad.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note86">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u23">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg26">Mevrouw Vestering knikt en daarmee is de motie-Vestering aangehouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note87">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u24">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg27">Op verzoek van mevrouw Vestering stel ik voor haar motie (21501-32, nr. 1296) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg28">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note88">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u25">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg29">Dan de tweede motie, van de leden Bromet en Thijssen op stuk nr. 1297. Wij hebben al twee onderzoeken uitgevraagd. Dat is een ex-ante-evaluatie en de strategische milieueffectrapportage. Die zijn allebei aanbesteed, de een bij Ecorys en de andere weet ik even niet uit mijn hoofd. Dit is eigenlijk de informatie die mevrouw Bromet vraagt, alleen niet via het bureau dat zij in deze motie noemt. Als zij zegt dat ze het goedvindt dat het via die weg wordt belegd en dat ook prima vindt, dan is deze motie eigenlijk een ondersteuning van het beleid dat ik voer. Als ze echt hecht aan het Planbureau voor de Leefomgeving, dan zou ik deze motie moeten ontraden, want dan moet ik nu om nóg een onderzoek gaan vragen, terwijl de Kamer dat eigenlijk al krijgt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note89">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u26">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg30">Dat klinkt goed. Ik trek mijn motie dus in.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note90">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u27">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg31">Aangezien de motie-Bromet/Thijssen (, nr. ) is ingetrokken, maakt zij geen onderwerp van beraadslaging meer uit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note91">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u28">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg32">Dan de motie-Bromet/Thijssen op stuk nr. 1298. Even over de onderhandelingsfase waar we in zitten. De Raad heeft al een positie ingenomen. De discussie vindt nu plaats met het voorzitterschap, de Commissie en het Parlement — dat is ook de supertrialoog — om te bezien of we op punten toch bij elkaar kunnen komen. De range inzake de groenblauwe diensten waarover wordt gediscussieerd, ligt tussen de 3%, 4% en 5%. Dat is niet 10%. Dat is nu opeens weer een heel ander percentage, dat niet valt binnen de range waarover nu onderhandeld wordt. Datgene waar we het over hebben, moet wel binnen de kaders vallen die we eerder met elkaar hebben besproken. Als dat zo zou gaan gebeuren, is dat procedureel gezien dus een bijzondere, en dat kan ook eigenlijk niet. Dus op basis daarvan moet ik deze motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note92">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u29">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg33">Uit de woorden van de minister begrijp ik dat 5% is het hoogst haalbare is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note93">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u30">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg34">De range is tussen de 3%, 4% en 5% in de GLMC's; ik kan even heel technisch doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note94">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u31">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg35">Als ik er 5% van maak, wat zegt de minister dan over deze motie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note95">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u32">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg36">We gaan nu wel een beetje dealen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note96">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u33">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg37">Ik merk het, voorzitter! Dat is een beetje "motie schrijven terwijl u spreekt", zeg maar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note97">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u34">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg38">Het is ook een beetje de Purmerender koemarkt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note98">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u35">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg39">We moeten hier echt kijken welk voorstel zo meteen uit het geheel komt. Als dat bij wijze van spreken 4% is en ik moet dan zeggen dat ik tegen die uitkomst ben, dan is dat ook weer gelijk een heel groot ding. Ik hoor mevrouw Bromet zeggen: probeer te kijken of dat maximaal kan. Nou, de Raadspositie is al ingenomen. Ik kijk wat er terugkomt uit de supertrialoog. Eerlijk gezegd, laat ik de hele onderhandelingen over het NSP en het GLB hier niet op klappen. Daar ben ik maar echt eerlijk in. Ik proef dat mevrouw Bromet zegt: probeer te kijken of het maximaal kan. Ik heb niet meer de individuele positie om dat te doen. Ik zou zeggen: laten we gewoon bij de ecoregelingen kijken hoe we ook daar goed invulling aan kunnen geven. Ik denk dat dat de beste plek is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note99">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u36">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg40">Het gaat om de inzet van onze minister. Ik zal even overwegen de motie aan te passen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note100">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u37">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg41">We horen van u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note101">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u38">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg42">Nogmaals, procedureel is dat punt eigenlijk al voorbij. De Raad heeft zijn positie ingenomen. De Raad onderhandelt nu met het Parlement. Stel nou dat het 0% is. Ja, dan hebben we een discussie, want dat past helemaal niet binnen het mandaat dat de Raad heeft gegeven. Maar het is niet zo dat ik nu nog eventjes percentages erin kan gaan gooien. Dit is echt het stadium Raad versus Parlement.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note102">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u39">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg43">De motie is dus ontraden. Mag de reactie op de volgende drie moties wat korter en bondiger?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note103">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u40">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg44">Ja. De heer De Groot verzoekt echt heel concreet om een convenant. Ik ben al aan het kijken wat hierbij mogelijk is. Ik kan nu nog niet toezeggen dat dit de vorm van een convenant zal krijgen, maar als ik daarin wat ruimte krijg van de heer De Groot, dan zou ik de motie-De Groot/Boswijk op stuk nr. 1299 oordeel Kamer kunnen geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note104">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u41">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg45">De heer De Groot knikt weer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note105">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u42">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg46">Dat geldt ook voor de motie-De Groot/Boswijk op stuk nr. 1300. Die motie kan ik gewoon oordeel Kamer geven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg47">Dan de laatste motie, de motie-Boswijk c.s. op stuk nr. 1301. Ik ben het eens met de strekking ervan. Zij is ook in lijn met de Nationale Eiwitstrategie die wij hanteren. Deze motie krijgt dus ook oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg48">Korter kan ik het niet doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note106">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u43">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg49">Dank u wel. Dank aan de minister voor haar aanwezigheid. Nu kan ze toch nog naar het Eurovisiesongfestival kijken. En dat vindt ze toch belangrijk, dat weet ik. Maar ze moest eerst even eten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note107">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note108">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.u44">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.seg50">Dinsdag stemmen wij over de moties. Ik schors voor een ogenblik en dan gaan we praten over de Crisis- en herstelwet.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-19.note109">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

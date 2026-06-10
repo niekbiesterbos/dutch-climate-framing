@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Upper House 2020-12-15 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2020-12-15 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 16, Session 24 (2020-12-15)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 16, Session 24 (2020-12-15)</title>
+            <meeting ana="#parla.upper #parla.meeting.regular" corresp="#EK" n="16" xml:lang="en">Meeting 16</meeting>
+            <meeting ana="#parla.upper #parla.session" corresp="#EK" n="24" xml:lang="en">Session 24</meeting>
+            <meeting ana="#parla.upper #parla.term #EK.36" corresp="#EK" n="36-upper" xml:lang="en">Meeting of the 36th Eerste Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.upper #parla.sitting" corresp="#EK" n="2020-12-15">Sitting 2020-12-15</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="67">67 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="67">67 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="7333">7,333 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="7333">7,333 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.eerstekamer.nl/</idno>
+               <date when="2020-12-15">2020-12-15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="102"/>
+               <tagUsage gi="seg" occurs="115"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="67"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-12-15">2020-12-15</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.head1">Begroting Justitie en Veiligheid 2021</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note1">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u1">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg1">Thans is aan de orde de behandeling van de begroting van Justitie en Veiligheid (35570-VI), Vaststelling van de begrotingsstaten van het Ministerie van Justitie en Veiligheid (VI) voor het jaar 2021. Ik heet de staatssecretaris van harte welkom in de Eerste Kamer.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note2">De beraadslaging wordt geopend.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note3">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u2">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg2">Ik geef het woord aan de heer Van Hattem namens de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note4">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u3">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg3">Dank u, voorzitter. Welkom aan de staatssecretaris. Leuk om haar weer te zien.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg4">Na het vorige debat in deze Kamer met de staatssecretaris van immigratie en asiel zijn we inmiddels een halfjaar verder, maar enige voortvarendheid in de aanpak van de asielpuinhoop is niet te bespeuren. Integendeel, de problemen van overlast en belastinggeldverspilling stapelen zich steeds verder op, terwijl de massa-immigratie onverminderd voortwoekert. Het kleine dipje in de instroom afgelopen voorjaar, dankzij de vanwege coronamaatregelen gesloten grenzen, is inmiddels alweer lang en breed ingehaald. Voor komend jaar mag er voor maar liefst 63,4 miljoen euro aan dwangsommen worden betaald aan asielprofiteurs vanwege te lange beslistermijnen bij de IND. Het gaat maar door. Steeds weer worden door asieleisers nieuwe routes aangeboord richting Europa, nu weer massaal via de Canarische eilanden. In plaats van deze insluipers effectief te weren, wordt toch steeds weer opvang geboden en zoekt men onder het mom van opgelegde solidariteit naar herverdeling binnen de EU-lidstaten. Met het nieuwe migratiepact van de EU zal hiervoor opnieuw een fuik worden opgezet waar het naïeve Nederland met open ogen inloopt. De EU zet immers niet in op het daadkrachtig weren van asielmigranten, maar op het reguleren van deze immigratiestroom. Maar reguleren is faciliteren en daar moet Nederland niet aan meewerken. Daarom moet het kabinet niet instemmen met deze verdere EU-bemoeizucht en zich keren tegen dit migratiepact. Waar de begrotingsstaten spreken van een krachtige handhaving van de regels door de Europese Commissie wordt er in de praktijk alleen krachtig gehandeld richting de lidstaten zoals Hongarije, die niet meewerken aan de georganiseerde verdeling van de massa-immigratie.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg5">Nederland moet ondertussen ook geen heil zoeken in schijnoplossingen, zoals een mini-Schengen. In plaats daarvan moeten we principieel kiezen voor controle en zeggenschap over onze eigen nationale grenzen. Wat de PVV betreft moeten we onze grenzen sluiten voor de massa-immigratie. Nederland groeit elk jaar met zo'n 100.000 inwoners, een stad zo groot als Deventer of Delft, en dat voor een groot deel door asielmigratie. Dit kabinet heeft voor komend jaar al een taakstelling neergelegd bij provincies en gemeenten voor de huisvesting van maar liefst 27.000 statushouders. Daar is niet tegenop te bouwen, zeker niet in een reeds overvol land waar iedere vierkante meter al meervoudig geclaimd wordt voor klimaatonzin als wind- en zonneparken, nieuwe nepnatuur, blokkendozen vol met arbeidsmigranten, ontpoldering et cetera et cetera. De vraag is: waar denkt de staatssecretaris al deze statushouders te laten? Moeten onze boeren hun grond opofferen, al dan niet onder druk van de stikstofregels, om huizen te bouwen voor asielmigranten? Moeten onze woningzoekenden nog langer op wachtlijsten voor sociale huurwoningen staan? Moeten omwonenden jarenlang in hun woonomgeving worden opgezadeld met zogenaamd tijdelijke woningen voor zogenaamde spoedzoekers, onder wie veel statushouders? Graag een reactie van de staatssecretaris.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg6">Ondertussen laat deze begroting geen enkele verbetering zien. Op papier zijn er ronkende woorden over het verder ontwikkelen van een robuuste migratieketen, maar het enige wat er robuust aan is, zijn de robuust onverminderd hoge instroom de komende jaren en de overeenkomstige kosten. De prognose van de asielinstroom blijft in de komende jaren, tot en met 2025, torenhoog, met ruim 29.000 asielmigranten per jaar. De streefwaarden voor terugkeer blijven in de prognose de komende jaren onverminderd op hetzelfde niveau van 20% zelfstandig vertrek, 30% gedwongen vertrek en 50% zelfstandig vertrek zonder toezicht. Juist die laatste categorie wil nog wel eens herhaaldelijk terugkeren om heel de procedure nog eens over te doen. Kan de staatssecretaris aangeven waarom enige ambitie ontbreekt in deze prognoses om de asielinstroom te laten dalen en steviger in te zetten op streng gecontroleerde en gedwongen terugkeer? Hoe verhouden deze constante cijfers zich tot de in de begrotingsstaten genoemde opschaling van vrijwillige terugkeer? Graag een reactie.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg7">Met die onophoudelijke massa-immigratie blijft ook de enorme overlast in stand. Dit geldt voor vrijwel alle azc-locaties, maar ik leg nu even de focus op het mega-azc in Budel, gemeente Cranendonck, omdat daar de nodige ontwikkelingen aan de orde zijn. Wat de overlast betreft is het incident vorige week in de lokale supermarkt in Maarheeze, een nabij gelegen plaats, veelzeggend. Drie asielzoekers uit het azc Budel werden daar betrapt op winkeldiefstal en sloegen en duwden vervolgens winkelpersoneel en omstanders om te kunnen ontsnappen. Tegen zulk agressief asielschorem doen zogenaamde ketenmariniers als ambtelijke tijgers helemaal niks. Ook de overlegjes met gemeenten en COA en de Top X-lijst van de staatssecretaris bieden geen soelaas tegen deze ellende. Nog meer geld steken in lokale maatregelen tegen overlast is ook een wassen neus. Het enige wat echt helpt is dit tuig vastzetten en linea recta laten terugkeren naar het land van herkomst.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg8">In plaats daarvan krijgen zulke zware overlastplegers slechts fopstrafjes. Onlangs kreeg een groep zogenaamd veiligelanders uit het azc in Budel voor meerdere diefstallen en inbraken in groepsverband zogenaamd stevige straffen, die variëren van slechts drie dagen tot hooguit acht weken. De officier van justitie gaf aan: "Laat dit een duidelijk signaal zijn dat dit soort overlastgevers hier niet ongestraft mee wegkomt." Deze geharde asielcriminelen lachen zich suf om dit soort straffen, zeker omdat ze vervolgens niet eens worden uitgezet.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg9">De inwoners van de gemeente Kranendonk worden ondertussen door deze staatssecretaris voor minstens twintig jaar gestraft. Het COA wil namelijk het azc Budel ombouwen tot een tweede Ter Apel, oftewel een gemeenschappelijke vreemdelingenlocatie, waar alle voorzieningen bij elkaar zitten, voor 1.500 asielzoekers. De militaire gebouwen op deze voormalige Nassau-Dietzkazerne worden vervangen door nieuwe achtpersoonsappartementen met keuken en badkamer, een nieuw entreegebouw, een gezamenlijk dienstencentrum, onderwijsvoorzieningen en een sporthal. En dat is voor de komende twintig jaar. Terwijl voor onze ouderen de verzorgingshuizen gesloten worden, wordt hier in de Budelse bossen weer een spiksplinternieuw en van alle gemakken voorzien asielparadijsje opgetrokken, om op die manier de onophoudelijke massa-immigratie structureel te faciliteren. Eén Ter Apel is er al één te veel, dus waarom nog zo'n asielmagneet openen? Is dat de robuuste ontwikkeling die de VVD-staatssecretaris voor ogen staat?</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg10">Terwijl het COA hiervoor al een erfpachtovereenkomst voor 23 jaar heeft getekend met het Ministerie van Defensie, als eigenaar van het complex, wordt keihard voorbijgegaan aan de afspraken die eerder zijn gemaakt met de gemeente Kranendonk. In 2016 is afgesproken dat het azc tien jaar mag blijven en dat het contract daarna in overleg met de gemeenteraad eventueel met vijf jaar verlengd kan worden. Daar gaat het COA nu plompverloren aan voorbij, net als bij andere azc's elders in het land overigens. In weerwil van eerdere afspraken heropent het COA allerlei azc's, houdt ze langer open of verhoogt het aantal opvangplaatsen. Kan de staatssecretaris dit overboord kieperen van afspraken tussen het COA en de gemeenten verantwoorden? Waar kunnen de burgers nog op vertrouwen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note5">De heer Backer (D66)</note>
+            <u who="#JorisBacker" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u4">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg11">Ik wil niet ingaan op de vele hyperbolen die collega Van Hattem gebruikt, in een volstrekt gesloten wereldbeeld. Ik heb ook niet de illusie dat ik daar iets aan kan veranderen. Maar ik spreek hem toch ook wel even als jurist en als lid van de Eerste Kamer aan op het punt van de scheiding der machten. Want ter illustratie van uw betoog meet u zich een mening aan over de strafhoogte, voor wat u dan ook nog even tuig noemt en wat al niet meer, bij vergrijpen die bij de rechter zijn geweest. En in één beweging geeft u aan dat dit natuurlijk niet de juiste straffen zijn. Hoe weet u dat? En is het juist dat wij ons over de strafmaat uitlaten in de Eerste Kamer?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note6">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u5">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg12">Voorzitter. Wat we moeten constateren, is dat het vanuit het volstrekt opengrenzenwereldbeeld van D66 mogelijk blijft dat dit soort asielcriminelen structureel overlast blijven veroorzaken in de Nederlandse samenleving, en daarmee het stelsel zelf ook volledig onderuit schoffelen en de Nederlandse samenleving met een groot probleem opzadelen. Vervolgens kunt u, als u eens voor de aardigheid in het Detentiecentrum Rotterdam gaat kijken, zien dat daar asielcriminelen zitten die herhaaldelijk, steeds weer, in die procedure komen, steeds weer voor overlast zorgen en zich letterlijk suf lachen om de straffen die hier worden opgelegd. Dus daarom constateer ik wat er hier aan maatregelen wordt opgelegd. Het zijn geen lichte vergrijpen; we hebben het over inbraken, gepleegd in groepsverband. Dat zijn geen lichte vergrijpen. Dat is geen fietsendiefstal, wat bij het azc in Budel bijvoorbeeld al aan de orde van de dag is. Ik heb het hier over inbraken en dergelijke. Als we het dan over straffen van drie dagen tot hooguit acht weken hebben: daar draaien ze hun hand echt niet voor om. Daarom vind ik dat er inderdaad gesproken kan worden van fopstraffen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note7">De heer Backer (D66)</note>
+            <u who="#JorisBacker" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u6">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg13">De heer Van Hattem draait met een heel lang verhaal om mijn principiële vraag heen. Hij bekijkt het zelfs vanuit het gezichtspunt van de door hem crimineel genoemde mensen. Het gaat mij er niet om dat zij erom lachen. Als het om migratie gaat, denkt u: alles is geoorloofd. Het gaat om de vraag of het gepast is — de vraag stellen, is hem ten dele beantwoorden — dat wij ons in dit huis oordelen aanmeten over de strafmaat in zaken die concreet bij rechters in Nederland hebben gespeeld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note8">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u7">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg14">Dat is zeker gepast, omdat het in een bredere context moet worden geplaatst. De maatregelen die worden genomen, ook in deze begroting, zijn erop gericht om die overlast aan te pakken. De opgelegde straffen werken onvoldoende. Er moeten dus meer maatregelen worden genomen. Daar kan een hogere strafmaat er een van zijn. Het is dus wel degelijk gepast om ons als volksvertegenwoordiging uit te spreken over de problematiek van de draaideurcriminaliteit die onder zulke overlastplegende asielcriminelen gewoon heel vaak voorkomt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note9">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u8">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg15">Dank u wel, meneer Van Hattem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note10">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:trans" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u9">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg16">Het is mijns inziens dus zeer gepast om dit in de context te bekijken van de overlast die plaatsvindt. Daar passen duidelijke straffen en maatregelen bij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note11">De heer Backer (D66)</note>
+            <u who="#JorisBacker" ana="#guest topic:trans" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u10">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg17">Als je de heer Van Hattem een vraag stelt, dan is het probleem altijd dat hij drie keer een aanleiding heeft om nog een keer zijn betoog te houden. Daarom schrik ik er ook vaak voor terug om het te doen. Maar in feite zegt hij in zijn laatste antwoord: het aanpakken van overlast in algemene zin hoort bij deze discussie. Dat ben ik met u eens. Maar ik ben het niet eens met het eerste deel van uw betoog. Verder heb ik geen vragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note12">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u11">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg18">Vervolgt uw betoog, meneer Van Hattem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note13">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u12">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg19">Het zou mij een lief ding waard zijn als D66 nu ook eens een keer voor een stevige aanpak zou gaan en met ons mee zou gaan in het sluiten van de grenzen voor zulke asielcriminelen. Maar helaas hoor ik dat ook niet van de kant van de heer Backer.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg20">Goed, voorzitter. Dat vertrouwen is bij de inwoners van Cranendonck inmiddels ernstig geschaad. Vanwege deze langdurige en grootschalige plannen met het azc en omdat de veiligelanders Cranendonck onveilig maken, zijn de inwoners een onlinepetitie gestart, die inmiddels 1.700 keer is ondertekend, ruim 1.700 keer zelfs. De reacties en opmerkingen van omwonenden bij deze petitie zijn veelzeggend. Met alle diefstallen, overvallen, inbraken, berovingen en andere overlast zijn de mensen het echt zat. Wat extra geld voor lokale maatregelen lost niets op. Het enige wat helpt, is de ontwikkeling van dit azc te stoppen en de asielcriminelen oppakken, vastzetten en uitzetten.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg21">Zo niet onder dit kabinet-Rutte. Dit kabinet blijft ruimhartig de illegale vreemdelingen faciliteren met bed, bad en brood, onder het mom van de landelijke voorzieningen vreemdelingen, de lvv's. Bij een positieve evaluatie zal de inzet zijn om "een bestuursakkoord met de VNG te sluiten om in de toekomst te komen tot een landelijk dekkend netwerk". Stop sowieso met het op deze manier in de watten leggen van illegalen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg22">En dan het bestuursakkoord met de Vereniging van Nederlandse Gemeenten, de VNG. Wat is dat voor bedenkelijke achterkamerdeal met een club van ongekozen beroepsbestuurders? Zo worden volksvertegenwoordigers, ook in de gemeenteraden, buitenspel gezet. In lijn met de klimaattafels en de regietafels voor asiel, is zo'n bestuursakkoord wederom een schoffering van de democratie.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg23">Hoe zit het met de in de begrotingsstaten genoemde Subsidieregeling ondersteuning zelfstandig vertrek 2019, die bedoeld is voor niet-gouvernementele organisaties? Welke organisaties worden hieruit gefinancierd en wat zijn tot nu toe de concrete resultaten? Hoeveel illegalen zijn via deze regeling daadwerkelijk vertrokken? We horen het graag van de staatssecretaris.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg24">Kan de staatssecretaris aangeven of dit ook samenhangt met het geflopte project van de Amsterdamse GroenLinks-wethouder Groot Wassink met betrekking tot vrijwillige terugkeer, waar 3,3 miljoen euro is uitgegeven voor slechts één terugkeerder? In hoeverre zijn hiervoor rijksmiddelen ingezet? Graag een reactie.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg25">Voorzitter. Tot slot dien ik een drietal moties in: een motie die de regering oproept om niet in te stemmen met het nieuwe migratiepact van de Europese Unie, een motie die oproept om geen bestuursakkoord te sluiten met de VNG over een landelijk dekkend netwerk van lvv's, de landelijke voorzieningen vreemdelingen, en een motie die oproept om af te zien van een tweede Ter Apel in Budel.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg26">Voorzitter. Tot zover in eerste termijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note14">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u13">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg27">Dank u wel, meneer Van Hattem. Wenst een van de leden nog het woord in eerste termijn? Dat is niet het geval.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg28">Dan zijn we nu toe aan het antwoord van de regering in eerste termijn. Staatssecretaris bent u in de gelegenheid om direct in te gaan op de vragen van de Kamer?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note15">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u14">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg29">Ik wens een schorsing van vijf minuten, want er is een range aan vragen op verschillende terreinen gesteld. Vijf minuten is voldoende.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note16">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u15">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg30">Dan schors ik tot 14.45 uur.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note17">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note18">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u16">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg31">Ik geef het woord aan de staatssecretaris van Justitie en Veiligheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note19">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u17">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg32">Voorzitter, dank. Dank aan de heer Van Hattem voor de vragen die hij gesteld heeft, want dat geeft mij de gelegenheid om daarop een antwoord te geven. De heer Van Hattem begon met de asielpuinhoop en de 36,4 miljoen euro aan dwangsommen. De prognose was dat er een heel groot bedrag aan dwangsommen uitgekeerd zou dienen te worden. Om die reden heb ik een taskforce ingesteld en, ook met dank aan uw Kamer voor de medewerking, hebben we de Tijdelijke wet dwangsommen kunnen aannemen. Daardoor zijn de bedragen van een geschatte 70 tot 100 miljoen teruggebracht naar 36,4 miljoen. Ik ben het ermee eens dat dat nog te veel is, maar mede dankzij uw Kamer hebben we daar toch een goede slag in weten te maken.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg33">Vervolgens heeft de heer Van Hattem een vraag gesteld over het niet instemmen met het migratiepact. Ik heb van hem begrepen dat dat eigenlijk de insteek van de heer Van Hattem en de PVV is. Het migratiepact is broodnodig. Laten we één ding vaststellen: migratie is iets wat we alleen maar met z'n allen kunnen oplossen. Migratie wordt niet bedacht in Nederland. Je kunt het niet vasthouden in Nederland. Het is een probleem dat over de grenzen heen gaat en dat betekent dat we met de Europese lidstaten, met onze Europese partners, de migratie moeten aanpakken. De afgelopen jaren heeft het heel lang geduurd voordat er weer een stap gezet kon worden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg34">Met de nieuwe Commissie is er eind september een groot pact ingediend door de Commissaris, met voorstellen om het migratiebeleid van de Europese Unie te verbeteren. De grondhouding van het Nederlandse kabinet is dat we daar gematigd positief tegenover staan. Het is belangrijk dat er stappen gezet worden. Het is onder andere belangrijk dat het EASO en Eurodac geregeld worden. Tegelijkertijd is het ook belangrijk dat we met z'n allen afspreken dat er een zogeheten grensprocedure komt, waardoor degenen die naar de Europese Unie toe willen aan de buitengrenzen worden gescreend of ze kansrijk zijn of niet. De niet-kansrijken moeten dan terugkeren. Onderdeel van de nieuwe voorstellen is dat lidstaten zorgen dat ze dat goed georganiseerd hebben. Hand in hand daarmee gaat solidariteit met lidstaten waarop een enorme druk is, zoals de zuidelijke lidstaten van Europa.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg35">Daarnaast is terugkeer een ongelofelijk belangrijk onderdeel van de voorstellen. Degenen die niet in aanmerking komen voor asiel in de Europese Unie moeten terugkeren. De Europese Unie zet daar gezamenlijk met de lidstaten op in. Niet instemmen met het migratiepact is voor het kabinet dus geen optie. Nogmaals, het is een grensoverschrijdend vraagstuk dat we alleen maar met elkaar kunnen oplossen. De voorstellen die er liggen, zijn echt een grote verbetering ten opzichte van datgene wat er nu ligt.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg36">Grenzen sluiten, zoals door de heer Van Hattem was voorgesteld, is om de redenen die ik zojuist noemde ook niet aan de orde. Het is een grensoverschrijdend vraagstuk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note20">Mevrouw Karimi (GroenLinks)</note>
+            <u who="#FarahKarimi" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u18">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg37">Mag ik naar aanleiding van het asiel- en migratiepact aan de staatssecretaris een vraag stellen? Gisteren was de JBZ-Raad. Wij hebben daarover in een mondeling overleg al gesproken. Kan de staatssecretaris ons hier al een beetje informeren over de uitkomst van de meeting van gisteren?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note21">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:inter" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u19">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg38">De uitkomst van de bijeenkomst was dat er eigenlijk nog geen uitkomst is. Iedereen heeft zijn mening naar voren gebracht. De zuidelijke lidstaten hebben een hele stevige inzet, waarover ze ook een brief hebben gestuurd, zoals mevrouw Karimi ongetwijfeld weet. De oostelijke lidstaten hebben ook een stevige opvatting. Héle kleine stapjes worden er gezet, maar het resultaat van gisteren is dat er waarschijnlijk een voorzittersconclusie komt na afloop van het Duitse voorzitterschap, en meer niet. Dan gaan we weer verder tijdens het Portugese voorzitterschap. Het lijkt helaas toch een zaak te gaan worden die wat langer gaat duren dan Commissaris Johansson in eerste instantie voor ogen had.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note22">Mevrouw Karimi (GroenLinks)</note>
+            <u who="#FarahKarimi" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u20">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg39">Kan de staatssecretaris duidelijk maken wat de volgende stap zou kunnen zijn? Zij — daar is mijn fractie het mee eens — betoogde dat we met een aantal wetgevingsprocessen verder zouden moeten kunnen. Gaat dat dan wel gebeuren, of niet?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note23">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:inter" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u21">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg40">Zover zijn we nog niet. Ik wil te allen tijde verder praten over het Europese pact, maar ik dacht toch ook in eerste instantie de vragen van de heer Van Hattem te beantwoorden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note24">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u22">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg41">Dat lijkt me ook. U heeft ook niet ingeschreven, mevrouw Karimi. We hebben dus ook niet gerekend op reeksen interventies.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note25">Mevrouw Karimi (GroenLinks)</note>
+            <u who="#FarahKarimi" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u23">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg42">Als u mij een laatste vraag toestaat, voorzitter?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note26">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u24">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg43">Dat is dan de laatste.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note27">Mevrouw Karimi (GroenLinks)</note>
+            <u who="#FarahKarimi" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u25">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg44">Ik had me ook kunnen inschrijven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note28">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u26">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg45">Dat klopt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note29">Mevrouw Karimi (GroenLinks)</note>
+            <u who="#FarahKarimi" ana="#guest topic:inter" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u27">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg46">Ik dacht: ik probeer het juist kort te houden. De voorzitter van de Europese Commissie meende dat zij bezig zijn met een pilot met de Grieken, waarbij de grensprocedure uitgewerkt zou worden. Zou de staatssecretaris daarop kunnen reageren?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note30">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u28">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg47">Dat steunen wij. Dat is door de Belgen gesuggereerd. Een simulatie, een pilot, hoe je het ook noemen wil, met de grensprocedure. Dat is door ons en meerdere lidstaten gesteund. Het Duitse voorzitterschap was daar ook positief over. Maar het vervolg heb ik nog niet vernomen, want de vergadering is net gister afgerond.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg48">Voorzitter. Wij hebben een taakstelling naar voren gebracht richting de gemeenten van 27.000 statushouders die gehuisvest moeten worden. Wij begrijpen, of ik begrijp, dat dat een hele grote opgave is voor de gemeenten, want er is een tekort aan woningen in Nederland. Dat betekent dat de gemeenten dus echt hun best moeten doen om te kijken of er plekken te vinden zijn. Daar wordt hard aan gewerkt. Meerdere keren per jaar vergader ik met de Landelijke Regietafel. Ik vergader vanmiddag om 16.00 uur weer met de Landelijke Regietafel, die overigens onder voorzitterschap staat van de minister van Binnenlandse Zaken, want het huisvesten van statushouders in gemeenten is een verantwoordelijkheid van de minister van Binnenlandse Zaken. Daar wordt overlegd met gemeenten en met provincies. Het COA praat ook heel veel met de gemeenten. Waar we vanmiddag onder andere over praten, is of en op welke manier we de gemeenten extra kunnen ondersteunen om deze toch grote opgave het hoofd te bieden. Ik moet er wel bij zeggen: het zijn statushouders. Het zijn dus mensen die straks gehuisvest moeten worden in de gemeenten. Op dit moment, in de azc's onder het COA, zitten iets van 8.000 statushouders die in een gemeente gevestigd zouden moeten worden. Zij wachten dus op een plek. Het lastige daarvan is ook dat ondertussen de plek in het azc wordt opgevuld door die statushouder. Dat betekent ook dat het COA op dit moment aan het uiterste van zijn capaciteit is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note31">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:gover" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u29">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg49">Bedankt voor de beantwoording tot nu toe. We horen nu die regietafels voorbijkomen. Het is toch in het bestuurlijke veld waar dit wordt opgetuigd. Daar hebben de volksvertegenwoordigingen eigenlijk geen rol. Kan de staatssecretaris misschien aangeven hoe de gemeenteraden, hoe de Provinciale Staten, hoe wij als Tweede en Eerste Kamer ook nog enige rol en betrokkenheid kunnen hebben met wat er bij die regietafels wordt besproken? Want nu is het wel een heel eenzijdige opdrachtverlening, waar weinig democratische sturing op mogelijk is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note32">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:gover" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u30">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg50">De regeling voor de Landelijke Regietafel is een aantal jaren geleden getroffen. Er zijn trouwens ook provinciale regietafels. Dat weet meneer Van Hattem waarschijnlijk als geen ander. In de Landelijke Regietafel hebben wij gevraagd of de provincies misschien de provinciale regietafels weer aan het werk willen zetten, juist om dichter bij de gemeentes en degenen die het betreft, te kunnen opereren. Ik begrijp dat de heer Van Hattem vraagt naar de democratische legitimatie van de Landelijke Regietafel. Die is er, want die regietafel is ingesteld door de overheid. Bovendien zitten er vertegenwoordigers in van de gemeentes, de provincies, Binnenlandse Zaken, Justitie en Veiligheid, het COA en anderen. Via de LRT komen de provinciale regietafels en die hebben ook gesprekken met de gemeentes.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note33">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:gover" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u31">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg51">Ik weet inderdaad als geen ander dat er ook provinciale regietafels zijn, zoals de staatssecretaris zei. Dat klopt. Ik herken het ook vanuit mijn andere rol als lid van de Provinciale Staten. Maar daar krijg ik juist steeds te horen: als Provinciale Staten gaat u er niet over, want het is een taak die wordt opgelegd vanuit het Rijk. Enige openbaarheid wordt er ook niet betracht als daar stukken over worden opgevraagd. Hoe kunnen we in ons bestel dus beter grip krijgen op de transparantie en de democratische sturing op deze ontwikkelingen, dus niet alleen de legitimatie? Op dit moment wordt het echt heel eenzijdig opgelegd en er is noch vanuit de Staten-Generaal, noch vanuit de lagere overheden echt goede democratische controle en sturing op deze regietafels.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note34">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u32">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg52">Dat zijn de afspraken die een aantal jaren geleden zijn gemaakt: op welke wijze de statushouders in Nederland worden gehuisvest en hoe er wordt gezorgd dat ze kunnen integreren, een baan kunnen vinden enzovoorts. Onder die regeling valt de Landelijke Regietafel, dus dat is democratisch tot stand gekomen. Die regietafel heeft een opdracht en die opdracht is om te zorgen dat die statushouders in kunnen stromen in de gemeentes. Daar is ook een verdeling gemaakt over alle gemeentes. Het is helemaal niet zo dat een gemeente er 10.000 moet hebben en de ander er maar 2 of zo. Daar is een evenwichtige verdeling voor. Dat is allemaal besproken met de provinciebesturen. De gemeentes kennen deze regelingen heel goed en weten precies hoe het werkt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note35">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u33">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg53">Dan stel ik voor dat we misschien de staatssecretaris het even af laten maken. U krijgt natuurlijk straks ook uw tweede termijn nog. Zullen we de staatssecretaris het even af laten maken? Dan geef ik straks in tweede termijn de gelegenheid. Staatssecretaris, hoe lang denkt u ongeveer nog nodig te hebben?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note36">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u34">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg54">Ik denk een kleine tien minuten. De heer Van Hattem had ook een vraag gesteld over de terugkeer. Mensen die MOB gaan, komen vaak terug. Waarom is de ambitie voor terugkeer niet aangepast? Terugkeer is een lastig vraagstuk. Ik heb zojuist gezegd dat in het migratiepact terugkeer ook een heel belangrijk onderdeel wordt. Het is lastig om de mensen terug te krijgen naar het land van herkomst, want er is natuurlijk teleurstelling aanwezig als hier geen asiel wordt verleend. Het is natuurlijk altijd heel zwak om te zeggen "vergelijk je met een ander", maar het is wel zo dat vergeleken met andere Europese lidstaten Nederland in de top vijf zit van de lidstaten met de beste terugkeercijfers. Dat is in de buurt van 30% tot 32%. Dat is inderdaad veel te weinig. Dat geef ik graag toe aan de heer Van Hattem. Maar desalniettemin is Nederland in staat om nog steeds mensen die een afwijzing hebben gekregen, te doen terugkeren, ondanks de covidtijd. Dat is werkelijk een prestatie van formaat.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg55">Dan kom ik op de overlast. Die is door de heer Van Hattem naar voren gebracht. Hij noemde specifiek de overlast bij de supermarkten in Maarheeze en de overlast in Budel, maar ik wil het algemener trekken. Er wordt inderdaad overlast veroorzaakt en dat is een heel erg lastig en onaanvaardbaar iets. Het kan niet zo zijn dat mensen die hier te gast zijn en hiernaartoe komen omdat ze bescherming nodig hebben, vervolgens enorm veel overlast gaan veroorzaken. Zoals ik gezegd heb in de Tweede Kamer bij het debat: die mensen kloppen op de deur. De afgelopen jaren hebben we te maken gekregen met mensen die op de deur kloppen en dan als het ware hun voet tussen die deur zetten, het huis binnendringen en vervolgens weigeren weg te gaan. Soms draperen ze zich ook nog ongevraagd op de bank en planten ze hun schoenen op de salontafel. Met dat laatste beeld doel ik op de overlastgevende asielzoekers. Dat zijn vaak jongeren uit veilige landen die geen enkel recht hebben om hier te verblijven. Wij doen er alles aan; ik doe daar alles aan. Er zijn vier ketenmariniers; er waren er eerst tweeënhalf en inmiddels zijn er vier ketenmariniers. Zij zetten zich enorm in. Het zijn vaak ook oud-politiemensen. Zij hebben een Top X-lijst samengesteld van de grootste raddraaiers. Zij hebben een onlangs beschikbaar gekomen toolbox, een gereedschapskist voor gemeentes waar zij allerlei mogelijkheden uit kunnen halen om te zorgen dat het in bedwang blijft. Daarnaast heb ik de htl in Hoogeveen geopend. Dat is een opvanglocatie met een buitengewoon streng regime waar de grootste raddraaiers heen gaan. Daarnaast heb ik specifiek ten aanzien van Budel nog €50.000 ter beschikking gesteld voor extra maatregelen. Daar is een extra boa voor aangenomen. Ik heb in totaliteit voor alle gemeentes die te maken hebben met overlast, afgelopen jaar 1 miljoen ter beschikking gesteld om extra maatregelen te nemen, zoals camera's, een extra boa of wat dan ook. Wij doen er alles aan om te zorgen dat die overlast binnen de perken blijft.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg56">Dan de opmerking van de heer Van Hattem dat er nog een gvl komt, een groot luxe azc, ook daar in Budel, misschien wel voor 20 jaar. Dat is een overeenkomst waaraan gewerkt wordt door de gemeente en het COA. Mijn informatie is dat de besprekingen voorspoedig verlopen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg57">De heer Van Hattem stelde een vraag over de lvv's en de subsidieregeling en hij vroeg hoeveel mensen daadwerkelijk vertrokken zijn. In de begroting staat daar iets over, maar vanuit de lvv's zijn ongeveer 545 mensen vertrokken. We moeten wel goed in de gaten houden dat dat ongeveer de hoeveelheid personen is die hebben kunnen vertrekken. Voor de lvv's is, zoals de heer Van Hattem weet, ook een subsidieregeling afgesproken. Die regeling moest ervoor zorgen dat de bed-bad-broodvoorzieningen opgeheven konden worden en konden overgaan in de lvv, waar gewerkt wordt aan terugkeer. Er loopt nu een evaluatie van de lvv's. Begin of medio februari zal die evaluatie opgeleverd worden. Het is een pilot. Naar aanleiding van de uitkomsten van die evaluatie zullen we bekijken wat de resultaten zijn van de vijf lvv's die we gedurende de pilotperiode in Nederland hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg58">De laatste vraag die de heer Van Hattem stelde ging over Amsterdam, over wethouder Groot Wassink en het geld dat daar uitgegeven is. Dat was 3,1 of 3,5 miljoen; ik meen dat de heer Van Hattem het bedrag van 3,1 miljoen noemde. Daar zijn geen rijksmiddelen mee gemoeid, kan ik de heer Van Hattem zeggen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg59">Ik hoop dat ik daarmee alle vragen in eerste termijn beantwoord heb, voorzitter. Dank u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note37">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u35">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg60">Dank u wel, staatssecretaris. Dan zijn we gekomen bij de tweede termijn van de kant van de Kamer. Daartoe geef ik graag het woord aan de heer Van Hattem namens de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note38">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u36">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg61">Dank, voorzitter. Dank aan de staatssecretaris voor de beantwoording in eerste termijn. Ik ga in op een aantal punten die tot nu toe de revue zijn gepasseerd.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg62">De staatssecretaris gaf aan dat er sprake was van 36,4 miljoen euro voor de dwangsomregeling van de IND. Uit de stukken, uit de begrotingsstaten, op pagina 21, is te lezen dat het zou gaan om 63,4 miljoen. Ik vraag me dan af waar die 36,4 miljoen vandaan komt en wat nou het juiste bedrag is.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg63">Dan het migratiepact. De staatssecretaris geeft aan dat het migratiepact heel belangrijk is en dat we dat echt heel hard nodig hebben, maar ondertussen hoor ik de staatssecretaris ook zeggen dat het toch wel wat langer gaat duren voor het van de grond komt, want de Europese Commissie gaat er wat langer over doen. Dan vraag ik me af waar ondertussen de nationale maatregelen blijven, want als we op de Europese Commissie moeten wachten — als we dat al zouden willen, niet wat de PVV betreft — dan kunnen we wachten tot sint-juttemis. Maar de migratiestromen blijven elke week stevig doorgaan, dus daar moeten we een punt achter zetten. In het migratiepact zit niet alleen die zogenaamde grensprocedure, maar ook de solidariteit en herverdeling. Wat terugkeer betreft kan de staatssecretaris op dit moment al geen afspraken maken met Marokko. Er is ook al een Marrakeshpact gesloten dat het allemaal mogelijk zou moeten maken. Wat zou dit dan voor effect moeten hebben als het op dit moment al niet lukt?</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg64">De belangrijkste vraag rond het migratiepact is wat mij betreft het volgende. We zien in de begrotingsstaten de asielprognoses voor de komende vijf jaar. Het blijft gewoon continu op een instroom van 29.000 staan. Als dat migratiepact zo effectief en zo belangrijk zou zijn, wat wordt dan de asielprognose? Gaat die met het migratiepact opeens naar nul? Blijft het nog steeds 29.000 of wordt het misschien zelfs meer? Als dat zo is, dan hebben we dat migratiepact al helemaal niet nodig.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg65">Voorzitter. Het volgende punt: de regietafels. We hebben daar net een kleine discussie over gehad. Wat we merken is dat de staatssecretaris toch steeds terugkomt op: het is nu eenmaal de opdracht die versterkt is. Wat is nu het moment om als volksvertegenwoordiging — op welk niveau? — daar iets van te vinden en dat bij te sturen? Er wordt door de staatssecretaris gezegd dat de provincie erbij betrokken is, maar bij de provincie wordt gezegd dat het een opdracht vanuit het Rijk is, vanuit het kabinet, van de staatssecretaris. Voor de gemeenten geldt precies hetzelfde verhaal. En tegen de Eerste Kamer of Tweede Kamer wordt gezegd dat dit nu eenmaal de afspraak is die gemaakt is. Dus wanneer kunnen we daar iets aan doen, iets van vinden en iets aan bijstellen? Dat hoor ik graag van de staatssecretaris.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg66">Nederland zou in de top vijf staan van landen met de beste terugkeerregeling. Ondertussen hoor ik dat er vanuit de lvv's slechts 545 personen zijn vertrokken, terwijl daar toch forse bedragen en voorzieningen tegenover staan. Blijkbaar zet het optuigen van die lvv's niet bepaald aan tot vertrek, maar eerder tot langer verblijf. De staatssecretaris zegt terecht dat overlast lastig en onaanvaardbaar is. En de vergelijking met het verblijf in het eigen huis is treffend, maar ik heb toch niet de indruk dat er vanuit het kabinet echt alles aan wordt gedaan om het op te lossen. Er wordt de toolbox genoemd, de ketenmariniers et cetera worden genoemd, maar dat zijn allemaal druppels op de gloeiende plaat. En als we kijken naar de situatie in de gemeente Cranendonck: onlangs zijn de bewoners daar genoodzaakt geweest om zelf een soort van buurtwacht te organiseren om het eigen dorp veilig te houden. Nou, je doet dat echt niet voor je plezier, daar rondjes gaan lopen. Er zijn daar mensen zelf naar het azc moeten gaan om gestolen fietsen terug te halen. Dus als er zo'n toolbox, ketenmariniers en de hele rataplan is opgetuigd, waarom moeten de mensen dan nog zelf in actie komen om iets te doen voor hun veiligheid? Dan werken deze maatregelen toch schijnbaar niet? Ik hoor daar nog graag een reflectie op van de staatssecretaris.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg67">Voorzitter. Dan nog heel snel, naar de tweede termijn toe, een paar andere punten. Ik ga even mijn vragen langs.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note39">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u37">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg68">Had u ook nog moties?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note40">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u38">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg69">Ja, die heb ik ook nog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note41">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u39">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg70">Die moeten dan ook binnen uw spreektijd, bij voorkeur.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note42">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u40">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg71">Allereerst de moties.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg72">De :</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg73">Door de leden Van Hattem, Bezaan, Faber-van de Klashorst, Ton van Kesteren en Van Strien wordt de volgende motie voorgesteld:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note43">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note44">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note45">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note46">constaterende dat het kabinet voornemens is om een bestuursakkoord met de VNG te sluiten, om in de toekomst te komen tot een landelijk dekkend netwerk van landelijke vreemdelingenvoorzieningen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note47">overwegende dat:</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note48">het bieden van voorzieningen aan illegale vreemdelingen onwenselijk is en zij zo snel mogelijk het land dienen te verlaten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note49">een bestuursakkoord met de VNG als bestuurlijke koepelorganisatie de rol van de democratische volksvertegenwoordiging buitenspel zet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note50">roept de regering op om af te zien van het sluiten van een bestuursakkoord met de VNG om in de toekomst te komen tot een landelijk dekkend netwerk van landelijke vreemdelingenvoorzieningen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note51">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note52">Zij krijgt nr. kst-35570-VI-D</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note53">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u41">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg74">Dan de volgende motie.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg75">De :</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg76">Door de leden Van Hattem, Bezaan, Ton van Kesteren, Van Strien en Faber-van de Klashorst wordt de volgende motie voorgesteld:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note54">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note55">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note56">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note57">constaterende dat de Europese Unie een nieuw migratiepact wil sluiten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note58">overwegende dat migratiebeleid niet door de EU geregeld dient te worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note59">roept de regering op om niet in te stemmen met een nieuw migratiepact van de EU,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note60">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note61">Zij krijgt nr. kst-35570-VI-E</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note62">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u42">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg77">Dan nog een motie.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg78">De :</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg79">Door de leden Van Hattem, Bezaan, Ton van Kesteren, Van Strien en Faber-van de Klashorst wordt de volgende motie voorgesteld:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note63">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note64">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note65">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note66">constaterende dat het COA naast Ter Apel een tweede gemeenschappelijke vreemdelingenlocatie wil ontwikkelen in Budel;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note67">overwegende dat:</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note68">bij deze ontwikkelingen afspraken met de gemeente Cranendonck over de maximale termijn voor het huidige azc worden geschonden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note69">de inwoners van Cranendonck al veel overlast en criminaliteit ervaren vanuit het azc;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note70">de massa-immigratie niet gefaciliteerd dient te worden met een mega-azc voor 1.500 personen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note71">roept de regering op om af te zien van de ontwikkeling van de gemeenschappelijke vreemdelingenlocatie en nieuwbouw van het azc in de gemeente Cranendonck,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note72">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note73">Zij krijgt nr. kst-35570-VI-F</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note74">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u43">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg80">Tot slot had ik nog graag van de staatssecretaris gehoord wat zij nou precies verstaat onder die robuuste ontwikkeling. En de vraag welke non-gouvernementele organisaties zij vanuit die subsidieregeling concreet ondersteunt, wat daar de resultaten van zijn en hoeveel illegalen er op basis daarvan daadwerkelijk zijn vertrokken.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg81">Voorzitter, tot slot ten aanzien van deze begrotingsstaten. Wij zullen de Begrotingsstaten Justitie en Veiligheid 2021 steunen, alleen dit onderdeel van migratie en asiel niet.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg82">Tot zover in tweede termijn, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note75">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u44">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg83">Dank u wel, meneer Van Hattem. Staatssecretaris, mag ik u direct het woord geven? Ja? Dan kijk ik even naar de bode voor de katheder, en geef ik graag het woord aan de staatssecretaris van Justitie en Veiligheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note76">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u45">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg84">Voorzitter, dank. Allereerst even over de dwangsom, de bedragen. Er is tot nu toe 11 miljoen uitgekeerd en verwacht wordt dat we nog iets van rond de 35, 36 miljoen uit moeten keren over 2020 en 2021. Dat zijn de cijfers, dat is wat ik u hier zeg en dat staat ook in de stukken.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg85">De heer Van Hattem heeft nog een vraag gesteld: de Europese Commissie gaat wat langer doen over dat migratiepact, en wat gaan we nationaal doen? Ik heb uiteengezet dat migratierecht hoofdzakelijk Europees recht is. We hebben inderdaad ook Nederlands recht en wij doen zo veel mogelijk om de vluchtelingen die werkelijk onze bescherming nodig hebben die bescherming te bieden. Degenen die geen recht hebben op asiel krijgen dat te horen en moeten terug naar het land van herkomst. We hadden een grote achterstand in de IND, en om die reden en omdat ik vind dat mensen zo snel mogelijk moeten weten waar ze aan toe zijn, heb ik de taskforce ingesteld. De taskforce heeft aan het eind van het jaar niet datgene gehaald wat we gehoopt hadden, maar dat hopen we in het komend half jaar voor elkaar te krijgen. Dat betekent dat we een enorme achterstand van 15.350 zaken hebben afgehandeld. Daar zullen mensen bij zijn die een status krijgen, maar daar zullen ook mensen bij zijn tegen wie gezegd wordt dat ze terug moeten naar het land van herkomst. Dit is het soort zaken die wij inmiddels nationaal doen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg86">Dan de volgende vraag van de heer Van Hattem over het Marrakesh-pact. Althans, dit Europese pact lijkt op het Marrakesh-pact, heeft de heer Van Hattem gezegd. Het zijn twee totaal verschillende zaken. De voorstellen van de Europese Commissie noem ik liever asielvoorstellen van die Europese Commissie en gaan over verordeningen en richtlijnen. Het Marrakesh-pact is er om afspraken te maken tussen een groot aantal landen om op een bepaalde manier de problematiek van migratie te benaderen. Het is absoluut geen juridische constructie die je kunt bedenken waar iemand aan gebonden zou zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg87">De vraag van de heer Van Hattem was ook wat de Europese voorstellen betekenen voor de asielprognose. Wat betekent het pact voor de prognose? Het pact heeft geen invloed op de prognose. Het kan zomaar zijn dat er morgen ergens een enorm conflict uitbreekt, een nog groter conflict dan de conflicten die we nu kennen, en dat betekent dat er weer mensen op de vlucht slaan en waarschijnlijk ook de kant van de Europese Unie op gaan. Wij maken MPP's oftewel meerjarenprognoses die gebaseerd zijn op de gegevens die we hebben. Maar het is niet zo dat het pact regelt wat de mogelijke instroom is van asielzoekers. Wel kan het zo zijn dat vanwege de grensprocedure en vanwege een strakker terugkeerbeleid van de Europese Unie de aantrekkelijkheid van de Europese Unie afneemt, en dat daardoor de asielstromen gaan verminderen. Maar dat is op dit moment koffiedik kijken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note77">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u46">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg88">Ik stel voor dat we de staatssecretaris de gelegenheid geven haar antwoorden af te ronden. Een kleine correctie, meneer Van Hattem? Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note78">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u47">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg89">Ik hoorde de staatssecretaris zeggen dat ik het huidige EU-migratiepact dat nu voorligt een-op-een vergeleken had met het Marrakesh-pact. Mijn vraag was juist of de in het Marrakesh-pact bedoelde verbetering van terugkeer die op dit moment al niet werkt, in dit immigratiepact nodig zou zijn. Dat was de koppeling die ik heb gelegd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note79">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u48">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg90">Ik heb net uitgelegd wat de status is van het Marrakesh-pact. Dat is een uitspraak van "wat zouden we willen of kunnen", maar het is juridisch totaal niet bindend. Het enige wat van belang is voor ons allen hier in Nederland en zeker ook in de Europese Unie als geheel, zijn de voorstellen van de Europese Unie voor het asiel- en migratiebeleid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note80">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u49">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg91">Ik stel voor dat we de staatssecretaris haar beantwoording laten afronden. Dan kijken we nog even hoeveel tijd we nog over hebben, inclusief de drie moties denk ik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note81">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u50">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg92">Eerst nog even de vragen, als het mag, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg93">De heer Van Hattem heeft nog iets gevraagd over de Landelijke Regietafel. Wanneer kan de volksvertegenwoordiging het bijsturen? Wanneer kunnen we dit bijstellen? Het is een landelijke regeling die is ingegeven door het feit dat mensen die een status hebben gekregen, gehuisvest zijn en met name moeten integreren in de Nederlandse samenleving. De Landelijke Regietafel zorgt dat die afspraken uitgevoerd kunnen worden, zo nodig geholpen door regionale regietafels. Daarvoor zijn goede verdelingen gemaakt. Dat is de achtergrond van de LRT. Het is landelijk vastgesteld.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg94">Wat de terugkeer betreft heb ik mij even vergist: het aantal van 550 of 545 wat ik noemde, is juist de terugkeer vanuit de ondersteuning zelfstandig vertrek, dankzij de ngo's en niet de lvv's. Dat heb ik daarmee rechtgezet en daarmee heb ik meteen ook het antwoord gegeven op die laatste vraag van de heer Van Hattem over het vertrek via de ngo's.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg95">Over de overlast is gevraagd waarom er vanuit het kabinet niet alles aan wordt gedaan. Ik dacht en ik hoop dat ik heb kunnen aantonen dat wij echt alles doen wat binnen onze macht ligt. Het opsluiten van overlastgevers die niet-crimineel gehandeld hebben kan niet, maar behalve dat hebben we echt alles in het werk gezet. Als er nog meer maatregelen nodig zouden kunnen zijn, die we nu op dit moment niet bedacht hebben en die ook zouden kunnen helpen, dan zorgen wij daarvoor. Waar wij ook voor zorgen is dat veiligelanders die hier zijn, geen recht op asiel hebben, maar wel asiel hebben aangevraagd en dus tijdelijk opgevangen moeten worden totdat ze een definitief besluit hebben gekregen, apart sober worden opgevangen. Ook dat is om diegenen te ontmoedigen. Dat is de manier waarop we opereren. Nog een keer voor de helderheid: wanneer er strafrechtelijk gehandeld wordt, wanneer er criminele zaken aan de orde zijn, is het een kwestie van de politie, het Openbaar Ministerie en uiteindelijk de rechter.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg96">De heer Van Hattem had nog een vraag over de robuuste ontwikkeling. Ik vraag de heer Van Hattem op welke robuuste ontwikkeling hij duidt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note82">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u51">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg97">Zou dat kort kunnen, want ik begin een beetje uit de tijd te lopen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note83">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u52">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg98">Ja. Daarna hoeven we alleen nog maar de moties te doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note84">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u53">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg99">De heer Van Hattem, een korte toelichting.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note85">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u54">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg100">In de begrotingsstaten staat als een van de inleidende zinnen dat er met dit beleid een robuuste ontwikkeling wordt ingezet. Het zijn dus de woorden vanuit het ministerie. Ik kan niet ontdekken waar die robuuste ontwikkeling dan in zit. Ik heb het letterlijke citaat inmiddels gevonden. Het gaat om de robuuste migratieketen, dat is de term.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note86">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u55">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg101">Dank aan de heer Van Hattem dat hij dit nog even toelicht. Het gaat inderdaad om de robuuste migratieketen. Dat is waar ik me enorm voor inzet. We zorgen ervoor dat we asielzoekers heel goed kunnen opvangen in Ter Apel en daar kunnen kijken of iemand recht heeft op asiel of niet. Vervolgens wordt er heel goed gewerkt met het COA om te zorgen dat we ze heel goed opvangen en dat het ook strak georganiseerd is. Uiteindelijk wordt ook gekeken — daar wordt hard aan gewerkt door de Dienst Terugkeer en Vertrek — dat degenen die geen recht hebben op asiel in Nederland, ook kunnen en gaan vertrekken. Voor zover er maatregelen nodig zijn tegen overlast en dergelijke, worden die allemaal getroffen. Wij proberen heel hard om een robuuste migratieketen te maken, waarin het een op het ander aansluit en waarbinnen iedereen goed met elkaar in gesprek is zodat er op dat punt geen gaten kunnen vallen. Dat is wat wij bedoelen met de robuuste migratieketen. En ik begrijp dat de heer Van Hattem die iets minder robuust vindt dan dat ik hem vind, maar dat is dan het verschil dat ik met de heer Van Hattem heb. Ik vrees dat ik dit vandaag niet kan overbruggen met de heer Van Hattem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note87">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u56">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg102">Tot slot de moties, staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note88">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u57">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg103">In de eerste motie staat dat ik moet afzien van het bestuursakkoord met de VNG over de lvv. Die moet ik helaas ontraden, want we zijn nog bezig met de pilot. De evaluatie moet nog komen. Pas nadat de evaluatie er is, kunnen we verder kijken. Ik moet die motie dus ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg104">De tweede motie gaat over het EU-pact en verzoekt het kabinet niet akkoord te gaan — ik zeg het maar kort — met het migratiepact. Uit wat ik hiervoor betoogd heb over het belang van Europese regelgeving voor de asielproblematiek moet u begrijpen dat ik die motie moet ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg105">Dan de gvl in Budel. Dat is een zaak tussen het COA en de gemeente Budel. Die partijen zijn in onderhandeling. Voor zover ik weet, loopt dat goed. Daar ligt het. Ik moet ook die motie ontraden, want ik ga er niet over.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note89">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u58">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg106">Tot slot, een korte verhelderende vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note90">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:gover" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u59">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg107">Vooral over het laatste punt. De motie over Budel wordt ontraden. De staatssecretaris zegt dat het COA daar in onderhandeling is, maar het COA valt onder het ministerie, in ieder geval onder de verantwoordelijkheid van deze staatssecretaris. Dan is het toch wel degelijk zo dat we de staatssecretaris erop kunnen aanspreken om hiervan af te zien en het COA de opdracht te geven om dit, ook in het belang van de inwoners van Budel en Maarheeze, stil te leggen. U zult mij misschien niet overtuigen vandaag, maar het gaat mij ook om de inwoners van …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note91">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u60">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg108">Dat is helder. Het ging even om de command line.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note92">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u61">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg109">Dan sluit ik daarmee af. … om de inwoners, die een veilig land willen hebben en hun land niet onveilig willen laten maken door de veiligelanders.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note93">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u62">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg110">Nee, maar het ging dus om de line of command.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note94">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:gover" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u63">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg111">De inwoners van Budel worden — dat is ons gemeenterecht — vertegenwoordigd door het gemeentebestuur en de gemeenteraad. Ik denk dat die gemeenteraad mans genoeg is om de onderhandelingen via B en W te doen. Ik wil voor de helderheid nog even opmerken dat het klopt dat ik eindverantwoordelijk ben voor het COA, maar het COA is een zbo, een zelfstandig bestuursorgaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note95">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:macro" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u64">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg112">Ik sluit de beraadslaging en kom tot afhandeling van de begroting.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note96">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note97">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u65">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg113">Wenst een van de leden stemming over het wetsvoorstel? Dat is niet het geval.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note98">Het wetsvoorstel wordt zonder stemming aangenomen.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note99">Verlangt iemand aantekening? De heer Van Hattem namens de PVV.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note100">De heer Van Hattem (PVV)</note>
+            <u who="#AlexandervanHattem" ana="#guest topic:immig" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u66">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg114">Voorzitter. Zoals aangegeven in mijn tweede termijn zijn wij akkoord met het wetsvoorstel, maar wij vragen aantekening op artikel 37 van de begrotingsstaten. Dat is het onderdeel migratie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note101">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.u67">
+               <seg xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.seg115">Dank u wel, meneer Van Hattem. Ik stel voor dat wij vandaag aan het einde van de vergadering stemmen over de ingediende moties. Ik schors voor een kort moment in afwachting van de minister van Economische Zaken en Klimaat en de minister van Financiën.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-15-eerstekamer-24.note102">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

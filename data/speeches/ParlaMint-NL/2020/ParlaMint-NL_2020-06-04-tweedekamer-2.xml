@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2020-06-04 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2020-06-04 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 79, Session 2 (2020-06-04)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 79, Session 2 (2020-06-04)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="79" xml:lang="en">Meeting 79</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="2" xml:lang="en">Session 2</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2020-06-04">Sitting 2020-06-04</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="7">7 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="7">7 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="437">437 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="437">437 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2020-06-04">2020-06-04</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="18"/>
+               <tagUsage gi="seg" occurs="8"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="7"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-06-04">2020-06-04</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.head1">Toetreding meer instellingen tot de pilot voor flexstuderen</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:educa" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.u1">
+               <seg xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.seg1">Aan de orde is het VSO Toetreding meer instellingen tot de pilot voor flexstuderen, Kamerstuk 31288, nr. 827. Ik geef de heer Wiersma namens de VVD als eerste spreker het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note2">De heer Wiersma (VVD)</note>
+            <u who="#DennisWiersma" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.u2">
+               <seg xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.seg2">Voorzitter, dank. Studeren is prachtig. Het wordt soms nog mooier als je er iets bij kan doen, naast je studie, wat je studie nog meer verrijkt, zoals een bijbaan of bestuurswerk. In sommige gevallen moet je naast je studie ook dingen doen die misschien minder op je pad lagen maar die niet anders kunnen, zoals mantelzorg; of in wat voor gevallen dan ook waarbij je zelf iets hebt waardoor je je studie moet combineren met iets vervelends. In al die gevallen is het fijn als dat goed kan. Daar hebben we een pilot voor gestart, de pilot Flexstuderen, om studenten de mogelijkheid te geven om per vak te betalen. Dat is een hele mooie pilot. Tussenevaluaties laten goede resultaten zien. Studenten hebben hierdoor de mogelijkheid om hun studie in te richten op een manier die bij hen past.</seg>
+               <seg xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.seg3">In het verlengde daarvan heb ik een motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note6">overwegende dat de tussentijdse resultaten bij de pilot Flexstuderen, waarbij collegegeld betaald wordt per studiepunt, laat zien dat studenten naast het studeren makkelijker een onderneming kunnen starten, mantelzorg kunnen verlenen of kunnen werken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note7">constaterende dat de huidige pilot Flexstuderen loopt tot en met 2023, maar dat het belangrijk is om deze manier van studeren ook na 2023 te behouden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note8">verzoekt de regering de pilot Flexstuderen zo snel als mogelijk wettelijk te verankeren, zodat in ieder geval uiterlijk per 1 september 2023 het betalen per studiepunt structureel mogelijk wordt bij alle opleidingen en instellingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note9">verzoekt de regering tevens om op basis van de tussenevaluatie van de pilot Flexstuderen het wetsvoorstel voor het wettelijk verankeren van de pilot voor te bereiden en als nodig de eindevaluatie te vervroegen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note11">Deze motie is voorgesteld door de leden Wiersma en Van den Hul. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note12">Zij krijgt nr. kst-31288-841</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note13">De heer Wiersma (VVD)</note>
+            <u who="#DennisWiersma" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.u3">
+               <seg xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.seg4">Dank. Dat was 'm, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note14">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.u4">
+               <seg xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.seg5">Dank u wel. Dan geef ik nu het woord aan mevrouw ... Nee? Volgens mij kan de minister dan zo reageren. Klopt dat? De motie wordt zo gekopieerd en rondgedeeld. Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note15">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.u5">
+               <seg xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.seg6">Voorzitter, dank u wel. De heer Wiersma heeft natuurlijk helemaal gelijk als hij zegt dat flexstuderen studenten de mogelijkheid geeft om studeren te combineren met eventuele andere activiteiten, of dat nou activiteiten zijn waar je bewust voor kiest of die om allerlei redenen op je pad komen. Er liep al een pilot. De Kamer heeft ook eerder aangedrongen op nieuwe instroom in die pilot. Daar wordt op dit moment heel hard aan gewerkt. Ik kan u ook melden dat de AMvB die die extra instroom mogelijk maakt, zeer binnenkort aan uw Kamer zal worden voorgelegd, zodat ook nieuwe instellingen daaraan kunnen deelnemen. De heer Wiersma zegt eigenlijk in zijn motie: kunnen we niet zo snel mogelijk zorgen dat de goede resultaten die we hebben bij de tussenevaluatie en de rest van de pilots die we gaan doen, parallel gaan oplopen naar het maken van een wetsvoorstel, zodat we in ieder geval zorgen dat dat er zo snel mogelijk ligt en studenten de zekerheid krijgen dat dat zo veel mogelijk kan in de toekomst? Dat lijkt mij een goed begaanbare weg, want die maakt voor studenten iets mogelijk waar zij voor een deel op zitten te wachten, dus die motie krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note16">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.u6">
+               <seg xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.seg7">Oké. Dank u wel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note17">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.note18">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.u7">
+               <seg xml:id="ParlaMint-NL_2020-06-04-tweedekamer-2.seg8">Volgens mij hebben we met dezelfde woordvoerders te maken voor het volgende VAO.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

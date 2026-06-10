@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2015-12-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2015-12-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 34, Session 20 (2015-12-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 34, Session 20 (2015-12-08)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="34" xml:lang="en">Meeting 34</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="20" xml:lang="en">Session 20</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.28" corresp="#TK" n="28-lower" xml:lang="en">Meeting of the 28th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2015-12-08">Sitting 2015-12-08</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="15">15 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="15">15 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="965">965 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="965">965 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2015-12-08">2015-12-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="25"/>
+               <tagUsage gi="seg" occurs="18"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="15"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-12-08">2015-12-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.head1">Basisregistratie personen</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note1">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u1">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg1">Ik heet de minister van harte welkom.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg2">Het woord is aan mevrouw Koşer Kaya. De spreektijden zijn twee minuten inclusief de moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note2">Mevrouw Koşer Kaya (D66)</note>
+            <u who="#FatmaKoşerKaya" ana="#regular topic:civil" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u2">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg3">Voorzitter. Het verstrekken van persoonsgegevens door de Staat dient samen te hangen met een overheidstaak die betrekking dient te hebben op het in standhouden van een voorziening voor burgers die onderwerp is van overheidszorg. Ik dien daarom de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note6">overwegende dat voor het verstrekken van persoonsgegevens door de Staat aan kerkgenootschappen en andere genootschappen op geestelijke grondslag niet langer voldoende rechtvaardiging bestaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note7">overwegende dat ook de Raad van State in zijn advies ten aanzien van het Besluit basisregistratie personen tot een dergelijke conclusie kwam;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note8">verzoekt de regering, zo spoedig mogelijk, maar uiterlijk binnen twee jaar, te eindigen met de verstrekking van persoonsgegevens aan genootschappen op geestelijke grondslag, al dan niet via SILA,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note10">Deze motie is voorgesteld door de leden Koşer Kaya, De Caluwé en Oosenbrug. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note11">Zij krijgt nr. kst-25764-95</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note12">Mevrouw De Caluwé (VVD)</note>
+            <u who="#IngriddeCaluwé" ana="#regular topic:civil" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u3">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg4">Voorzitter. Het project Basisregistratie Personen (BRP) kost inmiddels het drievoudige van het begrote budget en loopt flink uit de tijd. Het Bureau ICT-Toetsing (BIT) heeft in zijn advies aan de minister aangegeven dat het project tot een goed einde gebracht kan worden, mits het kabinet de adviezen van het BIT ter harte neemt. De minister heeft per brief aan de Kamer aangegeven, de adviezen van het BIT te omarmen. Uit een onderliggende ambtelijke brief bleek dit echter niet. Ik ben blij met de toezegging van de minister tijdens het AO om in januari met een brief te komen waarin hij per geadviseerde maatregel concreet zal aangeven of hij die gaat uitvoeren en, zo ja, hoe hij dat gaat doen. Wij kunnen een jaar na het verschijnen van een uiterst kritisch ICT-rapport niet overgaan tot de orde van de dag. De VVD wil dat de minister hier bovenop blijft zitten. Wij zullen de inhoud van de toegezegde brief en de uitvoering van de maatregelen zeer kritisch blijven volgen.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg5">Tot slot de SILA. Het is niet meer van deze tijd dat de overheid een uitzondering maakt voor religieuze instanties om gegevens uit de BRP te verkrijgen. Vorige maand nog heeft de Kamer zich afgevraagd hoe de AK-partij aan de adressen van Turkse Nederlanders kwam om hen een stemadvies te sturen. Dan moeten wij er nu niet mee instemmen dat religieuze organisaties die geen enkele overheidstaak uitvoeren actief persoonlijke gegevens ontvangen van de overheid. Daarom hebben wij de motie van D66 dan ook medeondertekend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note13">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u4">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg6">De minister heeft aangegeven direct te kunnen antwoorden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note14">Minister Plasterk</note>
+            <u who="#RonaldPlasterk" ana="#regular topic:immig" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u5">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg7">Voorzitter. Allereerst wil ik reageren op de opmerking van mevrouw De Caluwé dat zij met grote interesse de brief zal lezen die ik in januari de Kamer zal doen toekomen. Dat staat genoteerd. Ik ben mij daarvan bewust.</seg>
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg8">Dan resteert het advies van de regering over de motie. Ik kan tellen en ik heb de indruk dat die motie door een Kamermeerderheid is ondertekend. Toch hecht ik eraan het advies van de kant van de regering te geven. Gegevens uit de Basisregistratie Personen worden volgens het Besluit BRP gedeeld met een aantal instellingen van gewichtig maatschappelijk belang, zoals pensioenfondsen en zorgverzekeraars. Daar valt ook de SILA onder, waar organisaties met een levensbeschouwelijke grondslag bij aangesloten kunnen zijn. Dat zijn niet alleen kerken, maar bijvoorbeeld ook het Leger des Heils of de Algemene Doopsgezinde Sociëteit. Daar zouden ook het Humanistisch Verbond of andere organisaties bij aangesloten kunnen zijn. Dat leidt ertoe dat mensen als een soort service bij verhuizing worden aangeschreven en welkom geheten door de organisaties waar zij lid van zijn. Zoals in het debat al is besproken, kunnen mensen daarvan afzien wanneer zij daar geen prijs op stellen. Ik heb al toegezegd om nog eens met de SILA te bespreken dat mensen bij ieder contact dat wordt opgenomen, erop worden gewezen dat zij ervan kunnen afzien. Ik beschouw dit als een service die misschien wel miljoenen mensen krijgen en waar anderen geen last van hebben. De regering heeft niet het voornemen om dat nu te veranderen. Ik ontraad om dat toch te doen. Dat is overigens consistent met wat ik eerder in debatten en ook in het algemeen overleg met de Kamer heb gewisseld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note15">Mevrouw Koşer Kaya (D66)</note>
+            <u who="#FatmaKoşerKaya" ana="#regular topic:civil" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u6">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg9">Kan de minister mij één principieel argument geven op basis waarvan deze organisaties die gegevens zouden moeten krijgen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note16">Minister Plasterk</note>
+            <u who="#RonaldPlasterk" ana="#regular topic:immig" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u7">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg10">Het zijn organisaties van gewichtig maatschappelijk belang en er zijn miljoenen mensen die het als een service ervaren dat zij bij verhuizing een welkomstbericht krijgen van hun pensioenfonds, hun zorgverzekering en bijvoorbeeld van hun kerkgenootschap. Daar kunnen zij mee doen wat zij willen. Ik zelf niet gelovig, maar ik ben ook niet van het staatsatheïsme. Dit is een service aan burgers van diverse levensbeschouwingen. Nogmaals, als een moslimorganisatie of het Humanistisch Verbond zich erbij wil aansluiten, dan kan dat. Ik zie geen reden om deze service te stoppen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note17">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u8">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg11">Mevrouw Koşer Kaya, het gaat bij een VAO echt alleen om het indienen van moties. U mag de ingediende moties verduidelijken of daarover van gedachten wisselen, maar het is niet de bedoeling dat u de discussie die in het algemeen overleg uitgebreid aan de orde is geweest, hier dunnetjes over gaat doen. U mag nog een vraag over uw motie stellen, maar niet het debat opnieuw voeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note18">Mevrouw Koşer Kaya (D66)</note>
+            <u who="#FatmaKoşerKaya" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u9">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg12">Dat begrijp ik. Dan dient diezelfde service ook voor verenigingen te worden aangeboden. Waarom wordt dat dan niet gedaan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note19">Minister Plasterk</note>
+            <u who="#RonaldPlasterk" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u10">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg13">Omdat in Nederland "een gewichtig maatschappelijk belang" voor een hengelsportvereniging net iets anders wordt beoordeeld van voor bijvoorbeeld een kerk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note20">Mevrouw Oosenbrug (PvdA)</note>
+            <u who="#AstridOosenbrug" ana="#regular topic:civil" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u11">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg14">Ik wil de discussie niet opnieuw openen, maar door dit advies van het kabinet wordt een enorme groep mensen tekortgedaan: de lhbt'ers die netjes hebben aangegeven dat zij niks meer met de kerk te maken willen hebben, maar vervolgens toch een bericht krijgen. Dat komt vaak voor. Ik wil toch een lans voor die mensen breken. Voor hen is dit geen service, maar een belediging.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note21">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u12">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg15">Dank u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note22">Minister Plasterk</note>
+            <u who="#RonaldPlasterk" ana="#regular topic:civil" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u13">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg16">Daar wil ik graag op reageren, want mensen zijn vrijwillig lid van een kerkgenootschap. Als iemand dat lidmaatschap opzegt, vanuit welke motivatie dan ook, vervalt deze service. Dat geldt niet alleen voor lhbt'ers. Er zijn ook andere mensen die zich op enig moment hebben laten uitschrijven uit een kerkgenootschap. Ik kan mij dat ook nog herinneren. Ik begrijp dat dus heel goed, maar naar mijn mening staat dit daar wel los van. Anders wordt het een heel andere kwestie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note23">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u14">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg17">Dank u.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note24">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.note25">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.u15">
+               <seg xml:id="ParlaMint-NL_2015-12-08-tweedekamer-20.seg18">Over de ingediende moties wordt komende dinsdag gestemd.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-05-18 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-05-18 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 76, Session 16 (2021-05-18)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 76, Session 16 (2021-05-18)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="76" xml:lang="en">Meeting 76</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="16" xml:lang="en">Session 16</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-05-18">Sitting 2021-05-18</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="34">34 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="34">34 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2460">2,460 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2460">2,460 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-05-18">2021-05-18</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="105"/>
+               <tagUsage gi="seg" occurs="45"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="34"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-05-18">2021-05-18</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.head1">Medisch specialistische zorg/ziekenhuiszorg/patiëntveiligheid/medisch beroepsgeheim/kwaliteitszorg</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u1">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg1">Ik heet de leden en de minister voor Medische Zorg welkom bij het VAO Medisch specialistische zorg/ziekenhuiszorg/patiëntveiligheid/medisch beroepsgeheim/kwaliteitszorg. Dat is een voortzetting van het AO dat plaatshad op 9 november, dus een halfjaar geleden. Dat betekent dat een aantal van u dat AO niet heeft meegemaakt maar dit VAO wel meemaakt. Ik ga ervan uit dat u daar allen geen bezwaar tegen heeft. Ik kijk even rond en constateer dat dat inderdaad zo is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg2">Ik geef het woord aan mevrouw Paulusma, die namens D66 spreekt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note2">Mevrouw Paulusma (D66)</note>
+            <u who="#WiekePaulusma" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u2">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg3">Voorzitter, dank u wel. Dit is voor mij de eerste keer op deze heel bijzondere plek, maar ik vind deze gelegenheid te kort voor een maidenspeech, dus die stel ik toch nog maar even uit.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg4">Voorzitter. In het commissiedebat, waarvan u al aangaf dat dat een halfjaar geleden heeft plaatsgevonden, hebben we geregeld gesproken over, en heeft mijn partij ook aandacht gevraagd voor betere centrale registratie van op welke plek een zeldzame behandeling uitgevoerd kan worden, ook omdat wij verhalen hoorden van kinderen in schrijnende situaties die naar het buitenland afreisden omdat ze niet op de hoogte waren van wat er in Nederland kon. Daarom zal collega Van den Berg namens mij een motie indienen op dit punt. Daarnaast vindt D66 het belangrijk dat patiënten die hoogcomplexe zorg nodig hebben en het eigenlijk al moeilijk genoeg hebben, die zorg op de beste plek krijgen. Vaak vraagt dat om concentratie. Daarom een motie met collega Van den Berg.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg5">Voorzitter. Tot slot wil ik een eigen motie indienen om te zorgen dat we echt stappen gaan zetten op het gebied van samen beslissen en we daarbij gebruikmaken van het zogenaamde kijk- en luistergeld, zodat patiënten en dokters en hun familie in de spreekkamer genoeg tijd hebben om soms wel hele moeilijke besluiten te nemen over het vervolgen van zorg of misschien wel het stoppen van zorg.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note6">overwegende dat artsen door "samen beslissen" beter kunnen inspelen op de behoeften en voorkeuren van patiënten, patiënten meer keuzevrijheid krijgen en uit onderzoek blijkt dat zij daarna gemiddeld ook trouwer zijn aan hun behandeltraject;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note7">overwegende dat meer tijd en (financiële) ruimte nodig is voor professionals en patiënten om ook echt samen te kunnen beslissen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note8">verzoekt de regering om te bezien hoe tot een voldoende dekkend "kijk- en luistergeld" kan worden gekomen, waarvan het gebruik beter wordt verankerd in afspraken tussen zorgverzekeraars en zorginstellingen en tussen deze instellingen en hun zorgverleners, en de Kamer hier voor de zomer over te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note10">Deze motie is voorgesteld door het lid Paulusma.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note11">Zij krijgt nr. kst-31765-550</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note12">Mevrouw Paulusma (D66)</note>
+            <u who="#WiekePaulusma" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u3">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg6">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note13">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u4">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg7">Dank u wel, mevrouw Paulusma. Als u de motie dan hier inlevert, kunnen we zorgen dat iedereen met de motie mee kan lezen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg8">De volgende persoon op mijn sprekerslijstje is de heer Kwint, die namens de SP zijn bijdrage zal leveren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note14">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u5">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg9">Dank, voorzitter. Ik vertel niks nieuws als ik zeg dat de coronacrisis een hele hoop heeft blootgelegd, een hele hoop dingen die wij al wisten, waar het nog eens het vergrootglas overheen heeft gelegd. Dat heeft uiteraard geleid tot een aantal voorstellen over het belang van breken met het beleid van steeds minder ziekenhuizen, het belang van het breken met ieder voor zich in de ziekenhuiszorg, het belang van breken met marktwerking, én het belang van meer democratische invloed op de zorg. Vandaar de volgende voorstellen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note15">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note16">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note17">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note18">constaterende dat bij belangrijke beslissingen omtrent ziekenhuisfusies, verbouwingen, sluitingen van afdelingen en verhuizingen van locaties en afdelingen, personeel, patiënten, de gemeenteraad en het ministerie van Volksgezondheid, Welzijn en Sport weinig tot geen invloed hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note19">spreekt uit dat het onwenselijk is dat enkel ziekenhuisbestuurders en zorgverzekeraars beslissen over de toekomst van ziekenhuizen en ziekenhuisvoorzieningen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note20">verzoekt de regering om met voorstellen te komen om de aansturing van ziekenhuizen te democratiseren en dit op te nemen in een zorgspecifieke fusietoets,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note21">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note22">Deze motie is voorgesteld door het lid Kwint.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note23">Zij krijgt nr. kst-31765-551</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note24">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u6">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg10">Dan een motie over het sluiten van ziekenhuizen en de problemen die dat heeft veroorzaakt. Dat hebben wij volgens mij allemaal kunnen zien toen de ic's overvol waren.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note25">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note26">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note27">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note28">constaterende dat de afgelopen jaren veel ziekenhuisvoorzieningen zijn verdwenen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note29">spreekt uit dat het onwenselijk is dat ziekenhuisvoorzieningen gesloten worden, aangezien de druk op de ziekenhuizen hoog blijft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note30">verzoekt de regering om sluitingen van ziekenhuisvoorzieningen niet meer toe te staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note31">verzoekt de regering om te onderzoeken of ziekenhuisvoorzieningen die inmiddels gesloten zijn weer heropend kunnen worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note32">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note33">Deze motie is voorgesteld door het lid Kwint.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note34">Zij krijgt nr. kst-31765-552</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note35">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u7">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg11">Dan een motie over het belang van meer samenwerking en minder onderlinge concurrentie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note36">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note37">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note38">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note39">constaterende dat door de coronapandemie ziekenhuizen succesvol samenwerken om de zorg zo goed mogelijk te organiseren voor patiënten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note40">van mening dat we uit de coronapandemie kunnen leren dat marktwerking wederom onsuccesvol is gebleken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note41">verzoekt de regering om de concurrentie op te schorten en met voorstellen te komen voor een nieuw model waarin ziekenhuizen samenwerken in plaats van concurreren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note42">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note43">Deze motie is voorgesteld door het lid Kwint.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note44">Zij krijgt nr. kst-31765-553</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note45">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u8">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg12">Ten slotte nog een motie over de mogelijke groei van privéklinieken wanneer de reguliere zorg weer wordt opgestart. Dat is een groot zorgpunt van onze fractie, dat zal u niet verbazen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note46">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note47">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note48">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note49">overwegende dat er lange wachtlijsten kunnen ontstaan wanneer de reguliere zorg verder wordt opgestart;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note50">van mening dat het onwenselijk is dat er meer privéklinieken starten wanneer er wachtlijsten ontstaan in de ziekenhuizen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note51">constaterende dat de zorg in privéklinieken niet altijd vergoed wordt door de zorgverzekering, waardoor mensen geconfronteerd kunnen worden met hoge rekeningen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note52">verzoekt de regering om samen met ziekenhuizen met voorstellen te komen hoe wachtlijsten in de ziekenhuizen zo goed als mogelijk kunnen worden teruggedrongen, zodat mensen niet gedwongen worden om naar een privékliniek te gaan, en de Kamer hierover spoedig te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note53">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note54">Deze motie is voorgesteld door het lid Kwint.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note55">Zij krijgt nr. kst-31765-554</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note56">Bijna precies binnen de tijd. Dank u wel, meneer Kwint.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note57">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u9">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg13">Maar we lossen zo veel problemen op als we dit gewoon gaan doen, voorzitter. Dat scheelt op lange termijn ook heel veel tijd hier.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note58">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u10">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg14">Uhm, uhm. Als derde en laatste persoon die een bijdrage zal leveren aan dit debat, mevrouw Van den Berg namens het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note59">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u11">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg15">Dank u wel, voorzitter. Sommige hoogcomplexe behandelingen komen relatief weinig voor. Soms zien we nog verschillen in kwaliteit; mevrouw Paulusma refereerde er ook al aan. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note60">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note61">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note62">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note63">overwegende dat het voor een patiënt in de regel beter is hoogcomplexe laagvolumebehandelingen te concentreren in een of enkele centra;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note64">verzoekt de regering met zorgverzekeraars en zorgaanbieders te inventariseren in hoeverre de kwaliteit van hoogcomplexe laagvolumeplanbarezorg in ons land gewaarborgd is door optimale concentratie, en aanbevelingen te doen voor verbetering daar waar nodig;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note65">verzoekt de regering daarnaast in kaart te brengen waar en met welke aantallen hoogcomplexe laagvolumezorg nu geleverd wordt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note66">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note67">Deze motie is voorgesteld door de leden Van den Berg en Paulusma.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note68">Zij krijgt nr. kst-31765-555</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note69">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u12">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg16">Voorzitter. Mevrouw Paulusma refereerde er ook al aan: we zien zeker bij zeer zeldzame behandelingen dat mensen vaak niet eens weten waar ze de zorg kunnen krijgen. Het is voorgekomen dat mensen naar het buitenland zijn gegaan omdat ze niet wisten dat er een specialistische behandeling hier in Nederland voorhanden was, bijvoorbeeld kinderlongchirurgie. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note70">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note71">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note72">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note73">overwegende dat de vindbaarheid van expertisecentra voor patiënten vergroot moet worden en umc's daaraan vanuit hun maatschappelijke rol werken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note74">constaterende dat dit bijvoorbeeld geldt voor zeldzame long- en luchtwegoperaties bij kinderen, waarbij jonge patiënten naar het buitenland gaan omdat zij niet weten dat deze ook in Nederland worden uitgevoerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note75">overwegende dat een eenduidige en volledige centrale registratie een middel is om inzichtelijk te maken welke zeldzame aandoening waar kan worden behandeld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note76">verzoekt de regering met zorgverzekeraars en zorgaanbieders te inventariseren op welke wijze centrale registratie van waar welke zeldzame behandeling wordt aangeboden, een bijdrage kan leveren aan betere vindbaarheid van deze behandelingen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note77">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note78">Deze motie is voorgesteld door de leden Van den Berg en Paulusma.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note79">Zij krijgt nr. kst-31765-556</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note80">Voor u het spreekgestoelte verlaat: meneer Kwint heeft nog een vraag voor u.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note81">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u13">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg17">Ik heb een vraag over de vorige motie. Mevrouw Van der Berg spreekt over "centra". Wat voor centra moet ik me daarbij voorstellen? Gaat het haar gewoon om ziekenhuizen? Of gaat het om privéklinieken? Ik kan me dan namelijk voorstellen dat je mensen nodeloos op kosten jaagt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note82">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u14">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg18">Nee, dat sowieso niet. We maken een groot verschil tussen de acute zorg, waarvan wij ook vinden dat die echt bereikbaar en ook dichtbij in de regio moet zijn, en de planbare zorg. Ik noem even als voorbeeld het Antoni van Leeuwenhoekziekenhuis. Dat is een centrum met enorm veel expertise op het gebied van oncologie. Daar zijn we allemaal blij mee, want als we echt een zwaar probleem hebben, dan weten we dat het Antoni van Leeuwenhoekziekenhuis dé locatie is om naartoe te gaan. Wij willen dat dat in kaart wordt gebracht voor wat ik dan noem "meer hoogcomplexe, maar laagvolume"-behandelingen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note83">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u15">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg19">Dan hebben we het specifiek niet over privéklinieken, maar over het publieke aanbod van specialistische zorg?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note84">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u16">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg20">Ja. Zeker bij privéklinieken denk ik bij wijze van spreken gelijk ook aan cosmetische ingrepen die helemaal niet vergoed worden. Het gaat ons echt om het derdelijnsniveau, dan wel om behandelingen bij zeldzame ziektes. Het voorbeeld van de kinderziektes dat ik eerder gaf, was een ander voorbeeld daarvan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note85">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u17">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg21">Dank u wel, mevrouw Van den Berg. We zijn aan het einde gekomen van de termijn van de Kamer. Ik wil de vergadering graag vijf minuten schorsen om de minister voor Medische Zorg de gelegenheid te geven om haar reactie voor te bereiden.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note86">De vergadering wordt van 17.39 uur tot 17.45 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note87">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u18">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg22">We gaan dit VAO voortzetten. Ik geef graag het woord aan de minister voor Medische Zorg, mevrouw Van Ark.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note88">Minister Van Ark</note>
+            <u who="#TamaravanArk" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u19">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg23">Voorzitter, dank u wel. Ik kijk terug op een mooi debat op 9 november. Het is goed om het nu af te ronden. Ik zal de moties van een appreciatie voorzien.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg24">Ik begin met de motie op stuk nr. 550, van mevrouw Paulusma. Het is altijd heel leuk om iemand te feliciteren met een maidenspeech, maar ik begrijp heel goed dat zij een ander debat daarvoor uitkiest. Ik hoop dat ik daar wellicht bij kan zijn. Haar motie gaat over wat "kijk- en luistergeld" wordt genoemd. Ik ben het zeer met haar eens dat het belangrijk is dat je dat gesprek voert in de spreekkamer en dat daar ook ruimte voor is. In de medisch-specialistische zorg hebben we sinds 2014 een zorgactiviteit "kijk- en luistergeld". Die kan sinds 2018 worden ingezet. Er zijn ook langere huisartsenconsulten mogelijk. Ik zou het volgende met deze motie willen doen en daarna wil ik haar oordeel Kamer geven. Ik wil een overzicht maken van de bestaande prestaties rondom kijk- en luistergeld en ik wil dan ook bekijken welke informatie ik kan verzamelen om te zien in hoeverre daadwerkelijk gebruik wordt gemaakt van deze prestaties. Dan zouden we kunnen kijken welke vervolgstappen nodig zijn. Dat past ook bij de gedachte van passende zorg. Daarmee geef ik deze motie oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg25">De motie op stuk nr. 551, van de heer Kwint, ontraad ik. Ik wil daar wel bij zeggen dat we natuurlijk wel stappen hebben gezet met het vorige kabinet, onder andere door zorgorganisaties te gebieden om bij wijzigingen in de zorg ook in gesprek te gaan met belanghebbenden. Dat gezegd hebbende ontraad ik deze motie, want dit is een thema dat aan een volgend kabinet is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg26">In de motie op stuk nr. 552, die ook een spreekt-uitgedeelte heeft waar ik mij niet over zal uitlaten, staat dat we niets meer moeten sluiten en moeten heropenen wat gesloten is. Ik begrijp heel goed — dat is het verhaal dat achter deze motie zit en dat ook in het debat ruim aan de orde kwam — dat als je iets verandert in de zorg, dat heel veel oproept. Dat roept zorgen op. Dat roept emoties op. Ik begrijp dat dat gebeurt. Tegelijkertijd is het ook van belang dat we kijken waar het daadwerkelijk om gaat. Het gaat dan om de beschikbaarheid van zorg. Ik vind het belangrijk dat die voldoende verzekerd is. Daar ben ik op aanspreekbaar en daar voel ik mij ook verantwoordelijk voor. De vragen over hoe je die zorg zo dichtbij mogelijk wil organiseren en soms ook moet concentreren, zijn vragen voor de toekomst. Het is dus aan een volgend kabinet om te kijken hoe en op welke manier die ingevuld moeten worden. Daarom ontraad ik deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg27">Ik zou de heer Kwint willen vragen of hij de vierde motie aan zou willen houden, en wel om het volgende. Hij heeft het in zijn termijn over "privéklinieken" gehad. Dat is een term die ik wat lastig te duiden vind in ons zorglandschap, maar natuurlijk wel vanuit ons normale taalgebruik. Het gaat om de vraag wat verzekerde zorg is. Verzekerde zorg is publiek toegankelijk. Die zorg kan plaatsvinden in zelfstandige behandelcentra en in ziekenhuizen. Beide zijn voor mij van wezenlijk belang. Ik deel met de heer Kwint het belang dat die ook goed toegankelijk moeten zijn. Ik heb in het laatste coronadebat aangegeven dat ik in de week na Pinksteren het plan naar de Kamer stuur, waarin ook op de inhaalzorg wordt ingegaan. Daar gaan we ook in op de vraag hoe die ziekenhuizen en zelfstandige behandelcentra, maar ook de huisartsen en de wijkverpleging, samenwerken. Wellicht zou hij die motie willen aanhouden totdat die brief er is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note89">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u20">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg28">Ik denk dat u het dan hebt over de vijfde motie, de motie op stuk nr. 554.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note90">Minister Van Ark</note>
+            <u who="#TamaravanArk" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u21">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg29">O ja, sorry. Ik ben alvast doorgehobbeld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note91">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u22">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg30">Dan hebben we de vierde motie nog gemist, de motie op stuk nr. 553.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note92">Minister Van Ark</note>
+            <u who="#TamaravanArk" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u23">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg31">O, excuus. Ik ben alvast naar de motie op stuk nr. 554 gegaan. Dit was inderdaad de appreciatie van de motie op stuk nr. 554. Ik zou daarbij aan de heer Kwint willen vragen of hij die zou willen aanhouden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg32">De motie op stuk nr. 553 ontraad ik. Het gaat om die samenwerking, maar die is niet afhankelijk van bepaalde modellen. Overigens ligt de discussienota Zorg voor de Toekomst er nog, maar ook dat is aan een volgend kabinet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note93">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u24">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg33">Ik zag meneer Kwint knikken toen minister Van Ark vroeg of hij de motie op stuk nr. 554 wilde aanhouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note94">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u25">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg34">Ja, dat is geen probleem. Ik had wel een vraag over de laatste motie. De minister zegt dat het niet systeemafhankelijk is of ziekenhuizen gaan samenwerken. Maar als het verdienmodel van een ziekenhuis er grotendeels op gebaseerd is dat het aantrekkelijk voor ze is als een patiënt niet naar de buren gaat, omdat zij iets kunnen doen waarmee ze geld verdienen, dan is de mate van samenwerking in de ziekenhuiszorg wel degelijk afhankelijk van de manier waarop ziekenhuizen geld verdienen. Die twee dingen kun je toch niet helemaal los van elkaar zien?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note95">Minister Van Ark</note>
+            <u who="#TamaravanArk" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u26">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg35">Ik denk dat het gewoon niet past bij de demissionaire status die het kabinet heeft om een hele ideologische discussie te gaan voeren over de manier waarop de zorg is georganiseerd. Ik constateer dat de manier waarop de zorg nu georganiseerd is, inderdaad gaat over private organisaties die zich bewegen in het publieke domein met publieke randvoorwaarden. Daar zitten elementen in, bijvoorbeeld van concurrentie, die ook tot gevolg hebben dat er sprake is van keuze- en kwaliteitsvergroting. Mogelijk kennen die ook nadelen. Ik denk dat een volgend kabinet zich daar zeker over zal moeten uitspreken. Maar tijdens de crisis in het afgelopen jaar hebben we gezien dat er, als het nodig is, aan die samenwerking niks in de weg staat. Sterker nog, juist vanuit het publieke stelsel dat we hebben, kunnen we die samenwerking faciliteren. Dat element komt overigens ook terug in de brief waar ik het zojuist over had bij de bespreking van die andere motie. Desondanks ontraad ik deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note96">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u27">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg36">Op verzoek van de heer Kwint stel ik voor zijn motie (31765, nr. 554) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg37">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note97">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u28">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg38">Dan gaan we door naar de motie op stuk nr. 555.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note98">Minister Van Ark</note>
+            <u who="#TamaravanArk" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u29">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg39">Voorzitter. De motie op stuk nr. 555 ging over een punt waarvoor mevrouw Van den Berg in het algemeen overleg veel aandacht heeft gevraagd. Dat was terecht. Dit was het vraagstuk van de hoogcomplexe laagvolumezorg. Ik wil deze motie oordeel Kamer geven. Het is wederom een onderzoek, en daarom wil ik graag kijken of er alternatieven zijn om op basis van bestaande data aan de slag te gaan. Zorgverzekeraars hebben nu eenmaal een zorgplicht. Ze moeten ervoor zorgen dat er voldoende zorg wordt ingekocht. Op dit moment gebruiken de zorgverzekeraars de bestaande volumenormen als uitgangspunt. Ik begrijp de motie ook in het licht van het debat dat we hebben gehad. Daarom geef ik deze motie oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg40">Dan de motie van mevrouw Van den Berg en mevrouw Paulusma op stuk nr. 556, die gaat over de expertisecentra. Ik denk dat het heel belangrijk is dat je weet waar je terechtkan als je een heel specifieke ziekte hebt. De voorbeelden die werden genoemd in het algemeen overleg, zoals dat toen nog heette, waren inderdaad schrijnend. Deze motie zegt: ga aan de slag met zorgverzekeraars en met zorgaanbieders. Ik wijs erop dat er op dit moment zo'n 348 expertisecentra zijn voor zeldzame ziektes die bekend zijn. Die centra zitten voornamelijk bij de umc's. Er is een website van de patiëntenvereniging VSOP: zorgvoorzeldzaam.nl. Die geeft dat overzicht ook. Tegelijkertijd kwamen de voorbeelden in het algemeen overleg natuurlijk niet voor niets, dus er is ook sprake van een stuk bekendheid. Als ik de motie zo mag opvatten dat ik met zorgverzekeraars in gesprek ga over de vraag hoe we de bekendheid kunnen vergroten en of er nog witte vlekken in het systeem zitten, dan kan ik deze motie zeker oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note99">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u30">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg41">Dank u wel. Mevrouw Van den Berg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note100">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u31">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg42">Daar heb ik toch even een vraag over. Ik heb hier specifiek gevraagd naar de registratie van de ziektes als zodanig. Dan krijg je er namelijk beter zicht op, want er zijn 348 expertisecentra en dat zijn er heel erg veel. Er is niet altijd evenveel zicht op waar welke ziekte wel of niet wordt geregistreerd. Zou de minister dat misschien mee willen nemen? Wij hebben vorige week een procedurevergadering gehad. Ik heb toen gevraagd of we toch de antwoorden kunnen krijgen op het verzoek in het schriftelijk overleg van oktober over de kwaliteitsregistraties. Kan de minister dat meenemen in de brief met die beantwoording?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note101">Minister Van Ark</note>
+            <u who="#TamaravanArk" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u32">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg43">Ik wil er inderdaad in die geest naar kijken. Het gaat er mij om — ik denk dat mevrouw Van den Berg dat deelt, want zij strijdt ook tegen bureaucratie — dat we geen dingen dubbel gaan doen. Dat is het belangrijkste punt dat ik wil maken bij deze motie. Maar ik wil zeker kijken of ik er nog een plus op kan zetten, zoals in de motie bedoeld. Dan kan ik daarop terugkomen in de beantwoording van de schriftelijke vragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note102">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u33">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg44">Dank u wel. Dank aan de minister en aan de leden.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note103">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note104">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.u34">
+               <seg xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.seg45">Over zes van deze zeven moties zal aanstaande dinsdag gestemd worden. Voordat we naar het volgende VAO gaan, schors ik kort.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-18-tweedekamer-16.note105">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

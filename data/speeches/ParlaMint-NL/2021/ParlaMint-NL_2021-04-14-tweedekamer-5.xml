@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-04-14 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-04-14 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 68, Session 5 (2021-04-14)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 68, Session 5 (2021-04-14)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="68" xml:lang="en">Meeting 68</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="5" xml:lang="en">Session 5</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-04-14">Sitting 2021-04-14</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="62">62 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="62">62 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3174">3,174 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3174">3,174 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-04-14">2021-04-14</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="131"/>
+               <tagUsage gi="seg" occurs="77"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="62"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-04-14">2021-04-14</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.head1">Wijziging Besluit houders van dieren</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg1">Wij gaan snel door met het VSO Wijziging Besluit houders van dieren vanwege een aanpassing van het verbod op het gebruik van stroomstootapparatuur. De aanvrager van dit VSO was de heer Boswijk van het CDA. Het woord is dus aan u, meneer Boswijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note2">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg2">Ik zat hier een beetje ontspannen totdat mijn voorganger ineens achter me ging zitten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg3">Voorzitter. Ik loop nog niet zo heel lang rond in deze Kamer, maar in de korte tijd dat ik hier zit, heb ik wel gehoord over de stijging van de ODE-tarieven en de zorgen in de tuinbouwsector. Nee, wacht, sorry, ik zit helemaal bij het verkeerde; ik zit nu bij het VSO over de stroomstootapparatuur. Daar gaan we al!</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg4">Voorzitter. De minister heeft aangegeven dat er geen gezaghebbende wetenschappelijke publicaties zijn die het gebruik van stoomstootapparatuur rechtvaardigen. Ik wil haar wijzen op een zeer recent artikel dat geplaatst is in hetzelfde vakblad als waarnaar de minister verwijst. Daarin wordt gesteld dat dit artikel niet kan worden gebruikt als argument om het verbod op die e-halsbanden te rechtvaardigen. Is de minister bekend met dit artikel? Zo ja, wat is dan haar reactie daarop?</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg5">Een gecontroleerd verbod met een uitzondering voor specifieke situaties heeft altijd de voorkeur van het CDA gehad boven het voorgestelde algehele verbod. Ik zal daarom de motie steunen die mijn collega van de SGP later zal indienen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note3">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg6">Dank u wel. Dan is nu het woord aan de heer De Groot van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note4">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg7">Dank u wel, voorzitter. D66 steunt het voorstel van de minister om een einde te maken aan deze methodes. Er zijn nog uitzonderingen voor het leger en voor de politie. Onlangs kwamen er afschuwelijke beelden naar buiten van hoe er nog met politiehonden wordt omgegaan. Het wordt uitgefaseerd, maar met die beelden in het achterhoofd vragen wij de minister of zij daar toch wat strenger op wil toezien. Kan zij kijken of er ook in die sectoren naar alternatieven kan worden uitgeweken zodat we dit instrument, dat feitelijk niet nodig is, niet meer hoeven te gebruiken en we die honden ook een mooi leven kunnen geven?</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg8">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note5">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg9">Dank. Dan vraag ik de leden toestemming te verlenen aan de heer Graus om hier het woord te voeren. Hij was niet bij het debat, maar hij wil vandaag wel het woord voeren bij dit VSO. Is dat in orde? Het woord is dan aan de heer Graus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note6">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg10">Ik was wel bij de debatten aanwezig, maar ik doe nooit mee aan schriftelijke overleggen, al vijftien jaar niet. Ik zal u nu niet gaan uitleggen waarom niet. De reden is dat ik dat zinloos vind. Maar ik heb wel meegedaan aan de debatten …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note7">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg11">U heeft helemaal gelijk. Het gaat hier over een schriftelijk overleg. Excuus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note8">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg12">Precies. Daarom. Ik houd me altijd netjes aan de regels. Bedankt in ieder geval dat ik ook hier even mag spreken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg13">Ik heb één korte motie. Ik heb al eerder een soortgelijke motie ingediend. Ik heb toen gevraagd om te onderzoeken welke hulp- en trainingsmiddelen bij dieren dieronvriendelijk zijn. Ik ga het nu toch iets scherper stellen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note9">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note10">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note11">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note12">verzoekt de regering een verbod in te stellen op alle dieronvriendelijke hulp- en trainingsmiddelen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note13">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note14">Deze motie is voorgesteld door het lid Graus.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note15">Zij krijgt nr. kst-28286-1175</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note16">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg14">We hebben het nu over stroombanden; dat martelwerktuig voor dieren die hypersensitief zijn, die nog meer ervaren dan wij. Maar laten we ook eens kijken naar wat er allemaal gebeurt in de paardenwereld. Het is schrikbarend. Echt waar. Het is niet normaal. Ik zou eigenlijk ook nog moeten zeggen: alle hulpmiddelen die worden gebruikt bij het op of van de vrachtwagen krijgen van dieren. Wat daarbij gebeurt, is ook schandalig. Het is gewoon zware dierenmishandeling. Het is al bij wet verboden. Het is dus eigenlijk te triest voor woorden dat ik deze motie moet indienen, want met de huidige wetgeving zou daar nu al keihard tegen kunnen worden opgetreden, maar het gebeurt niet. Vandaar dat ik het even wat scherper stel.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg15">Ik moet de motie dadelijk bij u afgeven, toch, voorzitter?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note17">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg16">Ja, graag hier.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note18">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg17">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note19">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg18">Dank, voorzitter. Eigenlijk is de stroomhalsband een martelwerktuig waar we zo snel mogelijk vanaf willen. Gelukkig is het grootste deel van de Kamer het daarover eens. De Partij voor de Dieren steunt ook het voorstel van de minister. Dank daarvoor. Toch nog een drietal moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note20">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note21">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note22">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note23">constaterende dat het gebruik van de stroomhalsband voor honden door particulieren medio 2021 verboden zal worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note24">overwegende dat het niet uit te leggen is dat deze pijnlijke en wrede stroomhalsbanden — ondanks het voorgenomen verbod — nog altijd gewoon gekocht en dus gebruikt kunnen blijven worden door particulieren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note25">verzoekt de regering om, zodra het gebruik van de stroomhalsband door particulieren verboden wordt, ook de verkoop van deze apparatuur te verbieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note26">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note30">constaterende dat het gebruik van de stroomhalsband voor honden medio 2021 verboden zal worden, waarbij een uitzondering geldt voor het gebruik van stroomhalsbanden voor honden die daar in het verleden mee getraind zijn voor bepaalde overheidstaken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note31">overwegende dat stroomhalsbanden angst, pijn en stress veroorzaken bij honden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note32">overwegende dat diverse internationale studies hebben aangetoond dat het gebruik van stroomhalsbanden geen voordelen oplevert ten opzichte van niet-aversieve trainingsmethoden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note33">verzoekt de regering om geen uitzonderingen toe te staan op het gebruik van stroomstootapparatuur voor de training van honden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note34">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note35">Deze motie is voorgesteld door het lid Wassenberg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note36">Zij krijgt nr. kst-28286-1176</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note37">Deze motie is voorgesteld door het lid Wassenberg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note38">Zij krijgt nr. kst-28286-1177</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note39">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg19">Mijn laatste motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note40">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note41">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note42">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note43">overwegende dat uit uitzendingen van Zembla, Undercover in Nederland en Rambam blijkt dat dierenmishandeling door leden van de Koninklijke Nederlandse Politiehond Vereniging (KNPV) al jarenlang een structureel probleem is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note44">constaterende dat leden van deze vereniging honden nog steeds veelvuldig met stroomstootapparatuur trainen en dat daarop niet of nauwelijks toezicht is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note45">overwegende dat de KNPV de structurele dierenmishandelingen nooit heeft aangepakt en dat er geen vertrouwen is dat dit nu wel zal gebeuren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note46">constaterende dat politie en Defensie de wens hebben geuit om de mogelijkheid van een gezamenlijke trainingsschool voor overheidshonden te verkennen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note47">verzoekt de regering de mogelijkheid van een gezamenlijke trainingsschool voor overheidshonden te verkennen, en de Kamer hierover zo spoedig mogelijk te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note48">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note49">Deze motie is voorgesteld door het lid Wassenberg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note50">Zij krijgt nr. kst-28286-1178</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note51">Dank u wel. Als ik het goed begrijp, heeft de heer Graus een vraag over uw tweede motie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note52">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg20">Ja, en misschien wel over de twee laatste moties. Ik steun de heer Wassenberg ook hierin natuurlijk, maar mijn motie gaat veel verder. Die zegt gewoon: alles moet verboden worden. Ik wil de heer Wassenberg daar wel op attent maken. We moeten niet vergeten dat de dierenpolitie daar allang mee bezig is. Een van de hoogste politiechefs heeft mij al maanden geleden — toen speelde dat, maar het heeft nog een keer gespeeld — toegezegd om hierbij alles uit te faseren. Defensie, dat ik een werkbezoek heb gebracht, is al gestopt. Dus Defensie is totaal gestopt met de stroomhalsbanden. Ik ben daar zelf geweest met twee hondengedragsdeskundigen uit het land: eentje uit het zuiden, eentje uit het westen. Die hebben dat ook gezien. We zijn daar echt gaan controleren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note53">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg21">Wat is uw vraag?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note54">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg22">Het gaat erom dat de heer Wassenberg weet dat dit allemaal al gebeurt. Er wordt al hard aan gewerkt om hier een einde aan te maken voor de overheidsdiensten. Dat wilde ik hier zeggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note55">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:defen" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg23">Daar kan ik wel op reageren. Ik ben het eens met de heer Graus, maar we zijn hier als Kamer om die regels vast te stellen. Dat er ontwikkelingen zijn bij zowel de politie — daarvan ben ik op de hoogte; ik praat met dezelfde mensen als de heer Graus — als Defensie, is heel belangrijk. Maar wij zijn hier om meteen de ondergrens te bepalen en vast te leggen dat we het niet gaan doen. Al die ontwikkelingen steunen wij. Wij als Kamer kunnen dat soort bewegingen ook steunen door te zeggen: we accepteren het niet meer als Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note56">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg24">Dank. De heer Bisschop, SGP. Aan u het woord. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note57">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg25">Voorzitter, dank u wel. Elke vorm van dierenmishandeling verdient een keiharde bestraffing en aanpak. Daar moet paal en perk aan gesteld worden. Dat impliceert ook het nodige toezicht en een adequate reactie op meldingen. Alleen, een stroomhalsband, een elektrische halsband of een elektrische erfafscheiding horen daar niet per definitie bij. Natuurlijk kun je daar misbruik van maken, en dat moet je aanpakken, maar het gebruik daarvan wordt daardoor niet uitgesloten. Vandaar twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note58">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note59">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note60">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note61">overwegende dat laagenergetische halsbanden veel minder welzijnsrisico's met zich meebrengen dan hoogenergetische halsbanden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note62">verzoekt de regering een uitzondering voor laagenergetische halsbanden in overweging te nemen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note63">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note64">Deze motie is voorgesteld door de leden Bisschop en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note65">Zij krijgt nr. kst-28286-1179</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note66">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg26">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note67">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note68">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note69">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note70">constaterende dat het voorgelegde ontwerpbesluit geen onderbouwing geeft van het besluit om ook elektronische erfafscheiding te verbieden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note71">overwegende dat elektronische erfscheiding voor honden voorspelbaar is, waardoor volgens de literatuur nauwelijks sprake is van negatieve welzijnseffecten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note72">overwegende dat elektronische erfafscheiding een wezenlijke bijdrage levert aan onder meer het voorkomen van aanrijdingen met honden, omdat er in verschillende situaties geen goede alternatieven zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note73">verzoekt de regering in het voorliggende besluit een uitzondering voor elektronische erfafscheiding op te nemen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note74">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note75">Deze motie is voorgesteld door de leden Bisschop en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note76">Zij krijgt nr. kst-28286-1180</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note77">Dank. De heer Graus heeft een vraag?</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note78">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg27">Er luisteren ook mensen mee die volledig onwetend zijn. Hier wordt gezegd dat een stroomhalsband niet valt onder dierenmishandeling, terwijl de ter zake deskundigen, die er vaak acht tot twaalf jaar voor gestudeerd hebben — dat hebben u en ik niet, meneer Bisschop — zeggen dat het wel dierenmishandeling is. Als het geen mishandeling zou zijn, zou je het ook voor kinderen kunnen inzetten, om ervoor te zorgen dat ze niet buiten het erf gaan. Dus geloof me: het is dierenmishandeling. Bij mensen wordt stroom enkel ingezet als marteltuig. Dus waarom zou het bij dieren, die veel hypersensitiever zijn dan de homo sapiens, geen mishandeling zijn? Geloof me: het is dierenmishandeling. Dat moet wel goed in de notulen komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note79">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg28">Deze discussie hebben we eerder gevoerd. Waarom geen stroomhalsband bij kinderen? Ja, je kunt je ook afvragen waarom je kinderen niet aan een riempje uitlaat. Dat is een wat wonderlijke vergelijking, zou ik zeggen. Als er sprake is van misbruik, dan hoort daartegen opgetreden te worden, maar dat sluit gepast en verantwoord gebruik wat ons betreft niet uit.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg29">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note80">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg30">Dank u wel. Dan is tot slot het woord aan mevrouw Beckerman van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note81">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg31">Dank u wel, voorzitter. De SP-fractie staat positief tegenover de voorstellen van het kabinet ten aanzien van de stroomstootapparatuur. We hadden een motie voorbereid die heel erg lijkt op die van de heer Wassenberg. Omdat er enige nuance in zit, dien ik die wel in, om te kijken of de minister misschien wel mee kan gaan in deze verwoording. Dan kijken we achteraf hoe we dat netter kunnen krijgen, want wij willen natuurlijk geen moties stelen. We kijken even naar het oordeel, ook in overleg met de heer Wassenberg.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note82">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note83">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note84">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note85">constaterende dat het verbod op het gebruik van stroomstootapparatuur een flinke stap in de goede richting is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note86">overwegende dat hondeneigenaren logischerwijs zouden kunnen concluderen dat het gebruik van deze middelen toegestaan is wanneer deze in de winkel te koop zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note87">verzoekt de regering de verkoop van stroomstootapparatuur te verbieden dan wel uit te faseren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note88">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note89">Deze motie is voorgesteld door het lid Beckerman.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note90">Zij krijgt nr. kst-28286-1181</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note91">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg32">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note92">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg33">Dank u wel. Dan zijn we hiermee aan het einde gekomen van de inbreng van de Kamer. Ik schors voor enkele ogenblikken, en dan gaan we luisteren naar de minister en haar beantwoording.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note93">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note94">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg34">Ik geef de minister het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note95">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg35">Dank u wel, voorzitter. Eerst de vraag van de heer Boswijk of ik "het artikel" ken. Er zijn best veel artikelen, dus het is altijd weer even zoeken wat "het artikel" is. Ik zal toch wat meer informatie moeten hebben om te weten welk artikel hij precies bedoelt. Daartegenover staat dat er echt een overdaad aan wetenschappelijke artikelen is die het verbod ondersteunen. Ik ken het artikel niet, want ik weet niet precies welk artikel het is, maar als daarin zou staan dat dat anders is, dan geloof ik niet dat één artikel de overdaad aan andere artikelen teniet kan doen. Vandaar.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg36">Dan de vragen van de heer … De Groot. Ik vergeet helemaal zijn achternaam! Ik begin een beetje … De vraag van de heer Tjeerd de Groot was of ik de beelden van die politiehonden ken en of ik daar stengere actie op zou willen zetten. Ik ben bekend met die beelden. Het zijn inderdaad echt geen fraaie beelden, en dan druk ik mij zachtjes uit. Die lijken te wijzen op dierenmishandeling, en dierenmishandeling is strafbaar, maar het toezicht hierop ligt bij de minister van JenV. Hij is dus ook echt degene die daarover gaat.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg37">Dan de motie op stuk nr. 1175, de motie van de heer Graus over het verbod op niet-diervriendelijke trainingsmethoden. Eerder heeft de heer Graus een motie ingediend om te vragen om te onderzoeken wat die dieronvriendelijke trainingsmethoden zijn, want daar kun je natuurlijk best een discussie over voeren. Dat onderzoek gaan we nu ook uitvoeren. Het zou dus een beetje vroeg zijn om, voordat we het onderzoek hebben gedaan, nu gelijk te zeggen dat het allemaal verboden moet worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note96">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg38">Ik doe dat ook om druk uit te oefenen, want dat moeten we echt doen. Ik zal deze motie dus even aanhouden, als de minister mij dat toestaat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note97">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg39">Dat is prima.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note98">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg40">Op verzoek van de heer Graus stel ik voor zijn motie (28286, nr. 1175) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg41">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note99">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg42">Ik heb zomaar het idee dat de heer De Groot nog een vraag heeft over het antwoord van de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note100">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg43">Ja, het is altijd wat onbevredigend als wordt verwezen naar een collega-minister, want wij spreken hier met het kabinet. Is de minister dan bereid om deze beelden in ieder geval onder de aandacht van haar collega te brengen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note101">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg44">Ik zal het verzoek van de heer De Groot overbrengen aan mijn collega Grapperhaus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note102">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg45">Dan gaan we naar de motie op stuk nr. 1176.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note103">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:trade" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg46">Ja. De eerste motie wordt dus aangehouden. Op de tweede motie, de motie op stuk nr. 1176 van de heer Wassenberg om de verkoop van die apparatuur te verbieden, ga ik wat formeel reageren, maar dat is wel de werkelijkheid. Dat is een beperking van het vrije verkeer van goederen. Dat kan niet zomaar even eenzijdig door één lidstaat worden doorgevoerd. Daarvoor moet je ook noodzakelijkheid en proportionaliteit in het algemeen onderbouwen. Dat is in dit geval echt ongelofelijk lastig. Ik moet deze motie dus ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note104">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg47">De heer Wassenberg over de motie op stuk nr. 1176.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note105">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg48">Dat is onbevredigend. We hebben dezelfde discussie gezien bij de lijmplankjes: het gebruik is verboden maar de verkoop mag wel gewoon plaatsvinden. Is de minister het met me eens dat het gewoon heel onbevredigend is dat je dat martelwerktuig — want zo noem ik het toch — terecht niet mag gebruiken maar wel in de winkel mag kopen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note106">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg49">Ik ga erover of de stroomhalsband wordt toegestaan of niet. Volgens mij heb ik daarover duidelijk aangegeven dat ik dit niet wil verbieden. Wij moeten dat met elkaar hier regelen. Dat kunnen wij ook regelen. Je kan allerlei kwalificaties geven bij wat je ervan vindt dat dit nog verkocht mag worden, maar de realiteit is dat dit niet zomaar te verbieden is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note107">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg50">Afsluitend. Ik houd de motie niet aan, maar ik vraag de minister dan toch wel om alles op alles te zetten om in Europees verband te zorgen dat we dit kunnen uitfaseren. Dat zal niet van vandaag op morgen geregeld zijn, maar ik vraag de minister om zich daar echt voor in te zetten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note108">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u41">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg51">Ik moet mij in Europees verband voor heel veel dingen inzetten en dat doe ik ook, juist ook op het terrein van dierenwelzijn. Er komen in Europa nu ook weer allerlei zaken rondom dierenwelzijn op de agenda. Ik zeg eerlijk dat dit dan niet de hoogste prioriteit heeft. Er zijn andere zaken rondom dierentransport et cetera waar ik meer krediet in wil stoppen; laat ik het zo zeggen. Ik moet deze motie dus ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note109">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u42">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg52">De motie op stuk nr. 1177.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note110">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:defen" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u43">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg53">Ja. Dat is de motie over geen uitzondering op het verbod bij de training van welke honden dan ook, dus ook bij politie en Defensie. Ik heb in de schriftelijke beantwoording omstandig uitgelegd waarom ik dat wel zo heb gedaan. Ik zie dat de heer Wassenberg daar anders tegen aankijkt, maar ik moet deze motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg54">Dan de motie op stuk nr. 1178 over de mogelijkheid voor een gezamenlijke trainingsschool voor overheidshonden. Verschillende overheidsdiensten hebben inderdaad aangegeven voorstander te zijn van een nationaal opleidingscentrum, maar het ligt echt bij de collega's van JenV en Defensie om daartoe te besluiten en te bepalen op welke wijze de overheidsdiensten de honden willen inzetten en hoe ze worden opgeleid en getraind. Dat is niet aan mij. De optie is dus om de motie daar nog in te dienen, maar anders zou ik de motie hier moeten ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note111">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u44">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg55">De motie op stuk nr. 1178 wordt ontraden. Zou het misschien een mogelijkheid zijn om uw collega's van JenV om een reactie te vragen voordat we hier dinsdag over stemmen? Dat hebben we ook gister bij een aantal moties gedaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note112">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:defen" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u45">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg56">Dit zijn twee departementen, namelijk Justitie en Defensie, want dat zijn de departementen die gebruikmaken van honden die opgeleid moeten worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note113">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u46">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg57">Ja, dat is dus kort dag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note114">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:defen" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u47">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg58">Ja, ik denk dat het wel een beetje lastig is. Misschien is het een snellere weg om dit gewoon gelijk in te brengen in een debat bij JenV en Defensie. Misschien is dat beter. Dit gaat breder. Dit gaat echt over een opleidingscentrum voor honden. Dat strekt ook weer verder dan …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note115">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u48">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg59">Dat strekt inderdaad verder, maar ik denk dat er ook een rol is voor de minister van Landbouw, want dierenwelzijn maar ook de faculteit diergeneeskunde van de Universiteit Utrecht vallen onder de minister. Tenminste, daar heeft de minister mee te maken. Ik wil de minister toch vragen om dit voor te leggen aan haar collega's. Dan kan ik de motie eventueel nog even aanhouden. Die hoeft niet per se voor volgende week te zijn. Ik kan haar aanhouden, maar ik wil dan graag via de minister de reactie van Defensie en Justitie horen, zeg ik tegen u, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note116">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u49">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg60">Ja, maar dan spreken we wel af dat er iets meer tijd is om hierop te reageren. Dat lijkt me dan een …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note117">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u50">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg61">Dan houd ik de motie in ieder geval even aan. Ik hoop dat er dan wel binnen een aantal weken …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note118">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u51">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg62">Het wordt doorgeleid naar de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note119">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u52">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg63">… een reactie kan komen. Dan kan ik de motie tot die tijd aanhouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note120">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:defen" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u53">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg64">Ik zal het verzoek doorgeven aan de collega's van Defensie en JenV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note121">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u54">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg65">Op verzoek van de heer Wassenberg stel ik voor zijn motie (28286, nr. 1178) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg66">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note122">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u55">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg67">Dan de motie van de heer Bisschop op stuk nr. 1179, waarin wordt gevraagd om een uitzondering voor laagenergetische halsbanden. Het blijft energetisch. Het blijft stroom, of die nu hoog of laag is, dus ik ontraad deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg68">Dan de zesde motie, op stuk nr. 1180, over de elektronische erfafscheiding. Even voor de duidelijkheid: dit gaat niet over prikkeldraad langs de weilanden of iets dergelijks. Dit gaat echt over een middel waardoor de hond nog steeds een band heeft en nog steeds een prikkel krijgt op het moment dat die te ver gaat op het erf, of waar dan ook. Het blijft dus het principe van een stroomhalsband. Dat is precies wat wij niet meer willen toestaan. Daarom ontraad ik ook deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg69">Dan de motie van mevrouw Beckerman, op stuk nr. 1181. Daarvoor geldt eigenlijk hetzelfde. Zij doet een moedige poging om te kijken of ze een wat genuanceerdere tekst kan krijgen waarmee we die verkoop kunnen verbieden. Maar dan blijft hetzelfde punt staan dat ik net bij de Partij voor de Dieren heb aangegeven. Wij regelen het nu via het verbod op het gebruik ervan. Het verbieden van de verkoop ervan is echt een behoorlijke klus in het kader van het vrije verkeer van goederen en is dus heel ingewikkeld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note123">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u56">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg70">Op zich begrijp ik de minister erg goed, maar het is natuurlijk wel een heel dubbele boodschap aan de hondeneigenaar. Die ziet het in de winkel. Het is eigenlijk verboden, maar hoe moet je dat dan weten? Kan de minister daar niet ergens in tegemoetkomen? Zijn er geen mogelijkheden om dat echt heel erg klip-en-klaar duidelijk te maken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note124">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u57">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg71">Ik heb deze discussie ook weleens gehad met de heer Wassenberg over de verkoop van bont in Nederland. Wat je er ook van vindt — ik vind er heel veel van — het is toegestaan in Europa om dat te verkopen. En dan kan ik dat niet zomaar hier niet meer doen, terwijl wij in Nederland bijvoorbeeld geen nertsenhouderij meer hebben. Ik snap de dubbelheid die erin zit. Ik hoop wel, en ik verwacht het ook, dat op het moment dat iets verboden is en er dus ook geen markt meer voor is, het ook niet zo veel zin meer heeft om het aan te bieden, want het blijft dan gewoon in de schappen hangen. Dus dat lijkt me ook een effectieve manier om die handel misschien wat in te perken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note125">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u58">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg72">Mevrouw Beckerman, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note126">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u59">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg73">Ik denk dat genoegzaam bekend mag zijn waarom mijn partij zo veel kritiek heeft op Europa en dat dit hier ook wel onderdeel van is. Maar dat is natuurlijk geen vraag. Is de minister dan in ieder geval bereid om dit Europees gezien aan te kaarten? Want dit is natuurlijk wel een heel wonderlijke situatie. We verbieden iets, maar het blijft gewoon te koop.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note127">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u60">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg74">Maar dan kom ik weer terug op het antwoord dat ik net aan de heer Wassenberg heb gegeven. Er zijn heel veel thema's op het terrein van dierenwelzijn die ik in Europa wil aankaarten. Dat doen wij ook. Met de zogenaamde Vughtgroep zijn wij bezig om breder allerlei thema's te agenderen. In Europa is het ook: you can't have it all. Je moet ook wel een beetje dealen en wheelen om een aantal zaken echt voor elkaar te krijgen. Dan heb ik een aantal zaken hoger op mijn prioriteitenlijstje staan, die ook beter voor het dierenwelzijn zijn dan de vraag over de verkoop van deze banden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg75">Tot zover, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note128">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u61">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg76">Ik dank de minister voor haar beantwoording.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note129">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note130">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.u62">
+               <seg xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.seg77">Over de ingediende moties zal volgende week dinsdag worden gestemd.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-04-14-tweedekamer-5.note131">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

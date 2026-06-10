@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-07-06 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-07-06 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 101, Session 3 (2022-07-06)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 101, Session 3 (2022-07-06)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="101" xml:lang="en">Meeting 101</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="3" xml:lang="en">Session 3</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-07-06">Sitting 2022-07-06</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="66">66 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="66">66 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2696">2,696 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2696">2,696 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-07-06">2022-07-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="222"/>
+               <tagUsage gi="seg" occurs="84"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="66"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-07-06">2022-07-06</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.head1">Hoofdlijnenbeleid ministerie van Buitenlandse Zaken</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:inter" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg1">Aan de orde is het tweeminutendebat Hoofdlijnenbeleid ministerie van Buitenlandse Zaken. De eerste termijn van de Kamer is geweest in een vijf uur durend debat. Ik heet de minister van Buitenlandse Zaken van harte welkom. Ik heet de collega's van harte welkom. Vandaag en morgen zijn er, voor nu, 30 tweeminutendebatten ingepland. Dat betekent dat wij proberen om alleen de moties te behandelen. Wij gaan dus geen lange inleidingen houden en wij stellen niet te veel vragen. De heer Kuzu is de eerste spreker, maar ik zie hem nog niet. Hij krijgt straks dus het woord.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg2">Ik geef allereerst het woord aan mevrouw Agnes Mulder. Zij zal spreken namens het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note2">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg3">Voorzitter, dank.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note6">constaterende dat er op dit moment geen vredesonderhandelingen plaatsvinden tussen de Israëli's en de Palestijnen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note7">van mening dat het kabinet zich moet blijven inspannen voor het bijeenbrengen van de Israëlische en Palestijnse gemeenschappen om te bouwen aan vrede van onderop;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note8">verzoekt de regering in kaart te brengen in hoeverre de steun voor verzoeningsprojecten waarbij Israëlische en Palestijnse jongeren nader tot elkaar worden gebracht, vanuit Nederland en internationale fondsen kan worden geïntensiveerd, en de Kamer hierover voor de begrotingsbehandeling te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note10">Deze motie is voorgesteld door de leden Agnes Mulder en Ceder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note11">Zij krijgt nr. kst-35925-V-93</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note12">Mevrouw Agnes Mulder (CDA)</note>
+            <u who="#AgnesMulder" ana="#regular topic:inter" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg4">Voorzitter. Ik heb toch nog één vraag aan de minister. Die heeft te maken met de kwestie Shireen Abu Akleh. Zij is als journaliste doodgeschoten in mei. Ik wil graag weten hoe het gaat met het internationale onderzoek. Wij zagen afgelopen week dat de kogel is overhandigd. Misschien kan de minister daar nog op ingaan. Die zaak houdt ons namelijk heel erg bezig.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg5">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note13">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg6">Dank u wel. Dank ook voor uw beknoptheid.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg7">Het woord is aan de heer Kuzu. Hij spreekt namens DENK. We hebben het kerstregime vandaag: moties voorlezen en, als het moet, heel kort een vraag stellen. Meneer Kuzu kent dat nog wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note14">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg8">Voorzitter, dank u wel.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note15">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note16">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note17">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note18">constaterende dat onderzoeken van onder andere Bellingcat, CNN, The Washington Post, The New York Times, de Palestijnse Autoriteit alsmede de VN-mensenrechtenrapporteur Israël als meest waarschijnlijke dader hebben aangemerkt voor de dood van Al-Jazeera-journaliste Shireen Abu Akleh;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note19">constaterende dat sinds 2000 meer dan 40 andere Palestijnse journalisten door Israël zijn doodgeschoten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note20">roept de regering op alles in het werk te stellen dat de onderste steen boven komt in deze zaak en dat de verantwoordelijken zullen worden berecht,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note21">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note22">Deze motie is voorgesteld door het lid Kuzu.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note23">Zij krijgt nr. kst-35925-V-94</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note24">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg9">Ik heb een sprintje getrokken naar de zaal. Dat voel ik wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note25">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg10">Ik hoor het. Neemt u vooral rustig de tijd voor uw moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note26">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg11">Dank. Ik ga verder met mijn tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note30">overwegende dat de AIV al in 2013 schreef dat de verantwoordelijke actoren binnen de internationale gemeenschap er niet aan ontkomen om naast woorden van protest ook daden te laten volgen indien Israël niet bereid blijkt een einde te maken aan de groeiende kolonisering van de bezette gebieden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note31">roept de regering op om in EU verband te pleiten om concrete maatregelen te gaan nemen tegen het nederzettingenbeleid, zoals het opschorten van het EU-associatieverdrag,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note32">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note33">Deze motie is voorgesteld door het lid Kuzu.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note34">Zij krijgt nr. kst-35925-V-95</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note35">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg12">Voorzitter. De laatste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note36">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note37">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note38">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note39">constaterende dat Amnesty International, Human Rights Watch, B'Tselem, Al-Haq en vele anderen na jarenlang en uitgebreid feitenonderzoek hebben vastgesteld dat Israël zich schuldig maakt aan apartheid, een internationaalrechtelijk gedefinieerde misdaad tegen de menselijkheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note40">spreekt uit dat Israël zich schuldig maakt aan apartheid en roept de regering op dit ook te doen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note41">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note42">Deze motie is voorgesteld door het lid Kuzu.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note43">Zij krijgt nr. kst-35925-V-96</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note44">Dank u wel. Neemt u vooral even rustig een slokje water.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note45">Het woord is aan de heer Brekelmans. Hij zal spreken namens de VVD.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note46">De heer Brekelmans (VVD)</note>
+            <u who="#RubenBrekelmans" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg13">Voorzitter. De eerste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note47">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note48">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note49">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note50">constaterende dat Nederland en de EU in aanzienlijke mate strategisch afhankelijk zijn van individuele landen voor essentiële grondstoffen, producten en technologie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note51">constaterende dat autocratische regimes als China en Rusland deze strategische afhankelijkheden inzetten als drukmiddel, en ook als tegenmiddel om zelf niet onder druk te kunnen worden gezet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note52">constaterende dat strategische afhankelijkheden van specifieke autocratische regimes zoals China groot blijven of zelfs toenemen, terwijl China zelf een strategie voert van asymmetrisch ontkoppelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note53">constaterende dat het amendement-Brekelmans c.s. in de begroting Buitenlandse Zaken 2022 middelen heeft vrijgemaakt om voorbereidingen te treffen voor een taskforce om strategische afhankelijkheden te verminderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note54">van mening dat Nederland en de EU de strategische afhankelijkheden van specifieke autocratische regimes (in het bijzonder China en Rusland) moeten verminderen, en tegelijkertijd juist moeten stimuleren dat anderen afhankelijk zijn van de EU;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note55">overwegende dat het afbouwen van strategische afhankelijkheden acties vereist van het bedrijfsleven, onderzoeksinstellingen en ministeries, zowel op nationaal als Europees niveau;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note56">overwegende dat een overkoepelende strategie, concrete doelen en urgentie bij de nationale en Europese initiatieven nodig zijn om strategische afhankelijkheden daadwerkelijk te verminderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note57">overwegende dat het afbouwen van strategische afhankelijkheden door onder andere diversificatie, friendshoring, near shoring, reshoring, en aanleg van strategische voorraden alle aspecten van het buitenlandbeleid raakt en actie vereist van alle diplomatieke posten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note58">verzoekt de regering een interdepartementale taskforce in te richten om strategische afhankelijkheden te verminderen, en de Kamer over de opzet en activiteiten van deze taskforce te informeren in het najaar van 2022 voor de begrotingsbehandeling Buitenlandse Zaken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note59">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note60">Deze motie is voorgesteld door de leden Brekelmans en Agnes Mulder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note61">Zij krijgt nr. kst-35925-V-97</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note62">Dank u wel. Dan is het woord aan de heer Van der Lee. Hij zal spreken namens GroenLinks.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note63">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg14">Dank, voorzitter. Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note64">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note65">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note66">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note67">constaterende dat Rusland jaarlijks miljarden euro's aan goud exporteert en daarmee een van 's werelds grootste goudexporteurs is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note68">overwegende dat de G7-landen recent hebben aangekondigd de import op Russisch goud te verbieden en dat de Europese Unie naar verluidt ook overweegt om tot een dergelijke sanctie over te gaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note69">verzoekt de regering te bevorderen dat de EU zich als geheel aansluit bij de G7-landen en zo spoedig mogelijk overgaat tot een importverbod op Russisch goud,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note70">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note71">Deze motie is voorgesteld door de leden Van der Lee en Piri.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note72">Zij krijgt nr. kst-35925-V-98</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note73">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:inter" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg15">Ik heb nog één vraag, over de illegalenederzettingenpolitiek van Israël. Er zijn nieuwe plannen om nederzettingen te plaatsen bij Masafer Yatta en E1. Dat zou kunnen leiden tot het echt in tweeën splitsen van de Westbank. Ik ben benieuwd of de regering Israël hier proactief op gaat aanspreken, want dat lijkt me hoogst noodzakelijk.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg16">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note74">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg17">Dank u wel. Dan is het woord aan de heer De Roon. Hij zal spreken namens de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note75">De heer De Roon (PVV)</note>
+            <u who="#RaymonddeRoon" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg18">Dank, voorzitter. Ik heb drie moties. De eerste luidt als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note76">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note77">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note78">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note79">overwegende dat de disproportionele aandacht voor Israël bij de VN-Mensenrechtenraad de spuigaten uitloopt, onder meer door toedoen van de speciaal tegen Israël opgerichte onderzoekscommissie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note80">overwegende dat voor mensenrechten desastreuze landen, zoals China, Saudi-Arabië en Pakistan, tegelijkertijd met fluwelen handschoenen worden aangepakt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note81">overwegende dat de VN-Mensenrechtenraad geen enkele geloofwaardigheid meer kan worden toegedicht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note82">verzoekt de regering om uit de VN-Mensenrechtenraad te stappen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note83">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note84">Deze motie is voorgesteld door het lid De Roon.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note85">Zij krijgt nr. kst-35925-V-99</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note86">De heer De Roon (PVV)</note>
+            <u who="#RaymonddeRoon" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg19">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note87">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note88">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note89">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note90">constaterende dat Nederland het initiatief neemt om met gelijkgestemde EU-lidstaten te spreken over de erkenning van genocides en onder welke voorwaarden dit moet gebeuren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note91">overwegende dat het al dan niet erkennen van genocides een nationale aangelegenheid moet blijven en niet afhankelijk mag worden van politieke afstemming met andere (EU-)landen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note92">verzoekt de regering de erkenning van genocides niet afhankelijk te maken van het oordeel van andere landen daarover,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note93">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note94">Deze motie is voorgesteld door het lid De Roon.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note95">Zij krijgt nr. kst-35925-V-100</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note96">De heer De Roon (PVV)</note>
+            <u who="#RaymonddeRoon" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg20">De laatste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note97">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note98">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note99">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note100">overwegende dat het onwenselijk is dat ons buitenlandbeleid steeds meer in handen komt van de Europese Unie en haar lidstaten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note101">verzoekt de regering om zich te verzetten tegen de plannen om vaker met gekwalificeerde meerderheid te besluiten en vast te houden aan besluitvorming bij unanimiteit,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note102">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note103">Deze motie is voorgesteld door het lid De Roon.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note104">Zij krijgt nr. kst-35925-V-101</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note105">Dank u wel.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note106">De heer De Roon (PVV)</note>
+            <u who="#RaymonddeRoon" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg21">Dank, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note107">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg22">Dan is het woord aan mevrouw Piri. Zij zal spreken namens de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note108">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg23">Dank, voorzitter. Ik heb geen inleiding.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note109">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note110">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note111">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note112">overwegende dat onze relatie met de Verenigde Staten van essentieel belang is, zowel op economisch, cultureel als veiligheidsterrein;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note113">constaterende dat zich zorgelijke ontwikkelingen voordoen in het land, die zowel op korte als op lange termijn een grote impact kunnen hebben op het trans-Atlantisch partnerschap;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note114">verzoekt de regering te komen met een VS-strategie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note115">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note116">Deze motie is voorgesteld door de leden Piri en Van der Lee.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note117">Zij krijgt nr. kst-35925-V-102</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note118">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg24">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note119">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note120">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note121">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note122">constaterende dat de regering een bilateraal actieplan is overeengekomen met Marokko met daarin onder andere afspraken over handel, migratie en justitiële samenwerking;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note123">constaterende dat de mensenrechtensituatie, inclusief in het Rifgebied, in Marokko onder druk blijft staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note124">verzoekt de regering in de relatie met Marokko de bescherming van mensenrechten actief te blijven uitdragen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note125">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note126">Deze motie is voorgesteld door de leden Piri, Van der Lee en Jasper van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note127">Zij krijgt nr. kst-35925-V-103</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note128">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg25">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note129">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg26">Dank u wel. Dan is het woord aan de heer Ceder. Hij zal spreken namens de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note130">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg27">Dank u wel, voorzitter. Mevrouw Mulder heeft net mede namens mij een motie ingediend. Daarnaast heb ik er nog één.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note131">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note132">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note133">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note134">overwegende dat de Tweede Kamer reeds vanaf 2004 met de motie-Rouvoet de Armeense genocide unaniem heeft erkend, nadien gevolgd door de expliciete erkenning door het parlement door middel van de motie-Voordewind c.s. in 2018;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note135">overwegende dat de motie-Voordewind c.s. uit 2021 die de regering heeft opgeroepen de Armeense genocide te erkennen, met steun van vrijwel de gehele Tweede Kamer is aangenomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note136">overwegende dat in het coalitieakkoord afgesproken is dat Nederland samen met een representatief aantal gelijkgestemde EU-lidstaten de erkenning van genocides bekijkt, en onder welke voorwaarden gezamenlijk tot erkenning van genocides kan worden overgegaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note137">verzoekt de regering om bij gelijkgestemde EU-lidstaten na te gaan of en hoe gelijktijdig met deze landen overgegaan kan worden tot erkenning van de Armeense genocide en de Oeigoerse genocide, en de Kamer hierover voor de behandeling van de begroting voor 2023 te berichten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note138">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note139">Deze motie is voorgesteld door de leden Ceder, Agnes Mulder en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note140">Zij krijgt nr. kst-35925-V-104</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note141">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg28">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note142">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg29">Dank u wel. Dan is het woord aan mevrouw Van der Plas. Zij zal spreken namens BBB.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note143">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg30">Dank u wel. Twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note144">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note145">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note146">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note147">overwegende dat het opgeslagen graan dat nu vastzit in Oekraïne en het graan van de aankomende oogst cruciaal is om — voornamelijk armere — landen mee te voeden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note148">verzoekt de regering een internationale leiderschapsrol te spelen in het coördineren van de evacuatie van graan uit Oekraïne,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note149">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note150">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note151">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note152">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note153">overwegende dat het kabinet, ook na de motie-Voordewind, de Armeense genocide niet omschrijft als genocide maar als "verschrikkelijke gebeurtenis";</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note154">verzoekt de regering, al dan niet in samenspraak met andere landen, de Armeense genocide voor 2023 te erkennen als zodanig,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note155">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note156">Deze motie is voorgesteld door het lid Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note157">Zij krijgt nr. kst-35925-V-105</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note158">Deze motie is voorgesteld door het lid Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note159">Zij krijgt nr. kst-35925-V-106</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note160">Dank u wel. Dan is het woord aan de heer Van Dijk. Hij zal spreken namens de SP.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note161">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg31">Dank.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note162">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note163">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note164">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note165">constaterende dat er op dit moment geen vredesonderhandelingen plaatsvinden tussen de Israëli's en de Palestijnen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note166">constaterende dat de door Nederland gewenste tweestatenoplossing steeds verder uit zicht raakt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note167">verzoekt de regering in Europees verband concrete maatregelen voor te stellen, met als doel Israël en Palestina tot onderhandelingen aan te zetten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note168">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note169">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note170">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note171">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note172">van mening dat journalisten in vrijheid hun werk moeten kunnen doen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note173">constaterende dat op 11 mei 2022 de journaliste Shireen Abu Akleh is gedood, wat neerkomt op een frontale aanval op de persvrijheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note174">verzoekt de regering om zich voor deze zaak te blijven inspannen zodat de daders kunnen worden berecht,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note175">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note176">Deze motie is voorgesteld door het lid Jasper van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note177">Zij krijgt nr. kst-35925-V-107</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note178">Deze motie is voorgesteld door het lid Jasper van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note179">Zij krijgt nr. kst-35925-V-108</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note180">Dank u wel. Dan is het woord aan de heer Van Meijeren. Hij zal spreken namens Forum voor Democratie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note181">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:inter" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg32">Voorzitter, dank u wel. Tijdens het commissiedebat heb ik de minister een aantal hele concrete vragen gesteld over de Bilderbergconferentie, waar hij samen met de minister-president en de koning aanwezig was, zoals over wat daar besproken is, of er afspraken zijn gemaakt, wat de gevolgen zijn voor Nederland; gewoon hele voor de hand liggende vragen. De minister heeft die vragen toen niet beantwoord, geen enkele, waarbij hij zich verschool achter de zogenaamde "Chatham House Rules". Ik heb hem er toen op gewezen dat die Chatham House Rules er alleen betrekking op hebben dat de identiteit van personen die bepaalde opvattingen uiten niet gedeeld mag worden, maar dat deelnemers uitdrukkelijk wél verslag mogen doen van wat er besproken is, zoals dat ook staat op de website van de Bilderbergconferentie. Toen heeft de minister mij beloofd ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note182">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg33">We dienen vandaag eigenlijk alleen moties in, omdat we 30 tweeminutendebatten hebben. Dat hebben alle collega's ook gedaan. Dus het gaat me niet om het onderwerp, maar gewoon om dat we 30 tweeminutendebatten hebben te behandelen in twee dagen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note183">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg34">Een tweeminutendebat waarbij ik, als het goed is, zelf mag bepalen hoe ik die twee minuten invul.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note184">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg35">Maar om alle 30 tweeminutendebatten vandaag en morgen goed te laten verlopen, hebben we het regime vandaag en morgen om alleen de moties in te dienen, en een enkele noodzakelijke vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note185">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg36">Nou ja, ik heb geen moties, meneer de voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note186">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u33">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg37">Oké. Nou, stelt u dan uw vraag, omdat ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note187">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u34">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg38">En we hebben tijdens het commissiedebat ook geen tweede termijn gehad ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note188">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u35">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg39">Nee, en daarom stelt u nu uw vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note189">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u36">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg40">... dus ik ging ervan uit dat we nu wat meer ruimte zouden krijgen. En ik heb gewoon twee minuten volgens het Reglement van Orde. En over een kerstregime, of wat voor trucjes er ook uitgehaald worden, heb ik in het Reglement van Orde geen woord gelezen. Ik vervolg graag mijn betoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note190">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u37">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg41">U spreekt uw tijd vol en stelt uw vragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note191">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u38">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg42">Voorzitter. De minister heeft mij tijdens het commissiedebat beloofd die vragen vervolgens schriftelijk te beantwoorden, waarbij hij dubieus genoeg opmerkte: "Voor zover het kabinet het verstandig vindt om die antwoorden te geven". Mijn vraag aan de minister is: hoe verhoudt zich dat met artikel 68 van de Grondwet? Dat artikel bepaalt namelijk dat elk Kamerlid het individuele recht heeft op inlichtingen, en dat de minister alleen kan weigeren om informatie te verstrekken indien het belang van de Staat zich daartegen verzet; dus niet indien het kabinet dat niet wenselijk vindt. Daarom hierbij nogmaals het verzoek aan de minister om ofwel de vragen te beantwoorden, ofwel per vraag te beargumenteren waarom het belang van de Staat zich ertegen zou verzetten om die vraag te beantwoorden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg43">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note192">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u39">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg44">Dank u wel. De minister heeft maar enkele minuten nodig om zich voor te bereiden op de beantwoording, dus ik schors voor enkele minuten.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note193">De vergadering wordt van 10.31 uur tot 10.38 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note194">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:inter" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u40">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg45">Ik geef de minister van Buitenlandse Zaken het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note195">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u41">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg46">Voorzitter, dank u wel. Wat ik net buiten de microfoon tegen u zei, zal ik plenair herhalen, namelijk dat het me een genoegen doet om u in die stoel te zien zitten, gegeven ook onze eerdere gedachtewisseling.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg47">Voorzitter. Ik doe in hoog tempo de verschillende moties. Ik begin bij de motie van mevrouw Mulder op stuk nr. 93. Die wil ik oordeel Kamer geven onder verwijzing naar het debat.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg48">Dan de motie op stuk nr. 94 van de heer Kuzu. Hij heeft het over alles in het werk stellen. Dat heeft wat van een hyperbool, maar als ik daarvan mag maken dat we ons daarvoor zullen inspannen, kan ik de motie oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note196">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u42">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg49">Ik zie de heer Kuzu knikken. De motie op stuk nr. 94 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note197">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u43">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg50">De motie op stuk nr. 95 moet ik onder verwijzing naar het debat ontraden. Dat zal de heer Kuzu misschien teleurstellen, maar ik denk dat hij het wel in lijn met het debat kan accepteren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg51">De motie op stuk nr. 96 gaat voor het kabinet echt te ver. Ik dacht even dat het een spreekt-uitmotie is, maar het is een spreekt-uit-, maar ook een oproepmotie, dus die moeten we ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg52">Voorzitter. De motie op stuk nr. 97 van de heer Brekelmans vind ik echt een verstandige motie. Ik ben het zeer eens met het belang van de vraag hoe we hier verder mee moeten. Dat heb ik ook geprobeerd aan te geven in het debat. Overigens zijn we als kabinet met veel van deze dingen bezig. Ik heb in het debat ook aangegeven dat we hier in de richting van de begrotingsonderhandelingen, begrotingsbesprekingen, op terug komen in de Kamer. Ik zou wel aan de heer Brekelmans willen vragen om de inrichting en de organisatie van de taskforce echt aan de betrokken ministeries te laten. Dus ik ben het zeer eens met het belang en de opmerkingen die hij maakt, maar het kabinet komt met een plan. Dan kan de Kamer daar uiteraard wat van vinden, maar ook in de verhouding van: wie gaat er over hoe je jezelf uiteindelijk organiseert? Die kanttekening wil ik er nog bij plaatsen. Daarbij laat ik de motie graag aan het oordeel van de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note198">De heer Brekelmans (VVD)</note>
+            <u who="#RubenBrekelmans" ana="#regular topic:gover" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u44">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg53">Dank voor de positieve woorden. Ik vind het aan het kabinet om in te richten waar zo'n taskforce valt, wie daarin zitten en hoe dat is opgehangen, maar ik zou wel echt willen voorkomen dat ministeries dit naar elkaar toe gaan schuiven. Als voor de begrotingsbehandeling duidelijk in een brief kan worden gezet hoe het kabinet dat inricht, vind ik het de verantwoordelijkheid van het kabinet om te bepalen welke minister het eerste aanspreekpunt is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note199">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:inter" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u45">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg54">Zonder meer. En om daar geen misverstand over te laten bestaan: ik vind in ieder geval dat daarbij ook een belangrijke rol voor mijn ministerie is weggelegd, gegeven de internationale dimensie.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg55">Voorzitter. Dan de enige motie van de heer Van der Lee, op stuk nr. 98. Die wil ik oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note200">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u46">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg56">De motie op stuk nr. 98 krijgt oordeel Kamer. Dan de motie op stuk nr. 99.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note201">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:inter" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u47">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg57">De motie op stuk nr. 99, van de heer De Roon, moet ik ontraden, onder verwijzing naar het debat. Het is echt niet verstandig om uit die Mensenrechtenraad te gaan. Dat zou ook niet in het Nederlandse belang zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg58">De motie op stuk nr. 100 van de heer De Roon moet ik ook ontraden, ook onder verwijzing naar het debat.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg59">Hetzelfde geldt voor de motie op stuk nr. 101. Dat hebben we uitvoerig aan de orde gehad.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg60">Dan de motie op stuk nr. 102 van mevrouw Piri. Ik vind het eerlijk gezegd ingewikkeld om dat te doen, omdat dat zou betekenen dat we richting een van onze belangrijkste bondgenoten een strategie zouden formuleren. Er is volgens mij in de Kamer een VS-contactgroep. Ik vind dat je je altijd moet afvragen hoe langetermijnrelaties met bondgenoten zich ontwikkelen, maar ik vind dit diplomatiek echt ingewikkeld, ook in de richting van een van onze allerbelangrijkste bondgenoten. Dus deze moet ik ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg61">De tweede motie van mevrouw Piri, op stuk nr. 103, over het bilaterale actieplan, krijgt oordeel Kamer. Dan de motie …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note202">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u48">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg62">De motie op stuk nr. 103 krijgt oordeel Kamer. De motie op stuk nr. 104.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note203">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:inter" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u49">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg63">Ja. Dan de motie op stuk nr. 104 van de heer Ceder. Daar moet ik wel een paar dingen bij zeggen. Daar moeten we echt goed naar kijken. Daar hebben we heel specifieke afspraken over gemaakt bij de totstandkoming van het kabinet. Conform het coalitieakkoord zal Nederland in overleg treden met gelijkgezinde landen. Dit overleg gaat over mogelijke gezamenlijke erkenning en over onder welke voorwaarden dat gebeurt. Dat luistert heel nauw ten aanzien van historici en internationale gerechtshoven die daar wat van te vinden hebben. We hebben het eerder gehad over gezamenlijk optrekken. Dat staat ook in het coalitieakkoord. De VN-Veiligheidsraad heeft er ook wat van te vinden. Omdat agreed language altijd helpt, verwijs ik hier nog naar bij de appreciatie van de motie, maar met die inkleuring kan ik de motie oordeel Kamer geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg64">Dan de motie op stuk nr. 105 van mevrouw Van der Plas, over de leiderschapsrol en het graan. Dat is een zeer belangrijk thema. Ik wil de motie ook graag oordeel Kamer geven. Ik zeg er wel bij — dat zal mevrouw Van der Plas denk ik wel met mij eens zijn — dat we die leiderschapsrol van Nederland ook weer niet moeten overdrijven, want anderen, waaronder de VN, Turkije en de Verenigde Staten, zitten daar echt meer op de eerste rij. Maar met die inkleuring gaan wij door met het invulling geven aan onze rol om aan een oplossing bij te dragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note204">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u50">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg65">De motie op stuk nr. 105 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note205">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u51">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg66">De motie op stuk nr. 106 zou echt aangehouden moeten worden omdat we op dit punt nog terugkomen later dit jaar. Als mevrouw Van der Plas de motie toch handhaaft, zou ik die onder verwijzing naar het eerdere debat moeten ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note206">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u52">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg67">Op verzoek van mevrouw Van der Plas stel ik voor haar motie (35925-V, nr. 106) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg68">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note207">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:inter" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u53">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg69">Dan de motie op stuk nr. 107. Ook dat is een beetje van de categorie "een dubbeltje op z'n kant". Ik snap wat de heer Van Dijk wil. Ik wil mij ook blijven inzetten, ook in Europees verband, voor het dichterbij brengen in plaats van het verder weg laten drijven van een oplossing. "Concrete maatregelen" klinkt dan wel weer erg alsof wij een lijstje gaan indienen waar de EU het over eens moet worden. Dat wordt heel ingewikkeld. Als ik de motie zo mag lezen dat we ons best gaan doen om ook anderen te enthousiasmeren om zich te bezig te houden met dit thema, dan ben ik het ermee eens en geef ik de motie oordeel Kamer. Als ik het helemaal letterlijk lees, is het denk ik net een brug te ver. Dus met die inkleuring zou ik de motie oordeel Kamer willen geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note208">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u54">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg70">De heer Van Dijk knikt. De motie op stuk nr. 107 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note209">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u55">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg71">Datzelfde oordeel, maar dan zonder inkleuring, geldt voor de motie op stuk nr. 108, want die kan het kabinet dragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note210">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u56">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg72">Nog een enkele vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note211">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:civil" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u57">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg73">Dan nog drie vragen. In mijn appreciatie van de laatste motie van de heer Van Dijk heb ik eigenlijk ook de vraag van mevrouw Mulder beantwoord. Waar het gaat om alles wat journalisten overkomt, blijven wij ons inzetten voor een onafhankelijk onderzoek. Ik heb vaker gearticuleerd hoe essentieel de vrijheid van de pers is, juist op de plekken waar het ingewikkeld is in de wereld. Ook deze week kwamen er weer allerlei afschuwelijke berichten, overigens van de andere kant, naar boven over wat er niet in orde is qua persvrijheid. Dus daar blijven we ons voor inzetten.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg74">De heer Van der Lee vroeg naar de nederzettingen. We zullen ons proactief en reactief blijven inzetten om aan te geven dat we dat niet in de haak vinden en ook niet in het belang vinden van het creëren van een oplossing.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg75">Richting de heer Meijering wil ik nog zeggen dat alle vragen schriftelijk zijn beantwoord. Wellicht niet tot zijn tevredenheid, maar er is zowel mondeling als schriftelijk met de Kamer over van gedachten gewisseld. De optiek van het kabinet is dat zich dit ook ten volle verdraagt met het staatsrecht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note212">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u58">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg76">De heer Van Meijeren, een vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note213">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:inter" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u59">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg77">Dat is dus feitelijk onjuist. Ik heb de beantwoording van de vragen gezien en in al die antwoorden wordt alleen maar verwezen naar de Chatham House Rule, terwijl ik juist uitdrukkelijk heb aangegeven dat op de website van de Bilderbergconferentie staat dat die Chatham House Rule zich er alleen tegen verzet om de identiteit van personen kenbaar te maken en niet in de weg staat om te vertellen wat er besproken is en welke standpunten er zijn gewisseld. Ik begrijp dat nu de tijd te kort is om al die veertien vragen te beantwoorden, maar ik zou toch wel graag de toezegging willen hebben van de minister dat hij die veertien vragen niet gebundeld maar per stuk beantwoordt ofwel dat hij uitlegt waarom het belang van de Staat zich daartegen verzet. Want dat is het criterium van artikel 68 van de Grondwet en niet andere ongeschreven diplomatieke gebruiken waar de minister zich op beroept. Dus ik kan er geen genoegen mee nemen dat de minister die vragen simpelweg weigert te beantwoorden omdat hij zegt dat het geheim is. Dan kan ik de regering niet controleren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note214">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u60">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg78">Als daar geen genoegen mee wordt genomen, dan zal ik mij dat moeten laten aanleunen. In mijn herinnering heeft de heer Meijering ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note215">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u61">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg79">Van Meijeren, de heer Van Meijeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note216">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u62">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg80">De heer Van Meijeren, excuus. Volgens mij heeft de heer Van Meijeren zijn hele termijn besteed aan dit onderwerp en heeft hij vervolgens antwoord gekregen op de schriftelijke vragen aan de minister-president en mijzelf. Hij is ontevreden over het antwoord. Dat is zijn goed recht want het is zijn rol om wat te vinden van wat het kabinet doet, zegt of nalaat, maar ik kan het niet anders of mooier maken dan het is. Dus ik verwijs toch naar de gedachtewisseling die er is geweest. Ik houd echt staande dat het zich staatsrechtelijk helemaal verdraagt met de regelen der kunst zoals die gelden tussen kabinet en Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note217">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u63">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg81">Ik zie aan de heer Van Meijeren dat dit ongetwijfeld wordt vervolgd, maar niet in dit tweeminutendebat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note218">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u64">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg82">Dank, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note219">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:inter" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u65">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg83">Ik dank de minister van Buitenlandse Zaken voor de gezwinde beantwoording en ik dank de collega's voor de coöperatieve opstelling.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note220">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note221">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.u66">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.seg84">Ik schors voor een enkel ogenblik en daarna gaan we verder met een extra regeling van werkzaamheden.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-3.note222">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

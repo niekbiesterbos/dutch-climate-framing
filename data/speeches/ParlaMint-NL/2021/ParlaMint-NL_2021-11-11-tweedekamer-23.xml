@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-11-11 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-11-11 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 21, Session 23 (2021-11-11)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 21, Session 23 (2021-11-11)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="21" xml:lang="en">Meeting 21</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="23" xml:lang="en">Session 23</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-11-11">Sitting 2021-11-11</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="23">23 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="23">23 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2909">2,909 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2909">2,909 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-11-11">2021-11-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="80"/>
+               <tagUsage gi="seg" occurs="41"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="23"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-11-11">2021-11-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.head1">Media</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:educa" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u1">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg1">Aan de orde is het tweeminutendebat over media naar aanleiding van een commissiedebat dat op 12 oktober heeft plaatsgevonden. Ik heet de minister voor Basis- en Voortgezet Onderwijs en Media van harte welkom. Zeven leden hebben zich ingeschreven, van wie er zes behoefte hebben aan spreektijd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg2">Aan de zijde van de Kamer zal als eerste de heer Kwint spreken, die namens de SP het woord zal voeren. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note2">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:techn" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u2">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg3">Dank, voorzitter. Een vraag en een aantal voorstellen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg4">De vraag is vooral hoe de minister aankijkt tegen wat er recentelijk is gebeurd bij Ongehoord Nederland. Het was namelijk in het mediadebat dat ik hem letterlijk vroeg om een reactie op bepaalde ontoelaatbare uitlatingen. Een paar weken later, toen de NRC dat opschreef, was iedereen heel erg verbaasd, maar de trouwe kijker van Debat Direct had het al kunnen weten; laat ik het zo zeggen. Ik ben dus benieuwd hoe de minister daarop terugkijkt en wat dat voor de toekomst betekent. Ik heb er nu geen motie voor, en er hoeft ook geen uitgewerkt plan te liggen, maar het lijkt mij misschien handig dat het bijvoorbeeld in een mediabrief iets meer gaat over de gangbare toetsing en criteria daarvoor.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg5">Dan over de positie van de mensen op het Mediapark. Het zal de minister niet verbazen dat ik daar twee voorstellen over heb, namelijk:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note6">constaterende dat er op het Mediapark wordt afgeweken van de Wet arbeidsmarkt in balans omdat er meer dan drie flexcontracten achter elkaar mogelijk zijn volgens de huidige cao;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note7">verzoekt het kabinet in de Mediawet op te nemen dat minimaal 80% van de medewerkers in vaste dienst moet zijn en het aantal tijdelijke contracten terug te dringen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note8">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note9">Deze motie is voorgesteld door het lid Kwint.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note10">Zij krijgt nr. kst-32827-234</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note11">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u3">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg6">Daarna:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note12">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note13">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note14">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note15">constaterende dat het gemiddelde tarief dat een zzp'er op het Mediapark krijgt, ver onder het afgesproken minimum zoals afgesproken in de Fair Practice Code ligt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note16">verzoekt het kabinet om in de Mediawet op te nemen dat een zzp-tarief bij de publieke omroep ten minste €35 moet zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note17">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note18">Deze motie is voorgesteld door het lid Kwint.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note19">Zij krijgt nr. kst-32827-235</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note20">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:techn" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u4">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg7">En ten slotte nog een motie over de pluriformiteit van het media-aanbod; dat zal de minister, gezien het debat, niet verbazen. Ik heb niet een motie voorbereid waarin meteen wordt gezegd "knip het maar op", want dan gaat de minister zeggen: dat kan niet. Dus ik dacht: laat ik deze keer een poging wagen om nou eens een keer de mogelijkheden in kaart te brengen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note21">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note22">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note23">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note24">constaterende dat zowel in geschreven media als op televisie steeds meer aanbieders in handen komen van steeds minder partijen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note25">verzoekt de regering in kaart te brengen op welke manier de pluriformiteit van het media-aanbod beter beschermd kan worden, en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note26">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note27">Deze motie is voorgesteld door het lid Kwint.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note28">Zij krijgt nr. kst-32827-236</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note29">Dat vraagt om een interruptie van de heer Bosma.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note30">De heer Martin Bosma (PVV)</note>
+            <u who="#MartinBosma" ana="#regular topic:techn" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u5">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg8">Ja. Het is wel leuk om dingen te laten onderzoeken, maar ... Laat ik het iets anders formuleren. Ik deel eigenlijk de ongerustheid van de heer Kwint, die hij al meerdere malen heeft geventileerd, over het feit dat we in wezen steeds minder mediabedrijven hebben in Nederland. We hebben nog twee grote krantenuitgevers. Dus dat delen we, maar mijn vraag is: wat moet er dan vervolgens gebeuren? Het over de schutting gooien naar de minister en zeggen "ga het onderzoeken" vind ik een beetje — laat ik het onaardig zeggen — laf. Wat zou de heer Kwint willen dat er gebeurt? En ik geef eerlijk toe dat ik daar geen antwoord op heb, maar misschien de heer Kwint, die erover heeft nagedacht, wel. Wat moet er gebeuren met die mediabedrijven?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note31">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u6">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg9">Ja, ik heb daar best lang over nagedacht, en de conclusie is dat dat nog niet zo heel erg makkelijk is zolang je niets doet aan de mededingingsregels. Dat is in ieder geval waar ik op uitgekomen ben. Je zou bijvoorbeeld kunnen kijken naar een maximumpercentage van de markt dat je mag bezitten, zoals dat niet ongebruikelijk is bij andere sectoren. Ik denk dat dat in de media ook een goed idee zou zijn, zeker wanneer je die niet als een heel cluster zou bekijken, maar als kranten, televisie, onlineadvertentiemarkt, en die los van elkaar ziet. Maar daarmee zou ik een voorschot nemen op de mogelijke uitkomsten van wat de minister gaat onderzoeken. Ik hoop namelijk dat hij een eenvoudigere manier gaat vinden om dit te realiseren, maar ik ben het meteen met de heer Bosma eens dat het niet zo simpel is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note32">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u7">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg10">Dank voor uw inbreng. De volgende spreker vanuit de Kamer is mevrouw Wuite, die namens D66 het woord zal voeren. Ga uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note33">Mevrouw Wuite (D66)</note>
+            <u who="#JorienWuite" ana="#regular topic:techn" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u8">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg11">Voorzitter, dank u wel. Het moge natuurlijk duidelijk zijn — ook van mijn voorganger is dat gebleken — dat we het over verschillende onderwerpen hebben gehad. We hebben het ook gehad over de versterking van de lokale journalistiek. En we hebben ook besproken dat er verschillende pilots hiertoe aflopen, waaronder de tweejaarlijkse pilot om het verzorgen van lokaal toereikende media-aanbod te onderzoeken en te onderzoeken op welke wijze dat het best georganiseerd en ook gefinancierd kan worden. Oftewel, en daar spreken we vaak over: de "Snellergelden". Die gaan mijn fractie zeer aan het hart. Tijdens het debat in eerste termijn is onvoldoende helder geworden of de minister wel voor het komende WGO de evaluatie hiervan kan sturen. Wij vinden dit essentieel, en vandaar dus de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note34">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note35">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note36">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note37">overwegende dat de afgelopen periode een tweejaarlijkse pilot heeft gelopen om de kosten van het verzorgen van een lokaal toereikend media-aanbod te onderzoeken en op welke wijze dit het beste georganiseerd en gefinancierd kan worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note38">constaterende dat deze pilot 1 december afloopt en voorkomen moet worden dat ingezette initiatieven verloren gaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note39">overwegende dat eerste geluiden, ook vanuit de minister voor BVOM, over deze pilot positief zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note40">verzoekt de regering in kaart te brengen welke met deze "Snellergelden" opgezette initiatieven door het aflopen van de pilot stopgezet moeten worden en te onderzoeken of en, zo ja, op welke wijze deze initiatieven voortgezet kunnen worden, en de Kamer hier voor het WGO Media op 29 november over te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note41">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note42">Deze motie is voorgesteld door het lid Wuite.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note43">Zij krijgt nr. kst-32827-237</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note44">Dank u wel. De volgende spreker van de zijde van de Kamer is de heer De Hoop, die zal spreken namens de Partij van de Arbeid. Ga uw gang.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note45">De heer De Hoop (PvdA)</note>
+            <u who="#HabtamudeHoop" ana="#regular topic:techn" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u9">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg12">Dank, voorzitter. Een onafhankelijke en pluriforme publieke mediadienst is een cruciaal onderdeel van ons democratisch bestel. De Partij van de Arbeid koestert daarom kritische, onafhankelijke journalistiek in dat publieke bestel. Op welke manier geeft de minister nu vorm aan de uitvoering van de motie-Van den Hul, die oproept actie te ondernemen om de identiteit van de omroepen beter te waarborgen?</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg13">In het debat ging het mijns inziens iets te veel over de Snellergelden, want daarmee mis je nog een heel deel van journalistiek Nederland. De focus zou mijns inziens meer moeten liggen op de nu lopende regionale projecten. Er hebben een tweetal pilots gelopen. De collega van D66 noemde die net ook. Men is zelf ook erg enthousiast over de vooruitgang die daarmee is geboekt. Met name het wittevlekkenplan spreekt mij erg aan. Ik vind het een goed initiatief om juist de lokale plekken te dekken waar er geen goede controle is op de democratie. Ik ben benieuwd wat de huidige stand van zaken van de evaluatie van die twee pilots is en in hoeverre we concrete conclusies kunnen verwachten van de minister.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg14">Dank.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note46">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u10">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg15">Hartelijk dank voor uw inbreng. De volgende spreker is de heer Bosma. Hij zal namens de PVV het woord voeren. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note47">De heer Martin Bosma (PVV)</note>
+            <u who="#MartinBosma" ana="#regular topic:techn" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u11">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg16">Dank u wel, voorzitter. De wet, de Mediawet, is duidelijk: de NPO zou moeten zorgen voor "een evenwichtig, pluriform en kwalitatief hoogstaand media-aanbod". Maar in Hilversum hebben ze daar geen boodschap meer aan. Ze worden eigenlijk met de dag radicaler: de hele dag propaganda voor het klimaatsocialisme, oeverloos gedweep over diversiteit, zoals ze dat daar noemen, en de massa-immigratie, gendergeneuzel, en daarnaast mogen we niet meer vliegen en geen vlees meer eten, en van Zwarte Piet walgen ze al helemaal.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg17">Bij de beruchte Kaagdocumentaire zien we de verhevenheid van de staatsomroep en de staatspartij. D66-campagneleider Sjoerd Sjoerdsma geeft instructies: beelden dat Kaag in Niger wordt ontvangen met volle champagneglazen moeten eruit, want dat is "niet goed voor het imago". En Kaag mag zelfs meepraten over het tijdstip van uitzenden. De voorzitter van NPO66 is een D66-activist. De Kaagdocumentaire wordt uitgezonden via de omroep VPRO. De directeur daarvan is een voormalig campagneleider van D66. Het wordt betaald door het CoBO-fonds, met in het bestuur de beide opperbobo's van NPO en VPRO. Er is ook geld van het Filmfonds, met in het bestuur Thom de Graaf van D66. Dat fonds valt weer onder minister Van Engelshoven, van D66. De hoogste ambtenaar van het ministerie van OC&amp;W op het gebied van media, is van D66. Tot voor kort werd de onafhankelijke toezichthouder, het Commissariaat voor de Media, geleid door een aanhanger van minister Ollongren van D66. Deze film is dus een betaling in natura aan een politieke partij. En wie ziet daarop toe, op die financiering van politieke partijen? Nou, minister Ollongren, en zij is van D66. Daarom de volgende motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note48">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note49">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note50">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note51">constaterende dat de NPO met de Kaagdocumentaire op schaamteloze wijze reclame heeft gemaakt voor D66;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note52">overwegende dat dit in strijd is met de Mediawet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note53">verzoekt de regering de kosten van de Kaagdocumentaire in mindering te brengen op de partijfinanciering van D66,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note54">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note55">Deze motie is voorgesteld door het lid Martin Bosma.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note56">Zij krijgt nr. kst-32827-238</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note57">De heer Martin Bosma (PVV)</note>
+            <u who="#MartinBosma" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u12">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg18">Ik wens u een prettige Sint-Maarten, meneer de voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note58">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u13">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg19">Dank u wel. Ik u ook.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg20">De volgende spreker van de zijde van de Kamer is mevrouw Werner. Zij gaat namens het CDA het woord voeren. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note59">Mevrouw Werner (CDA)</note>
+            <u who="#LucilleWerner" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u14">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg21">Dank u wel, voorzitter. We hebben het op 12 oktober veel gehad over pluriformiteit. Vandaar dat ik daarover een motie heb.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note60">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note61">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note62">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note63">constaterende dat de NPO in deze concessieperiode de beweging gaat maken van net- naar genremanagement met tien genres, waardoor niet langer de aanbodkanalen vooropstaan maar de content;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note64">overwegende dat het van belang is om de pluriformiteit van het huidige publieke mediastelsel duurzaam te waarborgen en te verbeteren, waar nodig in het algemeen, maar in het bijzonder ook bij de overgang naar genremanagement;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note65">verzoekt de regering te onderzoeken of er aan de kant van de NPO of de publieke omroepen knelpunten worden ervaren bij het waarborgen van de pluriformiteit en op welke wijze deze mogelijke knelpunten kunnen worden weggenomen, en de Kamer daarover te informeren in de jaarlijkse voortgangsrapportage prestatieafspraken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note66">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note67">Deze motie is voorgesteld door het lid Werner.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note68">Zij krijgt nr. kst-32827-239</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note69">Dank voor uw inbreng. Daarmee zijn we ook aan het einde van de inbreng van de zijde van de Kamer. De minister heeft aangegeven direct over te kunnen gaan tot de beantwoording en de appreciaties van de moties. Ik geef de minister voor Basis- en Voortgezet Onderwijs en Media het woord.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note70">Minister Slob</note>
+            <u who="#ArieSlob" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u15">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg22">Dank u wel, voorzitter. En ook dank aan de Kamerleden voor hun inbreng. Ik zal uiteraard ingaan op de moties die zijn ingediend.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg23">De heer Kwint vroeg mij nog op de situatie rond Ongehoord Nederland in te gaan. Ik denk dat ik in het overleg dat we hebben gehad al helder ben geweest over de wijze waarop wij vanuit de wet- en regelgeving hun aanvraag om toe te treden tot het bestel hebben beoordeeld en hebben moeten beoordelen, want daar geldt natuurlijk rechtsgelijkheid. Iedere potentiële gegadigde voor een licentie wordt uiteraard op dezelfde manier beoordeeld, conform de wijze waarop we dat in de wet hebben vastgelegd. Er is de afgelopen periode wat commotie geweest rond een persoon die een bepaalde functie binnen de omroep heeft. Het is in eerste instantie gewoon aan de omroep zelf om daar op te treden. We hebben gezien dat de persoon in kwestie zelf zijn conclusies heeft getrokken en is vertrokken. Dus dat is iets waar ik zelf op afstand natuurlijk naar gekeken heb. In algemene zin vind ik dat er voor antisemitisme en racisme geen plaats is, ook niet bij de publieke omroep.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg24">Voorzitter. Met betrekking tot de moties. De motie op stuk nr. 234 en de motie op stuk nr. 235 …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note71">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u16">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg25">Een ogenblik, minister. De heer Kwint heeft een interruptie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note72">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u17">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg26">Dan denk ik dat de minister mijn vraag niet helemaal goed begrepen heeft. Het ging me niet om de mate waarin de persoon zelf een conclusie getrokken heeft. Die vindt zichzelf slachtoffer van een linkse hetze en dat is zijn opvolger met hem eens. Daar kun je van mening over verschillen. Maar het ging me niet om dit specifieke geval. Het ging me juist om wat nou de regels zijn waar de bestuursleden of de leden van de raad van toezicht van een publieke omroep volgens de overheid aan zouden moeten voldoen. Dat was meer de vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note73">Minister Slob</note>
+            <u who="#ArieSlob" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u18">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg27">Op het moment dat een omroep ook daadwerkelijk toetreedt — als het gaat om de nieuwkomers is dat per 1 januari 2022 — conformeren zij zich volledig aan de governancecodes zoals die zijn opgesteld. Ik heb dat ook nog heel expliciet bij de betrokken nieuwkomers nagevraagd, zowel bij Ongehoord Nederland als bij Omroep ZWART. Daar heeft de publieke omroep gewoon regels voor opgesteld en dat is iets wat ook bij hen hoort. Als politiek betrachten wij daar afstand, gezien onze positie en verhouding tot de media. Dus deze omroep heeft ook zwart-op-wit in mijn richting aangegeven dat zij zich daaraan zullen conformeren. Dat zal vanaf dag één dus ook voor hen opgaan. Ik denk dat de codes helder zijn, want die zijn algemeen bekend.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg28">Voorzitter. Dan de moties. De motie op stuk nr. 234 en de motie op stuk nr. 235 moet ik ontraden. Ze zijn ook eerder aan de orde geweest. Allereerst speelt er op dit moment geen wijziging van de Mediawet. Als we dat zouden doen, dan zou dat dus al heel lang gaan duren. Maar de heer Kwint weet dat wat hij in deze moties vraagt, zaken zijn die bij cao-onderhandelingen aan de orde zijn. De huidige cao loopt nog door tot eind van het jaar. Op dit moment vinden de gesprekken over de nieuwe cao plaats. Ik ben overigens net zo benieuwd wat er bij de nieuwe cao uit de onderwerpen die u noemt, zal komen. Maar het is echt aan de cao-tafel om daarover te beslissen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg29">In de eerste motie wordt gesproken over 80% medewerkers met een vast dienstverband. We weten dat het in de huidige cao 75% is. We weten ook dat er omroepen zijn die al op 80% zitten. Maar er is in de cao ook ruimte geboden om eventueel af te wijken en op 60-40 uit te komen, als daar redenen voor zijn. Maar daar moet dan door de vertegenwoordiging van het personeel in de medezeggenschapsraad mee ingestemd worden. Ik denk overigens dat het bij de omroepen "ondernemingsraad" heet. We weten ook dat het hoge aantal flexibele contracten vaak te maken heeft met de problemen die men ervaart bij geld-op-schema. U weet dat we daar nu juist met een kanteling bezig zijn om meer vanuit genrebeleid te gaan werken. Ik ben er zelf van overtuigd dat het dan ook in de nieuwe cijfers terug te zien is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg30">Maar nogmaals, het is echt aan de cao-tafel om hier afspraken over te maken. Het is niet aan de overheid om in een wet vast te gaan leggen wat dat zou moeten zijn. Om die reden ontraad ik de moties, al snap ik de gevoelens eromheen heel goed. Ik hoop met u dat er op dit punt hele goede en mooie afspraken worden gemaakt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg31">De motie op stuk nr. 236 kan ik oordeel Kamer geven. De heer Kwint heeft goed ingeschat op welke wijze we dit ook kunnen aanvliegen. Het is inderdaad belangrijk om met elkaar gericht te kijken hoe dit zich verder gaat ontwikkelen. In de Mediamonitor is destijds ook al aandacht gevraagd voor de mogelijke effecten van de overname van Sanoma door De Persgroep op de pluriformiteit van de informatievoorziening. U heeft in de Mediamonitor van 2021 kunnen zien dat het Commissariaat ook signaleert dat er een verdere concentratie plaatsvindt. Dat heeft natuurlijk ook te maken met de voorgenomen fusie tussen RTL en Talpa. Die wordt op dit moment onderzocht. Er wordt ook gewaarschuwd voor een mogelijke verschraling. Ik hecht met u heel erg aan die pluriformiteit en onafhankelijkheid van de informatievoorziening. Ik denk dat het dan ook goed is om er op deze manier verder naar te kijken. Ik kan deze motie dus oordeel Kamer geven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg32">Dan heeft mevrouw Wuite gevraagd naar de voortgang van de Snellerpilot. Ik denk dat zij ook belangstelling heeft voor de pilot inzake de NOS, de RPO en de NLPO. Die loopt nog even iets langer door in het nieuwe kalenderjaar. Zij vraagt in de motie om de Kamer daar voor het WGO Media over te informeren. Ik probeer altijd ruimschoots op tijd de Mediabrief naar de Kamer te sturen. Die staat gepland voor maandagochtend. Zodra de digitale brievenbus hier opengaat — en dat gebeurt, geloof ik, als één lid een voet in dit huis heeft gezet; dan komt hier alles in beweging — krijgt u van ons de Mediabrief. Daarin zal ik u informeren over de actuele evaluatie van de Snellergelden, zoals die door het Stimuleringsfonds voor de Journalistiek zijn aangewend, zelfs met aanbevelingen erbij. Er wordt ook ingegaan op het borgen van de kennis die met deze pilot is opgedaan. Ik zal u uiteraard nog verder informeren over de andere pilot, waar we ook al eerder over hebben gesproken. Dus u wordt in dat opzicht bediend, en zelfs sneller dan u vraagt. Ik wil u daar maandag al informatie over verstrekken. Dan kunnen we er 29 november, Deo volente, verder over doorspreken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note74">Mevrouw Wuite (D66)</note>
+            <u who="#JorienWuite" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u19">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg33">Ontzettend goed nieuws. Ik ben ontzettend blij om deze toezegging van de minister te vernemen. Er was even wat ruis over, wat onduidelijkheid over. We wilden inderdaad bevestigen hoe belangrijk het is. Op basis van de toezegging zou ik willen voorstellen dat ik de motie intrek.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note75">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u20">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg34">Dat kan.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note76">Aangezien de motie-Wuite (, nr. ) is ingetrokken, maakt zij geen onderwerp van beraadslaging meer uit.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note77">Minister Slob</note>
+            <u who="#ArieSlob" ana="#guest topic:techn" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u21">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg35">Ik heb overigens vanmiddag de directeur van het Stimuleringsfonds voor de Journalistiek, die over een week met pensioen gaat, koninklijk mogen onderscheiden. Dat heb ik zijn vriendin laten doen trouwens, want ik moest zelf op afstand blijven. Die directeur heeft elf jaar lang heel mooi werk verricht op die plek. Dan is zijn naam ook nog even hier genoemd, René van Zanten. Dat zeg ik voor degenen die denken: hoe heet hij ook alweer? Het is een geroutineerde journalist.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg36">De vraag van de heer De Hoop heb ik ook beantwoord, denk ik. Daar vloeit dit uit voort. Dat komt dan ook in de brief. Dan kunnen we daar 29 november verder over spreken. We hebben dan natuurlijk nog wel wat dingen met elkaar te bespreken, omdat het ingewikkeld is. U heeft de begroting voor 2022 gezien. Dat is dan voor dat moment.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg37">De heer Bosma heeft een korte samenvatting gegeven van zijn bijdrage bij het algemeen overleg. Hij heeft een motie ingediend die ik ontraad. Het is niet aan ons om op deze wijze te reageren op media-uitingen waar we dan wel of niet iets van vinden. Zo werkt dat niet. Uiteraard is het zijn goed recht om de Kamer zo'n uitspraak voor te leggen, maar ik ontraad deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg38">Dan heeft mevrouw Werner een motie ingediend die inderdaad raakt aan een punt waar we ook in het algemeen overleg over hebben gesproken en wat in de omroepwereld een belangrijk thema is en zeker ook zal zijn in de komende periode. We maken nu de omslag van geld-op-schema naar genrebeleid. Die zal hopelijk ook positieve gevolgen hebben voor de arbeidsmarkt en de wijze waarop we met medewerkers omgaan, maar hopelijk ook voor de wijze waarop de omroepen kunnen intekenen en voor langere termijn de mogelijkheid krijgen om wat meer kleur op de eigen omroepwangen te krijgen. Ik denk dat het inderdaad goed is dat we dat heel nauwkeurig volgen. U vraagt om daarover te rapporteren bij de voortgangsrapportage prestatieafspraken. Dan weet u denk ik wel dat in het voorjaar van 2022 nog de rapportage van de oude afspraken komt. In de eerstvolgende rapportage zal dat daar inderdaad onderdeel van worden. Om die reden kan ik deze motie oordeel Kamer geven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg39">Voorzitter. Dan heb ik de vragen beantwoord en de moties van een oordeel voorzien. Ik dank de Kamer voor de inbreng daarbij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note78">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u22">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg40">Dank u wel. Daarmee zijn we aan het einde gekomen van dit tweeminutendebat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note79">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.note80">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.u23">
+               <seg xml:id="ParlaMint-NL_2021-11-11-tweedekamer-23.seg41">Over de ingediende moties zal niet aanstaande dinsdag worden gestemd, maar woensdag. Dat geldt ook voor alle andere moties die vandaag zijn ingediend en amendementen die vanmiddag niet in stemming zijn geweest. Dat heeft te maken met het besluit dat is genomen om het coronadebat direct dinsdag om 15.00 uur te laten aanvangen. Dat wil zeggen dat de regeling van werkzaamheden en de stemmingen, die normaal op dinsdag zijn, naar de woensdag verschuiven. Ik deel dat even mede. Dan weet u dat. Hiermee hebben we dit debat voltooid.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-06-10 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-06-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 87, Session 9 (2021-06-10)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 87, Session 9 (2021-06-10)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="87" xml:lang="en">Meeting 87</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="9" xml:lang="en">Session 9</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-06-10">Sitting 2021-06-10</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="147">147 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="147">147 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="7825">7,825 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="7825">7,825 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-06-10">2021-06-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="236"/>
+               <tagUsage gi="seg" occurs="165"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="147"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-06-10">2021-06-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.head1">Evaluatie Wet dieren</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg1">Aan de orde is het tweeminutendebat Evaluatie Wet dieren, Kamerstuk 28286, nr. 1183. Een hartelijk woord van welkom aan de demissionaire minister; een demissionair welkom dus eigenlijk. Ik geef graag het woord aan de eerste spreker van de zijde van de Kamer. Dat is mevrouw Vestering van de Partij voor de Dieren. Zij heeft zoals iedereen twee minuten spreektijd. Het woord is aan haar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note2">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg2">Dank u wel, voorzitter. Ja, het zijn mooie tijden. Het is goed nieuws dat dierenmishandeling eindelijk beter kan worden aangepakt. We hebben de afgelopen week gezien dat er heel veel zorgen waren over alle dieren in Nederland — dat ziet de Partij voor de Dieren natuurlijk heel erg graag — ook van partijen waarvan je dat misschien niet zo direct zou verwachten. Maar wees niet bang: niet alles wat wordt gezegd, is waar. U kunt gewoon uw hond uitlaten en de dierenpolitie komt heus niet controleren of u wel een kattenluikje in uw deur heeft. Geen zorgen, dus.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg3">Voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note6">constaterende dat de minister van LNV eind 2020 heeft aangekondigd te gaan starten met het nader invullen van open normen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note7">constaterende dat dieren als gevolg van de recente wijziging van de Wet dieren niet meer permanent de mogelijkheid mag worden ontnomen om natuurlijk gedrag te kunnen vertonen en dat dieren ook geen pijn of letsel meer mag worden toegebracht om ze aan te passen aan een bepaald houderijsysteem;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note8">constaterende dat de minister heeft aangekondigd te onderzoeken hoe zij concreet invulling gaat geven aan deze wetswijziging;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note9">verzoekt de regering om diergedragsdeskundigen te betrekken bij de invulling van de open normen in de Wet dieren en bij de invulling van de wetswijziging en deze adviezen daarbij leidend te laten zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note11">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note12">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note13">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note14">constaterende dat de normen uit de Wet dieren voor een groot deel zijn overgenomen uit de Gezondheids- en welzijnswet voor dieren uit 1992;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note15">constaterende dat wetenschappelijke ontwikkelingen en de maatschappelijke discussie over dierenwelzijn niet meer aansluiten op het huidige beschermingsniveau van de wet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note16">constaterende dat het bureau Risicobeoordeling &amp; onderzoek van de NVWA in de evaluatie van de Wet dieren concludeert dat zelfs de basisvereisten voor een goed dierenwelzijn onvoldoende zijn verankerd in de wet- en regelgeving;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note17">overwegende dat een tussentijdse evaluatie van de wet kansen biedt voor een actualisering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note18">verzoekt de regering voorbereidingen te treffen voor een tussenevaluatie van de Wet dieren, met het doel om deze te actualiseren en het beschermingsniveau te verhogen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note19">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note20">Deze motie is voorgesteld door het lid Vestering.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note21">Zij krijgt nr. kst-28286-1186</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note22">Deze motie is voorgesteld door de leden Vestering en Tjeerd de Groot.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note23">Zij krijgt nr. kst-28286-1187</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note24">Dank u wel. Er is een vraag van de heer Van Campen.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note25">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u3">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg4">Het is prettig om te horen dat collega Vestering in ieder geval duidelijkheid geeft over de huisdieren en zegt dat daar geen zorgen over hoeven te bestaan. Dat is zinnig voor de minister, want zij heeft in het vragenuur aangegeven dat zij in de analyse daarnaar gaat kijken. Maar ze heeft ook aangegeven dat dit amendement ook raakt aan de gezelschapsdieren. Het is goed dat we de interpretatie daarvan van de Partij voor de Dieren kennen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note26">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u4">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg5">En uw vraag?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note27">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u5">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg6">Mijn vraag is wat dit betekent voor veehouders, voor vee. Wat zegt mevrouw Vestering tegen de melkveehouder die zijn stal vol met koeien heeft waar hij de hoorns op jonge leeftijd vanaf haalt, ook om te voorkomen dat dieren elkaar onthoornen? Wat is de boodschap van mevrouw Vestering richting hen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note28">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u6">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg7">Ik zal vooral even het verschil duiden. We hadden natuurlijk al het Besluit houders van dieren, waarin duidelijk is geworden dat je bijvoorbeeld de staarten van honden niet meer mag afknippen. We hebben nu geregeld dat we dierenmishandeling ook binnen de veehouderij niet langer meer toestaan en dat je bijvoorbeeld de krulstaartjes van varkens niet langer mag afknippen of afbranden. Dat is nu geregeld. Dat is een fijne constatering, ik denk ook voor de VVD. In uw verkiezingsprogramma geeft u ook aan dat u dierenmishandeling harder wilt aanpakken …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note29">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u7">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg8">De heer Van Campen geeft aan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note30">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u8">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg9">Ja, de heer Van Campen geeft dat aan. In het verkiezingsprogramma van de VVD lees ik dat de VVD dierenmishandeling harder wil aanpakken. Dat regelt dit amendement, dus dat is goed nieuws.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note31">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u9">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg10">Kort, afrondend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note32">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u10">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg11">Maar ik vroeg naar het onthoornen van dieren, van kalveren in de melkveehouderij. Wat is de reactie van mevrouw Vestering daarop?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note33">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u11">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg12">Op het moment dat een koe haar horens gebruikt, geeft zij aan: geef mij meer ruimte. In het staand beleid worden vervolgens, plop, de horens eraf gehaald. Dat is iets wat wij niet meer willen. Het is iets wat wij al twintig jaar lang niet willen en wat de VVD ook niet wil. Het is al aangegeven in de eerdere Nota Dierenwelzijn, de nota van minister Brinkhorst. Het is tijdens drie kabinetten met de VVD ingebracht in de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note34">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u12">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg13">Dan gaan we luisteren naar mevrouw Beckerman van de fractie van de SP. Maar eerst heeft mevrouw Van der Plas nog een interruptie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note35">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u13">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg14">Ik heb laatst foto's gekregen van een biologische melkveehouder, die mij opriep om dit tegen te houden. Zij heeft koeien met horens. De foto's die zij mij gestuurd heeft, kan ik u ook wel even toesturen. Het gaat om koeien met ernstige verwondingen. Ook biologische koeien staan weleens op stal. Wij gaan 's avonds ook gewoon ons huis in als wij naar bed willen en in de tuin hebben gezeten. Zo heeft een koe een stal. Dat is haar onderkomen. Ook daar gebeurt het. Deze mevrouw zegt dat het bij meer biologische melkveehouders speelt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note36">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u14">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg15">En uw vraag is?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note37">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u15">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg16">Zij vraagt mij met klem of dit kan worden tegengehouden. Nou, mijn vraag is: heeft de Partij voor de Dieren daar rekening mee gehouden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note38">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u16">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg17">Allereerst fijn om ook bij u te zien …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note39">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u17">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg18">Bij mevrouw Van der Plas te zien.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note40">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u18">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg19">Ja, u was sneller dan ik. Fijn om bij mevrouw Van der Plas terug te zien dat zij zich ook zorgen maakt om het dierenwelzijn, in dit geval het welzijn van de koeien. Maar het is natuurlijk niet zo dat de veehouderij en de biologische melkveehouderij deze wet niet steunen. Sterker nog, we hebben juist ook veel positieve reacties gekregen. Daar zijn wij blij mee. Ze hebben zelfs bij de minister aangegeven dat zij willen meedenken over hoe hier invulling aan moet worden gegeven. Dat is alleen maar heel goed nieuws.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note41">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u19">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg20">Dat was niet mijn vraag. Mijn vraag was of de Partij voor de Dieren zich ervan bewust is dat dit een gevolg kan zijn van de nieuwe Wet dieren. Ik heb het idee dat de Partij voor de Dieren denkt dat, als we alles maar laten zoals het is, de horens en de staartjes eraan, de dierhouderij één groot walhalla wordt, een soort Disneyland waar dieren leven. Dit heeft wel degelijk gevolgen. De Partij voor de Dieren zet zich ontzettend in voor het dierenwelzijn — dat respecteer en waardeer ik ook — maar beseft zij dat hier gevolgen aan zitten …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note42">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u20">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg21">Helder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note43">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u21">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg22">... die misschien helemaal niet goed zijn voor het dierenwelzijn?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note44">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u22">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg23">Nee, die conclusie van BBB deel ik niet. Sterker nog, dit is juist een instrument, zoals de NVWA ook aangeeft, waardoor we beter kunnen toezien op dierenmishandeling. Dus het is alleen maar heel goed nieuws voor de dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note45">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u23">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg24">Dank u wel. Dan gaan we luisteren naar mevrouw Beckerman van de fractie van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note46">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u24">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg25">Voorzitter. Nederland doodt nog 40 miljoen hanenkuikens per jaar, omdat ze economisch nutteloos zouden zijn. Frankrijk en Duitsland stoppen daarmee, die gaan dat verbieden. Wat de SP betreft moet Nederland volgen. Het is onnodig en we kunnen ermee stoppen. Daarom twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note47">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note48">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note49">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note50">constaterende dat er jaarlijks in Nederland zo'n 40 miljoen hanenkuikens worden gedood omdat ze economisch geen waarde hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note51">overwegende dat dit onnodig is omdat er alternatieven zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note52">overwegende dat Frankrijk en Duitsland al komen met een verbod;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note53">spreekt uit dat het doden van haantjes verboden moet worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note54">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note55">Deze motie is voorgesteld door de leden Beckerman en Vestering.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note56">Zij krijgt nr. kst-28286-1188</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note57">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u25">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg26">Mijn tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note58">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note59">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note60">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note61">constaterende dat er jaarlijks in Nederland zo'n 40 miljoen hanenkuikens worden gedood omdat ze economisch geen waarde hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note62">overwegende dat dit onnodig is omdat er alternatieven zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note63">overwegende dat Frankrijk en Duitsland al komen met een verbod;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note64">verzoekt de regering onderzoek te doen hoe en op welke termijn een verbod op het doden van haantjes ingevoerd kan worden, en de Kamer daarover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note65">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note66">Deze motie is voorgesteld door het lid Beckerman.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note67">Zij krijgt nr. kst-28286-1189</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note68">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u26">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg27">Ik zie dat er een klein foutje staat in de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note69">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u27">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg28">Wij geven u een pennetje. Er is een vraag van mevrouw Van der Plas.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note70">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u28">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg29">Het zijn allemaal prima moties. Maar je kunt alles wel verbieden, en dit leidt natuurlijk wel tot hoge kosten voor de pluimveehouderij. Ik vind het jammer dat daar niets in is opgenomen over het verdienmodel voor de boer; die moet dit allemaal gaan betalen. De consument betaalt hier niks extra's voor; de eieren liggen net zo goedkoop in de schappen. Is het voor de SP te overwegen om in de motie op te nemen dat er dan ook gezorgd moet worden voor het borgen van het verdienmodel van de boer? Het klinkt heel hard, zo van: de boer wil daar allemaal geld aan verdienen. Nee, de boer wil daar geen geld aan verdienen, maar die wil wel de kosten die dat met zich meebrengt, terugbetaald zien in het eitje. Dat ligt in de supermarkt voor €2,89 voor een doosje en daar krijgt de boer €0,08 voor. Bent u bereid om die motie eventueel daarop aan te passen, zodat die boer daar dan ook voor betaald krijgt? Want die boeren willen echt wel hoor, als het ook maar betaald wordt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note71">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u29">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg30">Ik denk dat het goed is om te horen dat de boeren het willen. Ik vind het ook goed om te zien dat het nu kan. Dit is precies de reden waarom we het inderdaad niet bij één motie hebben gelaten en niet simpelweg zeggen: stoppen ermee. Nee, we maken het heel charmant door ook het volgende te zeggen: laten we eerst goed kijken en onderzoek doen naar de vraag hoe en op welke termijn je dit op een mooie manier kunt doen. Dus het lijkt me dat het kabinet dat in die tweede motie heel goed mee kan nemen. Ik hoop dat u op die manier ook voor die voorstellen kunt stemmen. Ik heb het even nagezocht: de SP is sinds 2003 hiermee bezig. Toen werd steeds gezegd "het kan nog niet" of "we gaan het in overleg met de sector doen". Maar zoals u ook zegt — en dat vind ik ook wel goed om mee te nemen in die overweging — is het heel lastig om tegen de sector te zeggen: zoek het maar uit. En daarom denken wij: laten we als politiek het voortouw nemen, en hiermee stoppen — andere landen doen dat al — en kijken naar wat nou de beste manier is waarop je dat kunt doen. Dus volgens mij, als u bezorgd bent …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note72">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u30">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg31">Als mevrouw Van der Plas bezorgd is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note73">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u31">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg32">Als mevrouw Van der Plas bezorgd is. Maar ú bent toch ook wel bezorgd, voorzitter?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note74">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u32">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg33">De hele dag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note75">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u33">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg34">Want 40 miljoen hanenkuikentjes is toch treurig?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note76">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u34">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg35">De hele dag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note77">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u35">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg36">Ik denk dat dit een charmante manier is waarop we tot elkaar zouden kunnen komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note78">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u36">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg37">Afrondend, kort, puntig, mevrouw Van der Plas.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note79">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u37">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg38">Afrondend en kort is mijn vraag aan de SP of zij dit dan ook duidelijk naar buiten uit willen dragen naar consumenten om het frame te laten verdwijnen dat boeren het allemaal wel prima vinden dat de haantjes worden vergast. Ik zeg niet dat u dat zegt, maar ik vraag of u actief wilt communiceren …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note80">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u38">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg39">Of mevrouw Beckerman dat wil communiceren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note81">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u39">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg40">Of mevrouw Beckerman dat wil communiceren. De heer Bosma wil dat misschien inderdaad ook wel, maar mevrouw Bokkerman, sorry, Beckerman …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note82">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u40">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg41">Bokkerman?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note83">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u41">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg42">Sorry, ik zit weer helemaal in de dieren natuurlijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note84">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u42">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg43">Heerlijk, ik heb u helemaal van uw à propos gebracht. Mijn dag is weer goed.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note85">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u43">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg44">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note86">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u44">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg45">Wat ik daar wel een beetje wonderlijk aan vind, is dat de suggestie steeds wordt gewekt dat wij iets anders zouden communiceren. Dan zult u me toch echt op voorbeelden moeten wijzen, maar ik heb nog nooit zoiets gecommuniceerd. Het is nog sterker. Kijk, als ik nou boos zou zijn op die boeren, dan zou ik dat alleen maar op die manier doen. Nee, wij komen hier met dit voorstel, hier, in de Tweede Kamer. Ik heb nog nooit iets anders gecommuniceerd. Dus om nou m'n communicatie te wijzigen, is wel heel …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note87">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u45">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg46">Zeg het maar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note88">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u46">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg47">Dan zal mevrouw Van der Plas toch echt met voorbeelden moeten komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note89">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u47">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg48">Helder. Dank u wel. We gaan luisteren naar de volgende spreker: de heer Tjeerd de Groot van de fractie van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note90">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u48">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg49">Dank u wel, voorzitter. Het was twintig jaar geleden, toen D66-minister Brinkhorst in zijn nota Houden van dieren al zei: je moet de stallen aanpassen aan de behoeften van de dieren, zodat je niet meer de staarten hoeft af te knippen van de varkens. En twintig jaar lang gebeurde er eigenlijk niets. Deze minister zei het dierenwelzijn te willen verbeteren in het kader van haar visie over kringlooplandbouw, maar er kwamen geen structurele verbeteringen. Nu heeft de Kamer, met steun van D66, besloten om er dan inderdaad voor te zorgen dat de stallen worden aangepast aan de dieren, want het gaat over de huisvesting. Deze wetswijziging doet eigenlijk precies wat opeenvolgende ministers al die jaren hebben nagelaten, namelijk invulling geven aan de eigen wetten en regels. Want dat vloeit al voort uit de Wet dieren. De intrinsieke waarde en het natuurlijk gedrag staan er al in, maar daar werd niets mee gedaan. Dus geen biggenstaarten afknippen, koeien niet onthoornen en eenden laten zwemmen. Dat gaat nu gebeuren. We gaan de stallen aanpassen aan de behoeften van het dier. Het kan, en we moeten dat op een verstandige manier doen. Ik heb alle vertrouwen in de minister dat zij dat op een verstandige manier gaat doen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg50">Ik heb wel een vraag. Kan de minister toezeggen dat in de uitvoering niet de politiek, zoals zij tijdens het vragenuur suggereerde, maar vooral de gedragsdeskundigen — die kunnen dat heel goed aangeven — zullen bepalen wat die natuurlijke behoeften van de dieren zijn die uit de wet voortvloeien? Zal zij op basis daarvan de voorstellen opstellen? Ze zou daar ook de Raad voor Dierenaangelegenheden bij kunnen betrekken. Is de minister daartoe bereid?</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg51">Tot slot, voorzitter. De minister zegt dat er geen concreet tijdpad is om de open normen in te vullen, omdat dit afhankelijk is van hoeveel er door de verschillende partijen worden aangedragen, maar de meest knellende open normen heeft ze nu toch hopelijk wel in zicht. Kan de minister in elk geval een tijdpad schetsen voor wanneer die specifiek zullen zijn ingericht? En kan zij ten minste een indicatie geven van hoelang het gaat duren om ze allemaal verder in te vullen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note91">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u49">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg52">Prima. Dank u wel. Een vraag van de heer Van Campen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note92">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u50">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg53">Het is goed om te horen hoe D66 dit amendement en deze wetswijziging leest. Ik zal mij niet wagen aan het natuurlijk gedrag van dieren; daar moet de minister maar een onderzoek naar doen. Ik leerde afgelopen week dat kippen oorspronkelijk uit het bos komen; dat wist ik ook niet. Interessant om te kijken hoe de wet daarop van toepassing is. Maar mijn vraag richt zich ook hier op de inrichting van die stallen. Wat zou de heer De Groot zeggen tegen de melkveehouder die zich afvraagt wat dit betekent, die nu zijn kalveren onthoornt zodat die koeien elkaar op latere leeftijd niet verwonden en bij elkaar in de stal kunnen staan? Wat zegt deze wet voor deze boer?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note93">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u51">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg54">Deze wet zegt dat je de stallen moet aanpassen aan het natuurlijk gedrag en de behoeften van het dier. Dat vloeit voort uit de wet. Dat betekent dat je iets belangrijks voor een koe — zowel voor de rangorde in de kudde als voor de gezondheid van het dier zelf, vanwege de mineralen — in stand laat, dus dat je die hoorns in stand laat. Dat kan ook. Er zijn huisvestingssystemen waarbij dat heel goed kan. Er zal inderdaad af en toe even een tik worden uitgedeeld. Dat doen mensen ook weleens met hun vuist. Die gaan we ook niet afknippen. Natuurlijk zal er af en toe nog wel even strijd zijn, maar daar zijn die hoorns ook voor. Er moet alleen veel minder staal in stallen, bijvoorbeeld, want dan kunnen ze zichzelf er niet aan bezeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note94">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u52">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg55">Afrondend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note95">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u53">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg56">Duidelijk. Maar die wet gaat in per 2022. Moeten alle stalsystemen hierop per 2022 zijn aangepast? Dat betekent nogal een kosteninvestering voor de boer. Die wil dat misschien wel, maar dit betekent misschien wel een verdubbeling van zijn stal. Wat betekent dat?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note96">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u54">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg57">Dat vind ik een hele terechte vraag, want een boer heeft zo'n stal onder de huidige wetgeving neergezet. Je kunt niet zomaar tegen een boer zeggen: nu is het afgelopen. Als je dat doet, dan zul je met het oog op internationaal recht ook de schade moeten vergoeden. Dat is dan uiteindelijk wel de politieke afweging die we hier maken: geef je dit een bepaalde tijd of ga je schade vergoeden? Daarvoor wachten we op een voorstel van de minister, maar de kern is dat we vanaf 2023 of 2022 ervoor gaan zorgen dat de stallen structureel worden aangepast aan de dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note97">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u55">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg58">Helder. Dank u wel. Dan gaan we luisteren naar de heer Van Campen van de fractie van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note98">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u56">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg59">Voorzitter, dank u wel. Het is goed dat we hier vandaag over een aantal punten met elkaar het gesprek voeren en duidelijkheid geven na de onrust die is ontstaan over de wetswijziging in de Wet dieren. Partijen verschillen nogal van mening over wat daarmee wordt bedoeld. Laat ik er heel duidelijk over zijn: wat de VVD betreft zijn er al heel duidelijke eisen. Die staan al in het Besluit houders van dieren. Daarom dienen wij de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note99">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note100">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note101">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note102">constaterende dat de geamendeerde Wet dieren de bepaling bevat dat onder "een redelijk doel" in elk geval niet wordt begrepen het kunnen houden van dieren in een bepaald houderijsysteem of een bepaalde wijze van huisvesting;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note103">constaterende dat het houden van dieren op dit moment reeds is gereguleerd in het Besluit houders van dieren, waarin ook maatregelen en sancties staan opgenomen waartoe kan worden overgegaan bij overtreding;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note104">overwegende dat de onrust die door de onduidelijkheid van het amendement is ontstaan onder baasjes van huisdieren en houders van veedieren onwenselijk is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note105">verzoekt de regering het bestaande Besluit houders van dieren als grondslag en kader te hanteren bij de uitwerking van het aangenomen amendement, en de Kamer hierover voor de behandeling van de LNV-begroting te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note106">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note107">Deze motie is voorgesteld door de leden Van Campen, Boswijk, Bisschop, Grinwis, Van der Plas, Van Haga en Van Meijeren.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note108">Zij krijgt nr. kst-28286-1190</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note109">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u57">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg60">Tot slot een motie die zich richt op internationale wet- en regelgeving op het gebied van eigendomsrecht.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note110">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note111">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note112">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note113">constaterende dat het kabinet een analyse maakt van de juridische betekenis van de geamendeerde Wet dieren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note114">constaterende dat deze wetswijziging mogelijk raakt aan Europeesrechtelijke kaders en het Europees Verdrag voor de Rechten van de Mens;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note115">verzoekt de regering in de uit te voeren analyse de Europeesrechtelijke kaders en het Europees Verdrag voor de Rechten van de Mens in relatie tot eigendomsrechten mee te nemen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note116">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note117">Deze motie is voorgesteld door het lid Van Campen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note118">Zij krijgt nr. kst-28286-1191</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note119">Dank u wel. Er is een vraag van mevrouw Vestering.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note120">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u58">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg61">Allereerst is het juist wat de heer Van Campen concludeert: al zeven jaar lang moeten dieren volgens het Besluit houders van dieren hun dierlijke gedrag kunnen vertonen. Ook mag de bewegingsvrijheid van dieren niet zodanig worden beperkt dat onnodig lijden of letsel wordt veroorzaakt. Maar ik denk dat u zich ook donders goed realiseert dat we met de eerste motie die u indiende weer teruggaan naar de oude situatie. De oude situatie betekent geen wettelijke bescherming tegen dierenmishandeling in de praktijk. Waarom dient u deze motie in, uitgaande van het verkiezingsprogramma van de VVD, wetende dat u ook aangeeft …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note121">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u59">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg62">Wetende dat de heer Van Campen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note122">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u60">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg63">… dat de heer Van Campen, dat de VVD, zich ook inzet tegen dierenmishandeling, dat u wilt dat dierenmishandeling strenger wordt aangepakt? En waarom doet u mee aan die onrust …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note123">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u61">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg64">Waarom doet de heer Van Campen mee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note124">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u62">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg65">Waarom doet de heer Van Campen mee — dank u wel voor deze training — aan de onrust die is ontstaan over de vraag of je nu wel of niet een hond mag uitlaten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note125">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u63">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg66">Laat ik beginnen met de onrust. Ik was het niet die met dit amendement kwam. Het was de Partij voor de Dieren die op een achternamiddag met dit amendement kwam. Laten we er heel duidelijk over zijn: de uitleg die ik van verschillende woordvoerders van de Partij voor de Dieren heb vernomen, verschilde ook al. Het ene Kamerlid had het over een verduidelijking van de bestaande wet. Mevrouw Vestering had het inderdaad over het houden van dieren en "de eendjes moeten zwemmen in het water". En ik zag een andere woordvoerder van de Partij voor de Dieren het weer hebben over de omstandigheden voor het fokken van dieren! Die uitleg draagt niet echt bij aan duidelijkheid voor mensen die zich afvragen wat hier nou precies is gebeurd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg67">En over dierenmishandeling zijn al heel duidelijke bepalingen opgenomen in de wet. Dat is misschien niet deze wet, maar dat is heel duidelijk opgenomen in het Wetboek van Strafrecht. Daar zijn al duidelijke bepalingen over opgenomen. Als mevrouw Vestering daadwerkelijk af wil van bepaalde sectoren in de veehouderij of de veehouderij als geheel, dan is dat haar goed recht in dit huis, maar dan moet ze dát zeggen. Dan moet ze dáár duidelijk over zijn. Als je het via een leeg amendement maar aan de minister laat en haar en haar juristen het maar laten uitzoeken, is dat echt een profballon de lucht in laten en onrust creëren. Die onrust komt niet bij de fractie van de VVD vandaan. Die komt bij de fractie van de Partij voor de Dieren vandaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note126">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u64">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg68">Die onrust komt ook zeker van de fractie van de VVD vandaan als dat het geval is. Immers, de VVD heeft zowel in de Eerste Kamer als de Tweede Kamer ingestemd met deze nieuwe Wet dieren. Dat wil ik toch ook even vaststellen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg69">Daarnaast wil ik vaststellen dat die regels voor het houden van dieren er al sinds 2014 zijn. Een jaar later gaf de NVWA aan die open normen, of "lege" normen, zoals u die misschien noemt, niet te kunnen handhaven. Juist door het in te vullen, zo geven ook juristen aan, kunnen ze nu beter bescherming bieden. Het verduidelijkt, het verheldert en het maakt het makkelijker handhaafbaar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note127">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u65">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg70">Uw vraag?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note128">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u66">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg71">Ik wil verduidelijken. Het maakt het makkelijker om op te treden tegen dierenmishandeling. Dat kan toch niet de bedoeling zijn van de VVD? Of is dit een trucje om het eerder aangenomen amendement, waar ook de VVD voor heeft gestemd, terug te draaien?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note129">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u67">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg72">Dat amendement zegt niks. Iedereen heeft er zijn eigen uitleg bij. Dat is goed, ook in de richting van de minister, die huiswerk heeft gekregen van mevrouw Vestering en haar fractie, dat ze in ieder geval weet dat dat niet hoeft te gelden voor gezelschapsdieren. Laat ik daarover in ieder geval duidelijk zijn; dan hebben we dat met elkaar genoteerd in de Handelingen. Feit is wel dat deze Kamer in deze wet heeft geconcludeerd dat er een schep boven op de bestaande wetgeving moet. Als er problemen zijn rond de handhaving van wetgeving, wil ik daar met mevrouw Vestering een serieus en constructief gesprek over voeren. Want we maken wetten, en die wetten moeten worden gehandhaafd. Die handhaving moet deugen. Als de NVWA aangeeft dat ze dat niet kan, dan voeren we daar een gesprek over. Maar het is toch van de zotte dat, als er in dit huis zorgen zijn over handhaving, we de oplossing gaan zoeken in extra of meer wetgeving? Dat is toch niet de oplossing die mevrouw Vestering kan bedoelen voor het probleem dat ze hier op tafel legt?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note130">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u68">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg73">Helder. We gaan naar mevrouw Beckerman.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note131">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u69">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg74">Voorzitter, ik wil hier toch nog graag ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note132">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u70">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg75">Nee, ik heb u hierover twee keer het woord gegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note133">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u71">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg76">Het is belangrijk om toch nog eens …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note134">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u72">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg77">Nee, nee, nee, nee, nee. We gaan luisteren naar mevrouw Beckerman. Het woord is aan mevrouw Beckerman.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note135">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u73">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg78">Ja, die een beetje verwonderd is. Want ik hoor van de heer Boswijk een verwijt richting de Partij voor de Dieren dat ze iets op een achternamiddag in de wet zouden hebben geschreven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note136">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u74">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg79">Dit is meneer Van Campen, hè?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note137">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u75">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg80">Excuus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note138">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u76">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg81">We zijn het wel vaker met elkaar eens.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note139">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u77">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg82">Het zou wel mooi zijn als u het niet met elkaar eens was op dit punt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note140">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u78">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg83">U gaat naar uw vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note141">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u79">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg84">Dit is een tweeminutendebat. Er wordt een motie ingediend over een amendement op de wet waar uw fractie in de Tweede Kamer voor heeft gestemd, waarna ze vervolgens in de Eerste Kamer niet eens het woord heeft gevoerd. Pas als er mediaophef ontstaat, denkt u: o jee, wat heb ik gedaan, ik ga het even proberen te repareren in een tweeminutendebat. Is dit werkelijk zo'n logische route, als u eerst instemt, en pas als de media erover beginnen denkt: o jee, o jee, ik ga dat even rond lunchtijd in een tweeminutendebat waar het niet thuishoort even repareren?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note142">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u80">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg85">Als ze er zijn, is het voor de luisteraars vandaag misschien niet het meest interessante om te benoemen — maar laten we er wel even bij stilstaan — dat de wetswijziging die we hier hebben besproken ging over de implementatie van Europese richtlijnen. Dat was een technische wijziging op een aantal punten, waarop die wet, ook naar aanleiding van Europese wet- en regelgeving, moest worden aangepast. Vervolgens is er een open amendement ingediend dat werkelijk waar niks zegt en waar iedereen een eigen uitleg van heeft. De minister heeft daarover gezegd dat het niet uitvoerbaar is en dat ze niet weet wat er ermee aan moet. Er moet nu een impactstudie worden gedaan. Juristen, die in deze tijden wel wat anders te doen hebben, moeten nu gaan kijken wat dit nu precies betekent en wat er precies mee wordt bedoeld. De indieners van het amendement hebben de minister met een boodschap op pad gestuurd waarvan ik me afvraag hoe die eruit gaat zien. Dat zullen we dus afwachten. We hebben tegen dat amendement gestemd, maar dit was een heel grote verzamelwet, waar ook Europese wet- en regelgeving in stond die moest worden geïmplementeerd, ik meen per 26 april.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note143">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u81">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg86">Heel goed. Mevrouw Beckerman, kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note144">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u82">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg87">Dan blijft de vraag aan de VVD-fractie als volgt. Als we het erover eens zijn dat we wetgeving zorgvuldig moeten doen — daarover zijn we het absoluut eens — heeft u ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note145">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u83">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg88">Heeft de heer Van Campen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note146">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u84">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg89">Heeft de senaatsfractie van de heer Van Campen dan niet een ongelofelijk domme fout gemaakt? Want dat was het moment dat dit anders had gekund, en niet in een tweeminutendebat. Wat is het oordeel van de VVD-fractie over de opstelling van hun eigen senaatsfractie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note147">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u85">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg90">Collega Beckerman weet natuurlijk ook dat de senaat geen recht van amendering en wijziging heeft; dat hebben wij hier. Dat hebben we geweten, zou ik maar willen zeggen. Ik neem mijn verantwoordelijkheid als volksvertegenwoordiger om uitleg te geven aan het amendement. Maar laat mevrouw Beckerman dan ook aangeven hoe zij het amendement waarvoor zij heeft gestemd, duidt. Is daarmee het bestaande besluit, waarin staat aan welke eisen het houden van dieren moet voldoen, voldoende voor mevrouw Beckerman, of moet er een schep bovenop, zoals mevrouw Vestering van de Partij voor de Dieren voorstelt? Ik zou daar graag duidelijkheid over hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note148">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u86">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg91">Nee, we gaan vanachter het katheder geen vragen aan elkaar stellen. De heer De Groot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note149">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u87">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg92">Ik probeer een beetje te begrijpen waar de VVD heen wil. Aan de ene kant is het een volstrekt hol of leeg amendement, zoals de heer Van Campen zei, maar aan de andere kant is het een amendement met enorme consequenties. Laat ik de heer Van Campen gewoon vertellen wat erin staat. Er staat in dat je de huisvesting moet aanpassen aan de behoefte van het dier. Ik vertel de heer Van Campen dat dat hartstikke logisch is en voortvloeit uit de wet, want daar staan die intrinsieke waarde en het natuurlijke gedrag al in. Kan de heer Van Campen zich voorstellen dat de VVD zegt: in de context van het voornemen dat we al twintig jaar hebben, is dit eigenlijk een hartstikke logisch amendement?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note150">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u88">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg93">Dat gesprek wil ik best voeren. Ik was afgelopen maandag bij een biologische boer die 140 koeien in de stal heeft. Maar hij onthoornt ze wel, want hij zegt: "Als ik dat niet doe, dan moet ik mijn stal verdubbelen en daar heb ik het investeringskapitaal niet voor. Als ik de hoorns eraan laat, dan verwonden die dieren elkaar." In 2022 zal deze wet ingaan en dan zal deze biologische boer daar wel aan moeten voldoen. Was dan ook duidelijk geweest in het amendement over wat dit betekent en wat de effecten van dit amendement zijn voor de veehouderij, voor de sector. Misschien kan de heer De Groot daar op dit moment nog duidelijkheid over geven. Dat heeft hij al enigszins gedaan in reactie op de interruptie die ik bij hem pleegde. Ik vind dat mensen die duidelijkheid van ons mogen verwachten als wij hier open wetgeving aannemen. Dat had misschien tijdens het wetgevingsdebat gemoeten, maar laten we dan deze kans met elkaar grijpen om mensen gerust te stellen. Ik hoop dat de heer De Groot die kans met mij wil grijpen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note151">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u89">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg94">Prima. Afrondend, kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note152">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u90">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg95">Die kans krijgen we nog uitvoerig, omdat de minister natuurlijk met verstand aan de slag gaat met de uitvoering van die wet. Dat zouden we vaker moeten doen: wetten uitvoeren. Dan hadden we heel wat minder problemen. Uiteindelijk zoek ik toch een beetje waar de VVD staat. Ik ben zelf in 1991 lid geworden van D66, omdat het een liberale partij is. Je voegt geen onnodig leed toe aan mensen, dieren en de natuur. In die tijd had je ook nog Nijpels, Winsemius en zelfs Bolkestein, die echt moedige besluiten en voornemens hadden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note153">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u91">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg96">En uw vraag is?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note154">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u92">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg97">In de laatste tien jaar zie ik een VVD die conservatief is, die achterhoedegevechten voert en die constant moet worden gecorrigeerd ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note155">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u93">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg98">Helder. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note156">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u94">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg99">... door de Ombudsman of de rechter. Gaan we nu weer dat pad op of gaan we het nu een keer zelf regelen als politiek?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note157">De heer Van Campen (VVD)</note>
+            <u who="#ThomvanCampen" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u95">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg100">Het politieke pleidooi waar de heer De Groot naar verwijst, is geen lege huls. Dat heeft uiteindelijk geleid tot een besluit waarin staat hoe dieren op een goede wijze moeten worden gehouden en op welke wijze mensen met dieren om moeten gaan. Dat staat in het Wetboek van Strafrecht. Dat is geïmplementeerd in bestaande wet- en regelgeving. De heer De Goot vraagt: waar staat de VVD ten aanzien van dit amendement? Geen schep erbovenop. Het is al heel duidelijk waar boeren en eigenaren van huisdieren aan moeten voldoen om op een goede wijze om te gaan met hun dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note158">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u96">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg101">Helder. Dank u wel. Dan gaan we luisteren naar de heer Boswijk van de fractie van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note159">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u97">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg102">Voorzitter. Er is enorm veel wantrouwen van agrariërs ten opzichte van de overheid en eerlijk gezegd snap ik ze, want in de afgelopen weken werd het weer duidelijk: dat wantrouwen komt door onze werkwijze. Wij zorgen er continu voor dat de wet- en regelgeving halverwege de wedstrijd wordt gewijzigd en we zijn niet duidelijk over de impact die dat heeft. We hebben ook wet- en regelgeving gemaakt die vaak niet goed aansluit op de praktijk. Dat was ook exact de reden waarom ik een maand geleden met een voorstel kwam voor een agrarische praktijktoets, om te kijken welke impact dit heeft en hoe we dit beter kunnen laten aansluiten op de praktijk. Ik was heel blij om te zien dat een meerderheid van de Kamer daarvoor was. Maar nog geen twee weken later steunde de meerderheid van dezelfde Kamer een amendement dat 180 graden staat op het voorstel dat ik eerder heb ingediend. Ik vind dat echt onbegrijpelijk. Daarom steun ik de motie die mijn collega van de VVD heeft ingediend en ook de motie die mevrouw Van der Plas later zal indienen, om dit amendement, dat vrij open is geformuleerd, inkleuring te geven. Maar laten we ons vooral zelf een spiegel voorhouden. Hoe kunnen sommige partijen voor allebei de voorstellen hebben gestemd? Dit is exact de werkwijze die bijdraagt aan het wantrouwen vanuit de samenleving richting de politiek.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg103">Dan een ander punt. Er is heel veel onzekerheid in de sector bij de interimmers. Hierover is vorig jaar december al een motie ingediend door de heren Bisschop en Geurts, die oproept om zo snel mogelijk samen met de provincies een overzicht te maken van de opties die er zijn. We zijn nu een halfjaar verder en we zijn heel benieuwd hoe het er nu mee staat, want veel interimmers zitten in onzekerheid en kunnen bijvoorbeeld niet verduurzamen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg104">Ten slotte heb ik de afgelopen weken alle provincies gebeld en blijkt er voor veel warmesaneringsregelingen veel meer animo te zijn dan er budget is. Hoe gaat de minister ervoor zorgen dat het ijzer wordt gesmeed als het heet is, en zich boeren melden die straks misschien niet meer willen of kunnen? En hoe zorgen we ervoor dat de fysieke ruimte die vrijkomt zo meteen niet massaal de sector uit gaat, waardoor extensivering of schuifruimte onmogelijk wordt gemaakt? Wij zien hier namelijk een kans om de twee opgaves aan elkaar te koppelen en hebben hiervoor ook een motie achter de hand.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg105">Dank u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note160">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u98">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg106">Dank u wel. De laatste spreker ... O, er is nog een vraag van mevrouw Vestering.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note161">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u99">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg107">Ook het CDA is dus mede-indiener van de motie van de VVD. Deze motie geeft eigenlijk aan dat op het moment dat we niet kunnen handhaven, er een probleem is. Dat werd net ook gezegd. Realiseert het CDA zich dan ook wel dat juist die oude wetgeving niet te handhaven is? De NVWA heeft dat ook aangegeven en we kunnen met deze nieuwe wet, die unaniem is aangenomen, ook in de Eerste Kamer en mede dankzij steun van het CDA, beter handhaven. Juristen geven aan: het is helderder en we kunnen beter handhaven. Het is fijn om juist meer invulling te geven aan de huidige wetgeving.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note162">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u100">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg108">Daar ben ik het dus niet mee eens. Dat hebben we net in het debat al gezien. Binnen uw fractie wordt er al op verschillende manieren uitleg gegeven aan het amendement, dus hoe moeten juristen hier überhaupt uitleg aan gaan geven? Gelukkig hebben we hier al enigszins duidelijkheid aan gegeven, dus ik wil eigenlijk een stap terug gaan. We moeten eerst helder hebben wat dierenmishandeling is. Ik heb het idee dat u daar soms een heel ander beeld van heeft dan wij, want u schetst toch continu ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note163">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u101">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg109">Mevrouw Vestering schetst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note164">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u102">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg110">Mevrouw Vestering schetst continu het beeld dat boeren helemaal niet om dierenwelzijn geven. Ik heb daar toch echt een heel ander beeld van. Ik ga met alle liefde altijd het gesprek aan om te kijken hoe we een en ander kunnen verbeteren. Ik ga serieus kijken naar het voorstel in de tweede motie van mevrouw Beckerman. Ik vind het ook onze verantwoordelijkheid om dat te doen. Maar wat mevrouw Vestering heeft gedaan, is toch op een namiddag een amendement indienen dat vrij open is en alle kanten op kan. Misschien zeggen sommige mensen dat het daarmee makkelijk te handhaven is, maar ik zet mijn vraagtekens erbij, want uw eigen fractie legt het al op verschillende manieren uit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note165">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u103">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg111">Helder. Afrondend, kort, puntig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note166">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u104">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg112">Het was een open wet. Wat we hebben gedaan met de nieuwe wetgeving, is het juist invullen. Dát is nu gebeurd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note167">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u105">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg113">Dank u wel. Dan gaan we nu luisteren naar de laatste spreker van de zijde van de Kamer: mevrouw Van der Plas van de fractie van BBB.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note168">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u106">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg114">Dank u wel, voorzitter. Ik ben blij dat de minister vorige week of twee weken geleden duidelijk heeft aangegeven dat het wel degelijk voor gezelschapsdieren kan gelden. Alleen, het is allemaal nog niet helemaal duidelijk. Wij willen die duidelijkheid wel hebben, want deze wet kan enorm grote gevolgen hebben, zowel voor de eigenaren van huisdieren als voor onze boeren en onze voedselproductie. Ik dien daarom twee moties in vandaag.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note169">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note170">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note171">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note172">constaterende dat artikel 2.1, eerste lid van de Wet dieren is gewijzigd met als doel om gehouden dieren natuurlijk gedrag te laten vertonen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note173">constaterende dat deze wetswijziging grote gevolgen kan hebben voor iedereen die dieren houdt, zowel voor beroep, hobby of gezelschap als voor hulp;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note174">overwegende dat de redenering bij deze wetswijziging is dat het niet vertonen van natuurlijk gedrag schadelijk is voor welzijn en gezondheid van een dier maar er geen definitie van natuurlijk gedrag en schade beschikbaar is, noch of natuurlijk gedrag hetzelfde is als dierenwelzijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note175">overwegende dat dieren zich in de natuur ook continu aanpassen aan veranderende omstandigheden, wat zelfs leidt tot het overnachten van marters onder een motorkap;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note176">verzoekt het kabinet om gebaseerd op wetenschappelijk onderzoek vast te stellen wat wordt verstaan onder het natuurlijk gedrag van een gehouden en daarmee gedomesticeerd (landbouw)huisdier, en of het vertonen van natuurlijk gedrag altijd bijdraagt aan een beter welzijn van een gehouden en daarmee gedomesticeerd (landbouw)huisdier;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note177">voorts gaan we verder met het verspreiden van gezond verstand in de Tweede Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note178">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note179">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note180">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note181">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note182">constaterende dat artikel 2.1, eerste lid van de Wet dieren is gewijzigd met als doel om gehouden dieren natuurlijk gedrag te laten vertonen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note183">overwegende dat het niet inzichtelijk is wat de consequenties hiervan zijn voor de handhaving van deze wet over dieren die worden gehouden als beroep, voor hobby, voor gezelschap of voor de broodnodige hulp;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note184">verzoekt het kabinet een impactanalyse te maken voor de handhaafbaarheid door de NVWA van deze wetswijziging, die in ieder geval de praktische handhaafbaarheid voor alle gehouden dieren bevat en de financiële consequenties hiervan of, met andere woorden, wat het de belastingbetaler en de dierhouders kost;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note185">voorts gaan we verder met het verspreiden van gezond verstand in de Tweede Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note186">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note187">Deze motie is voorgesteld door de leden Van der Plas, Van Haga, Boswijk en Van Campen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note188">Zij krijgt nr. kst-28286-1192</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note189">Deze motie is voorgesteld door het lid Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note190">Zij krijgt nr. kst-28286-1193</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note191">Dank u wel. Een vraag van de heer De Groot.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note192">U werd weer over het hoofd gezien, meneer De Groot.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note193">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u107">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg115">Ik denk: de moties zijn zo duidelijk; ik krijg helemaal geen vragen meer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note194">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u108">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg116">Toch is er een vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note195">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u109">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg117">Ik ben gewoon benieuwd wat de BoerBurgerBeweging ervan vindt dat elke varkenshouder jaarlijks die staarten moet afknippen. Wat vindt u daar nou van?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note196">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u110">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg118">Wat ik daarvan vind? Daar kan ik heel duidelijk over zijn. De staarten worden in de varkenshouderij gecoupeerd om te voorkomen dat er staartbijterij is. De varkenshouderij werkt al járen aan het niet hoeven couperen van de varkensstaarten. Er zijn ook boeren die dat al vrijwillig doen. De supermarkten betalen daar overigens geen cent extra voor. Zoals de heer De Groot weet, is de sector ook al bezig om ervoor te zorgen dat staarten steeds minder kort gecoupeerd worden en te kijken wat dat voor effect heeft op de staartbijterij. De heer De Groot weet ook wel, denk ik, dat staartbijterij een multifactorieel probleem is. Het is niet alleen de ruimte; het is een combinatie van factoren. Het kan in de genen zitten. Je hebt bepaalde rassen die wat dominanter zijn. Varkens zijn sterk hiërarchische dieren, net als wilde zwijnen. Je hebt hele dominante zeugen of beren en je hebt de wat rustigere. Dat heeft allemaal te maken met hoe het precies zit en waar die staartbijterij nou precies door komt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note197">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u111">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg119">Helder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note198">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u112">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg120">Is het ook helder voor de heer De Groot?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note199">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u113">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg121">Ik hoor eigenlijk niet wat u er nou van vindt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note200">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u114">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg122">U hoort niet wat mevrouw Van der Plas ervan vindt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note201">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u115">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg123">Ik weet hoe het zit; dat legt u uit. Maar wat vindt u er nou van?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note202">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u116">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg124">Wat vindt mevrouw Van der Plas er nou van?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note203">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u117">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg125">Wat vind ik ervan? Nou, als het welzijn van het dier erbij gebaat kan zijn, vind ik dat dat mogelijk moet zijn. Door het zomaar los te laten, door zomaar te zeggen "jongens, dat doen we niet meer", maakt u zich wel medeverantwoordelijk voor het staartbijten in allerlei soorten varkenshouderijen, dus ook bij de biologische varkenshouderijen. Laten we daar wel even heel duidelijk over zijn. Ik ben volgens mij de enige die dat hier durft te zeggen. Ook in de biologische varkenshouderij komt staartbijten voor. Het is niet voor niks dat gangbare boeren zeggen: weet je, we moeten dit wel doen, want anders gaan ze toch in de staarten bijten. En waar het kan om het niet meer te doen, moet je het natuurlijk niet meer doen. Maar door dit helemaal los te laten — die waarschuwing geef ik u echt mee — gaat ú eraan meewerken dat staartbijterij gewoon blijft vóórkomen, omdat er verder geen enkel plan aan ten grondslag ligt om het af te schaffen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note204">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u118">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg126">Prima. Dank u wel. Tot zover de termijn van de Kamer. Ik schors tien minuten, en dan gaan we luisteren naar de minister voor de antwoorden en het becommentariëren van de moties.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note205">De vergadering wordt van 12.24 uur tot 12.32 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note206">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u119">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg127">We gaan verder. Ik sta alleen interrupties toe van de eerste indiener van de diverse moties en we beperken ons echt tot de moties. Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note207">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u120">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg128">Voorzitter. Het is een levendig debat over wat het aangenomen amendement van de Kamer betekent. Ik heb hier vandaag ook een aantal richtinggevende uitspraken gehoord, bijvoorbeeld dat de gezelschapsdieren niet onder dit amendement vallen. Dat punt zal ik zeker meenemen in mijn analyse en ik zal er ook voor zorgen dat we op dat punt dan duidelijkheid kunnen gaan creëren. Die richtinggevende uitspraak staat dus.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg129">Dan kom ik bij de moties, allereerst bij de motie op stuk nr. 1186 van mevrouw Vestering over het betrekken van de diergedragsdeskundigen. Wij zijn, zoals ik heb gezegd, zelf al aan het kijken naar de juridische impact, ook in relatie tot andere wet- en regelgeving, bijvoorbeeld op Europees niveau. Daar zal ik uw Kamer ook over informeren. Dat is wat ik aan het doen ben. Dus ik ontraad deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg130">Dan de tweede motie, de motie op stuk nr. 1187 van de heer De Groot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note208">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u121">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg131">En van mevrouw Vestering.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note209">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u122">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg132">O ja, mevrouw Vestering. Excuus. Dat is de motie-Vestering/De Groot op stuk nr. 1187 over een tussenevaluatie van de Wet dieren. Die wet is net geëvalueerd. Ik heb de evaluatie net naar uw Kamer gestuurd. Ik zou deze motie dus willen ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg133">De derde motie, de motie op stuk nr. 1188, is een spreekt-uitmotie. Die laat ik aan uw Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg134">Dan de vierde motie, de motie op stuk nr. 1189. Wij zijn al aan het kijken hoe de techniek van In Ovo die in het ei het geslacht kan bepalen, breder toegepast kan gaan worden en ook wat daarvoor nodig is. Dat onderzoek loopt. In dat licht kan ik deze motie oordeel Kamer geven. Ik wil daar dan alleen wel bij betrekken wat mevrouw Van der Plas ook zei, namelijk wat dat betekent voor het verdienvermogen van de boer. Ik zou dat dus breder doen en de motie op die manier oordeel Kamer kunnen geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note210">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u123">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg135">Ik sta alleen de eerste indiener van de motie een interruptie toe.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note211">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u124">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg136">Dan de vijfde motie, de motie op stuk nr. 1190. Ik beschouw die motie ook als een richtinggevende uitspraak van de Kamer over hoe wij het amendement moeten lezen. Ik ben, zoals gezegd, bezig met de juridische analyse. Als deze motie wordt aangenomen, zal ik dit verzoek van de Kamer ook betrekken bij die analyse. In dat licht kan ik de motie oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note212">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u125">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg137">Nogmaals, ik sta per motie alleen de eerste indiener een interruptie toe. De minister continueert.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note213">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u126">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg138">Dan de zesde motie, de motie op stuk nr. 1191, die vraagt om bij die analyse ook te kijken naar de Europeesrechtelijke kaders. Ik heb al gezegd dat ik ook naar de Europese zaken kijk. Er wordt ook gevraagd naar het RIVM. Dat zal ik er ook bij betrekken als deze motie wordt aangenomen. Dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg139">Dan de motie op stuk nr. 1192 van mevrouw Van der Plas en anderen over het meenemen van het wetenschappelijk onderzoek. Ik ga zeggen wat ik net ook bij de motie van mevrouw Vestering heb gezegd: ik ben een juridische analyse aan het maken en dat is wat ik aan uw Kamer zal doen toekomen. Ik ga nu verder dus geen wetenschappelijke onderzoeken en dergelijke allemaal in gang zetten. Ik ontraad dus ook deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg140">Dan de achtste motie, de motie op stuk nr. 1193, met de vraag om te kijken of de handhaafbaarheid door de NVWA van deze wetswijziging meegenomen kan worden. Daar ben ik toe bereid. Als er dan ook nog gevraagd wordt naar de financiële consequenties daarvan, wordt dat wel weer een veel groter aspect dat ik mee zou nemen. Ik zou mevrouw Van der Plas willen vragen of ze dat punt van die financiële consequenties eventueel zou willen wijzigen, want het punt van de NVWA vind ik wel zeer relevant. Als ze bereid is om dat onderdeel over die financiële consequenties aan te passen in de motie, zou ik deze motie oordeel Kamer geven. Anders duurt het gewoon heel lang. Dan moet ik een heel groot onderzoek gaan doen. En nogmaals, volgens mij wil de Kamer snel meer duidelijkheid. Dat lukt op die manier niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note214">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u127">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg141">Ik kijk heel strak naar mevrouw Van der Plas, maar ze komt het zelf even toelichten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note215">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u128">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg142">Ik ga dat even overleggen. Ik hou de motie wel even zo, maar ik moet het ook gewoon even overleggen met onze partijgenoten, met onze achterban en met eventuele anderen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note216">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u129">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg143">Dat zijn er best veel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note217">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u130">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg144">Dat worden er elke dag meer. Onze aanhang groeit enorm. Dat heeft u goed geconstateerd. Dat ga ik inderdaad even doen. Dus ik zeg het nu nog niet toe, maar ik overweeg het in ieder geval wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note218">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u131">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg145">U krijgt dan nu eigenlijk een soort dubbele appreciatie. Als het erin blijft …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note219">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u132">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg146">Dan wordt het veel te groot en breed. Dan ben ik nooit op tijd klaar met het informeren van de Kamer. Maar wat dit betekent voor de NVWA, vind ik een heel reëel punt. Als dat punt centraal staat, wil ik de motie oordeel Kamer geven. Ik wacht dus even of dat nog wordt aangepast.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note220">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u133">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg147">Het is dus vooralsnog een dubbele appreciatie, afhankelijk van het mogelijk aanpassen van de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note221">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u134">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg148">Ja. Dan waren er nog een paar vragen die ik ook graag wilde meenemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note222">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u135">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg149">Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note223">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u136">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg150">Er was een vraag van de heer De Groot over het laten bepalen door de diergedragskundige. Ik kom dan even terug op de appreciatie van de moties. Ik ga die juridische analyse maken. Dat is wat u van mij kunt verwachten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg151">Dan het punt van de open normen. Wanneer zijn die ingevuld? Er zijn nu zeven open normen aangemeld door de toezichthouders, met de vraag om die nader te concretiseren. We gaan daarmee aan de slag. Ik vind het ingewikkeld om te voorspellen hoelang dat precies duurt. Ik ga daar nu dus niet een concreet tijdpad op zetten, maar we zijn er al wel actief mee bezig. Ik zal uw Kamer er ook over informeren als daar meer over te melden is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg152">Dan was er nog een vraag van de heer Boswijk: hoe staat het met de interimmers. Dat wordt naar aanleiding van de motie-Geurts/Bisschop of de motie-Bisschop/Geurts — ik weet de volgorde even niet meer — zo goed mogelijk in kaart gebracht. Ik zal uw Kamer daar ook over informeren. Ik hoop dat spoedig te doen. Ik wil er wel op wijzen dat de meeste interimmers geen landbouwbedrijven zijn. Het is best ingewikkeld om te weten over wie we het hebben als de mensen zelf niet weten dat ze interimmer zijn. Dat maakt het onderzoek wat complexer. Maar we zijn er dus al mee bezig om dat in beeld te brengen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg153">Dan nog de vraag of er een versnelling op het budget voor de sanering kan komen. Op dit moment zien we dat er meer aanvragen zijn. We proberen daarom ook echt naar bevind van zaken te handelen. Daar zitten natuurlijk ook wel een aantal vragen onder, bijvoorbeeld wat de mogelijkheden zijn om met budgetten te schuiven en dergelijke. Maar wij staan daar zeker voor open.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note224">De heer Boswijk (CDA)</note>
+            <u who="#DerkBoswijk" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u137">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg154">Dank aan de minister voor het antwoord. Wanneer kunnen wij ongeveer die brief over die interimmers verwachten? Is het misschien een mogelijkheid dat we het er wel even los van zien en puur kijken naar de tuin- en landbouwsector, ook omdat juist daar die verduurzaming stilligt? Mijn andere vraag is of het mogelijk is dat wij een overzicht krijgen van alle warme saneringsregelingen op dit moment. En kunnen we een overzicht krijgen waarin staat hoeveel aanmeldingen er zijn en hoeveel budget er is? Ik heb zelf al een soort inventarisatie gemaakt in de belronde, maar het zou fijn zijn als we ook nog een overzicht kunnen krijgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note225">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u138">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg155">Ik kan die interimmers niet allemaal los van elkaar zien. Dat wordt een hele ingewikkelde. Nogmaals, het is al best ingewikkeld om goed in kaart te brengen wie interimmer is. En om dan ook helemaal de knip te gaan maken … Soms zijn het namelijk ook gemeentebedrijven of juridische entiteiten; dat kan ik echt niet allemaal uit elkaar gaan trekken. U krijgt dus gewoon een overzicht van "de interimmers". Ik meen ook dat de vraag van de heer Boswijk gericht was op "de interimmers". Dat is breder dan alleen landbouw. Ik probeer de Kamer daar voor de zomer over te informeren, zodat u voldoende informatie heeft.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg156">Dan het punt van een overzicht van alle middelen rondom de warme sanering. Ik zal kijken of ik ook die zaken nog een keer op een rij kan zetten als ik de Kamer informeer over de interimmers. Dan heeft u daarvan een totaaloverzicht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note226">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u139">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg157">Nog een opmerking over de juridische analyse. Het lijkt me heel goed dat de minister die aan de Kamer stuurt, maar de vraag ging eigenlijk verder dan dat. Tijdens het vragenuur heeft de minister namelijk gesuggereerd dat de invulling van de normen uiteindelijk onderdeel van het politieke debat zal zijn, en dat de normen hier zullen worden vastgesteld, als een soort handjeklap. Mijn vraag ging erover dat je dan de basis van wat je voorstelt wel moet bepalen aan de hand van wetenschappelijk onderzoek, zoals ook de BoerBurgerBeweging zelfs voorstelt. Dus een juridische analyse, ja, maar vervolgens moeten we toch kijken wat het betekent voor varkens, voor kippen enzovoorts.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note227">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u140">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg158">Ik heb de Kamer een juridische analyse toegezegd en dat is nu de stap die ik ga zetten. Daar blijf ik nu ook bij. Ik heb gezegd dat dat ook maar de basis moet vormen voor het debat dat wij met elkaar gaan voeren over hoe je dit moet invullen. Ik heb vandaag dus al een concretere invulling gehoord, namelijk dat gezelschapsdieren niet onder dit amendement horen. Oké, dan is die genoteerd en dan zullen we die meenemen. Maar ik ga nu vooral eerst kijken wat er al is aan bestaande regelgeving en hoe het amendement zich daartoe verhoudt, zodat we daarna het debat verder kunnen voeren. Ik constateer dat hier ook een richtinggevende motie van de heer Van Campen ligt over hoe daar verder invulling aan gegeven moet worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note228">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u141">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg159">Ik wil door naar mevrouw Vestering, want ik wilde één vraag per persoon doen na de moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note229">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u142">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg160">Mag het heel kort?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note230">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u143">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg161">Nee, want ik heb een minister in de coulissen staan, namelijk minister De Jonge. Mevrouw Vestering mag nog even één vraag stellen en dan zijn we klaar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note231">Mevrouw Vestering (PvdD)</note>
+            <u who="#LeonieVestering" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u144">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg162">Ik wil graag nog één verduidelijking. De reactie van de minister op de motie van de VVD verbaast mij namelijk. Ze zei dat we nu aan de slag gaan. We weten dit al vanaf 2014. Want er was al bestaande wetgeving waarvan de minister en de NVWA aangeven dat die niet handhaafbaar is. Op het moment dat deze motie, die de minister zelfs oordeel Kamer geeft, zou worden aangenomen, zouden we een stap terug doen. Dan is de NVWA niet meer in staat om goed te handhaven, zoals ook juristen aangeven. De aanscherping van de Wet dieren wordt helderder. Die is verduidelijkt. Daarmee kunnen we dus makkelijker en beter handhaven. Sterker nog, het is nog steeds open, maar het is wel aangescherpt en daarmee gaat u verder aan de slag. Dit verbaast mij dus. Het kan toch niet zo zijn dat we nu weer een stapje terug doen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note232">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u145">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg163">Net heb ik in antwoord op de vraag van de heer De Groot al aangegeven dat we de open normen op onderdelen juist al aan het invullen zijn op basis van de bestaande wet- en regelgeving. De NVWA krijgt dus juist meer duidelijkheid over hoe zij op dat punt moet handhaven. Op die manier kun je het handhavingsvraagstuk te lijf gaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note233">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u146">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg164">Prima. Tot zover dit debat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note234">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note235">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.u147">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.seg165">Dinsdag stemmen we over de moties. Dank aan de minister voor haar aanwezigheid vandaag. Ik schors even en dan gaan we door naar het debat over de EU-Gezondheidsraad. Dank u wel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-9.note236">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-07-01 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-07-01 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 96, Session 4 (2021-07-01)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 96, Session 4 (2021-07-01)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="96" xml:lang="en">Meeting 96</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-07-01">Sitting 2021-07-01</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="41">41 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="41">41 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2859">2,859 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2859">2,859 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-07-01">2021-07-01</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="170"/>
+               <tagUsage gi="seg" occurs="58"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="41"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-07-01">2021-07-01</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.head1">Politie</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg1">Een hartelijk woord van welkom aan de minister. Fijn dat u bij ons bent. Aan de orde is thans het tweeminutendebat Politie. Daarvoor hebben wij maar liefst zeven sprekers die ieder zeven, herstel, twee minuten hebben. De eerste spreker is mevrouw Van der Werf van de fractie van de VVD. Aan haar is het woord. Ik bedoel: van de fractie van D66. Ik zat even naar de maidenspeeches te kijken. Het is vroeg en ik moet nog aan de koffie beginnen. Het woord is aan mevrouw Van der Werf van de fractie van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note2">Mevrouw Van der Werf (D66)</note>
+            <u who="#HannekevanderWerf" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg2">Dank u wel, voorzitter. In het commissiedebat vroeg ik de minister naar onbewuste ontmoediging bij aangifte van verkrachting. Te vaak lopen slachtoffers tegen drempels op bij het doen van die aangifte en zien ze ervan af of krijgen ze later spijt. Ik vind het belangrijk om te erkennen dat de zedenrecherche zelf met een plan is gekomen. Tegelijkertijd besef ik ook dat een omslag in de werkwijze echt wel blijvende inzet vanuit de Kamer behoeft. Daarvoor dien ik vandaag een motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note6">constaterende dat jaarlijks ongeveer 100.000 mensen slachtoffer zijn van seksueel geweld en dat 1 op de 8 vrouwen en 1 op de 25 mannen ooit is verkracht, waarvan slechts een klein deel melding maakt bij de politie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note7">constaterende dat het aantal meldingen van verkrachting de laatste jaren weliswaar toenam, maar dat het aandeel van slachtoffers dat daar aangifte van deed afnam;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note8">overwegende dat de Inspectie Justitie en Veiligheid in 2020 concludeerde dat zedenrechercheurs vanuit de intentie om slachtoffers in bescherming te nemen, te veel nadruk kunnen leggen op de negatieve gevolgen van aangifte doen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note9">van mening dat het onwenselijk is wanneer zedenrechercheurs slachtoffers onbewust ontmoedigen om aangifte te doen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note10">overwegende dat de zedenpolitie naar aanleiding van het inspectierapport een plan van aanpak heeft opgesteld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note11">verzoekt de regering dit plan te monitoren op zowel kwalitatieve als kwantitatieve resultaten, in het bijzonder de ervaringen van slachtoffers en zowel het aantal meldingen als het aantal aangiften van verkrachting, en de Kamer jaarlijks over de voortgang te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note12">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note13">Deze motie is voorgesteld door de leden Van der Werf, Kuik, Van Nispen, Ellemeet, Kuiken, Bikker en Michon-Derkzen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note14">Zij krijgt nr. kst-29628-1018</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note15">Dank u wel. Dan geef ik graag het woord aan mevrouw Michon-Derkzen van de VVD.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note16">Mevrouw Michon-Derkzen (VVD)</note>
+            <u who="#IngridMichonDerkzen" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg3">Dank u wel, voorzitter. Een aantal weken geleden hadden we een commissiedebat over de politie waarbij heel veel onderwerpen de revue passeerden. Natuurlijk stonden we ook even stil bij de actualiteit rond het virus COVID-19. Je zag hoe de politie en onze boa's het in het afgelopen jaar voor de kiezen kregen bij het handhaven op straat waar dat nodig was. Het goede daarvan is dat je ook hele goede voorbeelden zag van samenwerking tussen boa's en politie, dus er zijn in mijn ogen ook een aantal dingen gebeurd en ontstaan die daarvoor moeilijker waren. We spraken daar ook over. Mijn fractie hecht eraan dat juist die goede voorbeelden structureel worden ingezet. Daarom heb ik de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note17">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note18">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note19">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note20">constaterende dat boa's een belangrijke bijdrage leveren aan de handhaving en opsporing in diverse domeinen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note21">constaterende dat het afgelopen jaar onder invloed van COVID-19 door politie en boa's vaker en intensiever is samengewerkt en dat hieruit best practices voortkomen, waarbij tegelijkertijd al langer goede vormen van samenwerking bestaan, zoals in de gemeente Den Haag;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note22">van mening dat een intensievere samenwerking tussen boa's en politie een goede ontwikkeling is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note23">verzoekt de regering in kaart te brengen welke best practices er zijn voor samenwerking tussen boa's en politie, dit te bundelen en als overzicht beschikbaar te stellen aan gemeenten als handvat voor verdere samenwerking,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note24">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note25">Deze motie is voorgesteld door de leden Michon-Derkzen en Palland.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note26">Zij krijgt nr. kst-29628-1019</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note27">Dank u wel. Dan de heer Van Baarle van de fractie van DENK.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note28">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg4">Voorzitter, dank u wel. Ik heb een viertal moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note29">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note30">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note31">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note32">constaterende dat in sommige gevallen discriminatie op de werkvloer van de politie niet wordt gemeld, of niet terechtkomt bij de hoogst verantwoordelijke functionaris;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note33">verzoekt de regering om met de nationale politie de mogelijkheid te verkennen van een meldplicht voor discriminerend gedrag of discriminerende uitingen, waardoor er altijd gemeld moet worden bij een leidinggevende en er sprake moet zijn van escalatie naar de hogere verantwoordelijke,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note34">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note35">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note36">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note37">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note38">constaterende dat uit onderzoek is gebleken dat maar 3,8% van de agenten het handelingskader voor een professionele controle kent;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note39">verzoekt de regering om op de kortst mogelijke termijn te bewerkstelligen dat iedere agent het handelingskader proactief controleren kent en de Proco-app gebruikt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note40">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note41">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note42">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note43">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note44">constaterende dat disciplinaire straffen bij de politie intern tot stand komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note45">verzoekt de regering om met de nationale politie de mogelijkheden van een extern tuchtsysteem te verkennen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note46">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note47">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note48">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note49">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note50">overwegende dat de uitstroom van aspirant-politiemedewerkers met een migratieachtergrond in de afgelopen paar jaar enorm is toegenomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note51">verzoekt de regering om een diepgravend en onafhankelijk onderzoek in te stellen naar de uitstroom van aspiranten met een migratieachtergrond en hierbij de cultuur op de werkvloer te betrekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note52">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note53">Deze motie is voorgesteld door de leden Van Baarle en Azarkan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note54">Zij krijgt nr. kst-29628-1020</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note55">Deze motie is voorgesteld door de leden Van Baarle en Azarkan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note56">Zij krijgt nr. kst-29628-1021</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note57">Deze motie is voorgesteld door de leden Van Baarle en Azarkan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note58">Zij krijgt nr. kst-29628-1022</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note59">Deze motie is voorgesteld door de leden Van Baarle en Azarkan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note60">Zij krijgt nr. kst-29628-1023</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note61">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg5">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note62">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg6">Dank u wel. Dan gaan we luisteren naar de heer Van Nispen van de fractie van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note63">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg7">Goedemorgen. Wij hebben aspiranten hard nodig, maar we kunnen ze niet volledig meetellen, omdat ze maar voor 17% inzetbaar zijn. We kregen een brief met de beloofde helderheid. In antwoord daarop zeg ik tegen de minister dat het natuurlijk belangrijk is dat je voldoende aspiranten hebt en dat je hen ook kunt betalen, dus dat ze in die zin op de begroting staan, maar daarvoor is het nog niet nodig om ze voor 100% mee te rekenen in de operationele bezetting, want dan krijg je juist een vertekend beeld. Wij willen een realistisch beeld. De aangehouden motie die we daarover hebben ingediend, willen we dus graag in stemming brengen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg8">Mijn tweede opmerking betreft de veteranenstatus van de politieagenten. Er gaat iets niet helemaal goed met de tijd, voorzitter, maar dat even terzijde. Daar zal ik niet op letten. Het is heel goed dat de minister antwoordde dat de veteranenstatus voor politieagenten wordt bezien. Ik wacht dat onderzoek daarnaar af, dus daar zal ik geen motie over indienen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg9">Maar wat wel te maken heeft met waardering en erkenning, is het aantal overuren op dit moment. Dat is echt een probleem. Daarover de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note64">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note65">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note66">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note67">constaterende dat de druk op de politie al jaren groot is en tijdens de coronacrisis nog groter werd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note68">constaterende dat veel agenten overuren maken maar het erg onwaarschijnlijk is dat zij deze allemaal kunnen compenseren door er vrije dagen voor op te nemen en het uit laten betalen van deze uren fiscaal onaantrekkelijk kan zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note69">van mening dat agenten een goede beloning dienen te krijgen voor hun (verhoogde) inzet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note70">verzoekt de regering met een voorstel te komen zodat politiemedewerkers tijdelijk hun gemaakte overuren tegen een gunstig tarief kunnen laten uitbetalen zonder een nadelig effect op eventueel te ontvangen toeslagen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note71">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note72">Deze motie is voorgesteld door het lid Van Nispen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note73">Zij krijgt nr. kst-29628-1024</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note74">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg10">Voorzitter. Dan tot slot nog één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note75">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note76">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note77">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note78">constaterende dat het belang om fors te investeren in de politie en andere organisaties in de strafrechtketen groot is, hier breed draagvlak voor bestaat en de verkiezingsprogramma's van alle partijen hier aandacht aan besteedden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note79">indachtig de eerdere aangenomen motie-Van Nispen (Kamerstukken 2020-2021, motie 35564, nr. 14) die de regering verzocht een plan uit te werken waarmee de komende jaren fors wordt geïnvesteerd in de strafrechtketen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note80">constaterende dat de minister in een brief aan de Kamer letterlijk schreef dat "het van groot belang is om structureel te investeren in het beheersbaar krijgen van ondermijnende criminaliteit" en dat "het van belang is dat er politiek meer aandacht komt voor een structurele aanpak, waarbij preventie en repressie op lokaal, regionaal, landelijk en internationaal niveau hand in hand gaan";</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note81">overwegende dat de kans inmiddels behoorlijk aanwezig is dat de huidige minister van Justitie en Veiligheid verantwoordelijk is voor — in ieder geval het voorbereiden van — de begroting JenV voor het jaar 2022;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note82">verzoekt de regering nadrukkelijk rekening te houden met het draagvlak in de Kamer voor forse investeringen in de strafrechtketen en dit weerslag te laten vinden in de begroting Justitie en Veiligheid voor het jaar 2022,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note83">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note84">Deze motie is voorgesteld door het lid Van Nispen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note85">Zij krijgt nr. kst-29628-1025</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note86">Dank u wel. U had het over een motie die u eerder had aangehouden.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note87">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg11">Die zal ik erbij doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note88">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg12">Heeft u daar ook een nummer van?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note89">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg13">Zeker. Kamerstuk 35830-VI, nr. 10.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note90">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg14">Perfect, dan nemen we dat met plezier in ontvangst van u. Dan de heer Bisschop van de Staatkundig Gereformeerde Partij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note91">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg15">Voorzitter, dank u wel. Die laatste motie van de SP zal ik niet opnieuw indienen. Nee hoor, geintje. Maar die is uitstekend; dat is een uitspraak van de Kamer die hopelijk tot effecten gaat leiden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg16">Voorzitter. Ik heb een tweetal moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note92">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note93">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note94">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note95">constaterende dat de politiecapaciteit in grote havens op orde is, maar dat dit leidt tot een waterbedeffect in kleinere havens wat betreft drugssmokkel en ondermijnende criminaliteit;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note96">overwegende dat de aanpak van drugssmokkel en ondermijnende criminaliteit vanuit kleine havens zoals de North Sea Port vraagt om een intensieve aanpak van de politie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note97">overwegende dat de capaciteit van de havenpolitie dikwijls tekortschiet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note98">verzoekt de regering om een plan van aanpak op te stellen om te voorkomen dat kleinere havens als gevolg van het waterbedeffect meer overlast ervaren van drugssmokkel en ondermijnende criminaliteit en daarbij ook de vergroting van de capaciteit van politie en Douane te betrekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note99">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note100">Deze motie is voorgesteld door het lid Bisschop.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note101">Zij krijgt nr. kst-29628-1026</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note102">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg17">De tweede motie:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note103">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note104">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note105">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note106">constaterende dat het actieplan van de nationale politie pleit voor een inclusiever korps waarvan 35% van de agenten een migratieachtergrond heeft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note107">overwegende dat alle politiemedewerkers dezelfde kennis over de aanpak van discriminatie hebben dankzij de aandacht hiervoor in diverse onderdelen van de opleiding;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note108">overwegende dat bij de selectie van kandidaten kwaliteit voorop dient te staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note109">verzoekt de regering te borgen dat selectie objectief blijft en geen afbreuk doet aan de kwaliteit van het korps,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note110">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note111">Deze motie is voorgesteld door het lid Bisschop.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note112">Zij krijgt nr. kst-29628-1027</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note113">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg18">Dank u zeer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note114">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u16">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg19">Dank u wel. Dan mevrouw Kuik van de fractie van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note115">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u17">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg20">Dank, voorzitter. Mijn collega Palland heeft het debat gedaan; zij is nu elders, dus ik dien namens haar ook een motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note116">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note117">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note118">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note119">constaterende dat de minister werkt aan een nieuwe visie op de boa-functie en het boa-bestel, om te toetsen of het beleid nog aansluit op de praktijk;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note120">constaterende dat gelijktijdig gewerkt wordt aan een beleids- en uitvoeringsagenda politie-boa ter verdere optimalisering van de samenwerking tussen politie en boa's;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note121">overwegende dat de samenwerking tussen politie en boa's, zoals beschreven in het rapport Buitengewoon veilig, intensiveert, maar er nog altijd een grote (lokale/regionale) diversiteit is in de samenwerking tussen boa's en politie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note122">verzoekt de regering bij de formulering van een nieuwe visie op de boa-functie en het boa-bestel uitdrukkelijk aandacht te besteden aan:</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note123">de samenwerking tussen politie en boa's;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note124">de lessen die reeds getrokken kunnen worden uit de beleids- en uitvoeringsagenda politie-boa daarbij te betrekken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note125">onderscheid in type boa per domein;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note126">een samenhangend en logisch pakket aan bevoegdheden om op te treden en de benodigde grondslag daarvoor;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note127">het geweldsmonopolie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note128">de rol van de lokale/regionale werkgever;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note129">en de Kamer hierover voor de begrotingsbehandeling 2022 te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note130">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note131">Deze motie is voorgesteld door de leden Kuik en Palland.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note132">Zij krijgt nr. kst-29628-1028</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note133">Heel goed. Tot zover mevrouw Kuik. Dan gaan we luisteren naar de heer Van Meijeren van de fractie van Forum voor Democratie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note134">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u18">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg21">Dank u wel, voorzitter. Er is sinds de invoering van de lockdown begrijpelijkerwijs veel gedemonstreerd tegen de onrechtmatige en vrijheidsbeperkende coronamaatregelen. Helaas werden die demonstraties in veel gevallen op brute wijze beëindigd door de oproerpolitie. Vreedzame demonstranten werden bestormd, met bluskanonnen uiteengedreven en als ze eenmaal weerloos op de grond lagen nog uitgebreid in elkaar geknuppeld door groepjes ME'ers. Zorgwekkend genoeg noemde de minister deze wijze van optreden tijdens het debat "adequaat".</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg22">Voorzitter. Ik kan hier uiteraard onmogelijk genoegen mee nemen als de minister dit enorme probleem niet serieus neemt. Dan moet de Kamer zelf een onderzoek instellen. Daarom dien ik de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note135">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note136">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note137">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note138">constaterende dat diverse oppositiedemonstraties tegen de coronamaatregelen zijn beëindigd op bevel van het gezag, waarbij grof geweld is gebruikt tegen vreedzame demonstranten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note139">constaterende dat de regering er blijk van heeft gegeven het geweld tegen weerloze burgers niet op deugdelijke wijze te willen onderzoeken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note140">overwegende dat in een rechtsstaat geweld tegen vreedzame burgers, die zich niet schuldig maken aan ordeverstoringen, onacceptabel is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note141">verzoekt het Presidium een voorstel voor te bereiden voor een parlementair onderzoek naar de wijze van optreden rondom de genoemde demonstraties,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note142">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note143">Deze motie is voorgesteld door het lid Van Meijeren.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note144">Zij krijgt nr. kst-29628-1029</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note145">Dank u wel. Tot zover de termijn van de Kamer. Ik schors twee minuten en dan gaan we luisteren naar de antwoorden van de minister.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note146">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note147">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u19">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg23">O, bent u al klaar?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note148">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u20">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg24">Ja, voorzitter. Omwille van een spoedig verloop van deze mogelijk best wel uitgebreide dag lijkt het me goed om meteen te beginnen. Ik wacht nog even op de schriftelijke uitwerking van de motie van Forum voor Democratie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg25">Voorzitter. Ik begin bij de motie op stuk nr. 1018. Laat ik onmiddellijk zeggen dat ik zeer positief sta tegenover die motie. We hebben de modernisering van "de zeden" opgepakt. Dat is net terug van consultatie, wil ik hier met een heel klein glimpje van vreugde vertellen. We zien bij de motie op stuk nr. 1018 dat we hier ook stappen kunnen zetten. Het plan van aanpak van de zedenpolitie om onbewuste ontmoediging tegen te gaan verdient alleen maar verdere steun, ook vanuit uw Kamer. De motie op stuk nr. 1018 van de leden Van der Werf, Kuik, Van Nispen, Ellemeet, Kuiken, Bikker en Michon-Derkzen geef ik dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg26">Voorzitter. Dan heb ik de motie op stuk nr. 1019 van de leden Michon en Palland over het in kaart brengen van best practices voor samenwerking tussen boa's en politie. Ik kan alleen maar zeggen dat ik dat een verstandige motie vind, inderdaad gegeven wat we de afgelopen zestien maanden hebben gezien in de coronabestrijding. De vertaling van "een verstandige motie" is dan: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg27">Dan wordt het echt een hele gezellige winkel, want ik kom op de motie op stuk nr. 1020 en de verdere moties van de heer Van Baarle en de heer Azarkan van DENK. De motie op stuk nr. 1020 over de meldplicht voor discriminerend gedrag ga ik ontraden. Ik wil dat ook uitleggen aan de heren Van Baarle en Azarkan. Voor discriminatie is er geen ruimte bij het korps. Ik denk dat dat door de korpschef en door mij de afgelopen tijd zeer actief is uitgedragen, ook nog gisteren in het debat over discriminatie. Maar als er discriminatie of andersoortige onmenselijkheden worden geconstateerd, kunnen medewerkers zich juist wenden tot de punten Veiligheid, Integriteit en Klachten, de vertrouwenspersoon of de ombudsfunctionaris politie. Die laatste is ingesteld en uitgewerkt in de periode dat u mij als minister heeft gezien, juist om nog meer ingang te geven voor dit soort situaties. Vanuit mijn vorige professie als arbeidsrechtadvocaat zeg ik erbij dat het instellen van meldplichten op dit soort punten … Ik weet dat een lid van uw Kamer ooit, in 2007, voorstelde om klokkenluiders die niet klokkenluiden, strafbaar te maken. Dat zijn dingen die niet helpen, integendeel. Je moet juist faciliteiten hebben waar mensen in vertrouwen hun klacht kwijt kunnen. Ten slotte, voorzitter. Als er al zoiets zou moeten komen, is dat iets wat bij de korpschef zou moeten liggen en niet bij de minister. Ik heb wat uitvoeriger bij deze motie stilgestaan omdat ik begrip heb voor de zorg van de leden Azarkan en Van Baarle. Maar het gaat in het geheel toch niet iets bijdragen, we hebben andere goede middelen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg28">Tot zover, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note149">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u21">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg29">Een vraag van de heer Van Baarle op dit punt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note150">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u22">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg30">De minister geeft aan dat er andere instanties zijn waar mensen terechtkunnen met meldingen van discriminerend gedrag. Het punt is nou juist dat dat niet gebeurt. De casus in Rotterdam heeft ons geleerd dat het niet bij de hoogste politiefunctionaris is terechtgekomen, en dat gebeurt vaker. We hebben er juist begrip voor dat dit samen met de korpsleiding moet worden opgepakt. Vandaar dat de motie zo geformuleerd is dat wij de minister vragen dit samen met de korpsleiding te verkennen. Het lijkt mij dat het verkennen met de korpsleiding geen bezwaar kan zijn, toch?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note151">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u23">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg31">Even terug naar de Rotterdamse appgroep. Wat ik wel goed vind, is dat daar collega's op de werkvloer op enig moment die zaak aan de orde hebben gesteld en aan de orde zijn blijven stellen toen ze vonden dat daar niet adequaat op werd ingegrepen. Mijn kernpunt is tweeledig. Één: er zijn echt een aantal heel goede ingangen voor politiemensen of voor burgers om terecht te kunnen met klachten of zorgen over discriminerend gedrag. Het tweede is dat ik zeg dat het verplichtstellen van melden en dergelijke juist een averechts effect heeft. Dat heeft de praktijk bewezen. Dat moet je dus niet op die manier doen, maar ik benadruk — en daar sluit ik mee af — dat ik wel sympathiek tegenover de gedachte sta. Maar we moeten dat op een andere manier aanpakken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg32">Voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note152">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u24">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg33">Over drie minuten wil ik aan het volgende debat beginnen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note153">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u25">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg34">Ik doe mijn best. Ik heb veel sympathie voor de motie op stuk nr. 1021 over het handelingskader.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg35">De motie op stuk nr. 1022 over de nationale politie en de mogelijkheden voor een extern tuchtsysteem ontraad ik. Ik heb u gezegd dat ik in het najaar kom met een uitvoerige brief over hoe we naar het sanctiestelsel zouden moeten kijken en wat daaraan veranderd zou moeten worden. We moeten daar niet op vooruit gaan lopen, we moeten open bekijken hoe dat sanctiestelsel moet worden aangepast. Daar zou extern wellicht ook bij langs kunnen komen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg36">De motie op stuk nr. 1023 over de uitstroom wil ik ook ontraden. We hebben veel onderzoeken gedaan die hebben geleid tot het programma Politie voor Iedereen. Dat moeten we nu gaan uitvoeren en we moeten dat nu niet weer gaan stilleggen door nieuwe onderzoeken. Dat neemt niet weg dat de politie — dat weet de heer Van Baarle heel goed — de vinger aan de pols houdt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg37">Dan kom ik als het goed is bij de motie op stuk nr. 1024 van de heer Van Nispen over de overuren. Die moet ik ook ontraden. We hebben nou net een cao tot aan het eind van dit jaar getekend, en daar zit heel veel blijk van waardering in. Daar zit een mooie balans in tussen een algemene salarisverhoging, een eenmalige uitkering en andere afspraken. Heel belangrijk om te benadrukken via u tot de heer Van Nispen: er zitten afspraken in over hoe we omgaan met het heropenen van de maatschappij. U zult de komende weken tot treuren toe mijzelf, maar ook voorzitters van veiligheidsregio's, een beroep horen doen op de samenleving en op lokale burgemeesters en andere mensen: doe nou eens rustig en ga niet ineens allemaal hele grote dingen organiseren, want ook de handhavers moeten kunnen bijkomen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg38">Dan was er nog een aangehouden motie en daar wil ik het volgende over zeggen. Die aspiranten worden wel degelijk voor een deel ingezet. Ik heb een brief beloofd waarin ik de zaken nog eens allemaal op een rij zet. Ik zou in eerste instantie willen voorstellen om die motie aan te houden totdat die brief er is en uw Kamer daarover in debat wil gaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note154">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u26">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg39">De heer Van Nispen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note155">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u27">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg40">Ik hoop dat dat kan, want ik heb die brief in het politiedebat aangekondigd naar aanleiding van de vragen van de heer Van Nispen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note156">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u28">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg41">Ik heb die brief afgewacht. In die brief, die we gisteren of eergisteren hebben ontvangen, staat uitdrukkelijk hoe de minister hiermee omgaat. Hij zegt namelijk dat je aspiranten maar voor 17% kunt meetellen maar dat ze, omdat ze betaald moeten kunnen worden — uiteraard moet je die mensen kunnen betalen — wel op de begroting staan. Dat begrijp ik allemaal, maar dat is geen argument om ze vervolgens voor 100% mee te tellen. Ik denk dat het, juist in reactie op de brief van de minister, heel verstandig is om, in aanloop naar de komende begroting, die motie wel in stemming te brengen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note157">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u29">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg42">Dus u houdt de motie niet aan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note158">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u30">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg43">Dan moet ik haar ontraden. Ik vind echt dat we over die brief een uitvoerig debat moeten hebben en niet hier een tweeminutendebat. Ik ontraad de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg44">Dan de motie op stuk nr. 1025 van de heer Van Nispen. Kennelijk is dat in vervolg op de brief die ik u gisteren heb gestuurd. Daarin wordt aan mij, als demissionair minister, en aan het demissionair kabinet gevraagd om nu aan de slag te gaan met forse investeringen. Ik ga die motie uiteraard ontraden. De brief waar de heer Van Nispen om heeft gevraagd, beschrijft heel duidelijk waar de problematieken zitten. Het is de komende maanden aan de formatie om uit te komen op wat daar daadwerkelijk moet gebeuren. Ik ontraad die motie dus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note159">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u31">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg45">Een vraag van de heer Van Nispen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note160">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u32">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg46">Ik begrijp dat de minister deze motie ontraadt, maar het is de minister zelf die gisteren in een Kamerbrief een beroep op de politiek deed om hier meer aandacht voor te hebben, alsof hij daar zelf niet toe behoort en alsof hij zelf al ontslag heeft genomen. Hij is nog verantwoordelijk; hij gaat de begroting maken. Daarom is het begrijpelijk dat de minister de motie ontraadt, maar als de Kamer deze aanneemt dan geven we hem een positie en zeggen we: ga uw best doen voor extra investeringen de komende maanden bij de begrotingsvoorbereiding. Het is prima dat de minister de motie ontraadt, maar ik neem toch aan de Kamer deze motie gewoon aanneemt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note161">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u33">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg47">Ik kan de heer Van Nispen geruststellen. Ik heb weliswaar samen met de andere leden van het kabinet op 15 januari mijn ontslag aangeboden, maar de Koning houdt dat in beraad. Misschien is dat ook goed om te weten voor al die mensen die zich afvragen wat "demissionair" betekent. Dat is dus allemaal helder. Het is natuurlijk zo dat ik in de brief een signaal heb afgegeven en aandacht heb gevraagd, mede naar aanleiding van de voortreffelijke eerste motie van de heer Van Nispen, voor de investeringen die nodig zijn in de strafrechtketen. Vervolgens is het goed gebruik om niet hier te gaan praten over wat er dan aan andere tafels besloten gaat worden. Ik moet deze tweede motie, de motie op stuk nr. 1025, echt ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg48">Dan kom ik bij de motie op stuk nr. 1026 van de heer Bisschop. Als het slotstukje "en daarbij ook vergroting van de capaciteit van politie en douane te betrekken" erin blijft, dan moet ik de motie ontraden. Dat ligt een beetje in het verlengde van wat ik net zei. Als ik het zo zou mogen lezen dat de heer Bisschop dat stukje schrapt, dan kan ik het oordeel over de motie aan de Kamer laten. Ik vind het prima om de komende maanden met een plan van aanpak aan de slag te gaan, maar niet als ik daarin vergroting van politie en douane moet gaan betrekken, waarvan ik helemaal niet weet hoe en wat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note162">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u34">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg49">Ik verzoek de minister dit zo te interpreteren dat vergroting van de capaciteit een serieuze optie is, die meegenomen wordt in het plan van aanpak. Ik wil dat graag handhaven op deze manier, met deze interpretatie, omdat anders het waterbedeffect heel lastig tegen te gaan zal zijn. Ik denk dat als de minister deze interpretatie volgt, dat voor hem geen blokkade is om de motie gewoon het oordeel Kamer te geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note163">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u35">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg50">Dit is zo spijtig, want de heer Bisschop en ik weten elkaar — ondanks East is East, and West is West — altijd wel te vinden, maar hier toch niet. Ik kan niet met een plan van aanpak aan de slag gaan met een algemene opmerking over vergroting van capaciteit van politie en douane, als de heer Bisschop en 149 andere Kamerleden en ik op dit moment niet weten wat nu precies straks de investeringen en mogelijke vergrotingen zijn bij de politie, die onder mij valt, en de douane, die ook nog eens onder een ander ministerie valt. Dus als dat slotstukje "... en daarbij ook de vergroting van de capaciteit van politie en douane te betrekken", wordt geschrapt door de heer Bisschop, dan ga ik oordeel Kamer geven. Dan gaan we onmiddellijk aan de slag, maar als dat blijft staan, moet ik hem ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note164">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u36">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg51">Maar dat doet hij niet, dus gaan we naar de motie op stuk nr. 1027. De heer Bisschop zit er keihard in vandaag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note165">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u37">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg52">Het leven heeft zijn bittere momenten. Ik kan de motie op stuk nr. 1027 even niet vinden, maar ik had hem voor mezelf onthouden. Nou, als ik misschien nog even de motie op papier kan krijgen, want volgens mij zou die ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note166">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:gover" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u38">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg53">"... verzoekt de regering te borgen dat selectie objectief blijft en geen afbreuk doet aan de kwaliteit van het korps".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note167">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u39">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg54">Dat is oordeel Kamer. Daar kan ik heel kort over zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg55">Dan kom ik op de motie op stuk nr. 1028 van mevrouw Kuik en mevrouw Palland. Die is ook oordeel Kamer. Die gaat over die visie op het boa-stelsel. Ik ga daar nu verder niet uitvoerig op in, als u dat goed vindt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg56">Dan kom ik op de motie op stuk nr. 1029 van de heer Van Meijeren. Ja, die is aan de Kamer gericht, dus daar heb ik verder niks mee te maken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note168">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u40">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg57">Prima. Tot zover.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note169">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.note170">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.u41">
+               <seg xml:id="ParlaMint-NL_2021-07-01-tweedekamer-4.seg58">Dinsdag stemmen wij over de moties.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

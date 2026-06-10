@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-05-20 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-05-20 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 78, Session 24 (2021-05-20)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 78, Session 24 (2021-05-20)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="78" xml:lang="en">Meeting 78</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="24" xml:lang="en">Session 24</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-05-20">Sitting 2021-05-20</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="48">48 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="48">48 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3121">3,121 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3121">3,121 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-05-20">2021-05-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="149"/>
+               <tagUsage gi="seg" occurs="65"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="48"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-05-20">2021-05-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.head1">Raad Buitenlandse Zaken</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u1">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg1">We gaan vrolijk verder. Ik heb met veel belangstelling uw debat in dat kleine zaaltje mogen volgen. Ik begrijp dat de heer Wilders weer veel te makkelijk was en u veel te lang heeft laten praten. Vanaf nu gaan we het dus wat korter en puntiger doen. Ik begrijp dat het conflict in het Midden-Oosten dankzij u bijna is opgelost, maar het duurt nog eventjes. Dit is een tweeminutendebat en meer tijd gaan we er echt niet aan besteden. Ik wil er echt met de turbo doorheen. De heer Kuzu lijkt zeker aanstalten te maken om te gaan spreken, dus laat ik hem maar snel het woord geven. Het woord is aan de hem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note2">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u2">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg2">Voorzitter, dank u wel. Ik heb achttien moties. Nee hoor, het zijn er drie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note6">constaterende dat er in het Belgische regeerakkoord staat: "De regering zal op multilateraal en EU-vlak (…) werken aan een lijst van effectieve en proportionele tegenmaatregelen in geval van een Israëlische annexatie van Palestijns gebied en aan de mogelijke en tijdige erkenning van de Palestijnse staat.";</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note7">overwegende dat België heeft aangegeven dat wanneer de Europese aanpak geen resultaat oplevert, er met gelijkgezinde landen op zoek gegaan zal worden naar maatregelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note8">verzoekt de regering, indien er een Belgisch initiatief komt voor maatregelen tegen Israël, onze dappere zuiderburen te steunen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note10">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note11">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note12">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note13">overwegende dat Israël niet alleen militaire maar ook civiele doelen probeert te vernietigen, waaronder woonhuizen en wegen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note14">overwegende dat dit de wederopbouw van Gaza sterk zal bemoeilijken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note15">verzoekt de regering om er bij Israël op aan te dringen om het bestoken van civiele doelen onmiddellijk te staken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note16">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note17">Deze motie is voorgesteld door de leden Kuzu en Jasper van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note18">Zij krijgt nr. kst-21501-02-2336</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note19">Deze motie is voorgesteld door de leden Kuzu en Teunissen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note20">Zij krijgt nr. kst-21501-02-2337</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note21">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u3">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg3">Voorzitter, dan alweer de laatste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note22">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note23">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note24">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note25">overwegende dat Israël het internationaal recht schendt, zoals blijkt uit VN-resolutie 2334;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note26">overwegende dat Israël zich schuldig maakt aan apartheid en mensenrechtenschendingen, zoals blijkt uit de onderzoeken van de organisaties Oxfam Novib, War Child, Human Rights Watch en Amnesty International;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note27">verzoekt de regering een verkennend onderzoek bij het Internationaal Strafhof te bepleiten om de heer Netanyahu te vervolgen voor oorlogsmisdaden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note28">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note29">Deze motie is voorgesteld door het lid Kuzu.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note30">Zij krijgt nr. kst-21501-02-2338</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note31">Dank u wel, ook voor uw beknoptheid. Dan is het woord aan de heer Brekelmans van de fractie van de VVD.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note32">De heer Brekelmans (VVD)</note>
+            <u who="#RubenBrekelmans" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u4">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg4">Dank, voorzitter. Ik dank ook de minister voor de antwoorden die hij heeft gegeven ten aanzien van het thema Israël en de Palestijnse gebieden. Hij heeft duidelijk uiteengezet wat de inzet van Nederland daarbij is, en dat we doen wat we kunnen om zo snel mogelijk tot een staakt-het-vuren te komen, partijen aan tafel te krijgen en vervolgens te werken aan een structurele oplossing.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg5">We hebben ook gesproken over andere thema's, onder andere de relatie tussen de EU en Afrika. Daarover gaat de motie die ik zou willen indienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note33">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note34">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note35">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note36">overwegende dat de toenemende dreiging van terrorisme een groot probleem is in diverse Afrikaanse landen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note37">overwegende dat deze terroristische dreiging ook een risico vormt voor de Europese veiligheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note38">constaterende dat Nederland veiligheid en terrorisme niet als prioriteit heeft benoemd voor de zesde EU-Afrikatop;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note39">verzoekt de regering er binnen de EU op aan te dringen dat ook veiligheid en terrorisme een belangrijk agendapunt wordt voor de zesde EU-Afrikatop, en dat dit ook gekoppeld wordt aan de afspraken rond migratie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note40">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note41">Deze motie is voorgesteld door het lid Brekelmans.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note42">Zij krijgt nr. kst-21501-02-2339</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note43">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u5">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg6">Dank u wel. Dan de heer Amhaouch van de fractie van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note44">De heer Amhaouch (CDA)</note>
+            <u who="#MustafaAmhaouch" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u6">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg7">Voorzitter. Dank aan de minister voor de beantwoording van de vragen in het commissiedebat. Ook dank voor zijn inzet om de Armeense krijgsgevangenen zo snel mogelijk vrij te krijgen, wat ook heel belangrijk is. Er was al progressie, maar we willen graag dat ze allemaal vrijkomen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg8">Dan het debat over Israël en Palestina, waarbij we natuurlijk al twee dagen stilstaan. Ik heb ook waardering voor het kabinet en de minister voor de korte lijnen en het feit dat Nederland betrokken blijft bij de mensen in de regio, maar ook bij de regeringsleiders in de regio, die direct betrokken zijn bij het conflict. Ik denk dat het heel belangrijk is dat de telefoon gepakt kan worden en dat de minister de inzet heeft toegezegd om Europa een platform te laten zijn voor de structurele oplossing en om daar werk van te maken zodra het staakt-het-vuren is opgelost.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg9">Voorzitter. Ik wil benadrukken dat het CDA staat voor de internationale rechtsorde en mensenrechten. Daarbij hoort het naleven daarvan door alle landen en partijen, met niemand uitgezonderd. Dat willen we onderstrepen met de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note45">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note46">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note47">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note48">van mening dat de willekeurige raketaanvallen door Hamas en andere terroristische groeperingen op Israëlisch grondgebied ten zeerste veroordeeld moeten worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note49">overwegende dat de toename van geweld geleid heeft tot burgerslachtoffers en gewonden, onder wie kinderen en vrouwen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note50">overwegende dat Israël het recht heeft zichzelf te verdedigen op een proportionele manier en met inachtneming van het internationaal humanitair recht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note51">overwegende dat ingezet moet worden op een staakt-het-vuren en de-escalatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note52">verzoekt de regering te pleiten voor een onafhankelijk internationaal (VN) onderzoek naar schendingen van het humanitair oorlogsrecht in de strijd tussen Hamas en Israël,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note53">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note54">Deze motie is voorgesteld door het lid Amhaouch.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note55">Zij krijgt nr. kst-21502-02-2340</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note56">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u7">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg10">Een vraag nog van de heer Van Dijk. Kort en puntig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note57">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u8">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg11">Dit is toch precies wat de minister heeft toegezegd in het debat. Wat voegt deze motie nou toe?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note58">De heer Amhaouch (CDA)</note>
+            <u who="#MustafaAmhaouch" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u9">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg12">Wat is de vraag van de heer Van Dijk? Wij onderstrepen nogmaals wat we ook in de commissievergadering hebben gezegd. Wij willen de minister meegeven dat hij de steun heeft van hopelijk de meerderheid van de Kamer als er een onderzoek komt, of dat nou naar de Verenigde Naties gaat of naar een andere onderzoeksinstantie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note59">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u10">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg13">Prima. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note60">De heer Amhaouch (CDA)</note>
+            <u who="#MustafaAmhaouch" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u11">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg14">Ik hoop dat de heer Van Dijk ook meedoet, want ik denk dat hij zou moeten staan te popelen om mee te mogen doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note61">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u12">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg15">Ik weet het niet, ik weet het niet. Maar dat gaan we zien! De heer De Roon van de fractie van de Partij voor de Vrijheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note62">De heer De Roon (PVV)</note>
+            <u who="#RaymonddeRoon" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u13">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg16">Voorzitter. De Kamer heeft vanmiddag met brede steun een motie aangenomen waarin — ik vat het even zakelijk samen — wordt gezegd dat het antisemitisme ook over de grenzen heen moet worden aangepakt. Ik ben natuurlijk hartstikke blij met deze motie en de minister heeft ook wel laten blijken dat hij voor dat idee veel voelt. Ik dacht dus: ik geef hem vanavond meteen de kans om dat waar te maken. Ik heb hem dus gevraagd om antisemitische uitspraken van president Erdogan te veroordelen. Het zijn er vele, maar ik heb er één in het bijzonder genoemd, namelijk zijn recente uitspraak dat de Israëliërs tevreden zijn als zij het bloed van Palestijnse kinderen kunnen drinken. En wat krijg ik dan als antwoord van de minister? Hij zegt: nou, die uitspraak laat ik voor rekening van Erdogan. Dat getuigt er in ieder geval niet van dat de minister met de uitspraak van Erdogan instemt, maar een veroordeling was het natuurlijk ook niet! En het zou natuurlijk wel goed zijn als de minister waarmaakt wat er in onze motie wordt gevraagd, namelijk antisemitisme over de grenzen heen gewoon duidelijk aan de kaak stellen en veroordelen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg17">Ik begrijp waarom de minister vanavond tegen ons zei: het is soms beter dat ik samen met mijn collega's een bepaalde uitspraak kan doen. Dus als de minister zegt "ik vind het wat lastig om dit nu in m'n eentje te doen", dan kan hij er natuurlijk ook samen met zijn collega's aan werken dat er een deugdelijke veroordeling van die uitspraak van Erdogan komt. Dus ik vraag de minister om een van deze twee zaken te doen, namelijk een veroordeling van die uitspraak door de minister alleen dan wel een veroordeling samen met zijn collega's. Als de minister zegt "dat wil ik niet doen", dan hoor ik natuurlijk graag waarom hij dat niet wil doen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg18">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note63">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u14">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg19">Helder. Dan de heer van der Staaij van de Staatkundig Gereformeerde Partij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note64">De heer Van der Staaij (SGP)</note>
+            <u who="#KeesvanderStaaij" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u15">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg20">Dank u, voorzitter. Ik wil me beperken tot één motietekst.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note65">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note66">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note67">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note68">overwegende dat grenzen met Gaza gesloten kunnen zijn om te voorkomen dat Hamas zich kan (her)bewapenen, maar dat dit ook humanitaire hulpverlening in de weg kan staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note69">verzoekt de regering zich vanuit veiligheids- en humanitair oogpunt in Europees en internationaal verband in te spannen voor het voorkomen van wapentransporten naar Hamas en andere terreurorganisaties in de Palestijnse gebieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note70">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note71">Deze motie is voorgesteld door het lid Van der Staaij.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note72">Zij krijgt nr. kst-21502-02-2341</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note73">Dank u wel. Dan de heer Segers van de ChristenUnie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note74">De heer Segers (ChristenUnie)</note>
+            <u who="#Gert-JanSegers" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u16">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg21">Ik dank de minister voor de gegeven antwoorden, ook in het overleg. Dat was breed en het was over het algemeen helder. Ik heb één motie en die ziet op de situatie met betrekking tot Armenië en Azerbeidzjan. De minister zei zich toch het meeste thuis te voelen bij de inzet van de Europese Unie. Die zegt: we moeten kijken naar beide zijden en roepen beide partijen op om het geweld te staken. Dat doet wat mij betreft geen recht aan de situatie en ook niet aan de situatie waarin de Armeense krijgsgevangenen zijn. Armeens grondgebied wordt nu bezet door Azerbeidzjan. Vandaar de volgende motie, die de minister aanspoort om samen met Macron stelling te nemen hierin.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note75">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note76">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note77">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note78">constaterende dat Azerbeidzjan met troepen Armeens grondgebied is binnengedrongen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note79">overwegende dat een nieuwe escalatie van het conflict voorkomen dient te worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note80">verzoekt het kabinet de Raad ertoe te bewegen zich aan te sluiten bij de oproep van de Franse president Macron aan Azerbeidzjan om de troepen onmiddellijk terug te trekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note81">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note82">Deze motie is voorgesteld door de leden Segers en Van der Staaij.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note83">Zij krijgt nr. kst-21501-02-2342</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note84">Dank u. Dan gaan wij luisteren naar de heer Jasper van Dijk van de fractie van de SP.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note85">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u17">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg22">Voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note86">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note87">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note88">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note89">constaterende dat in Palestina en Israël grof geweld wordt ingezet waarbij, volgens allerlei mensenrechtenorganisaties, door alle partijen oorlogsmisdaden worden begaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note90">overwegende dat het kabinet voorstander is van onafhankelijk onderzoek hiernaar;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note91">van mening dat straffeloosheid nooit mag volgen op het begaan van oorlogsmisdaden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note92">verzoekt de regering zich ervoor in te zetten dat alle verantwoordelijken voor het plegen van oorlogsmisdaden worden bestraft,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note93">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note94">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note95">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note96">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note97">constaterende dat door het huidige oorlogsgeweld de humanitaire crisis in Gaza nog verder verslechtert;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note98">verzoekt de regering zich extra in te spannen, ook financieel, om de humanitaire crisis in Gaza te bestrijden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note99">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note100">Deze motie is voorgesteld door het lid Jasper van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note101">Zij krijgt nr. kst-21501-02-2343</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note102">Deze motie is voorgesteld door het lid Jasper van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note103">Zij krijgt nr. kst-21501-02-2344</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note104">Dank u wel. De heer Van Dijk was de laatste spreker van de zijde van de Kamer. Ik vroeg me af of de minister veel tijd nodig heeft om naar de moties te kijken. Ik begrijp dat hij de moties ook echt wil lezen. Zal ik dan even voor een paar minuutjes schorsen?</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note105">Ik geef nog even het woord aan mevrouw Teunissen van de Partij voor de Dieren.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note106">Mevrouw Teunissen (PvdD)</note>
+            <u who="#ChristineTeunissen" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u18">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg23">Voorzitter. Ik begrijp niet aangemeld te zijn, terwijl ik dacht wel aangemeld te zijn. Excuus daarvoor.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg24">De Partij voor de Dieren staat voor de internationale rechtsorde. Daar hoort ook bij dat de legitimiteit van het onderzoek dat het Internationaal Strafhof heeft aangekondigd naar oorlogsmisdaden in de Palestijnse gebieden uitdrukkelijk wordt erkend. Daarom heb ik de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note107">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note108">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note109">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note110">overwegende dat het Internationaal Strafhof in Den Haag heeft aangekondigd, onafhankelijk en onpartijdig onderzoek te gaan doen naar oorlogsmisdaden in de Palestijnse gebieden door de Israëlische autoriteiten én Hamas;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note111">constaterende dat onder andere de Verenigde Staten, Canada, Duitsland en Hongarije de legitimiteit van dat onderzoek in twijfel trekken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note112">overwegende dat de versterking van de internationale rechtsorde een van de pilaren van het Nederlands buitenlandbeleid is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note113">overwegende dat Nederland als gastland van het Internationaal Strafhof een bijzondere positie heeft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note114">verzoekt de regering namens Nederland steun uit te spreken voor het onafhankelijk onderzoek van het Internationaal Strafhof naar oorlogsmisdaden in de Palestijnse gebieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note115">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note116">Deze motie is voorgesteld door de leden Teunissen en Kuzu.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note117">Zij krijgt nr. kst-21501-02-2345</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note118">Dank u wel, mevrouw Teunissen. Een korte vraag nog van de heer Van der Lee. Eén vraag.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note119">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u19">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg25">Ja, één vraag. Ik vind het wel ingewikkeld. Ook in Nederland zijn er heel veel rechtszaken en er zijn ook partijen die die rechtszaken niet willen en niet steunen. Wij kunnen toch niet van de Nederlandse overheid vragen om bij iedere rechtszaak aan te geven of zij die wel of niet steunt? De minister heeft klip-en-klaar aangegeven dat Nederland pal staat voor het werk van het Internationaal Strafhof, ook in deze stad. Wij zijn als Nederland trots op deze traditie. Ik zou mevrouw Teunissen dus toch in overweging willen geven om niet deze stap te zetten, want dan betreed je een hellend vlak waar ik niet op zou willen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note120">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u20">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg26">Helder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note121">Mevrouw Teunissen (PvdD)</note>
+            <u who="#ChristineTeunissen" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u21">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg27">Het gaat om de erkenning van de legitimiteit van het Internationaal Strafhof. Dat is nu belangrijk omdat, zoals ik al zei, onder andere de Verenigde Staten, Canada, Duitsland en Hongarije die legitimiteit in twijfel hebben getrokken. In dit specifieke geval lijkt het me terecht. Ik wil helemaal niet op het vlak gaan zitten van invloed op de rechtspraak. Daar gaat het hier niet om. Het gaat erom dat we de legitimiteit van dit onderzoek erkennen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note122">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u22">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg28">Dank u wel. Dan was dit nogmaals het eind van de termijn van de Kamer. Als het goed is, heeft de minister inmiddels alle moties ontvangen, behalve de motie van de Partij voor de Dieren, die zojuist is ingediend. Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note123">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u23">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg29">Dank u wel, voorzitter. De eerste motie van de heer Kuzu, op stuk nr. 2336, verzoekt de regering "indien er een Belgisch initiatief komt aan maatregelen tegen Israël, onze dappere zuiderburen te steunen". Die moet ik ontraden, want ik moet eerst het Belgische initiatief kunnen zien om te kunnen beoordelen wat ik ermee ga doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note124">De heer Sjoerdsma (D66)</note>
+            <u who="#SjoerdSjoerdsma" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u24">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg30">Ik ben het er ongetwijfeld mee eens, maar wij als Kamerleden kunnen dat niet beoordelen. Wij hebben geen van de moties. Ik heb best een goed geheugen, vind ik van mezelf, maar ik heb niet alle moties kunnen onthouden en ook niet de strekking van de moties. Misschien is het ouderwets, maar ik hecht toch ook een klein beetje aan het oordeel van de minister. Dat kan ik niet onthouden als ik de motie niet heb.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note125">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u25">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg31">Nee. Ja, het duurt even voordat die uit de kopieerapparaten rollen. Daar komen ze al. Is dat snel, meneer Sjoerdsma, of is dat niet snel? Dat regelen we altijd voor u.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg32">Alleen de backbenchers hebben de moties nog niet. Daar is meneer Kuzu al.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note126">De heer Kuzu (DENK)</note>
+            <u who="#TunahanKuzu" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u26">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg33">In de tussentijd moeten we natuurlijk elkaar een beetje zoet houden. Ik heb een vraag voor de minister. Hij belt natuurlijk met het hele Midden-Oosten op dit moment, van Egypte tot Jordanië, en heeft contacten met heel veel ministers van Buitenlandse Zaken. Dan hebben we ook onze zuiderburen. De minister heeft nu al aangegeven dat hij deze motie ontraadt. Ik zou hem willen vragen om in contact te treden met de zuiderburen om vervolgens, daarna, een appreciatie te geven, in plaats van de motie nu direct stellig te ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note127">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u27">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg34">Prima, dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note128">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u28">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg35">De heer Kuzu heeft een motie ingediend, die iedereen nu voor zich heeft. Die verzoekt de regering "indien er een Belgisch initiatief komt aan maatregelen tegen Israël, onze dappere zuiderburen te steunen". Hij vraagt mij dus om, ongeacht wat de inhoud is, die maatregel te steunen. Dat kan hij toch nooit van een minister verwachten? Ik ontraad die motie dus. Mijn gewaardeerde Belgische collega Sophie Wilmès heb ik deze week twee dagen gezien. Ik heb zelfs naast haar gezeten. Dat doe ik altijd graag. Ze is er niet over begonnen. Ik hoop dat ik volgende week, als ik haar weer tref, weer naast haar mag zitten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note129">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u29">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg36">De motie op stuk nr. 2337.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note130">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u30">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg37">Die is ook van de heer Kuzu en verzoekt de regering om er bij Israël op aan te dringen het bestoken van civiele doelen onmiddellijk te staken. Daar zitten heel veel aannames achter. Zij is alleen gericht op Israël. Raketten van Hamas volstrekt ongericht op civiele doelen. De Hamasactiveitenschuilplaatsen zitten verscholen tussen burgerhuizen en scholen. Het is een zeer eenzijdige motie en die moet ik ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg38">De derde motie van de heer Kuzu, de motie op stuk nr. 2338, verzoekt de regering om een verkennend onderzoek bij het Internationaal Strafhof te bepleiten om de heer Netanyahu te vervolgen voor oorlogsmisdaden. Ik heb een uitgebreid betoog gehouden over het belang van het onafhankelijke onderzoek van het Internationaal Strafhof dat al plaatsvindt. Het zou volstrekt onlogisch zijn als Nederland zich daar nu op deze manier in zou gaan mengen, dus ook deze moet ik ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg39">Dan een motie van de heer Brekelmans. Die verzoekt de regering erop aan te dringen binnen de EU dat ook veiligheid en terrorisme belangrijke agendapunten worden voor de zesde Afrikatop, ook gekoppeld aan afspraken rond migratie. Ik heb in het debat aangegeven dat dit logische onderwerpen zijn voor de Europese en Afrikaanse kant, dus het oordeel over deze motie laat ik graag aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg40">De heer Amhaouch heeft een motie ingediend die de regering verzoekt te pleiten voor onafhankelijk internationaal VN-onderzoek naar schendingen van humanitair oorlogsrecht in de strijd tussen Hamas en Israël. Ik meen uit het debat af te mogen leiden dat de heer Amhaouch daarmee doelt op mijn inzet in de Mensenrechtenraad, om daar een gebalanceerde resolutie voor zo'n onderzoek te steunen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note131">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u31">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg41">Eén vraag, meneer Sjoersma.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note132">De heer Sjoerdsma (D66)</note>
+            <u who="#SjoerdSjoerdsma" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u32">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg42">Eén vraag, voorzitter. Ik heb ook niet meer nodig, slechts bij de motie op stuk nr. 2339 van de heer Brekelmans. Op zich ben ik niet tegen het bespreken van veiligheid en terrorisme. Het enige dat ik niet zo goed snap, is de koppeling met de afspraken rondom migratie. Waar stemmen we voor als we daarvoor stemmen? Wat betekent dat, het koppelen van terrorisme en veiligheid aan afspraken rond migratie? Als het betekent dat we het op de agenda zetten, ben ik het er helemaal mee eens, maar anders heb wel enige duiding nodig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note133">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u33">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg43">De vraag lijkt mij — dan kijk ik naar de voorzitter — een vraag aan de indiener. Ik interpreteer niet. Ik kan vanuit mijn positie zeggen dat het beide onderwerpen zijn, zowel bestrijding van terrorisme als migratie, die logischerwijs op een Afrikatop thuishoren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note134">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u34">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg44">Maar als de heer Brekelmans nu antwoord gaat geven op die vraag, gaan we elkaar natuurlijk vragen stellen en dat is niet de bedoeling. U heeft een appreciatie gegeven van de motie. Dat moet eigenlijk wel voldoende zijn. Daar moeten we het bij laten, want anders gaan we elkaar vragen stellen en dat is niet de bedoeling. Ik waardeer het feite dat u opheldering wilt geven, meneer Brekelmans, maar dan had de vraag net moeten komen, toen uw motie werd ingediend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note135">De heer Sjoerdsma (D66)</note>
+            <u who="#SjoerdSjoerdsma" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u35">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg45">Voorzitter. U wilt een kort debat, maar het wordt zo wel iets langer. Dit had opheldering kunnen geven, maar dan moet ik nu aan de minister vragen wat zijn appreciatie betekent.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note136">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u36">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg46">Dat moet dan uw vraag zijn, ja. Want we zijn nu in debat met de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note137">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u37">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg47">Nogmaals, mijn appreciatie is dat de onderwerpen veiligheid en terrorisme logische zijn voor een EU-Afrikatop. Datzelfde geldt voor migratie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg48">Ik meen de heer Amhaouch beantwoord te hebben. Ik zie de motie als mijn inzet rond de resolutie in de Mensenrechtenraad en daarmee laat ik haar oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg49">Dan de heer De Roon. Ik heb echt nadrukkelijk afstand genomen van de uitspraak van de heer Erdogan en daar heb ik ook verder niets aan toe te voegen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg50">De heer Van der Staaij verzoekt in zijn motie de regering om zich in te spannen voor het voorkómen van wapentransporten naar Hamas en andere terreurorganisaties. Hamas is inderdaad door de EU en anderen als terreurorganisatie aangemerkt, dus ik laat deze motie graag aan het oordeel van de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg51">De heer Segers verzoekt het kabinet de Raad ertoe te bewegen zich aan te sluiten bij de oproep van de Franse president Macron aan Azerbeidzjan om de troepen onmiddellijk terug te trekken. Ik herhaal mijn redenering tijdens het debat. Ik ben zeer gehecht aan de inzet via de EU én de OVSE met betrekking tot het conflict tussen Armenië en Azerbeidzjan, en wil de heer Macron of wie dan ook niet het recht ontzeggen om eigen uitspraken te doen. Maar als een individuele regeringsleider of minister een uitspraak doet terwijl er ook een EU-standpunt is, vind ik het echt niet behulpzaam om dan vervolgens ook weer die uitspraak zelf al of niet te gaan onderstrepen. Op die manier komen we in een heel ingewikkeld traject terecht. Er zijn 27 EU-leiders en 27 ministers van Buitenlandse Zaken. Om die praktische redenen ontraad ik deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg52">In de motie van Jasper van Dijk op stuk nr. 2343 wordt de regering verzocht zich ervoor in te zetten dat alle verantwoordelijken voor het plegen van oorlogsmisdaden worden bestraft. Ik vind deze motie heel moeilijk te duiden. Er loopt een procedure bij het Internationaal Strafhof met deze inzet. Ik heb uit-en-ter-na mijn steun besproken voor het Internationaal Strafhof in zijn algemeenheid, en dus voor iedere procedure. In die zin is de motie dus overbodig. En als er een grotere lading achter zit, kan ik de motie niet goed beoordelen en moet ik haar ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg53">De motie op stuk nr. 2344 is ook van de heer Van Dijk. Daarin wordt de regering verzocht zich extra in te spannen, ook financieel, om de humanitaire crisis in Gaza te bestrijden. Dit moet ik overleggen met de collega van BuHa-OS, omdat ik geen eigen budget heb voor humanitaire hulp. Dus hier zou ik schriftelijk op terug willen komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note138">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u38">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg54">Voor dinsdag dan graag, minister, in verband met de stemmingen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note139">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u39">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg55">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note140">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u40">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg56">De heer Van Dijk heeft nog één vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note141">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:defen" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u41">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg57">Ja. Die gaat nog even over de vorige motie, op stuk nr. 2343, over de oorlogsmisdaden. Daar hebben we het in het debat net over gehad. Ik zei daar: onafhankelijk onderzoek is hartstikke goed en daar steun ik de minister in. Maar ik zei ook: als uit dat onderzoek blijkt dat er oorlogsmisdaden zijn gepleegd, dan moeten we er ook naar streven dat die worden bestraft. Dat is de kern van de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note142">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u42">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg58">Nogmaals, tegen de achtergrond van het feit dat er al een juridisch traject loopt bij een hof dat wij koesteren, een traject dat kan leiden tot bestraffing, kan ik niet goed begrijpen wat de motie toevoegt. En daarom vind ik haar dus op zijn vriendelijkst gezegd overbodig. Maar omdat de motie niet goed te overzien is, ontraad ik haar per saldo.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg59">Ten slotte is er de motie van mevrouw Teunissen, op stuk nr. 2345. Daarin wordt de regering verzocht namens Nederland steun uit te spreken voor onafhankelijk onderzoek van het Internationaal Strafhof naar oorlogsmisdaden in Palestijns gebied. In lijn met mijn betoog van vanmiddag zeg ik: de Nederlandse overheid steunt van harte het werk van het Internationaal Strafhof, maar dat brengt juist met zich mee dat wij geen uitspraken doen, in welke vorm dan ook, over individuele zaken. Dus ook deze motie ontraad ik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note143">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u43">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg60">Helder. Tot zover de moties. Er is nog een vraag van de heer De Roon.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note144">De heer De Roon (PVV)</note>
+            <u who="#RaymonddeRoon" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u44">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg61">De minister heeft vanmiddag letterlijk gezegd: die uitspraak van Erdogan, over Israëliërs die graag het bloed drinken van Palestijnse kinderen, "die laat ik voor zijn rekening". Ik vraag de minister: moet ik "die laat ik voor zijn rekening" verstaan als een veroordeling? En als dat niet zo is, dan begrijp ik nog steeds niet waarom de minister niet dat woord "veroordelen" in de mond wilt nemen over deze uitlating van Erdogan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note145">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u45">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg62">Ik heb gezegd: ik werp die uitspraak verre van mij en laat hem volledig voor de rekening van de heer Erdogan. En het ontgaat mij volkomen wat het toevoegt om een eindeloze woordenstrijd met elkaar te gaan voeren over een heel verwerpelijke uitspraak.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note146">De heer De Roon (PVV)</note>
+            <u who="#RaymonddeRoon" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u46">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg63">Wat het toevoegt is dat een veroordeling natuurlijk nog iets anders is dan "ik werp het verre van mij en ik laat het verder voor zijn rekening". Het woord "veroordeling" is gewoon een definitieve conclusie van een aard die aan degene aan wie die veroordeling gericht is, of over wie die veroordeling gaat, duidelijk maakt dat dit écht niet door de beugel kan, en dat het onaanvaardbaar is dat hij zulke dingen zegt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note147">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u47">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg64">Dank u wel. De minister is gaan zitten. Dat impliceert dat hij hier niets meer aan toe te voegen heeft. Prima.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note148">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.note149">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.u48">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-24.seg65">Tot zover. Dank aan de minister voor zijn aanwezigheid en de vele uurtjes die hij hier weer heeft mogen maken vandaag. Dinsdag stemmen wij over de moties.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

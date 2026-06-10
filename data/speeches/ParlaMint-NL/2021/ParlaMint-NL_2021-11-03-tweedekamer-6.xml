@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-11-03 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-11-03 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 17, Session 6 (2021-11-03)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 17, Session 6 (2021-11-03)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="17" xml:lang="en">Meeting 17</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="6" xml:lang="en">Session 6</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-11-03">Sitting 2021-11-03</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="64">64 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="64">64 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="5275">5,275 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="5275">5,275 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-11-03">2021-11-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="121"/>
+               <tagUsage gi="seg" occurs="77"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="64"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-11-03">2021-11-03</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.head1">Kindermisbruik en seksueel geweld</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg1">Dan zijn we toe aan het volgende debat. Dat is een tweeminutendebat over Kindermisbruik en seksueel geweld, naar aanleiding van een commissiedebat dat op 16 september plaatsvond. De minister van Justitie en Veiligheid heet ik van harte welkom en ook de leden. Alle leden die zich hebben opgegeven om te spreken hebben ook dat commissiedebat bijgewoond. Ik verzoek hen om niet het hele debat over te doen, temeer daar we midden in de begrotingsbehandelingen zitten en 's avonds behoorlijk lang doorgaan. Ik zou het dus graag compact willen houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg2">Als eerste spreker van de zijde van de Kamer is het woord aan mevrouw Van der Werf, die namens D66 het woord zal voeren. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note2">Mevrouw Van der Werf (D66)</note>
+            <u who="#HannekevanderWerf" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg3">Voorzitter. De urgentie om slachtoffers van seksueel geweld beter te helpen werd in ons debat breed gedeeld. Ik vroeg de minister toen ook te reageren op een oproep van verschillende organisaties. Die oproep was: laten we naar een landelijke entree gaan, een soort eerste hulp bij seksueel geweld, waar slachtoffers verder op weg worden geholpen naar de juiste hulpverlening. Of dat nou een dokter, een advocaat, een agent of een psycholoog of alle vier tegelijk is, moet daar goed kunnen worden beoordeeld. Dat zorgt ervoor dat mensen de weg naar de juiste plek weten te vinden, een idee dat aan de veiligheidskant maar ook aan de zorgkant breed gedragen is. Daarom dien ik de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note6">overwegende dat jaarlijks ongeveer 100.000 mensen slachtoffer zijn van seksueel geweld, dat 1 op de 8 vrouwen en 1 op de 25 mannen ooit is verkracht, en dat 1 op de 3 kinderen jonger dan 18 jaar een vorm van seksueel misbruik heeft meegemaakt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note7">overwegende dat de politie voor een deel van de slachtoffers van seksueel geweld het eerste aanspreekpunt is, maar dat niet in alle gevallen het doen van aangifte de hulpvraag van een slachtoffer is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note8">overwegende dat de Nationaal Rapporteur Mensenhandel en Seksueel Geweld tegen Kinderen, Rutgers, Amnesty International en het Centrum voor Seksueel Geweld een gezamenlijke oproep hebben gedaan voor het bewerkstelligen van één entree voor kindermisbruik en seksueel geweld dat ook functioneert als eerste hulp bij seksueel geweld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note9">constaterende dat ook bij de politie en het OM de wens leeft om de slachtoffers van zedenzaken naar één landelijk punt te kunnen doorverwijzen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note10">van mening dat de hulp aan slachtoffers van seksueel geweld nu te gefragmenteerd is en dat de overheid een verantwoordelijkheid heeft om deze slachtoffers betere hulp te bieden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note11">verzoekt de regering te onderzoeken wat nodig is om dit idee te realiseren, welke partijen bereid zijn hieraan mee te werken en welke implicaties dit zou hebben voor de bestaande organisaties waar slachtoffers van seksueel geweld nu terechtkunnen, en de Kamer daarover in het voorjaar van 2022 te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note12">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note13">Deze motie is voorgesteld door de leden Van der Werf, Michon-Derkzen, Van Nispen, Westerveld en Helder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note14">Zij krijgt nr. kst-31015-230</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note15">Dank voor uw inbreng. De motie moet u even aan de griffier geven. De bode maakt even het katheder schoon en dan is het woord aan de heer Van Nispen, die namens de Socialistische Partij zal spreken.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note16">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg4">Dank u wel, voorzitter. Kindermisbruik is walgelijk en moet daadkrachtig worden aangepakt. Toen dit tweeminutendebat werd aangevraagd, was ik van plan een motie in te dienen over het budget van het Expertisebureau Online Kindermisbruik, maar dat is inmiddels geregeld. Dat is echt heel erg mooi, want hier zijn wij jaren mee bezig geweest.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg5">Ook goed nieuws is dat de nieuwe zedenwet niet op de lange baan wordt geschoven. Hier is budget voor gevonden. Dat is mooi. Daar hebben wij vanuit de Kamer ook op aangedrongen. Ik heb wel nog een vraag over de planning: hoe snel kan dit nou gaan? Dit kan toch niet tot 2024 duren, hoop ik.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg6">Dan nog één opmerking over georganiseerd sadistisch kindermisbruik. Samen met de PvdA en GroenLinks heeft de SP eerder een motie ingediend om aard en omvang te onderzoeken, onafhankelijk, en daarbij ervaringen van overlevers en hun therapeuten te betrekken. Die motie staat gewoon als een huis. Maar het is wel zo dat slachtoffers en een aantal overlevers er bezorgd over zijn: gaat dit wel allemaal goed? Zij hebben er niet allemaal vertrouwen in. Waarom is het bijvoorbeeld nodig dat het onderzoek eerst naar de minister gaat? Waarom kan dat niet rechtstreeks naar de Kamer? Is de minister in ieder geval bereid om toe te zeggen dat er geen letter zal worden veranderd aan dat onderzoek? Toch ben ik er geen voorstander van om dit onderzoek nu al te wantrouwen of per motie een nieuw onderzoek te eisen. Ik denk niet dat dat de voortgang ten goede komt. Maar wat kan de minister doen om het wantrouwen weg te nemen en de onafhankelijkheid van het onderzoek te waarborgen?</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg7">Ik heb nog één motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note17">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note18">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note19">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note20">overwegende dat het onverteerbaar is dat slachtoffers van zedenzaken op dit moment vaak maanden, soms jaren, moeten wachten op behandeling van hun zaak;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note21">van mening dat de overheid ervoor moet zorgen dat slachtoffers, zeker van zulke ingrijpende misdrijven, sneller en beter geholpen worden en daders sneller berecht worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note22">verzoekt de regering onmiddellijk werk te maken van het verminderen van de doorlooptijden in zedenzaken, specifiek in zaken omtrent aanranding, ontucht met minderjarigen en verkrachting,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note24">Deze motie is voorgesteld door de leden Van Nispen, Kuik, Bikker en Westerveld.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note25">Zij krijgt nr. kst-31015-231</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note26">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg8">Ik dien dus deze motie in over het verkorten van de doorlooptijden, want er is nu eindelijk extra budget. Ik weet ook dat er vanuit de Kamer heel lang op is aangedrongen. Maar het allerbelangrijkste wat mensen nodig hebben als zij zoiets afschuwelijks meemaken, is dat hun zaak niet jarenlang op de stapel komt te liggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note27">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg9">Hartelijk dank voor uw inbreng. De volgende spreker van de zijde van de Kamer is mevrouw Westerveld namens GroenLinks. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note28">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg10">Voorzitter. Ik wil ook beginnen met een vraag over de commissie die onderzoek gaat doen naar georganiseerd sadistisch misbruik. Wij krijgen dezelfde signalen; therapeuten, maar ook slachtoffers, maken zich zorgen over de onafhankelijkheid van deze commissie. Ik sluit mij aan bij de vragen van de heer Van Nispen. En ik wil ook aan de minister vragen wat hij kan doen om er echt voor te zorgen dat het vertrouwen in deze commissie wordt hersteld. Kan hij daar bijvoorbeeld ook nog eens over in gesprek gaan met de betrokkenen?</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg11">Dan heb ik nog een vraag over proana-sites en zelfmoordfora. Dat zijn plekken waar mensen, die vaak ook nog minderjarig zijn, worden aangezet tot zelfdestructief gedrag. Je zult maar ouder zijn van bijvoorbeeld een kind dat al onzeker is en problemen heeft, en dat dan op dit soort websites ook nog eens wordt aangemoedigd om zichzelf uit te hongeren en daar allerlei tips kan vinden. Of mensen worden zelfs aangemoedigd om te komen tot zelfdoding. Dat heeft natuurlijk ongelofelijk nare gevolgen. Wij vinden ook dat de overheid niet die omtrekkende beweging moet maken in deze tijd, waarin zich steeds meer online afspeelt. Wij moeten kijken wat wíj kunnen doen om te voorkomen dat dit gaat gebeuren. Ik heb een motie die daarover gaat.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note29">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note30">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note31">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note32">overwegende dat proanawebsites en zelfmoordfora op dit moment doorgaans buiten de grenzen van bestaande wettelijke delictsomschrijvingen vallen en dat daarmee het bewust schaden van de lichamelijke en geestelijke gezondheid van kwetsbare jongeren en jongvolwassenen onbestraft blijft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note33">verzoekt de regering te voorzien in aanpassing(en) van het Wetboek van Strafrecht om gedragingen strafbaar te stellen die zich welbewust richten op het beschadigen van de lichamelijke en geestelijke gezondheid van kwetsbare jongeren en jongvolwassenen, en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note34">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note35">Deze motie is voorgesteld door de leden Westerveld en Kuiken.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note36">Zij krijgt nr. kst-31015-232</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note37">Dank voor uw inbreng, mevrouw Westerveld. De volgende spreker van de zijde van de Kamer is mevrouw Michon-Derkzen. Zij spreekt namens de Volkspartij voor Vrijheid en Democratie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note38">Mevrouw Michon-Derkzen (VVD)</note>
+            <u who="#IngridMichonDerkzen" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg12">Voorzitter, dank u wel. Ik had in het tweeminutendebat de minister willen vragen om alles op alles te zetten om naar voldoende middelen te zoeken om die zeer belangrijke wet over seksuele misdrijven zo snel mogelijk voort te zetten. Een week nadat wij met elkaar hebben gesproken, is de motie-Hermans echter ingediend en een week erna aangenomen, waarmee we de gelden hebben gevonden. Dit is een heel belangrijk punt. Ik heb me daar hard voor gemaakt, omdat ik het ongelofelijk belangrijk vind dat we met deze wet zo spoedig mogelijk verdergaan. We moeten straatintimidatie nu strafbaar gaan stellen en we moeten ook aan modernisering van het delict verkrachting gaan werken. Ik wil, net als voorgaande sprekers, de minister vragen om met spoed deze wet naar de Kamer te brengen en te kijken of er in dat traject nog versnelling mogelijk is. Het geld is er nu, dus hebben we geen enkele reden meer om hier niet snel met elkaar over in debat te gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg13">Daarnaast wil ik de minister vragen naar het wetsvoorstel over het strafbaar stellen van het bezit van pedohandboeken. In het commissiedebat kwamen we daar kort over te spreken. Dat is de basis van een motie die mijn collega Van Wijngaarden in februari 2020 heeft ingediend. Ook daar wachten we nog op het wetsvoorstel.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg14">Mijn fractie heeft de motie van mevrouw Van der Werf van D66 over het loket gesteund en zal zo ook de motie van mevrouw Kuik van het CDA steunen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg15">Voorzitter, tot zover. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note39">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg16">Hartelijk dank voor uw inbreng. De volgende spreker van de zijde van de Kamer zal mevrouw Kuik zijn. Zij spreekt namens het Christen-Democratisch Appèl.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note40">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg17">Voorzitter, dank. Deze minister is heel stellig: seks tegen de wil is verkrachting. Hij heeft er zijn speerpunt van gemaakt om de huidige zedenwetgeving te moderniseren. En ja, dan heb je een demissionaire status en kun je niet zomaar even zeggen "we regelen dat geld". Daar heb je de Kamer voor nodig. Ik ben blij dat we dat als Kamer samen hebben geregeld. Ik benieuwd wanneer we deze wet hier kunnen gaan behandelen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg18">Voorzitter. Er zijn mannen, zogenaamde proana-coaches, die meisjes met eetstoornissen verder de vernieling in helpen door nog meer af te vallen, met als doel naaktbeelden te verkrijgen. Een enkele keer leidt dit ook nog eens tot fysiek seksueel misbruik. Dit zijn vanwege het ziektebeeld extra kwetsbare jongeren. Deze mannen lijken hier straffeloos mee weg te komen. Een online opsporingsstrategie om deze meiden te beschermen tegen deze mannen is nodig. Mijn collega van de ChristenUnie heeft dit al eerder aangekaart. Ik dien daarom de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note41">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note42">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note43">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note44">overwegende dat de motie-Van der Graaf c.s., welke vraagt om een online opsporingsstrategie te ontwikkelen, nog altijd niet is uitgevoerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note45">constaterende dat de minister wederom de intentie heeft uitgesproken dat de opsporing aangescherpt dient te worden zonder vooralsnog aan te geven op welke wijze of op welke termijn dit haalbaar is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note46">constaterende dat de problematiek van kwetsbare minderjarigen die online het slachtoffer kunnen worden van misbruik en/of uitbuiting nog altijd even urgent is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note47">verzoekt de regering prioriteit te geven aan het ontwikkelen van een online opsporingsstrategie, aan te geven hoe dit zich verhoudt tot de beschikbare capaciteit, en de Kamer hierover binnen drie maanden te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note48">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note49">Deze motie is voorgesteld door de leden Kuik, Bikker, Van Nispen en Michon-Derkzen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note50">Zij krijgt nr. kst-31015-233</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note51">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg19">Voorzitter. Tot slot sluit ik me aan bij de punten die gemaakt zijn door de heer Van Nispen over het onderzoek naar ritueel sadistisch misbruik waar Argos mee kwam en waar je nekharen van overeind gaan staan. Een motie daarover is met brede steun aangenomen. Het is van belang dat dit onderzoek naar de Kamer komt en dat misverstanden over de onafhankelijkheid daarvan worden weggenomen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg20">Dank.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note52">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg21">Hartelijk dank voor uw inbreng. Tot slot zal de heer Van Meijeren als laatste spreker van de Kamer het woord voeren namens Forum voor Democratie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note53">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg22">Dank u wel, meneer de voorzitter. Er ligt inmiddels zo veel bewijs op tafel waaruit blijkt dat sadistisch ritueel kindermisbruik in het algemeen of satanisch ritueel kindermisbruik in het bijzonder ook in Nederland voorkomt, dat daar gelukkig geen twijfel meer over bestaat. Maar over de precieze aard en omvang hiervan bestaat nog wel veel onduidelijkheid. Daarom is op verzoek van de Tweede Kamer een onderzoek ingesteld naar dit gruwelijke fenomeen. De wijze waarop dit onderzoek nu plaatsvindt, deugt echter van geen kant. Het vindt namelijk plaats onder de absolute controle van het ministerie van Justitie, terwijl juist ook ambtenaren van dat ministerie door vele slachtoffers beschuldigd worden. Als de huidige onderzoekscommissie het onderzoek gaat uitvoeren, is dat al op voorhand gedoemd te mislukken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note54">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:techn" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u13">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg23">Op internet heb je bij filmpjes vaak een disclaimer, zo van: pas op, hier wordt niet helemaal de waarheid neergezet. Die disclaimer hebben wij hier in de Kamer niet, maar het is ook aan ons om die te geven. Ik wil wel aangeven dat de heer Van Meijeren nu iets stelt wat hij niet onderbouwt. Er zijn wetenschappers die een onderzoek gaan uitvoeren. Ik vind het nogal grote woorden om te zeggen dat dit niet onafhankelijk is. Dan moet de heer Van Meijeren ook met bewijzen komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note55">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u14">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg24">Het belangrijkste argument heb ik zojuist al genoemd: het onderzoek vindt plaats onder de absolute controle van het ministerie van Justitie. De minister van Justitie heeft een onderzoekscommissie ingesteld en de voorzitter en alle overige leden daarvan benoemd. De slachtoffers geven herhaaldelijk aan dat juist ook hooggeplaatste ambtenaren van het ministerie van Justitie betrokken zouden zijn bij dit fenomeen. Om die reden is het onderzoek op voorhand al niet onafhankelijk. Daar is geen speld tussen te krijgen. Zolang dit onderzoek plaatsvindt onder toeziend oog en onder absolute controle van het ministerie van Justitie, is het níét onafhankelijk. Nog één laatste opmerking: dit is niet alleen mijn analyse; de hele Kamer, onder wie ook mevrouw Kuik, heeft een brandbrief ontvangen van belangenbehartigers van de slachtoffers, waaronder een groep van twintig ggz-behandelaren die allemaal om precies deze reden aangeven dat dit onderzoek hoe dan ook onafhankelijk van het ministerie van Justitie moet plaatsvinden. Zolang de minister van Justitie controle uitoefent op de wijze waarop dat onderzoek plaatsvindt, is het per definitie níét onafhankelijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note56">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u15">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg25">Volgens mij klopt dat niet. Als Kamer hebben we een motie ingediend waarin we het kabinet de opdracht hebben gegeven om een commissie in te stellen die onafhankelijk onderzoek gaat doen. Daar zitten wetenschappers in. Die kunnen onafhankelijk hun werk doen, dus ik wil ook aan de slachtoffers heel duidelijk maken dat zij hier hun verhaal kwijt kunnen en dat dit het moment is om dit zo goed mogelijk in beeld te krijgen en te kijken waar we hen kunnen helpen. Ik vind het belangrijk om dat wel hier opgemerkt te hebben omdat het beeld ontstaat, ook richting de slachtoffers, alsof dit niet voor hen zou zijn. Maar dat is wel zo.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note57">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u16">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg26">Het zijn juist de slachtoffers die een noodkreet hebben geuit. De slachtoffers geven aan: wij kunnen niet vrijuit spreken voor deze commissie. Mevrouw Kuik kan wel zeggen dat deze commissie onafhankelijk is, maar de vraag of zo'n onderzoek enig nut heeft, valt of staat niet met de vraag wat mevrouw Kuik daarvan vindt, maar of de slachtoffers vrijuit durven te spreken voor die commissie. Daar gaat het hier om. De slachtoffers geven aan niet vrijuit te kunnen spreken voor deze commissie. Voor de slachtoffers neem ik het hier op.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note58">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u17">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg27">De heer Van Meijeren vervolgt zijn betoog.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note59">Applaus op de publieke tribune</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note60">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u18">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg28">Ik moet het publiek er echt aan herinneren dat de afspraak in dit huis is dat u geen blijk mag geven van instemming of van het tegendeel daarvan. Dat heb ik nu gezegd. Ik geef de heer Van Meijeren het woord om zijn betoog te vervolgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note61">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u19">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg29">Voorzitter. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note62">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note63">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note64">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note65">constaterende dat de regering middels een motie is verzocht een onafhankelijk onderzoek te laten uitvoeren naar de aard en omvang van georganiseerd sadistisch misbruik van kinderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note66">constaterende dat ter uitvoering van deze motie de minister van Justitie een onderzoekscommissie heeft ingesteld en alle leden daarvan heeft benoemd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note67">constaterende dat uitgerekend ook hooggeplaatste ambtenaren van het ministerie van Justitie van dit misbruik beschuldigd worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note68">constaterende dat een groep belangenbehartigers van slachtoffers, waaronder twintig ggz-behandelaren, in een brandbrief de noodklok heeft geluid over het gebrek aan onafhankelijkheid van deze commissie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note69">overwegende dat het nut van een onderzoek naar dergelijk misbruik valt of staat bij het vertrouwen dat slachtoffers in de commissie hebben, zodat zij veilig en vrijuit kunnen spreken, ook over mogelijk misbruik door hooggeplaatste ambtenaren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note70">roept de regering op om de huidige commissie te ontbinden en een nieuwe commissie in het leven te roepen, met inachtneming van de in de brandbrief geschetste randvoorwaarden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note71">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note72">Deze motie is voorgesteld door het lid Van Meijeren.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note73">Zij krijgt nr. kst-31015-234</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note74">Dank voor uw inbreng. Wilt u uw motie aan de griffier geven, meneer Van Meijeren? De minister heeft aangegeven direct door te kunnen gaan met de beantwoording van de vragen en het geven van een oordeel over de ingediende moties. Ik geef de minister van Justitie en Veiligheid het woord.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note75">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u20">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg30">Voorzitter. Ik begin met een ordepunt, voordat ik op iets van uw Kamer inga. Door de heer Van Meijeren is gezegd dat hogere ambtenaren van mijn ministerie worden beschuldigd van betrokkenheid bij ernstige zedenmisdrijven. Ik wil echt voor het eind van dit halfuur naam, paard en weet ik veel hoe die dingen heten, en ik wil dat ook gesubstantieerd hebben. Want ik moet echt zeggen dat er grenzen zijn. Ik heb het een paar keer moeten opnemen voor ambtenaren van mij die werkelijk niets kwaads hadden gedaan en in dit gebouw buitengewoon onaardige dingen naar hun hoofd geslingerd kregen. Dít accepteer ik niet. Dat zeg ik tegen de hele Kamer. Ik accepteer het gewoon echt niet. Dus ik weet niet hoe we dat gaan oplossen, want ik geloof dat u straks nog een debat met mij heeft. Ik zie dat iedereen rustig blijft zitten, maar ik vind dit in een rechtsstaat schunnig!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note76">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u21">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg31">Dit is een punt van orde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note77">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u22">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg32">Ja, dit is een punt van orde. Als ik de enige ben die dat vind, dan hoor ik het wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note78">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u23">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg33">Dit gaat niet goed. Ik hoor veel geluid vanuit de zaal. Ik gun het de minister om op te komen voor zijn ambtenaren, maar ik denk niet dat het verstandig is om daar de hele Kamer op aan te spreken. Een van de sprekers heeft hier iets over gezegd. Die geef ik nu de gelegenheid om hierop te reageren. Maar we gaan hier niet een heel debat voeren waarin de regering de Kamer ter verantwoording roept, want zo zijn de verhoudingen niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note79">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u24">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg34">Nee, maar …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note80">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u25">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg35">De heer Van Meijeren heeft het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note81">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u26">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg36">Zoals ik aangaf, spreek ik de zorgen uit zoals die in een uitvoerige brandbrief zijn geschetst door de belangenbehartigers van slachtoffers. Die brandbrief heeft de minister ook ontvangen. Hij heeft daar tot op de dag van vandaag nog niet op gereageerd. Dus in plaats van dat de minister nu netjes de zorgen van deze slachtoffers serieus gaat nemen, zegt hij: dan wil ik ook naam en toenaam horen. Dat is volstrekt misplaatst. Sterker nog, wanneer ik namen van ambtenaren noem, dan is het diezelfde minister die aangeeft dat ik hier geen namen van ambtenaren moet noemen. Ik zeg helemaal niet dat ik precies weet welke ambtenaren wat gedaan hebben. Ze worden ervan beschuldigd. Dát is een vaststaand feit. De aard en omvang moet onderzocht worden en dat moet onafhankelijk van het ministerie van Justitie gebeuren, want anders heeft dat onderzoek geen zin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note82">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u27">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg37">Ik roep uw Kamer niet ter verantwoording. Dat kan ik helemaal niet. Maar ik zeg gewoon in alle eerlijkheid, en ik maak daar een ordepunt van: als je zo'n ernstige beschuldiging doet in een debat, dan zal je die echt moeten substantiëren. Ik wilde serieus ingaan op een aantal punten die over dit onderwerp naar voren zijn gebracht, maar ik vind het heel bezwaarlijk als het met zo'n ongefundeerde beschuldiging begint. Maar goed, als we daar niet verder in komen, zal ik nu op die dingen ingaan. Ik ga me wel afvragen of het zinnig is om hier zo een debat over te voeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note83">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u28">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg38">Als ik zou aangeven dat ik de exacte namen van de desbetreffende ambtenaren op dit moment met absolute zekerheid kan noemen, zou ik natuurlijk ook niet gaan vragen om een onderzoek. Ik vraag juist om een onderzoek omdat ten aanzien van dit fenomeen de onderste steen boven moet komen. Laat ik dit punt afsluiten met een tegenvraag. Waarom reageert de minister richting de slachtoffers niet op de brandbrief die hij heeft ontvangen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note84">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u29">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg39">Ik ga in op de vragen die door uw leden zijn gesteld en de moties die zijn ingediend. Dan begin ik met de motie op stuk nr. 230. Dat is de motie van mevrouw Van der Werf. Ik zou willen voorstellen dat die motie van mevrouw Van der Werf door de minister voor Rechtsbescherming en de staatssecretaris van VWS wordt geapprecieerd in een brief, want dat gaat buiten mijn beleidsterrein. Dat is de motie over het centraliseren van slachtofferopvang et cetera.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note85">Mevrouw Van der Werf (D66)</note>
+            <u who="#HannekevanderWerf" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u30">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg40">Dat begrijp ik, want als het niet op het beleidsterrein van deze minister ligt, is het natuurlijk lastig om daar nu een oordeel over te kunnen vellen. Ook gezien de urgentie van de oproep zou ik hem wel willen vragen om daar niet weken mee te wachten, want ik zou de motie eigenlijk graag dinsdag in stemming willen laten brengen. Ik zou het dus heel erg waarderen als er enige haast gemaakt kan worden met dat briefje.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note86">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u31">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg41">Ja. Nou, ik weet niet eens of er sprake is van haast, want dat is nog zes dagen. Maar namens twee mensen die hier niet aanwezig zijn, kan ik toezeggen dat we dat voor dinsdag gaan doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note87">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u32">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg42">Voor de goede orde meld ik dat ik, als dat niet lukt, de woorden van de minister zo interpreteer dat de motie wordt ontraden. Maar we gaan ervan uit dat die brief er op tijd is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note88">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u33">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg43">Nee. Die brief is op tijd, maar mocht het zo zijn dat beide collega's volledig in het ongerede raken tot en met dinsdag, dan zou ik willen voorstellen dat de motie wordt aangehouden. Maar die brief gaat er echt komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note89">Mevrouw Van der Werf (D66)</note>
+            <u who="#HannekevanderWerf" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u34">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg44">Ik heb daar alle vertrouwen in.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note90">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u35">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg45">Prima. De volgende motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note91">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u36">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg46">De motie op stuk nr. 231, over het verminderen van de doorlooptijden in zedenzaken, is ondersteuning van beleid. Wat mij betreft kwalificeert die motie van de heer Van Nispen c.s. dan als oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg47">Nu de motie op stuk nr. 232 van mevrouw Westerveld. Meteen ook in combinatie met de motie op stuk nr. 233 zou ik willen vragen of ik de motie zo mag opvatten dat de regering wordt verzocht om onderzoek te doen naar de strafbaarstelling van die gedragingen. Ik kan ook meteen zeggen dat we dan binnen een termijn van drie maanden op dat onderzoek zullen terugkomen. Ik ga nu even motie hoppen naar de motie op stuk nr. 233, want in die motie van mevrouw Kuik over het prioriteit geven aan het ontwikkelen van een online opsporingsstrategie, vraagt zij om de Kamer binnen drie maanden te informeren. Nou, die drie maanden is meteen ook aan mevrouw Westerveld gegeven, dus die motie van mevrouw Kuik wil ik oordeel Kamer laten. En alleen aan mevrouw Westerveld vraag ik of zij die motie zo kan aanpassen: eerst onderzoek doen naar het strafbaar stellen van die gedragingen en wat daarbij mogelijk is, en dat binnen drie maanden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note92">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u37">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg48">Dat lijkt me op zich prima. De reden waarom wij deze motie op deze manier hebben geformuleerd, is dat de minister in het debat zelf zei dat dit bij de Kamer ligt, dat we op dit moment kunnen kijken hoe we hiermee om kunnen gaan, omdat veel van de zaken die op proana-websites staan, buiten de grenzen van bestaande wettelijke delictsomschrijvingen vallen. Dus ik vatte die woorden op als: als uw Kamer dat wil, dan kunnen wij de wet daarop aanpassen. Vandaar dat wij de motie op deze manier hebben opgeschreven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note93">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u38">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg49">Misschien nog een korte reactie van de minister, en dan zegt mevrouw Westerveld of zij de motie wil aanhouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note94">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:techn" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u39">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg50">Zij mag haar ook aanhouden. Maar nee, aanpassen was mijn pleidooi, want dan kunnen we dat doen met die onlinestrategie, en dan heb ik ook een weloverwogen verhaal voor hoe je dat zou moeten doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note95">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u40">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg51">Wij gaan de motie aanpassen, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note96">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u41">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg52">Prima. Dan krijgt deze oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note97">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u42">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg53">Ja, voorzitter, een voorstel. Dan heb ik een aantal vragen van de leden Van Nispen en Michon — dacht ik, ik kijk even wie allemaal — over het onderzoek naar ritueel misbruik. Uw Kamer heeft bij motie aan het kabinet gevraagd daar een commissie voor in te stellen. En ja, dan zullen wij die commissie formeel moeten instellen. Wie er dan verder in die commissie zit, is dan alleen een handtekening, maar eigenlijk geen inhoudelijke beoordeling van mij, aannemende dat dat gewoon de juiste deskundigen zijn. Ik zou willen voorstellen dat deze commissie een kennismakingsgesprek krijgt met uw vaste commissie. Dan kunt u zelf toetsen wat u daarvan vindt. Ik denk dat dat echt de enige manier is om dat te doen, want een nieuwe opdracht betekent weer een commissie die formeel door het kabinet wordt benoemd; want dat vraagt u het kabinet. En ik heb daar verder volledig afstand op, voorzitter, eerlijk gezegd. Dus ik denk dat die onafhankelijkheid echt gewaarborgd is, maar uw Kamer mag van mij die gelegenheid aangrijpen om gewoon met ze te spreken in het kader van de briefing.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note98">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u43">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg54">Even ter voorkoming van misverstanden: ik heb niet om een nieuwe commissie gevraagd. Ik heb deze vraag gesteld, geconstateerd ook dat er mensen zijn die twijfelen aan de onafhankelijkheid van deze commissie. Die signalen hebben ons bereikt. Mijn vraag was: wat gaat de minister doen om die twijfels weg te nemen? En heel concreet heb ik de minister gevraagd: een van de redenen waarom ze dit wantrouwen, is dat het onderzoek eerst naar de minister gaat. Ik heb gevraagd: kan het onderzoek dan ineens naar de Kamer worden gestuurd? Want wat zou daar het probleem aan zijn? En mag ik er dan in ieder geval — dat heb ik ook gevraagd — van uitgaan dat de minister kan garanderen dat er dan geen letter aan het onderzoek zal worden veranderd onder de invloed van het ministerie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note99">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u44">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg55">Dat laatste gebeurt nooit. Ik geloof dat ik nu toch de dingen wat scherper ga zeggen. We weten dat. Het kan niet dat als zo'n onderzoek afkomt, de minister dan nog eens zegt: ik ga daar hele stukken uit wegstrepen. Dat gebeurt niet. Dat gaat nu ook niet gebeuren. In het kader van uw vraag zoals u die net stelde, ben ik in ieder geval bereid om door te geven — dat is een uitnodiging van uw Kamer — dat uw Kamer het gesprek met ze aan wil gaan. Dan kunt u het zelf toetsen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note100">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u45">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg56">Het gaat niet om mij. Het gaat om de overlevers. Het gaat om de slachtoffers. Daarvoor stel ik deze vraag. Mijn vraag aan de minister was als volgt. Wij hebben inderdaad de regering verzocht om een onafhankelijke commissie in het leven te roepen. Kan de regering, kan de minister, als opdrachtgever van dat onafhankelijke onderzoek waar hij zich niet inhoudelijk mee gaat bemoeien, aan de commissie overbrengen dat de Kamer het op prijs stelt om rechtstreeks geïnformeerd te worden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note101">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u46">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg57">De commissie, die formeel wordt ingesteld, zal dat rapport aan de minister uitbrengen. Daar wordt geen letter aan veranderd. Daar gaat het u om. Daar gaat het uw Kamer om. Dat lijkt me ook logisch. Dat kan uw Kamer ook zelf controleren. Dat is dus een gegeven. Verder zei de heer Van Nispen: er wordt getwijfeld aan de onafhankelijkheid. Het is een opdracht van uw Kamer aan het kabinet geweest. Wij hebben die commissie geregeld. Als uw Kamer zegt "wat kunt u doen om die onafhankelijkheid nog eens even goed te toetsen?", zeg ik dat het mij het meest gewezen lijkt om die commissie nu gewoon rechtstreeks met de vaste Kamercommissie te laten kennismaken. Dan kan de Kamer dat toetsen. En als u dat niet wil, ja ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note102">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u47">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg58">Een korte opmerking. Zaken die voor de minister vanzelfsprekend zijn, bijvoorbeeld hoe zo'n rapport tot stand komt en dat het ministerie daar geen letter in verandert, hoeven niet per se vanzelfsprekend te zijn voor mensen in dit land, waaronder de slachtoffers. Dat is hier natuurlijk het punt. Dat was ook onze vraag. Zou u nou, ook bij de slachtoffers, een aantal misverstanden weg kunnen nemen en misschien met hen in gesprek kunnen gaan, omdat er kennelijk beelden heersen over die commissie, over dat rapport? Die kunnen voor de minister heel vanzelfsprekend zijn, maar dat betekent niet dat hoe wij hier zaken doen, ook voor de rest van Nederland vanzelfsprekend is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note103">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u48">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg59">Maar dat is nou net zo lastig. De Kamer vraagt mij bij motie om een onafhankelijke commissie in te stellen. Dat heb ik gedaan. Ik heb mij laten vertellen dat dit de deskundigen zijn die in de commissie moeten zitten. Verder waak ik ervoor om ook maar in de buurt te komen, omdat ik nou juist wil zorgen dat het onafhankelijk is en het kennelijk heel gevoelig ligt. Laat ik dat echt heel duidelijk zeggen. Ik zeg nu voor de laatste keer dat het mij het beste lijkt dat uw Kamer het gesprek aangaat met de leden van de commissie, zodat u als Kamer zelf kunt toetsen of u vindt dat dat een goede commissie is. Ik moet mij daar verder aan geen enkele kant in gaan mengen. Ik wil dat niet. Daar moet ik aan alle kanten buiten blijven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note104">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u49">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg60">Helder. Voordat ik de heer Van Meijeren ... Niet in de zaal tegen elkaar praten, maar via de microfoon. Voordat ik de heer Van Meijeren het woord geef, wil ik graag dat u nog een oordeel geeft over zijn motie, de laatste motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note105">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u50">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg61">Welke motie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note106">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u51">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg62">Dat is de motie op stuk nr. 234 van de heer Van Meijeren over dat de commissie moet worden ontbonden. Daar heeft u nog geen oordeel over gegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note107">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u52">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg63">Daar was ik ook nog niet aan toe, eerlijk gezegd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note108">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u53">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg64">Nee, maar ik vraag u om dat nu te doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note109">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u54">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg65">Mag ik eerst de andere vragen die er ook nog liggen, beantwoorden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note110">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u55">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg66">Ja. Gaat het over dit punt, meneer Van Meijeren? Dan geef ik toch nog de heer Van Meijeren het woord op dit punt. Graag niet dezelfde vraag stellen die al vier keer gesteld is. Meneer Van Meijeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note111">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u56">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg67">De minister geeft aan dat hij zich verre wil houden van deze commissie om de schijn van afhankelijkheid te voorkomen. De motie verzoekt de regering om een onderzoek in te stellen. Van de 23 bewindspersonen die deel uitmaken van de regering, is het de minister van Justitie die een commissie instelt, de voorzitter benoemt, de overige leden benoemt en de bevoegdheid heeft om de leden te schorsen en te ontslaan. De minister geeft vervolgens aan dat hij alleen zijn handtekening zet en er inhoudelijk niet eens naar kijkt. Dus daarmee zegt de minister ofwel dat hij op een totaal onbehoorlijke manier invulling geeft aan zijn bevoegdheden, door maar gewoon een handtekening te zetten en verantwoordelijkheid te nemen voor iets waar hij zelf dus kennelijk niet eens bij betrokken is, ofwel dat hij er toch heel veel bezwaar tegen heeft om akkoord te gaan met de enige redelijke vereiste uit al die randvoorwaarden in die brandbrief. De meest redelijke is namelijk: zorg nou ieder geval dat die commissie onafhankelijk is van Justitie. Waarom is dat nou te veel gevraagd?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note112">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u57">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg68">Deze commissie is onafhankelijk van Justitie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note113">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u58">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg69">De commissie is ingesteld door de minister van Justitie en is daarmee totaal niet onafhankelijk van Justitie. Ik krijg ook geen antwoord op mijn vraag: waarom heeft de minister er zo veel bezwaar tegen als deze commissie los zou staan van het ministerie van Justitie? Het is toch zo dat de minister die leden heeft benoemd? Het is toch zo dat de minister een directe bevoegdheid heeft om de voorzitter en de leden, wanneer zij zich anders opstellen dan hoe de minister het wenst, te schorsen of te ontslaan? Die bevoegdheden heeft de minister. Hij doet alsof hij alleen maar een handtekeningetje zet en er verder geen gebruik van maakt, maar hij weigert … Als dat zo zou zijn, zou het volstrekt logisch zijn als hij er ook geen bezwaar tegen zou hebben dat het onderzoek onafhankelijk van Justitie plaatsvindt. Toch moet dat koste wat kost onder zijn volledige controle plaatsvinden. Dat wekt ongelofelijk veel wantrouwen bij de slachtoffers, waar ik alle begrip voor heb.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note114">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u59">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg70">Dit wordt wel heel erg lastig, want ik heb aan het begin een ordepunt gemaakt. In deze motie staat: constaterende dat uitgerekend ook hooggeplaatste ambtenaren — meervoud — van het ministerie van Justitie van dit misbruik beschuldigd worden. Als je in een fatsoenlijke rechtsstaat dat soort ernstige beschuldigingen doet, zeker als je dat in een Kamermotie doet, dan moet je dat substantiëren, vind ik. Daarmee is die motie voor mij al meteen gediskwalificeerd. Los daarvan, het verzoek … De motie destijds is van uw Kamer geweest. Daar heb ik invulling aan gegeven door ervoor te zorgen dat die commissie er komt. Uw Kamer mag van mij volledig toetsen of zij vindt dat die commissie onafhankelijk is. Ik blijf er volledig bij uit de buurt. Ongeacht wie de handtekening zet … De theorie die ik hier verkondigd hoor worden, is dat, als wij als kabinet aan uw opdracht in de motie voldoen door een onafhankelijke commissie te stellen, die commissie niet meer onafhankelijk is als wij als kabinet daar een handtekening onder zetten, ongeacht welke minister dat dan doet. Want u weet: het kabinet spreekt met één mond. Dus, tja. Ik heb daarmee de motie ook geapprecieerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note115">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u60">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg71">Ja, die krijgt oordeel: ontraden. De heer Van Meijeren, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note116">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u61">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg72">De minister vervalt enorm in herhaling. Dat punt in de motie waar hij bezwaar tegen heeft, is een feit. Het is een feit dat hooggeplaatste ambtenaren van het ministerie van Justitie beschuldigd worden. Daar kan niemand omheen, los van de vraag wie en wat daar precies bij betrokken zijn. De minister weigert antwoord te geven op de heel redelijke vraag waarom hij koste wat het kost wil dat deze commissie onder Justitie plaatsvindt. Hij zegt dat het kabinet met één mond spreekt, maar het is niet zo dat de regering die commissie heeft ingesteld. Het is niet zo dat de regering de voorzitter en de leden kan benoemen en ontslaan. Nee, dat ligt allemaal bij de minister van Justitie, en bij niemand anders. Deze minister kan zelfstandig op ieder moment dat het hem goeddunkt besluiten om de voorzitter en de commissieleden te benoemen, te ontslaan, et cetera. Hij verschuilt zich nu achter de regering en zegt dat hij alleen maar een handtekening zet. Dat klinkt heel leuk, maar juridisch gezien is het feitelijk onjuist.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note117">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u62">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg73">Juridisch gezien wordt er nu echt iets verkocht waar ik alleen maar heel negatieve kwalificaties over heb qua zinnigheidsgehalte. Het is heel simpel: dit is een commissie die is ingesteld door het kabinet. Dus als er wordt gezegd dat die commissie … Uw Kamer gaat wat mij betreft in gesprek met die commissie en mag het wat mij betreft zelf toetsen, maar het zou dan in theorie een nieuwe opdracht aan het kabinet zijn en dan beginnen we dat weer opnieuw. Ik ga er echt van uit dat deze commissie onafhankelijk is. Ik heb daar geen andere dan formele bemoeienis mee en ik bied uw Kamer uitdrukkelijk aan om dat nog eens zelf helemaal te toetsen en er daarna op terug te komen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg74">Ik had nog een paar vraagjes die ik moet beantwoorden. Mevrouw Michon vroeg naar het pedohandboek. Het desbetreffende wetsvoorstel wordt nog dit najaar, dus voor 21 december 2021, ingediend. Wat betreft dat zedenwetsvoorstel wil ik opmerken dat ik het geweldig vind dat we met een zeer overweldigende steun in de Kamer eigenlijk hebben gezegd dat we zo met elkaar verder moeten, ook in de vorm die het nu heeft. Het is ook echt heel goed dat u als Kamer ervoor heeft gezorgd dat we het geld ervoor hebben, want ik denk dat dit maatschappelijk een heel erg belangrijk wetsvoorstel is. We werken er keihard aan dat het nog aan het eind van deze kabinetsperiode, maar dan bedoel ik wel … Nu moet ik het goed zeggen: begin december zou het nog naar uw Kamer toe kunnen. Dat zou echt heel mooi zijn. Over het eind van deze kabinetsperiode moet ik eigenlijk niets zeggen, voorzitter. Ik zet alles op alles om dat te realiseren. Ik zal dan zorgen dat, als dat zo ver is, er ook een brief bij gaat over hoe we dat traject samen nog zouden kunnen versnellen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg75">Dat zijn volgens mij de punten, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note118">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u63">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg76">Dank. De minister heeft de moties van een oordeel voorzien.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note119">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note120">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.u64">
+               <seg xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.seg77">Daarmee zijn we aan het einde gekomen van dit tweeminutendebat. Over de moties zal dinsdag 9 november worden gestemd. Ik schors de vergadering voor enkele minuten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-11-03-tweedekamer-6.note121">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-02-25 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-02-25 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 59, Session 15 (2021-02-25)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 59, Session 15 (2021-02-25)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="59" xml:lang="en">Meeting 59</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="15" xml:lang="en">Session 15</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-02-25">Sitting 2021-02-25</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="33">33 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="33">33 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2158">2,158 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2158">2,158 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-02-25">2021-02-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="123"/>
+               <tagUsage gi="seg" occurs="45"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="33"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-02-25">2021-02-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.head1">Handreiking kindzorg</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u1">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg1">Ik geef het woord aan mevrouw Bergkamp namens D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note2">Mevrouw Bergkamp (D66)</note>
+            <u who="#VeraBergkamp" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u2">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg2">Dank u wel, voorzitter. Ik begin meteen. Ik heb namelijk drie moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note6">overwegende dat sinds de AWBZ en vervolgens de overheveling van de intensieve kindzorg naar de Zorgverzekeringswet de vraag blijft bestaan of er sprake is van voldoende maatwerk in de wijze van bekostiging, kijkend naar de praktijk van ouders en kinderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note7">constaterende dat er reeds onderzoek is gedaan naar de situatie van ouders gedurende een traject van intensieve kindzorg door het Kenniscentrum Kinderpalliatieve Zorg;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note8">verzoekt de regering om, in samenspraak met alle relevante partijen en in samenwerking met het ministerie van SZW, een extern onderzoek te doen in hoeverre de bestaanszekerheid van de ouders van ernstig zieke kinderen gewaarborgd is, ook na het eventueel overlijden van een kind, daarbij bestaand onderzoek te betrekken, en de Kamer uiterlijk eind 2021 te informeren over mogelijke oplossingsrichtingen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note10">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note11">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note12">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note13">constaterende dat er knelpunten zijn met betrekking tot het indiceren van de intensieve kindzorg;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note14">overwegende dat een goede indicatiestelling gebaat is bij een brede blik vanuit verschillende invalshoeken met kennis en ervaring van en over de betrokken patiënt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note15">verzoekt de regering met betrokken partijen in gesprek te gaan om ervoor te zorgen dat de input van ouders, kind en de hoofdbehandelaar en indien relevant de eerstverantwoordelijke verpleegkundige in de regel meegenomen wordt bij de indicatiestelling van intensieve kindzorg, en de Kamer hierover uiterlijk eind 2021 te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note16">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note17">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note18">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note19">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note20">constaterende dat ouders die informele zorg leveren aan hun kind met een complexe intensieve zorgvraag zich niet altijd voldoende gehoord voelen door beleidsmakers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note21">constaterende dat beleidsregels in de praktijk regelmatig botsen met de diversiteit en soms zeldzaamheid van de vele ziektebeelden, ofwel de uiteenlopende uitdagingen en zorgbehoeftes van ouders en kind;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note22">constaterende dat in het project Wij zien je Wel goede ervaring is opgebouwd om ouders met een kind met zeer ernstige verstandelijke en meervoudige beperkingen (ZEVMB) actief mee te laten denken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note23">verzoekt de regering analoog aan Wij zien je Wel ook voor ouders die informele zorg leveren aan hun kind met een complexe intensieve zorgvraag een werkgroep in te stellen, waar ouders op persoonlijke titel bij betrokken zijn en aanbevelingen kunnen doen waar het beleid schuurt, wat werkt, wat niet werkt en wat er in de weg staat, en de Kamer daarover uiterlijk eind 2021 te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note24">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note25">Deze motie is voorgesteld door het lid Bergkamp. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note26">Zij krijgt nr. kst-34104-322</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note27">Deze motie is voorgesteld door het lid Bergkamp. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note28">Zij krijgt nr. kst-34104-323</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note29">Deze motie is voorgesteld door het lid Bergkamp. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note30">Zij krijgt nr. kst-34104-324</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note31">Mevrouw Bergkamp (D66)</note>
+            <u who="#VeraBergkamp" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u3">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg3">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note32">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u4">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg4">Dank u wel. Dan geef ik nu het woord aan mevrouw Agema namens de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note33">Mevrouw Agema (PVV)</note>
+            <u who="#FleurAgema" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u5">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg5">Dank u wel, voorzitter. Ik dank de regering en de Kamer voor het aannemen van de motie die de heer Kerstens heeft meeondertekend, over dat ouders die zichzelf bekwamen in medische handelingen voor hun ernstig zieke kind niet gekort mogen worden in het aantal uren. Daar zijn we heel dankbaar voor, maar we krijgen wel berichten van ouders dat het nog steeds gebeurt. Ik zou de minister willen vragen of hij ons een update kan geven van de situatie en van de uitvoering van de motie, die hij zelf ook oordeel Kamer gaf.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg6">Dan heb ik nog één andere motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note34">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note35">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note36">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note37">van mening dat de herschreven Handreiking Kindzorg niet geschreven is voor de specifieke groep zeer ernstig zieke kinderen die intensief door hun ouders verzorgd worden, vaak in de laatste fase van hun leven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note38">verzoekt de regering deze kinderen uit te zonderen van de herschreven Handreiking Kindzorg en met behulp van een bemiddelaar te komen tot een aparte handreiking intensieve kindzorg voor deze kleine groep zeer ernstig zieke kinderen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note39">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note40">Deze motie is voorgesteld door de leden Agema, Kerstens en Westerveld. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note41">Zij krijgt nr. kst-34104-325</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note42">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u6">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg7">Een kort vraagje aan mevrouw Agema. Ik had een gelijkluidende motie. Die had ik ook gedeeld met mevrouw Agema, maar dat is al een hele tijd geleden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note43">Mevrouw Agema (PVV)</note>
+            <u who="#FleurAgema" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u7">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg8">Ja, dat is waar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note44">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u8">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg9">Dus mijn verzoek is om mijn naam, net als vorige keer, ook hieronder te zetten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note45">Mevrouw Agema (PVV)</note>
+            <u who="#FleurAgema" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u9">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg10">Sorry, John. Dat is goed.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note46">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u10">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg11">Komt goed. Dank u wel. Dat voegen we zo toe. Het wordt zo gedaan. Dan geef ik nu het woord aan mevrouw Westerveld namens GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note47">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u11">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg12">Voorzitter. Ik stond ook onder de motie van de heer Kerstens, dus ik zou mevrouw Agema willen vragen of mijn naam ook onder haar motie mag.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg13">Voorzitter. Toen wij spraken met een aantal ouders van zorgintensieve kinderen, zei een van die ouders tegen ons dat ze zich meer een manager voelde van haar kind dan dat ze een liefdevolle ouder kon zijn voor haar kind. Als je ook kijkt naar wat deze ouders allemaal moeten regelen, dan heb ik daar ontzettend veel respect voor. Ik heb daar een motie over, want ik kan me ook voorstellen dat er ouders zijn die moeite hebben met hun weg vinden in wet- en regelgeving.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note48">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note49">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note50">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note51">constaterende dat het Nederlandse zorgsysteem en de relevante wet- en regelgeving ingewikkeld zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note52">constaterende dat er veel moeilijke woorden en afkortingen worden gebruikt bij informatie over zorgintensieve kinderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note53">overwegende dat het voor met name laaggeletterde ouders van zorgintensieve kinderen niet makkelijk is om wegwijs te worden in het zorgsysteem;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note54">verzoekt de regering één website op te zetten met alle belangrijke informatie over kindzorg in begrijpelijke taal en om een helpdesk op te zetten die deze ouders kan ondersteunen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note55">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note56">Deze motie is voorgesteld door de leden Westerveld en Kerstens. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note57">Zij krijgt nr. kst-34104-326</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note58">Dank u wel, mevrouw Westerveld. Dan geef ik nu het woord aan de heer Kerstens namens de PvdA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note59">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u12">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg14">Voorzitter. Ik had drie moties toen ik hier binnenkwam en ik heb er nu nog twee, die ik ga voorlezen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note60">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note61">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note62">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note63">overwegende dat zij erop heeft aangedrongen een verkenner c.q. bemiddelaar aan te stellen naar aanleiding van de situatie die is ontstaan in aanloop naar de Handreiking Kindzorg alsook na inwerkingtreding daarvan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note64">constaterende dat in het verlengde daarvan inmiddels een mediator is aangezocht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note65">overwegende dat zo al sprake is van verstoorde verhoudingen, deze voornamelijk voortvloeien uit inhoudelijke verschillen van inzicht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note66">verzoekt de regering, rekening houdend met de verantwoordelijkheden van de diverse partijen in dezen, zoals bijvoorbeeld die van verpleegkundigen, in het inmiddels opgestarte traject naast de onderlinge verhoudingen nadrukkelijk ook bedoelde inhoudelijke aspecten alsook de onderbouwing daarvan te betrekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note67">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note68">Deze motie is voorgesteld door het lid Kerstens. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note69">Zij krijgt nr. kst-34104-327</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note70">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u13">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg15">Voorzitter. De tweede motie is wat korter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note71">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note72">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note73">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note74">overwegende dat het afgeven van indicaties door organisaties in situaties waarin deze zelf de geïndiceerde zorg verlenen in de intensieve kindzorg tot veel onrust leidt, met name wanneer daarbij door ouders verrichte zorg wordt beschouwd als "netwerkzorg" en de organisatie in kwestie vervolgens uren zorg in natura indiceert die ze daarna zelf declareert;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note75">verzoekt de regering ervoor zorg te dragen dat steeds sprake is van onafhankelijke indicaties door de indicerende partij niet tegelijkertijd de zorgverlenende partij te laten zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note76">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note77">Deze motie is voorgesteld door het lid Kerstens. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note78">Zij krijgt nr. kst-34104-328</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note79">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u14">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg16">Ten slotte, voorzitter. Na zevenenhalf jaar Kamerlidmaatschap ga ik wat anders doen. Dit is het laatste debat waarin ik me heb kunnen inzetten voor de ouders die thuis voor hun ernstig zieke kinderen zorgen. Zij mogen erop rekenen, en de minister trouwens ook, dat mijn opvolger dit thema goed op zijn of haar netvlies zal hebben. Ik zou graag een beroep willen doen op alle andere collega's om voor hetzelfde zorg te dragen. Deze ouders verdienen onze waardering en, zo is gebleken, regelmatig ook onze steun.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg17">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note80">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u15">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg18">Dank u wel, meneer Kerstens. U bent nog niet echt weg. Dan geef ik nu het woord aan de heer Peters. Nee? Dan ga ik naar de heer Van Gerven namens de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note81">De heer Van Gerven (SP)</note>
+            <u who="#HenkvanGerven" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u16">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg19">Voorzitter. Dit is een onverkwikkelijke situatie, die al ontzettend lang duurt. Wij denken vanuit de SP dat het eenvoudiger, beter, eerlijker en rechtvaardiger kan. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note82">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note83">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note84">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note85">constaterende dat zorgverzekeraars regelmatig interveniëren in de indicaties die afgegeven worden aan gezinnen met ernstig zieke kinderen om de financiële kosten te verminderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note86">constaterende dat situaties van gezinnen die een ernstig ziek kind hebben verschillend zijn en dat bij elk gezin maatwerk in zorgverlening nodig is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note87">van mening dat ernstig zieke kinderen de zorg moeten krijgen die zij nodig hebben en hier niet op bezuinigd mag worden door zorgverzekeraars omdat zij goedkoper uit willen zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note88">verzoekt de regering te regelen dat zorgverzekeraars zich niet mengen in indicaties van ernstig zieke kinderen die gesteld zijn door kinderartsen en verpleegkundigen in overleg met de ouders,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note89">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note90">Deze motie is voorgesteld door de leden Van Gerven en Hijink. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note91">Zij krijgt nr. kst-34104-329</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note92">Dank u wel, meneer Van Gerven. Dan geef ik tot slot het woord aan mevrouw Laan-Geselschap namens de VVD. Gaat uw gang.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note93">Mevrouw Laan-Geselschap (VVD)</note>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u17">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg20">Dank, voorzitter. Ouderen, ouders, kinderen: allen hebben in kwetsbare momenten hun directe omgeving nodig, maar ook steun van de overheid. Daar moeten we zorgvuldig mee omgaan. We hebben vanochtend weer kunnen lezen dat daar ook vaak de crux ligt van de uitvoering. Mijn laatste motie gaat proberen te helpen om voor een aantal mensen het leven in ieder geval een stuk eenvoudiger te maken, hopelijk met wat minder stress.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note94">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note95">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note96">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note97">constaterende dat kinderen die langdurige beperkingen of ziektes hebben vaak elk jaar een indicatiestelling krijgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note98">constaterende dat dit jaarlijks veel administratie en stress met zich meebrengt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note99">overwegende dat voor veel kinderen een meerjarige indicatiestelling voldoende zou kunnen zijn, omdat hun zorgvraag nauwelijks verandert;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note100">overwegende dat zorgverzekeraars de mogelijkheid hebben om meerjarige pgb-toekenningen af te geven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note101">van mening dat deze kinderen en gezinnen zo veel mogelijk stress en administratieve druk bespaard moet worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note102">verzoekt de regering de belemmeringen bij zorgverzekeraars om een meerjarige indicatie af te geven te onderzoeken en op basis daarvan het gesprek met ze aan te gaan of de bestaande mogelijkheid om pgb-toekenningen voor een langere tijd af te geven meer kan worden ingezet bij langdurig ernstig zieke kinderen, en de Kamer hierover in het tweede kwartaal van 2021 te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note103">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note104">Deze motie is voorgesteld door de leden Laan-Geselschap, Bergkamp, Dik-Faber, Ellemeet en Peters.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note105">Zij krijgt nr. kst-34104-330</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note106">Mevrouw Laan-Geselschap (VVD)</note>
+            <u who="#AntoinetteLaan-Geselschap" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u18">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg21">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note107">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u19">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg22">Dank u wel, mevrouw Laan-Geselschap. Ik kijk naar de minister of hij behoefte aan een korte schorsing. Dat is het geval. Vijf minuten? Vooruit, dan schors ik de vergadering voor zeven minuten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note108">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note109">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u20">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg23">Ik geef de minister van VWS het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note110">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u21">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg24">Dank u wel, voorzitter. Ik loop de moties langs op volgorde van binnenkomst. Ik begin bij de motie op stuk nr. 322. Daarover zou ik het oordeel graag aan de Kamer willen laten. Ik ga daar samen met de minister van Sociale Zaken mee aan de slag.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg25">Ook over de motie op stuk nr. 323 zou ik het oordeel aan de Kamer willen laten. Wat in de motie beschreven wordt, ondersteunt de huidige praktijk. Ik denk dat dat ook belangrijk is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg26">In de motie op stuk nr. 324 wordt de regering verzocht om analoog aan 'Wij zien je Wel' ook voor ouders die informele zorg leveren een werkgroep in te stellen. We hebben hele mooie resultaten geboekt met de werkgroep Wij zien je Wel, dus ik denk inderdaad dat het een heel mooi idee is. Het lijkt me wel goed dat we direct, dus uit de eerste hand, van ouders horen tegen welke dingen zij aanlopen. Het moet dus geen belangenorganisatie worden, want daar hebben we er al een paar van; het moeten juist directe ervaringen van ouders zijn. Maar dat bedoelt u ook, denk ik. Ik laat het oordeel dus aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg27">Dan de motie op stuk nr. 325. Daarin wordt de regering verzocht "deze kinderen uit te zonderen van de herschreven handreiking kindzorg en met behulp van een bemiddelaar te komen tot een aparte handreiking". Die motie ga ik ontraden, omdat ik juist vind dat de handreiking die is ontwikkeld, moet werken voor alle kinderen. De meeste patiëntenorganisaties vinden dat ook en zien ook dat die werkt voor alle kinderen. Om die reden zou ik de motie graag willen ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg28">In de motie op stuk nr. 326 wordt de regering verzocht om één website op te zetten met alle belangrijke informatie over kindzorg in begrijpelijke taal en om een helpdesk op te zetten. Die helpdesk hebben we eigenlijk al, zou je kunnen zeggen, maar het idee van die website snap ik eerlijk gezegd wel. Ik zou het oordeel over deze motie dus aan de Kamer willen laten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg29">Dan de motie op stuk nr. 327. Die is van het lid Kerstens; het is een van zijn laatste moties. Daarover zou ik het oordeel aan de Kamer willen laten, maar ik ga er wel een paar dingen bij zeggen. Ik laat het oordeel aan de Kamer omdat er in het dictum staat: rekening houdend met de verantwoordelijkheden van de diverse partijen in dezen. Dat is belangrijk, omdat we niet via bemiddeling alsnog patiëntenorganisaties op de stoel van de verpleegkundige willen zien. De verpleegkundigen zelf gaan over hun eigen beroepsrichtlijn. Zo werkt onze zorg en dat wil ik heel erg graag zo houden. Tegelijkertijd kan je de inhoud niet helemaal los zien van het dispuut dat er is. Er is voor een heel belangrijk deel een relatie, maar die heeft wel een inhoudelijke achtergrond. De feitelijke onderbouwing uit de casuïstiek mag natuurlijk wel degelijk betrokken worden bij de bemiddeling. Als ik de motie zo mag lezen — zo bedoelt u haar ook — wil ik het oordeel aan de Kamer laten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg30">Dan de motie op stuk nr. 328. Daar zou ik niet voor zijn, omdat het daar veel bureaucratischer van wordt. Deze motie wil ik dus ontraden. Ik wil juist dat de verpleegkundige zelf kan indiceren, zelf de zorg kan verlenen. Anders gaan we toch terug naar de CIZ-situatie van onafhankelijke indicatiestelling. Dat moeten we niet willen, denk ik.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg31">In de motie op stuk nr. 329 wordt de regering verzocht te regelen dat zorgverzekeraars zich niet mengen in indicaties van ernstig zieke kinderen die gesteld zijn door kinderartsen en verpleegkundigen in overleg met de ouders. Nou, zorgverzekeraars hebben natuurlijk gewoon een doelmatigheidsopdracht. Die kan ik niet weghalen. Het gaat niet zozeer over de indicatiestelling, want die is aan de professionals zelf, als wel over de betaling die wordt gedaan op grond van het zorgplan; en die is weer gekoppeld aan de indicatiestelling. Deze motie ga ik dus ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg32">In de motie op stuk nr. 330 wordt de regering verzocht de belemmeringen bij zorgverzekeraars om een meerjarige indicatie af te geven te onderzoeken. Daarover wil ik het oordeel graag aan de Kamer laten. In de bestuurlijke afspraken over het Zvw-pbg is opgenomen dat zorgverzekeraars maatwerk leveren ten aanzien van de geldingsduur. Daarbij geldt voor de meeste zorgverzekeraars een maximum van twee jaar. Ik ga er dus van uit dat zorgverzekeraars daar echt gebruik van maken, maar ik onderzoek graag of daarin belemmeringen zijn, want u dient deze motie niet voor niets in. En ook ik ken de signalen dat er in sommige gevallen wel erg vaak sprake is van herindicatie. Soms wil je dat ook, als het heel snel omhoog of naar beneden gaat, maar soms kan je echt langjariger werken, en dat moet ook. Ik laat het oordeel hierover dus graag aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg33">Dan heb ik nog één vraag van de PVV. Mevrouw Agema vraagt om een stand van zaken. De nieuwe interpretatie van het Zorginstituut is opgenomen in de handreiking en mij is niet geworden dat er sindsdien nog heel veel negatieve signalen zijn gekomen. Maar u stelt deze vraag niet voor niets, dus u heeft die signalen wel. Misschien kunt u buiten de uitzending even de namen en rugnummers van die signalen geven. Dan kunnen we het nagaan. Ik wil graag met die update van de stand van zaken aan de slag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note111">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u22">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg34">Een korte vraag, meneer Van Gerven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note112">De heer Van Gerven (SP)</note>
+            <u who="#HenkvanGerven" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u23">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg35">Het gaat over de motie op stuk nr. 329 van de leden Van Gerven en Hijink. Heb ik de minister goed gehoord dat hij zegt dat zorgverzekeraars zich niet hebben te bemoeien met de indicatiestelling, bijvoorbeeld als het gaat over het aantal uren zorg dat verleend zou moeten worden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note113">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u24">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg36">Niet met de indicatiestelling als zodanig, maar natuurlijk wel met het zorgplan dat uit die indicatiestelling voortkomt. Daar moet men bijvoorbeeld de onderbouwing van het aantal uren zorg wel toetsen, want ze hebben een doelmatigheidsopdracht in ons stelsel. Ik wil wel dat de zorgverzekeraars dat blijven doen. We betalen met elkaar premie en we betalen met elkaar de zorg in heel Nederland. Dus nee, ik vind niet dat zorgverzekeraars moeten zeggen hoeveel uren zorg een kind of een ouder nodig heeft, maar als die indicatie wordt gesteld, vind ik wel dat zorgverzekeraars moeten toezien op een adequate onderbouwing van de indicatie zoals die is gedaan. Daarvoor hebben zorgverzekeraars een heel procedé, namelijk dat ze een zorgplan dat voor financiering in aanmerking is gebracht ook mogen afkeuren op basis van medisch advies. Ook daar gaan de zorgverzekeraars dus niet op de stoel van de medicus zitten, maar ik vind wel dat zorgverzekeraars hun doelmatigheidsopdracht moeten behouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note114">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u25">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg37">Dat heeft u gezegd. De heer Van Gerven, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note115">De heer Van Gerven (SP)</note>
+            <u who="#HenkvanGerven" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u26">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg38">Een lang antwoord, maar de verwarring neemt bij mij toe. Nogmaals: als er bijvoorbeeld uit het plan komt dat er 100 uur zorg nodig is, moet de zorgverzekeraar in de visie van de minister die 100 uur dan gewoon overnemen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note116">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u27">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg39">100 uur is best wel heel veel, dus die zorgverzekeraar zal dan kijken naar het zorgplan en denken: hé, dat is best wel gek, want 100 uur is heel veel en waarom is dat eigenlijk niet beter onderbouwd? Die zal dan contact opnemen met de indicerend verpleegkundige. Dat zal gebeuren door de eigen indicerend verpleegkundige die daar in dienst is. Die gaat dat dan toetsen. Als het goed is onderbouwd, is datgene wat de heer Van Gerven zegt inderdaad het geval. Dan is er gewoon betaling. Als het niet goed is onderbouwd, wordt er of een betere onderbouwing gevraagd of gezegd "dan moet je misschien toch maar even herindiceren".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note117">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u28">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg40">Dank u wel. De heer Kerstens, graag bij de volgende microfoon.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note118">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u29">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg41">Ik heb nog een vraag aan de minister over de motie op stuk nr. 328. Ik dacht even dat hij die misschien anders las dan ik haar had bedoeld. Ik hoorde hem zeggen: we willen natuurlijk niet terug naar de tijd van de centrale indicatiestelling. Dat is niet wat in de motie staat. In de motie gaat het erom dat het de verpleegkundige is die de indicatie stelt, maar dat het niet dezelfde verpleegkundige zou moeten zijn die daar ook een financieel belang bij heeft omdat hij vervolgens zelf de uren zorg gaat verlenen en declareren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note119">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u30">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg42">Dat had ik begrepen. Niettemin blijft het oordeel "ontraden". Ik snap wel de gedachte van de heer Kerstens. Ik vind het ook geen gekke gedachte, alleen als je doordenkt hoe dat er dan uit komt te zien, betekent dat eigenlijk dat een wijkverpleegkundige die zelf de zorg gaat leveren, niet zelf mag zeggen hoeveel zorg er nodig is. Een huisarts mag dat bijvoorbeeld wel, maar een wijkverpleegkundige zou dat dan niet mogen. Het zou dan per se een andere wijkverpleegkundige moeten zijn. Dan komt je bij iemand thuis en dan moet je er een andere verpleegkundige bij halen om te zeggen hoeveel zorg er geleverd mag worden. Maar dit type zorg aan dit type kinderen wil nog weleens heel erg toenemen. Dat betekent dat je telkens een ander erbij moet halen. Dat betekent dat we verpleegkundigen op gaan maken aan administratie. Dat vind ik zo zonde, want we hebben onze verpleegkundigen zo hard nodig voor zorg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note120">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u31">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg43">Dank u wel. Volgens mij heeft u alle moties beoordeeld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note121">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u32">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg44">Ik denk het ook.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note122">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.u33">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.seg45">Ja? Dank u wel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-15.note123">De beraadslaging wordt gesloten.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

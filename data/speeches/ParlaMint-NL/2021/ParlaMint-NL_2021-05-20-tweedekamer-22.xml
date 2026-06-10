@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-05-20 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-05-20 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 78, Session 22 (2021-05-20)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 78, Session 22 (2021-05-20)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="78" xml:lang="en">Meeting 78</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="22" xml:lang="en">Session 22</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-05-20">Sitting 2021-05-20</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="27">27 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="27">27 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1250">1,250 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1250">1,250 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-05-20">2021-05-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="49"/>
+               <tagUsage gi="seg" occurs="34"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="27"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-05-20">2021-05-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.head1">Acties lood in drinkwater</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:envir" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u1">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg1">Dan gaan wij meteen door met het tweeminutendebat Acties lood in drinkwater. Het nummer van het Kamerstuk is 27625, nr. 526. De heer Nijboer staat al te trappelen van ongeduld om zijn bijdrage aan dit debat te leveren. Het woord is aan hem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note2">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u2">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg2">Dank u wel, voorzitter. Het schiet voor geen meter op met het verwijderen van de loden leidingen, terwijl mensen daar wel ziek van worden. Daarom heb ik de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note6">overwegende dat volwassenen en vooral kinderen (ernstig) ziek kunnen worden door loden leidingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note7">overwegende dat er in Nederland nog tot 200.000 huizen van voor 1960 loden leidingen bevatten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note8">overwegende dat de vervanging van loden leidingen nog lang niet in zicht is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note9">verzoekt de regering een verbod in te stellen op loden leidingen en een saneringsverplichting op te leggen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note11">Deze motie is voorgesteld door de leden Nijboer, Beckerman en Bromet.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note12">Zij krijgt nr. kst-27625-534</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note13">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u3">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg3">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note14">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u4">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg4">Dank u wel. Dan de heer Koerhuis.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note15">De heer Koerhuis (VVD)</note>
+            <u who="#DanielKoerhuis" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u5">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg5">Dank u wel, voorzitter. Ik heb geen motie, maar wel een vraag, ook namens de heer Heerma van de CDA-fractie, die helaas niet aanwezig kan zijn. De gezondheidsrisico's van loden leidingen zijn natuurlijk heel ernstig. De oplossing die de heer Nijboer voorstelt, is moeilijk te overzien. Daarom heb ik misschien een suggestie voor een andere oplossing en de vraag hoe de minister daartegen aankijkt. De oplossing van de heer Nijboer kan ook lang duren en die kan ook duur zijn. Het drinkwateronderzoeksbureau KWR heeft daar onderzoek naar gedaan en daaruit blijkt dat er in plaats van voor vervanging van hele leidingen net zo goed gekozen kan worden voor een filtersysteem. Ik zeg daar dan altijd wel bij dat dit een tijdelijke oplossing is. Dat filter kan halverwege de drinkwaterleiding naar de woning toe ofwel in de woning zelf aangelegd worden, maar er kan — daar komt ie — ook een filter op de kraan zelf geplaatst worden. Is de minister bereid om te bekijken of zo'n tijdelijke oplossing misschien sneller gaat en goedkoper is dan de oplossing van de heer Nijboer?</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg6">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note16">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u6">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg7">Dank u wel. Dan de heer Boulakjar van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note17">De heer Boulakjar (D66)</note>
+            <u who="#FaissalBoulakjar" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u7">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg8">Dank u wel, voorzitter. De vorige Kamer is flink bezig geweest met de situatie rond de loden leidingen en de gezondheidskwesties. Dat is natuurlijk heel belangrijk, zeker met het oog op eventuele kinderen. Er worden al heel veel stappen gezet, maar ik heb toch nog een motie namens D66.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note18">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note19">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note20">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note21">constaterende dat loden leidingen schadelijke gevolgen kunnen hebben voor de gezondheid van bewoners;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note22">overwegende dat er momenteel geen volledig beeld is op welke locaties deze loden leidingen zijn verwerkt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note23">overwegende dat marktpartijen momenteel een modelbepaling uitwerken waarin de aanwezigheid van loden leidingen wordt opgenomen in huurcontracten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note24">verzoekt de regering om de Kamer over de voortgang van deze modelbepaling op de hoogte te houden en, indien deze niet voor het einde van 2021 gereed is, over te gaan op een verplichting hiertoe in huurcontracten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note25">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note26">Deze motie is voorgesteld door de leden Boulakjar en Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note27">Zij krijgt nr. kst-27625-535</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note28">De heer Boulakjar (D66)</note>
+            <u who="#FaissalBoulakjar" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u8">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg9">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note29">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u9">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg10">Dank u wel. Tot zover de termijn van de Kamer. Ik schors een minuutje en dan gaan we luisteren naar de minister.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note30">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note31">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u10">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg11">Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note32">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u11">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg12">Nogmaals dank, voorzitter. Dit keer drie sprekers, ook de heer Nijboer. Hartstikke fijn. Dat belooft wat voor het laatste debatje waarvoor ik hier ben.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg13">De eerste motie. Overigens dank ik de heer Nijboer dat hij dit onderwerp steeds benoemt en onder de aandacht houdt, want het is belangrijk. Dat vind ik ook en ik heb echt geprobeerd om er follow-up aan te geven. Daarom is mijn reactie op zijn motie op stuk nr. 534 dat ik zou hopen dat de heer Nijboer deze motie zou willen aanhouden. Er komt namelijk een voortgangsrapportage. Die heb ik de Kamer toegezegd. Die komt na de zomer. Dan hebben we echt een beter beeld van de stand van zaken van de acties die dit kabinet heeft ingezet. Dat is BZK, maar ook IenW en VWS. Dan kunnen we kijken hoe de sanering verloopt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg14">Ik heb steeds gezegd: als het niet goed genoeg gaat, dan sluit ik een verbod helemaal niet uit. Het is een zwaar instrument. Het heeft zeker voordelen, maar ook wel een aantal nadelen. Daarom wil ik er het liefst niet mee beginnen, maar het liefst met het huidige instrumentarium werken. Dus eerst de rapportage en dan de motie. En nogmaals: dat verbod sluit ik nog steeds niet uit, maar misschien is het niet nodig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note33">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u12">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg15">Ik wil die motie best aanhouden tot de zomer, maar dan wil ik wel de toezegging van de minister dat er, als het dan nog steeds loopt zoals het nu loopt, ook echt een verbod komt. We zijn hier nu al anderhalf of twee jaar mee bezig en er moet ook een keer gezegd worden: het gaat te langzaam.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note34">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u13">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg16">Dan zou ik graag met de heer Nijboer afspreken dat we, als die rapportage onvoldoende voortgang laat zien, inderdaad alle instrumenten langslopen die we kunnen inzetten om te zorgen dat het wel gaat gebeuren, inclusief het verbod. Dan ligt opnieuw de vraag voor of we dat dan het geschikte instrument vinden. Is dat waar het knelt, of is er een ander knelpunt? Ik realiseer mij heel goed dat dat verbod — nogmaals, ik heb het nooit uitgesloten — dan weer heel nadrukkelijk op tafel ligt als een van de opties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note35">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u14">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg17">Voorzitter. Ik houd de motie aan, maar verhuurders moeten ook een beetje bang zijn van de minister. Van: als ik dat niet ga doen, dan komt dit eraan. Ik moedig de minister wel aan om dat ook uit te stralen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note36">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u15">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg18">Dan zijn de heer Nijboer en ik het nu helemaal eens geworden. Ik zal de verhuurders erop wijzen dat ik vanaf het moment dat de heer Nijboer en anderen hier aandacht voor hebben gevraagd, steeds heb gezegd: ik kan een verbod niet uitsluiten en het komt dichterbij op het moment dat er onvoldoende voortgang is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note37">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u16">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg19">Op verzoek van de heer Nijboer stel ik voor zijn motie (27625, nr. 534) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg20">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note38">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u17">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg21">Bovendien gaat de minister iets uitstralen. Dat is toch de deal?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note39">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u18">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg22">Dat klinkt niet dreigend genoeg, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg23">Dan ben ik bij de vraag van de heer Koerhuis. Hij had het over een filter die mogelijk een oplossing zou kunnen bieden. Ik heb het nog even nagevraagd en ik heb begrepen dat we nog niet zeker weten of dat ook in de Nederlandse omstandigheden voldoende goed werkt. Dat is nog niet bewezen. Als het wel zo is, dan zou het als tijdelijke oplossing heel interessant kunnen zijn, omdat je het per direct kunt installeren. Maar deskundigen moeten nog wel even kijken of zo'n filter ook in Nederland goed genoeg is. Dank voor het onder de aandacht brengen ervan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg24">Dan kom ik bij de tweede motie, die van de heer Boulakjar op stuk nr. 535. Met die motie kan ik grotendeels goed uit de voeten. Ik verwacht eigenlijk dat de marktpartijen daar ook gewoon mee komen, want die zijn daar volop mee bezig. Ik begreep dat daarop vandaag ook vanuit Vastgoed Belang positief is gereageerd. Ik zal het meenemen in de voortgangsrapportage en ik ben sowieso bereid om te verduidelijken dat de verhuurders een plicht hebben bij aanvang van de huur om gebreken te melden. Dat geldt zeker voor loden leidingen: dat is gewoon een gebrek en moet gemeld worden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg25">Ik heb de motie van de heer Boulakjar hier niet voor me liggen, maar hij zegt daarin dat die verplichting in het huurcontract moet staan. Ik denk dat het misschien niet via het huurcontract, maar op een andere manier zou moeten worden geregeld, maar wel verplichtend. Ik zou de heer Boulakjar willen vragen om die passage uit zijn motie te verwijderen, want het schijnt ook juridisch ingewikkeld te zijn om het via het huurcontract te doen. Maar ik ben dus wel voor de verplichting. Als hij dat uit de motie zou willen halen, geef ik de motie graag oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note40">De heer Boulakjar (D66)</note>
+            <u who="#FaissalBoulakjar" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u19">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg26">Heel kort. Ik zal dat overwegen en ik zal die passage uit de motie halen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note41">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u20">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg27">Wacht even. Gaat u het overwegen of gaat u het doen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note42">De heer Boulakjar (D66)</note>
+            <u who="#FaissalBoulakjar" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u21">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg28">Ik overweeg het nu. Ik ga het doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note43">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u22">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg29">Poeh. Het was al zo laat. Ik zit hier de hele dag al. Ik wil het even weten, want anders moet ik namelijk nu zeggen dat wij een verbeterde motie van u tegemoetzien.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note44">De heer Boulakjar (D66)</note>
+            <u who="#FaissalBoulakjar" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u23">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg30">Ja, u krijgt van mij een nieuwe.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note45">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u24">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg31">Wij krijgen een nieuwe motie-Boulakjar op stuk nr. 535.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note46">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u25">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg32">Heel veel dank daarvoor.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note47">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u26">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg33">We komen er wel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note48">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.note49">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.u27">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-22.seg34">Tot zover dit debat. Dinsdag stemmen wij ook over deze twee moties.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2019-11-21 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2019-11-21 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 27, Session 6 (2019-11-21)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 27, Session 6 (2019-11-21)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="27" xml:lang="en">Meeting 27</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="6" xml:lang="en">Session 6</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2019-11-21">Sitting 2019-11-21</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="24">24 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="24">24 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1094">1,094 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1094">1,094 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2019-11-21">2019-11-21</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="68"/>
+               <tagUsage gi="seg" occurs="31"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="24"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-11-21">2019-11-21</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.head1">Telecomraad 2-3 december 2019</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:techn" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg1">We gaan verder met het VAO Telecomraad van 2-3 december 2019. Ik heet de staatssecretaris van Economische Zaken en Klimaat van harte welkom. Ik geef de heer Weverling namens de VVD het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note2">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:techn" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg2">Mevrouw de voorzitter. Er is snelheid nodig in het 5G-dossier, bij de uitrol. We moeten weten: wat, wanneer, waar en wat het allemaal gaat kosten. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note6">constaterende dat het voor het verdienvermogen van Nederland noodzakelijk is dat het 5G-netwerk snel en veilig wordt uitgerold;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note7">constaterende dat verplaatsing van een deel van het grondsatellietstation Burum noodzakelijk is voor de optimale werking van het 5G-netwerk;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note8">verzoekt de regering uiterlijk voor het einde van dit jaar helderheid te verschaffen over de verplaatsing van het grondsatellietstation Burum,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note10">Deze motie is voorgesteld door de leden Weverling en Van den Berg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note11">Zij krijgt nr. kst-21501-33-784</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note12">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:techn" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg3">Verder is het van belang dat het kabinet de taskforce die is ingesteld, serieus laat kijken naar de EU-risicoanalyse over 5G. Daar komt zo een motie over van mevrouw Van den Berg, die ik graag medeondersteun, want dat is erg belangrijk voor de staatsveiligheid.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg4">Tot zover.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note13">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg5">Dank u wel, meneer Weverling. Ik geef nu het woord aan mevrouw Van den Berg namens het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note14">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg6">Dank u wel, voorzitter. Ik heb drie moties, dus ik zal snel spreken.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note15">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note16">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note17">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note18">constaterende dat tijdens de Telecomraad op 2-3 december 2019 zal worden gesproken over de e-Privacyverordening, mogelijk met als doel te komen tot een algemene oriëntatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note19">overwegende dat de Kamer in 2017 een behandelvoorbehoud heeft geplaatst op het voorstel over de e-Privacyverordening;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note20">overwegende dat consumenten veilig online zaken moeten kunnen doen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note21">overwegende dat het huidige voorstel over de e-Privacyverordening mogelijk negatieve gevolgen heeft voor fraudebestrijding door onlineplatforms;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note22">verzoekt de regering ervoor te blijven pleiten dat onder de e-Privacyverordening fraudebestrijding mogelijk blijft en dit in te brengen ten behoeve van de tekst van de algemene oriëntatie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note24">Deze motie is voorgesteld door de leden Van den Berg en Weverling. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note25">Zij krijgt nr. kst-21501-33-785</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note26">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg7">Dank u wel.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note30">constaterende dat tijdens de Telecomraad op 2-3 december 2019 zal worden gesproken over de e-Privacyverordening, mogelijk met als doel te komen tot een algemene oriëntatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note31">overwegende dat de e-Privacyverordening ziet op privacy en elektronische communicatie, waaronder cookies en zogeheten cookiewalls;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note32">overwegende dat onder het huidige voorstel over de e-Privacyverordening de invoering van cookiewalls weer wordt toegestaan, wat gevolgen heeft voor internetgebruikers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note33">verzoekt de regering binnen Nederland een dialoog te starten over het al dan niet gebruiken van cookiewalls,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note34">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note35">Deze motie is voorgesteld door de leden Van den Berg en Weverling. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note36">Zij krijgt nr. kst-21501-33-786</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note37">De laatste motie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note38">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg8">Die luidt als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note39">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note40">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note41">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note42">constaterende dat de EU-lidstaten samen met de Europese Commissie een EU-risicoanalyse voor 5G hebben gemaakt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note43">overwegende dat in deze risicoanalyse ook aandachtspunten staan op het gebied van niet-technische kwetsbaarheden, zoals de mate van afhankelijkheid van een leverancier van een overheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note44">overwegende dat de regering momenteel werkt aan een algemene maatregel van bestuur waarin de juridische grondslag staat voor de noodzakelijke aanscherpingen van de eisen aan (de leveranciers van de diensten en producten in de kritische onderdelen van) telecomnetwerken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note45">verzoekt de regering om hierbij aan te sluiten bij de EU risicoanalyse voor 5G;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note46">verzoekt de regering tevens om hierbij behalve naar technische kwetsbaarheden ook te kijken naar niet-technische kwetsbaarheden bij leveranciers conform de EU-risicoanalyse voor 5G,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note47">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note48">Deze motie is voorgesteld door de leden Van den Berg en Weverling. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note49">Zij krijgt nr. kst-21501-33-787</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note50">Dank u wel. Daarmee zijn we gekomen aan het einde van de inbreng van de Kamer. Ik zie dat de staatssecretaris direct kan reageren. Dat is altijd heel fijn, zeker met zo’n schema als dat van vandaag. Het woord is aan de staatssecretaris.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note51">Staatssecretaris Keijzer</note>
+            <u who="#MonaKeijzer" ana="#regular topic:techn" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg9">Dank u wel, voorzitter. Als eerste de motie-Weverling/Van den Berg op stuk nr. 784. Ik deel het belang van de snelle en veilige uitrol van het 5G-netwerk en ben voornemens om begin december uitsluitsel te geven over hoe wij daarmee verdergaan door een conceptveilingregeling te sturen, door te vertellen hoe de discussie op de Telecomraad verlopen is, en door die algemene maatregel van bestuur ook tegen die tijd naar de Kamer te hebben gestuurd. Daarmee laat ik het oordeel van deze motie aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg10">Dan heb ik de motie op stuk nr. 785 van mevrouw Van den Berg en de heer Weverling, over de e-Privacyverordening. Daarin wordt de regering verzocht om te benadrukken dat fraudebestrijding mogelijk moet blijven. Dat is in lijn met het Nederlandse standpunt. De e-Privacyrichtlijn moet niet in de weg staan om fraude via platformen te voorkomen. Ik zal dit ook benadrukken tijdens die vergadering. Oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg11">Dan heb ik de motie-Van den Berg/Weverling op stuk nr. 786. Volgens mij is dat de motie die gaat over het al dan niet gebruiken van cookiewalls en die de regering verzoekt om daarover een discussie met elkaar te hebben in Nederland. Een dialoog, zoals dat in deze motie genoemd wordt. De Autoriteit Persoonsgegevens gaat al in gesprek met diverse organisaties over de consequentie van de interpretatie van de AVG in relatie tot cookiewalls. Daarbij is het van belang om ons met z’n allen te realiseren — dat is ook al tijdens het AO gedeeld — dat dat wel de voorwaarden zijn waarom wij met z’n allen gratis internet hebben. Ik kan mij zo voorstellen dat hier ook nog wel op juridisch gebied over gediscussieerd zal gaan worden. Maar in ieder geval heeft het consequenties, dus is het van belang om daar met elkaar een dialoog over aan te gaan. Daarmee laat ik het oordeel van deze motie aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg12">Als laatst heb ik de motie-Van den Berg/Weverling op stuk nr. 787, waarin mij wordt gevraagd om bij de algemene maatregel van bestuur waar ik aan werk aan te sluiten bij de EU-risicoanalyse voor 5G en ook niet-technische kwetsbaarheden daarin mee te nemen. Ik laat het oordeel van deze motie aan de Kamer, want ik ben dat ook voornemens te doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note52">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg13">Voorzitter, een algemene opmerking. U had het net in het vorige overleg over de enorme stapel aan moties. Nu zijn er een paar coalitiepartijen die moties indienen die allemaal oordeel Kamer krijgen omdat ze eigenlijk al staand beleid zijn. Ik vind dat zonde van onze tijd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note53">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg14">Wat een flauwekul.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note54">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg15">Nee, niks “flauwekul”. Dat is gewoon een opmerking van een collega. Meneer Weverling, u bent altijd zo netjes.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note55">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg16">Ik voel me persoonlijk aangesproken, dus ik zou toch graag willen reageren op mevrouw Bromet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note56">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u13">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg17">Ja, u mag reageren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note57">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:techn" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u14">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg18">Ik heb inderdaad drie moties ingediend. Als mevrouw Bromet zegt: de spoed om daar vandaag over te praten betreft met name één motie, namelijk die over de e-Privacyverordening en het feit dat in de tekst van de algemene oriëntatie die fraudebestrijding mogelijk blijft ... We hebben daar verschillende mailtjes over gehad van veldpartijen die daar echt ongerust over zijn, want in de huidige tekst is dat gewoon niet voldoende geborgd. Dat wil ik dus aangeven.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg19">Ten tweede onze motie over 5G. Een paar dagen geleden stond in de krant dat KPN de antennes van Huawei al aan het uitrollen is. Ik heb daar met collega Weverling ook schriftelijke vragen over gesteld. Daarom willen wij nogmaals benadrukken dat niet alleen naar de technische eisen moet worden gekeken, maar ook naar de niet-technische kwetsbaarheden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note58">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u15">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg20">Ja. Ik dacht dat u een korte opmerking zou maken, maar goed. U heeft uw punt gemaakt. De heer Weverling.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note59">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u16">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg21">Kijk, de motie over Burum is van belang omdat daarmee tijd wordt gewonnen en er snel duidelijkheid is. Daarom dus die motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note60">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u17">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg22">Ja, oké.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note61">De heer Weverling (VVD)</note>
+            <u who="#ArneWeverling" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u18">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg23">In het AO is gezegd dat er daarover nog geen duidelijkheid was in het kabinet, dus dat is een hele relevante motie. Bij dat AO waren helaas alleen mevrouw Van den Berg en ik aanwezig. Het is een hele relevante motie, dus ik wil de collega’s graag oproepen om daar positief naar te kijken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note62">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u19">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg24">Ja, u heeft uw punt gemaakt. Voor elke motie is er een reden om haar in te dienen. Het staat Kamerleden ook vrij om moties in te dienen. De discussie over de hoeveelheid moties, ook vanuit de coalitie, niet alleen vanuit de oppositie, is al een paar keer aan de orde geweest. Ik heb gisteren ook een stuk van het debat gevolgd waarin collega Lodders mij zo voortreffelijk vervangen heeft. Toen ging het ook over de hoeveelheid moties. Het waren er 67, volgens mij. Het is dus in algemene zin wel van belang om daar heel kritisch naar te kijken, vanuit de coalitie maar ook vanuit de oppositie, en er terughoudend mee om te gaan. Is dat niet zo, meneer Graus? U kijkt zo dreigend. Ja, u heeft gisteren natuurlijk ook tot een uur of twee meegedaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note63">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u20">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg25">Ja, maar ik heb het afgelopen nacht maar bij twee moties gehouden, mevrouw de voorzitter, ook noodgedwongen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note64">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u21">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg26">Ja, ik weet het.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note65">De heer Graus (PVV)</note>
+            <u who="#DionGraus" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u22">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg27">En ik keek niet dreigend; zo kijk ik het gemakkelijkst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note66">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u23">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg28">Goed. Ik vind het ook heel knap dat een aantal collega’s hier gisteren tot 02.00 uur hebben gedebatteerd en vandaag weer gewoon in de zaal aanwezig zijn. Dat laat ook zien hoe hard Kamerleden werken.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg29">Dan geef ik nu het woord aan de staatssecretaris. O nee, u heeft al geantwoord. Dank u wel!</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note67">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.note68">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.u24">
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg30">Over de ingediende moties zullen we gewoon volgende week dinsdag stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-11-21-tweedekamer-6.seg31">Volgens mij hebben we nu even een korte schorsing, waarna we verdergaan met het volgende onderwerp. Zijn het ongeveer dezelfde woordvoerders? Even kijken voor de zekerheid. Ja, dat is zo.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

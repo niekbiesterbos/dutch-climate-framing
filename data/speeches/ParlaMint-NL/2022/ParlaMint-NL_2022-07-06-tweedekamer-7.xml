@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-07-06 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-07-06 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 101, Session 7 (2022-07-06)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 101, Session 7 (2022-07-06)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="101" xml:lang="en">Meeting 101</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="7" xml:lang="en">Session 7</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-07-06">Sitting 2022-07-06</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="36">36 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="36">36 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1641">1,641 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1641">1,641 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-07-06">2022-07-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="138"/>
+               <tagUsage gi="seg" occurs="45"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="36"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-07-06">2022-07-06</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.head1">Gevangeniswezen en tbs</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg1">Aan de orde is het tweeminutendebat Gevangeniswezen en tbs. Ik wijs de woordvoerders erop dat we vandaag en morgen het kerstregime hanteren. Dat betekent dat er alleen moties worden ingediend en de inleidingen achterwege kunnen blijven. We hebben deze twee dagen 30 tweeminutendebatten te doen; vooralsnog zijn het er 30, maar het worden er waarschijnlijk nog meer. Iedereen kan de moties indienen die zij of hij wil, maar dan wel in dit regime. Ik heet de minister voor Rechtsbescherming van harte welkom. Het woord is aan de heer Ellian. Hij zal spreken namens de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note2">De heer Ellian (VVD)</note>
+            <u who="#UlysseEllian" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg2">Dank, voorzitter. Ik ga meteen over tot het voorlezen van mijn motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note6">constaterende dat in de extra beveiligde inrichting (ebi) in Vught kopstukken van criminele organisaties en andere zeer (vlucht)gevaarlijke personen gedetineerd zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note7">overwegende dat in de ebi nu diverse kopstukken van de criminele organisatie van Ridouan Taghi zijn gedetineerd, die er alles aan doen om hun criminele organisatie vanuit detentie voort te zetten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note8">overwegende dat de criminele organisaties alleen ontmanteld kunnen worden als de gedetineerde kopstukken in de ebi geen contact kunnen hebben met hun criminele organisatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note9">verzoekt de regering, gelet op bovenstaande ontwikkelingen, om per direct in de extra beveiligde inrichting te Vught de volgende nadere maatregelen in te voeren:</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note10">bellen terug te brengen van twee keer per week tien minuten naar één keer per week tien minuten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note11">bellen alleen toe te staan naar personen die zich op dat moment in een politiebureau of penitentiaire inrichting bevinden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note12">bij bezoek maximaal één persoon per bezoekmoment toe te staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note13">bezoek met kinderen bestaat uit de begeleiding van maximaal één volwassene;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note14">het niet langer toestaan van het spreken van een andere taal dan Nederlands of Engels, tenzij een gedetineerde evident beide talen niet machtig is,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note15">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note16">Deze motie is voorgesteld door het lid Ellian.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note17">Zij krijgt nr. kst-24587-844</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note18">Dank u wel. Dan is het woord aan de heer Markuszower. Hij zal spreken namens de PVV.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note19">De heer Markuszower (PVV)</note>
+            <u who="#GidiMarkuszower" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg3">Dank u wel, voorzitter. Ik zal ook gelijk mijn twee moties voorlezen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note20">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note21">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note22">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note23">constaterende dat de reclassering pleit voor het afschaffen van het taakstrafverbod, zoals genoemd in artikel 22b Wetboek van Strafrecht, hetgeen betekent dat er voor alle misdrijven een taakstraf kan worden opgelegd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note24">overwegende dat de minister in continu overleg is met de reclassering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note25">verzoekt de regering om veroordeelden van gewelds- of zedenmisdrijven langdurig in de cel op te sluiten en nooit in gesprek te gaan met de reclassering of wie dan ook om dat niet te doen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note26">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note27">Deze motie is voorgesteld door het lid Markuszower.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note28">Zij krijgt nr. kst-24587-845</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note29">De heer Markuszower (PVV)</note>
+            <u who="#GidiMarkuszower" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg4">Dan de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note30">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note31">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note32">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note33">overwegende dat het jongetje Gino vermoord is door een dader die al jaren geleden voor eerdere delicten levenslang opgesloten had moeten worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note34">overwegende dat er in Nederland helaas al heel veel slachtoffers zijn gemaakt door daders die in het vizier waren van de overheid en vast hadden moeten zitten maar toch vrij rondliepen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note35">verzoekt de regering in kaart te brengen hoeveel daders die zich schuldig maken of hebben gemaakt aan zedendelicten, vrij rondlopen en deze allemaal per direct vast te zetten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note36">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note37">Deze motie is voorgesteld door het lid Markuszower.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note38">Zij krijgt nr. kst-24587-846</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note39">Dank u wel. Dan is het woord aan de heer Van Nispen. Hij zal spreken namens de SP.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note40">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg5">Dank u wel.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note41">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note42">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note43">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note44">constaterende dat de werkdruk enorm is in het gevangeniswezen, de onveiligheid toeneemt, het ziekteverzuim torenhoog is en onderzoek van adviesbureau PwC heeft aangetoond dat de komende jaren 400 miljoen euro extra nodig is voor het gevangeniswezen om de basis weer op orde te krijgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note45">overwegende dat de samenleving erbij gebaat is als binnen de gevangenissen gewerkt wordt aan het voorkomen van recidive, maar medewerkers daar op dit moment onvoldoende aan toekomen en er bijvoorbeeld ook te weinig tijd is voor celinspecties en andere belangrijke taken die te maken hebben met het voorkomen van crimineel voortgezet handelen in detentie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note46">verzoekt de regering uit te sluiten dat bezuinigingen zullen worden doorgevoerd in het gevangeniswezen en er met concrete maatregelen of tijdelijke extra investeringen voor te zorgen dat de werkdruk juist omlaag gaat en DJI een aantrekkelijker werkgever wordt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note47">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note48">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note49">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note50">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note51">constaterende dat de overheid soms zaken doet met forensische zorginstellingen die winsten maken op de zorg voor mensen met een psychische of psychiatrische stoornis die een strafbaar feit hebben gepleegd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note52">overwegende dat de geleverde zorg in sommige gevallen zwaar tekortschiet en bestuurders en aandeelhouders desalniettemin toch rijk worden van de winsten die deze instellingen maken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note53">van mening dat het uiterst onwenselijk is dat geld bestemd voor zorg en veiligheid in de zakken van bestuurders en aandeelhouders verdwijnt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note54">verzoekt de regering een verbod in te stellen op het uitkeren van winsten voor forensische zorginstellingen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note55">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note56">Deze motie is voorgesteld door de leden Van Nispen en Mutluer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note57">Zij krijgt nr. kst-24587-847</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note58">Deze motie is voorgesteld door het lid Van Nispen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note59">Zij krijgt nr. kst-24587-848</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note60">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg6">Ik heb nog moties meeondertekend. Die gaan over de sbf-problematiek in het gevangeniswezen, het pensioen van oud-gevangenismedewerkers en de motie die ertoe strekt om Bonjo te blijven subsidiëren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg7">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note61">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg8">Dank u wel. Het woord is aan mevrouw Mutluer. Zij zal spreken namens de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note62">Mevrouw Mutluer (PvdA)</note>
+            <u who="#SongülMutluer" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg9">Dank u wel, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note63">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note64">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note65">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note66">overwegende dat er volgens onderzoek van PwC een groot financieel tekort voor het gevangeniswezen dreigt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note67">van mening dat er structurele problemen binnen het gevangeniswezen zijn waaronder te hoge werkdruk en te grote onveiligheid voor het personeel;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note68">van mening dat detentie nog te weinig zorgt voor het voorkomen van recidive, onder andere omdat er te slecht kan worden gezorgd voor een goede terugkeer van gedetineerden in de samenleving;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note69">van mening dat bovenstaande problemen met elkaar samenhangen en reeds jaren bekend zijn maar niet worden opgelost;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note70">verzoekt de regering naar het voorbeeld van de commissie-Schneiders bij de politie een onafhankelijke externe commissie te doen instellen om tot aanbevelingen te komen hoe het gevangeniswezen wel effectief, veilig en toekomstbestendig kan worden gemaakt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note71">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note72">Deze motie is voorgesteld door het lid Mutluer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note73">Zij krijgt nr. kst-24587-849</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note74">Dank u wel. Dan is het woord aan de heer Sneller. Hij zal spreken namens D66.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note75">De heer Sneller (D66)</note>
+            <u who="#JoostSneller" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg10">Kerst valt vroeg dit jaar, voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note76">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note77">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note78">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note79">constaterende dat 52% van alle detenties korter duurt dan een maand en 74% van alle detenties korter dan drie maanden, terwijl uit onderzoek blijkt dat korte detenties weinig effectief zijn in het bestrijden van recidive en wel detentieschade veroorzaken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note80">constaterende dat slechts 29% van de gedetineerden daadwerkelijk is veroordeeld tot een gevangenisstraf, terwijl 44% in voorlopige en 24% in vervangende hechtenis zit;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note81">overwegende dat een taakstraf in sommige gevallen twee keer zo effectief is als detentie en de helft goedkoper is, terwijl ook elektronische detentie of met enkelband geschorste voorlopige hechtenis effectiever en goedkoper kunnen zijn dan detentie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note82">overwegende dat alternatieven voor detentie, zoals werkstraffen, leerstraffen of een enkelband bovendien zowel op korte als lange termijn een bijdrage kunnen leveren aan het oplossen van de financiële problematiek en capaciteitsproblemen bij de Dienst Justitiële Instellingen (DJI) waar de Kamer in september nader over zal worden geïnformeerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note83">verzoekt de regering om slimmere straffen, zoals alternatieven voor korte detenties, uit te werken in de aangekondigde plannen voor de oplossing voor de financiële problemen bij DJI,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note84">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note85">Deze motie is voorgesteld door de leden Sneller, Kops en Bikker.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note86">Zij krijgt nr. kst-24587-850</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note87">Ik zie de heer Markuszower staan voor een vraag over deze motie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note88">De heer Markuszower (PVV)</note>
+            <u who="#GidiMarkuszower" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg11">Even zodat ik de reikwijdte van de motie begrijp. Vallen onder de categorieën die de heer Sneller noemt ook plegers van zedendelicten? Anders gesteld, als deze motie wordt aangenomen, is dan de intentie dat ook plegers van zedendelicten alternatieve straffen anders dan celstraf kunnen krijgen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note89">De heer Sneller (D66)</note>
+            <u who="#JoostSneller" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg12">De intentie van de motie is vooral dat de minister kijkt welke onderdelen van dat slimmer straffen, die alternatieven voor celstraf, mogelijk zijn zodat hij die, als ze effectiever zijn en een bijdrage kunnen leveren aan de financiële problematiek zoals we die in het debat hebben bediscussieerd, dan kan opnemen in de plannen. Maar ik denk dat de voorstellen zoals de heer Markuszower die nu doet niet in de rede liggen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note90">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note91">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note92">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note93">overwegende dat Bonjo, de belangenbehartiger van gedetineerden in Nederland, binnen de strafrechtketen een onmisbare functie vervult;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note94">constaterende dat door de wijziging van de subsidieregeling vrijwilligerswerk bij de sanctietoepassing Bonjo per 2023 dreigt te verdwijnen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note95">overwegende dat het verdwijnen van Bonjo voor zowel gedetineerden als de samenleving ingrijpende gevolgen zou hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note96">verzoekt de regering Bonjo te laten voortbestaan door de aanstaande korting op het huidige jaarlijkse subsidiebedrag op een andere manier op te vangen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note97">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note98">Deze motie is voorgesteld door de leden Sneller, Van Nispen, Mutluer en Azarkan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note99">Zij krijgt nr. kst-24587-851</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note100">Dank u wel. Dan is het woord aan de heer Knops. Hij zal spreken namens het CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note101">De heer Knops (CDA)</note>
+            <u who="#AlexanderKops" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg13">Dank u wel, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note102">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note103">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note104">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note105">constaterende dat in het verleden DJl-personeel met een zogenaamde substantieel bezwarende functie (sbf) moest stoppen met werken en hun ouderdomspensioen moest aanspreken voor de pensioengerechtigde leeftijd en dat deze groep daardoor mogelijk pensioenschade heeft geleden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note106">van mening dat zo precies en snel als mogelijk, onafhankelijk onderzocht moet worden of en zo ja, welke oud sbf'ers pensioenschade hebben geleden en hoe groot die schade is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note107">verzoekt de regering onafhankelijk onderzoek te laten doen naar de mogelijke pensioenschade die oud-sbf'ers hebben geleden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note108">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note109">Deze motie is voorgesteld door de leden Knops en Van Nispen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note110">Zij krijgt nr. kst-24587-852</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note111">Dank u wel. Dan zijn we aan het einde van de termijn van de Kamer. Ik schors voor vijf minuten tot 12.26 uur en dan gaan we door met de beantwoording door de minister.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note112">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note113">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg14">Ik geef het woord aan de minister voor Rechtsbescherming.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note114">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg15">Voorzitter, dank u wel. U heeft mij meegegeven dat ik zo kort en kernachtig mogelijk moet zijn, dus met respect voor de inbreng van de Kamerleden: ik start met de motie-Ellian op stuk nr. 844. Laat ik vooropstellen dat ik de motie als zodanig waardeer. Ik begrijp ook de geest van de motie en ik ben het daarmee eens, maar ik wijs u erop dat ik nadrukkelijk het WODC-rapport afwacht en meeweeg en dan met een integraal pakket aan maatregelen kom. Dat wil ik eerst afwachten en daarom ontraad ik de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg16">Dan kom ik op de moties van de PVV. De motie op stuk nr. 845 ontraad ik. Ik wijs erop dat de rechter een straf oplegt. Ik voer die slechts uit.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg17">De motie op stuk nr. 846, ook van de PVV, ga ik ook ontraden, eigenlijk met dezelfde argumentatie. De rechter legt een straf op, niet ik.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg18">Dan de motie van de heer Van Nispen van de SP, mede namens de PvdA, over het PwC-rapport. In de motie wordt heel nadrukkelijk de werkdruk aan de orde gesteld. Laat ik vooropstellen dat ik die ook zie en dat ik dat deel met de SP. Laat ik ook vooropstellen dat ik het afgelopen weekeinde, zaterdag om precies te zijn, met de centrale ondernemingsraad, maar ook met de werknemersorganisaties aan tafel heb gezeten. Ik heb hun hetzelfde antwoord gegeven als ik in het commissiedebat heb gegeven. Dat wil heel nadrukkelijk zeggen dat ik eerst onderzoek doe en daarna met een maatregelenpakket kom. Gedurende het zomerreces blijf ik met de genoemde actoren in gesprek, heel nadrukkelijk. Dan neem ik voor Prinsjesdag een standpunt in. Ik heb u in het commissiedebat toegezegd dat ik dat zal delen met de Kamer. Dus ik ontraad de motie op stuk nr. 847.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg19">Dan de motie op stuk nr. 848.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note115">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u15">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg20">De heer Van Nispen heeft nog een korte vraag over de motie op stuk nr. 847.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note116">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u16">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg21">Ik snap dat het de minister tegen de borst stuit dat de motie verzoekt om bezuinigingen uit te sluiten. De minister zegt: ik kom nog met een voorstel. Er zit een tweede deel in de motie, dus ik kijk even waar dan wel de ruimte zit. Er zouden concrete maatregelen of tijdelijke extra investeringen moeten komen om ervoor te zorgen dat de werkdruk omlaag gaat en DJI een aantrekkelijker werkgever wordt. Is de minister wel bereid om dat deel van het verzoek "oordeel Kamer" te geven? Dan kan ik erover nadenken om de motie aan te passen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note117">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u17">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg22">Ik laat de woorden die net gebezigd zijn even bezinken. Als ik de heer Van Nispen goed begrijp, zegt hij eigenlijk: ik wil de Dienst Justitiële Inrichtingen, het gevangeniswezen, weer een aantrekkelijke werkgever laten zijn als zodanig en ben op zoek naar maatregelen daarvoor. Interpreteer ik dat goed?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note118">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u18">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg23">"Ja", zegt de heer Van Nispen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note119">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u19">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg24">Als dat de interpretatie is, kan ik daar natuurlijk niet tegen zijn, want ik ben ook voornemens om DJI aantrekkelijk te maken als werkgever. Ik kom wel met een integraal pakket aan maatregelen voor Prinsjesdag. Ik ga dus aan de voorkant geen bezuinigingen uitsluiten. Dat zeg ik met klem. Als ik de motie goed heb begrepen en zo juist heb geïnterpreteerd, kan ik haar oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note120">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u20">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg25">We doen het als volgt. De ongewijzigde motie wordt ontraden. Als de motie wordt aangepast in de zin van dit debat, krijgt zij oordeel Kamer. Mocht het nog weer anders zijn, kan de minister altijd een brief sturen en zeggen: de motie is niet goed gewijzigd. Zo gaan we het doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg26">Eigenlijk sta ik geen vragen toe over moties die niet door uzelf zijn ingediend, meneer Knops, want dan krijgen we hier een heel debat, maar vooruit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note121">De heer Knops (CDA)</note>
+            <u who="#AlexanderKops" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u21">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg27">Mede namens een aantal andere fracties, voorzitter. Er staat: verzoekt de regering uit de sluiten ... Dat staat er gewoon. De minister zegt: dat kan ik niet beloven. Als de heer Van Nispen dat dan weghaalt, is het duidelijk. Maar oké.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note122">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u22">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg28">De conclusie van de voorzitter was ook duidelijk: als ik de motie niet wijzig, krijgt zij oordeel "ontraden" en als ik haar wel wijzig, krijgt zij "oordeel Kamer". U ziet het wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note123">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u23">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg29">Zo is het, en als de minister dan zegt "zoals dit is uitgelegd, zint het mij niet", kan hij altijd nog een brief sturen voor de stemmingen waarin staat dat de motie toch is ontraden. Zo gaan we het doen. We zijn bij de motie op stuk nr. 848.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note124">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u24">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg30">De motie op stuk nr. 848 is de motie van de SP over forensische zorg. Laat ik vooropstellen dat het gaat om particuliere zorgaanbieders. Een consequentie van de motie zou een forse stelselwijziging zijn. Ik zou dan afspraken moeten maken met 170 zorgaanbieders, terwijl we juist het volgende doen. Laat ik concreet zijn: in september 2022 kom ik met allerlei kwaliteitskaders en afspraken om duidelijke en strakke afspraken met de sector te maken. Dat proces wil ik continueren. Derhalve kan ik deze motie alleen maar ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg31">Dan ben ik bij de motie op stuk nr. 849 over de onafhankelijke externe commissie en het PwC-onderzoek. Ondanks het feit dat ik de motie zeer goed begrijp — resocialisatie en re-integratie heb ik ook hoog in het vaandel staan — ga ik de motie toch ontraden, met dezelfde argumentatie die ik bij een eerdere motie van de heer Van Nispen over het PwC-rapport heb gegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note125">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u25">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg32">Mevrouw Mutluer, één vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note126">Mevrouw Mutluer (PvdA)</note>
+            <u who="#SongülMutluer" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u26">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg33">Is de minister het met mij eens dat dit verder gaat en dat het echt om een onafhankelijk onderzoek gaat? De commissie-Schneiders heeft haar diensten bewezen voor de politie. Het kan hem helpen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note127">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u27">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg34">Ik denk daar anders over. We hebben een PwC-rapport, en het is aan ons om daar uitwerking aan te geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note128">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u28">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg35">De motie op stuk nr. 849 blijft ontraden. De motie op stuk nr. 850.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note129">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u29">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg36">Mag ik deze motie onder de noemer alternatieve straffen brengen? Mij wordt gevraagd dat mee te nemen met het pakket van maatregelen. Zo interpreteer ik de motie en kan ik die oordeel Kamer kan geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg37">Dan de motie op stuk nr. 851 over Bonjo. In het commissiedebat hebben wij hier uitputtend over gesproken. Ik heb mijn hoofd er ook over gebroken. Na het zomerreces spreek ik met de vrijwilligersorganisaties, en ik begrijp ook dat u daar niet op wilt wachten. Ik heb uitputtend gekeken naar wat Bonjo is. Naast het blad hebben ze ook verschillende andere activiteiten. Dat brengt mij bij het volgende. Ik ga vragen om deze motie aan te houden, met dien verstande dat ik in 2023 middelen ga vinden binnen mijn JenV-begroting om het te continueren, dat ik in september 2022 een gesprek aanga met de vrijwilligersorganisaties en met Bonjo om echt goede afspraken te maken naar de toekomst toe, en te bekijken of ik het wel of niet kan continueren. Als de motie wordt aangehouden, zeg ik de Kamer nu toe dat het in 2023 geregeld is en Bonjo blijft bestaan. Maar ik wil vasthouden aan het subsidiestelsel zoals we hebben afgesproken en daar niet in gaan wijzigen. Zo kijk ik er nu naar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note130">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u30">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg38">De heer Sneller, wilt u uw motie aanhouden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note131">De heer Sneller (D66)</note>
+            <u who="#JoostSneller" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u31">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg39">Ik zal hem aanhouden, maar ik onderschrijf de conclusie nog niet. Die discussie kunnen we in het najaar nog voeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note132">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u32">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg40">Op verzoek van de heer Sneller stel ik voor zijn motie (24587, nr. 851) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg41">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note133">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u33">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg42">We zijn bij de motie op stuk nr. 852.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note134">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u34">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg43">In het commissiedebat heb ik nadrukkelijk gesteld dat ik met de sbf'ers aan tafel ga zitten en dat ik mij nadrukkelijk buig over het dossier. Dat vind ik van belang. Die harde toezegging heb ik gedaan. Zie ik die motie dan niet als steun in de rug? Nee, ik ga die motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note135">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u35">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg44">Dank u wel. We zijn aan het eind van de beantwoording van de minister. Hij heeft dat snel gedaan en daar ben ik blij om.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note136">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note137">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.u36">
+               <seg xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.seg45">We gaan direct door met het volgende tweeminutendebat. Dat gaat namelijk over adoptie en daar zijn dezelfde woordvoerders en bewindspersonen bij betrokken. Een schorsing van enkele ogenblikken.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-06-tweedekamer-7.note138">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2020-12-10 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-12-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 36, Session 7 (2020-12-10)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 36, Session 7 (2020-12-10)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="36" xml:lang="en">Meeting 36</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="7" xml:lang="en">Session 7</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2020-12-10">Sitting 2020-12-10</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="32">32 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="32">32 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3456">3,456 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3456">3,456 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2020-12-10">2020-12-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="47"/>
+               <tagUsage gi="seg" occurs="55"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="32"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-12-10">2020-12-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.head1">Wijziging van het Belastingplan 2021</head>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note1">Zie wetgevingsoverleg van 9 december 2020.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note2">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:macro" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg1">Wij hebben vandaag een kort debat gepland, dat niet op de agenda stond maar dat, zo begreep ik, moest vandaag. Dat betekent dat wij dus nu overgaan tot een kort — zeg ik nog een keer — debat over de wijziging van het Belastingplan 2021 (35659). De heer Nijboer staat al klaar, zie ik. Ik geef hem nu het woord namens de PvdA. En natuurlijk heet ik de staatssecretaris van Financiën van harte welkom, die ik al had gegroet, maar niet officieel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note3">De algemene beraadslaging wordt geopend.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note4">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg2">De heer Nijboer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note5">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:macro" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg3">Dank u wel, voorzitter. We spreken over een wijziging van het Belastingplan en een van de hoekstenen van het Belastingplan van dit kabinet, de BIK. Er is veel discussie over geweest, het was eerst ook geen onderdeel van het Belastingplan, want we kregen pas in oktober het niet goed uitgewerkte voorstel. Daar is veel debat over geweest. Wetenschappers, het CPB, de Raad van State, eigenlijk iedereen die enig zinnig verstand heeft, zegt "ga die 4 miljard nou niet zo besteden, er zijn veel betere manieren om investeringen en werkgelegenheid te stimuleren", maar het moest en het zou als cadeau aan VNO-NCW worden gegeven.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg4">Dat wetsvoorstel is met stoom en kokend water gemaakt, en dat is er ook aan af te zien. Het was te laat, en nu hebben we al de eerste wijziging van die wet te pakken, want Europeesrechtelijk rammelt het aan alle kanten. Met dit wetsvoorstel, dat we eind vorige week kregen, wordt mogelijk 800 miljoen verschoven. Dat moet en zal ook weer binnen die BIK, die al niet werkt, blijven.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg5">Voorzitter. Ik vraag de staatssecretaris nog een keer: hoe is het nou in vredesnaam mogelijk dat er nu binnen een maand alweer een aanpassing van die wet nodig is? Denkt hij echt dat dit in de uitvoering nog goed gaat? Welke ondernemer kan nog, als hij niet eens weet welke korting hij krijgt, een fatsoenlijke investeringsbeslissing nemen? Wanneer komt er duidelijkheid over die Europeesrechtelijke kant van de zaak?</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg6">Ik vind het ook parlementair best moeizaam dat een van de belangrijkste, grootste maatregelen uit het Belastingplan niet eens in het Belastingplan zat en dat er vervolgens een wijziging komt, waarbij het parlement als medewetgever amper een fatsoenlijke mogelijkheid heeft om er een goed oordeel over te geven. Dat mochten we in één weekendje. We kregen nog uitstel van 09.00 uur maandagochtend tot 11.00 uur maandagochtend om onze inbreng te leveren. Gisteravond hebben we met twee oppositiepartijen — met de heer Snels van GroenLinks — en drie coalitiepartijen even over een wijziging van 800 miljoen gesproken. Dat is geen doen. Normaal gesproken kunnen we hier eindeloos debatteren over 10 miljoen, 20 miljoen, en precies in de gaten hebben wat daarmee gebeurt. Ik vind het dus echt onbehoorlijke wetgeving. Daar komen brokken van. Voorziet de staatssecretaris die ook? Denkt hij nou echt dat het met deze actie allemaal gerepareerd is, dat het in de uitvoering goedkomt, dat het Europeesrechtelijk goedkomt en dat hij hier niet weer moet komen?</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg7">Ik vind het ook ongekend dat we een maatregel hebben waarvan we op 1 januari nog niet weten om welke tarieven het eigenlijk gaat. Dat gaat niet over klein bier; het is 2 miljard. De staatssecretaris zegt dan dat in de artikelen wel staat dat als het de ene kant wordt, dit het tarief is en als het Europeesrechtelijk de andere kant wordt, het het andere tarief is. Maar dan stel je ze dus niet vast. Dat is echt ongekend. Het zou toch wat zijn als we niet weten wat volgend jaar het btw-tarief wordt of het tarief van de inkomstenbelasting. Het is nu tweeënhalve week voor 1 januari. Dat is toch onbehoorlijke wetgeving? Ik vraag de staatssecretaris of dit soort wetten, die hij zelf bewust heeft gekoppeld aan het Belastingplan … Het had ook een losse wet kunnen wezen. Dan had de wet ook beter doordacht kunnen zijn en had hij ook los ingediend kunnen worden. Ik vraag de staatssecretaris om dit niet meer zo, als koppelverkoop, aan de Kamer aan te bieden. De Eerste Kamer heeft, na de eerder aangenomen motie-Hoekstra, dit jaar ook de motie-Sent hierover aangenomen: doe dat nou niet weer. Waarom heeft de staatssecretaris daar toch voor gekozen? Waarom belast hij het hele Belastingplan met zo'n gruwel van een maatregel?</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg8">Voorzitter, ik rond af. We zeggen vaak dat de Eerste Kamer de kwaliteit van wetgeving moet beoordelen. Dat is natuurlijk waar, maar ook de Tweede Kamer heeft een eigenstandige taak. Als de wetgeving aan alle kanten rammelt, als de inhoud niet wordt gehaald, er een enorm budget mee gemoeid is, de uitvoering rammelt, er Europeesrechtelijk niks van klopt en het wetgevingsproces slecht loopt, kunnen we maar één oordeel vellen. Dat is: dit voorstel afwijzen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg9">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note6">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg10">Dank u wel, meneer Nijboer. Dan geef ik nu het woord aan de heer Snels namens GroenLinks. Gaat uw gang. O, een elektrische …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note7">De heer Snels (GroenLinks)</note>
+            <u who="#BartSnels" ana="#regular topic:macro" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg11">Ik kreeg een schokje!</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg12">Dank u wel, voorzitter. De staatssecretaris kent de positie van GroenLinks als het gaat over de BIK. GroenLinks was tegen de BIK, GroenLinks is tegen de BIK en GroenLinks zal ook in de toekomst tegen de BIK blijven. Eigenlijk kan ik me in grote lijnen ook wel aansluiten bij de inbreng van de heer Nijboer. Zowel inhoudelijk als qua proces verdient dit op z'n zachtst gezegd geen schoonheidsprijs. Dit is, zeker ook als rapporteur inzicht in kwaliteit, waarbij artikel 3.1 van de Comptabiliteitswet echt heel belangrijk is, een wijze van besluitvorming over heel veel overheidsgeld die eigenlijk niet op deze manier zou moeten gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg13">Voorzitter. Ik kom toch even op een specifiek punt. In het wetgevingsoverleg van gisteren heeft de staatssecretaris de toezegging gedaan dat hij, mocht er een negatief oordeel uit Brussel komen over de aansluiting bij de fiscale eenheid, eerst een brief aan de Kamer stuurt en niet automatisch een koninklijk besluit slaat om de tarieven in de BIK te verhogen. Ik ben daar blij mee, want dat betekent dat de Kamer indien gewenst nog een debat kan voeren over wat er in dat geval zou moeten gebeuren. Ik vraag dat natuurlijk niet voor niets, want het stoort me in de novelle dat als de Europese Commissie negatief zou besluiten, de verhoging van de tarieven en de kortingspercentages automatisch plaatsvindt. De heer Nijboer zei het al: dat gaat over 800 miljoen in twee jaar en over 400 jaar miljoen per jaar. Dat is, ook vanuit artikel 3.1 van de Comptabiliteitswet, niet de wijze waarop we de besluitvorming over zo veel overheidsgeld moeten doen. Mijn vraag aan de staatssecretaris is dus om niet alleen een brief te sturen met een toelichting op het besluit van de Europese Commissie, maar de Kamer ook echt in de gelegenheid te stellen om opnieuw besluitvorming te hebben over die 400 miljoen. Daarbij gaat het, zoals de Comptabiliteitswet ook zegt, uiteindelijk om de vraag wat het doel, de doeltreffendheid en de doelmatigheid zijn. Ook moeten er alternatieven in kaart worden gebracht. Ook hierop hoor ik graag de reactie van de staatssecretaris. Ik overweeg een motie in tweede termijn.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg14">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note8">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg15">Dank u wel, meneer Snels. Dan geef ik nu het woord aan de heer Van Weyenberg namens D66. Begreep ik hieruit dat jullie ook een tweede termijn willen? Sommigen willen dat, zie ik. Oké. De heer Van Weyenberg. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note9">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:macro" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg16">Dank u wel, voorzitter. We hebben gisteren in het wetgevingsoverleg een novelle behandeld omdat de staatssecretaris toch zegt dat hij één stukje van dit wetsvoorstel per koninklijk besluit wil laten ingaan en dat hij toetsing in Brussel wil door dit te notificeren. Het is ongelukkig dat we dat in deze fase nog moeten doen, maar gegeven de informatie en het oordeel van de staatssecretaris vind ik het wel verstandig dat hij nu deze route van de novelle kiest en hierin geen juridische risico's neemt. Over de maatregel zelf heb ik al eerder gezegd dat ik die verdedigbaar vind als crisismaatregel. Hij is tijdelijk en twee derde komt, onder meer door een amendement van mevrouw Lodders, en ook door veel collega's, ten goede aan het mkb.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg17">Ik had nog twee eigen zorgen. De ene raakt een beetje aan het punt waarop de heer Snels gisteren een toezegging kreeg, namelijk: laten we nog wel een keer kunnen spreken, mocht er onverhoopt slecht nieuws uit Brussel komen. De tweede was deze: het loket waar dat kan worden aangevraagd, gaat 1 september open, maar dat kan voor de uitvoering alleen als er vóór 1 februari duidelijkheid uit Brussel komt. Ik begrijp dat de staatssecretaris daar hoopvol over is. Ik heb wel gevraagd om ons in de loop van januari op de hoogte te houden, zodat we, mocht het er onverhoopt toch nog niet zijn, kunnen kijken wat dat voor de uitvoering betekent.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg18">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note10">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg19">Dank u wel, meneer Van Weyenberg. Dan geef ik nu het woord aan de heer Edgar Mulder namens de PVV. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note11">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg20">Dank u wel, voorzitter. Ik zal het kort houden. De PVV is geen voorstander van de BIK. Dat waren we niet en dat zijn we nog steeds niet. Het is een slecht opgestelde wet, die er te snel doorheen is gegaan, tegen het advies van de Raad van de State en de meeste van de fracties hier in. Maar goed, deze novelle maakt de wet net iets minder slecht, dus die gaan we steunen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg21">Dat was het, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note12">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg22">Dank u wel, meneer Edgar Mulder. Dan geef ik nu het woord aan de heer Omtzigt namens het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note13">De heer Omtzigt (CDA)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:macro" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg23">Dank u wel, voorzitter. Gisteren hebben we uitgebreid de tijd genomen voor een wetgevingsoverleg, waarin ik natuurlijk, zoals ik vaker doe, de meeste spreektijd gebruikt heb, met als doel om deze novelle uitgebreid te behandelen ten aanzien van de inhoudelijke vragen. Zo doen we dat ook, maar we waren na een uur al klaar. Ik ben blij dat de regering een extra check inbouwt bij de Europese Commissie om ervoor te zorgen dat we niet een dramatische weglek gaan krijgen omdat er een probleem met de fiscale eenheid komt. Daar had ik eerder voor gepleit, en het is goed dat het nu dus op deze manier gebeurt.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg24">Als tweede had ik mijn zorgen geuit over de problemen die je zou kunnen hebben als je het te snel vervreemdt. Als je een middel krijgt en je krijgt er een BIK — dat is een subsidie — op, en als je dat twee dagen later weer verkoopt naar een dochteronderneming van je eigen bedrijf in een ander Europees land, moet er wat ons betreft een desinvesteringsreserve op zitten. Die desinvesteringsreserve zit niet als zodanig in de wet, maar de staatssecretaris heeft toegezegd dat je het middel minstens een jaar in bezit moet houden, met een tegenbewijsmiddel. Als je bijvoorbeeld failliet dreigt te gaan en middelen moet verkopen, hoef je het niet terug te betalen. Het lijkt ons een passende oplossing om dat op die manier in de handleiding vorm te geven. Wij zien die handleiding het liefst vóór eind januari tegemoet, ook om rechtszekerheid te geven aan de ondernemers. Wij zien ook met belangstelling voor eind januari de brief van de Europese Commissie tegemoet over de stand van zaken rondom deze notificatie en of dat goed of niet goed gaat. Het is heel belangrijk om dat hier te weten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note14">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg25">Dank u wel, meneer Omtzigt. Dan geef ik tot slot het woord aan mevrouw Lodders namens de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note15">Mevrouw Lodders (VVD)</note>
+            <u who="#HelmaLodders" ana="#regular topic:macro" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg26">Voorzitter, dank u wel. We hebben bij de behandeling van het Belastingplan uitvoerig gesproken over de BIK. Voor de VVD is dat een belangrijke crisismaatregel; een maatregel om investeringen aan te jagen, investeringen te stimuleren, zeker in deze tijd. Nu heeft de staatssecretaris een novelle gestuurd. Gisteravond hebben we daarover een debat gehad. Ik heb aangegeven dat wij hopen op zo snel mogelijk duidelijkheid. Dat is belangrijk voor ons bedrijfsleven en voor de mkb'ers die investeringen willen doen. Ik hoop dat de staatssecretaris ons heel snel kan verblijden met goed nieuws. Ik heb er alle vertrouwen in dat hij zich daarvoor in Brussel ook zal inzetten. Gisteravond heb ik mijn zorgen geuit over de communicatie richting de ondernemers. Het antwoord dat ik daarop heb gekregen is dat er echt gericht communicatie zal uitgaan. Dat is heel erg belangrijk. De vraag om een toezegging hoef ik hier verder niet te herhalen. Ik ga ervan uit dat het goed gaat. Ik dank u voor uw tijd en voor uw flexibiliteit. Dat mag ook wel een keer gezegd worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note16">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg27">Heel lief. Dank u wel, mevrouw Lodders. Ik constateer dat de staatssecretaris behoefte heeft aan een schorsing van één minuut.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note17">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note18">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u15">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg28">Ik zie dat de staatssecretaris weer binnen is. Ik geef het woord aan de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note19">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:macro" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u16">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg29">Voorzitter, dank u wel. Ook van mijn kant heel veel dank voor de flexibiliteit dat dit debat nog snel kon plaatsvinden. Ik wil een paar dingen langslopen: het fundamentele punt van de heer Nijboer over de wet, een paar punten van de heer Snels en dan nog wat kleinere andere dingen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg30">Allereerst het fundamentele punt. Ik heb eerder in deze Kamer toegezegd — ik moet even op adem komen, want ik heb lopen rennen — alsook in de Eerste Kamer, dat ik een brief zal schrijven aan het begin van het jaar, waarin ik zal ingaan op een betere spreiding van de plannen rond het Belastingplan voor een komend kabinet. Ik heb dat van de week in de Eerste Kamer nog verder toegelicht, toen ik daar zat voor de behandeling van het Belastingplan, en naar aanleiding van de vraag van mevrouw Sent in een eerdere fase bij de Algemene Financiële Beschouwingen. Ik ga proberen daar een oplossing voor te vinden. Een van de oplossingen is dat we met structurele belastingvoorstellen eerder naar de Kamer komen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg31">Dan het tweede punt: wat beoogt de BIK? Het begint een beetje een herhaling te worden, maar de BIK beoogt het stimuleren van investeringen in Nederland. Deze novelle probeert een mogelijk probleem daarbij te voorkomen, namelijk dat die investeringen niet in Nederland plaatsvinden maar in het buitenland, en dat de fiscale eenheid het Europeesrechtelijk niet houdt, waardoor er een weglek van Nederlands belastinggeld optreedt. Dat is nooit de bedoeling geweest. Ik denk dus dat die novelle bijdraagt aan de kwaliteit van het wetsvoorstel. De heer Mulder gaf dat ook al aan. Wat je van de basiskwaliteit vindt, laat ik even in het midden, maar de bijdrage aan de kwaliteit van het wetsvoorstel is in ieder geval positief.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg32">De heer Snels vroeg of ik met een brief kan komen. We hebben het daar gisteravond uitgebreid over gehad. Het lijkt mij echt verstandig dat ik een brief stuur na afronding van het proces in Brussel. Zelfs als het proces positief is verlopen, is het misschien wel verstandig om ook te melden hoe dat precies is verlopen. Er ligt natuurlijk een novelle met het slaan van een koninklijk besluit — ik zei het gisteravond al — in een vork: of de fiscale eenheid mag wel en dan komt het er gewoon in, of het mag niet en dan gaan de percentages omhoog. Maar ik heb aangegeven dat ik een brief wil sturen. Het is dan aan de Kamer om daarover met mij te debatteren als zij dat wil. Ik kom natuurlijk altijd als de Kamer roept. Zo zijn de regels.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg33">De heer Van Weyenberg vroeg om duidelijkheid per 1 februari. Dat is nadrukkelijk het streven. Ik heb dat gisteravond ook gezegd. Als we dat niet halen, als we echt ruim over 1 februari heengaan en het tot uitvoeringsproblemen gaat leiden, dan zal ik daartoe weer een brief sturen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg34">De heer Omtzigt wees nog een keer op hoe dit allemaal ontstaan is: kritiek en opmerkingen vanuit de NOB en vanuit andere hoeken over de fiscale eenheid. Gisteravond heb ik bij het wetgevingsoverleg al toegegeven dat het even heeft geduurd tot wij toch de conclusie trokken dat we moeten notificeren in Brussel om het weglekrisico te voorkomen. Dat had ik ook liever eerder gedaan, maar het is zo gegaan als dat het ging.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg35">Het tweede wat de heer Omtzigt zei ging over de leidraad waarin we gaan opnemen op welke manier we gaan voorkomen dat investeringstegoeden snel worden doorverkocht, in plaats van de echte desinvesteringsregeling. Gisteravond heb ik toegezegd dat ik inderdaad in januari met een brief ga proberen te komen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg36">Misschien nog even ten overvloede. De heer Nijboer zei net in zijn inbreng dat de tarieven onhelder zijn, maar dat ga ik toch nog één keer bestrijden. De tarieven zijn helder. Er kan alleen een situatie optreden waarbij de fiscale eenheid niet wordt toegestaan, en dan worden de tarieven hoger. Dat is de onzekerheid, maar het is een onzekerheid in de goede richting, zeg ik dan maar even.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg37">Voorzitter, dat was mijn inbreng in deze termijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note20">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u17">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg38">Dank u wel. De heer Nijboer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note21">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:macro" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u18">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg39">Toch een vraag nog hierover. De tarieven zijn inmiddels opgehelderd; die staan in dat artikel. Als de staatssecretaris Europeesrechtelijk zijn zin krijgt, dan is het het ene tarief, en als hij niet zijn zin krijgt, dan is het het andere tarief. In zoverre is het dus helder. Mijn vraag was wanneer het in de geschiedenis eerder is gebeurd dat ondernemers of gewone mensen twee weken voor 1 januari niet weten welk belastingtarief ze hebben. Dat is natuurlijk mijn punt. Wat die tarieven dan worden, dat wordt hier voorgesteld. Het gaat over 400 miljoen. En je weet nu nog niet of de staatssecretaris Europeesrechtelijk gelijk krijgt of niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note22">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u19">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg40">Hier blijft ... Als ik het woord heb, tenminste. Sorry, ik was iets te gretig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note23">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u20">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg41">Ja, natuurlijk, gaat uw gang. Het geeft niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note24">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:macro" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u21">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg42">Hier blijft een misverstand tussen de heer Nijboer en mij bestaan. De tarieven per 1 januari zijn helder. Die staan al gewoon in de wet. Het enige wat er kan gebeuren — ik herhaal: wat er kán gebeuren — als de fiscale eenheid niet toe wordt gestaan, is dat de tarieven met terugwerkende kracht hoger worden per 1 januari. Dat is met terugwerkende kracht. Dat is wat er kan gebeuren. Dus nee, het is niet waar dat we hier unprecedented geen tarief zouden vaststellen. De tarieven zijn vastgesteld. De novelle zegt alleen maar dat ofwel de fiscale eenheid binnenkomt — en dan blijven de tarieven hetzelfde — ofwel de fiscale eenheid niet binnenkomt en niet mag, en dan komt er een brief naar uw Kamer en is in principe de volgende stap dat de tarieven omhooggaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note25">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:macro" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u22">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg43">Dit is dus precies de illustratie van de rommelige wetgeving. Normaal gesproken zoek je dit van tevoren uit en dan weet je gewoon wat de tarieven zijn. Maar nu zegt de staatssecretaris: dit is het minimale tarief, maar als het Europeesrechtelijk een beetje anders loopt, dan krijgt u nog een grotere korting. Ik vind dat wetgeving van niks. Ik vind dat dat gewoon klaar moet zijn en dat het voor iedereen helder moet zijn wat de belastingtarieven zijn voor een volgend jaar, zeker twee of drie weken voor 1 januari.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note26">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u23">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg44">Maar dat zijn ze dus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note27">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u24">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg45">Ik kijk of er behoefte is aan een tweede termijn. Ja, de heer Snels, namens GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note28">De heer Snels (GroenLinks)</note>
+            <u who="#BartSnels" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u25">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg46">Dank u wel, voorzitter. Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note29">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note30">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note31">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note32">overwegende dat in het wetsvoorstel is opgenomen dat indien er vanuit Europa een negatief oordeel komt over de aansluiting bij de fiscale eenheid, er dan bij koninklijk besluit besloten kan worden tot verhoging van de percentages voor de BIK;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note33">overwegende dat de staatssecretaris heeft toegezegd dat er in dat geval eerst een brief naar de Kamer komt om de Kamer de mogelijkheid te geven om tot een oordeel te komen over wat er in dat geval moet gebeuren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note34">overwegende dat het hierbij gaat om besluitvorming over een omvangrijk bedrag van ongeveer 400 miljoen euro;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note35">verzoekt het kabinet op dat moment, vanuit de juridische verplichting van artikel 3.1 van de Comptabiliteitswet, opnieuw te bezien of een andere besteding van 400 miljoen euro dan de verhoging van de BIK-percentages maatschappelijk effectiever is, en daar de Kamer over te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note36">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note37">Deze motie is voorgesteld door de leden Snels en Nijboer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note38">Zij krijgt nr. kst-35659-7</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note39">De heer Snels (GroenLinks)</note>
+            <u who="#BartSnels" ana="#regular topic:gover" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u26">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg47">Voorzitter. Tot slot: ik ga natuurlijk uit van een "oordeel Kamer" van de staatssecretaris, maar in feite is het een overbodige motie, want deze motie komt voort uit de Comptabiliteitswet. In de kamer naast de staatssecretaris zit de hoeder van de Comptabiliteitswet. Bij 400 miljoen is het eigenlijk volstrekt logisch dat je dan even opnieuw nadenkt en vanuit artikel 3.1 beargumenteert of dit de meest doelmatige en doeltreffende manier is om overheidsgeld te besteden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg48">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note40">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u27">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg49">Dank u wel, meneer Snels. Als u de motie meegeeft, dan krijgt die een nummer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note41">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u28">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg50">Mag ik één minuut met mijn ambtenaren overleggen over de inhoud van deze motie? Dan kan ik daarna een oordeel uitspreken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note42">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u29">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg51">Ja, dat is goed.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg52">Ik geef het woord aan de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note43">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u30">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg53">Voorzitter. Het wordt teleurstellend voor de heer Snels, want ik ga deze motie ontraden. De beslissing over de besteding van de 400 miljoen waarover hij het heeft, is onderdeel geweest van de besluitvorming over de BIK. Daarover is reeds besloten. Het bedrag blijft ingezet worden voor hetzelfde doel. Ik zie dus niet in waarom artikel 3.1 van de Comptabiliteitswet ons zou verplichten om dat te heroverwegen. Dit is de onvriendelijke kant van mijn antwoord. Ik heb natuurlijk ook een vriendelijker kant, zoals de heer Snels heel goed weet. Ik wil hierover namelijk best iets schrijven in de brief. Anders heeft die brief ook weinig zin. Ik ga natuurlijk schrijven wat er gebeurd is in Europa en dan wil ik best de zin toevoegen dat ik bereid ben om naar de Kamer te komen voor een debat. Dan mag de heer Snels iedere motie en amendement indienen die hij wenst. Ik kan deze motie nu echter niet oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note44">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u31">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg54">Dank u wel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note45">De algemene beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note46">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.u32">
+               <seg xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.seg55">Dan zijn we klaar wat betreft het wetsvoorstel. We zullen over tien minuten stemmen over de motie op stuk nr. 7.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2020-12-10-tweedekamer-7.note47">De vergadering wordt van 13.34 uur tot 13.45 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

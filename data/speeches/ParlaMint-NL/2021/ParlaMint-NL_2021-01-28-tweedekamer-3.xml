@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-01-28 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-01-28 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 50, Session 3 (2021-01-28)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 50, Session 3 (2021-01-28)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="50" xml:lang="en">Meeting 50</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="3" xml:lang="en">Session 3</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-01-28">Sitting 2021-01-28</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="55">55 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="55">55 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="4973">4,973 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="4973">4,973 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-01-28">2021-01-28</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="113"/>
+               <tagUsage gi="seg" occurs="78"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="55"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-01-28">2021-01-28</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.head1">Renovatie Binnenhof / tijdelijke huisvesting Tweede Kamer</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:housi" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg1">Ik heet iedereen van harte welkom. Aan de orde is het VAO Renovatie Binnenhof / tijdelijke huisvesting Tweede Kamer. Ik geef mevrouw Beckerman als eerste spreker het woord namens de SP-fractie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note2">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg2">Dank u wel, voorzitter. Ik dacht: als ik snel loop, ziet niemand dat ik per ongeluk mijn nette schoenen vergeten ben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note3">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg3">Nou, die heb ik wel gezien. Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note4">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg4">We doen het er maar mee.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg5">Voorzitter. We hebben denk ik een stevig debat gehad. Mijn fractie heeft daar uitgesproken dat wij problemen hebben met hoe de organisatie op dit moment in elkaar zit. Zo moesten wij bijvoorbeeld via de media horen dat de tijdelijke locatie veel duurder was dan het bedrag dat wij als Kamer kenden. Wij vinden dat geen goede werkwijze. We hebben uitgesproken dat we eigenlijk willen dat dit debat uitermate saai gaat worden. Want het is pijnlijk voor ons allemaal om steeds over onszelf te debatteren, en het is nog veel pijnlijker als er weer een politiek project komt dat uit de hand loopt qua financiën en qua overschrijdingen in tijd. Dat moeten we gewoon met z'n allen voorkomen. Er zijn genoeg crises in het land. Laten we dit debat gewoon saai maken, en daarom een motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note5">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note6">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note7">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note8">overwegende dat de renovatie van het Binnenhof een belangrijk project is dat goed moet verlopen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note9">constaterende dat er nu meermalen problemen zijn opgetreden, waaronder vertragingen en kostenoverschrijdingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note10">voorts constaterende dat door de huidige organisatiestructuur de Tweede Kamer problemen pas laat kent;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note11">spreekt uit dat de Tweede Kamer een sturende en controlerende rol moet hebben in de renovatie van het Binnenhof;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note12">verzoekt de regering de huidige taak- en rolverdeling opnieuw te bezien en in voorjaar 2021 voorstellen te doen hoe de taakverdeling zo kan worden ingericht dat de Tweede Kamer meer inzicht en grip krijgt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note13">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note14">Deze motie is voorgesteld door de leden Beckerman, Smeulders, Kuiken, Van der Graaf, Van Otterloo en Bisschop.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note15">Zij krijgt nr. kst-34293-110</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note16">Dank u wel. Een korte vraag, de heer Van der Molen.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note17">De heer Van der Molen (CDA)</note>
+            <u who="#HarryvanderMolen" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg6">Een verhelderende vraag. In de motie staat "de Tweede Kamer". Helderheid is bij governance geboden. Wat moet ik daaronder verstaan? Is dat de commissie Binnenlandse Zaken? Is dat een taak van het Presidium? Dat moeten we wel even helder hebben, denk ik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note18">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg7">Dat is inderdaad verwarrend. Ik heb het in dit geval vooral over onze commissie, die natuurlijk uiteindelijk doorslaggevende besluiten neemt. Maar in het "verzoekt de regering" vragen we eigenlijk heel simpel het volgende. Bekijk alle taken en rollen die er op dit moment zijn, leg een voorstel aan de Kamer voor — het mogen ook meerdere voorstellen en meerdere opties zijn — zodat wij hier met deze commissie, waarschijnlijk de nieuwe Tweede Kamer, kunnen oordelen: dit is hoe we het willen. Zelf willen we graag uitspreken dat we meer grip en een sturende rol moeten hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note19">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg8">Dank u wel, mevrouw Beckerman. Iedereen gaat naar uw schoenen kijken, dus snel terug naar uw plek. Dan geef ik nu het woord aan de heer Middendorp namens de VVD. Die ziet er keurig uit. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note20">De heer Middendorp (VVD)</note>
+            <u who="#JanMiddendorp" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg9">Voorzitter, dank u wel. Ik vond dat mevrouw Beckerman er ook keurig uitzag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note21">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg10">Ja, ik ook hoor. Klopt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note22">De heer Middendorp (VVD)</note>
+            <u who="#JanMiddendorp" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg11">Voorzitter. De verbouwing van ons mooie Binnenhof. We hebben er inmiddels sinds 2015 langer over gesproken in dit huis dan de renovatie met vijf en een half jaar gaat duren. Ook het laatste gesprek daarover, het debat voor de kerstmis, was goed. Gelukkig kwamen er geen palmbomen, kapiteins en schepen langs. Ik dank de staatssecretaris daarvoor en voor de toezeggingen die zijn gedaan op bijvoorbeeld veiligheid, tijdelijke huisvesting en projectstructuur. Ondanks dat het ook voor de kerstmis weer een goed debat werd, ben ik het eens met mevrouw Beckerman. Ik omschreef het iets anders in het debat, maar we moeten er minder over praten en ermee aan de slag. Er zijn echt heel veel lessen te leren van de afgelopen periode, over de projectstructuur bijvoorbeeld. Ook daar heeft mevrouw Beckerman net goede zaken over aan de orde gesteld. Vooral die verwarring die net bij de interruptie ook weer even werd genoemd, is denk ik belangrijk. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note23">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note24">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note25">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note26">overwegende dat het renoveren van het Binnenhofcomplex zowel om democratische controle als om een goede uitvoering vraagt, maar dat de complexe projectstructuur en de samenwerking tussen regering, Rijksvastgoedbedrijf, gebruikers en Tweede Kamer als controleur dit vaak bemoeilijken en dat daar verbeteringen mogelijk zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note27">van mening dat het parlementair proces te allen tijde veilig door moet kunnen gaan en dat dat ook geldt bij het in gebruik nemen van tijdelijke huisvesting tijdens het renovatieproces, ook in het geval van eventuele coronarestricties;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note28">verzoekt de regering er zorg voor te dragen dat betrokkenen gedurende de vijfenhalf jaar waarin de renovatie van het Binnenhofcomplex moet plaatsvinden nauw samenwerken, incluis bij het operationeel maken van tijdelijke huisvesting;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note29">verzoekt de regering tevens verbeteringen aan te brengen in de bestuurlijke structuur van het project, gericht op een betere aansluiting tussen besluitvorming en uitvoering, en daarbij ook de regelmaat van aanlevering — nu twee keer per jaar — en structuur van de financiële informatie aan de Tweede Kamer te betrekken door deze financiële informatie voortaan op een duidelijk en consistentie manier en zo gedetailleerd mogelijk te delen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note30">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note31">Deze motie is voorgesteld door de leden Middendorp en Bisschop. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note32">Zij krijgt nr. kst-34293-111</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note33">Dank u wel. Dan geef ik nu het woord aan de heer Smeulders namens de fractie van GroenLinks. De heer Smeulders.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note34">De heer Smeulders (GroenLinks)</note>
+            <u who="#PaulSmeulders" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg12">Dank u wel, voorzitter. De renovatie van het Binnenhof, een dossier waar we het de afgelopen tijd eigenlijk te vaak over hebben gehad, zeker op het moment dat het land in crisis is. Daarom lijkt het ons van belang dat we hier vandaag een streep onder zetten en dat we voortvarend verder gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg13">Daarvoor moeten er in onze ogen wel een paar dingen gebeuren. Het eerste is dat we moeten zorgen dat de governance, de wijze waarop we dit project aanpakken, beter wordt. Want het is de afgelopen jaren in verschillende fasen gewoon niet goed gedaan. En dit mooie gebouw, dit mooie complex wordt gedurende vijfenhalf jaar verbouwd, dus laten we daar alsjeblieft lessen uit trekken en verbeteringen doorvoeren, zodat die volgende vijfenhalf jaar wel goed gaan. Zojuist heeft mevrouw Beckerman daarover mede namens ons al een motie ingediend. We hopen van harte dat die governance gaat verbeteren.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg14">Het tweede punt dat wij heel erg belangrijk vinden, is dat dit gebouw, dit gebouwencomplex op een goede manier wordt opgeknapt, dat de afspraken die deze zomer gemaakt zijn worden nagekomen. Ik heb graag dat de staatssecretaris dat ook hier bevestigt. En ik wil dat we dit gebouw heel erg duurzaam maken. We gaan dit voor 30, 40, 50 jaar renoveren. In 2050 moet ons land klimaatneutraal zijn, en dit gebouw kan niet achterblijven; vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note35">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note36">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note37">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note38">constaterende dat we als land voor een enorme verduurzamingsopgave staan en dat de overheid daarin het goede voorbeeld moet geven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note39">overwegende dat bij de renovatie van het Binnenhofcomplex nog extra duurzaamheidsmaatregelen mogelijk zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note40">verzoekt de regering zich er maximaal voor in te spannen dat het hele Binnenhofcomplex zo duurzaam mogelijk gerenoveerd wordt, waarbij in ieder geval HR++-glas en voorzetwanden om de isolatie verder te verbeteren worden toegepast, en de Kamer hierover voor de start van de renovatie te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note41">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note42">Deze motie is voorgesteld door de leden Smeulders, Beckerman, Van Eijs, Van der Graaf, Van der Molen, Van Otterloo en Kuiken.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note43">Zij krijgt nr. kst-34293-112</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note44">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg15">Dank u wel. Dan mevrouw Van Eijs namens D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note45">Mevrouw Van Eijs (D66)</note>
+            <u who="#JessicavanEijs" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg16">Dank u wel, voorzitter. Ondanks dat ik het als bouwkundige natuurlijk heel erg leuk vind om alle dossiers uitgebreid te bekijken, veel rapporten te bekijken en tekeningen door te spitten, moet ik me eigenlijk aansluiten bij de vorige sprekers dat wij het hier te vaak over hebben gehad, en ook op een manier waar we het eigenlijk niet te vaak over zouden willen hebben, namelijk dat het niet goed gaat. Daarom kan ik me aansluiten bij vorige sprekers die zeggen: laten we nu kijken hoe het beter kan. Ik kan me ook aansluiten bij de heer Smeulders van GroenLinks over de duurzaamheid, waarvoor we eerder samen met de ChristenUnie eerder aandacht hebben gevraagd. Daarom sta ik van harte onder zijn motie om te kijken hoe we dit gebouwencomplex klaar krijgen voor de toekomst. Dat gezegd hebbende, heb ik nog een motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note46">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note47">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note48">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note49">constaterende dat in 2016 het besluit is genomen om als gehele Tweede Kamer gezamenlijk te verhuizen voor de noodzakelijke renovatie van het Binnenhof;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note50">overwegende dat in navolging van dit besluit het voormalig ministerie van Buitenlandse Zaken tegen een niet geringe investering in gereedheid is gebracht als tijdelijke huisvesting voor de Tweede Kamer;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note51">spreekt uit dat de Tweede Kamer alle noodzakelijke stappen zal zetten om in het zomerreces van 2021 naar de tijdelijke huisvesting aan Bezuidenhout 67 te kunnen verhuizen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note52">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note53">Deze motie is voorgesteld door de leden Van Eijs, Van der Molen, Middendorp en Van der Graaf. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note54">Zij krijgt nr. kst-34293-113</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note55">Dank u wel. Dan geef ik nu het woord aan mevrouw Van der Graaf namens de ChristenUnie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note56">Mevrouw Van der Graaf (ChristenUnie)</note>
+            <u who="#StienekevanderGraaf" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg17">Voorzitter, dank u wel voor het woord.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg18">Voorzitter. Ik denk dat het een goed debat is geweest. Ik heb in dat debat ook al uitgesproken dat ik mij aansluit bij de woorden van mevrouw Beckerman, namelijk dat het goed is om dit project uit de hitte van het dagelijks gesprek te halen en dat er werk wordt gemaakt van de aanpak en van een goede overdracht naar de nieuwe locatie. Ik denk ook dat het beter kan qua aansturing, dus het is goed als we daarnaar kijken. De ChristenUnie steunt de moties van harte en heeft een van de twee ook mede ingediend. Het is ook belangrijk om nu voorbereidingen te treffen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg19">Ik heb nog twee vragen voor de staatssecretaris, die ik wil aanroeren. De ChristenUnie wil graag zeker stellen dat ook de dependances aan de andere kant van het Plein voor de Tweede Kamer behouden zullen blijven. Kan de staatssecretaris bevestigen dat dat zo is? Als de Tweede Kamer aangeeft dat zij die nodig heeft — we weten ook dat er extra werkplekken moeten worden gerealiseerd — blijven die dan behouden voor de Tweede Kamer en worden die dan ook goed gereedgemaakt? De vraag die daaraan gekoppeld is, is: wat is er nog nodig om duidelijkheid te krijgen over de extra werkplekken die moeten worden gerealiseerd? In de motie-Jetten wordt de ondersteuning van de Tweede Kamer uitgebreid. Hoe gaan we dat vormgeven?</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg20">Het tweede punt is de kinderopvang. Eerder hebben we de indruk gekregen dat de kinderopvanglocatie goed geregeld zou worden, maar mijn indruk is nu dat daar nog geen knopen over zijn doorgehakt en dat er nog geen duidelijkheid is over waar die straks terecht gaat komen. De ChristenUnie vindt het ongelofelijk belangrijk dat we die voorziening realiseren en dat daar spoed achter wordt gezet. Ik weet dat er een locatie op het oog is. Ik vind het belangrijk om hier uit te spreken dat als de Tweede Kamerorganisatie, de kinderopvangorganisatie en de oudercommissie aangeven dat dat de voorkeurslocatie is, die ook goed gereedgemaakt moet worden. Daar zou ik graag een reactie op krijgen van de staatssecretaris.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg21">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note57">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg22">Dank u wel, mevrouw Van der Graaf. Dan geef ik nu het woord aan de heer Van Otterloo namens 50PLUS.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note58">De heer Van Otterloo (50PLUS)</note>
+            <u who="#Gerrit-JanvanOtterloo" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg23">Dank u wel, voorzitter. Ik ben bang dat ik vandaag de stem uit het verleden moet vertegenwoordigen. Ik ben nog niet tot geest geworden, dus ik zal deze bewindsman niet als een soort Scrooge neerzetten, maar ik heb mij wel vreselijk verbaasd over alle onzin die verteld wordt over hoe zwaar het de vorige keer is geweest. Naar aanleiding van het overleg dat we hebben gehad, heb ik het nog een keer bij een aantal collega's uit het verleden gecontroleerd. Niemand kon zich herkennen in de verhalen dat het zo vreselijk was om hier te blijven. Vervolgens constateren we dat de Eerste Kamer hier wel blijft met haar vergadercapaciteit. Ik heb gisteren de moeite genomen om op het laatste moment de verstrekte rapportage over de veiligheid te lezen. De enige conclusie die ik daaruit kan trekken, zonder daaruit te lekken, is dat we straks twee complexen hebben die we moeten beveiligen in plaats van één.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg24">Ik heb het in het AO al gehad over de Apenrots. B67 staat natuurlijk voor Bezuidenhoutseweg 67, maar het staat ook voor een ballingschap van 67 maanden. Het is een hele treurige constatering dat het hele parlement voor 67 maanden in ballingschap gaat, voor zover het de Tweede Kamer betreft. De Eerste Kamer, hiernaast, mag wel blijven, in de Ridderzaal. Die mogen zelfs nog meer grandeur vanuit het verleden meenemen. Maar de Tweede Kamer wordt verbannen naar B67, wat in het kader van de veiligheid overigens ook een meer open ligging heeft. Daar hebben we het in het AO over gehad. Dat heeft mij gebracht tot de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note59">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note60">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note61">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note62">overwegende dat bij de vorige renovatie en ingrijpender nieuwbouw begin jaren negentig het parlementaire werk in de Tweede Kamer zonder noemenswaardige problemen doorgang kon vinden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note63">overwegende dat de voorgestelde renovatie van de Tweede Kamer minder ingrijpende werkzaamheden met zich mee zal brengen dan die van de vorige keer;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note64">overwegende dat er geen eenduidige aanwijzingen zijn dat de verhuizing naar B67 tot significant lagere kosten zal leiden, noch dat het verbinden van alle werkzaamheden op het complex op het Binnenhof zal leiden tot een kortere bouwtijd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note65">overwegende dat de ligging van B67 extra gevoeligheid met zich meebrengt qua veiligheid en bescherming van de Tweede Kamer;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note66">overwegende het feit dat het al bestede geld in B67 niet weggegooid is, aangezien deze locatie wel als overloop gebruikt kan worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note67">overwegende de herkenbaarheid van het huidige Binnenhofcomplex voor het Nederlandse parlement;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note68">spreekt uit dat het wenselijk is af te zien van de verhuizing naar B67,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note69">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note70">Deze motie is voorgesteld door het lid Van Otterloo. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note71">Zij krijgt nr. kst-34293-114</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note72">Dit was een ellenlange motie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note73">De heer Van Otterloo (50PLUS)</note>
+            <u who="#Gerrit-JanvanOtterloo" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg25">Voorzitter. Excuus dat deze motie zo lang was, maar ik wilde toch proberen een beetje volledig te zijn in dit hele lange dossier.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note74">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg26">Dank u wel. Dat is u goed gelukt, niet binnen de spreektijd, maar ja. Dank u wel. Dan geef ik nu het woord aan de heer Bisschop namens de SGP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note75">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg27">Voorzitter, dank u wel. Als je een motie indient waarin de Tweede Kamer meer op de bok gezet wordt, zoals dat in de motie van zowel de SP als de initiatiefnemer van de VVD is gedaan, dan moet je niet vreemd opkijken dat we hier in de toekomst nog regelmatig over zullen praten, ook in dit gremium. Ik denk ook dat het goed is. Het is niet een eenvoudig proces. Het is complex. Dat is al gezegd. We hebben indertijd bewust gekozen voor de optie om het totale complex met alle gebruikers gefaseerd aan te pakken. Dat is toen niet de keus geweest van de Kamer en vervolgens is het traject richting volledige uithuizing ingezet. In het besef van onze fractie is het dan nu niet reëel meer om nog te zeggen: we doen toch een stapje terug en we beginnen weer bij af. Dat is niet een geloofwaardig traject.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg28">Er zijn wel wat zorgen in dat hele traject, ook het vervolgtraject. De staatssecretaris heeft een aantal toezeggingen gedaan. Ik dank hem daarvoor. Die hebben een deel van die zorgen weggenomen, maar er is alle reden voor om dat punt van de veiligheid heel scherp te blijven volgen, zeker ook de extra veiligheidsmaatregelen die in het kader van de covidpandemie genomen moeten worden. Ook is de logistiek met betrekking tot de toegang en de catering in dat verband zeker van belang. En waar we ook nog niet helemaal gerust op zijn, is de financiële rapportage. De staatssecretaris heeft op dat punt heldere, duidelijke toezeggingen gedaan. Ik hoop dat dat inderdaad op die manier uitgevoerd wordt, want het kan niet zo zijn dat we achteraf moeten constateren dat we ons eigen budget zo royaal overschreden hebben dat je op verjaardagen niet meer met enige trots kunt vertellen dat het binnen de termijnen en het budget gelukt is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg29">Voorzitter. Ik heb de motie van zowel SP alsook de VVD, met wie we samen de motie hebben opgesteld, meegetekend. Dat betekent dat de voorzitter in ieder geval één motie minder heeft; een lichte overschrijding van de spreektijd vergeeft ze me dan wel.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg30">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note76">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg31">Dank u wel. Dan geef ik nu het woord aan mevrouw Kuiken namens de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note77">Mevrouw Kuiken (PvdA)</note>
+            <u who="#AttjeKuiken" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg32">Dank u wel, voorzitter. De verbouwing kent al een hele lange geschiedenis. Aangezien ik al een aantal jaren hier in dit huis meeloop, heb ik die hele geschiedenis helaas ook mee moeten maken. Gelijktijdig val ik in voor Lilianne Ploumen, omdat zij nu weer een andere rol heeft. Zo gaat dat soms in dit huis.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg33">Laat ik twee dingen zeggen. Het is niet altijd een fraai proces en niet altijd een mooi proces, maar het gaat wel ergens over. Het gaat over ons huis, waar wij ons werk doen en waar wij voor de komende vijf jaar ons werk moeten doen. Ten tweede gaat het ook over het aangezicht van de stad Amsterdam en over de plek waar we heel veel jongeren en kinderen ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note78">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg34">Amsterdam?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note79">Mevrouw Kuiken (PvdA)</note>
+            <u who="#AttjeKuiken" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg35">Zei ik Amsterdam? Den Haag. Dan kom ik er niet eens vandaan! Kun je nagaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note80">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg36">Misschien kunnen we daarnaartoe verhuizen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note81">Mevrouw Kuiken (PvdA)</note>
+            <u who="#AttjeKuiken" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg37">Die suggestie is weleens gedaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note82">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg38">Weet ik. Daarom zeg ik het ook.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note83">Mevrouw Kuiken (PvdA)</note>
+            <u who="#AttjeKuiken" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg39">Excuus. Mijn brein werkt af en toe iets anders en raar, maar ik woon dus in Breda, dus dat heeft er ook niks mee te maken. Terug naar het verhaal. Het is natuurlijk ook de plek waar we gewoon heel veel kinderen en jongeren ontvangen, om hun te laten zien hoe ons parlement werkt. Dus op het moment dat je verhuist, doe je dat alleen als je vol overtuiging bent dat dat verstandig is en de enige weg om te gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg40">Als er iets is waarvan ik ben geschrokken de afgelopen jaren, dan is het de informatievoorziening. Die was ronduit belabberd. Die was ronduit slecht. We hebben voortdurend stappen terug moet zetten, terwijl we wel al in een fuik zaten. Dat maakt dat ik grote twijfels heb of wij echt wel de goede besluiten hebben genomen. Er liggen voortdurend nieuwe feiten op tafel. Er is nu ook weer een nieuw rapport over de vraag of het toch gefaseerd zou kunnen. Maar het geldt ook voor de rapporten die er al zijn, ook over het onderwerp veiligheid. Dat is ook mijn vraag aan de staatssecretaris: waarom moet dat nu weer ter inzage zijn? Waarom kan dat niet openbaar worden gemaakt? Ik begrijp dat oprecht niet.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg41">Een van de belangrijkste voorwaarden die we hadden gesteld, was dat we een-op-een over kunnen. In het nieuwe B67 — ik zal er geen benamingen aan geven zoals de geachte collega van 50PLUS dat heeft gedaan — zijn er straks drie commissiezalen en niet vijf, zoals we hier wel hebben. Als corona nog heel erg lang bij ons blijft, betekent dat dus een inperking van de wijze waarop we samen onze democratie kunnen vormgeven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg42">Voorzitter. Er liggen zo meteen een aantal moties voor. Ik heb een aantal moties meegetekend. Ik neem een en ander mee terug naar mijn fractie, en op basis daarvan zullen wij tot besluitvorming overgaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg43">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note84">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg44">Dank u wel, mevrouw Kuiken. Dan geef ik nu het woord aan de heer Van der Molen namens het CDA. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note85">De heer Van der Molen (CDA)</note>
+            <u who="#HarryvanderMolen" ana="#regular topic:housi" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg45">Voorzitter. Het voelt vanochtend een beetje als het eindpunt van een discussie, omdat wij al over zo veel alternatieven hebben gesproken met wat voor ons een beetje voelt als de finish in zicht. Gaan we straks nu wel of niet die stap naar de tijdelijke huisvesting maken? Maar alle moties die voorbijkomen over de governance en wat er in de toekomst nog moet gebeuren, laten wel zien dat we nog maar aan het begin staan. Dat doet mij soms wel een beetje vrezen, want als op deze plek straks gerenoveerd en verbouwd wordt, gaan we nog zoveel tegenkomen waar we met de allerbeste bedoelingen rekening mee hadden willen houden, maar waar we toch tegen aan zullen lopen. Voor dit soort projecten geldt: als je er eenmaal over probeert te besluiten, kenmerken ze zich door het vaste voornemen om het niet uit te laten lopen, ook niet in het budget. Dat vaste voornemen moet er ook zijn. Daarom ondersteun ik namens het CDA ook van harte het voorstel van VVD en SGP om veel meer grip op de financiële kant van het verhaal te krijgen. Ik vind ook met de motie van mevrouw Beckerman dat de Kamer hier veel meer grip op moet krijgen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg46">Als u mij persoonlijk vraagt "heeft u er nou ongelofelijk veel zin in om naar B67 te gaan?", zeg ik het volgende. Ik mocht er even op bezoek komen, net als heel veel van mijn collega's. Het ziet er beneden fantastisch uit. Er is daar een soort nagebouwde plenaire zaal. Maar ja, ik zit hier in het prachtige historische Justitiegebouw. Dat inruilen voor een witte kantoortuin zie ik eigenlijk ook niet zitten. Ik hoor heel vaak zeggen: dit is ónze werkplek. Dat klopt; het is onze werkplek. Maar dit is uiteindelijk ook het huis van de burger, want we vertegenwoordigen hier de democratie. Wat voor de CDA-fractie ook meeweegt, is dat het aan de burger niet uit te leggen zou zijn dat wij op dit moment over een totaal nieuwe huisvesting beschikken, waar wij net als in dit gebouw vanwege corona met beperkingen zullen moeten gaan leven, maar er alles aan gedaan wordt om het goed te laten lopen, en we daar geen gebruik van zouden maken. Precies om die reden ondersteunen wij ook de motie die mevrouw Van Eijs van D66 heeft ingediend. We moeten toch echt met elkaar de knoop doorhakken om straks, in de zomer, over te gaan naar die plek. Dan hoop ik dat we daarna, binnen de afgesproken vijfenhalf jaar, hier ook gewoon weer met elkaar, of in ieder geval met een hele groep nieuwe Kamerleden, in een nieuw, verbouwd en gerenoveerd Binnenhof kunnen zitten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg47">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note86">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg48">Dank u wel. Dan kijk ik naar de staatssecretaris. U kunt gelijk reageren? Dat scheelt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note87">Staatssecretaris Knops</note>
+            <u who="#RaymondKnops" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg49">Dank u wel, voorzitter. Dank aan de leden voor hun inbreng. Mevrouw Beckerman zei het al in het debat, en het werd nagezegd door anderen: het zou eigenlijk heel saai moeten zijn. Tegelijkertijd — dat zeg ik de heer Bisschop na — is de motie die mevrouw Beckerman indient er eentje waarbij ze er zeker van is dat er nog vaak over gesproken zal worden. Volgens mij is dat ook prima, omdat dat ook hoort bij zo'n groot project, dat vanaf het begin heel duidelijk is neergezet als een project dat ervoor moet zorgen dat de continuïteit van het parlementaire proces, de veiligheid en de bedrijfszekerheid gewaarborgd zijn en de overlast voor de gebruiker tot een minimum wordt beperkt, en dat sober en doelmatig, voor 475 miljoen met prijspeil 2015, wordt uitgevoerd. Dat is de opdracht die er ligt. Ik denk dat het goed is dat ook de Kamer daar goed naar kijkt en dat zij dat ook controleert, zoals ze ook de afgelopen tijd heeft gedaan via de commissie voor Binnenlandse Zaken. De eerste motie, de motie op stuk nr. 110 van mevrouw Beckerman, waarin ze de regering verzoekt om de huidige taak- en rolverdeling opnieuw te bezien en in het voorjaar van 2021 voorstellen te doen voor hoe de taakverdeling zo kan worden ingericht dat de Tweede Kamer als controlerend orgaan — zo begreep ik dat zojuist — meer inzicht en grip krijgt, is een voorstel waarover ik het oordeel aan de Kamer zou willen laten. Ik heb namelijk ook in het debat aangegeven dat het van belang is om die rollen, taken en verantwoordelijkheden scherp te krijgen, ook voor het proces. Zoals de heer Van der Molen net zei, gaat dat proces eigenlijk nu pas beginnen, ook in zijn uitvoering. We gaan dit proces nog een heel aantal jaren doen. We zitten nu natuurlijk in een fase van voorontwerp. Dat wordt dadelijk allemaal concreter. En we gaan heel snel verhuizen. Dat betekent dat we goed moeten kijken naar de governance en de sturing. Ik ben bereid om daar goed naar te kijken. Ik kan het oordeel over deze motie dus aan de Kamer overlaten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg50">Dan de motie op stuk nr. 111 van de heer Middendorp en de heer Bisschop. Daarin wordt de regering verzocht om gedurende vijfenhalf jaar nauw samen te werken met alle betrokkenen — dat geldt dus voor het hele Binnenhof, voor alle partijen die daarbij betrokken zijn — en om verbeteringen aan te brengen in de bestuurlijke structuur ten behoeve van een betere aansluiting tussen besluitvorming en uitvoering en om met name de financiële informatie op een consistente en zo gedetailleerd mogelijke manier te delen met de Kamer. Ik heb in het debat aangegeven dat ik alle begrip heb voor die vraag. Ik kan het oordeel over deze motie dan ook aan de Kamer overlaten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg51">Dan de motie op stuk nr. 112 van de heer Smeulders, gesteund door mevrouw Beckerman, mevrouw Van Eijs, de heer Van der Molen, mevrouw Van der Graaf, de heer Van Otterloo en mevrouw Kuiken. Daarin wordt de regering verzocht zich er maximaal voor in te spannen dat het hele Binnenhofcomplex zo duurzaam mogelijk gerenoveerd wordt, waarbij in ieder geval HR++-glas en voorzetwanden worden toegepast. We hebben natuurlijk een taakstellend budget; dat heb ik ook in het debat aangegeven. Daar zijn ook een groot aantal duurzaamheidsmaatregelen in opgenomen. De maatregelen die u nu voorstelt, vallen echter buiten die financiële scope. Ik heb aangegeven dat ik begrip heb voor het feit dat u dit vraagt, ook gezien de voorbeeldfunctie die er is, maar dat ik dit op dit moment niet kan toezeggen, omdat dit onderdeel is van de gebruikelijke processen rondom de voorjaarsbesluitvorming, die natuurlijk door het kabinet moet plaatsvinden. Als ik de motie zo mag interpreteren dat de door u genoemde maatregelen onder de maximale inspanning vallen, dan kan ik het oordeel hierover aan de Kamer laten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg52">De motie op stuk nr. 113 van mevrouw Van Eijs is een spreekt-uitmotie. Mevrouw Van der Graaf vroeg hoe het staat met de locatie van het kinderdagverblijf. In overleg met de gebruikers zijn verschillende opties onderzocht, zoals eerder het Logement, onder andere op verzoek van de BBC, de Bouwbegeleidingscommissie. Dat voldeed echter niet aan de verwachtingen. Op verzoek van de gebruiker is daarna in juni 2020 een eerste analyse van een alternatief gemaakt, het zogenaamde Depot aan de Bleijenburg. In september is hierna het verzoek gekomen om nader onderzoek te doen naar deze locatie, omdat daar ook nog wat — laat ik het zo zeggen — uitdagingen liggen. Dat nader onderzoek — de haalbaarheidsstudie, inclusief het ontwerp — is inmiddels nagenoeg gereed. Dat zal binnenkort naar de Tweede Kamer als gebruiker gaan: ambtelijk Tweede Kamer, de BBC en dan het Presidium. Als het Presidium daar ook ja tegen zegt, is dat wat mij betreft een acceptabele oplossing.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note88">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg53">De motie op stuk nr. 113 en de motie op stuk nr. 114 zijn spreekt-uitmoties. Het is dus heel logisch dat het kabinet daar geen oordeel over geeft.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note89">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u33">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg54">Dat klopt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note90">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u34">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg55">Maar als deze beide moties niet worden aangenomen, is het dan juist dat de verhuizing alsnog gewoon doorgaat? Stel dat die moties — de motie op stuk nr. 113 en de motie op stuk nr. 114 — allebei niet worden aangenomen, wat mij overigens niet zo logisch lijkt, klopt het dan dat de verhuizing alsnog doorgaat?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note91">Staatssecretaris Knops</note>
+            <u who="#RaymondKnops" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u35">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg56">Ik heb eerder in het debat aangegeven dat alles wat indertijd, in 2015, aan afspraken is gemaakt en het hele traject dat daarna is ingezet, waarbij onder andere ook het beschikbaar en gereedmaken van B67 en ook alle daar gedane investeringen horen, ertoe geleid hebben dat dat complex nu gereed is, voor zover het de Tweede Kamer betreft. Voor de andere gebruikers zijn er andere locaties waar ze naartoe gaan. Er staat dus niets in de weg om de verhuizing door te laten gaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note92">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u36">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg57">Precies. Ik zal maar eerlijk zeggen wat het probleem is. Ik heb gewoon een klein probleem met de "overwegende" in de motie op stuk nr. 113. Dat heb ik net ook aangegeven in mijn termijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note93">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u37">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg58">Over welke motie heeft u het?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note94">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u38">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg59">Over de motie op stuk nr. 113. Als die wel of niet aangenomen wordt maakt dat verder niet uit, dus dat betekent dat het niet uitmaakt wat je hier stemt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note95">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u39">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg60">Maar het is een "spreekt uit"-motie. Dan vind ik het ook zuiver als de regering zich van commentaar onthoudt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note96">Mevrouw Beckerman (SP)</note>
+            <u who="#SandraBeckerman" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u40">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg61">Zeker, voorzitter. Het lijkt me ook absoluut onwenselijk als de regering dat niet zou doen. Maar mijn principiële punt is dus meer dat het feit dat een fractie voor- of tegenstemt uiteindelijk niet zo veel zegt over het wel of niet verhuizen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note97">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u41">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg62">Dan heeft u uw punt gemaakt. Ik stel voor dat u verdergaat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note98">Staatssecretaris Knops</note>
+            <u who="#RaymondKnops" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u42">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg63">Dan kom ik op de vraag van mevrouw Van der Graaf welke panden de Tweede Kamer tot haar beschikking heeft op het moment dat er terugverhuisd wordt, zeg maar over vijfenhalf jaar. Ik heb in een brief aan het Presidium van april jongstleden vastgelegd dat ik garandeer dat er kwalitatief en kwantitatief adequate huisvesting terug zal komen. Ik heb ook begrepen dat de Tweede Kamergebruikers hebben aangegeven dat zij het liefst in de huidige panden willen terugkomen. Dat is voor ons als Rijksvastgoedbedrijf ook het uitgangspunt. U begrijpt dat wij in de tussentijd natuurlijk een hele puzzel moeten leggen voor wat er met die panden moet gebeuren en hoe die geschikt te maken zijn. Daarbij komt het punt dat u zelf noemde, namelijk de motie-Jetten en wat die gaat betekenen voor extra ondersteuning en extra plekken. Daarover zullen we de komende tijd met de Tweede Kamer in gesprek gaan. Dat gaan we nauwkeurig uitwerken. Uiteraard kijken we ook wat er zich hier op de vierkante kilometer — eigenlijk is het nog kleiner — allemaal afspeelt en welke vastgoedposities er vrijkomen om ervoor te zorgen dat het parlementaire proces na vijfenhalf jaar, als we hier weer terugkomen, zo soepel mogelijk kan verlopen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg64">Dan kom ik op de motie-Van Otterloo op stuk nr. 114. Dat is ook een "spreekt uit"-motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note99">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u43">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg65">Ja, dat is ook een "spreekt uit"-motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note100">Staatssecretaris Knops</note>
+            <u who="#RaymondKnops" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u44">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg66">Dan is er nog een vraag van mevrouw Kuiken. Over de lange geschiedenis is al heel veel gesproken en dat is ook in dit debat gewisseld. Als ik dan niet over de motie van de heer Van Otterloo mag spreken, kan ik ieder geval wel zeggen dat hij terugging naar de jaren negentig om uit te leggen dat het toen wel kon. Maar in antwoord op de vraag van mevrouw Kuiken waarom veiligheid niet openbaar gemaakt wordt, denk ik dat we niemand hoeven uit te leggen hoe belangrijk veiligheid in deze tijd is. We willen de Kamer maximaal informeren, maar het is niet echt handig om allerlei veiligheidsrapporten openbaar te maken, omdat we juist de veiligheid van de bewoners van de complexen, of dat nu B67 is of de nieuwe Tweede Kamer, willen garanderen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg67">Voorzitter, volgens mij heb ik daarmee de vragen beantwoord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note101">De heer Van Otterloo (50PLUS)</note>
+            <u who="#Gerrit-JanvanOtterloo" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u45">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg68">Ik had nog wel een opmerking gemaakt over wat ik miste in het rapport, namelijk het feit dat er twee gebouwen tegelijkertijd beveiligd moeten worden. Deze plek moet immers niet alleen als bouwplaats verder beveiligd worden. Voor de Tweede Kamer geldt dat er hier geen werkzaamheden kunnen plaatsvinden, omdat de bouwplaats gevaar oplevert, maar blijkbaar geldt dat niet voor de Eerste Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note102">Staatssecretaris Knops</note>
+            <u who="#RaymondKnops" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u46">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg69">Ja, u heeft daar inderdaad een vraag over gesteld. Voor de Eerste Kamer geldt dat die zolang de covidsituatie dat noodzakelijk maakt — u weet dat er op dit moment grootschalige plannen zijn om met de vaccinatie aan de slag te gaan, waardoor dat een tijdelijk iets is — gebruik mag maken van de Ridderzaal, omdat die Ridderzaal ook buiten de scope is geplaatst. Dat geldt eventueel ook voor andere gebruikers van de Ridderzaal. Maar dat is een tijdelijk iets. Dat zal de werkzaamheden aan dit deel van het complex niet hinderen, tenzij dat jaren zou gaan duren, maar daar gaan we niet van uit. Dan zullen we een andere oplossing moeten bedenken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note103">De heer Van Otterloo (50PLUS)</note>
+            <u who="#Gerrit-JanvanOtterloo" ana="#regular topic:lands" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u47">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg70">Dat antwoord gaat even naast de vraag. Misschien wil de Eerste Kamer wel gebruik blijven maken van de Ridderzaal, want de senatoren die ik spreek, zijn heel tevreden over het historische erfgoed waar zij zich bevinden. Zolang dit zo is, heb je de situatie dat de Ridderzaal extra beveiligd moet worden ten opzichte van mensen die kwaadwillen met alle bouwmaterialen die hier zijn. Dat is toch hetzelfde argument als het argument dat juist gebruikt wordt om te verhuizen voor de Tweede Kamer?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note104">Staatssecretaris Knops</note>
+            <u who="#RaymondKnops" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u48">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg71">Maar de maat der dingen is niet of de senatoren daar graag zouden willen blijven, zeg ik even voor alle duidelijkheid. Ze zitten daar, omdat er in de huidige Eerste Kamer geen covidproof vergaderingen kunnen worden gehouden. Op het moment dat de vaccinaties zijn afgerond, rond de zomer, kunnen zij gewoon naar hun nieuwe locatie om daar te gaan vergaderen. Dan gaat het hele Binnenhof in ieder geval dicht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note105">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u49">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg72">Maar dat is de vraag niet, begrijp ik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note106">De heer Van Otterloo (50PLUS)</note>
+            <u who="#Gerrit-JanvanOtterloo" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u50">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg73">Nee, mijn vraag ging over de noodzaak om twee plekken te beveiligen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note107">Staatssecretaris Knops</note>
+            <u who="#RaymondKnops" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u51">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg74">Ja, dus tijdelijk zul je enigszins beperkt zijn, in de fase waarin wij beginnen met de eerste werkzaamheden hier. Dat geldt ook voor de andere delen van het Binnenhof. Maar wij gaan er dus van uit dat de Eerste Kamer tot rond de zomer gebruikmaakt van de Ridderzaal. Tot die tijd zal ook de huidige Tweede Kamer hier gewoon blijven functioneren. Als dat vanwege covidomstandigheden niet meer nodig is — en we gaan ervan uit dat dat in de zomer het geval is — gaan ook zij naar een nieuwe locatie toe.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note108">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u52">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg75">Goed. Nou, ja, meneer Van Otterloo. Het is wel een belangrijk …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note109">De heer Van Otterloo (50PLUS)</note>
+            <u who="#Gerrit-JanvanOtterloo" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u53">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg76">Het is natuurlijk heel moeilijk om in de toekomst te kijken, maar het enige wat we wel weten, is dat alle vaccinatiestrategieën er niet op mikken dat iedereen voor de zomer is gevaccineerd en dat dat dan ook helpt om het goede resultaat te bereiken. Dus ik weet ook niet hoe wij als Kamer … Daar zal ik zelf geen deel meer van uitmaken, maar ik weet niet hoe de Kamer zelf straks ook nog in het nieuwe gebouw zal …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note110">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u54">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg77">Dat gaan we allemaal meemaken, meneer Van Otterloo. Dank u wel. Daarmee zijn we ook aan het einde gekomen van dit VAO. Ik dank iedereen.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note111">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note112">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.u55">
+               <seg xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.seg78">De stemmingen zijn bij aanvang van de middagvergadering. Ik schors de vergadering tot 11.30 uur.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-01-28-tweedekamer-3.note113">De vergadering wordt van 10.55 uur tot 11.33 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

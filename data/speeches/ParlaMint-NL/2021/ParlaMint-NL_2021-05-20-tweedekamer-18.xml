@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-05-20 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-05-20 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 78, Session 18 (2021-05-20)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 78, Session 18 (2021-05-20)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="78" xml:lang="en">Meeting 78</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="18" xml:lang="en">Session 18</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-05-20">Sitting 2021-05-20</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="43">43 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="43">43 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2856">2,856 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2856">2,856 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-05-20">2021-05-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="88"/>
+               <tagUsage gi="seg" occurs="52"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="43"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-05-20">2021-05-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.head1">Dierproeven</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u1">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg1">Wij gaan in één vloeiende beweging door naar het VAO Dierproeven. Wij hebben vier sprekers van de zijde van de Kamer en de eerste is de heer Wassenberg van de fractie van de Partij voor de Dieren. Het woord is aan hem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note2">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u2">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg2">Dank, voorzitter. Bij het debat over dierproeven — dat was een half jaar geleden — vond iedereen dat het wel heel erg langzaam gaat met de afname van het proefdiergebruik. Maar dat zeggen we al jarenlang! Dat is heel erg pijnlijk. Er moet echt iets gebeuren. Systematic reviews, die onderzoekers helpen om een volledig beeld te krijgen van alle literatuur bij een onderwerp, helpen echt om dat proefdiergebruik terug te dringen en ze leveren beter onderzoek op. Dat is dus een win-winsituatie. Maar hét Nederlandse expertisecentrum op het gebied van systematic reviews wordt op dit moment ontmanteld door gebrek aan financiën, en die systematic reviews raken uit beeld. Daarom twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note6">constaterende dat uit wetenschappelijke publicaties blijkt dat 90% van alle gebruikte proefdieren niet leidt tot verder bruikbare resultaten voor de mens;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note7">constaterende dat ZonMw, de Nederlandse organisatie voor gezondheidsonderzoek en zorginnovatie, stelt dat met een systematic review, waarbij onderzoekers een volledig overzicht krijgen van alle literatuur op het terrein van hun onderwerp, vooraf kan worden geïnventariseerd wat er al is gedaan en wat het beste model is voor een bepaald onderzoek;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note8">overwegende dat het consequent en systematisch toepassen van systematic reviews betere resultaten voor de patiënt oplevert, betere medicijnen en minder gebruik van proefdieren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note9">constaterende dat een vooraf uitgevoerde systematic review desondanks nog steeds geen voorwaarde is voor het mogen uitvoeren van een dierproef;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note10">verzoekt de regering om een vooraf uitgevoerde systematic review een voorwaarde te laten zijn voor het mogen uitvoeren van een dierproef,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note12">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note13">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note14">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note15">constaterende dat het Nederlands kennisplatform voor systematic reviews SYRCLE (Systematic Review Centre for Laboratory Experimentation) geen structurele overheidssubsidie krijgt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note16">overwegende dat het zeer onwenselijk is als dit kennisplatform daardoor verdwijnt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note17">overwegende dat een consequente en structurele toepassing van systematic reviews bijdraagt aan beter onderzoek, betere medicijnen, betere besteding van onderzoeksgeld en minder onnodige dierproeven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note18">overwegende dat systematic reviews uitstekend passen in het overheidsbeleid met betrekking tot de Transitie Proefdiervrije Innovatie (TPl);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note19">verzoekt de regering om met een voorstel te komen voor een structurele subsidie van SYRCLE,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note20">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note21">Deze motie is voorgesteld door het lid Wassenberg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note22">Zij krijgt nr. kst-32336-115</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note23">Deze motie is voorgesteld door het lid Wassenberg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note24">Zij krijgt nr. kst-32336-116</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note25">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u3">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg3">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note26">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u4">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg4">Dank u wel. Dan gaan we luisteren naar de heer Tjeerd de Groot van de fractie van D66. Ik heet de minister van Onderwijs, Cultuur en Wetenschap nog even welkom, die inmiddels bij ons is aangeschoven; fijn dat u bij ons bent.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note27">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u5">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg5">Dank u, voorzitter. Dit is misschien wel mijn lievelingsonderwerp, omdat het toch heel mooi is om met minder dieren tot een betere wetenschap te komen. De lijn van D66 is geweest om te zeggen: vervang dat 3V-beleid — verminderen, vervangen, verfijnen — nou door een beleid waar de onderzoeksvraag centraal staat, zodat de dierproef als gouden standaard een beetje naar de achtergrond verdwijnt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg6">Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note28">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note29">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note30">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note31">overwegende dat Nederland de ambitie heeft om voorloper te zijn op het gebied van dierproefvrije innovatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note32">overwegende dat Nederland diverse toonaangevende bedrijven kent op het gebied van dierproefvrije innovaties zoals 3D-celkweek, imaging, bio-informatica, artificial intelligence, labs-on-a-chip, organoïden en toxiciteitstesten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note33">constaterende dat deze ontwikkelaars tegen knelpunten aanlopen, waaronder op het gebied van routes naar toelating en toepassing, waardoor veel van de potentie om dierproeven te verminderen onbenut blijft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note34">verzoekt de regering om in de voortzetting van het TPI-programma samen met de ministeries van EZK en VWS in kaart te brengen hoe knelpunten op de route van het lab naar praktijk kunnen worden weggenomen, en de Kamer hiervan op de hoogte te houden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note35">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note36">Deze motie is voorgesteld door de leden Tjeerd de Groot en Valstar.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note37">Zij krijgt nr. kst-32336-117</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note38">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u6">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg7">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note39">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note40">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note41">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note42">constaterende dat het programma Transitie Proefdiervrije Innovatie bijdraagt aan de Nederlandse ambitie om voorloper te zijn in proefdiervrije innovatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note43">overwegende dat ter uitvoering van de motie-De Groot wordt gewerkt aan een opvolger van het 3V-beleid en het TPI hier een centrale rol in speelt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note44">overwegende dat de TPl-partners in beeld hebben op welke gebieden nog meer aan proefdiervrij onderzoek moet worden gedaan om de transitie naar proefdiervrij te versnellen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note45">verzoekt de regering om een vervolg te geven aan de regie op het partnerprogramma TPI,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note46">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note47">Deze motie is voorgesteld door de leden Tjeerd de Groot en Valstar.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note48">Zij krijgt nr. kst-32336-118</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note49">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u7">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg8">Misschien moet ik de motie-De Groot nog eventjes van een nummer voorzien, voordat ik haar inlever?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note50">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u8">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg9">Nee, dat doen wij voor u. Ja, de service kent bij ons geen grenzen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note51">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u9">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg10">Dat is ongelofelijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note52">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u10">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg11">Meestal doen we dat ook nog op volgorde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note53">De heer Tjeerd de Groot (D66)</note>
+            <u who="#TjeerddeGroot" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u11">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg12">De service van de griffie kent geen grenzen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note54">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u12">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg13">Het is waanzinnig. Als u even naar loket twee komt en de motie hier komt inleveren, dan komt het allemaal goed. Dan geef ik graag het woord aan de heer Thijssen van de fractie van de Partij van de Arbeid, die ik net nog zag. Maar als hij dan het woord moet voeren, is hij ineens verdwenen. Hij zat hier toch 30 seconden geleden nog? Hier komt zijn moeder.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note55">Hilariteit</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note56">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u13">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg14">Ik zou zeggen: zuster op links.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note57">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u14">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg15">Zuster Klivia.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note58">Mevrouw Bromet (GroenLinks)</note>
+            <u who="#LauraBromet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u15">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg16">De heer Thijssen heeft een andere afspraak, dus hij komt niet meer. Ik denk dat het een foutje is dat hij op de lijst staat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note59">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u16">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg17">O, hij is verdwenen inmiddels? Dat kan. Fijn dat u het allemaal even regelt. Krijgt u daar ook geld voor of doet u dat helemaal pro Deo? Mevrouw Van der Plas, het woord is aan u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note60">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u17">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg18">Dank u wel, voorzitter. Ik vind het een heel erg moeilijk onderwerp. Ik heb geen motie, maar ik wil er wel wat over zeggen. Ik vind het echt een heel moeilijk onderwerp, want als ik thuiskom en onze Mechelse herder springt tegen mij op en begint te janken, niet van verdriet hoor, maar van blijdschap, dan denk ik: ja, dat raakt je dan wel, want het is wel je huisdier. Maar ja, wat is dan het nut van dierproeven? Ik heb begrepen dat het nut van dierproeven verschilt van ziekte tot ziekte. Voor de ontwikkeling van antibiotica, vaccins, middelen tegen ziektes als aids en hepatitis C zijn dierproeven goede voorspellers gebleken, maar bij alzheimer of ALS leidt soms maar 10% van de succesvolle dierproeven tot een verbetering bij de mens. Dat schuurt natuurlijk heel erg. Zijn dierproeven dan nutteloos? Ik heb begrepen van neurobioloog Liesbeth Aerts van de Katholieke Universiteit Leuven dat slechts een minderheid van de proefdieren wordt gebruikt om potentiële nieuwe medicijnen te testen. Dat wisselend succes wordt geboekt, is dan geen reden om alle dierproeven af te serveren.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg19">De meeste dierproeven gebeuren bij fundamenteel onderzoek, onder meer om onderliggende mechanismen achter ziektes te begrijpen. Voor 30 baanbrekende medicijnen zat 30 jaar tussen de start van het onderzoek en het op de markt brengen van de medicijnen. Dan kun je zeggen dat dat heel lang is, maar het zal morgen maar net het medicijn zijn tegen de kanker waar je moeder of een van je kinderen aan lijdt. Fundamenteel onderzoek blijft dus nodig, liefst, ook wat ons betreft, zonder dierproeven, maar soms met dierproeven. Of er een verbod komt of niet? Er zal misschien uiteindelijk wel een keer een discussie over komen. Wij zijn daar niet voor, zeker niet als het niet op Europees niveau wordt geregeld. BBB is ervoor dat het hier gecontroleerd gebeurt, zodat we gewoon weten wat er gebeurt en waar we mee bezig zijn, en dat niet gebeurt wat er bijvoorbeeld bij de nertsenfokkerij is gebeurd. Of je nou voor of tegen bont bent, dat verplaatst zich wel naar Oekraïne of China en dan hebben we er geen zicht meer op.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note61">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u18">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg20">U bent door uw tijd heen, hè?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note62">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u19">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg21">Ja. Ik wil afsluiten met een vraag aan de minister. Ik was eigenlijk benieuwd of de minister een beeld heeft van de stand van zaken in Europa op het gebied van proefdier en proefdiervrij en of zij een beeld heeft van wat er gebeurt als wij het hier niet meer doen, in welke landen het terecht zou komen en hoe het er in die landen aan toegaat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note63">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u20">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg22">Dank u wel. Mevrouw Van der Plas was meteen de laatste spreker van de zijde van de Kamer in deze termijn. Kunnen de beide bewindspersonen gelijk antwoord geven? Ja, hè? Even uit de losse pols. De moties? Oké, ik schors voor een klein minuutje.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note64">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note65">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u21">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg23">Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note66">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u22">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg24">Dank u wel, voorzitter. Ik kom eerst op de motie van de Partij voor de Dieren op stuk nr. 115, over de systematic reviews. De Centrale Commissie Dierproeven toetst als er een vergunning wordt aangevraagd of er ook al gekeken is naar ander literatuuronderzoek. Dus dat wordt ook meegenomen in de beoordeling van de aanvraag. Ik heb begrepen dat systematic review een van de manieren is om te kijken of er al andere onderzoeken hebben plaatsgevonden, en dat er meer methoden zijn om dat te toetsen. Het verschilt een beetje welke methode je het beste kunt toepassen. Deze motie vraagt eigenlijk om één methode centraal te stellen. Dat zou ik niet willen doen, want dan mis je misschien andere methodes die ook kansrijk zijn. En er wordt bovendien dus bij de aanvraag ook al gekeken door de Centrale Commissie Dierproeven of er al literatuuronderzoek is betrokken in de aanvraag, dus voordat een onderzoeker met dierproeven aan de gang gaat. Want als er in de literatuur al wat informatie beschikbaar is, dan moet je die er eerst bij betrekken. Ik zou dus deze motie willen ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note67">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u23">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg25">Dat klopt. Maar op dit moment wordt er oppervlakkig gekeken. En dat kan niet voorkomen dat 90% van de geslaagde dierproeven uiteindelijk geen enkel voordeel oplevert voor de mens. Als je die systematic reviews gaat toepassen, wordt het veel structureler. Het duurt ook langer. Dat wil zeggen: je moet langer mikken, maar je schiet veel vaker raak. Dus stel dat je met een langere voorbereiding dadelijk niet bij 10% van de proeven succes hebt, maar naar 40%, 50%, 60% gaat, dan zou ik toch zeggen: zorg dat je die systematic reviews standaard maakt. Nu gebeurt dat niet. De toetsing die nu plaatsvindt, vindt al sinds 1977 plaats, maar levert steeds minder op omdat ze oppervlakkig is. Daarom zeg ik: toets nou goed. Daarvoor zijn die systematic reviews nodig. Daarom mijn dringende advies: zorg ervoor dat die systematic reviews standaard worden. Nu zijn ze dat niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note68">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u24">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg26">Zoals ik al zei: systematic review is een van de manieren. Ik zou niet één manier tot de enige norm willen verheffen, want dan mis je ook dingen. Ik zeg ter informatie nog even dat ik gisteren een gesprek met een aantal deskundigen had over dierproeven. Daar werd gezegd: "Als iets mislukt, zou je dat ook gelijk moeten meenemen. Het is ook informatie als je een proef doet en er niets uitkomt." Men zei: "Je moet ervoor zorgen dat dat soort informatie veel vaker ook wordt gepubliceerd. Je moet het dus ook veel meer duidelijk gaan maken als iets géén effect blijkt te hebben, zodat andere mensen weten dat ze dat onderzoek niet nog een keer hoeven te gaan doen." Ik denk dus dat deze discussie juist veel breder aangevlogen moet worden, ook in de wetenschap, maar dat weet collega Van Engelshoven veel beter. Je moet ervoor zorgen dat ook als er iets niet lukt, erover gepubliceerd wordt, want dat is ook informatie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note69">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u25">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg27">Ik dank de minister voor dit antwoord. Ik had maar tijd voor het indienen van twee moties. Als ik meer tijd had gehad, had ik hierover een derde motie ingediend. Ik vind inderdaad ook dat er ook over mislukte experimenten moet worden gepubliceerd. Ook van dingen die niet goed gaan, wordt heel veel geleerd. Maar dat laat onverlet dat die systematic reviews echt een veel te belangrijke voorbereiding zijn om die niet standaard in te stellen. Je kunt dan zeggen dat er ook nog allerlei andere manieren zijn. Dat is prima, maar begin hiermee, want met systematic reviews kun je proefdiergebruik echt verminderen. Anders staan we volgend jaar, over twee jaar en over drie jaar hier weer met hetzelfde verhaal, net als de afgelopen tien jaar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note70">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u26">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg28">Oké. Voorzitter, ik heb mijn appreciatie gegeven: ik ontraad deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note71">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u27">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg29">Ja. De tweede motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note72">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u28">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg30">Die motie, op stuk nr. 116, is voor minister Van Engelshoven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg31">De motie op stuk nr. 117 kan ik oordeel Kamer geven. Zij hangt een beetje samen met de motie op stuk nr. 118. Eigenlijk had de heer De Groot ze in een andere volgorde moeten indienen, want hij vraagt eerst of het programma TPI doorgezet kan worden. In de afgelopen jaren hebben mensen met veel plezier aan het TPI-programma gewerkt. Ik denk dat dat programma echt een toevoeging is en dat we juist ook daar steeds meer waardevolle inzichten gaan geven. Wat mij betreft zou dat programma dus ook door moeten lopen. Gezien vanuit mijn perspectief zou ik de motie dus oordeel Kamer geven. Het is uiteindelijk altijd aan een nieuw kabinet om die keuzes te maken, maar als ík in het kabinet zou zitten, dan zou ik het programma doorzetten. Dus de motie op stuk nr. 118 geef ik al oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg32">Dan ga ik even terug naar de motie op stuk nr. 117. Omdat ik vind dat het programma moet doorlopen, kan ik ook zeggen dat de motie op stuk nr. 117 oordeel Kamer zou moeten krijgen. Het is een beetje ingewikkeld, voorzitter, maar ik hoop dat u het snapt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note73">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u29">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg33">Ik doe niet m'n best om het te snappen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note74">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u30">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg34">Nee, dat begrijp ik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note75">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u31">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg35">Ik vertel nog even dat de heer De Groot in de motie op stuk nr. 118 aan zichzelf refereert. Dat doen wij politici graag. De motie-De Groot die in de motie op stuk nr. 118 wordt genoemd, is de motie 22336, nr. 101. Dat hebben we even opgezocht voor hem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note76">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u32">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg36">Heel goed. De motie op stuk nr. 117 én de motie op stuk nr 118 krijgen dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg37">Er is mij nog gevraagd hoe het zit met het EU-beleid ten aanzien van proefdieren en proefdiervrije ambities. Dat is Europees beleid. Ook in andere landen is de ambitie om het aantal proefdieren naar beneden te krijgen. Op het moment dat wij bij wijze van spreken geen proefdieren meer zouden doen — daar zijn we nog lang niet, helaas — moeten die zaken ook in al die andere EU-landen afgebouwd worden. Dat is echt Europees afgesproken. Buiten Europa gelden weer andere regels, maar binnen Europa hebben we hetzelfde streven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg38">Dan is er nog één motie voor collega Van Engelshoven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note77">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u33">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg39">Dan gaan we daar nu naar luisteren. Het woord is aan haar, maar we moeten even de boel ontsmetten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg40">De kust is veilig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note78">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:techn" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u34">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg41">Voorzitter, dank u wel. Misschien nog in aanvulling op hetgeen mevrouw Schouten tegen meneer Wassenberg zei over het leren van mislukte dierproeven. Ja, dat is heel belangrijk, ook vanuit de wetenschap. Een van de doelstellingen die wij hebben met het beleid van open science is juist dat dat soort informatie publiek en voor alle wetenschappers toegankelijk wordt. Daar kunnen we heel veel van leren.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg42">Dan de motie op stuk nr. 116 over de structurele subsidie van SYRCLE. SYRCLE was onderdeel van het Radboudumc. Radboudumc heeft dit jaar inderdaad besloten om SYRCLE niet voort te zetten omdat het niet kostendekkend was. Dat besluit valt binnen de autonomie van de besluitvorming van het Radboudumc. Er lopen op dit moment nog op diverse fronten gesprekken om SYRCLE en de expertise ervan over systematic reviews structureel te borgen. Wij volgen nauwgezet wat daaruit komt. Daarnaast onderzoekt ZonMw op dit moment in hoeverre die systematic reviews heel breed kunnen worden ingezet voor dierproeven. Die resultaten komen eind 2021. Daarnaast heeft ZonMw op dit moment al een call waarbij men aanvragen kan doen om een systematic review te krijgen. Daar is de expertise van SYRCLE ook bij betrokken. Dus als je op dit moment zo'n systematic review wil, dan kan dat via die call van ZonMw.</seg>
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg43">Dus er spelen nog een aantal ontwikkelingen. Ik vind het nu te vroeg om daarop vooruit te lopen. Ik zou nu ook niet de middelen hebben voor structurele financiering. Er komt voor de zomer nog een brief over onder andere TPI. Daarin zouden wij nader in willen gaan op de ontwikkelingen bij SYRCLE. Dus ik zou de heer Wassenberg willen vragen om de motie tot dat moment aan te houden. Dan weten wij wat de mogelijke uitkomst is van de gesprekken over de borging van de expertise van SYRCLE. Als hij de motie nu in stemming wil brengen, dan moet ik haar ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note79">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:techn" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u35">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg44">Het vervelende is dat de minister zegt dat het niet kostendekkend was, maar het huishoudboekje is voor de overheid minder belangrijk. We moeten het proefdiergebruik terugdringen. Dan kun je niet zeggen: kost het evenveel als het oplevert? Dit is een heel belangrijk doel voor de overheid. Uiteindelijk help je daar ook de wetenschap mee. Dan ga je niet kijken of je €10 overhoudt of dat je er €10 bij inschiet. Het is gewoon te belangrijk. De universiteit van Nijmegen zegt: wij kunnen dit niet langer financieren; wij zijn maar een van de vele universiteiten. Maar het proefdierbeleid is van de rijksoverheid, van de regering. Daarom vind ik dat de regering dat toe moet moet zeggen. SYRCLE bloedt nou langzaam dood. De stekker is eruit getrokken. Het is een kwestie van tijd. Dus als ik haar nu aanhoud tot de zomer, dan is er dadelijk helemaal niets van over. We zien de expertise weglekken. Dan is mijn pleidooi: zorg dat het nu in elk geval voorlopig overeind blijft en dat er dadelijk structurele financiering kan komen. Het is dadelijk te laat! Als we tot de zomer wachten, is SYRCLE dood.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note80">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u36">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg45">Het Radboudumc heeft het besluit al genomen. De betrokken medewerkers zijn daar overigens nog steeds werkzaam en hun expertise wordt nu ook via de route van ZonMw ingezet. U vraagt in uw motie niet om een oplossing tot de zomer, maar u vraagt om een structurele oplossing. Die heb ik op dit moment niet. Overigens lopen er op dit moment nog gesprekken, juist over wat u vraagt: hoe borgen we de expertise en hoe zorgen we ervoor dat die kennis via ZonMw op een meer structurele manier betrokken kan worden bij het beleid rondom dierproeven? Op die gesprekken wil ik niet vooruitlopen, dus ik zeg: hou die motie nou even aan, tot we weten hoe die gesprekken lopen. In het najaar komt er een breder beeld vanuit ZonMw. Maar de expertise gaat op dit moment zeker niet verloren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note81">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u37">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg46">Maar ik stel vast dat de motie niet wordt aangehouden, dus dan hoor ik graag een oordeel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note82">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u38">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg47">Dan wordt de motie op stuk nr. 116 ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note83">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u39">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg48">Dan wordt ze ontraden. Meneer Wassenberg, heel kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note84">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u40">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg49">Ik hou niet van achterkamertjesoverleg, dus daarom ga ik even in het zicht van de camera's een dealtje proberen te sluiten. Ik snap inderdaad dat er nu geen structurele financiering is, maar als de minister nou zegt "tot aan de zomer kunnen wij ervoor zorgen dat we SYRCLE nog overeind houden", dan kan ik de motie tot dan aanhouden en kunnen we dan even kijken. Maar dan hebben we in elk geval die paar maanden waarin we die knowhow, die kennis, niet verliezen. Daar ben ik nu zo bang voor. Dus als de minister zegt "tot de zomer is het gefinancierd", dan houd ik de motie aan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note85">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:labor" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u41">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg50">Sterker, wat ik u probeer te vertellen is dat die expertise tot de zomer gewoon geborgd is via de calls van ZonMw en via de medewerkers die eerder bij SYRCLE werkten. Die expertise wordt ingezet. Die gaat helemaal niet verloren. Er worden nu gesprekken gevoerd over de borging daarvan. Dus er zijn op dit moment geen extra middelen van OCW nodig om die expertise te borgen. Het gebeurt op dit moment en we zijn aan het kijken hoe dat structureel gaat gebeuren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note86">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u42">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg51">Dank u wel. Tot zover dit debat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note87">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.note88">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.u43">
+               <seg xml:id="ParlaMint-NL_2021-05-20-tweedekamer-18.seg52">Dinsdag stemmen wij over de moties. Dank aan de beide ministers voor hun aanwezigheid.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

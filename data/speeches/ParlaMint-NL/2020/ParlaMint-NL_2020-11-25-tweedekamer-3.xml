@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2020-11-25 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-11-25 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 29, Session 3 (2020-11-25)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 29, Session 3 (2020-11-25)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="29" xml:lang="en">Meeting 29</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="3" xml:lang="en">Session 3</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2020-11-25">Sitting 2020-11-25</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="51">51 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="51">51 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3930">3,930 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3930">3,930 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2020-11-25">2020-11-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="142"/>
+               <tagUsage gi="seg" occurs="64"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="51"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-11-25">2020-11-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.head1">Onderwijs en corona VI, mbo en h.o., plus stages</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg1">Aan de orde is het VAO Onderwijs en corona VI, mbo en h.o., en stages. Het algemeen overleg vond plaats op 7 oktober.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg2">Van harte welkom aan de minister van Onderwijs, Cultuur en Wetenschap.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg3">Dan is nu het woord aan de Kamer. Als eerste is het woord aan de heer Futselaar van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note2">De heer Futselaar (SP)</note>
+            <u who="#FrankFutselaar" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg4">Dank u, voorzitter. De eerste cijfers over studievertraging door corona zijn binnen. De eerste cijfers zijn wat dat betreft beter dan verwacht. Dat is mooi, maar ik maak me nog steeds zorgen, omdat in sommige gevallen sprake is van uitstel en omdat bepaalde vakken naar voren zijn gehaald of naar achteren zijn verplaatst, en ik vrees dat we daar nog een omgekeerde boeggolf van gaan zien. Ik wil de minister dus vragen om ons wel op de hoogte te blijven houden van de meest actuele cijfers die zij heeft.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg5">Voorzitter, twee moties. De eerste betreft het bindend studieadvies van universiteiten. Zij hebben besloten om dit komend jaar toch toe te passen, maar hogescholen hebben dat niet gedaan. Dat vinden wij onwenselijk. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note6">constaterende dat hogescholen hebben besloten dat het bindend studieadvies voor collegejaar 2020/2021 wordt geschrapt en dat universiteiten het bindend studieadvies zullen handhaven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note7">overwegende dat vanwege de coronacrisis studenten mogelijk studievertraging oplopen en het niet eerlijk is dat studenten aan universiteiten in deze moeilijke omstandigheden wel een bindend studieadvies krijgen en studenten aan hogescholen niet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note8">verzoekt de minister een zwaar beroep te doen op de universiteiten om het bindend studieadvies te schrappen voor collegejaar 2020/2021,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note10">Deze motie is voorgesteld door het lid Futselaar. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note11">Zij krijgt nr. kst-35570-VIII-114</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note12">De heer Futselaar (SP)</note>
+            <u who="#FrankFutselaar" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg6">Voorzitter. Dit is een zwaar beroep, want zolang in de wet staat dat universiteiten een bindend studieadvies kunnen toepassen, kunnen ze dat en kunnen wij daar niet direct iets aan doen. Dat is een goede reden om dat op termijn te schrappen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note13">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note14">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note15">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note16">constaterende dat een aantal hogescholen en universiteiten gebruikmaakt van online proctoring-software bij het afnemen van tentamens en dat dit in sommige gevallen ernstig mis is gegaan, met verloren tentamens en ingetrokken diploma's als gevolg;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note17">overwegende dat online proctoring de privacy van studenten schendt en hogescholen en universiteiten dit middel enkel moeten kunnen inzetten als er echt geen andere alternatieve toetsingsvorm gevonden kan worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note18">verzoekt het kabinet om in gesprek te gaan met de Vereniging Hogescholen en de VSNU om online proctoring af te schalen en erop toe te zien dat online proctoring echt alleen gebruikt kan worden als er geen enkele alternatieve toetsingsvorm mogelijk is, conform de aanbevelingen van de Autoriteit Persoonsgegevens,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note19">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note20">Deze motie is voorgesteld door het lid Futselaar. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note21">Zij krijgt nr. kst-35570-VIII-115</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note22">Er is nog een vraag van de heer Van den Berge van GroenLinks.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note23">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg7">Een korte vraag, voorzitter, over de eerste motie van collega Futselaar. Volgens mij een sympathieke motie. Als ik goed heb geluisterd, hoorde ik het mbo daarin niet genoemd worden. Ik vraag mij af of het een bewuste keuze is van de SP om niet ook naar het BSA, het bindend studieadvies, in het mbo te kijken, of het een omissie is of dat de problemen in het universitair onderwijs groter zijn. Kortom, volgens mij is mijn vraag helder: waarom niet ook in het mbo naar dat BSA kijken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note24">De heer Futselaar (SP)</note>
+            <u who="#FrankFutselaar" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg8">Hier wreekt zich dat ik vooral onderwijswoordvoerder ben — daar wil ik heel eerlijk over zijn — en dat wij binnen de Wet op het hoger onderwijs over het algemeen hogescholen en universiteiten gelijk behandelen. Als daarbij een ongelijkheid in een afsprakenkader terechtkomt, dan ben ik daar heel gevoelig voor. Ik ben het met de heer Van den Berge eens dat een bindend studieadvies sowieso overal onwenselijk is, maar ik zag deze ongelijkheid staan en ik dacht: daar ga ik eens lekker een motie tegenaan gooien.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note25">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg9">Dank u wel, meneer Futselaar. Dan is het woord aan de heer Van Meenen, die zal spreken namens D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note26">De heer Van Meenen (D66)</note>
+            <u who="#PaulvanMeenen" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg10">Voorzitter. De omissie van de SP ga ik goedmaken met de volgende motie. Zo helpen we elkaar een beetje.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note30">constaterende dat het onderwijs en de studieomgeving vanwege de coronacrisis anders zijn opgezet en studeren daardoor veel meer zelfredzaamheid van studenten vraagt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note31">overwegende dat sommige studenten in deze buitengewone omstandigheden niet goed tot hun recht komen terwijl zij normaliter wel geschikt zijn voor de opleiding;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note32">overwegende dat sommige studenten uit zorg voor de gezondheid van hun ouders of andere huisgenoten juist aan fysiek onderwijs of tentaminering niet volledig kunnen deelnemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note33">overwegende dat mbo-instellingen en universiteiten — in tegenstelling tot hogescholen — vasthouden aan het volledig en zonder aanpassingen in de normen toepassen van het bindend studieadvies voor eerstejaarsstudenten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note34">overwegende dat in het studiejaar 2019/2020 vrijwel alle universiteiten en mbo-instellingen wél het BSA hebben uitgesteld vanwege bijzondere omstandigheden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note35">spreekt de oproep aan universiteiten en mbo-instellingen uit om in dit door corona getekende studiejaar het BSA niet onverkort toe te passen, maar te komen tot een aangepaste norm die recht doet aan de buitengewone omstandigheden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note36">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note37">Deze motie is voorgesteld door de leden Van Meenen en Westerveld. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note38">Zij krijgt nr. kst-35570-VIII-116</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note39">Dank u wel. Zodra het spreekgestoelte is schoongemaakt, is het woord aan mevrouw Kuik, die zal spreken namens het CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note40">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg11">Dank, voorzitter. Volgens mij zijn we het hier wel met elkaar eens dat de situatie voor jongeren op dit moment belabberd is. Veel zitten ze thuis, hebben minder les en kunnen nauwelijks een stage vinden. Ze missen fysiek contact en de laatste tijd lezen we steeds vaker dat jongeren in toenemende mate sombere gevoelens hebben. Ook het sociale aspect is van belang in de studie; digitale koffie-uurtjes. In hoeverre staat dat op het netvlies en wordt dit actief gefaciliteerd? Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note41">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note42">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note43">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note44">constaterende dat steeds meer studenten vanwege de coronacrisis meer depressieve klachten hebben en eenzaamheid ervaren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note45">overwegende dat dit een zorgelijke ontwikkeling is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note46">verzoekt de regering om met de instellingen in gesprek te gaan hoe actief het sociale aspect van de opleiding gefaciliteerd kan worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note47">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note48">Deze motie is voorgesteld door de leden Kuik en Van Meenen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note49">Zij krijgt nr. kst-35570-VIII-117</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note50">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg12">Docenten en het mbo werken superhard aan allerlei initiatieven om onderwijs en praktijkervaring voor studenten zo goed mogelijk waar te maken. Tijdens het AO heb ik de minister ook gevraagd hoe studenten geholpen kunnen worden bij het eventueel switchen naar een opleiding waar veel vraag naar is op de arbeidsmarkt. Want er zijn genoeg stageplekken, maar er is een mismatch. Dat is niet helemaal op te lossen, maar bijvoorbeeld studenten in de opleiding monteur vliegonderhoud zouden een overstap kunnen maken naar eerste monteur service en onderhoud werktuigkundige installaties, want hiervoor zijn nog voldoende stages en leerbanen beschikbaar. Kan de minister hierover rapporteren, in welke mate dit gebeurt?</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg13">Tot zover, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note51">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg14">Dank u wel. Dan is het woord aan de heer Van den Berge van GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note52">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg15">Voorzitter. Ik begin met een motie over de stagetekorten, omdat die nog steeds onverminderd groot zijn.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note53">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note54">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note55">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note56">constaterende dat de stagetekorten het grootste zijn in publieke sectoren, zoals zorg en handhaving;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note57">overwegende dat de overheid haar verantwoordelijkheid moet nemen voor stagetekorten in de publieke sector;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note58">verzoekt de regering alles op alles te zetten om meer stages te creëren in de publieke sector, inclusief stages bij decentrale overheden, uitvoeringsorganisaties en zelfstandige bestuursorganen (zbo's), en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note59">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note60">Deze motie is voorgesteld door het lid Van den Berge. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note61">Zij krijgt nr. kst-35570-VIII-118</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note62">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg16">Dan heb ik ook nog een aantal vragen aan de minister. Allereerst hebben we gezien in het onderzoek dat JOB heeft gedaan onder mbo-studenten dat 40% van de studenten aangeeft dat ze als gevolg van corona extra investeringen hebben moeten doen in leermiddelen, bijvoorbeeld in laptops en iPads om digitaal onderwijs te kunnen volgen, een goede bureaustoel, een koptelefoon et cetera. Ik weet dat deze minister en ook gemeenten veel hebben gedaan om met name kwetsbare studenten daarin tegemoet te komen en te ondersteunen. Toch horen wij nog wel dat er ook studenten zijn die geen toegang hebben tot — zo zal ik maar zeggen — die ondersteuning in leermiddelen. Dus mijn vraag aan de minister is: hebben we er zicht op in hoeverre die middelen ook terechtkomen bij de studenten die ze het hardst nodig hebben? Het liefst zouden we natuurlijk alle studenten tegemoetkomen, maar in ieder geval met voorrang de kwetsbare studenten.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg17">Ten slotte de coronamonitor die we eerder van de minister hebben ontvangen. Een aantal collega's vroegen daar al naar. De minister vertelt in haar brief dat ze natuurlijk alles uit de kast gaat trekken om studievertraging te voorkomen en ook om te kijken hoe de studiedruk voor docenten verlaagd kan worden en praktijklessen doorgang kunnen vinden. We gaan er ongetwijfeld op een later moment nog uitgebreider op in, maar ik ben inderdaad wel benieuwd of de minister al iets meer kan zeggen over hoe ze ons daarover op de hoogte gaat houden en op welke termijn ze concrete resultaten op die punten verwacht, dus met name bijvoorbeeld het inzetten van andere publieke ruimten voor praktijklessen en het op die manier proberen zo veel mogelijk doorgang te laten vinden van het onderwijs.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg18">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note63">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg19">Dank u wel, meneer Van den Berge. Dan is nu het woord aan de heer Kerstens van de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note64">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg20">Dank u wel, voorzitter. Ik mag vanochtend mijn collega Kirsten van den Hul vervangen. Dat doe ik door het voorlezen van drie korte moties en een korte vraag aan het eind.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note65">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note66">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note67">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note68">constaterende dat het tekort aan stageplekken van ruim 20.000 kan leiden tot studievertraging en een tekort aan goede vakmensen in de toekomst;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note69">overwegende dat er een groot aantal goede oplossingen worden bedacht op regionaal niveau;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note70">verzoekt de regering in samenwerking met onderwijs, werkgevers en regionale actoren mogelijkheden te verkennen om het stagetekort te verkleinen, bijvoorbeeld door versnelde certificering van leerwerkbedrijven, duostages of kennisdeling,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note71">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note72">Deze motie is voorgesteld door de leden Kerstens en Van den Hul. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note73">Zij krijgt nr. kst-35570-VIII-119</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note74">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg21">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note75">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note76">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note77">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note78">overwegende dat de werkdruk in het hoger onderwijs al voor de coronacrisis hoog was en die sindsdien enkel is toegenomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note79">constaterende dat zelfs gepensioneerden worden aangetrokken om correctiewerk te verrichten, om de werkdruk enigszins te verlichten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note80">verzoekt de regering in overleg te treden met vakbonden en werkgevers om te onderzoeken hoe tot een aanpak van de hoge werkdruk en het structurele overwerk gekomen kan worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note81">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note82">Deze motie is voorgesteld door de leden Kerstens en Van den Hul. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note83">Zij krijgt nr. kst-35570-VIII-120</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note84">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg22">Dan de derde en laatste motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note85">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note86">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note87">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note88">constaterende dat het studentenwelzijn heeft te lijden onder de coronacrisis en de daaruit voortvloeiende maatregelen, die grote impact hebben op studenten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note89">overwegende dat de capaciteit van studiebegeleiding en psychologische ondersteuning onder druk staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note90">verzoekt de regering om in overleg met instellingen en studentenorganisaties te onderzoeken wat instellingen nodig hebben om daarin te voorzien,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note91">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note92">Deze motie is voorgesteld door de leden Kerstens en Van den Hul. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note93">Zij krijgt nr. kst-35570-VIII-121</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note94">Dank u wel.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note95">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg23">Dan de vraag die ik nog heb, voorzitter, in de 45 seconden die mij resten. Die ligt in het verlengde van de vraag die de heer Futselaar stelde. Eerder hebben GroenLinks, SP en de Partij van de Arbeid erop aangedrongen om de mogelijkheden te bekijken van compensatie voor studenten die vanwege de coronamaatregelen vertraging oplopen. Toen gaf de minister aan dat het eigenlijk nog veel te vroeg was om daar iets zinnigs over te zeggen. We zijn nu een stuk verder. Er zijn echt wel signalen dat die vertraging er wel degelijk is. De vraag is dus: hoe kijkt de minister daar nu naar? Is ze wellicht op dit moment bereid om daar maatregelen voor te treffen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note96">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg24">Dank u wel. Tot slot van de kant van de Kamer is het woord aan de heer Smals van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note97">De heer Smals (VVD)</note>
+            <u who="#BartSmals" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg25">Dank u wel, voorzitter. Dit VAO is destijds door de heer Futselaar aangevraagd in afwachting van het servicedocument mbo. Dat servicedocument is er inmiddels. Daar staat iets in over het rekenonderwijs. Dat zou in de tijd van de corona minder ... Hoe zal ik het zeggen? Dat hoeft niet aangeboden te worden. Dat geeft ons aanleiding voor het volgende, want wij onderschrijven dat de druk op het mbo op dit moment heel groot is, maar dat betekent niet dat we geen adequaat rekenonderwijs moeten geven. Het is een belangrijk deel van de opleiding, van elke opleiding, om studenten goed klaar te stomen voor de arbeidsmarkt. Ik wil voorkomen dat door corona studenten nog minder goed klaargestoomd worden voor die arbeidsmarkt. Vandaar deze motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note98">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note99">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note100">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note101">constaterende dat het servicedocument de diploma-eisen voor studenten die tot 1 januari 2022 diplomeren, aanpast op de keuzedelen en rekenen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note102">constaterende dat goed rekenonderwijs van groot belang is binnen mbo 2-, 3- en 4-opleidingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note103">overwegende dat rekenonderwijs bij uitstek digitaal vormgegeven kan worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note104">verzoekt de regering om het servicedocument aan te passen, waardoor rekenonderwijs onverminderd onderdeel blijft uitmaken van de diploma-eisen voor studenten die tot 1 januari 2022 diplomeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note105">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note106">Deze motie is voorgesteld door het lid Smals. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note107">Zij krijgt nr. kst-35570-VIII-122</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note108">Dank u wel.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note109">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note110">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg26">Het woord is aan de minister van Onderwijs, Cultuur en Wetenschap.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note111">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg27">Voorzitter, dank u wel. En dank aan de leden voor de ingediende moties en de gestelde vragen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg28">Voorzitter. Allereerst de opmerking van de heer Futselaar over de monitor. Wat we zien in de monitor — ik denk dat we dat eigenlijk allemaal als een meevaller zien — is dat het met de studievoortgang, het aantal behaalde studiepunten en de hoogte van de resultaten nog behoorlijk goed gaat. Maar de heer Futselaar heeft natuurlijk helemaal gelijk als hij zegt: dat gaat nu nog goed, maar voor hoelang? Want we zien ook — met name in mbo en hbo heb ik daar zorgen over — dat sommige theoretische vakken naar voren worden gehaald en dat praktijkonderwijs en eventuele stages wat naar achteren zijn geschoven. Er is nog steeds de vrees dat daar vertraging ontstaat. Daarom houden we ook goed de vinger aan de pols. Maar hij heeft daar gelijk in. We gaan daar goed op letten.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg29">De heer Futselaar heeft ook twee moties ingediend. De eerste, op stuk nr. 114, gaat over het bindend studieadvies. Ik heb u zeer onlangs het servicedocument gestuurd, dat de resultante is van het overleg dat ik met de instellingen heb gevoerd. Ik zie niet in hoe hernieuwd overleg daar nog verandering in gaat brengen. Als studenten vertraging oplopen vanwege corona, is dat altijd een reden om geen bindend studieadvies te geven. Bovendien hebben de universiteiten aangegeven dat zij voor opleidingen waarvan ze in januari eigenlijk al kunnen zeggen dat vertraging een feit zal zijn, het BSA niet zullen toepassen. Ik begrijp de bedoeling van uw motie, maar ik ga haar toch ontraden. De motie op stuk nr. 114 is dus ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg30">De motie van de heer Van Meenen gaat ook over het BSA. Ik ben even kwijt welk nummer die heeft. Is dat nr. 116?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note112">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg31">Ja, dat is de motie op stuk nr. 116.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note113">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg32">Dat is een spreekt-uitmotie. Daar heb ik geen oordeel over, maar het is goed dat de Kamer in dit opzicht haar opvatting luid en duidelijk laat horen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note114">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg33">Ik concludeer dat de motie op stuk nr. 114 is ontraden. Bij de motie op stuk nr. 116 heeft de minister geen opvatting. Hoe moeten we dat interpreteren?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note115">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg34">Volgens mij heeft de Kamer bij een spreekt-uitmotie meestal geen behoefte aan een oordeel van het kabinet. De Kamer is meestal mans genoeg om zelf te weten wat ze wil uitspreken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note116">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg35">Dat is de Kamer inderdaad. Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note117">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg36">Dan de motie van de heer Futselaar op stuk nr. 115 over online proctoring. De heer Futselaar zegt dat online proctoring alleen mag conform de aanbevelingen van de Autoriteit Persoonsgegevens. Dat is waar. Kijk, online proctoring is in sommige gevallen ook wel echt een uitkomst, bijvoorbeeld voor sommige studenten met beperkingen. Nou hadden studenten die daar echt bezwaar tegen hadden, altijd al recht op een alternatief, maar als u met uw motie uitspreekt dat het echt de optie is als andere dingen niet kunnen, als daarnaar gekeken is — hier moeten echt de aanbevelingen van de Autoriteit Persoonsgegevens gevolgd worden — dan ben ik dat met u eens. Deze motie krijgt dus oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note118">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg37">De motie op stuk nr. 115 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note119">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg38">Dan de motie van mevrouw Kuik over steeds meer studenten die eenzaam zijn en depressieve gevoelens hebben. Dat zien we ook terug in de monitor. Ik zie overigens dat instellingen daar al het nodige aan doen. Onlangs sprak ik met het ROC van Twente, dat kijkt hoe het door op gepaste schaal sport aan te bieden, ervoor kan zorgen dat studenten met elkaar optrekken. De Universiteit Maastricht koppelt studenten als een soort buddy's aan elkaar. Zij merken in gesprekken met studenten dat die dan 's avonds — of overdag; dat mag ook — samen een rondje door het prachtige Maastricht lopen. Dan kun je samen nog eens de stof doornemen of je kunt het hebben over het leven in den brede; dat is ook belangrijk voor de vorming van studenten. Het gebeurt dus al. Instellingen doen daar behoorlijk hun best voor. Dat gesprek blijven we met de instellingen voeren. In die zin zie ik de motie van mevrouw Kuik als ondersteuning van beleid, dus zij krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note120">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg39">De motie op stuk nr. 117 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note121">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg40">Dan de vraag van mevrouw Kuik hoe een mismatch een match wordt. Dat zien we ook in het servicedocument. Rondom stages, maar ook in de opleidingen, kijken wij maximaal hoe we stages en stagiaires aan elkaar kunnen koppelen. Mevrouw Kuik heeft er helemaal gelijk in dat er nog stages zijn waarvoor moeilijk een stagiair te vinden is en dat er stagetekorten zijn. Ik was afgelopen vrijdag online op werkbezoek bij het Summa College in de Eindhovense regio. Daar zitten de voorzitter van VNO-NCW, de wethouder uit Eindhoven en het Summa College met elkaar om de tafel. Het Summa College legt op tafel voor welke studenten men stages nodig heeft en zowel de wethouder als VNO-NCW gaan gewoon rondbellen tot ze voor zo'n student een stageplek hebben gevonden. Ja, dat kan bij een bedrijf zijn dat misschien niet de eerste gedachte was bij een bepaalde stagebehoefte, maar er wordt steeds gekeken hoe de leerdoelen van die student op een andere plek behaald kunnen worden, conform we in het servicedocument hebben beschreven. Daar wordt dus heel driftig aan gewerkt, waarbij ook het SBB de mogelijkheden verruimt als dat nodig is. Ik hoop dat we op die manier voor veel meer studenten een geschikte stageplek kunnen vinden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note122">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg41">Dat leidt tot een vraag van mevrouw Kuik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note123">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u33">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg42">Die goede voorbeelden zijn heel mooi, zeker dat aspect in de regio. Mijn vraag is hoe de Kamer daar inzicht in krijgt. Het is wel fijn als wij van de minister in een rapportage de stand van zaken krijgen van hoe dat loopt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note124">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u34">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg43">Naar aanleiding van het actieplan over stages rapporteer ik aan de Kamer over de voortgang. Verwacht niet van mij dat ik heel precieze cijfers kan geven over stages waarvoor een plek beschikbaar was en stages waarvoor de match ingewikkelder was om te maken. Wij houden over het geheel een vinger aan de pols om te weten hoe het ons lukt om voor zo veel mogelijk studenten een stage te vinden. Daar rapporteer ik de Kamer periodiek over.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg44">Dan kom ik bij de motie op stuk nr. 118 van de heer Van den Berge. Het is een discussie die wij al eerder met elkaar hebben gevoerd. De heer Van den Berge heeft natuurlijk helemaal gelijk: we hebben als publieke sector ook een taak. Ik wil hem meegeven dat er ook een hele hoop gebeurt. Afgelopen vrijdag was ik in gesprek met de wethouder van de gemeente Eindhoven. Hij zei dat die gemeente tientallen, zo niet honderden, stageplekken creëert, juist nu ook extra. Hij zegde mij toe dat hij met al zijn collega's in de regio zou gaan bellen, zodat zeker is dat zij hetzelfde doen. Op die manier moet het gaan. De motie zie ik op dat punt als een steun in de rug om die oproep extra kracht te geven, dus ik geef haar graag oordeel Kamer. We zullen bij de verdere rapportages over het actieplan rondom stages aan de Kamer rapporteren hoe het ermee staat. U moet mij daarbij wel ten goede houden dat het mij nooit gaat lukken om van alle gemeenten precies te weten hoeveel stagiaires er zijn. Volgens mij moeten we elkaar in deze tijd ook niet onnodig belasten met al dit soort taken. Zo goed als mogelijk geef ik daar inzicht in.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note125">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u35">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg45">De motie op stuk nr. 118 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note126">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u36">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg46">Dan de vraag van de heer Van den Berge over de leermiddelen. Wij proberen op verschillende manieren studenten tegemoet te komen als het gaat om het beschikbaar stellen van leermiddelen, als zij daartoe niet het geld hebben. Studenten kunnen altijd aankloppen bij de school. Scholen hebben er vaak een eigen fonds of potje voor. We hebben ook de Tijdelijke regeling voorziening leermiddelen voor deelnemers uit minimagezinnen. Uit die regeling ontvangen de mbo-instellingen 10 miljoen. Daarmee helpen zij studenten die er zelf niet in kunnen voorzien. Die middelen mogen mbo-instellingen naar eigen inzicht verdelen. Mijn beeld is dat zij hun uiterste best doen om die studenten te faciliteren die dat nodig hebben. Er zijn ook instellingen die materialen in bruikleen geven. Gemeenten hebben bijvoorbeeld via de Stichting Leergeld vaak speciale regelingen voor jongeren tot 18 jaar. In het voorjaar heeft het kabinet extra middelen beschikbaar gesteld via SIVON voor laptops, ook in het mbo. Het kan zo zijn dat studenten niet goed weten waar ze terechtkunnen. Het zijn vaak heel veel verschillende regelingen naast elkaar. Volgens mij hebben we eerder met de Kamer, en ook in het servicedocument, afgesproken dat er per instelling een soort coronapunt komt waar studenten met hun vragen terechtkunnen. Ik zal aan de instellingen vragen of ze ook daar de informatie willen bundelen voor de ondersteuning van de leermiddelen. Ik denk dat de heer Van den Berge gelijk heeft dat er een hoop mogelijk is, maar dat de informatie studenten vaak niet bereikt. Ik zeg uw Kamer toe dat ik instellingen zal vragen om die informatie te bundelen en om ervoor te zorgen dat er een loket is waar studenten terechtkunnen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg47">Dan de motie van de heer Kerstens op stuk nr. 119. Inhoudelijk vraagt die motie om de goede dingen, alleen zijn dat precies de dingen die we al in het servicedocument hebben afgesproken. Eerlijk gezegd heb ik er een beetje moeite mee dat, als wij een servicedocument naar de Kamer sturen waarin wij onze afspraken met de instellingen melden, die afspraken vervolgens copy-paste in een motie worden gezet en dat we die motie hier dan nog een keer gaan overnemen. Volgens mij is het instrument "motie" daar niet helemaal voor bedoeld. Het stagetekort verkleinen, doen we via versnelde certificering van leer-werkbedrijven, via duostages en via kennisdeling. Dat staat al in het servicedocument. Deze motie is dus echt overbodig. Ik probeer altijd moties zo ruim mogelijk te interpreteren, maar soms wordt het wel een beetje gortig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note127">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u37">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg48">Kan ik concluderen dat de motie op stuk nr. 119 wordt ontraden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note128">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u38">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg49">Ja. Dan de motie op stuk nr. 120, waarin ik word verzocht om in overleg te treden met zowel de bonden als de werkgevers om tot een aanpak te komen van de hoge werkdruk in het hoger onderwijs. Dat is een goed en terecht punt. Die werkdruk is hoog. We hebben daar zowel met de bonden als met de instellingen over gesproken en bijvoorbeeld afgesproken om eens goed te kijken naar de manier waarop we het accreditatieproces inrichten en of dat in deze tijd niet met wat minder administratieve verplichtingen kan. Maar we moeten daar echt nog verder naar kijken en verder over overleggen. Deze motie krijgt het oordeel Kamer, want dit werk is inderdaad nog niet af.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note129">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u39">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg50">De motie op stuk nr. 120 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note130">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u40">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg51">Dan de motie op stuk nr. 121, waarin ik word gevraagd om nog eens goed met instellingen en studentenorganisaties te kijken naar wat er nodig is voor een goede begeleiding van die studenten van wie het welzijn onder druk staat. Er gebeurt al het nodige, maar met uw Kamer ben ik bang dat het nog niet altijd genoeg is. Mevrouw Kuik had daar ook vragen over. Naarmate we in het hoger onderwijs langer te maken hebben met beperkingen rondom corona, zal de druk op studenten groter worden. Ik blijf dus inderdaad met hen in gesprek. Deze motie krijgt dus oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note131">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u41">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg52">De motie op stuk nr. 121 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note132">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u42">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg53">Dan de motie op stuk nr. 122 van de heer Smals, waarin wordt verzocht om aanpassing van het servicedocument. Ik ben het met de heer Smals eens dat rekenvaardigheden van belang zijn. Tegelijkertijd constateren we ook dat de werkdruk voor iedereen heel hoog is en dat alle zeilen bijgezet moeten worden om te zorgen dat studenten in staat worden gesteld om een diploma te halen. Daarom hebben we met instellingen, maar ook met studentenorganisaties, heel zorgvuldig gekeken waar we mensen, als dat nodig is, enigszins kunnen ontlasten.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg54">We weten dat keuzedelen en rekenen in het mbo ook dit studiejaar nog niet meetellen voor het behalen van het diploma, tenzij rekenen echt nodig is in je vak. Iemand die een opleiding verpleegkunde of elektrotechniek doet, moet natuurlijk altijd voldoende kunnen rekenen, want anders kun je nooit dat diploma halen. Ik zie in de praktijk dat alle instellingen hun uiterste best doen om het rekenonderwijs zo veel mogelijk doorgang te laten vinden. Maar van plekken waar het echt niet lukt, hebben we gezegd dat we in het servicedocument de ruimte willen laten om hier wat lucht te geven. Mijn beeld is dat het rekenonderwijs nagenoeg overal doorgaat. Maar als we aan de ene kant allemaal zeggen dat de werkdruk te hoog is en dat ik als minister moet kijken waar het wat minder kan, moeten we niet aan de andere kant gaan zeggen dat iets niet kan als daarvoor opties worden gegeven die zeer prudent worden toegepast. Want op die manier gaat het ons niet lukken om de werkdruk te verminderen. Deze motie ontraad ik dus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note133">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u43">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg55">De motie op stuk nr. 122 wordt ontraden. Dat leidt tot een vraag van de heer Smals.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note134">De heer Smals (VVD)</note>
+            <u who="#BartSmals" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u44">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg56">Het is inderdaad geen motie die het staand beleid bevestigt. Volgens mij wijkt dit echt af en dat is ook de bedoeling. Maar is de minister het niet met mij eens dat juist rekenonderwijs zich bij uitstek leent voor digitaal onderwijs, omdat het exact is? Daarom is het niet logisch om dit als eerste te laten vallen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note135">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u45">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg57">Nee, en daarom gebeurt dat ook niet. Het kan op veel plekken digitaal. Maar nogmaals, de werkdruk van docenten is heel hoog. Ook als je rekenonderwijs digitaal geeft, moet het ontworpen en begeleid worden. We zien dat in de praktijk iedereen zijn uiterste best doet om het door te laten gaan. Maar we zoeken ook met elkaar naar plekken waar we, als het echt niet anders kan, een beetje ruimte kunnen geven. Dat kan dan hier. Nogmaals, als het nodig is voor het vak, wordt het uiteraard gegeven. Ik ben er dus echt tegen om deze mogelijkheid om een beetje lucht te geven aan docenten, uit het servicedocument te schrappen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note136">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u46">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg58">Er is nog een onbeantwoorde vraag van de heer Kerstens. Of komt u daar nog op?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note137">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u47">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg59">Ja, daar kom ik nu op. Uit de cijfers blijkt dat het met een hoop studenten goed gaat, maar we kunnen niet uitsluiten dat een deel van de studenten later afstudeert. Ik heb in deze Kamer al een keer of vijf à zes uitgelegd dat wij op het moment dat studenten zich nog een extra keer moeten inschrijven of maanden langer moeten studeren dan ze gepland hadden, bekijken wat er aan tegemoetkoming moet komen. Maar ik heb uw Kamer ook al eerder uitgelegd dat we dat pas doen als het moment daar is. De studenten die vorig jaar hadden zullen afstuderen en bij de afronding vertraging hebben opgelopen, gebruiken nu nog de ruimte die ze tot eind januari hebben. Dan weten we ook pas in hoeverre de beschikbare financiële ruimte benut is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note138">De heer Kerstens (PvdA)</note>
+            <u who="#JohnKerstens" ana="#regular topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u48">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg60">Dit deel van het antwoord begrijp ik. De minister moet het mij maar niet euvel duiden dat ik de vorige vijf of zes keer niet aanwezig was, omdat mevrouw Van den Hul toen zelf dit debat deed. De minister houdt de vinger aan de pols en als het moment daar is, gaat ze er serieus naar kijken. Wanneer is dat moment daar? Is er een moment waarvan we nu al weten dat er weer een nieuw beeld zal zijn? Of zegt de minister: dat kan ik niet zeggen, want dat hangt ervan af wanneer de eerste signalen in de monitor terugkomen. Hebben we het bijvoorbeeld dus over het eind van het studiejaar?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note139">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u49">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg61">Dan hebben we het over het eind van het studiejaar, want dan krijgen we een beeld van hoeveel studenten er echt later gaan afstuderen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note140">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u50">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg62">Ik dank de minister.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note141">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.note142">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.u51">
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg63">Over de moties wordt aanstaande dinsdag gestemd.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-25-tweedekamer-3.seg64">Ik stel voor dat we meteen doorgaan met het volgende onderwerp.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

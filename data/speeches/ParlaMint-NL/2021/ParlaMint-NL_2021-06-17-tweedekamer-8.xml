@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-06-17 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-06-17 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 90, Session 8 (2021-06-17)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 90, Session 8 (2021-06-17)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="90" xml:lang="en">Meeting 90</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="8" xml:lang="en">Session 8</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-06-17">Sitting 2021-06-17</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="55">55 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="55">55 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2649">2,649 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2649">2,649 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-06-17">2021-06-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="140"/>
+               <tagUsage gi="seg" occurs="64"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="55"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-06-17">2021-06-17</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.head1">Raad Algemene Zaken</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg1">Aan de orde is het tweeminutendebat Raad Algemene Zaken. Hartelijk welkom aan de minister en hartelijk welkom aan mijn collega's. Wij gaan snel beginnen. Daarom geef ik het woord aan mevrouw Kamminga van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note2">Mevrouw Kamminga (VVD)</note>
+            <u who="#RoelienKamminga" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg2">Dank u wel, voorzitter. En uiteraard welkom weer aan de minister. Zoals gisteren gezegd vindt de VVD het van groot belang dat landen die willen toetreden tot de EU voldoen aan alle criteria, en dat dit niet alleen vinklijstjes zijn of een momentopname. Daarom zijn we blij met de aanscherping van de toetredingscriteria. Gelet op deze extra waarborgen en de goede stappen die Albanië heeft gezet, heeft de VVD alles overziend een positieve grondhouding met betrekking tot het starten van de intergouvernementele conferentie. Maar we moeten het echt kritisch blijven volgen. Daartoe dien ik mede namens de heer Amhaouch van het CDA de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note6">constaterende dat Albanië de afgelopen periode voortgang heeft geboekt op de door de EU gevraagde onderwerpen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note7">constaterende dat de start van de toetredingsonderhandelingen voor Albanië pas het begin is van een lang hervormingstraject;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note8">overwegende dat het van essentieel belang is dat kandidaten voor daadwerkelijke toetreding voldoen aan alle vereisten en het acquis communautaire volledig geïmplementeerd hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note9">overwegende dat structurele borging van een goed functionerende rechtsstaat voor toetreding boven iedere twijfel verheven dient te zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note10">overwegende dat mede dankzij Nederland er een aangescherpt toetredingsonderhandelingskader voor nieuwe EU-lidstaten is ingesteld, en extra eisen voorafgaand daaraan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note11">verzoekt de regering erop toe te zien dat de Commissie dit strikt monitort, en daarnaast zelf een actieve rol te spelen door onder andere Nederlandse deelname aan monitoringsmissies, en door input aan de voortgangsrapporten te leveren op basis van eigen bevindingen rond onder meer justitiële samenwerking en migratie, en de Kamer jaarlijks over deze activiteiten te informeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note12">verzoekt de regering daarnaast in geval van geen of onvoldoende vooruitgang hier dan ook de consequenties aan te verbinden zoals die in het toetredingskader voorhanden zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note13">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note14">Deze motie is voorgesteld door de leden Kamminga en Amhaouch.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note15">Zij krijgt nr. kst-21501-02-2358</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note16">Dank u wel. Mevrouw Maeijer, PVV. Aan u het woord.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note17">Mevrouw Maeijer (PVV)</note>
+            <u who="#VickyMaeijer" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg3">Dank, voorzitter. De PVV is tegen het opgeven van vetorechten, op welk gebied dan ook. Daar heb ik namens mijn fractie al meerdere moties over ingediend. Dit demissionaire kabinet is voorstander van het afschaffen van ons veto op het gebied van buitenlandbeleid, specifiek mensenrechtenschendingen en sancties. Minister Kaag zei gisteren ook nog speelruimte te zien op het gebied van civiele missies. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note18">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note19">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note20">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note21">overwegende dat het opgeven van vetorechten een nieuwe stap is in de richting van de Europese Unie als ultieme grootmacht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note22">van mening dat we pal moeten staan voor de belangen van ons land en onze nationale soevereiniteit en we vetorechten daarom moeten verdedigen en gebruiken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note23">verzoekt het kabinet zijn veto op het gebied van civiele missies niet op te geven,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note24">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note25">Deze motie is voorgesteld door het lid Maeijer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note26">Zij krijgt nr. kst-21501-02-2359</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note27">Mevrouw Maeijer (PVV)</note>
+            <u who="#VickyMaeijer" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg4">Voorzitter. Dan mijn tweede motie. In tegenstelling tot de meerderheid van de Kamer ziet de PVV helemaal niets in verdere uitbreiding van de Europese Unie. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note28">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note29">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note30">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note31">overwegende dat de onuitputtelijke expansiedrift van de Europese Unie een halt moet worden toegeroepen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note32">verzoekt het kabinet geen verdere stappen te zetten in de richting van het lidmaatschap van Albanië en Noord-Macedonië van de Europese Unie, en ervoor te zorgen dat het proces tot toetreding stopt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note33">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note34">Deze motie is voorgesteld door het lid Maeijer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note35">Zij krijgt nr. kst-21501-02-2360</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note36">Mevrouw Maeijer (PVV)</note>
+            <u who="#VickyMaeijer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg5">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note37">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg6">Dank. Mevrouw Piri, PvdA, aan u het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note38">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u7">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg7">Dank, voorzitter. In de Raad Algemene Zaken zal er ook worden gesproken over Turkije en mogelijk over het starten met de onderhandelingen over de opwaardering van de douane-unie. Mijn fractie vindt het belangrijk dat daarbij ook mensenrechten worden afgewogen. Wat dat betreft denk ik niet dat we daarmee in juni zouden moeten starten. Vandaar de motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note39">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note40">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note41">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note42">constaterende dat in de Raad wordt gesproken over modernisering van de douane-unie met Turkije;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note43">van mening dat er alleen sprake kan zijn van deze modernisering bij verbeteringen op het gebied van mensenrechten in Turkije op basis van duidelijke benchmarks;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note44">verzoekt de regering niet in te stemmen met de start van de onderhandelingen over de modernisering van de douane-unie zonder verbeteringen in de Turkse mensenrechtensituatie, en de Kamer te informeren over de benchmarks die de regering hierbij hanteert,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note45">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note46">Deze motie is voorgesteld door de leden Piri, Van der Lee, Sjoerdsma en Jasper van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note47">Zij krijgt nr. kst-21501-02-2361</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note48">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u8">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg8">Over Belarus hebben wij het gisteren uitgebreid gehad met de minister. Ik was blij om te horen dat het Europees sanctiepakket er eindelijk komt op 21 juni. Ik hoop dat dat een stevig pakket is. Ik hoorde de minister zeggen dat we ook moeten kijken hoe wij het maatschappelijk middenveld in Belarus kunnen steunen. Daarbij noemde ze zelf al de term "studiebeurzen". Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note49">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note50">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note51">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note52">constaterende dat vele jongeren in Belarus worden vervolgd of weggestuurd van scholen en universiteiten vanwege vreedzaam activisme tegen het regime van Loekasjenko;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note53">van mening dat naast sancties tegen het regime het ook van belang is om de Belarussische bevolking te steunen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note54">verzoekt de regering om minstens 50 studiebeurzen ter beschikking te stellen voor Belarussische studenten in Nederland, en in EU-verband te pleiten voor uitbreiding van het Erasmusprogramma met jongeren in Belarus,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note55">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note56">Deze motie is voorgesteld door de leden Piri en Van der Lee.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note57">Zij krijgt nr. kst-21501-02-2362</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note58">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u9">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg9">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note59">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u10">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg10">Dank u wel. Dan is nu het woord aan de heer Sjoerdsma, D66. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note60">De heer Sjoerdsma (D66)</note>
+            <u who="#SjoerdSjoerdsma" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u11">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg11">Dank u wel, voorzitter. Als termieten aan het houten fundament van een huis knagen, dan duurt het vaak heel erg lang voordat je dat merkt. Heel lang lijkt er niks aan de hand te zijn en lijkt alles goed te gaan, totdat een deel van het huis plotseling verzakt. Precies diezelfde dreiging staart onze rechtsstaat in Europa op dit moment in het gezicht. De betonrot en de antirechtstatelijke termieten van de Europese Unie zorgen ervoor dat de situatie in Hongarije en in Polen schrijnend wordt, en ook gevaarlijk voor de waarden en de belangen van de rest van de Europese lidstaten. Dan noem ik nog niet eens de lidstaten die nu copycatgedrag vertonen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg12">Voorzitter. Ik zou echt willen voorkomen dat leiders als Orbán via cohesiefondsen straks cohesiecadeautjes kunnen gaan uitdelen in aanloop naar de verkiezingen in Hongarije en in Polen op kosten van de Nederlandse belastingbetaler, om zo hun eigen herverkiezing zeker te stellen en door te gaan met diezelfde uitholling van de rechtsstaat.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note61">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note62">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note63">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note64">constaterende dat de rechtsstatelijke situatie in de Unie blijft verslechteren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note65">overwegende dat artikel 7-procedures en meerdere inbreukprocedures daar nog geen verandering in hebben kunnen bewerkstelligen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note66">overwegende dat het laatste redmiddel, het rechtsstatelijkheidsmechanisme, door de Europese Commissie niet in gebruik wordt genomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note67">verzoekt het kabinet zich aan te sluiten bij de zaak van het Europees Parlement tegen de Europese Commissie teneinde de inzet van het rechtsstaatmechanisme te activeren tegenover lidstaten die de waarden van de Unie schenden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note68">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note69">Deze motie is voorgesteld door het lid Sjoerdsma.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note70">Zij krijgt nr. kst-21501-02-2363</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note71">De heer Sjoerdsma (D66)</note>
+            <u who="#SjoerdSjoerdsma" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u12">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg13">Dat was het, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note72">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u13">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg14">Dank. Ik ben excuus verschuldigd aan de heer Van Dijk van de SP. Ik had hem voor de heer Sjoerdsma het woord moeten geven. Maar dan mag hij nu mooi afronden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note73">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u14">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg15">Ik heb credits!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note74">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u15">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg16">We gaan zien of die inruilbaar zijn, linksom of rechtsom. De heer Van Dijk, SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note75">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u16">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg17">Voorzitter. Deze week is een mooie motie van de heer Sjoerdsma en ondergetekende aangenomen, die verdragswijzigingen niet bij voorbaat uitsluit bij de Conferentie over de toekomst van Europa. De heer Sjoerdsma heeft daar ook over getwitterd. Daar zijn heel veel mensen heel verontwaardigd over. Eurocritici zeggen: kijk, dit is de volgende stap naar een Europese superstaat. Maar dan had ik die motie natuurlijk nooit medeondertekend. Het kan een wens zijn van bepaalde mensen — ik zal geen namen noemen — maar het was niet mijn wens. Als je de Europese Unie wil hervormen, welke kant op dan ook, dan zal je verdragen moeten wijzigen. Daarin is iedereen vrij, natuurlijk. Daarom heb ik ook een motie die daarop aansluit. Als je bijvoorbeeld dat verhuiscircus tussen Brussel en Straatsburg wil stoppen, moet je ook het Verdrag wijzigen. Daar heb ik een motie voor.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note76">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note77">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note78">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note79">overwegende dat de motie-Sjoerdsma/Amhaouch/Jasper van Dijk (35663, nr. 9) bepaalt dat verdragswijzigingen bij de Conferentie over de Toekomst van Europa niet bij voorbaat worden uitgesloten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note80">constaterende dat een verdragswijziging nodig is voor het beëindigen van het maandelijkse verhuiscircus tussen Brussel en Straatsburg;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note81">verzoekt de regering zich bij de Conferentie over de Toekomst van Europa maximaal in te spannen om een einde te maken aan het verhuiscircus tussen Brussel en Straatsburg,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note82">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note83">Deze motie is voorgesteld door het lid Jasper van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note84">Zij krijgt nr. kst-21501-02-2364</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note85">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u17">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg18">Ten overvloede zeg ik dat ik weet dat dit vele malen is voorgesteld door collega's, medestanders, mensen die niet begrijpen hoe het mogelijk is dat dit circus plaatsvindt. Maar het is natuurlijk: nieuwe ronde, nieuwe kansen. We hebben nu deze conferentie. Ik wil de minister een steuntje in de rug geven als zij met goede moed naar die conferentie toe gaat en dit dan ook op de agenda kan zetten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg19">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note86">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u18">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg20">Ik zie de heer Sjoerdsma inmiddels helemaal achterin de zaal zitten. Dan is nu nog het woord aan de heer Dassen, Volt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note87">De heer Dassen (Volt)</note>
+            <u who="#LaurensDassen" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u19">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg21">Dank, voorzitter. Naar aanleiding van het gesprek gisteren, ook over het Europees Herstelfonds, de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note88">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note89">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note90">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note91">constaterende dat Nederland nog geen conceptplan heeft ingediend bij de Europese Commissie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note92">constaterende dat er hervormingen tegenover dit geld staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note93">constaterende dat we alvast kunnen beginnen met het in kaart brengen van de mogelijke uitgavenposten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note94">overwegende dat we nu aan de slag moeten met het herstel uit de coronacrisis en dat een deel van deze fondsen daarvoor volgend jaar al beschikbaar zijn, alvorens we de deadline van 31 december voor de inzending daarvoor halen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note95">overwegende dat de Commissie nog maximaal twee maanden nodig heeft om de plannen daarvoor goed te keuren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note96">verzoekt de regering alvast te beginnen met het in kaart brengen van de mogelijke uitgavenposten, en de Kamer hierover tijdig te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note97">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note98">Deze motie is voorgesteld door de leden Dassen, Van der Lee en Piri.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note99">Zij krijgt nr. kst-21501-02-2365</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note100">Dank u wel aan de heer Dassen. Ik schors voor enkele ogenblikken en dan gaan we luisteren naar de beantwoording door de minister.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note101">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note102">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u20">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg22">Ik geef de minister het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note103">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u21">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg23">Dank u wel. Ik zal eerst beginnen met een aantal moties dat is ingediend. Er waren nog een of twee vragen. Als de leden er nog behoefte aan hebben dat ik daarop terugkom, doe ik dat na de moties.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg24">De motie op stuk nr. 2358 geef ik graag oordeel Kamer. Dit is ook zoals het kabinet handelt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg25">De motie op stuk nr. 2359 ontraad ik, want we hebben gisteravond in het commissiedebat gesproken over het feit dat we in discussie willen onderzoeken of er héle beperkte mogelijkheden zijn om bijvoorbeeld een onderdeel van een civiele missie ook te steunen en dat we daar dus het veto op zouden willen laten varen, naast sancties en mensenrechten. Maar in bredere zin is er sowieso nog totaal geen steun voor het laten gaan van het veto binnen het gemeenschappelijk en buitenlands veiligheidsbeleid. Dus ik ontraad deze motie om een aantal redenen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg26">De motie op stuk nr. 2360 ontraad ik ook. Ik denk dat het voor zich spreekt. Het kabinet heeft alle kaders ingediend en overlegt regelmatig met deze Kamer. Albanië en Noord-Macedonië komen te zijner tijd aan de orde via de IGC.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg27">In de motie op stuk nr. 2361 verzoeken de indieners de regering niet in te stemmen met de start van onderhandelingen. Dat is eigenlijk wel problematisch, want er zijn altijd gesprekken. Wij proberen ook in de gesprekken juist aan te dringen op veranderingen. Rechtsstaat en mensenrechten zijn een integraal onderdeel van de relatie EU-Turkije. Via allerlei sporen proberen we natuurlijk positieve stappen te laten zetten. U vraagt dus nu al aan de start zeker te zijn dat alles op orde is. Dat is eigenlijk een beetje het omgekeerde van een regulier onderhandelingsproces. Op die basis zou ik de motie moeten ontraden. Maar ik begrijp wel de intentie en ik denk dat we ons daarin kunnen vinden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note104">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:trade" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u22">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg28">Ik schat dat het nu vier jaar geleden is dat de Commissie aan de Raad heeft voorgesteld: laten we die onderhandelingen over de modernisering van de douane-unie starten. Vier jaar geleden. Daar is vanuit de Europese Raad vier jaar lang een nee op gekomen. Wat nu op de agenda staat, in juni, om toch te starten met die onderhandelingen over de opwaardering, vergt een besluit van de Europese Raad. Mijn vraag is of het kabinet bereid is om nu tóch een hele cruciale stap te zetten, namelijk het starten met die onderhandeling, die misschien jarenlang gaan duren, dat snap ik ook wel, terwijl het zo staat met de mensenrechten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note105">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u23">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg29">Zoals ik zei: ik herken de intentie en het belang van de rechtsstaat en het versterken daarvan. De fundamentele rechten van de mens moeten geborgd zijn. Ik weet ook dat de gesprekken en onderhandelingen over de modernisering van de douane-unie een heel lang proces zijn. De discussie is al sinds 2018 opgeschort, maar de discussie over het conceptmandaat was toen ook al anderhalf jaar lang gaande. Wij zullen op alle manieren kijken of er voortgang wordt geboekt. Een herstart van de onderhandelingen betekent niet een overeenkomst over het eindpunt. We zullen er natuurlijk ook bij de Commissie op aandringen te laten weten welke criteria ze in het proces toepassen. Daar moet verheldering over komen. Niet instemmen met de start van de onderhandelingen is een hele zware stap. Dat bemoeilijkt ook het bredere krachtenveld en de relatie die we met Turkije proberen op te bouwen en in stand te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note106">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u24">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg30">Onze economische kaart is de allermachtigste die we hebben ten opzichte van Turkije. Ik ben er best voor om die in te zetten, maar dan moeten daar wel verbeteringen van mensenrechten tegenover staan. Als dat niet het geval is, is dit echt het verkeerde signaal aan de oppositie en de journalisten die vastzitten in de gevangenissen in Turkije. Het is het machtigste signaal dat Europa nu kan afgeven. Als we dat gratis en voor niets doen, hebben we daar wel een probleem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note107">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u25">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg31">Ik denk niet dat het gratis en voor niets is. Wij zullen aandringen op specifieke criteria en op hele concrete monitoring. Een herstart van een proces betekent niet een beëindiging, zeker niet als u ziet wat de Nederlandse inzet is geweest bij andere cases, bijvoorbeeld Albanië, en bij andere gesprekken over mogelijke toekomstige toetreding. Dan is de conditionaliteit in relatie tot de rechtsstaat en mensenrechten, waarnaar mevrouw Piri verwijst, een hele belangrijke kaart. Maar de start van een gesprek betekent niet dat we de deur wijd opengooien. Tegelijkertijd moeten we erkennen dat Turkije gastland nummer een is voor het grootste aantal vluchtelingen en dat we ook daarover gesprekken voeren. Het is een complexe relatie, maar de rechtsstaat en de mensenrechten nemen wij echt in acht. Ik denk dus dat ik de geest van de motie meeneem, alleen niet als voorwaarde voor de start van de onderhandeling.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note108">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u26">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg32">Helder. Dan hebben we nog de motie op stuk nr. 2362.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note109">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:educa" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u27">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg33">Ik vraag mevrouw Piri en de heer Van der Lee of ze deze motie kunnen aanhouden, want dit valt onder het ministerie van Onderwijs, Cultuur en Wetenschap. Ik ga graag met mijn collega in gesprek, want we onderkennen het belang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note110">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u28">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg34">Ik zie mevrouw Piri instemmend knikken, dus de motie wordt aangehouden.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note111">Op verzoek van mevrouw Piri stel ik voor haar motie (21501-02, nr. 2362) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note112">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note113">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u29">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg35">Dan is er de motie op stuk nr. 2363 van de heer Sjoerdsma. Op dit moment is er nog geen sprake van een zaak. Het Europees Parlement heeft de stappen nog niet gezet. Ik herken de intentie. Ik vraag de heer Sjoerdsma om de motie aan te houden tot er feitelijke stappen zijn gezet, waarbij het kabinet dan een weging kan geven en die kan delen met de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note114">De heer Sjoerdsma (D66)</note>
+            <u who="#SjoerdSjoerdsma" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u30">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg36">Dat is goed. Ik zal haar aanhouden totdat de tweewekentermijn van de Commissie om te reageren, is verstreken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note115">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u31">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg37">Op verzoek van de heer Sjoerdsma stel ik voor zijn motie (21501-02, nr. 2363) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg38">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note116">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u32">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg39">Tot slot de motie op stuk nr. 2365 van de heer Dassen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note117">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u33">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg40">Nee, eerst de motie van de heer Jasper van Dijk op stuk nr. 2364.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note118">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u34">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg41">Ja, dat klopt. Doe ik u weer tekort! Excuus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note119">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u35">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg42">Ditmaal zonder de heer Sjoerdsma. Deze motie geef ik oordeel Kamer. Wij zijn voorstander van één vergaderlocatie van het Europees Parlement. Zoals u weet — dat is al jarenlang beleid — spreken wij ons niet uit over welke locatie dat moet zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg43">Dan de motie op stuk nr. 2365. Ik herken de strekking van deze motie, maar zoals ik ook gisteren in het commissiedebat heb gezegd laat het demissionaire kabinet dit over aan de formatietafel, aan een toekomstig kabinet. Er zal hopelijk, Deo volente, genoeg tijd zijn om dit allemaal nog tijdig af te ronden, zowel de formatie als de indiening.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note120">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u36">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg44">Even een kleine vraag over deze motie, want ik vind het best lastig. Ik snap ook dat de minister zegt "geef ons even de tijd in verband met de formatie", maar wat is de deadline? Wanneer kan Nederland uiterlijk plannen indienen om te voorkomen dat we 6 miljard mislopen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note121">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u37">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg45">Inderdaad, we gaan natuurlijk niet meemaken dat we 6 miljard gaan mislopen. We hebben daar recht op. We hebben ons ook enorm ingezet voor de juiste kaders voor het corona recovery fund. We hebben mijns inziens tot 31 december, maar ik spreek even uit geheugen. Ik bevestig dat nog wel apart. Er is dus genoeg tijd. Tegen die tijd mogen we toch echt wel hopen en bidden dat er een nieuw kabinet is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note122">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u38">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg46">Ik zou de minister nog even willen vragen: wat is uw oordeel over de motie op stuk nr. 2365?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note123">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u39">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg47">Ik ontraad haar, omdat het de positie is van het demissionaire kabinet om het aan het volgende kabinet te laten. Mochten er cruciale wijzigingen komen waardoor een formatie binnen het tijdpad niet aannemelijk is, dan zullen er natuurlijk andere stappen gezet moeten worden. Dat kan iedereen begrijpen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note124">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u40">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg48">Ik heb toch nog een vraag hierover. Ik weet gewoon dat er partijen zijn die al voorsorteren op mogelijke projecten die ingediend zouden kunnen worden, want die komen ook bij ons langs. Ik ga ervan uit dat het kabinet daar een inventarisatie van bijhoudt. Ik kan mij ook zomaar voorstellen dat er op de ministeries zelf ook nog ideeën leven over: die zouden daar misschien onder kunnen vallen. Ik ga ervan uit dat ook dat wel geïnventariseerd wordt. Gebeurt dat helemaal niet? Dat is eigenlijk wat de motie vraagt en niet meer dan dat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note125">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u41">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg49">Er zijn een aantal stappen, maar ik wil heel voorzichtig zijn. Er zijn natuurlijk mogelijke projecten. Er zijn projecten die zijn ingediend. Via het ministerie van Financiën zal er een overzicht zijn. Maar tussen dingen ontvangen, voorsorteren en vragen om op tijd klaar te zijn, zitten echt politieke besluiten die worden genomen aan een formatietafel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note126">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u42">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg50">Dat ging over de motie op stuk nr. 2365. Dan heeft de heer Amhaouch een vraag of opmerking.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note127">De heer Amhaouch (CDA)</note>
+            <u who="#MustafaAmhaouch" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u43">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg51">Vorige week bij het debat over de Conferentie over de Toekomst van Europa hebben wij onze motie aangehouden. Het gaat om motie-Amhaouch op stuk nr. 10 (35663). Die willen wij vandaag graag weer in stemming brengen. Die is naar de wens van het kabinet aangepast. Als dat kan, zie ik graag dat die vandaag in stemming wordt gebracht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note128">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u44">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg52">Ja, we gaan straks na dit tweeminutendebat stemmen. Dan zal deze motie worden meegenomen. Minister, er waren nog een aantal vragen gesteld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note129">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:trade" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u45">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg53">Ik heb de moties behandeld. Ik denk dat ik met mevrouw Piri al gewisseld heb over de elementen van de douane-unie. Dat was ook een vraag van gisteren.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg54">Nu heb ik een lichte puinhoop gemaakt van mijn eigen papieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note130">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u46">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg55">Dan draai ik het anders even om. Zijn er nog vragen van de leden die onbeantwoord zijn gebleven? Mijn indruk is dat dat niet zo is. Nee. Zijn er gisteren in het debat vragen gesteld die vandaag zouden moeten worden beantwoord? Mevrouw Piri.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note131">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u47">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg56">Wij zijn gisteren inderdaad niet toegekomen aan een tweede termijn in het commissiedebat Raad Algemene Zaken, vandaar dat de minister had toegezegd om op een aantal vragen — ik praat even langzaam, zodat de minister haar notities kan vinden — vandaag terug te komen. Het was volgens mij zelfs nog een voorstel van de heer Van Dijk om dat zo te doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note132">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u48">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg57">Misschien zou dat schriftelijk kunnen, want ik zit ook een beetje met een tijdsklem voor deze middag. Ik kijk naar mevrouw Piri. Zou het ook schriftelijk kunnen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note133">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u49">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg58">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note134">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u50">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg59">Misschien kan mevrouw Piri de vraag kort herhalen, want ik kan hem nu waarschijnlijk wel uit mijn hoofd beantwoorden zonder papieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note135">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u51">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg60">Kijk, er zijn allemaal opties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note136">Mevrouw Piri (PvdA)</note>
+            <u who="#KatiPiri" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u52">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg61">Zullen we het dan schriftelijk doen? Dat lijkt mij voor de procedure wat zorgvuldiger.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note137">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u53">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg62">Excuus. Ik ben namelijk aan het verhuizen. Het verhuizingsvoorbeeld van de heer Van Dijk sprak misschien te veel tot mijn verbeelding.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note138">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u54">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg63">Wij gaan binnenkort ook verhuizen. Dan zijn wij daarmee aan het einde gekomen van dit tweeminutendebat over de Raad Algemene Zaken.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note139">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.note140">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.u55">
+               <seg xml:id="ParlaMint-NL_2021-06-17-tweedekamer-8.seg64">Over de ingediende moties zal straks worden gestemd.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

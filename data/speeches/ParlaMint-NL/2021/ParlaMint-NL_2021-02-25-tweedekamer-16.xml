@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-02-25 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-02-25 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 59, Session 16 (2021-02-25)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 59, Session 16 (2021-02-25)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="59" xml:lang="en">Meeting 59</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="16" xml:lang="en">Session 16</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-02-25">Sitting 2021-02-25</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="12">12 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="12">12 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="584">584 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="584">584 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-02-25">2021-02-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="61"/>
+               <tagUsage gi="seg" occurs="18"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="12"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-02-25">2021-02-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.head1">Initiatiefnota van de leden Klaver en Kröger over de tijdelijke testsamenleving</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u1">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg1">Dan gaan we nu naar het volgende onderwerp. Het is dezelfde minister en het zijn dezelfde woordvoerders, dus we kunnen gewoon door.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg2">Aan de orde is het VAO Initiatiefnota van de leden Klaver en Kröger over de tijdelijke testsamenleving (35653). Ik geef mevrouw Ellemeet als eerste spreker het woord namens GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note2">Mevrouw Ellemeet (GroenLinks)</note>
+            <u who="#CorinneEllemeet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u2">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg3">Dank u wel. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note6">constaterende dat frequent testen ervoor zorgt dat meer Nederlanders dan nu worden gedetecteerd op een covidbesmetting en wanneer besmette mensen vervolgens in zelfisolatie gaan, verspreiding van het virus zeer effectief wordt teruggedrongen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note7">overwegende dat verschillende gemeenten, waaronder Lansingerland, hebben aangegeven bereid te zijn om een populatietest in de gemeente uit te voeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note8">verzoekt de regering lessen te trekken uit de lokale populatietesten in Lansingerland, Bunschoten, Dronten en Charlois;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note9">verzoekt de regering, op basis van deze kennis, samen met de GGD'en een aanpak voor lokale populatietesten op te stellen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note11">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note12">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note13">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note14">constaterende dat nieuwe mutaties van het covidvirus een bedreiging vormen voor de volksgezondheid en ook potentieel een bedreiging vormen voor de werkzaamheid en effectiviteit van de vaccins;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note15">constaterende dat in verschillende landen, waaronder het Verenigd Koninkrijk, veel positieve testuitslagen zogenaamd "gesequencet" worden, zodat de genetische code van het virus wordt uitgelezen en men daardoor weet hoe het virus zich muteert;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note16">overwegende dat sequencing in Nederland hoofdzakelijk bij het RIVM/Erasmus plaatsvindt waardoor we minder zicht hebben op de mutaties van het virus;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note17">verzoekt de regering middelen beschikbaar te stellen zodat meer positieve testuitslagen verspreid over het land worden gesequencet om het zicht op het verloop van het virus te verbeteren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note18">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note19">Deze motie is voorgesteld door de leden Ellemeet en Klaver. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note20">Zij krijgt nr. kst-35653-4</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note21">Deze motie is voorgesteld door de leden Ellemeet en Klaver. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note22">Zij krijgt nr. kst-35653-5</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note23">Mevrouw Ellemeet (GroenLinks)</note>
+            <u who="#CorinneEllemeet" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u3">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg4">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note24">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u4">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg5">Dank u wel, mevrouw Ellemeet. Dan geef ik nu het woord aan de heer Van Gerven namens de SP. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note25">De heer Van Gerven (SP)</note>
+            <u who="#HenkvanGerven" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u5">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg6">Voorzitter. Eén motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note26">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note27">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note28">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note29">constaterende dat de routekaart constant aan veranderingen onderhevig is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note30">constaterende dat het principe van een testsamenleving impact kan hebben op de inhoud en tijdslijn van deze routekaart;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note31">verzoekt de regering bij het opstellen van de nieuwe routekaart het principe van een testsamenleving serieus mee te nemen en de gemaakte keuzes te onderbouwen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note32">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note33">Deze motie is voorgesteld door het lid Van Gerven. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note34">Zij krijgt nr. kst-35653-6</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note35">Dank u wel, meneer Van Gerven. Dan geef ik nu het woord aan mevrouw Van den Berg namens het CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note36">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u6">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg7">Dank u wel, voorzitter. We krijgen straks een samenleving waarin testen nog belangrijker wordt dan nu. De minister heeft er ook al over gesproken dat we daar potentieel een app voor zullen kunnen gebruiken. Ik zou de minister willen vragen om ook aandacht te houden voor de 2,5 miljoen mensen in Nederland die laaggeletterd zijn, dan wel gewoon minder handig met alle mobiele apparaten. Het gaat erom dat er bij de ontwikkeling ook nog een alternatief blijft.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg8">Met al die testen wordt ook het screenen belangrijk, ook als je geen klachten hebt, om de samenleving op gang te brengen. Er zijn wat juridische belemmeringen en die zouden we graag zien weggenomen. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note37">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note38">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note39">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note40">van mening dat herhaald, preventief testen van mensen zonder klachten en zonder bekende blootstelling een manier kan zijn om op tijd besmettingen er snel uit te pikken en uitbraaksituaties te voorkomen, omdat het testen hier een "plus" kan geven op het voorkomen van besmettingen en het vroegtijdiger traceren van besmette personen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note41">van mening dat herhaald testen met antigeentesten bij mensen zonder klachten en zonder bekende blootstelling daarom kan bijdragen aan de doelstelling van spoor 2b (veilig werken) en 2c (veilig studeren);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note42">overwegende dat werkgevers en onderwijsinstellingen aan de slag willen met het afnemen van deze testen voor dit doel op hun eigen locaties, via begeleide zelfafname;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note43">constaterende dat de huidige richtlijnen, die gericht zijn op diagnostiek in plaats van screening van meestal gezonde mensen, voor testafname voor deze screeningssituaties erg moeilijk uitvoerbaar zijn, vanwege verschillende juridische eisen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note44">verzoekt de regering te faciliteren dat deskundigen binnen drie weken een handreiking maken die ervoor zorgt dat zij met de huidige beschikbare antigeentesten herhaald preventief kunnen testen bij mensen zonder klachten en zonder bekende blootstelling, in de vorm van begeleide zelfafname op een manier:</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note45">die voor hen in de praktische uitvoering doenlijk is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note46">die nog steeds veilig is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note47">die past bij de doelgroep;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note48">die een geringer risico op besmettelijkheid en op verspreiding van het virus kent,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note49">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note50">Deze motie is voorgesteld door de leden Van den Berg, Veldman, Diertens en Dik-Faber. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note51">Zij krijgt nr. kst-35653-7</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note52">Dank u wel, mevrouw Van den Berg. Dan geef ik tot slot het woord aan mevrouw Agema. Nee? Dan kijk ik even naar de minister. Vijf minuten? Goed, dan schors ik voor vijf minuten.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note53">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note54">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u7">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg9">Ik geef het woord aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note55">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u8">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg10">Voorzitter, dank u wel. Dank allereerst aan GroenLinks voor de initiatiefnota. Ik denk dat het heel goed is dat wij ons bewust zijn van alle kansen die het testen met zich meebrengt en dat wij die kansen ook benutten. Ik begin met de motie op stuk nr. 4 over gemeentelijke populatietesten. De regering wordt verzocht lessen te trekken uit lokale populatietesten in Lansingerland, Bunschoten, Dronten en Charlois en op basis van die kennis met de GGD'en een lokale aanpak samen te stellen. Dat is echt ondersteuning van het beleid. Daarom laat ik het oordeel graag aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg11">Dan de motie op stuk nr. 5: verzoekt de regering middelen beschikbaar te stellen zodat meer positieve testuitslagen verspreid over het land worden gesequencet. Dat sluit aan bij een wens die de heer Veldman al eens heeft geuit. Ik laat hierover ook graag het oordeel aan de Kamer. Ondersteuning beleid, oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg12">Dan de motie op stuk nr. 6: verzoekt de regering bij het opstellen van de nieuwe routekaart het principe van de testsamenleving serieus mee te nemen en de gemaakte keuzes te onderbouwen. Ik gebruik het woord "testsamenleving" niet zo vaak, maar het benutten van alle mogelijkheden die testen bieden om situaties veiliger te maken, om situaties voor ontmoetingen veiliger vorm te geven, willen we natuurlijk wel degelijk. Dat biedt ook weer nieuwe mogelijkheden voor andere stappen op de routekaart. Ik doe het graag en daarom laat ik het oordeel aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg13">Dan de motie op stuk nr. 7. Die gaat over de stap die we moeten zetten en waar ik het meest in geloof: begeleide zelfafname of zelfafname. Er is een flink aantal juridische hobbels te slechten. Ik ga er graag mee aan de slag. Daarom laat ik ook bij deze motie het oordeel graag aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg14">Vier keer oordeel Kamer, voorzitter. Het is zoiets moois.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note56">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u9">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg15">Ik vind het echt zo coöperatief.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note57">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u10">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg16">Dat zie je niet vaak. Zo harmonieus. Heel mooi, echt heel mooi.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note58">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u11">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg17">Dank u wel. We zijn benieuwd welke oordelen bij het volgende VAO worden gegeven. Mevrouw Karabulut, u heeft een voorbeeld gezien. Ik dank de minister en de woordvoerders.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note59">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note60">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.u12">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.seg18">Over de ingediende moties gaan we aan het eind van deze dag stemmen. Voor nu schors ik de vergadering voor enkele minuten.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-16.note61">De vergadering wordt van 16.03 uur tot 16.08 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

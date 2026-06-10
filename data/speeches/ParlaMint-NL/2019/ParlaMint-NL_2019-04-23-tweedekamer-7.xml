@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2019-04-23 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2019-04-23 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 78, Session 7 (2019-04-23)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 78, Session 7 (2019-04-23)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="78" xml:lang="en">Meeting 78</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="7" xml:lang="en">Session 7</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2019-04-23">Sitting 2019-04-23</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="5">5 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="5">5 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="143">143 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="143">143 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2019-04-23">2019-04-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="seg" occurs="7"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="5"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-04-23">2019-04-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.head1">Regeling van werkzaamheden (stemmingen)</head>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.seg1">Voordat wij gaan stemmen, geef ik mevrouw Van Toorenburg namens het CDA het woord.</seg>
+            </u>
+            <u who="#MadeleinevanToorenburg" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.seg2">Dank u wel, voorzitter. Heel kort. Wij zouden graag uitstel willen hebben van de stemmingen onder punt 3, over de brief van het Presidium over de aanbevelingen van de werkgroep Integriteit leden van de Tweede Kamer, omdat wij hierover graag een gesprek zouden willen voeren bij de Raming.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.seg3">Heeft iemand bezwaar tegen het verzoek van mevrouw Van Toorenburg om niet te stemmen over de brief van het Presidium? Dat is niet het geval.</seg>
+               <seg xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.seg4">De heer Voordewind namens de ChristenUnie.</seg>
+            </u>
+            <u who="#JoëlVoordewind" ana="#regular topic:labor" xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.seg5">Ik zou graag bij de stemming onder punt 21, over de moties ingediend bij het debat over de onveilige werksituaties in asc's, de motie op stuk nr. 2490 (19637) aanhouden.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.seg6">Op verzoek van de heer Voordewind stel ik voor zijn motie (19637, nr. 2490) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-04-23-tweedekamer-7.seg7">Daartoe wordt besloten.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

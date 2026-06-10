@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2019-06-13 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2019-06-13 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 93, Session 6 (2019-06-13)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 93, Session 6 (2019-06-13)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="93" xml:lang="en">Meeting 93</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="6" xml:lang="en">Session 6</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2019-06-13">Sitting 2019-06-13</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="33">33 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="33">33 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1373">1,373 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1373">1,373 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2019-06-13">2019-06-13</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="76"/>
+               <tagUsage gi="seg" occurs="38"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="33"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-06-13">2019-06-13</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.head1">Toezicht en handhaving</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:gover" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg1">Aan de orde is het VAO Toezicht en handhaving. Hartelijk welkom aan de minister. Ik geef de heer Laçin van de SP het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note2">De heer Laçin (SP)</note>
+            <u who="#CemLaçin" ana="#regular topic:gover" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg2">Dank, voorzitter. Wat zijn wetten en regels waard zonder goede toezicht en handhaving? Daar hebben we een uitgebreid AO over gehad. Ik benadruk nogmaals dat de SP er eigenlijk voorstander van is om de verschillende inspectiediensten samen te voegen tot één nationale inspectiedienst, zoals ook de oproep is van Pieter van Vollenhoven. Dat heb ik aangekaart in het debat, maar dat ligt vooral bij Binnenlandse Zaken. Dus ik zal daar in ieder geval geen motie op indienen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg3">We hebben ook doorgepraat over de beleidsdoorlichting van de ILT naar de doelmatigheid en doeltreffendheid van de ILT. Daarover maken wij ons vooral zorgen, omdat daaruit blijkt dat de ILT eigenlijk een black box is en dat het heel moeilijk te beoordelen is. Daarom heb ik een motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note6">constaterende dat de Inspectiedienst Leefomgeving en Transport (ILT) is overgegaan op een risicogestuurde aanpak voor toezicht en handhaving;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note7">overwegende dat meetbare doelstellingen, prestatie-indicatoren en een evaluatie van de inzet van kennis en capaciteit ontbreken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note8">van mening dat deze kaders noodzakelijk zijn om het beleid van de ILT te beoordelen en waar nodig bij te sturen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note9">verzoekt de regering meetbare doelstellingen, prestatie-indicatoren en evaluatie van de inzet van kennis en capaciteit structureel onderdeel uit te laten maken van analyses over de doelmatigheid en doeltreffendheid van het gevoerde beleid binnen de ILT,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note11">Deze motie is voorgesteld door de leden Laçin en Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note12">Zij krijgt nr. kst-32861-48</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note13">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg4">Dank. Mevrouw Kröger, u bent aan de beurt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note14">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:gover" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg5">Dank u wel, voorzitter. We hebben een goed debat gehad over toezicht en handhaving en volgens mij breed in de commissie onze zorgen gedeeld of we voldoende toezicht- en handhavingcapaciteit hebben en wat de risico's zijn die we daarmee lopen als samenleving. De volgende twee moties daarop.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note15">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note16">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note17">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note18">overwegende dat de ILT haar beperkte handhavingscapaciteit inzet via een model voor risicogestuurde aanpak, dat de risico's beoordeelt op basis van de potentiële kosten van dat risico;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note19">overwegende dat een gevoel van onveiligheid, natuurwaardes en de belangen van toekomstige generaties niet of moeilijk in geld zijn uit te drukken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note20">verzoekt de regering om bij de beoordeling van maatschappelijke risico's en milieurisico's ook de brede welvaartsindicatoren te betrekken, en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note21">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note22">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note23">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note24">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note25">overwegende dat de risicogestuurde aanpak een middel kan zijn om handhavingsprioriteiten van de ILT vast te leggen, maar niet in de plaats kan komen van de wettelijke handhavingstaken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note26">overwegende dat er altijd voldoende mensen en middelen moeten zijn om zowel de wettelijk verplichte handhavingstaken voldoende waar te nemen als daarnaast aandacht te hebben voor gebieden met grote risico's op overtredingen of grote maatschappelijke risico's en milieurisico's;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note27">verzoekt de regering om er zorg voor te dragen dat naast de prioriteiten met grote risico's er altijd ook voldoende aandacht is voor de wettelijk verplichte handhavingstaken van de ILT,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note28">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note29">Deze motie is voorgesteld door de leden Kröger en Laçin. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note30">Zij krijgt nr. kst-32861-49</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note31">Deze motie is voorgesteld door de leden Kröger en Laçin. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note32">Zij krijgt nr. kst-32861-50</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note33">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg6">Tot slot misschien. Wij zien echt uit naar alle informatie die de minister heeft toegezegd in het debat nog te delen met de Kamer, met name over hoe geborgd wordt dat de wettelijke taken adequaat worden uitgevoerd en hoe zich dat verhoudt tot de risicogestuurde aanpak. Het is duidelijk een proces in transitie en het is begrijpelijk dat het in een transitie soms ook nog zoeken is, maar er zijn natuurlijk gewoon wettelijke taken die nooit veronachtzaamd mogen worden. Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note34">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg7">Dank. De heer Van Aalst van de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note35">De heer Van Aalst (PVV)</note>
+            <u who="#RoyvanAalst" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg8">Voorzitter. We hebben een goed overleg gehad en hier technische briefings over gehad, wat toch wel wat onduidelijkheid brengt. Vooral in de zin waar nu die controlerende taak van de Kamer zit en of we dat voldoende in beeld hebben. Om wat richting mee te geven, dien ik toch de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note36">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note37">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note38">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note39">constaterende dat:</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note40">de ILT al een ernstig capaciteitsprobleem heeft om haar huidige taken op voldoende niveau uit te kunnen voeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note41">het onduidelijk is of de ILT er nu extra taken bij gaat krijgen en, zo ja, welke dit dan zouden kunnen zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note42">verzoekt de regering een duidelijk overzicht te geven van de inzet van de capaciteit ten opzichte van de verschillende werkgebieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note43">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note44">Deze motie is voorgesteld door het lid Van Aalst. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note45">Zij krijgt nr. kst-32861-51</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note46">Dank u wel. We wachten eventjes tot de moties zijn rondgedeeld. Ik schors voor enkele ogenblikken.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note47">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note48">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg9">Ik geef de minister het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note49">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:gover" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg10">Dank u wel, voorzitter. Ik zal de moties gewoon op volgorde langslopen.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg11">De eerste motie, op stuk nr. 48, is van de heer Laçin, die de regering verzoekt om meetbare doelstellingen, prestatie-indicatoren en de evaluatie van de inzet van kennis en capaciteit structureel deel te laten uitmaken van analyses over de doelmatigheid en doeltreffendheid van het gevoerde beleid binnen de ILT. Dat is een hele mond vol. Ik wil de heer Laçin eigenlijk vragen om deze motie nog even aan te houden. Tijdens het debat heb ik gezegd dat ik u nog voor de zomer zal informeren, niet alleen over hoe we het extra budget inzetten, maar ook hoe we het proces van doelmatigheid en doeltreffendheid daarin uitwerken. U krijgt die brief nog voor de zomer, dus ik zou de heer Laçin willen verzoeken om deze motie aan te houden tot u die brief hebt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note50">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg12">Meneer Laçin, bent u daartoe bereid?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note51">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg13">Ik denk namelijk dat hij daarmee tevreden gesteld gaat worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note52">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg14">Kijk, dat is een handreiking.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note53">De heer Laçin (SP)</note>
+            <u who="#CemLaçin" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u13">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg15">Met deze opmerking kan ik er misschien in komen. Deze motie is juist bedoeld om mee te nemen bij het opstellen. Anders gaan we het omkeren. Maar ik begrijp de minister. Als deze punten worden meegenomen in datgene wat voor de zomer gaat komen — althans, dat hopen we dan — en als ik dan tevreden ben gesteld — dat gaan we dan zien — ben ik bereid de motie nu aan te houden. Voor de zomer gaan we dan bekijken of ik haar nog in stemming breng, ja of nee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note54">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u14">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg16">Op verzoek van de heer Laçin stel ik voor zijn motie (32861, nr. 48) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg17">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note55">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u15">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg18">Dan de motie op stuk nr. 49.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note56">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:envir" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u16">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg19">Die is van de hand van mevrouw Kröger. Zij verzoekt de regering om bij de beoordeling van maatschappelijke risico's en milieurisico's ook de brede-welvaartsindicatoren te betrekken en de Kamer hierover te informeren. Ik zou mevrouw Kröger hetzelfde verzoek willen doen, namelijk om deze motie aan te houden tot diezelfde brief. In de IBRA-methodiek kijken wij natuurlijk ook nu al breder dan geld. Er wordt ook naar milieu- en gezondheidsrisico's gekeken. Als u het goedvindt, wil ik de IBRA-systematiek naast de brede-welvaartsindicatoren houden en kijken of we dan nog iets tekortkomen. Ik kom daar dan graag op terug in de brief. U kunt dan beoordelen of u dat voldoende vindt of niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note57">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u17">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg20">Dan houd ik de motie aan, als ik nu een toezegging hoor dat er, bijvoorbeeld in de evaluatie, inderdaad al naar de brede welvaart wordt gekeken en dat daarover specifiek aan de Kamer terug wordt gerapporteerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note58">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u18">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg21">Ik zal er in de brief op terugkomen hoe de IBRA-systematiek zich verhoudt tot de Monitor Brede Welvaart.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note59">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u19">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg22">Op verzoek van mevrouw Kröger stel ik voor haar motie (32861, nr. 49) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg23">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note60">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u20">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg24">Dan kom ik bij de motie op stuk nr. 50, ook van de hand van mevrouw Kröger. Zij vraagt om, naast de prioritaire taken, ook altijd voldoende aandacht te houden voor de overige taken. Daarvan zou ik willen zeggen dat die overbodig is, want uiteraard doen we dat, zou ik in de richting van mevrouw Kröger willen zeggen. Ik kan de motie overnemen, als u dat goed vindt, om te onderstrepen dat dit echt de bedoeling is. Mijn vraag aan u zou dan zijn of u het goed vindt dat ik de motie overneem.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note61">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u21">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg25">Het voorstel van de minister is om de motie op stuk nr. 50 over te nemen. Is daar bezwaar tegen? Ja, daar is bezwaar tegen. Dat betekent dat de motie in stemming komt. Ik hoor de minister zeggen dat de motie dan overbodig is en dat zij daarom wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note62">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u22">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg26">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note63">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u23">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg27">De motie op stuk nr. 50 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note64">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:gover" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u24">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg28">Daar wil ik dan toch heel graag een opmerking over maken, aangezien juist de ILT zelf aangeeft dat die wettelijke taken geen harde ondergrens zijn. Dit probleem hebben we in het debat uitvoerig besproken. Toen heeft de minister ook gezegd: dat zou ook echt wel geborgd moeten zijn. Deze motie is natuurlijk een aansporing om ervoor te zorgen dat het ook geborgd is. Maar volgens mij is uit het debat wel degelijk duidelijk geworden dat er licht zat tussen wat de ILT daarover schetst en hoe de minister graag zou willen dat het gaat. Dit is een motie om uit te spreken dat wij als Kamer ook heel graag willen dat het zo gaat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note65">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:gover" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u25">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg29">Dat is juist het punt. Daar zit geen verschil van inzicht in. Je kunt nooit een harde ondergrens hebben, maar natuurlijk is het altijd aan de ILT om te beoordelen of er wel voldoende aandacht is voor de wettelijke taken. Daar gaat uw verzoek ook over: voldoende aandacht hebben voor de wettelijke taken. Daar is zeker voldoende aandacht voor, ook in de huidige situatie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note66">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u26">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg30">Mevrouw Kröger, kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note67">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u27">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg31">Dus de minister garandeert nu hier dat de ILT op dit moment voldoende capaciteit heeft om haar wettelijke handhavingstaken uit te voeren?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note68">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:gover" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u28">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg32">Daar hebben we natuurlijk meer woorden over gewisseld. Niet voor niks krijgt de ILT extra capaciteit erbij. We hebben meer ambities, maar het is niet zo dat de uitvoering van de wettelijke taken in gevaar is, want anders had de inspecteur-generaal allang bij ons aan de bel getrokken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note69">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u29">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg33">Dit naar aanleiding van de motie op stuk nr. 50, die in stemming wordt gebracht en die wordt ontraden door de minister.</seg>
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg34">Tot slot de motie op stuk nr. 51.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note70">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:gover" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u30">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg35">Ja. Die is van de hand van de heer Van Aalst. Die verzoekt de regering om alle taken die de ILT uitvoert in kaart te brengen en om duidelijk te maken hoeveel fte's en financiële middelen daartegenover staan. Daar ben ik op zich toe bereid, maar dat heb ik, dacht ik, ook al toegezegd. Ik zeg eigenlijk hetzelfde tegen u als wat ik net tegen mevrouw Kröger heb gezegd: wat mij betreft zou ik deze motie kunnen overnemen, als u dat zelf goed vindt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note71">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u31">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg36">Ik zie de heer Van Aalst instemmend knikken. Heeft een van de leden er bezwaar tegen dat deze motie wordt overgenomen? Dat is niet het geval.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note72">De motie-Van Aalst (, nr. ) is overgenomen.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note73">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u32">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg37">Dat was het, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note74">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.u33">
+               <seg xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.seg38">Ik dank de minister voor haar beantwoording.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note75">De beraadslaging wordt gesloten.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2019-06-13-tweedekamer-6.note76">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

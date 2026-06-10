@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-10-14 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-10-14 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 12, Session 5 (2021-10-14)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 12, Session 5 (2021-10-14)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="12" xml:lang="en">Meeting 12</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="5" xml:lang="en">Session 5</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-10-14">Sitting 2021-10-14</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="43">43 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="43">43 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3489">3,489 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3489">3,489 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-10-14">2021-10-14</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="106"/>
+               <tagUsage gi="seg" occurs="47"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="43"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-10-14">2021-10-14</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.head1">Rechtspraak</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg1">Ik heet de minister voor Rechtsbescherming van harte welkom en ik heet de collega's van harte welkom. We gaan verder met het tweeminutendebat Rechtspraak en ik geef het woord aan de heer Van Nispen, die zal spreken namens de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note2">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg2">Dank u wel, voorzitter. Drie moties van mijn kant.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note6">constaterende dat de drempels om tot een herziening van een afgesloten strafzaak te komen in Nederland erg hoog zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note7">overwegende dat justitiële dwalingen een ramp zijn voor betrokkenen en voor het vertrouwen in de rechtsstaat, omdat het kan betekenen dat een onschuldige in de cel zit en de dader vrij rondloopt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note8">verzoekt de regering de drempels voor de herziening ten voordele van strafzaken te verlagen, zodat veroordelingen waarbij gerede twijfel blijft bestaan over de juistheid van de veroordeling opnieuw beoordeeld kunnen worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note10">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note11">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note12">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note13">overwegende dat in het rapport van de Werkgroep reflectie toeslagenaffaire rechtbanken lessen worden getrokken uit kinderopvangtoeslagzaken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note14">constaterende dat de meeste bevindingen en aanbevelingen betrekking hebben op het werk van de rechters zelf of het functioneren van bestuursrechtspraak, maar dat er ook bevindingen zijn waar de minister mee aan de slag kan, namelijk 1) dat hoge werkdruk invloed heeft op de inhoud en kwaliteit en 2) dat het ontbreken van rechtsbijstand als een tekort voor een goede procesvoering is ervaren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note15">verzoekt de regering met de rechtspraak hierover in gesprek te gaan, te bezien wat er gedaan kan worden om de werkdruk te verlichten en meer tijd voor reflectie en kwaliteit te creëren en de rechtsbijstand in toeslagzaken en andere zaken die bestaanszekerheid betreffen te verbeteren, en hierover de Kamer nog voor de behandeling van de begroting JenV te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note16">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note17">Deze motie is voorgesteld door het lid Van Nispen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note18">Zij krijgt nr. kst-29279-675</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note19">Deze motie is voorgesteld door het lid Van Nispen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note20">Zij krijgt nr. kst-29279-676</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note21">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg3">Voorzitter. Dan de tolken en vertalers. Zij voeren deze week actie, en terecht. Er wordt eigenlijk schandalig omgegaan met deze beroepsgroep, die zo cruciaal is voor onze rechtsstaat. Dat behoeft geen nader betoog. Ze zijn beëdigd, maar ze voelen zich beledigd. Er is echt een grote crisis bij de tolken en vertalers, wat te maken heeft met kwaliteit, tarieven en het onzalige plan om marktwerking en aanbestedingen in te voeren. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note22">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note23">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note24">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note25">overwegende dat het werk van gerechtstolken en -vertalers van groot belang is voor het functioneren van de rechtsstaat, maar dat de kwaliteit en de tarieven van tolken en vertalers ernstig onder druk staan wat tot veel weerstand leidt bij de beroepsgroepen, en dat het invoeren van aanbestedingen en marktwerking niet de oplossing is voor dit probleem;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note26">constaterende, dat het op dit moment lonend is voor gerechtstolken en -vertalers om aan de andere kant van het land werkzaamheden te verrichten in verband met de reiskostenvergoeding, terwijl werkzaamheden dichter bij huis zwaar onderbetaald worden, namelijk met tarieven die stammen uit 1981 voor de tolken en 1963 voor de vertalers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note27">verzoekt de regering de tarieven van gerechtstolken en -vertalers te indexeren vanaf 1981 respectievelijk 1963 en er in ieder geval voor te zorgen dat de tarieven voor tolken en vertalers fors stijgen en er een eerlijke normregel voor vertalers komt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note28">verzoekt de regering voorts alles op alles te zetten om te voorkomen dat er geen Friese gerechtstolken meer zijn, in het belang van de Friese taal, en het gebruik van de Friese taal in de rechtszaal te waarborgen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note29">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note30">Deze motie is voorgesteld door het lid Van Nispen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note31">Zij krijgt nr. kst-29279-677</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note32">Dank u wel, meneer Van Nispen. De heer Sneller heeft aangegeven af te zien van zijn spreektijd. Dan geef ik het woord aan de heer Eerdmans, die zal spreken namens JA21.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note33">De heer Eerdmans (JA21)</note>
+            <u who="#JoostEerdmans" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg4">Voorzitter, dank je wel. Ik was aan de late kant, maar ik wist niet dat de spreker voor mij geen spreektijd wilde hebben, en ik neem dat graag over. Het komt bij mij neer op twee moties. We hebben wel een goed debat gehad in de commissie. Wij komen uit op twee punten. Het eerste gaat over publiekscampagnes inzake straffen en het tweede gaat over slachtoffers. Laat ik daarmee starten.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note34">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note35">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note36">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note37">constaterende dat rechterlijke uitspraken in strafzaken vaak emoties en vragen oproepen bij slachtoffers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note38">overwegende dat dit kan voortkomen uit onbegrip over redeneringen en afwegingen van de rechter;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note39">overwegende dat een evaluatiegesprek met de rechter soms kan bijdragen aan het wegnemen van gevoelens van ongenoegen en onrecht bij het slachtoffer;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note40">verzoekt de regering een pilot te starten met evaluatiegesprekken tussen rechters en slachtoffers na uitspraken in strafzaken, en de Kamer te informeren over de uitkomsten hiervan,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note41">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note42">Deze motie is voorgesteld door het lid Eerdmans.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note43">Zij krijgt nr. kst-29279-678</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note44">De heer Eerdmans (JA21)</note>
+            <u who="#JoostEerdmans" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg5">Dat was de eerste.</seg>
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg6">Dan de tweede motie. Daar had ik tijdens het debat een leuke discussie over met de minister. Die gaat over reclame voor straffen. In plaats van het beeld op te roepen dat je mensen van een daad af moet houden, wat goed is, kun je ze natuurlijk ook wijzen op de consequenties van hun handelen in bepaalde delicten. Ik kom daarmee op de volgende overwegingen en het volgende verzoek aan de minister.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note45">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note46">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note47">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note48">constaterende dat publieksvoorlichtingscampagnes van de Rijksoverheid doorgaans een preventief karakter hebben en mensen stimuleren om zaken te doen of te laten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note49">overwegende dat een dergelijke insteek minder op zijn plaats is bij campagnes die betrekking hebben op zaken die strafbaar en/of verboden zijn, zoals rijden onder invloed;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note50">overwegende dat het in dergelijke gevallen meer op zijn plaats is om de repressieve kant in de vorm van de strafmaat voor dergelijke vergrijpen te belichten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note51">verzoekt de regering publieksvoorlichtingscampagnes met betrekking tot verboden en/of strafbare zaken te richten op de strafmaat voor de vergrijpen in kwestie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note52">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note53">Deze motie is voorgesteld door het lid Eerdmans.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note54">Zij krijgt nr. kst-29279-679</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note55">Dank u wel, meneer Eerdmans. Dan geef ik tot slot het woord aan mevrouw Palland. Zij zal spreken namens het CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note56">Mevrouw Palland (CDA)</note>
+            <u who="#HildePalland" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg7">Voorzitter, dank u wel. We hebben in ons land soms best moeilijke en complexe wetten, maar we hebben ook hele mooie wetten. Een daarvan is de Wet gebruik Friese taal. We hebben in het commissiedebat aandacht gevraagd voor de toepassing van de Friese taal in de rechtszaal. De heer Van Nispen had het daar ook over. In het commissiedebat kwam er naar mijn beleving een wat aarzelende reactie op de vraag die wij daar hebben voorgelegd. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note57">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note58">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note59">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note60">constaterende dat het Fries de tweede officiële taal is in de provincie Friesland en dat in de Wet gebruik Friese Taal is vastgelegd dat Friese burgers het recht hebben om hun eigen taal te gebruiken, bijvoorbeeld in de rechtszaal;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note61">constaterende dat de beschikbaarheid van Friese rechtbanktolken van C1-niveau onder druk staat en dat daarmee het kunnen spreken van de Friese taal in de rechtszaal niet geborgd is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note62">verzoekt de regering in overleg met de provincie tot een oplossing te komen waarbij het kunnen spreken van de Friese taal in de rechtbank door betrokkenen geborgd is,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note63">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note64">Deze motie is voorgesteld door de leden Palland, Romke de Jong en Bikker.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note65">Zij krijgt nr. kst-29279-680</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note66">Hierover is een vraag van de heer Van Nispen van de SP.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note67">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg8">Ja, ik heb een vraag over deze motie. We weten allemaal dat iedereen dit belangrijk vindt. Ik vermoed zomaar dat de minister zal zeggen: dit vind ik ook heel belangrijk; in het Fries spreken moet gewoon kunnen. Maar ik hoor in deze motie helemaal niks over de vergoedingen voor de tolken en vertalers. Ik hoop dat mevrouw Palland zich erin verdiept heeft en haar oor te luisteren heeft gelegd bij de beroepsgroep om te zien waar dit probleem vandaan komt. Daarom stel ik haar rechtstreeks de vraag: hoe kan het eigenlijk dat er geen Friese tolken en vertalers meer zijn die in Leeuwarden willen tolken en vertalen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note68">Mevrouw Palland (CDA)</note>
+            <u who="#HildePalland" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg9">Daar hebben wij de Friese Statencommissie over gesproken. Het gaat natuurlijk over de vergoeding en de onderhandelbaarheid van onder andere de tarieven. Daar heb ik ook nog een vraag over aan de minister. We hebben daar in het commissiedebat ook gezamenlijk vragen over gesteld. Ik heb uw inbreng uiteraard gehoord. Er is in de vorige periode een brede discussie geweest hierover en er kwam een aanpassing van het beleid. Daar heb ik nog een vraag over aan de minister, over de onderhandelbaarheid van de tarieven. Maar ik wil deze situatie in Friesland niet meteen koppelen aan die systeemdiscussie, omdat hier ook nog een bijzondere wet onder ligt: de Wet gebruik Friese taal.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note69">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg10">Heel kort, meneer Van Nispen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note70">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg11">Die wet is er zeker en die moet zo snel mogelijk weer gehandhaafd worden. Dat kan heel makkelijk, namelijk door tolken van het Fries weer een eerlijke vergoeding te betalen. Dat is eigenlijk de enige oplossing. Al het andere is cosmetica, bijvoorbeeld om te vragen om nog een keer in gesprek te gaan. We hebben bij hetzelfde gesprek gezeten. Volgens mij weet mevrouw Palland prima hoe het zit. Ik ken de positie van het CDA ten aanzien van die stelselwijziging in de vorige periode. Die is er eigenlijk met valse argumenten doorheen gedrukt, ook tegen de zin van de fractie van mevrouw Palland en de fractie van D66. Marktwerking en aanbesteding zijn niet de oplossing voor deze problemen. Het enige wat werkt, zijn hoge tarieven. Het zou passend zijn om daar gewoon eerlijk over te zijn. Ik hoop ook echt op steun van mevrouw Palland voor onze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note71">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg12">Mevrouw Palland nog en dan vervolgt zij haar vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note72">Mevrouw Palland (CDA)</note>
+            <u who="#HildePalland" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg13">Ja, ik heb daar een vraag over aan de minister. Die zal ik hem nu voorleggen, omdat dit een belangrijk punt voor ons is. Maar wij zien deze discussie vooralsnog even los van de systematiekdiscussie die we eerder hebben gevoerd. In de vorige periode is besloten tot een aanpassing van de tekst in het Btis voor tolken. Daarmee is de mogelijkheid gegeven om te onderhandelen over de tarieven. Van de tarieven die in dat besluit als minimumtarieven gepresenteerd worden, is de ervaring nu dat de tolken en vertalers aangeven dat die in de praktijk als maximumtarieven worden gezien. Dat kan toch niet de bedoeling zijn, minister? Ik zou dus graag een reactie van de minister vragen op de beleidswijziging die in de vorige periode is ingevoerd en hoe dit nu in de praktijk daadwerkelijk zijn beslag krijgt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note73">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg14">Hartelijk dank, mevrouw Palland. Er zijn zes moties ingediend en er is een beperkt aantal vragen gesteld. De minister heeft een kleine minuut nodig in verband met het uitprinten van de moties en zal dan reageren. Blijft u dus allen zitten. Ik schors voor een minuut.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note74">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note75">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg15">Ik geef het woord aan de minister voor Rechtsbescherming voor het oordeel over de moties en het beantwoorden van een aantal vragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note76">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg16">Voorzitter, dank. Fijn dat we hier het debat kunnen afronden. Het was in mijn ogen een goed commissiedebat. Laat ik direct met de moties beginnen. De motie op stuk nr. 675 van de heer Van Nispen gaat over iets waar we het in het commissiedebat kort over hebben gehad maar waar we het al in een eerdere fase vrij lang over hebben gehad. Ik zou de motie graag willen ontraden. Dat heeft te maken met het feit dat de herzieningsprocedure een buitengewoon rechtsmiddel is waarmee in uitzonderlijke gevallen onherroepelijke rechterlijke uitspraken kunnen worden herzien. Dat is een zeer verfijnde procedure. Uit de evaluatie van de wet in 2018 komt naar voren dat er geen reden is voor een verdere verruiming van het novumcriterium en dat de wettelijke regeling zoals we die nu hebben, eigenlijk juist een hele goede balans geeft tussen aan de ene kant de rechtsbescherming, waar je zo'n regeling natuurlijk voor moet hebben, maar aan de andere kant ook de rechtszekerheid. Je wilt ook niet dat er na drie instanties nog een vierde instantie komt en dat er zowel voor verdachten als voor slachtoffers te lang onduidelijkheid blijft bestaan over een zaak. Dat risico bestaat wel als je het novumcriterium verder zou oprekken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg17">Voorzitter. Dan kom ik op de motie-Van Nispen op stuk nr. 676, die vraagt om in gesprek te gaan over het rapport van de Werkgroep Reflectie Toeslagenaffaire Rechtbanken en om de aanbevelingen die meer liggen op het terrein van beleid van het ministerie van Justitie te bespreken. Ik doe dat heel erg graag. Ik kan die motie oordeel Kamer geven. In de richting van de heer Van Nispen zeg ik daarbij dat ik hoop dat ook de Raad van State tijdig met een reflectierapport komt. Dat hebben we natuurlijk niet in de hand, maar dan kunnen we die twee wellicht samenpakken. Ik probeer zo goed en zo kwaad als het kan in ieder geval een eerste appreciatie van hoe we daarmee om denken te gaan voor de begrotingsbehandeling bij uw Kamer te hebben liggen, zodat we daar bij de begrotingsbesprekingen langer bij stil kunnen staan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg18">Dan ga ik door met de motie-Van Nispen op stuk nr. 677 over tolken en vertalers. Ik kijk even in mijn papieren. Die zit er niet bij. Die motie bevat twee onderdelen in het dictum. Met het laatste onderdeel van het dictum ben ik het volledig eens, namelijk dat we ervoor moeten zorgen dat er ook in Friesland gerechtstolken beschikbaar zijn. Maar met het eerste deel van het dictum kan ik slechter uit de voeten. Dat zegt eigenlijk: je moet de huidige tarieven gaan indexeren. Vorig jaar is er een lang debat geweest over wat er moet gebeuren om ervoor te zorgen dat de tarieven voor tolken op een eerlijk en goed niveau komen, een niveau waar tolken voor kunnen en willen werken. Dat is een andere systematiek dan de systematiek die hier wordt voorgesteld. Ik weet dat de heer Van Nispen er toen ook al kritisch over was, maar dat was wel de vorm van aanbesteding en inschrijving die nu eigenlijk al in gang is gezet door mijn collega Grapperhaus. Die moet daar uiteindelijk toe leiden. Ook toen was de heer Van Nispen dus een andere mening toegedaan, maar het lijkt mij onverstandig om daar doorheen te gaan lopen, juist omdat dat proces op dit moment gaande is. Deze motie moet ik ontraden, hoewel ik het met het tweede deel van het dictum eens ben.</seg>
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg19">Dat zou precies de reden zijn waarom ik de motie-Palland c.s. op stuk nr. 680 wel zou kunnen ondersteunen en oordeel Kamer zou willen laten. Die motie vat eigenlijk samen wat in het tweede deel van het dictum staat. Ik rond nu even het puntje tolken af. In een reactie op mevrouw Palland zeg ik dat de oude tarieven in de besluiten gevat zijn als minimumtarieven. Dat zijn natuurlijk geen maximumtarieven. Er moet een discussie over faire tarieven gaande zijn tussen aan de ene kant de verschillende instanties, zoals rechtbanken, Openbaar Ministerie en andere instanties die gebruikmaken van tolkendiensten en aan de andere kant de intermediairs. Daarachter moeten de intermediairs natuurlijk het gesprek aangaan met de verschillende tolken om ervoor te zorgen dat zij tolken voor een bepaald uurtarief aan zich binden om die diensten te kunnen leveren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note77">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg20">De motie op stuk nr. 677 van de heer Van Nispen is ontraden. Hij heeft daar een vraag over. De motie op stuk nr. 680 van mevrouw Palland heeft oordeel Kamer gekregen. Een korte vraag van de heer Van Nispen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note78">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg21">Ik wil eigenlijk iets heel anders vragen. Het laatste wat de minister zegt, klopt gewoon niet. Dat klopt gewoon niet. Tolken wordt op dit moment gewoon het mes op de keel gezet. Er is geen tarief waarover onderhandeld kan worden. Dat minimumtarief is gewoon het maximumtarief. Er wordt niet onderhandeld. Als je dat wel probeert, sta je op de zwarte lijst en word je gewoon niet meer gebeld door de IND en de politie. Dat is de situatie. Maar nu mijn vraag, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note79">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg22">Kort, want het is een tweeminutendebat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note80">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg23">Ja, absoluut. De tolken stonden hier te demonstreren. Wij waren er. Ulysse Ellian was er. De minister hebben we helaas niet gezien. Het zou heel goed zijn als de minister met de tolken in gesprek gaat. Morgen zijn ze nog in Amsterdam: nieuwe ronde, nieuwe kansen! Zij protesteren terecht, omdat zij tarieven krijgen uit 1981 en 1963. Dat is toch niet uit te leggen? Ik zou aan de minister willen vragen hoe hij dat kan uitleggen. Hoe kan hij rechtvaardigen dat deze mensen, gerechtstolken en gerechtsvertalers die zo belangrijk zijn voor de rechtsstaat — daarover hebben we hopelijk geen discussie — een tarief krijgen waarvan ze niet eens rond kunnen komen? Het is werkelijk schandalig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note81">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg24">Wij onderhandelen niet met individuele tolken. Dat is juist de winst van de stelselwijziging die er is geweest. Dat zou ook niet kunnen, want er zijn heel veel tolken die dat werk kunnen en moeten doen. Ik hoop en wens ook dat ze dat blijven doen. Wij maken afspraken met intermediairs. Die moeten ervoor zorgen dat ze voldoende tolken beschikbaar hebben om tegen de tarieven die wij met de intermediairs afspreken, dat werk te kunnen leveren. Dus dat is een getrapt stelsel, waarbij wij hebben gezegd: er zit sowieso een bodem in. Dat is eigenlijk die bodem waarvan u ook zegt dat dat eigenlijk aan de lage kant is, en daarom hebben we ook gezegd dat dat een minimumtarief is. Maar daarbovenop — en daar zal in zo'n aanbesteding en inschrijving het spel van vraag en aanbod moeten blijken — zal de prijs natuurlijk hoger uitvallen als er gezegd wordt "nou, hier doen we het niet voor" of "hier vinden wij de tarieven gewoon te laag". Uiteindelijk moet de intermediair ook waar kunnen maken dat hij het kan leveren waarvoor hij inschrijft.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note82">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg25">Echt afrondend, meneer Van Nispen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note83">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg26">Ja, voorzitter. Want zo gaat het natuurlijk niet werken; dat kan iedereen bedenken. Die aanbestedingen en die marktwerking zijn een doodlopend pad. Maar als de minister dat onzalige plan gaat doorzetten, dan nog zou je een fatsoenlijke bodem kunnen neerleggen. En de minister heeft nu een onfatsoenlijke bodem neergelegd. En daar zouden we ons als overheid echt voor moeten schamen, dat die gerechtstolken en gerechtsvertalers, die zzp'ers, niet rond kunnen komen van de huidige tarieven. Eén dringende oproep, en ik hoop echt op een toezegging: ga alstublieft met de tolken en vertalers in gesprek, en laat u vertellen wat hen op dit moment overkomt, en wat onze rechtsstaat aan het overkomen is. Het is echt crisis.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note84">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg27">Ik denk dat we de discussie van vorig jaar niet over moeten doen. En ik weet ook dat de heer Van Nispen daar op een andere manier in zit. Tegelijkertijd was er in ieder geval een brede steun in deze Kamer om te zeggen: we gaan het op deze manier doen, juist om te komen tot eerlijke en faire tarieven. En ik ga nooit een gesprek uit de weg; dat heb ik ook in het commissiedebat al eerder gezegd. Tegelijkertijd vind ik het ook onverstandig om een dossier, dat door mijn collega Grapperhaus wordt getrokken en waar in de hele discussie om te komen tot een stelselwijziging allerlei gesprekken over zijn geweest, nu nog eens een keer dunnetjes over te doen. Wat ik belangrijk vind, is dat er goede gesprekken plaatsvinden tussen intermediairs en tussen individuele tolken over wat faire tarieven zijn waartegen ze het werk kunnen doen. En wij doen die aanbestedingsprocedures eigenlijk stapsgewijs, want dat gaat ook niet in één grote procedure, maar per kavel. Ik geloof dat het voor Noord-Nederland in de rechtspraak zelfs al lopend is. Mijn dringende advies zou zijn om af te wachten waar dat toe leidt. Ik heb er vertrouwen in dat dat daar leidt tot een goede uitkomst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note85">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg28">De heer Ellian van de VVD heeft ook nog een vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note86">De heer Ellian (VVD)</note>
+            <u who="#UlysseEllian" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg29">Ik wil graag toch verheldering vragen aan de minister. Ik heb vanochtend inderdaad met de tolken en vertalers gesproken. En wat ik niet goed begrijp, is het volgende, zo vraag ik via u aan de minister. Hoe kan het dat tolken nu zeggen "het is rendabeler voor ons om, als je bijvoorbeeld in Limburg woont, in Groningen te gaan tolken bij de rechtbank, of andersom in Maastricht, want dan krijg je de reistijd en de reiskosten", wat dus uiteindelijk veel meer kosten meebrengt voor de overheid, terwijl misschien, als je de tarieven zou verhogen, die tolken — en dat is nou het probleem in Friesland — zouden zeggen: nou, dan tolken we gewoon in ons eigen gebied? Dus ik kan het ene niet met het andere rijmen. Kunt u daarop reageren?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note87">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg30">Dit zijn natuurlijk precies de gesprekken die tussen intermediair en tolken moeten plaatsvinden. En wij doen natuurlijk een inschrijving en een aanbesteding, waarbij intermediairs mogen inschrijven voor verschillende tolkdiensten en bepaalde tarieven. En dan ga ik ervan uit dat daar aan de achterkant een goed tarief uit rolt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note88">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg31">De heer Ellian nog, kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note89">De heer Ellian (VVD)</note>
+            <u who="#UlysseEllian" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg32">Dank voorzitter, heel kort. Maar als die intermediair, zo zeg ik via de voorzitter, zich inschrijft voor €60, en het tarief is nu €43, dan kom je natuurlijk uiteindelijk nog steeds op iets uit waarvan die tolken misschien straks — en dat zeggen ze nu al — massaal zeggen: we kappen ermee. Dat is toch uiteindelijk onwenselijk? Dus ik snap niet wat de toevoeging van de intermediair is om tot een eerlijk tarief te komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note90">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg33">De minister, en dan de twee moties van de heer Eerdmans.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note91">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg34">Vorig jaar hebben we hier toch al uitgebreid over gedebatteerd, weliswaar niet met de heer Ellian maar wel met zijn voorganger, en volgens mij was er toen een brede steun om het op deze leest te schoeien, ook vanuit de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note92">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg35">We gaan naar de vierde en vijfde motie, die van de heer Eerdmans. Nee, meneer Van Nispen, u heeft echt ruim de tijd gehad om te interrumperen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note93">De heer Van Nispen (SP)</note>
+            <u who="#MichielvanNispen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg36">U kunt toch antwoord geven op de vraag!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note94">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg37">Ik vind dat u voldoende ruimte heeft gekregen om uw punt te maken. De heer Ellian ook. En ik geef het woord aan de minister voor de moties van de heer Eerdmans, voor een oordeel daarover.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note95">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg38">Voorzitter. Om te beginnen de motie onder 4, de motie op stuk nr. 678, over evaluatiegesprekken. Ik moet die motie ontraden, om een aantal redenen. Er wordt veel gedaan om meer werk te maken van slachtofferrechten, en ook voor betere informatievoorziening naar de slachtoffers toe. Het voeren van evaluatiegesprekken met de rechter in kwestie is echt een ingewikkelde. Dat heeft er ook mee te maken, en u weet dat vast, dat de rechter een uitspraak doet, en dat dat de manier is waarop de rechter spreekt. Om het zo even te zeggen in populaire termen, zoals we vaak zien bij de Rijdende Rechter: daar heeft u het maar mee te doen. Dat is bijvoorbeeld ook de reden dat de uitleg van een vonnis nooit door de rechter in kwestie wordt gedaan, maar altijd door een persrechter, en dat het directe gesprek met een rechter eigenlijk alleen maar meer fuss over een vonnis kan genereren, omdat je dat dan verder gaat inkleuren. Dat zou ik echt hoogst onverstandig vinden. Ik begrijp natuurlijk wel de vraag om te zorgen voor een goede motivering, zodat ook duidelijk is wat de afwegingen zijn geweest van een rechter om te komen tot zijn uiteindelijke vonnis. Maar dat is net even wat anders dan in deze motie wordt gevraagd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note96">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg39">De motie op stuk nr. 678 is ontraden. De heer Eerdmans heeft daar nog een vraag over.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note97">De heer Eerdmans (JA21)</note>
+            <u who="#JoostEerdmans" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg40">Ik begrijp wat minister Dekker zegt. Ik spreek veel nabestaanden die zeggen dat ze het vonnis lastig, ingewikkeld, moeilijk vinden en daar vragen over hebben. Vooral als zo'n strafmaat lager uitvalt dan nabestaanden hoopten, kan zo'n gesprek echt louterend werken. Ik begrijp dat we het geheim van de raadkamer niet openbaar kunnen maken, maar als je de directe nabestaanden van zo'n moord of een slachtoffer van een ernstig delict de ruimte zou kunnen geven om met die rechter éven die uitwisseling te hebben, dan neem je een hoop ellende weg, in het trauma dat ze al hebben. Ik denk dat dat zal helpen in het hele proces dat ze tegemoet gaan. Dus ik zou toch willen vragen: zou u, niet elke week en niet in elk geval maar in uitzonderlijke gevallen, kunnen toestaan dat nabestaanden daar een beroep op kunnen doen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note98">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg41">Ik blijf dat laatste ingewikkeld vinden, zeker als het zo vervat wordt in deze motie, dus ik blijf even bij mijn advies. Wat natuurlijk wel kan, maar dat zit veel meer vóór de uitspraak van het vonnis, is zorgen voor voldoende ruimte om ook in de rechtszaal slachtoffers spreekrecht te geven, daar goed naar te luisteren, ook slachtoffers op een juiste manier te bejegenen. We weten hoe belangrijk dat is en ik denk dat we het daar allebei wel heel erg over eens zijn. Ik ben altijd bereid om ook in gesprek te gaan met de rechtspraak om te kijken of dat nóg beter kan; kan dat nog weer anders, kunnen we daar nog méér invulling aan geven? U vraagt alleen in deze motie heel specifiek om dat te doen met evaluatiegesprekken; dat vind ik een heel ingewikkelde. Dus ik ben meer dan bereid om altijd te blijven zoeken en ik neem ook de goede ideeën van de heer Eerdmans daarin mee, maar ik hoop dat hij ook begrijpt dat wat hij hier vraagt in deze motie ook gewoon rechtsstatelijk ingewikkeld is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note99">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg42">De motie blijft ontraden. De motie op stuk nr. 679.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note100">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:techn" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg43">Over de motie op stuk nr. 679 kan ik wel weer positiever zijn. We hadden hierover een leuk en een goed debatje, ook over hoe je ziet dat het in andere landen op een goede manier kan werken. Dus ik kan de motie over publiekscampagnes en daarin ook de punitieve kant onder de aandacht brengen, zeker ondersteunen en het oordeel aan de Kamer laten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note101">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg44">De motie op stuk nr. 679 heeft oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note102">Minister Dekker</note>
+            <u who="#SanderDekker" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u41">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg45">Ik dacht dat ik de motie op stuk nr. 680 al had geadviseerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note103">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u42">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg46">Dat klopt. De vragen van mevrouw Palland zijn daar ook bij beantwoord, dus dan zijn we aan het eind gekomen van dit tweeminutendebat. Ik dank de collega's, ik dank de minister voor Rechtsbescherming.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note104">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note105">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:macro" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.u43">
+               <seg xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.seg47">We schorsen voor een enkel ogenblik en dan gaan we door met de begroting Algemene Zaken en de begroting Koning.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-10-14-tweedekamer-5.note106">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

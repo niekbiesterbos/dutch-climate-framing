@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-06-10 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-06-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 87, Session 10 (2021-06-10)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 87, Session 10 (2021-06-10)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="87" xml:lang="en">Meeting 87</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="10" xml:lang="en">Session 10</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-06-10">Sitting 2021-06-10</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="40">40 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="40">40 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2418">2,418 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2418">2,418 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-06-10">2021-06-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="94"/>
+               <tagUsage gi="seg" occurs="53"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="40"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-06-10">2021-06-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.head1">EU-Gezondheidsraad d.d. 15 juni 2021</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u1">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg1">We gaan verder met het tweeminutendebat EU-Gezondheidsraad die op 15 juni plaatsvindt. U heeft daarover recentelijk een commissiedebat gehad. We hebben drie sprekers van de zijde van de Kamer. De eerste is de heer Paternotte van de fractie van D66. Terwijl hij hier met gezwinde spoed naartoe komt en zijn tekst gaat oplezen vanaf zijn telefoontje, verwelkom ik nog even de minister. Fijn dat u bij ons bent; we hebben u even laten wachten — excuses daarvoor — maar het belooft een mooi en prachtig maar kort debat te worden. Als we daarmee klaar zijn, ga ik een halfuur schorsen, waarna we gaan stemmen. Dit even voor de fractiesecretarissen et cetera. Na dit debat schorsen we dus voor de lunch en daarna, na een halfuur, gaan we stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg2">Het woord is aan de heer Paternotte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note2">De heer Paternotte (D66)</note>
+            <u who="#JanPaternotte" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u2">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg3">Voorzitter, hat lampje "afronden" brandt hier. Ik weet niet of het een signaal van u is …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note3">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u3">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg4">Dat is een kleine hint!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note4">De heer Paternotte (D66)</note>
+            <u who="#JanPaternotte" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u4">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg5">Ik heb twee moties, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note5">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note6">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note7">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note8">constaterende dat de ECDC wekelijks een aanbeveling doet voor reizen naar gebieden binnen Europa;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note9">constaterende dat Europese lidstaten desondanks hun eigen reisadviezen en kleurencodes per land of per gebied opstellen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note10">spreekt uit dat het onwenselijk is als lidstaten voor gebieden verschillende reisadviezen hanteren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note11">verzoekt de regering bij de EU-Gezondheidsraad op 15 juni aanstaande bij andere lidstaten erop aan te dringen om de aanbevelingen van de ECDC voor reizen per gebied over te nemen zodat de reisadviezen op elkaar zijn afgestemd,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note12">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note13">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note14">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note15">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note16">constaterende dat landen binnen de Europese Unie verschillende inreisbeperkingen hebben voor landen waar gevaarlijke virusvarianten van SARS-COV-2 heersen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note17">constaterende dat in het 115de OMT-advies staat dat het wenselijk is om vliegverboden en maatregelen rondom reizen in Europees verband af te stemmen en te voorkomen dat landen eigen beleid maken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note18">verzoekt de regering bij de EU-Gezondheidsraad op 15 juni aanstaande ook vliegverboden te bespreken om zo Europees af te stemmen over inreisbeperkingen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note19">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note20">Deze motie is voorgesteld door de leden Paternotte en Van den Berg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note21">Zij krijgt nr. kst-21501-31-612</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note22">Deze motie is voorgesteld door het lid Paternotte.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note23">Zij krijgt nr. kst-21501-31-613</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note24">De heer Paternotte (D66)</note>
+            <u who="#JanPaternotte" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u5">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg6">En dan nog een enkele vraag. Ik heb er nog een nachtje over geslapen, want de regering heeft een brief naar ons gestuurd waarin staat dat de gratis testen deze zomer, voor wie nog niet de kans op volledige vaccinatie heeft gehad ten behoeve van DCC, 350 miljoen zouden kosten. Ik heb er net als collega's gisteren naar gevraagd, maar heb eigenlijk nog niet het begin gehoord van een antwoord op vraag waar die 350 miljoen op is gebaseerd. Omdat de regering ook waarschuwt voor de onrechtmatigheid, is mijn vraag hoe die 350 miljoen nu precies tot stand komt. Dat gaan we volgende week horen, maar voordat we op een traject verdergaan waarvan de regering dacht dat het onrechtmatig is, moet er toch iets van een berekening zijn van hoe je aan die 350 miljoen komt. Al is het nu maar even een houtskoolschets van wat de redenering erachter is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg7">Ten aanzien van de vliegverboden heb ik nog de vraag aan de minister of het OMT vandaag de heroverweging die hij gisteren aankondigde heeft kunnen bespreken en of hij ons daarover zeer binnenkort kan verwittigen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg8">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note25">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u6">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg9">Prima, dank u wel. Dan gaan we luisteren naar mevrouw Aukje de Vries van de fractie van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note26">Mevrouw Aukje de Vries (VVD)</note>
+            <u who="#AukjedeVries" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u7">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg10">Dank u wel, voorzitter. Allereerst een motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note30">constaterende dat voorzieningszekerheid van medische isotopen van groot belang is voor de diagnose van onder meer hart- en vaatziekten en de behandeling van kanker;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note31">van mening dat Nederland daarbij een belangrijke rol speelt voor de Europese Unie, met onder meer de Pallas-reactor;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note32">constaterende dat de Europese Commissie een Europees kankerbestrijdingsplan heeft gepresenteerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note33">constaterende dat de Europese Commissie een nieuw actieplan heeft gepresenteerd in het kader van de strategische agenda voor medische toepassingen van ioniserende straling met nucleaire en stralingstechnologie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note34">verzoekt de regering bij de uitvoering van dat actieplan ook in te zetten op financiële ondersteuning vanuit de Europese Unie om de voorzieningszekerheid van medische isotopen te borgen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note35">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note36">Deze motie is voorgesteld door de leden Aukje de Vries en Van den Berg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note37">Zij krijgt nr. kst-21501-31-614</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note38">Mevrouw Aukje de Vries (VVD)</note>
+            <u who="#AukjedeVries" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u8">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg11">En dan nog een vraag tot slot. Gisteren hebben we het kort gehad over antibioticaresistentie en de vervolgacties daarop vanuit de Europese Unie. In de NRC stond onlangs ook weer een redelijk alarmerend bericht over een nieuwe pandemie en bacteriën die resistent zijn tegen antibiotica. Het is wat ons betreft een belangrijk onderwerp, waar ook aandacht voor moet zijn in de Europese Unie. We willen nogmaals aandringen op gezamenlijke actie binnen de Europese Unie en we willen dat deze minister zich daar ook hard voor zal maken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note39">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u9">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg12">Dank u wel. Dan gaan we luisteren naar mevrouw Pouw-Verweij van de fractie van JA21.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note40">Mevrouw Pouw-Verweij (JA21)</note>
+            <u who="#NickiPouw-Verweij" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u10">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg13">Dank u wel, voorzitter. Zoals ik tijdens het commissiedebat al duidelijk maakte, voelt mijn fractie niets voor een permanente Europese gezondheidsunie. JA21 is van mening dat volksgezondheid een nationale kwestie is en moet blijven. Ik ben blij dat ik het kabinet kan vinden in deze overtuiging. Dit vooropgesteld, achten wij het van groot belang dat er nauwkeurig afgebakende mandaten worden vastgesteld om te voorkomen dat onze nationale soevereiniteit op dit vlak wordt uitgehold. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note41">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note42">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note43">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note44">constaterende dat op de Europese Raad van 15 juni stappen worden gezet in de richting van een permanente Europese gezondheidsunie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note45">constaterende dat instellingen die zijn of worden opgericht in het kader van de Europese gezondheidsunie mandaten krijgen voor het uitoefenen van hun taken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note46">overwegende dat de inrichting en financiering van de gezondheidszorg een nationale aangelegenheid is en ook hoort te blijven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note47">overwegende dat mandaten tijdig en nauwkeurig dienen te worden afgebakend, om de subsidiariteit en proportionaliteit te waarborgen in het licht van nauwkeurig omschreven doelstellingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note48">verzoekt de regering bij de onderhandelingen over de Europese gezondheidsunie in te zetten op nauwkeurig afgebakende mandaten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note49">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note50">Deze motie is voorgesteld door de leden Pouw-Verweij en Van den Berg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note51">Zij krijgt nr. kst-21501-31-615</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note52">Dank u wel. Dan gaan we nu luisteren naar mevrouw Van den Berg zelf. Het woord is aan haar.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note53">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u11">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg14">Dank u wel, voorzitter. In Nederland kennen we het recht om vergeten te worden. Tien jaar nadat je kankervrij bent, mogen een overlijdensverzekering en een uitvaartverzekering er geen rekening meer mee houden dat jij kanker hebt gehad. Dat zouden wij ook graag Europees bepleiten en daarom dien ik de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note54">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note55">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note56">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note57">overwegende dat de EU een plan heeft voor aanpak van kanker;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note58">overwegende dat in Nederland het recht bestaat om "vergeten te worden": een verzekeraar mag na tien jaar na het einde van de succesvolle kankerbehandeling bij overlijdensrisico- en uitvaartverzekeringen geen rekening meer houden met die kanker bij de behandeling van de verzekeringsaanvraag;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note59">verzoekt de regering de Nederlandse wetgeving onder de aandacht te brengen van andere EU-lidstaten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note60">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note61">Deze motie is voorgesteld door het lid Van den Berg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note62">Zij krijgt nr. kst-21501-31-616</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note63">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u12">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg15">Voorzitter. Ik heb het vaker gezegd: alleen ga je sneller, maar samen kom je vaak verder. We hebben dus een positieve houding ten aanzien van de Europese voorstellen, maar we zijn het wel eens met mevrouw Pouw-Verweij dat je dat goed moet afbakenen en een goed mandaat moet geven. Vandaar mijn steun voor de motie van mevrouw Pouw-Verweij, maar ook voor de motie van mevrouw De Vries over PALLAS, want bij geneesmiddelen voor de toekomst hebben we ook allemaal belang. Hetzelfde geldt voor het verzoek van de heer Paternotte dat ook vliegverboden worden afgestemd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note64">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u13">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg16">Dus u bent het eigenlijk met iedereen eens.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note65">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u14">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg17">Ik ben het vandaag met heel veel mensen eens.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note66">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u15">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg18">Oké, dat stukje nuance is dan ook genoteerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note67">Mevrouw Van den Berg (CDA)</note>
+            <u who="#JobavandenBerg" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u16">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg19">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note68">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u17">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg20">Ik schors voor een paar kleine minuutjes, waarna we gaan luisteren naar de minister.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note69">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note70">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u18">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg21">Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note71">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u19">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg22">Voorzitter, dank u wel. Wat fijn om weer onder uw leiding hier te mogen vergaderen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note72">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u20">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg23">Dat is wederzijds.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note73">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u21">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg24">Wij gaan allereerst de moties doen en er is nog een enkele vraag. Ik begin met de motie op stuk nr. 612 van Paternotte en Van den Berg. Die verzoekt de regering bij de EU-Gezondheidsraad aan te dringen om de aanbevelingen van ECDC voor reizen per gebied over te nemen, zodat de reisadviezen op elkaar zijn afgestemd. Ik ga die motie ontraden, omdat wij er zelf niet altijd bij gebaat zijn om exact de Raadsaanbeveling op te volgen of om exact de reisadviezen van anderen te willen opvolgen. Wij willen graag baas blijven in eigen land als het gaat om gezondheidsoverwegingen. Het is dus wel verstandig om grosso modo het ECDC te volgen, maar ik wil volgende week juist inbrengen dat de criteria op die ECDC-lijst voor groen en geel en oranje en, als afgeleide daarvan, wanneer je zo'n DCC wel of niet moet gebruiken, te strak staan afgesteld. Ik ga de motie dus ontraden, omdat ik zelf graag ruimte wil houden. Als ECDC of collega-lidstaten al te streng zijn, dan wil ik daar zelf als Nederland een eigenstandige opvatting over kunnen hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note74">De heer Paternotte (D66)</note>
+            <u who="#JanPaternotte" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u22">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg25">De minister zegt dat het wel verstandig is als lidstaten ECDC-aanbevelingen overnemen. In de motie staat dat er bij lidstaten op moet worden aangedrongen om dat te doen. In de combinatie van de woorden van de minister en de motie leidt dat dus tot: er bij andere lidstaten op aandringen om dat te doen wat verstandig is. In het vorige weekend wisten we al dat het Europese advies voor Duitsland naar geel kon op basis van de nieuwste cijfers. Er zat een week tussen. Als je als leidraad voor deze zomer hebt dat we dat met elkaar samen sneller doen, dan heb je eerder reisadviezen op geel. Dat is overzichtelijker voor heel veel reizigers, maar ook gunstiger voor de vakantieperspectieven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note75">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u23">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg26">Nee, dat zit echt anders, denk ik. Je gaat als land altijd over je eigen reisadviezen. Als wij alles op groen zouden willen zetten, dan kunnen we dat sowieso morgen doen. Als je je eigen mensen zou willen helpen, dan hebben we er juist niet zo heel veel aan om er per se op aan te dringen dat iedereen Europees hetzelfde doet. Dat is één.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg27">Twee: ik vind nou juist dat de huidige ECDC-richtlijn te strak staat afgesteld als het gaat over de kleurcodes. 25 per 100.000 over de afgelopen veertien dagen is dan groen, terwijl ik denk dat die drempelwaarde voor groen prima veel hoger kan zijn tegen de achtergrond van de toenemende vaccinatiegraad. Kortom, of ik ECDC zal willen blijven volgen, hangt helemaal af van de mate waarin ECDC de richtlijn, de kleurcodes en de drempelwaarde voor die kleurcodes aanpast. Tot nu toe vind ik ze juist aan de strenge kant. Mijn pleidooi volgende week zal zijn: laten we iets ontspannener in de wedstrijd zitten tegen de achtergrond van de toegenomen vaccinatiegraad. Daarmee doen wij de mogelijkheden voor Nederlanders om elders op vakantie te gaan, juist toenemen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg28">Kortom, het kan verstandig zijn om het op te volgen. Als het goede richtlijnen en goede indicatoren zijn voor de kleurcodes, dan gaan we dat ook doen. Maar ik behoud mij wel het recht voor om ervan af te wijken als ik vind dat ze te strak staan afgesteld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note76">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u24">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg29">De motie op stuk nr. 613.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note77">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u25">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg30">Daarin wordt de regering verzocht om bij de aanstaande Gezondheidsraad ook vliegverboden te bespreken en om Europees af te stemmen over inreisbeperkingen. Daarover wil ik best het oordeel aan de Kamer laten, omdat ik het van waarde vind om het wel te benoemen — dat zal ik doen — maar ik zeg daar wel een aantal dingen bij. Op dit moment zou het eigenlijk geen verschil maken. Die vliegverboden maken nagenoeg geen verschil ten opzichte van het huidige EU-inreisverbod. Dat verbod is namelijk al behoorlijk strikt, behalve voor EU-ingezetenen. Een vliegverbod zal dat ook gewoon zijn. Van de buurlanden is het eigenlijk alleen Duitsland dat een vliegverbod hanteert. Als je dan kijkt naar de uitzonderingen waarin dat verschilt, dan gaat het over topsporters, langeafstandsrelaties en zakenreizigers of zo. Van buiten de Europese Unie naar de Europese Unie zit er niet zo gek veel verschil tussen een vliegverbod ten opzichte van een EU-inreisverbod. Overigens hanteren we natuurlijk ook de dubbele testverplichting en de quarantaineplicht. Dus ja, ik wil het wel bespreken, maar ook daarvan zeg ik niet automatisch dat wij iets zouden moeten willen omdat Duitsland iets heeft. Ik zie daarvan op dit moment niet zo heel erg de toegevoegde waarde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note78">De heer Paternotte (D66)</note>
+            <u who="#JanPaternotte" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u26">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg31">Dit zijn inderdaad een aantal uitzonderingscategorieën die nu wel weer binnen kunnen komen. Dus dat zijn mensen die komen voor hun werk en langeafstandsrelaties, topsporters, kunstenaars, maar bijvoorbeeld ook studenten. Ik hoorde gisteren nog het verhaal van studenten die Nederland waren binnengekomen. Zij kwamen netjes met een formulier voor de quarantaineplicht, maar konden het op Schiphol bij niemand afgeven. Dus dat kan ook niet gecontroleerd worden. En het vliegverbod is ingesteld naar aanleiding van het feit dat studenten België binnenkwamen met de Indiase variant. Dus het maakt wel degelijk een groot verschil; volgens mij zie je dat ook in onze eigen cijfers. Ik wou dat nog een keer gemarkeerd hebben, omdat de minister natuurlijk zelf een vliegverbod heeft ingesteld, om achteraf te doen alsof dat niet zo'n verschil maakt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note79">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u27">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg32">Helder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note80">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u28">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg33">Ik houd echt staande dat het verschil ten opzichte van het EU-inreisverbod zeer gering is. Er zijn hooguit een aantal uitzonderingscategorieën. Overigens geldt voor reizigers uit zeerhoogrisicogebieden gewoon de dubbele testverplichting, voorafgaand aan binnenkomst, en de quarantaineplicht. Dus de verschillen zijn heel gering.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg34">Daar had u ook nog een vraag over, namelijk: hoe zit dat met het uitvoeren van de motie? De motie vraagt een heroverweging. Wij zullen het RIVM vragen — niet het OMT, want dat zal pas weer later gaan vergaderen — een nieuwe weging te doen. Ik zal morgen een procesbriefje maken over de vraag wanneer het RIVM die nieuwe weging doet en wanneer ik de Kamer daar dus ook weer over kan informeren.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg35">Dan had u nog naar aanleiding van de brief van collega Van Nieuwehuizen van vorige week een vraag over het testen, over die 350 miljoen. Het gaat over een maximum dat daarin wordt genoemd. Ik begrijp dat grosso modo de som is gemaakt van zo'n 5 miljoen reizigers. Stel dat je, in een worst case, 5 miljoen reizigers zal moeten gaan testen, en stel dat die testen alleen PCR zouden mogen zijn. Het bedrag van €30 dat u gisteren noemde, is natuurlijk het bedrag van de antigeentest, maar stel dat het alleen PCR zou moeten zijn, en stel dat daar op grond van de kostprijs €70 voor betaald zou moeten worden, dan kom je aan die 350 miljoen. Ik ga ervan uit dat het ons gaat lukken om het daar niet te laten landen. Waarom? Omdat ik vind dat we bijvoorbeeld kinderen onder de 12 moeten uitzonderen en omdat ik vind dat wij sowieso een veel hogere drempelwaarde voor het DCC zouden moeten gaan hanteren. En is bijvoorbeeld het moment waarop een vaccinatiebewijs daadwerkelijk als bewijs kan gelden voor entrance veertien dagen of nul dagen na de tweede prik? Daar wordt allemaal nog over gesproken, dus ik kan u pas volgende week een betere inschatting geven. Dit is een worst case. Ik mag ervan uitgaan dat het niet in die richting gaat, maar of het nou 5 miljoen is of 350 miljoen, de aanname dat dat een onrechtmatige besteding zou vragen, houd ik wel staande. Want het zal waarschijnlijk een onrechtmatige besteding worden, althans voor een deel. Dat verwacht ik in ieder geval. Volgende week kom ik met een betere en scherpere inschatting van de kostprijs, omdat we dan wat meer uitgangspunten hebben vastgesteld.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg36">De motie op stuk nr. 614 verzoekt de regering om bij het uitvoeren van het actieplan van de Europese Commissie in het kader van de strategische agenda voor medische toepassingen van ioniserende straling in te zetten op financiële ondersteuning van de lidstaten in de Europese Unie, om de voorzieningszekerheid van medische isotopen te borgen. Daarover wil ik graag het oordeel aan de Kamer laten. Dat doe ik maar even gemakshalve met verwijzing naar het debat van gisteren.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg37">Dan de motie op stuk nr. 615 van Nicki Pouw-Verweij en Joba van den Berg. Ik denk dat we ook daar gisteren uitvoeriger over gesproken hebben. Ik denk dat deze motie een passende afsluiting is van dat debat: wel die samenwerking, maar wel over je eigen bevoegdheden blijven gaan, dus helderder zijn over het mandaat. Ik steun deze motie zeer. Dus het is gewoon ondersteuning van het beleid en daarom zeg ik: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg38">Dan de motie op stuk nr. 616.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note81">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u29">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg39">Hebben we de motie op stuk nr. 615 gehad?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note82">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u30">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg40">Ja. Die heb ik zojuist oordeel Kamer gegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note83">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u31">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg41">Dat was oordeel Kamer, ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note84">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u32">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg42">Ja. Het gaat zo snel allemaal.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note85">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u33">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg43">Het gaat te snel voor mij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note86">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u34">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg44">Ongelofelijk. Dan alweer de motie op stuk nr. 616. Die verzoekt de regering de Nederlandse wetgeving onder de aandacht te brengen van andere EU-lidstaten. Dat gaat dan over het recht om vergeten te worden. Die wil ik graag uitvoeren, dus daarover laat ik het oordeel over aan de Kamer — hoewel het natuurlijk een nationale competentie is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg45">Nou, voorzitter, dat was het alweer. Zo snel kan het gaan. Nee, ik heb nog één vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note87">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u35">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg46">Ik wou al zeggen: stel je toch voor dat u door uw tekst heen bent.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note88">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u36">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg47">U dacht al: dit gaat wel heel snel zo.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note89">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u37">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg48">Ik schrok.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note90">Minister De Jonge</note>
+            <u who="#HugodeJonge" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u38">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg49">Ik pak even het antwoord erbij. Gezamenlijke actie van de Europese Unie op antibioticaresistentie vinden we inderdaad belangrijk. Die bepleiten we ook steeds in de Europese Unie, dus daar zet ik me graag voor in, is het antwoord.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg50">Dank.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note91">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u39">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg51">Dank u wel. Dank aan de minister voor zijn aanwezigheid.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note92">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note93">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.u40">
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg52">Ik wijs er even op dat we straks over deze moties gaan stemmen. Dat is over precies een halfuur. Ik schors tot 13.40 uur voor de lunch.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.seg53">Nogmaals dank aan de minister, en we wensen u een prettige werkdag.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-06-10-tweedekamer-10.note94">De vergadering wordt van 13.10 uur tot 13.42 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

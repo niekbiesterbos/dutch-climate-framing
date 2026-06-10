@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-07-06 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-07-06 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 97, Session 46 (2021-07-06)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 97, Session 46 (2021-07-06)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="97" xml:lang="en">Meeting 97</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="46" xml:lang="en">Session 46</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-07-06">Sitting 2021-07-06</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="39">39 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="39">39 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2971">2,971 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2971">2,971 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-07-06">2021-07-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="89"/>
+               <tagUsage gi="seg" occurs="45"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="39"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-07-06">2021-07-06</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.head1">Financiële markten</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u1">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg1">Aan de orde is het tweeminutendebat Financiële markten. Ik heet de minister van Financiën van harte welkom, alsook mijn collega's. Ik geef als eerste het woord aan de heer Nijboer van de Partij van de Arbeid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note2">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u2">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg2">Dank u wel, voorzitter. We kregen vanmiddag een brief van de minister van Financiën over het betalen voor pinnen. Als je geld wil pinnen, wil ABN AMRO vanaf een bepaald bedrag geld in rekening brengen. Voor studenten ligt dat bedrag nog lager. De Rabobank wil €0,75 per pintransactie vragen als je bij een andere bank dan de Rabobank of Geldmaat gaat pinnen. Daar ben ik mordicus tegen. Contant geld is een wettelijk betaalmiddel. Er zijn heel veel groepen mensen die daarvan afhankelijk zijn. Als je moet leren omgaan met geld of misschien bang bent om in de schulden te komen, heb je het gewoon nodig om contant te kunnen betalen. Dan kun je dat geld ook niet missen. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note6">overwegende dat ABN AMRO en Rabobank geld willen vragen voor het opnemen van je eigen geld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note7">overwegende dat banken een nutsfunctie hebben en contant betalen een wettelijk betaalmiddel is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note8">overwegende dat veel groepen er baat bij hebben als ze contant kunnen betalen, bijvoorbeeld als ze beperkt budget hebben, digitaal minder vaardig zijn of willen leren omgaan met geld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note9">verzoekt de minister in gesprek met banken ervoor te zorgen en indien nodig wettelijk af te dwingen dat mensen kosteloos hun geld kunnen blijven opnemen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note11">Deze motie is voorgesteld door de leden Nijboer, Alkaya, Van Raan, Stoffer, Ephraim, Van der Plas, Den Haan, Snels en Tony van Dijck.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note12">Zij krijgt nr. kst-32545-140</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note13">Ik dank u zeer.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note14">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u3">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg3">De heer Van Dijck wil er ook nog onder! De heer Van Dijck zet ik er nog onder. Dan staat de PVV er ook nog onder. Het is dus een breed ingediende motie, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note15">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u4">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg4">Dat is genoteerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note16">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:labor" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u5">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg5">Ik krijg er zelfs een pen bij. Het is geweldig. Dank u wel.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg6">Voorzitter. Ik heb ook nog een motie over Conservatrix. Die mensen zitten al maanden in de ellende en krijgen 30% minder pensioen uitgekeerd. Daar moet een einde aan komen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note17">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note18">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note19">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note20">overwegende dat de gedupeerden van Conservatrix al maanden met 30% worden gekort;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note21">overwegende dat de polishouders niets konden doen aan het faillissement van Conservatrix en erop mochten vertrouwen dat hun pensioen en andere verzekeringen in vertrouwde handen waren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note22">overwegende dat de opvangregeling levensverzekeraars voor hen een uitkomst had geboden, maar die net was afgeschaft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note23">verzoekt het kabinet in overleg met De Nederlandsche Bank een voorstel uit te werken om polishouders te compenseren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note24">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note25">Deze motie is voorgesteld door het lid Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note26">Zij krijgt nr. kst-32545-141</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note27">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u6">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg7">Ik dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note28">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u7">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg8">Ik u ook. Ik geef het woord aan de heer Alkaya van de Socialistische Partij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note29">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u8">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg9">Dank u wel, voorzitter. Mensen hebben tegenwoordig helemaal geen alternatief meer voor het gebruik van een commerciële bank bij het doen van hun alledaagse financiën. Het ontvangen van loon of het betalen van belastingen of zelfs een kopje koffie kopen hier in het parlement kan niet eens meer met contant geld, met geld van de overheid. Een bankrekening is vandaag de dag dus gewoon nodig om volwaardig deel te kunnen nemen aan de samenleving. Tegelijkertijd worden het hebben en gebruiken van een bankrekening steeds duurder. Niet alleen gaan elk jaar de tarieven van zo'n bankrekening omhoog. De negatieve rente komt ook steeds dichterbij. Je moet tegenwoordig zelfs betalen aan bepaalde banken om bij je eigen geld te mogen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg10">Deze trend van enerzijds contant geld ontmoedigen en anderzijds de kosten van digitaal geld verhogen is onwenselijk. Geld is simpelweg een nutsvoorziening, die voor iedereen toegankelijk moet blijven in welke vorm dan ook. Daarom dien ik vandaag twee moties in. Eén motie, die zojuist door de heer Nijboer mede namens mij is ingediend, vraagt om de extra kosten op contant geld te stoppen. En één motie, die straks wordt ingediend door de heer Heinen, vraagt om het idee van negatieve rentes voor gewone spaarders definitief de wereld uit te helpen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg11">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note30">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u9">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg12">Ik dank u. Dan geef ik het woord aan de heer Heinen van de VVD. Een ogenblik. Ja. Ga uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note31">De heer Heinen (VVD)</note>
+            <u who="#EelcoHeinen" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u10">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg13">Voorzitter, dank. Het ruime monetaire beleid van de ECB heeft inmiddels allerlei negatieve gevolgen voor de Nederlandse economie. De financiële markten zijn op zoek naar rendement als nooit tevoren. Er worden meer risicovolle beleggingen gedaan, de huizenmarkt is oververhit en nu dreigen ook kleine spaarders de klos te worden. Nog niet zo lang geleden zeiden banken dat ze de rente voor kleine spaarders nooit negatief zouden maken. De topman van ABN zei: de rente voor kleine spaarders zal nooit negatief worden. De topman van de Rabobank zei: het is onwenselijk; het gaat niet gebeuren. De topman van de ING zei: we moeten hier zeer terughoudend in zijn; het kan risico's hebben voor de financiële stabiliteit. De voorzitter van de Europese Bankenfederatie zei: ga onder het depositogarantiestelsel geen negatieve rentes heffen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg14">Voorzitter. Recent sloten banken negatieve rentes voor kleine spaarders toch niet uit. Daar schrok ik wel van, want dat lijkt me echt onverstandig. De minister liet eind 2019 aan de Kamer weten dat hij negatieve rentes voor gewone spaarders ook zeer onwenselijk vindt en dat hij wetgeving overweegt. Dat is nu inmiddels bijna anderhalf jaar geleden. Nu banken voorzichtig aftasten hoever zij kunnen gaan, lijkt het mij verstandig om hier als politiek ook een signaal af te geven. Daarom dien ik de volgende motie in, mede namens de heer Alkaya. Hij verwees er al naar en vraagt al langer aandacht voor dit thema.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note32">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note33">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note34">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note35">overwegende dat banken niet langer uitsluiten dat ook kleine spaarders negatieve rente moeten gaan betalen over hun spaartegoeden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note36">overwegende dat het rekenen van negatieve rentes op spaartegoeden die vallen onder het depositogarantiestelsel gevolgen heeft voor de financiële stabiliteit;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note37">constaterende dat het kabinet eerder heeft aangegeven negatieve rentes voor "gewone spaarders" zeer onwenselijk te vinden en wetgeving te overwegen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note38">verzoekt het kabinet om maatregelen uit te werken om negatieve rentes voor kleine spaarders te voorkomen, waaronder een wettelijk verbod, zodat de minister tijdig kan ingrijpen wanneer banken desondanks toch overgaan tot het in rekening brengen van negatieve rentes voor kleine spaarders;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note39">verzoekt de minister tevens de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note40">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note41">Deze motie is voorgesteld door de leden Heinen en Alkaya.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note42">Zij krijgt nr. kst-32545-142</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note43">Ik dank u zeer. Dan geef ik het woord aan mevrouw Inge van Dijk van het CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note44">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u11">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg15">Dank u wel, voorzitter. Ook ik heb een motie over de negatieve spaarrentes, iets anders geformuleerd, maar uit het betoog van mijn voorganger is wel duidelijk geworden waarom we dit willen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note45">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note46">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note47">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note48">constaterende dat diverse financiële instellingen klanten laten betalen voor hun spaargeld en in sommige gevallen ook afscheid nemen van spaarders;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note49">constaterende dat veel financiële instellingen een negatieve spaarrente hanteren vanaf €100.000;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note50">overwegende dat voorkomen dient te worden dat de grens van negatieve spaarrente de kleine spaarder nog verder gaat raken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note51">verzoekt de regering om een grensspaarsaldo te definiëren waaronder een negatieve spaarrente onwenselijk is en met de banken in gesprek te gaan om afspraken te maken over het borgen van deze ondergrens;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note52">verzoekt de regering tevens om, indien de minister constateert dat banken niet bereid zijn zich te beperken tot dit grenssaldo, een wetsvoorstel voor te bereiden met een verbod op negatieve spaarrente vanaf de geformuleerde spaarsaldogrens,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note53">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note54">Deze motie is voorgesteld door de leden Inge van Dijk en Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note55">Zij krijgt nr. kst-32545-143</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note56">Ik dank u zeer. Daarmee eindigt de eerste en — ik waarschuw u maar vast — enige termijn van de zijde van de Kamer.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note57">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note58">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:macro" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u12">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg16">Het woord is aan de minister van Financiën.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note59">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u13">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg17">Voorzitter, dank u wel. Ik dank de diverse leden voor de opmerkingen en de ingediende moties. Ik zal de moties van een appreciatie voorzien. Eigenlijk alle moties vragen om context en uitleg. Dus met uw goedvinden ga ik die geven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg18">De eerste motie is die op stuk nr. 140 van de heer Nijboer over het contante geld. Eigenlijk staan er in het dictum twee dingen. Het eerste is het verzoek om in gesprek te gaan met de banken. Daar wil ik graag aan voldoen. Dat heb ik ook in mijn brief van vanmiddag geschreven. Wat het tweede deel van de motie betreft zou ik de heer Nijboer willen vragen om dat aan te houden, want er staat nu: "indien nodig wettelijk af te dwingen dat mensen kosteloos hun geld kunnen blijven opnemen". Daarvan heb ik in mijn brief vanmiddag gezegd dat ik natuurlijk bereid ben om als dat allemaal tot niks leidt te kijken of wetgeving eventueel opportuun is. Alleen, om dat nu al aan de voorkant in dit gesprek op deze manier aan te vliegen vind ik wat ruw. Dus ik ben het op zichzelf wel met de gedachte eens. Het eerste gedeelte zou ik hem dan ook willen toezeggen, maar voor dat tweede deel zou ik hem willen vragen een pas op de plaats te maken tot na de gesprekken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note60">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u14">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg19">Het gaat mij om het resultaat. Ik denk dat het sneller gaat als de minister gewoon met de banken afspreekt dat ze dit niet gaan doen en terugkomen op het in rekening brengen van die 75 cent voor het pinnen bij een betaalautomaat. Als dat wordt afgesproken en banken houden zich eraan, dan zijn we klaar. Dan hoeft er ook geen wet te worden gemaakt. Dan ben je klaar, want ze brengen het niet in rekening. Volgens mij vinden de minister en ik hetzelfde daarvan, dus ik zie niet zo goed wat het verschil is tussen zijn brief en de motie. Want als ze het niet doen, dan moeten we toch in actie komen. Dan is het toch ook goed dat de Kamer tegen die banken zegt: als u niet tot een afspraak komt met de minister, dan komt er wetgeving aan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note61">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u15">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg20">Dat is het eerste punt. Het is misschien goed om het tweede punt te benadrukken. In de motie staat ook het woord "kosteloos". Ik denk dat de heer Nijboer en ik daar hetzelfde onder verstaan, maar dat weet ik niet zeker. Banken gaan zelf over hun tarifering. Op het moment dat de Kamer en ik — overigens in sterke mate eensluidend — zeggen dat wij een aantal onderdelen ongewenst vinden, dat wij, voorzichtig uitgedrukt, eigenlijk niet enthousiast zijn over negatieve rente en dat wij, opnieuw voorzichtig uitgedrukt, niet enthousiast zijn over geld betalen als je geld opneemt, dus op het moment dat je al die dingen "dichtzet", weet je één ding zeker: dat gaat effect opleveren voor de kosten die een bank in rekening brengt voor het aanhouden van een betaalrekening. In die zin bestaat "kosteloos" dus niet. Er is alleen wel een fundamenteel verschil tussen die rekening primair neerleggen bij de mensen die contant geld opnemen en die rekening eigenlijk bij iedereen neerleggen. Het is dus belangrijk dat we ons realiseren dat "kosteloos" helaas zelden bestaat in het leven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note62">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u16">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg21">Volgens mij is er helemaal geen verschil van mening, want we bedoelen gewoon dat je niet hoeft te betalen als je pint. Daar gaat het over en daar gaat deze motie ook over, evenals de ophef bij de Consumentenbond en de brief van de minister. Ik wil de formulering van de motie best wat veranderen, maar ik vind wel dat banken duidelijkheid moeten hebben van de Kamer: als ze daar niet toe overgaan, volgt er actie. Alleen maar praten zonder consequenties heeft ook niet zo veel zin. Ik ben dus best bereid om daarnaar te kijken, maar het lijkt me wel goed dat dat duidelijk is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note63">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u17">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg22">We kunnen het ook anders doen; daar sta ik op zichzelf ook voor open. We zouden ook kunnen afspreken dat ik aan de net door mij gegeven interpretatie nog toevoeg dat ik, als het zo zou zijn dat banken zeggen dat ze coûte que coûte door willen op deze koers — ik heb geen enkele aanleiding om dat te verwachten — en dat ze daar ook argumentatie voor hebben, die argumentatie dan wil wegen. Daarmee kom ik dan natuurlijk ook terug bij de Kamer. Ik wil de 100%-koppeling dus zien te vermijden. Als ik dat er nog aan mag toevoegen, kan ik met die uitleg de motie oordeel Kamer geven. Ik zie de heer Nijboer knikken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note64">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u18">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg23">Ja, ik ook.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note65">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u19">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg24">Dan kan het volgens mij op deze manier. Maar ik denk wel dat het belangrijk is dat we die context met elkaar helder hebben. Ik ben overigens juist zeer tevreden over hoe we in het algemeen met banken, andere financiële instellingen, consumentenorganisaties en vertegenwoordigers van winkeliers hele goede afspraken kunnen maken over wat gepercipieerd wordt als in ieders belang en in het algemeen belang; dat heb ik ook in de brief gezet en dat heb ik ook eerder gezegd. Ik ben daar over het algemeen dus echt optimistisch over.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note66">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u20">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg25">Oké. De motie op stuk nr. 140 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note67">De heer Hammelburg (D66)</note>
+            <u who="#AlexanderHammelburg" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u21">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg26">We hebben dit debat natuurlijk al vaker gehad. De banken zijn duidelijk bezig om de kosten voor zowel consumenten als ondernemers te verhogen. Het gaat nu over het opnemen van cashgeld, maar we hebben het bijvoorbeeld ook over de rentestanden gehad, de rente voor kleine spaarders, de maandelijkse of jaarlijkse bijdrage voor het hebben van een betaalrekening, stortingskosten voor ondernemers. Dat zijn allemaal mogelijkheden voor banken om die kosten te verhogen. Ik vind het dus heel fijn dat collega-Kamerleden hier nu op deelonderwerpen moties indienen. Ik maak me alleen zorgen over die algehele stijging voor al die consumenten en al die ondernemers. Is de minister dan ook bereid om dat gesprek met de banken op die manier aan te vliegen en met hen te bespreken hoe de consumenten uiteindelijk zo voordelig mogelijk uit zijn, zodat die kosten niet onmogelijk oplopen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note68">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u22">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg27">Sterker nog, dat gesprek hebben we ook in het maatschappelijk platform. Daar hebben we dit gesprek over hoe je dat op een verstandige manier doet. Wat ik wel belangrijk vind, is om elke keer met elkaar ook weer te articuleren hoe de context eruitziet. De context is er één van een buitengewoon efficiënt systeem van betalingsverkeer in Nederland, waarbij Nederlandse consumenten gemiddeld genomen heel weinig betalen voor het totale palet aan financiële producten die zij tot hun beschikking hebben. In het verleden was een bankrekening überhaupt helemaal gratis. Het is in het verleden overigens ook weleens zo geweest dat je voor sommige transacties wel degelijk moest betalen. Je ziet dus dat banken daarin verschillen. Ik kan me nog herinneren dat ik, toen nog in guldens, bij het opnemen van een relatief klein bedrag een of twee gulden moest betalen als ik bij de verkeerde bank pinde. Dat is eigenlijk een veel scherpere versie dan wat we nu hier hebben voorliggen. Ik ben het op zichzelf dus eens met de heer Hammelburg, maar het is wel belangrijk dat we met elkaar articuleren dat banken, in mijn waarneming, ook echt oog hebben voor het belang van de consument en dat zij daar gemiddeld genomen, in vergelijking met het buitenland, ook wel degelijk voorwaarden aan verbinden die ik op zichzelf redelijk vind. Dat geldt ook voor zaken als: in welke straal van je huis heb je een pinautomaat? In Nederland, een land waar heel veel met bankpasjes wordt betaald en heel weinig met contant geld, is dat nog steeds voor meer dan 95% van de Nederlanders binnen een straal van 5 kilometer en heel vaak natuurlijk nog veel dichterbij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note69">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u23">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg28">Meneer Hammelburg, afrondend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note70">De heer Hammelburg (D66)</note>
+            <u who="#AlexanderHammelburg" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u24">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg29">Het is hartstikke goed dat de kosten vergeleken met andere Europese landen nog relatief laag liggen voor de consument en voor ondernemers. Toch zijn de zorgen die uit deze Kamer komen, en die ook echt leven, dat die kosten nu echt wel wat sneller omhooggaan. Dat willen we dus voorkomen. Ik hoop dat de minister die urgentie ook echt voelt en het gesprek op een pittige wijze met de banken wil voeren. Want het signaal uit de Kamer is volgens mij heel duidelijk, namelijk dat die kosten echt niet heel veel verder mogen stijgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note71">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u25">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg30">De heer Hammelburg zal het me denk ik vergeven dat ik natuurlijk ook een beetje moet zoeken naar wat het kabinet uiteindelijk beschouwt als het algemeen belang. Ik ben het met alles wat de heer Hammelburg zegt eens. Ik zal zo meteen nog meer over een aantal van de moties zeggen. We trekken denk ik in belangrijke mate aan dezelfde kant van het touw. Maar het is ook waar dat banken gewoon minder verdienen aan geld dat op een rekening staat te verpieteren dan vroeger. Dat betekent wat voor hun verdienmodel. Zeker in Nederland zegt de politiek, de Kamer en het kabinet, bovendien eendrachtig: de buffers moeten eigenlijk eerder omhoog dan omlaag. Al die zaken maken dus dat banken dat niet zozeer doen om de burger te pesten, maar omdat ze een deel van de kosten gewoon proberen door te berekenen. In dat kleurbad ligt deze discussie. Als we willen doen wat eigenlijk verstandig is voor de consument, de sector én de stabiliteit van het stelsel, dan moeten we al die aspecten elke keer weer meewegen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note72">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u26">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg31">Minister, gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note73">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u27">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg32">Voorzitter. Dan ben ik bij de tweede motie van de heer Nijboer, op stuk nr. 141. Dat is de motie over Conservatrix. Het zal hem niet verrassen dat ik die moet onraden, ook gegeven het debat wat wij eerder gehad hebben en hoe het stelsel in elkaar zit. Hij weet dat we daar overigens ook nog onderzoek naar doen. Die motie moet ik dus ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note74">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u28">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg33">De motie op stuk nr. 141 is ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note75">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u29">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg34">De motie op stuk nr. 142 is van de heer Heinen en de heer Alkaya. De vorige voorzitter van de Eerste Kamer zou hebben gezegd: bien étonnés de se trouver ensemble. Dat zeg ik haar graag na. De motie vraagt, als ik scherp ben, eerlijk gezegd niet zo heel veel nieuws. Die vraagt namelijk om maatregelen uit te werken. Er is eigenlijk maar één maatregel; dat is een wettelijk verbod. Ik zou de motie zo willen interpreteren dat we voorbereidingshandelingen treffen voor een eventueel wettelijk verbod, zodat we daarmee uit de startblokken kunnen, zou dat nodig zijn. Met die context zou ik de motie op stuk nr. 142 oordeel Kamer willen geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note76">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u30">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg35">De motie op stuk nr. 142: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note77">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u31">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg36">Ik blijf overigens nog steeds van mening, ook goed luisterend naar De Nederlandsche Bank, dat het echt onze gezamenlijke voorkeur zou moeten hebben om het te doen zonder een wettelijk verbod, als dat zou kunnen. Ik probeer dat dus te voorkomen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg37">Voorzitter. Dan de motie op stuk nr. 143 van mevrouw Van Dijk en de heer Grinwis. Die gaat eigenlijk nog een stap verder. Ik vind het een sympathieke motie, maar ik zou aan de indieners willen vragen om die aan te houden. Ik moet hier echt overleg over plegen met de ACM, want het risico bestaat dat ik banken vervolgens zelf enthousiasmeer om prijsafspraken te maken. Dat is een stijlfiguur die niet alleen voor de banken onplezierig is, maar ook voor leden van het kabinet en mogelijk ook voor leden van de Kamer, als die dat doen op instigatie van de Kamer. Ik zou de motie met goedvinden van mevrouw Van Dijk dus willen aanhouden. Dan ga ik ondertussen het huiswerk doen. Ik ga het uitzoeken en kom er bij de Kamer op terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note78">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u32">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg38">Ik kijk even naar mevrouw Van Dijk. Ik zie haar knikken, maar als ze hem wil aanhouden, dan moet dat bij de microfoon gebeuren. O, pardon. Dan zal ik hem aanzetten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note79">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u33">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg39">Ik al drukken … Ik ben natuurlijk nog een beetje zoekende als het gaat om alle procedures. Zo'n motie heeft een beperkte geldigheidsduur, heb ik begrepen. Is het dan realistisch om te verwachten dat we voor die motie verlopen is een antwoord van u krijgen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note80">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u34">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg40">U kunt de motie ook gewoon verlengen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note81">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u35">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg41">Ik wil er niet onderuit komen door de termijn te laten verlopen. Ik weet eerlijk gezegd niet op welk moment de termijn, ook na een verlenging, afloopt. Maar laat ik nou het volgende doen. In de geest van de motie wil ik het onderzoeken. Dan zal ik de Kamer en mevrouw Van Dijk, na consultatie van de ACM, vervolgens antwoord geven op de vraag wat wel en niet kan. Kan het wel, dan is het makkelijk; dan zal ik sowieso aan de motie voldoen. Maar die kan dan uiteraard ook nog in stemming gebracht worden. Zou het zo zijn dat de ACM zegt "dit moet de minister echt niet doen", dan zal ik dat aan de Kamer meedelen. Ik hoop dan dat die motie niet meer in stemming komt. En zo ja, dan zou ik de motie ontraden. Dat zou dan mijn advies zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note82">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u36">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg42">Goed, de motie op stuk nr. 143 is al aangehouden. Daarmee eindigt dit debat voor ...</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note83">Op verzoek van mevrouw Inge van Dijk stel ik voor haar motie (32545, nr. 143) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note84">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note85">Minister Hoekstra</note>
+            <u who="#WopkeHoekstra" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u37">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg43">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note86">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u38">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg44">... de minister van Financiën en de leden. Ik wens u nog een goede avond met elkaar toe, want als het goed is wordt het voorzitterschap zo door onze Voorzitter aller voorzitters overgenomen.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note87">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note88">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.u39">
+               <seg xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.seg45">Ik sluit dit debat en schors voor enkele ogenblikken.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-06-tweedekamer-46.note89">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

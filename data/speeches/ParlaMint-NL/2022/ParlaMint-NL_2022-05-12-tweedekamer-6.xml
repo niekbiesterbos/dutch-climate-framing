@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-05-12 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-05-12 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 79, Session 6 (2022-05-12)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 79, Session 6 (2022-05-12)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="79" xml:lang="en">Meeting 79</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="6" xml:lang="en">Session 6</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-05-12">Sitting 2022-05-12</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="105">105 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="105">105 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="7386">7,386 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="7386">7,386 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-05-12">2022-05-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="383"/>
+               <tagUsage gi="seg" occurs="170"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="105"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-05-12">2022-05-12</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.head1">Problemen met uithuisplaatsingen van kinderen</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg1">We gaan weer over tot het debat over de problemen met uithuisplaatsingen van kinderen, de tweede termijn van de kant van de Kamer. Ik geef als eerste het woord aan de heer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note2">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:housi" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg2">Dank u wel, voorzitter. Ik verwacht in tweede termijn nog een reactie op de zeven aanbevelingen, op de constatering dat er geen expert is die de uithuisplaatsingen nog rechtsstatelijk op orde vindt en op de opzet van het onderzoek.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg3">Dan de moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note6">verzoekt de regering te bewerkstelligen dat er statistieken komen over "vrijwillige" uithuisplaatsingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note7">verzoekt de regering een poging te doen te achterhalen hoeveel kinderen die erkend slachtoffer in het toeslagenschandaal zijn, vrijwillig uit huis geplaatst zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note8">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note9">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note10">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note11">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note12">besluit de hersteloperatie en het werk van de ondersteuningsteams aan te wijzen als groot project,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note13">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note14">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note15">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note16">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note17">constaterende dat er vele noodklokken geluid zijn over de rechtsstatelijke tekorten van het systeem van uithuisplaatsingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note18">constaterende dat de minister voor Rechtsbescherming aangeeft dat hij geen expert kan noemen die vindt dat het huidige stelsel rechtsstatelijk voldoet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note19">constaterende dat de regering zelf ook de voorstellen van de RSJ en van prof. Bruning (grotendeels) gaat overnemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note20">verzoekt de regering bij de lopende uithuisplaatsingen, die dus niet aan alle rechtsstatelijke voorwaarden voldeden, een mogelijkheid te geven tot herziening, bijvoorbeeld door een advies van het OT en daarna een verzoek conform 1:265d BW aan de rechtbank mogelijk te maken, bijvoorbeeld met de reden dat het niet bekend was dat ouders erkend slachtoffer waren in het toeslagenschandaal en dat de minister erkend heeft dat de rechtsstatelijke waarborgen van het stelsel niet op orde zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note21">verzoekt de regering voor ouders en kinderen die zich nu melden en te maken hebben met een lopende uithuisplaatsing, de herziening binnen een half jaar af te ronden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note22">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note23">Deze motie is voorgesteld door het lid Omtzigt.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note24">Zij krijgt nr. kst-31839-821</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note25">Deze motie is voorgesteld door het lid Omtzigt.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note26">Zij krijgt nr. kst-31839-822</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note27">Deze motie is voorgesteld door het lid Omtzigt.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note28">Zij krijgt nr. kst-31839-823</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note29">Dank u wel, meneer Omtzigt. Dan geef ik het woord aan mevrouw Westerveld van GroenLinks.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note30">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u3">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg4">Dank u wel, voorzitter. Ik zou nog graag een antwoord hebben van de minister voor Rechtsbescherming op onze vraag of we niet moeten stoppen met drang. En drang is wat anders dan dwang, maar drang treft natuurlijk ook veel ouders die het gevoel hebben dat ze niets anders kunnen. Daarvan zeggen ook veel experts dat het eigenlijk heel onwenselijk is dat dit wordt toegepast. Dus zou de minister daar nog in zijn beantwoording op terug kunnen komen?</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg5">Voorzitter. Ik zei het in eerste termijn: ik blij dat we in deze zaal eindelijk eens echt een uitgebreid debat hebben over uithuisplaatsingen en jeugdzorg. Ik zou willen dat ook volgende keren, als er door onze fracties verzoeken worden gedaan om debatten te voeren over misstanden in de jeugdzorg of over zaken die de toekomst betreffen, dergelijke debatten niet worden geblokkeerd. Ik zou willen dat we het hier vaker kunnen hebben over de grote problemen, want die zijn enorm en onze jeugd verdient beter.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg6">Voorzitter. Dan heb ik nog twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note31">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note32">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note33">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note34">constaterende dat er een ondersteuningsteam is opgericht om toeslagenouders die met uithuisplaatsingen te maken hebben, hulp te bieden als zij dat willen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note35">constaterende dat deze ouders ook kosteloze rechtsbijstand wordt aangeboden via een subsidieregeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note36">overwegende dat er in Nederland veel meer kinderen uit huis worden geplaatst, waarbij vaak soortgelijke problemen spelen als bij de toeslagenouders;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note37">verzoekt de regering om het ondersteuningsteam uit te breiden en open te stellen voor alle ouders die met uithuisplaatsingen te maken hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note38">verzoekt de regering tevens de subsidieregeling voor kosteloze rechtsbijstand aan alle ouders die met uithuisplaatsingen te maken hebben aan te bieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note39">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note40">Deze motie is voorgesteld door de leden Westerveld, Van Raan en Arib.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note41">Zij krijgt nr. kst-31839-824</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note42">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u4">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg7">Dan mijn tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note43">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note44">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note45">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note46">constaterende dat zowel in kabinet als Kamer breed wordt erkend dat te veel kinderen in Nederland uit huis worden geplaatst;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note47">constaterende dat de unaniem aangenomen motie Westerveld-Wörsdörfer uit juli 2020 vraagt om een ambitieus plan van aanpak met concrete doelen en streefcijfers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note48">constaterende dat er wel plannen worden gemaakt om de problemen rondom uithuisplaatsingen aan te pakken, maar dat concretisering ontbreekt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note49">verzoekt de regering om samen met professionals concrete streefcijfers en doelen vast te stellen en die op te nemen in de plannen, en de Kamer halfjaarlijks te informeren over de voortgang,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note50">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note51">Deze motie is voorgesteld door de leden Westerveld en Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note52">Zij krijgt nr. kst-31839-825</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note53">Dank u wel, mevrouw Westerveld. Dan geef ik het woord aan mevrouw Arib van de PvdA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note54">Mevrouw Arib (PvdA)</note>
+            <u who="#KhadijaArib" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u5">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg8">Dank u wel, voorzitter. Wat hier overblijft, is mijn constatering dat de ouders die straks naar huis gaan — ik zie dat ze al weg zijn — nog steeds niet weten waar ze aan toe zijn. Ik moet eerlijk bekennen dat het antwoord van met name de premier dat de oplossing voor deze ouders heel lang op zich kan laten wachten, onverteerbaar is. Ik ben van mening dat ook het kabinet kan zeggen: we gaan voor de korte en voor de lange termijn een oplossing bedenken. Natuurlijk duurt het heel lang, maar voor de korte termijn hoort er gewoon een oplossing te komen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg9">Ik heb een stuk of vier moties. Die ga ik niet allemaal indienen, omdat er ook toezeggingen zijn gedaan, met name waar het gaat om het maandelijks rapporteren over hoe het nu gaat. "Driemaandelijks", hoor ik hier naast mij; dat is ook prima. Ik hoop dat we daarmee inzicht krijgen in hoe het proces verloopt en in de manier waarop die besluiten tot stand komen. Ik begrijp dat de ondersteuningsteams maandelijks op de website zetten wat de vorderingen zijn. Toch heb ik één motie, en wel de volgende.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note55">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note56">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note57">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note58">overwegende dat ouders waarvan kinderen uit huis zijn geplaatst moeten weten waarom hun kind uit huis is geplaatst;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note59">van mening dat de jeugdbeschermingsorganisaties transparant moeten zijn over de grondslagen achter een uithuisplaatsing;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note60">van mening dat ouders, om inzicht te kunnen krijgen in de achtergrond van de uithuisplaatsing, op een laagdrempelige manier het complete dossier van een jeugdbeschermingsorganisatie moeten kunnen krijgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note61">van mening dat ook gedupeerde ouders van het kindertoeslagschandaal die het ouderlijk gezag over hun uithuisgeplaatste kind zijn kwijtgeraakt er recht op hebben de grondslagen te kennen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note62">verzoekt de regering te bewerkstelligen dat gedupeerde ouders van het kindertoeslagschandaal op laagdrempelige wijze alle informatie over hun uit huis geplaatste kind kunnen krijgen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note63">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note64">Deze motie is voorgesteld door het lid Arib.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note65">Zij krijgt nr. kst-31839-826</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note66">Mevrouw Arib (PvdA)</note>
+            <u who="#KhadijaArib" ana="#regular topic:housi" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u6">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg10">En dan mijn laatste opmerking, waar ik nog niet aan toe ben gekomen, maar die ik hier toch wil maken. Wij moeten niet allemaal wegkijken als de oorzaak van de problemen wordt benoemd. Als kinderen met hun ouders uit het huis worden gezet, is er al heel veel aan voorafgegaan. Ik denk dat het ongelofelijk belangrijk is dat door de schuldhulpverlening en de woningbouwverenigingen veel eerder signalen worden gegeven en dat zowel de huisartsen als de wijkteams moeten ingrijpen voordat het zover komt. Ik hoop dat de minister voor Rechtsbescherming een plan heeft om het niet zover te laten komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note67">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u7">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg11">Dank u wel. Er is een vraag van de heer Peters van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note68">De heer Peters (CDA)</note>
+            <u who="#RenéPeters" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u8">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg12">Ik ben het daar vreselijk mee eens. Een groot deel van mijn eerste termijn ging daar ook eigenlijk over. Mevrouw Arib gaf toen eigenlijk als commentaar: "meneer Peters, het zijn holle woorden. U noemt wel het probleem, en daar ben ik het mee eens, maar u komt niet met concrete oplossingen." Ik heb me dat wel een beetje aangetrokken. Ik moet er goed over nadenken, maar ik wil u ook dezelfde vraag stellen. U herhaalt een beetje wat ik zeg, maar zonder diezelfde concrete oplossingen te noemen. Dus misschien kunnen we samen optrekken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note69">Mevrouw Arib (PvdA)</note>
+            <u who="#KhadijaArib" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u9">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg13">Ja, dat zou ik heel erg op prijs stellen. Wat die concrete oplossingen betreft: ik heb heel veel ideeën over hoe het anders zou moeten. Ik vind eigenlijk dat wij een systeem met elkaar hebben opgetuigd dat ontzettend bureaucratisch is en dat voor ouders ondoorgrondelijk is. Soms moet je heel onorthodox te werk gaan. Ik houd er niet van om hier voorbeelden van ouders breed uiteen te zetten, maar ik geef toch een voorbeeld van een ouder die zei: ik heb mijn kind bij mijn moeder ondergebracht, omdat ik het huis uit moest en omdat ik mijn baan kwijt was. Dat heeft ze keurig gemeld aan de Raad voor de Kinderbescherming. Vervolgens werd er een dossier opgebouwd, waardoor het kind bij haar moeder is weggehaald. Dan denk ik: op het moment dat het kind zich veilig voelt bij de grootmoeder, laat het kind daar dan zitten. Waarom moet er dan een systeem omheen worden gebouwd waardoor het kind uit huis wordt geplaatst, met als gevolg dat de moeder jarenlang haar kind nog steeds niet heeft gezien? Soms hoef je helemaal niet iets op te tuigen en allerlei instanties erbij te betrekken, maar kun je gewoon kijken in de omgeving van het kind en in de omgeving van de ouder in dit geval. Dan kun je prima een oplossing vinden die voor zowel het kind als de ouder heel veilig is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note70">De heer Peters (CDA)</note>
+            <u who="#RenéPeters" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u10">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg14">Ik ben heel blij met dit voorbeeld, want het past precies bij een vrij concrete motie die ik dadelijk ga indienen. Misschien kunt u die meeondertekenen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note71">Mevrouw Arib (PvdA)</note>
+            <u who="#KhadijaArib" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u11">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg15">Die zal ik zeker steunen. Ik weet dat u soms goede moties heeft.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note72">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u12">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg16">Dank u wel. Dan geef ik het woord aan mevrouw Marijnissen van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note73">Mevrouw Marijnissen (SP)</note>
+            <u who="#LilianMarijnissen" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u13">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg17">Voorzitter. We hebben weer zo'n beetje de hele dag gesproken over de gevolgen van het toeslagenschandaal. Als je de betrokken ouders en gezinnen concreet vraagt wat ze wijzer zijn geworden na vandaag en of ze het idee hebben dat er meer concrete oplossingen zijn, is de afdronk dat dat niet het geval is. Dat maakt dat onze fractie er moeite mee heeft dat dit debat op zo'n manier dreigt af te lopen, zeker als de minister-president niet lijkt te willen toegeven dat er wel degelijk sprake is van een schandaal als het gaat over de uithuisplaatsingen. Er wordt stoïcijns vastgehouden aan de voorgestelde oplossingen, terwijl er wel degelijk alternatieven worden aangedragen vanuit ons, vanuit de Kamer, maar ook vanuit de ouders zelf. Dat stemt ons vooral verdrietig. Dat brengt ons tot de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note74">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note75">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note76">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note77">constaterende dat keer op keer excuses worden aangeboden aan ouders en kinderen die vermalen zijn door het toeslagenschandaal, maar dat het oplossen helemaal vastloopt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note78">constaterende dat de betrokken ouders en kinderen, de Nationale ombudsman en de Kinderombudsman, de Raad voor de rechtspraak, het ouderpanel, advocaten, allemaal aangeven dat de gekozen oplossingsrichting aangaande de uithuisplaatsingen van kinderen een doodlopende weg is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note79">met droefheid constaterende dat de regering heilig gelooft in de gekozen eigen weg;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note80">spreekt uit geen vertrouwen te hebben in de gekozen oplossingen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note81">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note82">Deze motie is voorgesteld door de leden Marijnissen en Omtzigt.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note83">Zij krijgt nr. kst-31839-827</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note84">Mevrouw Marijnissen (SP)</note>
+            <u who="#LilianMarijnissen" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u14">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg18">Er worden allerlei moties ingediend, soms zelfs goede, begreep ik. Die gaan veelal over het versnellen en het verbeteren van procedures. Wij zullen die allemaal steunen, want wij zullen alles doen en blijven doen om dit zo snel mogelijk op te lossen. Maar ik wil hier vanavond gezegd hebben dat de SP het onvergefelijk vindt — misschien is dat wel het juiste woord — dat, nu we weten hoe groot de ellende is en nog niet helemaal duidelijk is wat de omvang van dit schandaal is, maar wel wat het leed is, er nog steeds voor oplossingen gekozen wordt die niet werken. De ouders zijn vandaag weer naar huis gegaan zonder dat ze echt iets hebben gehoord waar ze wijzer van worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note85">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u15">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg19">Dank u wel, mevrouw Marijnissen. Dan geef ik het woord aan mevrouw Maeijer van de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note86">Mevrouw Maeijer (PVV)</note>
+            <u who="#VickyMaeijer" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u16">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg20">Dank u wel, voorzitter. Bijna 60.000 kinderen zijn op een of andere manier de dupe geworden van het toeslagenschandaal. Gedupeerde ouders kwamen in grote financiële problemen, met onoplosbare schulden. Ze raakten werkelijk alles kwijt: hun huis, hun baan, hun huwelijk, en sommigen ook hun kinderen. Dit kabinet, met premier Rutte voorop, is het aan hen verschuldigd om de ellende te beëindigen. Het gebrek aan snelheid en daadkracht, ook vanavond, vond ik ontluisterend en onacceptabel. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note87">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note88">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note89">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note90">eist van het kabinet ervoor te zorgen dat alle lopende uithuisplaatsingen voor 1 juli 2022 worden herbeoordeeld en dat er voor elk kind herstel van contact of hereniging mogelijk wordt gemaakt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note91">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note92">Deze motie is voorgesteld door het lid Maeijer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note93">Zij krijgt nr. kst-31839-828</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note94">Mevrouw Maeijer (PVV)</note>
+            <u who="#VickyMaeijer" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u17">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg21">Het betrekken van het eigen netwerk kan niet alleen uithuisplaatsingen voorkomen, maar ook bijdragen aan herstel van contact en hereniging. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note95">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note96">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note97">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note98">verzoekt het kabinet om de mogelijkheden te onderzoeken tot het betrekken van de Eigen Kracht Centrale bij het opstellen van een familieplan voor gedupeerden gericht op herstel van contact, terugkeer in het netwerk en terugkeer in het gezin,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note99">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note100">Deze motie is voorgesteld door het lid Maeijer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note101">Zij krijgt nr. kst-31839-829</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note102">Mevrouw Maeijer (PVV)</note>
+            <u who="#VickyMaeijer" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u18">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg22">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note103">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u19">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg23">Dank u wel, mevrouw Maeijer. Dan geef ik het woord aan de heer Azarkan, DENK.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note104">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u20">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg24">Dank, voorzitter. We zijn eigenlijk vrij snel het debat ingedoken over de oplossingen en verbeteringen van de situatie. Ik wil ook even kort stilstaan bij het feit dat dit heeft kunnen ontstaan in ons land, dat er 1.675 kinderen uit huis zijn geplaatst, waarbij vermoedelijk het feit een rol heeft gespeeld dat de overheid die mensen zo heeft opgejaagd dat ze eigenlijk niet goed voor die kinderen zorgden. Ik vind dat pijnlijk en ook echt iets waar we als samenleving wat langer bij mogen stilstaan in plaats van dat we meteen doorgaan naar de oplossingen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg25">Voorzitter. We hebben in een deel van het debat uitgebreid gesproken over de jeugdzorgproblematiek. Voor mij is het helder dat het eigenlijk essentieel is dat ouders bij de zorgvuldige toetsing van een verzoek tot uithuisplaatsing door de kinderrechter worden bijgestaan door een bij voorkeur gespecialiseerde jeugdrechtadvocaat. Ik ben blij dat de minister heeft toegezegd daaraan te gaan werken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg26">Voorzitter. Een ander punt is dat de minister-president zei: ik sta hier voor de professionals in de jeugdzorg. Hij zei: ik sta hier voor de rechters; ik sta hier voor de rechtsstaat. Het zijn noch de professionals in de jeugdzorg noch de rechters noch de rechtsstaat waar de kinderen van weggehaald zijn. Het zijn de ouders waar de minister-president zich druk om moet maken!</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg27">Voorzitter. Tot slot heb ik een aantal korte moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note105">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note106">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note107">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note108">constaterende dat er inmiddels door het CBS 1.675 uithuisplaatsingen zijn geconstateerd, waar een dwarsverband is met de kinderopvangtoeslagen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note109">overwegende dat de "vrijwillige uithuisplaatsingen" hierin vermoedelijk niet meegenomen zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note110">verzoekt de regering om de "vrijwillige uithuisplaatsingen" in kaart te brengen en mee te nemen in de oplossing van deze problematiek,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note111">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note112">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note113">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note114">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note115">constaterende dat er inmiddels door het CBS 1.675 uithuisplaatsingen zijn geconstateerd, waar een dwarsverband is met de kinderopvangtoeslagen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note116">overwegende dat vaak niet duidelijk is in hoeverre financiële en andere problemen die samenhangen met de kinderopvangtoeslagen, invloed hebben gehad op de uiteindelijke uithuisplaatsing;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note117">verzoekt de regering dit zo snel mogelijk uit te zoeken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note118">verzoekt de regering verder de bevoegde autoriteiten met voorrang deze gevallen te laten herzien en indien mogelijk de kinderen terug te plaatsen bij hun eigen gezinnen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note119">verzoekt de regering voorts de kindregeling zodanig aan te passen dat deze kinderen extra gecompenseerd worden ten opzichte van de gewone kindregeling, omdat zij extra zwaar getroffen zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note120">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note121">Deze motie is voorgesteld door de leden Azarkan, Sylvana Simons en Arib.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note122">Zij krijgt nr. kst-31839-830</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note123">Deze motie is voorgesteld door de leden Azarkan, Sylvana Simons en Arib.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note124">Zij krijgt nr. kst-31839-831</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note125">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u21">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg28">Voorzitter, ik ben bijna klaar.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note126">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note127">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note128">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note129">constaterende dat ouders en kinderen vaak een zwakke positie innemen in uithuisplaatsingsprocedures;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note130">overwegende dat terugkeer naar het gezin wel het uitgangspunt is, maar in de praktijk niet gebeurt of zeer moeizaam verloopt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note131">overwegende dat het Europees Hof voor de Rechten van de Mens op basis van het EVRM al meer dan tien jaar pleit voor meer terugkeer naar het gezin na uithuisplaatsingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note132">verzoekt de regering om de werkwijze zodanig aan te passen dat terugkeer van kinderen naar het gezin meer centraal komt te staan,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note133">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note134">Deze motie is voorgesteld door de leden Azarkan, Sylvana Simons en Arib.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note135">Zij krijgt nr. kst-31839-832</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note136">Dank u wel, meneer Azarkan. Dan geef ik nu het woord aan de heer Peters, CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note137">De heer Peters (CDA)</note>
+            <u who="#RenéPeters" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u22">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg29">Dank u wel, voorzitter. Ik heb ook een drietal moties, waarvan de eerste ... Meneer Azarkan zou misschien zeggen: het is een dwaas, want daar heb je 'm weer. In ieder geval zou hij "standvastig" zeggen. Mevrouw Westerveld zou misschien zeggen: het staat niet in het regeerakkoord. Maar ja, laten we het dan "nieuwe bestuurscultuur" noemen en het samen doen, mevrouw Westerveld.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note138">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note139">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note140">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note141">overwegende dat de jeugdbeschermingsketen tot de meest dure en ingewikkelde rotondes van Nederland behoort;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note142">constaterende dat dit leidt tot een enorme werkdruk, steeds wisselend personeel, veel kans op fouten, een enorm tekort aan effectieve hulp en een tekort aan rechtsbescherming;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note143">van oordeel dat de jeugdbeschermingsketen stevig moet worden hervormd en dat daarbij het belang van rechtsbescherming van kinderen en ouders voorop moet staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note144">verzoekt de regering met spoed door te gaan met deze hervorming en hiertoe een stappenplan te ontwikkelen, en dat voor Prinsjesdag aan de Kamer te doen toekomen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note145">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note146">Deze motie is voorgesteld door het lid Peters.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note147">Zij krijgt nr. kst-31839-833</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note148">De heer Peters (CDA)</note>
+            <u who="#RenéPeters" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u23">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg30">Dan een concrete motie, waarvan ik eigenlijk hoop dat mevrouw Arib namens de Partij van de Arbeid ... Of ze 'r goed vindt, horen we dadelijk wel, maar de motie is hopelijk een beetje concreet.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note149">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note150">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note151">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note152">constaterende dat de rechtspositie van kinderen in de jeugdzorg onder druk staat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note153">constaterende dat uit onderzoek naar voren komt dat een zelfgekozen steunpersoon uithuisplaatsing helpt voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note154">van oordeel dat de rechtspositie van kinderen verbeterd kan worden door hen nadrukkelijk recht te geven op een zelfgekozen steunpersoon uit het eigen netwerk;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note155">verzoekt de regering ervoor zorg te dragen dat de hulp van een zelfgekozen steunpersoon voortaan actief aan kinderen wordt aangeboden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note156">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note157">Deze motie is voorgesteld door de leden Peters en Van der Staaij.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note158">Zij krijgt nr. kst-31839-834</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note159">De heer Peters (CDA)</note>
+            <u who="#RenéPeters" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u24">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg31">Even heel precies richting de staatssecretaris: het is geen plicht vanuit de instantie, maar een recht vanuit het kind.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg32">Tot slot een motie die ik voorlees namens meneer Van der Staaij. Ik kwam er net wel achter dat deze motie verdacht veel lijkt op een motie die de PVV heeft ingediend, maar ik heb beloofd om haar voor te lezen. Misschien dat hij er straks anders over denkt en haar intrekt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note160">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note161">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note162">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note163">overwegende dat alle mogelijkheden benut moeten worden om kinderen die uit huis zijn geplaatst, weer te laten terugkeren naar hun ouders en dat het een wettelijk recht van ouders is om een familiegroepsplan te maken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note164">constaterende dat de Stichting Eigen Kracht Centrale jarenlange ervaring heeft met het benutten van de kracht van families en sociale netwerken om ouders te ondersteunen bij het bieden van een verantwoorde opvoedingssituatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note165">verzoekt de regering ervoor te zorgen dat het ondersteuningsteam waar mogelijk ook gebruikmaakt van de mogelijkheden van de Stichting Eigen Kracht Centrale en hierover in contact treedt met deze organisatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note166">verzoekt de regering tevens om samen met de VNG te verkennen hoe meer gemeenten gestimuleerd kunnen worden om gebruik te maken van de expertise van de Stichting Eigen Kracht Centrale,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note167">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note168">Deze motie is voorgesteld door de leden Peters en Van der Staaij.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note169">Zij krijgt nr. kst-31839-835</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note170">Dank u wel, meneer Peters. Dan geef ik nu het woord aan de heer Ceder, ChristenUnie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note171">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u25">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg33">Dank u wel, voorzitter. De ouders zijn vertrokken en ik kan me voorstellen dat ze dat deden met een dubbel gevoel. Ja, we hebben uitgewisseld dat er iets moet gebeuren, maar ik deel met veel anderen de vraag: gaat het wel snel genoeg? Kan het wel snel genoeg? Ik heb goede antwoorden gehoord van de minister, maar ook mij bekruipt het gevoel: laten we het daar waar dat kan, nóg sneller oppakken, want elke dag dat kinderen onterecht, daar waar dat het geval is, níét thuis wonen, is een dag te veel.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg34">Voorzitter. Ik ben blij met de toezegging van het willen meenemen om op alle manieren te kijken of je uit huis kan plaatsen wanneer dat nodig is, bijvoorbeeld bij een ouder uit huis. Ik hoor graag nog even de toezegging dat u specifiek ten aanzien van het RSJ-advies de driemaandentermijn zult meenemen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg35">Voorzitter. Ik heb een paar moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note172">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note173">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note174">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note175">overwegende dat hoe langer een kind niet thuis woont, hoe kleiner de kans is op terugkeer naar huis;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note176">overwegende dat het in de praktijk voorkomt dat na een uithuisplaatsing de uitvoering van de plannen gericht op terugplaatsing dusdanig achterloopt dat verlenging van een uithuisplaatsing na afloop van een machtiging vaak onvermijdelijk is, wat de kans op terugplaatsing aanzienlijk verkleint;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note177">verzoekt de regering in overleg met betrokken partijen te onderzoeken wat het nut en de effectiviteit van een wettelijke waarborging van deze voortgang kan zijn, bijvoorbeeld door een GI te verplichten binnen drie maanden een uitvoeringsupdate aan de rechtbank voor te leggen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note178">verzoekt de regering om op basis hiervan met voorstellen te komen en de Kamer hierover nog in 2022 te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note179">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note180">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note181">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note182">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note183">overwegende dat er momenteel kinderen van gedupeerde ouders van de toeslagenaffaire gedwongen uit huis zijn geplaatst;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note184">overwegende dat machtigingen voor ondertoezichtstellingen en uithuisplaatsingen in veel zaken aflopen en een zitting bij de kinderrechter moet worden ingepland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note185">overwegende dat gedupeerde ouders de mogelijkheid hebben een verzoek om beëindiging maatregel in te dienen als de omstandigheden gewijzigd zijn (conform artikel 1:265d, lid 2);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note186">verzoekt de regering in gesprek te gaan met de rechtspraak over de mogelijkheid om de zaken van gedupeerde KOT-ouders en hun kinderen waar dat kan met voorrang te behandelen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note187">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note188">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note189">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note190">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note191">overwegende dat het kabinet werkt aan de uitwerking van het toekomstscenario kind- en gezinsbescherming;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note192">overwegende dat de Raad voor Strafrechtstoepassing en Jeugdbescherming aanbeveelt dat het recht op een gespecialiseerde advocaat voor kinderen en ouders gewaarborgd moet zijn bij procedures rond uithuisplaatsingen en gezagsbeëindigende maatregelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note193">overwegende dat procesvertegenwoordiging nu nog niet verplicht is bij deze procedures;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note194">verzoekt de regering in de verdere uitwerking van het toekomstscenario kind- en gezinsbescherming een verplichte procesvertegenwoordiging voor kinderen en ouders op te nemen bij procedures rond uithuisplaatsingen en gezagsbeëindigende maatregelen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note195">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note196">Deze motie is voorgesteld door de leden Ceder, Peters en Van Beukering-Huijbregts.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note197">Zij krijgt nr. kst-31839-836</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note198">Deze motie is voorgesteld door de leden Ceder en Arib.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note199">Zij krijgt nr. kst-31839-837</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note200">Deze motie is voorgesteld door de leden Ceder en Marijnissen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note201">Zij krijgt nr. kst-31839-838</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note202">Dank u wel, meneer Ceder. Dan geef ik het woord aan mevrouw Van Beukering-Huijbregts.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note203">Mevrouw Van Beukering-Huijbregts (D66)</note>
+            <u who="#MarijkevanBeukering-Huijbregts" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u26">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg36">Dank u wel, voorzitter. Dank voor de antwoorden van de zijde van het kabinet en de ambtelijke ondersteuning. De minister voor Rechtsbescherming heeft een paar toezeggingen gedaan. D66 is daar blij mee. Wat betreft een toetsing door de rechtbank als standaard bij een perspectiefbesluit, standaard een procesbegeleider toewijzen aan het kind zelf: D66 vindt eigenlijk dat dat een advocaat moet zijn. Daarom nog één vraag. Kan de minister wel toezeggen dat de rechter altijd een advocaat kan toewijzen aan het kind als de rechter dat nodig acht?</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg37">Voorzitter. Dan heb ik twee moties. Eentje dien ik in namens de heer Van der Staaij, die nu niet aanwezig kan zijn.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note204">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note205">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note206">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note207">overwegende dat in de afgelopen jaren vanuit verschillende onderzoeken zorgen zijn geuit over de te kleine rol van de kinderrechter bij ingrijpende beslissingen als uithuisplaatsing;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note208">constaterende dat het kabinet voornemens is een adviescommissie in te stellen die onderzoek doet naar de noodzakelijke rechtsbescherming van ouders en kinderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note209">verzoekt de regering ook een vergelijking te maken van de beschikbare instrumenten en tijd die kinderrechters in Nederland hebben ten opzichte van andere Europese landen en de vraag of de wettelijke positionering van de kinderrechter te weinig gericht is op het actief vervullen van de toetsende taak bij ingrijpende besluiten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note210">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note211">Deze motie is voorgesteld door de leden Van Beukering-Huijbregts, Van der Staaij en Ceder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note212">Zij krijgt nr. kst-31839-839</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note213">Mevrouw Van Beukering-Huijbregts (D66)</note>
+            <u who="#MarijkevanBeukering-Huijbregts" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u27">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg38">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note214">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note215">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note216">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note217">constaterende dat naar aanleiding van de motie-Bergkamp het Actieplan Verbetering Feitenonderzoek is opgestart om waarheidsvinding in de jeugdbescherming te verbeteren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note218">constaterende dat er veel signalen blijven bestaan dat het feitenonderzoek nog steeds verbetering behoeft voor een goede rechtsbescherming van ouder en kind;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note219">verzoekt de regering plannen te maken voor een vervolg op het Actieplan Verbetering Feitenonderzoek om te werken aan een betere waarheidsvinding in de jeugdbescherming naar aanleiding van de evaluatie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note220">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note221">Deze motie is voorgesteld door de leden Van Beukering-Huijbregts en Raemakers.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note222">Zij krijgt nr. kst-31839-840</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note223">Mevrouw Van Beukering-Huijbregts (D66)</note>
+            <u who="#MarijkevanBeukering-Huijbregts" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u28">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg39">Voorzitter. Mijn fractie heeft waardering voor de gedrevenheid van dit kabinet om zich maximaal in te spannen voor de hereniging van gezinnen, voor het boven tafel krijgen van cijfers, voor input van ervaringsdeskundigen en experts om de jeugdbeschermingsketen te verbeteren. Dat is goed. We zullen de komende dagen, weken, maanden blijven opletten of het ook echt waargemaakt wordt om recht te doen aan deze kinderen en hun ouders.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg40">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note224">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u29">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg41">Dank u wel. Ik geef het woord aan de heer Verkuijlen van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note225">De heer Verkuijlen (VVD)</note>
+            <u who="#RuudVerkuijlen" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u30">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg42">Voorzitter, dank. Mijn fractie is zeer tevreden over de toezegging over het onderzoek naar een technische oplossing om bestanden te koppelen, zodat we goed zicht krijgen op alle slachtoffers die hierbij betrokken zijn. Hetzelfde geldt voor de toezegging van de minister over de griffiekosten, die door mevrouw Westerveld zijn aangedragen, evenals het onderzoek naar de juridische ondersteuning in het proces.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg43">Voorzitter, ten slotte het stelsel. Dat vind ik een belangrijk onderwerp, omdat we het vandaag gehad hebben over alle gedupeerde ouders van de toeslagenaffaire wier kind uit huis is geplaatst. Dat zullen echter niet de enige ouders geweest zijn die op het puntje van hun stoel hebben gezeten. Dat zullen in Nederland alle ouders zijn wier kind uit huis geplaatst wordt of die midden in dat proces zitten. Daardoor ligt er een zware hypotheek op, want als wij met elkaar stellen dat we het stelsel willen herzien — dat ligt volgens mij ook in lijn met de motie die net door het CDA is ingediend — dan hebben we ook de dure plicht om daar snelheid in te houden. Ik hoop van harte dat de minister die snelheid ook gaat betrachten. Bij stappen voorwaarts zal hij ons aan zijn zijde vinden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg44">Dank u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note226">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u31">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg45">Dank u wel, meneer Verkuijlen. Ik geef het woord aan mevrouw Van der Plas van BBB. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note227">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u32">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg46">Dank u wel, voorzitter. Met uw permissie wil ik heel kort iets zeggen over vanmiddag. Ik heb de Kamervoorzitter hier gevraagd om een interruptie van mij toe te staan. Geen interrupties bij een maidenspeech is een gewoonterecht. Dat staat niet in het Reglement van Orde. Dan is het heel normaal om als Kamerlid te vragen: voorzitter, staat u mij een interruptie toe? De Kamervoorzitter gaat over de orde van de vergadering. De heer Verkuijlen had zelf aangegeven dat niet te willen in de eerste termijn. Hij is daar in de tweede termijn op teruggekomen en dat siert hem enorm. De Kamervoorzitter heeft tijdens het debat maar ook daarna bij mij heel duidelijk aangegeven dat de Kamervoorzitter gewoon geen ongelijke behandeling van Kamerleden wil. Dat was de reden dat ze zei: ik sta het niet toe.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg47">Ik constateer dat onze Kamervoorzitter op sociale media voor de meest verschrikkelijke dingen wordt uitgemaakt vanwege haar beslissing, maar ik respecteer die beslissing. Het is ook een beslissing die we in deze Kamer gewoon respecteren. Je stelt een vraag en je krijgt antwoord. Het antwoord kan je niet bevallen, maar zo gaat dat hier. Ik wil de mensen die onze Kamervoorzitter op sociale media op deze manier aanvallen en schofferen tot op het meest verschrikkelijke toe, oproepen om daarmee te stoppen. Dat is eigenlijk een verklaring die ik vooraf aan mijn spreektijd hier wilde doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note228">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u33">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg48">Dat waardeer ik. Dank u wel, mevrouw Van der Plas.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note229">Geroffel op de bankjes</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note230">De heer Verkuijlen (VVD)</note>
+            <u who="#RuudVerkuijlen" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u34">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg49">Ik sluit me daar van harte bij aan. Dit was gewoon een lelijke inschattingsfout van mij. Daar neem ik alle verantwoordelijkheid voor. Maar laat in godsnaam iedereen zijn werk doen. Heb daar respect voor. Dank voor uw bijdrage, mevrouw Van der Plas.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note231">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u35">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg50">Graag gedaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note232">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u36">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg51">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note233">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u37">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg52">Dan ga ik over naar de moties. De heer Omtzigt had dit debat aangevraagd. De minister-president heeft het ook aangegeven: als er iemand is in deze Kamer die zich in dit dossier heeft vastgebeten, samen met mevrouw Leijten en de heer Azarkan, dan is het de heer Omtzigt. Het zit mij al een hele tijd dwars dat afsplitsers in de Kamer niet genoeg spreektijd krijgen. Vanmiddag heb ik de heer Omtzigt wat meer spreektijd gegund door vragen te stellen en interrupties te doen. Een aantal collega-Kamerleden hebben dat ook gedaan. Maar dat zou niet moeten mogen. We moeten gewoon terug naar een normale situatie, want anders krijg je dit soort kunstjes steeds. Daarom heb ik een motie daarvoor.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note234">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note235">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note236">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note237">constaterende dat Kamerleden die zich hebben afgesplitst voor de helft worden gekort op hun spreektijd, zoals ook in het debat over de uithuisplaatsingen en het toeslagenschandaal op 12 mei 2022;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note238">constaterende dat dit ongelijkheid is in de behandeling van volwaardig gekozen volksvertegenwoordigers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note239">overwegende dat de Grondwet geen partijen of fracties kent, slechts volksvertegenwoordigers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note240">overwegende dat elk Kamerlid als gekozen volksvertegenwoordiger volgens de Grondwet recht heeft op zijn of haar zetel en daarmee optimaal gefaciliteerd moet worden in het uitvoeren van zijn of haar democratische werk;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note241">overwegende dat de "afsplitsers" nu niet volwaardig hun democratische werk kunnen uitvoeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note242">verzoekt het Presidium van de Tweede Kamer om het Reglement van Orde zodanig aan te passen dat de afgesplitste Kamerleden dezelfde spreektijd wordt toegekend als alle andere Kamerleden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note243">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note244">Deze motie is voorgesteld door het lid Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note245">Zij krijgt nr. kst-31839-841</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note246">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u38">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg53">De laatste motie ga ik heel snel voorlezen, want ik heb nog maar 24 seconden.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note247">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note248">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note249">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note250">constaterende dat veel burgers in de knel zijn komen te zitten wegens doorgeschoten beleid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note251">constaterende dat de overgrote meerderheid van goedwillende burgers last heeft van beleid dat niet voor hen gemaakt is, zoals de toeslagenaffaire;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note252">overwegende dat er behoefte is aan een sociale praktijktoets, soortgelijk aan de mkb-toets, die ook in een memorie van toelichting van de nieuwe wet wordt opgenomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note253">verzoekt de regering om te onderzoeken hoe deze sociale praktijktoets in elk nieuw wetsvoorstel opgenomen kan worden, en de Kamer hier voor oktober 2022 over te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note254">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note255">Deze motie is voorgesteld door het lid Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note256">Zij krijgt nr. kst-31839-842</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note257">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u39">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg54">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note258">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u40">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg55">Dank u wel, mevrouw Van der Plas. Dan gaan we naar de heer Van Raan, Partij voor de Dieren. De heer Van der Staaij en mevrouw Simons hebben zich afgemeld voor de tweede termijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note259">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u41">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg56">Voorzitter, dank u wel. Ook dank aan mevrouw Van der Plas voor haar, in mijn ogen, goede woorden. Dank daarvoor.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg57">Voorzitter. Ik heb een lange motie, die deels gemaakt is met ouders en met bestuurders in Almere. Het is een lange motie. Ik ga beginnen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note260">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note261">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note262">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note263">overwegende dat de overheid in de aanpak kinderopvangtoeslagen veelal wordt gezien als dader en dat derhalve gedupeerden geen vertrouwen hebben in de aanpak;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note264">overwegende dat ook voor de uithuisplaatsingen geldt dat de partijen die voorheen betrokken waren bij de uithuisplaatsingen nu verantwoordelijk zijn voor de oplossing en dat het daarmee aannemelijk is dat voor veel gedupeerden de huidige aanpak uithuisplaatsingen geen passend antwoord biedt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note265">constaterende dat onder andere gelijkwaardigheid en onafhankelijkheid randvoorwaarden zijn voor succesvol herstel en dat gelijkwaardigheid wat anders is dan ouderparticipatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note266">constaterende dat het huidige systeem niet functioneert, mede omdat deze basisingrediënten ontbreken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note267">constaterende dat de aanpak uithuisplaatsingen van KOT-gedupeerden niet snel genoeg verloopt en, gezien het aangedane leed, onze absolute prioriteit verdient;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note268">overwegende dat om de problemen op te lossen overheden, waaronder gemeentes, meer regelruimte en een gedifferentieerde aanpak nodig hebben, en zich op ongekend terrein bevinden vanwege de enorme omvang van de door de rijksoverheid gecreëerde problemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note269">constaterende dat in de gemeente Almere een aanpak bestaat waarbij het ongekend leed van individuele burgers wel omgezet is naar een gezamenlijke, gelijkwaardige aanpak met overheid en gedupeerden, en deze aanpak ook toegepast kan worden op de aanpak uithuisplaatsingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note270">verzoekt de regering gemeentes, in samenwerking met VNG, meer regelruimte te geven (ook in gegevensuitwisseling), zodat geëxperimenteerd kan worden met een onafhankelijke individuele integrale aanpak van (gedwongen of vrijwillig) uit huis geplaatste kinderen (zowel jonger als ouder dan 18 jaar) en hun families, waarna andere gemeentes de in Almere geleerde lessen ook in de praktijk kunnen toepassen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note271">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note272">Deze motie is voorgesteld door de leden Van Raan, Sylvana Simons, Peters, Eerdmans, Van der Plas, Van der Staaij, Van Haga, Azarkan, Van Beukering-Huijbregts, Ceder, Arib en Verkuijlen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note273">Zij krijgt nr. kst-31839-843</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note274">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u42">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg58">Voorzitter, dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note275">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u43">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg59">Dank u wel, meneer Van Raan. Dan geef ik het woord aan de heer Van Houwelingen, Forum voor Democratie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note276">De heer Van Houwelingen (FVD)</note>
+            <u who="#PepijnvanHouwelingen" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u44">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg60">Dank u, voorzitter. De conclusie van dit debat is wat ons betreft helder: de jeugdbescherming en andere instellingen zijn veel te machtig en ouders staan veel te zwak. Ik denk dat dat oordeel door heel veel experts gedeeld wordt. Wij komen nu met een aantal moties om die instellingen aan de ketting te leggen. Ik zei dat in mijn eerste termijn al. Als we dat als Tweede Kamer niet doen, dan hebben de ouders daar heel weinig aan gehad. Ik kom nu met mijn drie moties daarvoor.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note277">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note278">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note279">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note280">constaterende dat uit juridisch-wetenschappelijke bevindingen blijkt dat het gebrek aan rechtsbescherming het belangrijkste knelpunt is voor burgers die te maken krijgen met een uithuisplaatsing met als gevolg dat minderjarigen en hun ouders zwak staan tegenover een machtig uitvoeringsapparaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note281">verzoekt de regering om met spoed de rechtsbescherming van burgers te verbeteren door geconstateerde gebreken zoals uiteengezet in de factsheet van 9 februari 2022 over de uithuisplaatsingen, te repareren en een wetsvoorstel voor te bereiden, teneinde twee wetsartikelen in het Burgerlijk Wetboek te vervangen door een aparte Wet op de kinderbescherming met zo concreet mogelijke omschrijvingen van die handelingen die rechtsgrond voor ingrijpen opleveren, ontdaan van pedagogische of psychologische aspecten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note282">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note283">Deze motie is voorgesteld door het lid Van Houwelingen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note284">Zij krijgt nr. kst-31839-844</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note285">De heer Van Houwelingen (FVD)</note>
+            <u who="#PepijnvanHouwelingen" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u45">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg61">Dat laatste stuk is heel belangrijk. Dit was de eerste motie.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg62">Dan de laatste twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note286">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note287">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note288">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note289">constaterende dat gezinnen te maken kunnen krijgen met financiële problemen, waardoor de zorg voor de kinderen minder aandacht zou kunnen krijgen dan gewenst;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note290">overwegende dat ouders, zelfs in gezinnen die in grote armoede leven, het recht en de plicht hebben om hun kinderen zelf op te voeden en te verzorgen, zoals ook voortvloeit uit het Europese en internationale recht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note291">verzoekt de regering om uithuisplaatsingen wegens financiële problemen wettelijk onmogelijk te maken door aanscherping van het Burgerlijk Wetboek, en binnen een maand een daartoe strekkend wetsvoorstel aan de Kamer voor te leggen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note292">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note293">Deze motie is voorgesteld door het lid Van Houwelingen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note294">Zij krijgt nr. kst-31839-845</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note295">De heer Van Houwelingen (FVD)</note>
+            <u who="#PepijnvanHouwelingen" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u46">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg63">Dan de laatste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note296">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note297">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note298">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note299">verzoekt de regering om met onmiddellijke ingang alle tegen de wil van de ouders uit huis geplaatste kinderen in het kader van de toeslagenaffaire onmiddellijk, dus zonder nadere beoordeling van de casus, terug te brengen naar het gezin waar zij vandaan kwamen en thuishoren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note300">verzoekt de regering uitsluitend indien er sprake is geweest van bewezen zware mishandeling of andere strafrechtelijke misdrijven van de ouders tegen het kind niet over te gaan tot terugplaatsing van de uit huis geplaatste kinderen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note301">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note302">Deze motie is voorgesteld door het lid Van Houwelingen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note303">Zij krijgt nr. kst-31839-846</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note304">Dank u wel, meneer Van Houwelingen. Er is een vraag van mevrouw Westerveld van GroenLinks.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note305">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u47">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg64">Voorzitter. Het is misschien meer een aanvulling op de eerste motie. De rechten van kinderen moeten inderdaad beter worden beschermd, maar er staat een wetsvoorstel op de rol. We hebben al een schriftelijke inbreng geleverd als Kamer en volgens mij gaan we het er over een paar weken over hebben. Hij staat in ieder geval in de planning. Dat wou ik de heer Van Houwelingen even meegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note306">De heer Van Houwelingen (FVD)</note>
+            <u who="#PepijnvanHouwelingen" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u48">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg65">Ja, dank u wel. Ik zal er heel kort op reageren. Dat is heel mooi, maar zover ik weet — corrigeert u mij als ik me vergis — is het niet zo dat in dat wetsvoorstel staat — dat is voor ons heel belangrijk, daar gaat deze motie over — dat pedagogische en andere opvoedkundige overwegingen geen rol meer mogen spelen — daardoor zijn al die misstanden ontstaan — bij het uit huis plaatsen van kinderen. Dat is onze reden voor deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note307">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u49">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg66">Dank u wel. Dan geef ik het woord aan de heer Eerdmans van JA21.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note308">De heer Eerdmans (JA21)</note>
+            <u who="#JoostEerdmans" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u50">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg67">Voorzitter, dank u wel. Wij zeggen weleens in deze Kamer "het ligt genuanceerd, het is allemaal niet zo zwart-wit", maar vandaag is het heel erg zwart-wit, want je bent je kind kwijt en het is de vraag of je kind ooit zal terugkeren. Wij zullen diverse moties steunen die hier zijn ingediend, onder ander over de herbeoordelingen, maar ook over het bieden van hulp in plaats van het uit huis plaatsen van een kind.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg68">Bij JA21 hebben we wel zorgen over de toekomst van dit soort situaties. Zijn we nou voldoende toegerust om te voorkomen dat bureaucratie en protocollen boven de menselijke beoordeling gaan? Het antwoord lijkt duidelijk nee op dit moment. Je zou bijna zeggen "trotseer het protocol in dit soort situaties als jij op die manier met kinderen bezig bent", want het gevaar is levensgroot dat er misschien wel onherstelbare beslissingen worden genomen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg69">Voorzitter. Een vraag is blijven liggen, die ik had gesteld aan de heer Weerwind, aan de minister voor Rechtsbescherming. Zit er nu een personeelstekort achter het probleem van op tijd herenigingsverzoeken beoordelen? Ik denk dat dat een belangrijke vraag is, want anders komen we nog verder van de regen in de drup als het gaat om de oude gevallen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg70">Dank voor de beantwoording en dank voor uw aandacht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note309">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u51">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg71">Dank u wel, meneer Eerdmans. Dan geef ik het woord aan de heer Van Haga, Groep Van Haga. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note310">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:housi" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u52">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg72">Voorzitter. Ik moet bekennen dat ik het een verhelderend, maar tevens schokkend debat vond. Het is in ieder geval nu duidelijk geworden dat onze premier het toeslagenschandaal wel een pijnlijk schandaal vond, maar de 1.675 uithuisplaatsingen niet. Dat is onvoorstelbaar en daarom heb ik toch nog twee moties gemaakt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note311">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note312">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note313">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note314">overwegende dat het toeslagenschandaal met recht een schandaal wordt genoemd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note315">constaterende dat de minimaal 1.675 uithuisplaatsingen van kinderen een direct gevolg zijn van de problemen die ontstaan zijn door het toeslagenschandaal;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note316">spreekt uit dat dit impliciet betekent dat deze specifieke uithuisplaatsingen ook met recht een schandaal kunnen worden genoemd,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note317">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note318">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note319">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note320">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note321">spreekt haar afschuw uit over de handelswijze van jeugdzorg die moeders verbiedt foto's van hun verdwenen kinderen op de sociale media te plaatsen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note322">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note323">Deze motie is voorgesteld door de leden Van Haga en Smolders.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note324">Zij krijgt nr. kst-31839-847</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note325">Deze motie is voorgesteld door de leden Van Haga en Smolders.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note326">Zij krijgt nr. kst-31839-848</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note327">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u53">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg73">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note328">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u54">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg74">Dank u wel. De bewindspersonen hebben aangegeven dat ze ongeveer twintig minuten nodig hebben om zich voor te bereiden. Ik schors de vergadering tot 20.50 uur.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note329">De vergadering wordt van 20.29 uur tot 20.50 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note330">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u55">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg75">Aan de orde is het vervolg van het debat over de problemen met uithuisplaatsingen van kinderen. Ik vraag de bewindspersonen en de Kamerleden om hun plaatsen in te nemen. De minister voor Rechtsbescherming heeft aangegeven dat hij de meeste moties van een apprecitatie moet voorzien. Ik geef hem daarom als eerste het woord. Er zijn ook nog een aantal vragen gesteld. Het woord is aan de minister voor Rechtsbescherming.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note331">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u56">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg76">Voorzitter, dank u wel. Er zijn mij een paar vragen gesteld. Ik ga eerst in op die vragen en daarna op de moties.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg77">Ik start met de aankondiging van de initiatiefnota-Omtzigt, als ik die zo mag duiden, en zeven aanbevelingen om op te lossen. Als ik het goed begrepen heb, wenst de heer Omtzigt een reactie van ons binnen een x-aantal weken te ontvangen. Kort en in het algemeen zeg ik: ik herken de zorgen en deel ook het gevoel van urgentie. Een deel van de aanbevelingen sluit dan ook aan bij reeds lopende trajecten. Ik zal voor de zomer reageren op uw initiatiefnota.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg78">Als u dat wenst, wil ik er puntsgewijs op ingaan. Laat ik starten met de aanbeveling om de factsheet-Bruning over te nemen. Ik heb toegezegd dat ik zeer serieus de aanbeveling ga bekijken, en die in samenhang zal bezien met de aanbeveling van de evaluatie van de herziene kinderbeschermingswetgeving. Dat is één.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg79">Twee: onafhankelijk onderzoek toeslagenaffaire en uithuisplaatsingen. De Kamer kent mijn standpunt: de inspecties zijn wél onafhankelijk. En ik werk aan een onafhankelijke commissie, aanvullend aan het onderzoek van de inspecties. Die commissie krijgt als opdracht om onderzoek te doen naar het verband tussen de toeslagenaffaire en de uithuisplaatsingen. De commissie zal zelf de precieze onderzoeksvraag en de werkwijze bepalen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg80">Drie: bevoegdheden en doorzettingsmacht voor het ondersteuningsteam. Als het ondersteuningsteam bevoegdheden krijgt, verandert zijn taak en verandert de verhouding tot ouders en kinderen. Daarbij komt dat taken en bevoegdheden in de jeugdbeschermingsketen wettelijk zijn bepaald. Ik herhaal wat ik eerder heb gezegd in het debat, mevrouw de voorzitter. Excuus daarvoor. Om bevoegdheden toe te kennen aan het ondersteuningsteam zou de wet weer moeten worden gewijzigd, iets wat tijd kost. Maar ik heb deze Kamer ook het volgende gezegd. Mocht uit evaluaties blijken dat er wel degelijk bevoegdheden voor het ondersteuningsteam nodig zijn, dan ga ik daarnaar kijken. Dan ga ik kijken hoe ik het ondersteuningsteam effectief en efficiënter kan equiperen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg81">Punt vier: reflectie van de rechters. De rechterlijke macht heeft al aangegeven dat de rechters dat zullen gaan doen. Ik heb begrepen dat ze in het najaar met uitkomsten zullen komen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg82">Vijf: een extra meldpunt. Dat gaat ook over rechtsbescherming. Ik betrek dat bij de reactie op de aanbeveling van factsheet-Bruning van de Universiteit Leiden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg83">Zes: de aanbeveling van de RSJ integraal overnemen. Dit is ook meteen een antwoord op een vraag van de heer Ceder van de ChristenUnie. Ik wil dat een perspectiefbesluit in alle gevallen getoetst wordt door een kinderrechter. Ik ben dit met de sector aan het uitwerken. Ik zal ook de termijn van drie maanden hanteren, zoals door de heer Ceder is verzocht.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg84">Zeven: een commissie die adviseert over aansprakelijkheid en verantwoordelijkheid. Ik herken het beeld niet dat tot een uithuisplaatsing wordt besloten uit angst voor aansprakelijkheid bij professionals, of dat dat voor professionals de makkelijkste oplossing is. Daarbij blijft ook bij een uithuisplaatsing de jeugdbeschermer van de gecertificeerde instelling verantwoordelijk. De Inspectie Gezondheidszorg en Jeugd houdt vervolgens toezicht op de kwaliteit van de zorg en spreekt de instellingen hierop aan. Wat is wél nodig? Aan de slag om onnodige angst en zorgen van professionals over klachttucht weg te nemen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg85">Mevrouw de voorzitter. Meneer Omtzigt vroeg ook: geeft de regering toe dat besluiten tot uithuisplaatsingen niet genomen zijn op juiste rechtsstatelijke gronden? De fundamentele kritiek dat besluiten tot uithuisplaatsingen niet rechtsstatelijk worden genomen, klopt niet. Uithuisplaatsingen vinden altijd plaats op grond van het recht. Dat recht bestaat uit wetgeving, verdragen en jurisprudentie. De rechterlijke macht komt op basis van het recht tot uitspraken. De rechter bepaalt daarbij welke informatie hij nodig heeft om tot een goede uitspraak te komen. Hij kan die informatie krijgen van de Raad voor de Kinderbescherming, een gecertificeerde instelling, ouders en kinderen. Dat betekent niet dat ik zeg dat het systeem niet beter kan. Ik heb dat ronduit toegegeven. Het systeem van het beschermen van kinderen tegen bedreigende ontwikkelingen, en het beschermen van kinderen en ouders daarin, kan beter. Met betrekking tot het verbeteren van het systeem heb ik al hele concrete toezeggingen gedaan.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg86">Er is gevraagd of ik het probleem erken en of ik voor de zomer ga zorgen voor onafhankelijke herbeoordelingen. Het kabinet erkent dat het toeslagenschandaal direct of indirect heeft bijgedragen aan de problemen in gezinnen die uiteindelijk geleid hebben tot uithuisplaatsingen. Ten aanzien van de gevraagde herbeoordelingen blijf ik de lijn herhalen dat de individuele situatie leidend is. Ouders en kinderen van 12 jaar of ouder kunnen de gecertificeerde instellingen al vragen om een herbeoordeling op grond van de gewijzigde omstandigheden. Als de GI niet instemt, staat de weg naar de rechter open. Het ondersteuningsteam kan ouders vanuit onafhankelijkheid bij dit proces helpen. Daarbij kan het ondersteuningsteam externe deskundigen inschakelen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg87">Mevrouw de voorzitter. Dan kom ik te spreken over een vraag die mij is gesteld door mevrouw Westerveld van GroenLinks. Waarom wordt het drangkader niet gewoon verboden? We zien dat het voor ouders en jeugdigen onduidelijk is wat "drang" inhoudt. Ouders en jeugdigen ervaren het als dwingend en weten niet waar zij wel en niet aan hoeven mee te werken. Ik vind die onduidelijkheid net als u zeer onwenselijk, mevrouw Westerveld. In onze reactie op een advies van eind 2019 van de RSJ hierover, hebben wij aangegeven dat er een scherpere afbakening moet zijn tussen interventies in vrijwillig en gedwongen kader. Een tussenvorm, zoals een drangkader, bestaat niet. We hebben ook aangegeven dit scherper uit te werken in het toekomstscenario. Een verbod op drang kan in mijn ogen dus niet. Drang zou moeten worden opgevat als een methode, dus als intensieve ambulante hulp, juist bedoeld om ouders en kinderen te helpen en daarmee gedwongen interventies te voorkomen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg88">Dan was er een vraag van JA21, van de heer Eerdmans. Excuus dat ik verzuimd heb die eerder te beantwoorden. De vraag luidt of het personeelstekort achter het probleem van het op tijd beoordelen van herenigingsverzoeken zit. Formele verzoeken, in juridische zin, komen niet veel voor in de praktijk. Ik heb niet het beeld dat er problemen zijn bij de afhandelingen hiervan. Ik volg dat nauwgezet. In algemene zin staat de sector wel degelijk onder druk. Er zijn vacatures, er is een hoog ziekteverzuimcijfer, et cetera et cetera. Ik zie dat er gewoon een tekort is aan jeugdbeschermers. Ik ben samen met de staatssecretaris nadrukkelijk in gesprek met de sector omdat we die continuïteit van belang vinden. U heeft mij horen zeggen dat ik ook kijk hoe je zijinstromers de organisatie in kan krijgen om meer menskracht te hebben, om echte kwaliteit te blijven leveren en meer continuïteit te bewerkstelligen. Dat doe ik samen met staatssecretaris Van Ooijen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg89">Mevrouw de voorzitter. Tot zover de aan mij gestelde vragen. Ik wil doorgaan met de moties. Een beperkt aantal moties is voor mijn collega's weggelegd, de staatssecretarissen. Ik start met de motie op stuk nr. 821. Als u het goed vindt, vlieg ik er ook doorheen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note332">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u57">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg90">Ja, maar ik zie mevrouw Van Beukering-Huijbregts heel voorzichtig naar de interruptiemicrofoon gaan. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note333">Mevrouw Van Beukering-Huijbregts (D66)</note>
+            <u who="#MarijkevanBeukering-Huijbregts" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u58">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg91">Ik had in mijn tweede termijn nog een vraag gesteld. Die ging over de advocaat. Maar ik begrijp ook dat die nu misschien niet meer meegenomen is in de beantwoording bij de moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note334">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u59">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg92">Afgaande op de gezichtsuitdrukking van de minister: kunt u de vraag een keer herhalen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note335">Mevrouw Van Beukering-Huijbregts (D66)</note>
+            <u who="#MarijkevanBeukering-Huijbregts" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u60">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg93">Ik heb de spullen al achterin liggen, dus ik ben ook even aan het reproduceren. Het ging over de procesbegeleider. We hebben gevraagd of dat ook een advocaat kon zijn als de rechter dat nodig acht. Dat was de vraag. De minister heeft in zijn eerste termijn aangegeven dat een procesbegeleider bijvoorbeeld ook een gedragsdeskundige of mediator zou kunnen zijn. Wij hebben gevraagd of, als de rechter het nodig vindt dat het een advocaat is, dit dan mogelijk ook een optie is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note336">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u61">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg94">Ik ben geneigd om een positief antwoord te geven, maar: check, double check. Daarom ga ik 'm schriftelijk beantwoorden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg95">Voorzitter. Mag ik met de moties beginnen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note337">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u62">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg96">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note338">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u63">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg97">Voorzitter. De eerste motie, die op stuk nr. 821, is van de heer Omtzigt. Bij vrijwillige uithuisplaatsing gaat het onder andere om situaties waarbij ouders zelf initiatief nemen tot het onderbrengen van kinderen bij familie of binnen het netwerk. Daar is geen registratie van. Het is wellicht mogelijk om na te gaan hoeveel kinderen van gedupeerden in formele pleegzorg verblijven, maar laten we ons alsjeblieft … Ik begrijp dat u een exact cijfer wilt, maar het gaat om die ouders en kinderen. Ik geloof niet dat een compleet cijfer daar direct aan bijdraagt, dus ik ga de motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note339">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u64">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg98">Dat roept een reactie op van de heer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note340">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:educa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u65">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg99">We hebben hier net een uur staan discussiëren. Dit is níét dat ouders het zelf bepalen. Ouders voelen zich gedwongen in het vrijwillige kader. Dat noemen we drang, maar veel ouders hadden niet eens door dat ze konden weigeren. Ze zijn zelfs door politieagenten meegenomen. "Doet u het niet nu, dan gaan we wel naar de rechter." Ik dacht dat de minister aangegeven had dat hij wilde bewerkstelligen dat er wel statistieken over zijn. Hij zei, bijna wanhopig: ik zou het graag willen weten. Er staan twee dingen. In de toekomst moeten we gewoon statistieken bijhouden. Dat lijkt me gewoon logisch voor toekomstig beleid. Daarnaast verzoek ik de regering een poging te doen om het te achterhalen. Dat dit niet honderd procent gaat lukken, snap ik wel. Maar het lijkt me toch logisch dat we dat willen weten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note341">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u66">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg100">Ik zal het nogmaals herhalen. Ik heb aangegeven dat ik zo veel mogelijk wil weten. Ik heb zelfs het adagium "meten is weten" gebezigd. Maar wat niet geregistreerd wordt, kan ik niet in kaart brengen. Ik ga de motie wel degelijk ontraden, maar laat ik u heel helder toezeggen dat ik probeer zo veel mogelijk data te verzamelen om inzicht te krijgen. Ik zal er absoluut niet aan voorbijgaan om te kijken of we dit in kaart kunnen brengen, maar ik ga de motie wel ontraden. Ik blijf bij mijn standpunt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg101">Voorzitter. Dan de motie op stuk nr. 823. Enkele moties zijn voor mijn collega's, zij gaan daarop in. Dat geldt voor de motie op stuk nr. 822. Ik ga verder met de motie op stuk nr. 823. Die is ook van de heer Omtzigt. Ik ontraad de motie. Ik heb in het debat ook aangegeven waarom. Anders verval ik in herhaling. Ik wijs u op de concrete toezegging die ik in dezen heb gedaan, meneer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note342">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u67">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg102">De minister heeft toch echt aangegeven dat hij geen expert kan noemen die vindt dat het huidige stelsel van uithuisplaatsingen rechtsstatelijk voldoet. Als hij dat hier aangeeft, dan kunnen we toch niet anders dan ouders de mogelijkheid geven om te laten herevalueren? In de motie staat "binnen een halfjaar", maar als daar "zeven of acht maanden" moet staan, dan hoor ik dat ook. Dat was toch de hele bedoeling om enig beetje hoop te geven aan die 555 kinderen en hun ouders? Dat vinden we toch allemaal?</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg103">Ik neem ook aanstoot aan de zinnen die ik eerder hoorde, dat de besluiten op rechtsstatelijke gronden genomen zijn. Ik heb hier drie jaar samen met mevrouw Leijten en de heer Azarkan moeten vechten. De besluiten van de rechter bij de toeslagen waren formeel gezien inderdaad rechtsstatelijk als je heel formalistisch bent. Het duurde drie jaar voordat men hier doorhad dat er een grote bak ellende aan zat, dat de algemene beginselen van behoorlijk bestuur geschonden waren, dat het stelsel niet klopte. Toen gingen in één keer de poorten open en begreep men dat hier een toeslagenaffaire, een toeslagenschandaal, was. Het kabinet is afgetreden en al het andere. Hetzelfde gaat hier gebeuren als we dat nu niet erkennen. Dat vraag ik hier nu. Erken nu dat hier dingen mis zijn gegaan. Het gaat niet om het voeren van grote rechtszaken. Het gaat om individueel recht doen. De regering doet individueel recht als zij ofwel met deze motie ofwel met een andere motie — dat maakt mij niet uit — de mogelijkheid geeft dat deze zaken opnieuw bekeken worden, linksom of rechtsom.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note343">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u68">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg104">Ik vrees dat ik in herhaling verval en dat wil ik niet. Ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg105">Dan de motie op stuk nr. 824. Het verbreden van het ondersteuningsteam lijkt mij nu niet wenselijk. Voor de ouders die gedupeerd zijn in de toeslagenaffaire, zie ik specifiek aanleiding voor deze extra ondersteuning. De toeslagenaffaire heeft immers bijgedragen aan de problemen in de thuissituatie. De werkwijze van het ondersteuningsteam wordt geëvalueerd. De lessen die we trekken, worden breed benut. Het verbreden van de kosteloze rechtsbijstand wordt betrokken bij de acties die ik inzet rond het verbeteren van de rechtsbescherming in brede zin. Ik ontraad de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg106">De motie op stuk nr. 826 heb ik scherp gelezen. Ik heb ook even enige discussie gehad achter de schermen, want het gaat mij om de laatste twee zinnen: "verzoekt de regering te bewerkstelligen dat gedupeerde ouders van het kindertoeslagschandaal op laagdrempelige wijze alle informatie over hun uithuisgeplaatste kind kunnen krijgen." In het debat heb ik, misschien niet helder genoeg, aangegeven dat het vraagpunt is: hebben ze nog ouderlijk gezag, ja of nee? Dat is van belang. Op het moment dat ze ouderlijk gezag hebben, moeten ze alle informatie hebben. Punt. Hebben ze niet het ouderlijk gezag, dan behoren ze wel het dossier te hebben van de ouders, van zichzelf, maar niet van het kind. Daar zit het verschil in. Het gaat om dat accent. Als ik de motie nu heel zwart-wit lees, moet ik die ontraden. Maar tegelijkertijd vind ik — dat heeft u mij in het debat horen zeggen — dat we zo transparant mogelijk moeten zijn, maar wel met de veronderstellingen die ik net bezigde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note344">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u69">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg107">Ik kijk even naar mevrouw Arib of ze zich kan vinden in de interpretatie die de minister aangeeft van de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note345">Mevrouw Arib (PvdA)</note>
+            <u who="#KhadijaArib" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u70">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg108">Ja, daar ben ik het mee eens. Wettelijk is het zo dat als ze uit het ouderlijk gezag worden gezet, ze ook geen toegang hebben tot het dossier. Met die uitleg kan ik dus wel leven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note346">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u71">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg109">Dank u wel, mevrouw Arib, via u, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg110">Dan de motie op stuk nr. 827. Als ik "oordeel Kamer" zeg, geef ik het aan de Kamer en ga ik daar niet verder op in. Mag dat? Ja? Akkoord.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg111">De motie op stuk nr. 828 ga ik ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg112">De motie op stuk nr. 829.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg113">O, ik word even gecorrigeerd. Ik maak een fout bij de motie op stuk nr. 827. Daar geven wij geen reactie op. Of gaat u daarop in? De staatssecretaris gaat daarop in.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note347">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u72">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg114">Maar we hoorden u al wel "oordeel Kamer" geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note348">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u73">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg115">Ik werd even gecorrigeerd door mijn staatssecretaris van VWS.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note349">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u74">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg116">Dus die komt straks terug op de appreciatie, oké. Het staat al wel in de Handelingen. Nee, maar de staatssecretaris gaat er dus zo op in.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note350">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u75">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg117">Excuses voor de chaos die ik creëer in de richting van de SP.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg118">De motie op stuk nr. 828: ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg119">De motie op stuk nr. 829. Nu ga ik heel goed lezen en kijken: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg120">De motie op stuk nr. 830. Kijk, bij vrijwillige uithuisplaatsingen gaat het onder andere om situaties waarbij ouders zelf het initiatief nemen tot ... Nou, ik verval daarmee inhoudelijk eigenlijk weer in herhaling. Ik heb daar net al iets over gebezigd. Laat ik helder zijn: de motie op stuk nr. 830 ga ik ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg121">De motie op stuk nr. 831.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note351">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u76">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg122">De minister heeft daar daarstraks ook al wel een reactie op gegeven. Maar de heer Azarkan over de tiende motie, die op stuk nr. 830?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note352">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u77">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg123">Ja, dank, voorzitter. Het is niet zozeer dat die ouders vrijwillig zelf het initiatief hebben genomen. Die ouders zijn op een onbewaakt moment, totaal onvoorbereid, gebeld vanuit de jeugdzorg en gevraagd om vrijwillig hun kind bij de andere ouder, vaak bij de ex-partner ... En ze hebben helemaal geen rechtsbescherming, zijn daar niet op gewezen, hebben ook soms geen idee wat ze zich op de hals hebben gehaald. Dus als we die niet meenemen, dan doen we deze ouders ook tekort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note353">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u78">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg124">Ik begrijp de verontwaardiging van de heer Azarkan, maar hij heeft mij nadrukkelijk horen zeggen dat ik juist ook van het ondersteuningsteam vraag om, wanneer ouders komen en zich melden, opnieuw te kijken naar wat er nou is gebeurd. Niet alleen de gedwongen, maar ook de vrijwillige uithuisplaatsingen kunnen aan de orde komen. En dan zal alles gewoon terug moeten worden geredeneerd en de juiste hulp en ondersteuning moeten worden geboden. Ik persisteer in mijn standpunt: onraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg125">Ik ga door, mevrouw de voorzitter. Volgens mij ben ik nu bij de motie op stuk nr. 831. Ook die ga ik ontraden. Ik ga niet de argumentatie herhalen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg126">De motie op stuk nr. 832. Daaraan geef ik oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg127">De motie op stuk nr. 833: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg128">De motie op stuk nr. 835. Daarover geef ik ook het oordeel aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg129">Sommige moties, zoals de veertiende, die op stuk nr. 834, die ik net oversloeg, zal mijn collega behandelen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg130">De motie op stuk nr. 836: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg131">De motie op stuk nr. 837: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg132">De motie op stuk nr. 838: de verplichte procesvertegenwoordiging. Welwillend sta ik hiertegenover; ik heb daar mijn woorden over gebezigd. Oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg133">De motie op stuk nr. 839: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg134">De motie op stuk nr. 840: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg135">De motie op stuk nr. 841. Daar ga ik niet over, dus daarop ga ik geen reactie geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg136">De motie op stuk nr. 842 geef ik oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg137">De motie op stuk nr. 842.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note354">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u79">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg138">Volgens mij had u het net over de motie op stuk nr. 842. Die was oordeel Kamer, zei u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note355">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u80">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg139">Ja, excuus. Ik zie nu dat ik deze motie hier dubbel heb liggen. De socialepraktijktoets die gevraagd wordt, is zo veelomvattend, want het betreft niet alleen vraagstukken in mijn portefeuille, maar voor het hele kabinet. Die heeft een dermate grote impact, dat ik nadrukkelijk verzoek om mij de gelegenheid te geven om daar schriftelijk op te kunnen reageren en een appreciatie te kunnen geven, en haar aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note356">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u81">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg140">Ik kijk even naar mevrouw Van der Plas, of zij bereid is om de motie aan te houden. En dan komt er een schriftelijke reactie. Wanneer?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note357">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u82">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg141">Ik ga dat overleggen en ik laat u dat zo snel mogelijk weten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note358">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u83">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg142">Oké. Is het goed om de motie op stuk nr. 842 aan te houden? Dat is het verzoek. Lukt dat voor het reces?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note359">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u84">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg143">Ik ga aan het werk, voor het reces.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note360">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u85">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg144">We hebben het over het zomerreces.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note361">Op verzoek van mevrouw Van der Plas stel ik voor haar motie (31839, nr. 842) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note362">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note363">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u86">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg145">De motie op stuk nr. 843: oordeel Kamer. De motie op stuk nr. 844 ga ik ontraden. De motie op stuk nr. 845 ga ik ontraden. De motie op stuk nr. 846: ontraden. De motie op stuk nr. 847: ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg146">Over de motie op stuk nr. 848 wil ik iets meer uitleg geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note364">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u87">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg147">De motie op stuk nr. 847 is een spreekt-uitmotie, dus het is aan de Kamer om met een oordeel daarover te komen. Daar hoeft u dus geen appreciatie van te geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg148">Dan gaan we naar de motie op stuk nr. 848. Dat is ook een spreekt-uitmotie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note365">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:civil" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u88">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg149">Het is een spreekt-uitmotie, maar misschien mag ik toch wat informatie delen met de Kamer. Kinderen hebben recht op bescherming van hun privacy, niet alleen op grond van de AVG, maar ook op grond van het Internationaal Verdrag inzake de rechten van het kind. Het delen van foto's of gegevens van kinderen op internet is dus ook onderworpen aan beperkingen. Ouders moeten het recht op privacy en veiligheid van hun kinderen daarin respecteren. Daarop kunnen jeugdprofessionals ouders wijzen in het belang van en voor de veiligheid van kinderen. Daarom sta ik hier niet positief tegenover, als u mij zou vragen om hiernaar te kijken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note366">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u89">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg150">De heer Van Houwelingen. Maar het is een spreekt-uitmotie, hè?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note367">De heer Van Houwelingen (FVD)</note>
+            <u who="#PepijnvanHouwelingen" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u90">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg151">Ja, maar toch heel kort. Ouders mogen toch foto's van hun kinderen op sociale media zetten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note368">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u91">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg152">U hebt mijn argumentatie gehoord. Ik denk daar anders over. Ik denk dat je daar voorzichtig mee om moet gaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note369">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u92">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg153">Dan wil ik graag een schriftelijke reactie met informatie over welk verdrag er precies overtreden wordt met deze foto's. Dat Jeugdzorg het niet wenselijk vindt, kan ik me in bepaalde situaties nog voorstellen; daar wil ik nog wel aan. Maar dat er, zoals de regering hier zegt, internationale verdragen zijn die verbieden dat ouders zelf foto's van hun eigen kinderen online zetten, zou wel heel nieuw voor mij zijn. Mocht dat internationale verdrag bestaan, dan neem ik toch aan dat zij onmiddellijk de hele Belastingdienst voor de rechtbank sleept voor alle andere privacy-issues, met 300.000 mensen op zwarte lijsten en weet ik niet wat. Ik wil hier echt een schriftelijke uitleg over.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note370">Minister Weerwind</note>
+            <u who="#JoelWeerwind" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u93">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg154">We zullen hier schriftelijk op reageren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note371">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:healt" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u94">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg155">Ja? Dan gaan we dat zo doen. Maar het blijft een spreekt-uitmotie, dus het is uiteindelijk aan de Kamer om daarop te reageren en daarover te stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg156">Dan geef ik nu het woord aan de staatssecretaris van Volksgezondheid, Welzijn en Sport.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note372">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u95">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg157">Dank u wel, voorzitter. Ik sta positief tegenover de motie op stuk nr. 825. Die zou ik oordeel Kamer willen geven, met twee kanttekeningen. Allereerst: het gaat over concrete doelen en streefcijfers. We hebben de informatiehuishouding nou eenmaal nog niet zo op orde als we zouden willen, dus daar moet ik echt even voorzichtig mee zijn. Verder is de vraag of we echt halfjaarlijks tot informatieverstrekking over moeten gaan of dat we een andere periodieke keuze maken. Maar met die kanttekeningen zou ik de motie graag oordeel Kamer willen geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg158">De motie op stuk nr. 827 is …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note373">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u96">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg159">Ik kijk even naar mevrouw Westerveld. Kan zij zich vinden in deze interpretatie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note374">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u97">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg160">Het ging mij erom dat de Kamer in meerderheid al heel duidelijk heeft gezegd: we vinden het onwenselijk dat zo veel kinderen uit huis worden geplaatst. Toen is er niets met de motie gedaan. Ik ben blij dat iedereen, zowel Kamer als kabinet, vandaag inziet dat dit een heel belangrijk onderwerp is. Ik zie uit naar de stand-van-zakenbrief die we dan dus regelmatig zullen krijgen van de regering.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note375">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u98">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg161">De motie op stuk nr. 827 was een spreekt-uitmotie; vandaar de verwarring zojuist. Maar goed, dat is volgens mij bij dezen opgelost.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg162">Dan blijft de motie op stuk nr. 834, over de zelfgekozen steunpersoon, over. Die zou ik graag oordeel Kamer willen geven, mits dit geen toezegging is om het in de wet op te nemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note376">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u99">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg163">Ik hoor de heer Peters al nee zeggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note377">De heer Peters (CDA)</note>
+            <u who="#RenéPeters" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u100">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg164">Ik begrijp dat u dat nu niet in de wet gaat zetten, maar als u toezegt dat we het zo kunnen lezen dat we er werk van gaan maken dat het de regel en niet de uitzondering wordt ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note378">Staatssecretaris Van Ooijen</note>
+            <u who="#MaartenVanOoijen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u101">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg165">Zo is het.</seg>
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg166">Dank, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note379">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:welfa" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u102">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg167">Dank u wel. Dan geef ik het woord aan de staatssecretaris Toeslagen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note380">Staatssecretaris De Vries</note>
+            <u who="#AukjedeVries" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u103">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg168">Kort, voorzitter. Bij de motie op stuk nr. 822 is de keuze natuurlijk uiteindelijk aan uw Kamer, omdat die een groot project kan aanwijzen nadat de commissie voor de Rijksuitgaven daarover heeft geadviseerd. Ik wil nog twee dingen meegeven. Over de hersteloperatie wordt al per kwartaal gerapporteerd en dat doen we ook met financiële aspecten. Een groot project zou betekenen dat er bijvoorbeeld een ADR-rapportage bij zou moeten. Dat neemt tijd en dat heeft dan ook gevolgen voor het moment dat het naar de Kamer kan. We moeten dan immers wachten tot die ADR-rapportage er is. Dat zou ik de Kamer graag mee willen geven bij de afweging over de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note381">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u104">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg169">Dank u wel. Volgens mij zijn alle moties van een appreciatie voorzien en zijn alle vragen beantwoord. Daarmee zijn wij aan het einde gekomen van dit debat. Ik dank de bewindspersonen van harte. Ik dank ook de woordvoerders en natuurlijk de mensen die dit debat gevolgd hebben.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note382">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.note383">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.u105">
+               <seg xml:id="ParlaMint-NL_2022-05-12-tweedekamer-6.seg170">We gaan volgende week dinsdag stemmen over de ingediende moties.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

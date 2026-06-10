@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2019-04-25 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2019-04-25 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 80, Session 10 (2019-04-25)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 80, Session 10 (2019-04-25)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="80" xml:lang="en">Meeting 80</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="10" xml:lang="en">Session 10</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2019-04-25">Sitting 2019-04-25</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="6">6 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="6">6 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="154">154 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="154">154 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2019-04-25">2019-04-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="9"/>
+               <tagUsage gi="seg" occurs="8"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="6"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-04-25">2019-04-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.head1">Regeling van werkzaamheden (stemmingen)</head>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.u1">
+               <seg xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.seg1">Aan de orde zijn de stemmingen. Ik geef eerst mevrouw Ouwehand het woord.</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.u2">
+               <seg xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.seg2">Voorzitter, dank u wel. Bij de stemmingen onder punt 5 van de stemmingslijst, over de moties ingediend bij het debat over de informele Europese top, wil ik graag het dictum van mijn motie op stuk nr. 1448 wijzigen. Het zinnetje "waaronder de Europese top van 9 mei" wil ik schrappen. Het dictum komt dan als volgt te luiden: "verzoekt de regering zich bij de aankomende Raden uit te spreken tegen de verhoging van het quotum voor kippenvlees uit Oekraïne en voor deze positie ook steun onder andere lidstaten te verwerven".</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.u3">
+               <seg xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.seg3">Ik denk dat de woordvoerders die aan het debat hebben deelgenomen snappen wat het verschil is. Klopt dat?</seg>
+            </u>
+            <u who="#EstherOuwehand" ana="#regular topic:other" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.u4">
+               <seg xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.seg4">Ik zie geknik.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.u5">
+               <seg xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.seg5">Dus geen bezwaar.</seg>
+            </u>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.u6">
+               <seg xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.seg6">De motie-Ouwehand (, nr. ) is in die zin gewijzigd dat zij thans luidt:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.note1">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.note2">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.note3">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.note4">constaterende dat er een voorlopig akkoord ligt tussen de Europese Commissie en Oekraïne waarin de "onvoorziene" import van kippenvlees wordt geformaliseerd in plaats van aan banden wordt gelegd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.note5">constaterende dat de minister van LNV daarover haar ongenoegen bij EU-landbouwcommissaris Hogan kenbaar heeft gemaakt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.note6">constaterende dat de Raad nog moet instemmen met de uitkomst van de onderhandelingen met Oekraïne;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.note7">verzoekt de regering zich bij de komende Raden uit te spreken tegen de verhoging van het quotum voor kippenvlees uit Oekraïne en voor deze positie ook steun onder andere lidstaten te verwerven,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.note8">en gaat over tot de orde van de dag.</note>
+               <seg xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.seg7">Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</seg>
+               <seg xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.seg8">Zij krijgt nr., was nr. 1448 ().</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-04-25-tweedekamer-10.note9">We gaan daarover stemmen. Dank u wel.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2020-12-09 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-12-09 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 35, Session 4 (2020-12-09)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 35, Session 4 (2020-12-09)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="35" xml:lang="en">Meeting 35</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2020-12-09">Sitting 2020-12-09</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="15">15 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="15">15 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1286">1,286 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1286">1,286 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2020-12-09">2020-12-09</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="76"/>
+               <tagUsage gi="seg" occurs="22"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="15"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-12-09">2020-12-09</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.head1">Exportkredietverzekering</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:trade" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg1">We gaan verder met het VAO Exportkredietverzekering. Ik heet de staatssecretaris van Financiën van harte welkom. Ik geef nu eerst het woord aan de heer Van Raan van de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note2">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:argic" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg2">Voorzitter. Stop dierenleed en stop met die exportkredietverzekeringen. Wij hebben een mooi debat gehad. Ik heb veel moties, dus ik ga snel beginnen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note6">constaterende dat conform de aangenomen motie-Sjoerdsma/Van Ojik alle instrumenten van het buitenlandbeleid en de diplomatie volledig in lijn moeten worden gebracht met de doelstellingen uit het Klimaatakkoord van Parijs;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note7">constaterende dat er jaarlijks anderhalf keer zoveel wordt uitgetrokken voor fossiele exportsteun als voor klimaatinitiatieven wereldwijd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note8">overwegende dat de groene taxonomie kan helpen bij het definiëren van duurzame transacties;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note9">verzoekt de regering ervoor te zorgen dat exportkredietverzekeringen die worden verstrekt binnen deze groene taxonomie vallen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note11">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note12">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note13">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note14">constaterende dat Nederland zich in het klimaatakkoord van Parijs heeft verplicht om zo snel zo veel mogelijk te doen voor een toekomst zonder fossiele energie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note15">constaterende dat de Klimaatwet te vrijblijvend is en onvoldoende ziet op het realiseren van de noodzakelijke klimaatdoelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note16">constaterende dat de Nederlandse Staat door middel van exportkredietverzekeringen nu zeker dertig keer meer steun geeft aan fossiel dan aan duurzaam;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note17">verzoekt de regering om met een zo kort mogelijk afbouwpad te komen voor alle exportsteun die via het ekv-instrumentarium ten goede komt aan de olie- en gasindustrie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note18">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note19">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note20">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note21">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note22">constaterende dat via exportkredietverzekeringen met Nederlands belastinggeld de veehouderij in het buitenland wordt opgebouwd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note23">constaterende dat Nederlandse boeren op die manier via de belastingen bijdragen aan het financieren van hun buitenlandse concurrentie, terwijl de prijzen voor de Nederlandse boeren al jaren onder druk staan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note24">verzoekt de regering niet langer met publiek geld gefinancierde exportkredietverzekeringen te verstrekken voor het opbouwen van de veehouderij in het buitenland,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note25">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note26">Deze motie is voorgesteld door het lid Van Raan. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note27">Zij krijgt nr. kst-26485-346</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note28">Deze motie is voorgesteld door het lid Van Raan. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note29">Zij krijgt nr. kst-26485-347</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note30">Deze motie is voorgesteld door het lid Van Raan. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note31">Zij krijgt nr. kst-26485-348</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note32">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg3">En dan de laatste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note33">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note34">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note35">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note36">constaterende dat de initiatiefnota 'Vergroening van de financiële sector' vaststelt dat de focus op 'meer groen' ten koste gaat van echte impact richting verduurzaming;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note37">verzoekt de regering ook de exportkredietverzekeringen binnen het in de nota bepleite strenge duurzaamheidregime te betrekken en exportsteun ten behoeve van olie en kolen af te bouwen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note38">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note39">Deze motie is voorgesteld door het lid Van Raan. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note40">Zij krijgt nr. kst-26485-349</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note41">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg4">Voorzitter, dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note42">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg5">Dank u wel, meneer Van Raan. Dan gaan we nu luisteren naar de heer Slootweg van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note43">De heer Slootweg (CDA)</note>
+            <u who="#Evert-JanSlootweg" ana="#regular topic:trade" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg6">Dank u wel, voorzitter. De exportkredietverzekering is een heel belangrijk instrument voor het ondersteunen van het bedrijfsleven. Wij vinden dan ook dat deze vooral ook mogelijk moet zijn voor het mkb. Wat wij horen en wat blijkt uit de signalen die wij krijgen, is dat het mkb nogal wordt geconfronteerd met administratieve lasten en dat de toegankelijkheid voor het mkb daarom soms moeilijk is. Volgens mij is dat een soortement van draak met vele koppen waar je constant tegen moet strijden. Vandaar dat ik samen met mevrouw Lodders en de heer Sneller de volgende motie wil indienen om daar wat aan te doen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note44">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note45">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note46">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note47">constaterende dat volgens het CBS de exportkredietverzekering (ekv) goed is voor zo'n 20.000 Nederlandse banen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note48">overwegende dat veel mkb-ondernemingen bij de aanvraag voor een ekv meer en meer administratieve last ervaren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note49">verzoekt de regering via de jaarlijkse ekv-monitor te rapporteren welke concrete maatregelen genomen zijn om die administratieve last te verminderen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note50">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note51">Deze motie is voorgesteld door de leden Slootweg, Lodders en Sneller. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note52">Zij krijgt nr. kst-26485-350</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note53">De heer Slootweg (CDA)</note>
+            <u who="#Evert-JanSlootweg" ana="#regular topic:trans" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg7">En dan mijn tweede motie. Dit kabinet heeft een voortrekkersrol gespeeld bij de vliegtaks in het internationaal vliegverkeer. Als je dingen wilt aanpakken, lukt dat vaak niet vanuit Nederland alleen. In het debat dat we hadden, zei de staatssecretaris dat bekeken moet worden wat we daarbij nog meer kunnen doen voor de verduurzaming. We zouden graag zien dat het Nederlandse bedrijfsleven daar een voortrekkersrol in speelt. Vandaar mijn volgende motie, die ik samen met de heer Sneller indien.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note54">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note55">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note56">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note57">constaterende dat exportkredietverzekeringen voor fossiele projecten zich bijna allemaal in Afrika bevinden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note58">constaterende dat de economieën van veel Afrikaanse landen voor een groot deel afhankelijk zijn van fossiele energiebronnen en abrupt stoppen met deze energiebronnen deze landen afhankelijk maakt van hulp van buiten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note59">overwegende dat deze landen geholpen kunnen worden bij het opbouwen van een duurzame en stabiele energie-infrastructuur die hun onafhankelijkheid bevordert en ze minder afhankelijk maakt van fossiele energiebronnen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note60">verzoekt de regering in het toegezegde high-levelsymposium de opbouw van een duurzame energie-infrastructuur in opkomende economieën en wat de ekv daarin kan betekenen te agenderen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note61">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note62">Deze motie is voorgesteld door de leden Slootweg en Sneller. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note63">Zij krijgt nr. kst-26485-351</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note64">Dank u wel, meneer Slootweg.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note65">Ik kijk even naar de staatssecretaris. Twee minuten? Dan schorsen we heel kort en dan zien we u zo terug.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note66">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note67">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg8">Ik geef het woord aan de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note68">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:energ" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg9">Dank u wel, voorzitter. Even de administratie doen, een moment.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg10">We beginnen met de moties van de heer Van Raan. De eerste, die op stuk nr. 346, verzoekt de regering ervoor te zorgen dat exportkredietverzekeringen binnen deze groene taxonomie vallen. Die moet ik ontraden. De regering heeft veel in werking gezet op dit terrein van het vergroenen van de ekv. Ik heb ingezet op internationale afspraken. En tijdens het AO heb ik toegezegd, mede aan de heer Van Raan, dat we scenario's gaan opstellen voor hoe we zo snel mogelijk in de buurt kunnen komen van de Parijsdoelen. Wij zijn geen voorstander van eenzijdige maatregelen rond het uitfaseren van fossiel, en de motie gaat wat dat betreft verder dan wat het kabinet voorstaat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note69">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg11">Dan heb ik toch even een vraag, want de motie vraagt eigenlijk om uit te voeren wat al voorbereid is door de motie-Sjoerdsma/Van Ojik, dus dat al die instrumenten in lijn worden gebracht met Parijs. Ik hoor de staatssecretaris dat ook beamen. Dan zie ik vervolgens dat een groene taxonomie, waarvan hijzelf voorstander is, kan helpen bij het definiëren van duurzame transacties. Het enige wat wij vragen is dat dat instrument van exportkredietverzekeringen ook binnen die taxonomie, die hijzelf ook voorstaat, gaat vallen. Dat lijkt mij toch niet zo'n raar verzoek. Ik begrijp eigenlijk die ontkenning niet, of het ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note70">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:envir" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg12">Het is ook geen raar verzoek. De heer Van Raan doet nooit rare verzoeken; dat zou het laatste zijn wat ik zou durven zeggen. Dus het gaat niet om rare verzoeken, voorzitter. Maar het gaat er hierom dat wij een methode hebben ontwikkeld voor dat we gaan werken om aan die scenario's te voldoen. De heer Van Raan loopt dan wat vooruit, en dat geldt ook voor een paar andere moties, op die methode. Dus daarom ontraad ik die, niet omdat ik het er inhoudelijk mee oneens ben. Laten we zeggen dat het met de ontijdigheid te maken heeft.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg13">Datzelfde geldt voor zijn tweede motie, die op stuk nr. 347, die gaat over een 'zo kort mogelijk afbouwpad'. Die wil ik ontraden in deze vorm. Als de heer Van Raan hier bedoelt 'zou je bij die scenario's ook een scenario willen meenemen waarin we het zo snel mogelijk doen?', dan lijkt me dat niet zo raar voor een scenario. Dus dat zou kunnen, maar dan ga ik de motie herinterpreteren. In deze vorm wil ik haar graag ontraden, maar ik kan wel aan de geest van de motie voldoen. Als ik daar de heer Van Raan en natuurlijk zijn groene doelen een fijne ochtend mee bezorg, dan doe ik dat graag, door te zeggen dat we bij die scenario's natuurlijk rekening zullen houden met ook een scenario met een kort pad.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note71">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg14">Ik probeer het te begrijpen en mijn zegeningen te tellen. Stelt de staatssecretaris nu voor dat ik het verzoek aanpas in 'om een scenario op te nemen voor een zo kort mogelijk afbouwpad', dus om de motie als zodanig aan te passen en dan wellicht oordeel Kamer te krijgen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note72">Staatssecretaris Vijlbrief</note>
+            <u who="#HansVijlbrief" ana="#guest topic:argic" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg15">Ik denk dat we dan oordeel Kamer kunnen geven, want dat past helemaal binnen de scenario's die we doen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg16">Dan is er uw derde motie, die op stuk nr. 348, over geen Nederlands belastinggeld voor de veehouderij. Daar komt het dan maar op neer: ekv's niet verstrekken voor het opbouwen van de veehouderij in het buitenland. Ik denk dat de heer Van Raan het vermoeden heeft dat hij hier een ontraden op zal krijgen. Het is niet zo dat wij hier gaan zitten bellen over exportkredietverzekeringen; zo werkt dat ding niet. We gaan ervan uit dat voor alle sectoren geldt dat ze zich aan de regels houden. We hebben het net gehad over groen, en dat geldt ook voor de veehouderij. En binnen dat kader worden ekv's verstrekt wanneer dat aan de orde is voor de veehouderij. Dus die moet ik echt ontraden, en met klem ontraden. Dit is een niet-verstandige motie.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg17">Dan kom ik ten slotte op de motie over de vergroening van de financiële sector, die op stuk nr. 349. Daarin zegt de heer Van Raan: 'constaterende dat de initiatiefnota vaststelt dat de focus op meer groen ten koste gaat van echte impact richting verduurzaming; verzoekt de regering ook de exportkredietverzekeringen binnen het in de nota bepleite strenge duurzaamheidregime te betrekken en exportsteun ten behoeve van olie en kolen af te bouwen'. Deze wil ik ook ontraden. Deze loopt vooruit op de scenario's; dat weet de heer Van Raan ook wel. Ik zeg hem er nog bij dat ze voor een deel ook nog overbodig is, want kolen doen we al niet meer. Dus dan zou het zijn 'olie af te bouwen', en daarmee is ze overbodig geworden, want we kijken daarnaar in de scenario's en dat gaan we ook in dat tempo doen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg18">Dat brengt mij bij de twee moties van de heer Slootweg. 'Verzoekt de regering via de jaarlijkse ekv-monitor te rapporteren welke concrete maatregelen genomen zijn om die administratieve last te verminderen'. Deze motie, op stuk nr. 350, wil ik oordeel Kamer geven, omdat ik ook met de heer Slootweg van mening ben dat de ekv toegankelijk moet zijn voor alle Nederlandse exporteurs, niet alleen grote maar ook kleine. Ik ben het met hem eens dat we daarop moeten letten. Ik zal er graag over rapporteren in de jaarlijkse monitor exportkredietverzekeringen.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg19">De tweede motie van de heer Slootweg, op stuk nr. 351, past volgens mij heel goed bij waar we het al over hadden: een Haags digitaal high level symposium. Laten we het houden op een congres, dat we gaan organiseren om te kijken hoe we die scenario's kunnen bouwen waarin we die klimaatdoelen meenemen. U vraagt of ik in die scenario's ook kan kijken naar de duurzame energie-infrastructuur. Het antwoord lijkt mij gewoon ja te zijn. Dus ik geef hier graag oordeel Kamer aan.</seg>
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg20">Voorzitter, dat was het.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note73">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:trade" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg21">Dank u wel. Ik zie dat er geen vragen meer zijn. Dan kan ik concluderen dat we dit VAO Exportkredietverzekering bij dezen kunnen sluiten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note74">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note75">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.seg22">Dan gaan we om 11.05 verder met het VSO Bestuursovereenkomst Friese taal en cultuur.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2020-12-09-tweedekamer-4.note76">De vergadering wordt van 10.53 uur tot 11.17 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

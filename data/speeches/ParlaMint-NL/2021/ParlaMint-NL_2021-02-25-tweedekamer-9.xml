@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-02-25 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-02-25 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 59, Session 9 (2021-02-25)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 59, Session 9 (2021-02-25)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="59" xml:lang="en">Meeting 59</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="9" xml:lang="en">Session 9</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-02-25">Sitting 2021-02-25</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="92">92 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="92">92 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="4619">4,619 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="4619">4,619 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-02-25">2021-02-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="239"/>
+               <tagUsage gi="seg" occurs="113"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="92"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-02-25">2021-02-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.head1">Leefomgeving</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:envir" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg1">Aan de orde is het VAO Leefomgeving. Ik heet de staatssecretaris van Infrastructuur en Waterstaat van harte welkom, evenals de woordvoerders natuurlijk. Ik begin met de heer Van den Berge van GroenLinks. De spreektijden zijn twee minuten, maar dat wist u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note2">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg2">Voorzitter. Ik heb twee moties. Laat ik daar maar meteen mee beginnen dan.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note6">constaterende dat het tijdelijk vuurwerkverbod heeft geleid tot onder meer 70% minder vuurwerkslachtoffers en een kwart minder aanhoudingen, en er twee derde minder fijnstof is gemeten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note7">overwegende dat het tijdelijk verbod daarmee de zorg heeft ontlast tijdens de coronapandemie, maar dat deze indrukwekkende resultaten ook in andere jaren zeer wenselijk zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note8">spreekt uit dat het wenselijk is dat de regering tijdig voor de aankomende jaarwisseling komt tot een algemeen verbod op de verkoop en ontsteking van consumentenvuurwerk,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note10">Deze motie is voorgesteld door de leden Van den Berge en Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note11">Zij krijgt nr. kst-30175-357</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note12">Gaat u verder.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note13">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u3">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg3">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note14">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note15">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note16">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note17">constaterende dat het EMK-gifterrein aan de Stormpolderdijk in Krimpen aan den lJssel van bijna 6 hectare deels tot 20 meter diep extreem vervuild is met levensgevaarlijke stoffen en eigendom is van de Staat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note18">constaterende dat er in 2018 een hersaneringsproject is gestart, maar dat er sindsdien nog geen kubieke meter grond gereinigd is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note19">overwegende dat er bij inwoners van zowel Krimpen aan den IJssel als Capelle aan den IJssel grote zorgen bestaan over de toekomst van dit terrein;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note20">verzoekt de regering om de Kamer te informeren over de verschillende scenario's omtrent de hersanering van het EMK-gifterrein en de kosten en maatschappelijke impact daarvan,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note21">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note22">Deze motie is voorgesteld door de leden Van den Berge en Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note23">Zij krijgt nr. kst-30175-358</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note24">Dank u wel, meneer Van den Berge.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note25">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u4">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg4">Ik dank u hartelijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note26">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u5">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg5">Dan geef ik nu het woord aan mevrouw Van Esch namens de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note27">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u6">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg6">Dank, voorzitter. Ik ga snel van start; ik heb drie moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note28">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note29">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note30">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note31">constaterende dat het RIVM recent concludeerde dat niet 10% maar 23% van de fijnstof die in Nederland wordt uitgestoten, afkomstig is van houtstook door particulieren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note32">constaterende dat burgers die in de ongezonde lucht zitten, nog te vaak geconfronteerd worden met gemeenten die weigeren in te grijpen en de staatssecretaris alleen een vrijblijvende "toolbox" heeft opgesteld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note33">verzoekt de regering met handhavingsinstrumenten te komen die gericht zijn op het aanpakken van houtstook om te waarborgen dat overal in Nederland burgers gezonde lucht kunnen inademen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note34">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note35">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note36">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note37">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note38">constaterende dat de Kamer de motie van het lid Sienot c.s. (32813, nr. 537) over het opstellen van een afbouwpad en eindjaar voor houtige biomassa heeft aangenomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note39">constaterende dat het afbouwpad voor houtige biomassa controversieel is verklaard;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note40">verzoekt de regering om geen nieuwe subsidies voor houtige biomassa af te geven tot het afbouwpad met de Kamer is gedeeld,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note41">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note42">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note43">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note44">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note45">constaterende dat de staatssecretaris in haar visiedocument aangeeft af te willen van kunstgrasvelden met instrooimateriaal;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note46">constaterende dat natuurgrasvelden veel voordelen hebben ten opzichte van kunstgrasvelden en dat ook van een kunstgrasveld zonder instrooimateriaal door slijtage nog steeds (micro)plastics af komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note47">verzoekt de regering te onderzoeken hoe gemeenten gestimuleerd kunnen worden om bij vervanging of aanleg vaker te kiezen voor natuurgras en minder voor kunstgras,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note48">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note49">Deze motie is voorgesteld door de leden Van Esch, Laçin en Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note50">Zij krijgt nr. kst-30175-359</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note51">Deze motie is voorgesteld door de leden Van Esch, Van Raan, Sienot, Dik-Faber en Laçin.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note52">Zij krijgt nr. kst-30175-360</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note53">Deze motie is voorgesteld door de leden Van Esch, Laçin en Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note54">Zij krijgt nr. kst-30175-361</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note55">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u7">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg7">Dank u wel. Ik had zo nog een extra motie kunnen indienen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note56">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u8">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg8">Dank u wel, mevrouw Van Esch. Dan geef ik nu het woord aan de heer Van den Anker van het CDA. Ik kan u melden dat de heer Van den Anker vandaag voor het eerst spreekt, en ook voor het laatst, want het is de laatste Kamerdag. Ik kan me uit het verleden echt collega's herinneren die na drie jaar hun maidenspeech hielden en blij waren dat ze in de zaal stonden. U was net geïnstalleerd en u staat nu hier voor het indienen van moties. Maar u weet nooit hoe het gaat lopen in de politiek; misschien zie ik u weer terug, wie weet. Maar ik vind het heel fijn dat u hier staat, want dat is een ongelofelijk bijzonder moment, ook al is het niet uw maidenspeech in de zin van een lang verhaal of een lange bijdrage. Het is toch een eervolle functie en ik vind het leuk dat u hier staat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note57">De heer Van den Anker (CDA)</note>
+            <u who="#GerardvandenAnker" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u9">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg9">Dank u wel voor deze mooie woorden. Ik sta hier voor het eerst, maar ik heb er enorm van genoten tot nu toe dus ik sta hier zeker niet voor het laatst. Dus ik zeg zeker: vaarwel en tot ziens.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note58">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u10">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg10">Zo is dat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note59">De heer Van den Anker (CDA)</note>
+            <u who="#GerardvandenAnker" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u11">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg11">Ik begin met mijn moties. Ik heb er twee om in te dienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note60">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note61">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note62">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note63">overwegende dat de staatssecretaris van IenW een wetsontwerp in voorbereiding heeft om een nieuwe grondslag te creëren voor het treffen van beperkende maatregelen voor het gebruik van gewasbeschermingsmiddelen buiten de landbouw;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note64">overwegende dat de ontwikkeling van biologische en laagrisicomiddelen in de landbouw in gevaar komt wanneer er een geheel verbod op gewasbeschermingsmiddelen buiten de landbouw komt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note65">overwegende dat er geen wetenschappelijke grond is voor een verbod van toegelaten biologische en laagrisicomiddelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note66">overwegende dat de risico's ten aanzien van het gebruik van gewasbeschermingsmiddelen reeds zijn beoordeeld via de toelating van gewasbeschermingsmiddelen en de toelatingswetgeving alle mogelijkheden en waarborgen biedt om in te grijpen als de noodzaak daarvoor bestaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note67">verzoekt de regering bij toelating en gebruik van middelen buiten de landbouw het oordeel van het Ctgb te volgen en de wettelijke basis alleen te gebruiken in uitzonderlijke situaties, zodat er middelen beschikbaar blijven voor de aanpak van plagen in bomen en planten, zoals de eikenprocessierups,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note68">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note69">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note70">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note71">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note72">constaterende dat tot nu toe nog maar zes gemeenten en twee bedrijven uit de asbestsector de samenwerkingsverklaring Asbest hebben ondertekend;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note73">overwegende dat de samenwerkingsverklaring Asbest als doel heeft om op een veilige manier het saneren van de resterende asbestdaken in Nederland te versnellen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note74">overwegende dat het van groot belang is dat zo veel mogelijk partijen de samenwerkingsverklaring Asbest ondertekenen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note75">constaterende dat het de ambitie van de regering is om het aantal deelnemers de komende jaren uit te breiden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note76">verzoekt de regering om te onderzoeken op welke manier het aantal deelnemers van de samenwerkingsverklaring Asbest kan worden vergroot, en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note77">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note78">Deze motie is voorgesteld door de leden Van den Anker en Ziengs. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note79">Zij krijgt nr. kst-30175-362</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note80">Deze motie is voorgesteld door de leden Van den Anker, Ziengs en Moorlag. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note81">Zij krijgt nr. kst-30175-363</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note82">Dank u wel. Ik zie toch een paar collega's van uw fractie in de zaal, die het geweldig vinden dat u hier uw bijdrage heeft geleverd. Dank u wel, meneer Van den Anker.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note83">Dan geef ik nu het woord aan de heer Remco Dijkstra namens de VVD.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note84">De heer Remco Dijkstra (VVD)</note>
+            <u who="#RemcoDijkstra" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u12">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg12">Dank u wel. Ik feliciteer de heer Van den Anker met zijn maidenspeech. Heel goed. Ik geloof dat de eerste motie ook namens de heer Ziengs was, die ik vandaag eventjes vervang. Ik denk dat de cirkel goed rond is. Ik dank mevrouw Van Veldhoven hartelijk voor haar inzet de afgelopen drieënhalf jaar om Nederland een stukje schoner, duurzamer en groener te maken. Ik weet dat haar partijleider zei: dit is het groenste kabinet ooit. Daar heeft u ook echt uw best voor gedaan. We waren het vaak eens. Soms botste het ook een beetje.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg13">Waar ik benieuwd naar ben, vooral nu vanwege corona, dat natuurlijk ook een enorme impact heeft op onze economie en op ondernemers die graag investeringen willen doen, maar wel de centjes moeten hebben om te kunnen investeren in schonere bedrijfsmiddelen … Vandaar dat mijn collega Ziengs met de heer Von Martels van het CDA op 19 november vorig jaar, bij de begroting, een motie heeft ingediend op stuk nr. 22. Luchtkwaliteit is natuurlijk heel erg lokaal, maar klimaatbeleid is zeg maar mondiaal. Hoe ga je die met elkaar samenvoegen? Wat zijn de effecten, kosten en baten daarvan? Wat ons betreft moet iedere euro die je investeert zo veel mogelijk rendement leveren, maar dat overzicht ontbreekt een beetje, zeker in relatie tot het Schone Lucht Akkoord. We hebben toen gevraagd om een integrale impactanalyse. Juist ook vanwege corona denk ik dat dat nu extra relevant is voor de bedrijven die dit allemaal met elkaar willen gaan doen. Dat zorgt ervoor dat "duurzaam" niet duurder hoeft te zijn. Wat mij betreft is groen poen, als u het zo plat wilt slaan, maar we moeten in ieder geval samen verder komen in de stappen en in een fasering die ook aanslaat, die draagvlak houdt en die ervoor zorgt dat we allemaal een schonere leefomgeving hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg14">Dank u wel voor uw inzet. Dit was mijn laatste bijdrage vanuit deze plenaire zaal.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note85">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u13">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg15">Dank u wel, meneer Remco Dijkstra. Het klonk echt als een afscheidstoespraak, maar de echte toespraak komt nog.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg16">Dan geef ik nu het woord aan mevrouw Dik-Faber namens de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note86">Mevrouw Dik-Faber (ChristenUnie)</note>
+            <u who="#CarlaDik-Faber" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u14">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg17">Voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note87">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note88">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note89">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note90">constaterende dat uit onderzoek van de Universiteit Groningen blijkt dat de meeste microplastics binnen huishoudens afkomstig zijn van kleding;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note91">constaterende dat de aanwezigheid van synthetische vezels in textiel het herstel van longen significant vermindert en dit gevolgen heeft voor kinderen en bijvoorbeeld mensen met COVID-19;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note92">Verzoekt de regering om zich binnen het beleidsprogramma microplastics niet louter te richten op "bewust toegevoegde" microplastics, maar bij het onderdeel kleding ook microplastics zonder bewuste toevoeging mee te nemen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note93">verzoekt de regering tevens te onderzoeken welke maatregelen mogelijk zijn om het vezelverlies van kleding bij het dragen en wassen te minimaliseren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note94">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note95">Deze motie is voorgesteld door het lid Dik-Faber. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note96">Zij krijgt nr. kst-30175-364</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note97">Mevrouw Dik-Faber (ChristenUnie)</note>
+            <u who="#CarlaDik-Faber" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u15">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg18">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note98">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note99">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note100">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note101">constaterende dat uit wetenschappelijk onderzoek is gebleken dat microplastics de placenta kunnen bereiken en baby's die met plastic flesjes worden gevoed dagelijks meer dan 1 miljoen stukjes microplastic kunnen binnenkrijgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note102">constaterende dat het fundamentele ZonMw-onderzoek naar risico's van microplastics voor de gezondheid laat zien dat er in-vitro-effect is op hersencellen, longblaasjes en ontstekingsreacties en dat microplastics ziekteverwekkers kunnen meedragen, maar dat er meer onderzoek nodig is om te weten wat de daadwerkelijke effecten zijn op de gezondheid van mensen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note103">constaterende dat de Europese Commissie vanwege de milieu-impact van microplastics werkt aan een Europees verbod onder de REACH-verordening van bewust toegevoegde microplastics in verzorgingsproducten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note104">constaterende dat er op Europees niveau stappen worden gezet als het gaat om het terugdringen van microplastics in het milieu, maar als het gaat om de risico's voor de gezondheid eerst nog nader onderzoek moet plaatsvinden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note105">constaterende dat als er bewijzen, aanwijzingen of vermoedens zijn dat bepaalde producten schadelijk voor de gezondheid kunnen zijn, er maatregelen worden genomen om de veiligheid van de producten te garanderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note106">van mening dat er voldoende aanwijzingen en vermoedens zijn van de gevolgen van microplastics voor de gezondheid van mensen, kinderen en ongeboren baby's;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note107">verzoekt de regering er in Europees verband op aan te dringen dat microplastics uit alle verzorgingsproducten worden verbannen en dat alle voedselcontactmaterialen, zoals babyflesjes, gegarandeerd veilig zijn en dus geen plasticdeeltjes loslaten of schadelijke additieven bevatten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note108">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note109">Deze motie is voorgesteld door het lid Dik-Faber. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note110">Zij krijgt nr. kst-30175-365</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note111">Mevrouw Dik-Faber (ChristenUnie)</note>
+            <u who="#CarlaDik-Faber" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u16">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg19">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note112">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u17">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg20">Dank u wel, mevrouw Dik-Faber. Ook voor u is het de laatste keer ... Nee, vanmiddag nog. Gelukkig.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg21">Dan geef ik nu het woord aan mevrouw Van Eijs namens D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note113">Mevrouw Van Eijs (D66)</note>
+            <u who="#JessicavanEijs" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u18">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg22">Dank u wel, voorzitter. In het algemeen overleg hebben we het onder andere gehad over afval, omdat het toch nog even kon. Ik was blij om het te kunnen hebben over afval in scholen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg23">Ik heb ook eerder vragen gesteld over logo's op verpakkingen die mensen doen geloven dat de verpakking bij het gft kan worden weggegooid, terwijl het plastic van die verpakking helemaal niet biodegradable of compostable is. De staatssecretaris heeft in antwoord op mijn vragen geschreven dat zij onderzoekt hoe dat soort logo's kan worden verboden, omdat zij misleidend zijn voor mensen. Ik vroeg mij af of de staatssecretaris kan vertellen hoe het staat met het onderzoek naar het verbieden van dat soort misleidende logo's.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg24">Ik dien ook een motie in. De Plastic Soup Surfer kennen we denk ik allemaal. Hij heeft een heel mooi initiatief om afvalscheiding op scholen te bevorderen, dat mooi aansluit bij wat we als D66 al eerder bij de staatssecretaris onder de aandacht hebben gebracht. Daarover gaat de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note114">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note115">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note116">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note117">constaterende dat op dit moment het overgrote deel van de scholen in het primair onderwijs geen gescheiden afvalverzameling aanbiedt aan hun leerlingen vanwege de in verhouding hoge kosten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note118">overwegende dat het aanleren en het leren over het belang van gescheiden afvalverzameling op jonge leeftijd helpt in de transitie naar een circulaire economie en het voorkomen van zwerfafval;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note119">verzoekt de regering om zich maximaal in te spannen zodat in 2025 het afval op alle scholen in het primair onderwijs gescheiden wordt ingeleverd en verwerkt, met aparte stromen voor gft-afval, PMD en oud papier/karton, rekening houdend met het vigerende inzamelsysteem voor huishoudelijk afval in de betreffende gemeente, zonder dat scholen hiervoor extra onderwijsgeld hoeven aan te spreken, en over de voortgang de Kamer regelmatig te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note120">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note121">Deze motie is voorgesteld door de leden Van Eijs en Von Martels. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note122">Zij krijgt nr. kst-30175-366</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note123">De heer Van Aalst (PVV)</note>
+            <u who="#RoyvanAalst" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u19">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg25">Ik heb toch even een vraag over deze motie. Wij hebben de afgelopen vier jaar veel van dit soort moties voorbij zien komen. Ik geef mijn kinderen ook altijd mee dat zij inderdaad goed met afval moeten omgaan. Dat hoort gewoon in de vuilnisbak. Dit soort moties roept op om allerlei dingen te scheiden, terwijl alles vervolgens in één bak terechtkomt omdat het bedrijfsafval is. Waarschijnlijk is dat nu ook het geval, want scholen hebben één grote bak. Om dat te voorkomen, zou ik mevrouw Van Eijs willen vragen wat nou de strekking is van haar motie. Is dit geen symboolpolitiek, die eigenlijk niets oplevert, omdat het afval uiteindelijk in één bak bij dezelfde afvalverwijderaar terechtkomt en dan gerecycled wordt of in de verbrandingsoven gaat?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note124">Mevrouw Van Eijs (D66)</note>
+            <u who="#JessicavanEijs" ana="#regular topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u20">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg26">Daar snijdt de heer Van Aalst een goed punt aan, want dat is iets dat ook wij willen voorkomen. Daarom staat er in mijn motie: "gescheiden wordt ingeleverd en verwerkt". Het is inderdaad de bedoeling dat het niet aan de achterkant van de school weer allemaal in één container wordt gegooid. Het is een terecht punt van de heer Van Aalst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note125">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u21">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg27">Dank u wel. Dan geef ik nu het woord aan de heer Laçin namens de SP-fractie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note126">De heer Laçin (SP)</note>
+            <u who="#CemLaçin" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u22">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg28">Dank u wel, voorzitter. Ik heb twee moties, die ik gelijk zal indienen, en daarna nog een vraag.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note127">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note128">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note129">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note130">constaterende dat omwonenden rond Tata Steel en verschillende stichtingen een rechtszaak starten tegen de vervuiling veroorzaakt door dit bedrijf;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note131">overwegende dat omwonenden zich terecht zorgen maken over hun gezondheid en hun leefomgeving;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note132">overwegende dat deze zorgen worden erkend in verschillende rapporten waarin wordt geconcludeerd dat in wijken rondom Tata Steel veel meer kankergevallen worden geconstateerd dan het landelijk gemiddelde;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note133">verzoekt de regering in gesprek te gaan met vertegenwoordigers van deze omwonenden en stichtingen om te kijken of en op welke manier zij gesteund kunnen worden in de gang naar de rechter,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note134">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note135">Deze motie is voorgesteld door de leden Laçin en Van Esch. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note136">Zij krijgt nr. kst-30175-367</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note137">De heer Laçin (SP)</note>
+            <u who="#CemLaçin" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u23">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg29">Voorzitter. Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note138">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note139">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note140">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note141">constaterende dat het saneren van asbestdaken is teruggelopen nadat de subsidie hiervoor is gestopt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note142">overwegende dat er nog 70 tot 80 miljoen m aan asbestdaken gesaneerd moet worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note143">constaterende dat asbest nog altijd de oorzaak is van jaarlijks vele honderden dodelijke slachtoffers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note144">overwegende dat het van groot belang is dat asbestdaken gesaneerd blijven worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note145">spreekt uit dat het aanjagen van de asbestdakensanering onderdeel moet zijn van de coalitieonderhandelingen en dat een subsidie hiervoor tot de mogelijkheden moet behoren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note146">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note147">Deze motie is voorgesteld door de leden Laçin en Van Esch. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note148">Zij krijgt nr. kst-30175-368</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note149">De heer Laçin (SP)</note>
+            <u who="#CemLaçin" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u24">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg30">Dan nog één punt, voorzitter, over asbest en make-up. Dat hoort deels bij de minister voor Medische Zorg. Op 9 februari is mijn motie aangenomen die zegt: cosmeticaproducten met asbest moeten uit de schappen worden gehaald. Nu worden twee producten, van Hema en van Douglas, die bewezen asbest bevatten nog steeds online aangeboden. Ik heb de minister voor Medische Zorg na de aanneming van mijn motie gevraagd om een brief binnen een week. Die is er nog steeds niet. Ik wil dat het kabinet ervoor zorgt dat deze producten binnen een week niet meer worden aangeboden en dat de Kamer hierover binnen een week wordt geïnformeerd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg31">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note150">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u25">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg32">Dank u wel, meneer Laçin. Ik wist niet dat u ook in de make-up zat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note151">De heer Laçin (SP)</note>
+            <u who="#CemLaçin" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u26">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg33">Het gaat om de volksgezondheid, voorzitter. Ik gebruik het zelf niet, maar heel veel andere mensen wel. Voor hen kom ik op.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note152">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u27">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg34">Heel goed, ik ben benieuwd welke producten het zijn. Ik stuur u er wel een appje over. Dank u wel. Tot slot geef ik het woord aan de heer Moorlag namens de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note153">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u28">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg35">Voorzitter. Ik sluit me aan bij de woorden van de heer Dijkstra, die de staatssecretaris bedankte voor haar inzet in de afgelopen drieënhalf jaar, maar ik heb nog wel twee moties om ervoor te zorgen dat de staatssecretaris nog een aantal goede stappen voor onze samenleving gaat zetten.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note154">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note155">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note156">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note157">overwegende dat de staalindustrie in IJmuiden schadelijke impact heeft op de leefomgeving;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note158">overwegende dat het bedrijf Tata, dat duizenden directe en indirecte banen telt, de potentie heeft om de productie van staal te vergroenen, de emissies van schadelijke stoffen en CO sterk te verminderen en zich te ontwikkelen tot een toonbeeld van groene staalproductie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note159">verzoekt de regering al het redelijke en al het mogelijke te doen om dit bedrijf in staat te stellen de staalproductie te vergroenen, de emissies van schadelijke stoffen sterk te verminderen en deze industrie met haar hoogwaardige banen voor Nederland te behouden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note160">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note161">Deze motie is voorgesteld door de leden Moorlag en Gijs van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note162">Zij krijgt nr. kst-30175-369</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note163">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u29">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg36">Voorzitter. Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note164">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note165">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note166">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note167">overwegende dat de intense en grootschalige lichthinder van hoge windturbines een schadelijk effect heeft op de leefomgeving en het welbevinden van mensen en daarmee ook het draagvlak voor windenergie ondermijnt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note168">overwegende dat in Duitsland de lichthinder vrijwel geheel is weggenomen door het wettelijk verplicht stellen van transpondergestuurde verlichting;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note169">verzoekt de regering binnen twee jaar, in navolging van Duitsland, op deze wijze de lichthinder van hoge windturbines weg te nemen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note170">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note171">Deze motie is voorgesteld door het lid Moorlag. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note172">Zij krijgt nr. kst-30175-370</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note173">Even over de vorige motie?</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note174">De heer Van Aalst (PVV)</note>
+            <u who="#RoyvanAalst" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u30">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg37">Toch nog even over de eerste motie over IJmuiden en Tata Steel. We hebben daarover inderdaad heel veel gezien en die bewoners moeten zeker gehoord worden. Maar wat me wel een beetje verbaast, is dat u eraan voorbijgaat dat dit in eerste instantie bij het lokale gezag ligt. En wat is nu het geval? De gedeputeerde voor milieu, luchtkwaliteit et cetera is een gedeputeerde van uw eigen PvdA. Ik vind het daarom merkwaardig dat u de staatssecretaris ergens toe oproept, terwijl u indirect als PvdA verantwoordelijk bent voor de ellende.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note175">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u31">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg38">Ik ben er ook verantwoordelijk voor om te kijken of wij de staalindustrie in Nederland wat in het jargon "een systeemsprong" heet kunnen laten maken. Het is mogelijk om staal op groene wijze te produderen, namelijk met behulp van waterstof. In juni heb ik een motie ingediend waarin de minister van EZK werd opgeroepen om de staalindustrie zo nodig met de inzet van onconventionele middelen die sprong te laten maken. Op nationaal niveau moet er echt iets gaan gebeuren om de staalindustrie te vergroenen. De mensen in de omgeving hebben er verschrikkelijk veel last van, maar er zijn ook mensen in de omgeving die daar hun boterham verdienen. Die hebben er ook last van en iedereen heeft er dan ook baat bij dat de staalindustrie vergroend wordt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note176">De heer Laçin (SP)</note>
+            <u who="#CemLaçin" ana="#regular topic:energ" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u32">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg39">Ik zat ook na te denken over de eerste motie. Ik begrijp wat de heer Moorlag samen met Gijs van Dijk vraagt, maar vindt de PvdA ook dat Tata Steel zich, voordat we allerlei vergroeningsambities afspreken of uitstralen richting Tata Steel, om te beginnen moet gaan houden aan de geldende vergunningen? Die worden nu namelijk eigenlijk structureel overschreden. Moet dat niet als eerste door het bevoegd gezag daar en door deze staatssecretaris keihard aangepakt worden, zodat die omwonenden eens een keer gehoord gaan worden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note177">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u33">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg40">Meneer Moorlag, een korte reactie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note178">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:envir" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u34">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg41">Daarover verschillen de heer Laçin en ik niet van mening. Als ik een dakkapel op mijn woning zet, dan moet ik me ook houden aan de vergunningsvoorschriften. Als een bedrijf een omgevingsvergunning heeft, dan moet het zich ook houden aan de vergunningsvoorschriften. Toezicht en handhaving zijn dus gewoon nodig. Maar we moeten het probleem ook bij de bron aanpakken, want het is te gemakkelijk om te zeggen: "Doek die industrie maar op. Van die duizenden banen nemen we wel afscheid". Dat staal wordt dan alleen maar op een veel viezere manier elders geproduceerd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg42">Voorzitter. Een afsluitende opmerking over de overlast door windturbines. Ik wil dat graag onderstrepen met een signaal van een inwoner uit Usquert. Vanuit Usquert kan men op 15 kilometer afstand de verlichting van de windturbines in de Eemshaven zien en op meer dan 20 kilometer afstand het windpark Geefsweer. Men kan zelfs het windpark Meeden zien, ook al ligt dat op 33 kilometer afstand. De inwoners van Meeden typeren hun dorp de laatste tijd als een red light district. Hieraan moet echt een einde aan komen, want dit is volstrekt onnodig. Je doet het als overheid al snel verkeerd, maar zo verkeerd hoeft nou ook weer niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note179">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u35">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg43">Dank u wel. Dan kijk ik even naar de staatssecretaris en zij gebaart mij dat zij graag vijf minuten zou willen schorsen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note180">De vergadering wordt van 12.36 uur tot 12.45 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note181">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u36">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg44">Ik geef de staatssecretaris het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note182">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u37">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg45">Dank u wel, voorzitter. Dit is het laatste VAO voor mij in deze periode voor de verkiezingen. Een aantal van u zie ik daarna in ieder geval nog weer een tijdje terug. Een aantal misschien niet, dus ik vond het toch leuk om even aandacht te besteden ook aan de woorden van de heer Dijkstra. Ik weet namelijk nog dat, toen wij samen Kamerlid waren en de formatie in volle gang was, de heer Dijkstra op een gegeven moment tegen mij zei: misschien word jij wel bewindspersoon en dan gaan we een hoop lol hebben samen. En dat hebben we volgens mij ook gehad. Zoals ik dat tegen de heer Dijkstra zeg, zeg ik dat eigenlijk tegen velen van u. We hebben ook veel lol gehad met elkaar. Heel serieus gedebatteerd, maar het was op het persoonlijke vlak ook altijd heel prettig. Voor wie ik niet meer tegenkom na de verkiezingen: heel hartelijk dank voor die samenwerking. Juist wanneer het op het scherpst van de snede ging, was het heel prettig om daarnaast de persoonlijke verhoudingen altijd goed te hebben. Zo hebben we ook een hoop met elkaar kunnen doen in deze periode.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg46">Voorzitter. Dan de moties. Als eerste de motie op stuk nr. 357 van GroenLinks over een vuurwerkverbod. Het verzoek is om gezien de positieve effecten van afgelopen jaar, vuurwerk nu definitief te verbieden. Afgelopen jaar betrof een bijzondere jaarwisseling vanwege het tijdelijke vuurwerkverbod en andere coronamaatregelen. Dat was inderdaad doeltreffend in het ontlasten van de zorg tijdens de jaarwisseling. Het tijdelijke eenmalige vuurwerkverbod omzetten in een definitief landelijk verbod op consumentenvuurwerk is echter een vergaand besluit en daarom is dat ook echt aan een nieuw kabinet. Ik ontraad dan ook deze motie, maar ik zou tegen de heer Van den Berge ook kunnen zeggen: houd haar aan, want wellicht zijn er onder een volgend kabinet mogelijkheden om dit opnieuw te bekijken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note183">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u38">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg47">Ik wil toch dat u alle moties van de heer Van den Berge beoordeelt. Dan krijgt hij daarna het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note184">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u39">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg48">De motie op stuk nr. 358 van de heer Van den Berge verzoekt om de Kamer te informeren over scenario's voor de hersanering van het EMK-terrein. Eind maart is er bestuurlijk overleg over voorliggende scenario's en ik zal uw Kamer hierover en over het vervolg informeren. Het oordeel over deze motie laat ik dus aan de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note185">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u40">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg49">Goed. Korte vraag, de heer Van den Berge.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note186">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u41">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg50">Ja, over de eerste motie, de vuurwerkmotie. Dit verrast mij een beetje, want een aantal weken geleden hadden we hier een debat over het taakstrafverbod met minister Dekker, en toen veroordeelde hij geweld tegen hulpverleners. Sterke woorden vanuit het kabinet. Nu hebben we hier …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note187">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u42">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg51">Het is trouwens een spreekt-uitmotie, dus daarin …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note188">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u43">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg52">Dat sowieso, daar redeneerde ik naartoe. Ik ben het dus niet eens met het advies van de staatssecretaris, maar het goede nieuws is inderdaad …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note189">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u44">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg53">Ik hoef geen advies te geven als het een spreekt-uitmotie is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note190">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u45">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg54">… dat de Kamer …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note191">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u46">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg55">Mag ik heel even? Even ordentelijk. U heeft een oordeel gegeven, maar eigenlijk hoort dat ook niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note192">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u47">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg56">Nee, inderdaad.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note193">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u48">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg57">Het is dus een spreekt-uitmotie. Daar mag de staatssecretaris een mening over hebben, maar het is eigenlijk aan de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note194">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u49">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg58">Het is aan de Kamer. Dan zijn we daar meteen over uit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note195">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u50">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg59">Dan hoop ik op een meerderheid, voorzitter. Ik zou graag mijn argumenten nog een keer herhalen, maar ik zie dat u mij daarvoor de ruimte niet wilt geven. Daar leg ik me bij neer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note196">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u51">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg60">Nee, het is gewoon een spreekt-uitmotie. Zo gaan we daarmee om. Dank u wel. Dan de volgende moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note197">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u52">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg61">Dank u wel, voorzitter. Overigens kost het technisch ook meer dan een jaar om een wetswijziging zoals deze door te voeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note198">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u53">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg62">Gaat u nou nog steeds door op …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note199">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u54">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg63">Nee, voorzitter, ik zou niet durven!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note200">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u55">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg64">Anders moet ik hem weer het woord geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note201">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:argic" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u56">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg65">Voorzitter. Dan de motie op stuk nr. 359, van de Partij voor de Dieren. Die verzoekt de regering om met handhavingsinstrumenten te komen. Mijn vraag is om deze motie aan te houden. In de pilots houtstook onderzoeken we nieuwe maatregelen. Ik ben daarnaast ook bereid om een verkenning uit te voeren naar aanvullende maatregelen. Wij kijken ook naar handhavingsinstrumenten. Eind van het jaar komt de doorrekening van het SLA waar ook door de VVD naar gevraagd werd, met de gezondheidsindicator. Dan is het ook aan een volgend kabinet, maar wij doen dus wel zo'n verkenning. Ik zou de indiener willen vragen om deze motie aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note202">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u57">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg66">En als mevrouw Van Esch de motie niet aanhoudt?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note203">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u58">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg67">Dan moet ik haar ontraden, omdat die te stellig verzoekt "om met handhavingsinstrumenten te kómen". We onderzoeken het wel, maar ik kan niet op voorhand aangeven dat ik er ook mee kom.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note204">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u59">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg68">Dan stel ik voor dat u ook de andere moties van mevrouw Van Esch beoordeelt, dan krijgt zij daarna het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note205">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u60">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg69">Haar tweede motie, die op stuk nr. 360, verzoekt de regering om geen nieuwe subsidies af te geven voor houtige biomassa. Ik geef ook geen subsidies. Dat is aan de collega van EZK, maar ik zal de collega van EZK vragen om met een appreciatie te komen voor de stemmingen, want ik deel die subsidies niet uit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note206">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u61">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg70">De stemmingen zijn vandaag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note207">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u62">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg71">Ja, dan moet ik de motie ontraden, want ze is in feite aan de verkeerde bewindspersoon gericht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note208">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u63">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg72">Dan de laatste motie van mevrouw Van Esch.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note209">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u64">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg73">Ik verzoek haar om de motie op stuk nr. 361 aan te houden. Naast non-infillvelden zullen de minister voor Medische Zorg en Sport en ik ook andere alternatieven meewegen in onze nationale inzet op duurzame aanbesteding van kunstgras en een zo laag mogelijke milieu-impact, inclusief natuurgras, zeg ik daar bij. Dit jaar wordt onderzocht of het mogelijk is om dit te stimuleren via de BOSA-subsidieregeling voor sportverenigingen. Daarover wordt de Kamer in het najaar geïnformeerd door de minister voor Medische Zorg en Sport. Dus ik vraag de indiener om de motie aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note210">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u65">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg74">Ondanks dat ik weet dat we al heel snel gaan stemmen, ga ik daar toch nog heel even over nadenken. Ik zal zo snel mogelijk laten weten wat ik ga doen. Ik wil even overleggen met mijn collega's. Deze motie is mede ingediend door meerdere collega's. Ik weet in ieder geval nu wat het is. Ik overleg dus even en laat de uitkomst uiteraard zo snel mogelijk weten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note211">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u66">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg75">Prima. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note212">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u67">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg76">Dan kom ik op de motie op stuk nr. 362, van de heer Van den Anker. Ook bij deze motie zou ik het Kamerlid willen verzoeken de motie aan te houden, want ik stuur binnenkort een wetsvoorstel naar de Kamer waarin een grondslag wordt gecreëerd voor herstel van dat verbod. Ik ben bereid om te bekijken of er, inmiddels drie jaar na de inwerkingtreding, een goede reden is voor een uitzondering voor een bepaalde groep. Ik denk dat de heer Van den Anker daar ook aan refereerde. De uitkomsten daarvan kunnen dan betrokken worden bij de parlementaire behandeling van het wetsvoorstel. Dus ik zou eigenlijk de heer Van den Anker willen verzoeken om de motie aan te houden tot die behandeling. Daar zullen we dan ook zijn invalshoek, die ik ook begrijp, bij betrekken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg77">De heer Van den Anker verzoekt de regering in zijn tweede motie, op stuk nr. 363, te onderzoeken op welke manier het aantal deelnemers aan de asbestsamenwerkingsverklaring de komende jaren uitgebreid kan worden. Ik kan die motie overnemen of het oordeel aan de Kamer laten. Ik ben het eens met wat hierin wordt gevraagd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg78">De heer Dijkstra had naast zijn introductie ook nog een vraag over de uitvoering van de motie over een integrale impactstudie. Ja, ik werk inderdaad aan de uitvoering van deze motie. In de nulmeting van het SLA, die we dit jaar uitvoeren, berekent het RIVM ook effecten van ander beleid, zoals klimaatbeleid en de stikstofaanpak. Ook praat ik hierover met relevante stakeholders, waaronder VNW-NCW. Ik zal de Kamer hierover binnenkort per brief informeren. Dus er wordt inderdaad aan gewerkt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg79">Dan kom ik bij mevrouw Dik-Faber. Zij is ook iemand met wie ik veel heb gedaan in de politiek in de afgelopen tien jaar, een aantal jaren in het kabinet, maar ook daarvoor als Kamerlid. Mijn hartelijke dank voor ook al die samenwerking.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg80">Mevrouw Dik-Faber verzoekt de regering in haar motie op stuk nr. 364 om zich binnen het beleidsprogramma Microplastics niet louter te richten op bewust toegevoegde microplastics, maar ook op de andere. Ik laat het oordeel over deze motie aan de Kamer. Microplastics willen we in den brede tegenhouden. Binnenkort ontvangt uw Kamer ook een update over de uitvoering van het microplasticsprogramma. Daarbij zal ik zoals gevraagd ook ingaan op de aanpak voor textiel. De motie krijgt dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg81">Mevrouw Dik-Faber had, in haar motie op stuk nr. 365, ook nog een vraag over plasticdeeltjes in voedselverpakkingen. Deze vraag ligt echt op het terrein van de collega van VWS. Ik ben dus graag bereid om haar om een appreciatie te vragen. Ik zal kijken of die nog voor de stemmingen kan komen en ik zal daarvoor mijn best doen. Dit onderwerp ligt echter echt niet op mijn terrein.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note213">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u68">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg82">Ook hierbij geldt dat de stemmingen aan het einde van de middag zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note214">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u69">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg83">We zullen ons best doen, voorzitter. Anders moet ik de motie ontraden omdat zij niet op mijn terrein ligt. Maar ik weet dat mevrouw Dik-Faber hierover ook bij mijn collega van VWS aan de bel heeft getrokken en er Kamervragen over heeft gesteld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note215">Mevrouw Dik-Faber (ChristenUnie)</note>
+            <u who="#CarlaDik-Faber" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u70">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg84">Dat klopt. Ik zal mij verstaan met de collega's van het ministerie van VWS. Dat zal ik doen. Maar even voor mijn begrip: er zijn vandaag inderdaad stemmingen, maar het klopt toch dat er over twee weken nog een allerlaatste stemming is? Dat vraag ik aan u, voorzitter. Er is waarschijnlijk voor die week nog een coronadebat ingepland, en volgende week debatteren wij ook nog over Groningen en over ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note216">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u71">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg85">Dus met andere woorden: u wilt uw motie aanhouden tot aan die stemming?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note217">Mevrouw Dik-Faber (ChristenUnie)</note>
+            <u who="#CarlaDik-Faber" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u72">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg86">Dat zou het wellicht makkelijker maken als wij appreciaties van moties ontvangen. Mevrouw Van Esch had net ook een motie waarvoor dit geldt. Het zou makkelijker zijn om die dan over twee weken in stemming te brengen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note218">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u73">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg87">Ja, dat geeft inderdaad wat extra ruimte, voorzitter. En dan zal het zeker ook lukken om die appreciatie te sturen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note219">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u74">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg88">Oké. Wilt u dus uw motie op stuk nr. 365 aanhouden? U mag het ook straks doen, hoor.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note220">Mevrouw Dik-Faber (ChristenUnie)</note>
+            <u who="#CarlaDik-Faber" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u75">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg89">Ja, ik wacht daar even mee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note221">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u76">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg90">Dat is goed.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note222">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:envir" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u77">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg91">Dan kom ik op de motie op stuk nr. 366, van D66 en het CDA. Zij gaat over gescheiden afvalinzameling op scholen. In die motie wordt de regering verzocht om zich er maximaal voor in te spannen dat op alle scholen in het primair onderwijs het afval eigenlijk wordt ingeleverd en verwerkt "zoals thuis", om het maar even huiselijk samen te vatten. Ik laat het oordeel over deze motie over aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg92">Mevrouw Van Eijs vroeg nog naar de stand van zaken in het onderzoek naar mogelijke maatregelen waarbij het ging over misleidende logo's. Wij zullen onderzoeken welke maatregelen, inclusief wettelijke maatregelen, nodig zijn. Dit onderzoek zal dít jaar worden gestart. Ik zal de Kamer hierover informeren zodra dit onderzoek is afgerond. Ik denk dat we het niet alleen moeten hebben over misleidende logo's, maar ook over hoe we het duidelijker maken voor mensen op een verpakking, waar die verpakking in thuishoort. Het is namelijk best ingewikkeld voor mensen om dat duidelijk op een verpakking te zien. Het zou mooi zijn als we daar meer helderheid in kunnen krijgen, voor al die mensen die hun afval graag goed willen scheiden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg93">Dan de motie op stuk nr. 367. Die verzoekt de regering in gesprek te gaan met omwonenden vanwege de schadeclaim tegen Tata Steel. Wanneer aangifte wordt gedaan, is het aan het Openbaar Ministerie om te bepalen of het op basis van de aangifte een strafrechtelijk onderzoek start. Het is dus nog te vroeg om over uw verzoek te kunnen oordelen, maar ik wil niet op voorhand ja of nee zeggen. Ik zou de heer Laçin willen vragen de motie aan te houden. Wanneer het OM met zijn oordeel is gekomen, zal ik de landsadvocaat vragen ons hierover te adviseren.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg94">De heer Laçin vroeg in de motie op stuk nr. 368 om opnieuw een subsidieregeling open te stellen voor asbest.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note223">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u78">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg95">Ja, heel goed. Er wordt gezegd dat het een spreekt-uitmotie is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note224">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u79">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg96">Ja, dat is een spreekt-uitmotie. Die laat ik dan uiteraard aan degenen die zich uit moeten spreken hierover.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note225">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:envir" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u80">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg97">Dan had de heer Laçin nog een vraag gesteld over asbest en make-up. Ook dat ligt bij de collega's van VWS en is daar momenteel in behandeling. Dus daarover zal de heer Laçin geïnformeerd worden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg98">De heer Moorlag had een motie op stuk nr. 369 over het vergroenen van de staalproductie. Ik zou de heer Moorlag willen vragen om deze motie aan te houden, en wel om de volgende reden. Hij vraagt eigenlijk, als ik het lees, om een subsidie. Deze subsidie zou dan verstrekt worden uit de vergroeningsmiddelen. Die liggen bij het ministerie van EZK. Het bedrijf is zelf verantwoordelijk voor verduurzaming. Wij als overheid stellen normen vast. Maar we hebben ook gezien dat dit een bedrijf is met een bijzondere situatie. Veel verschillende departementen, maar ook regionale en landelijke overheden, spelen een rol in de toekomst ervan. We hebben een werkgroep samengesteld met al die betrokken partijen, die hiermee aan de slag gaat. Die zal natuurlijk ook kijken naar de toekomst van dat bedrijf, maar het is ook te vroeg om daarop vooruit te lopen in de mate waarin de motie dat doet. Ik zou dus de heer Moorlag willen verzoeken de motie aan te houden. Er zal een brief in het najaar komen over de bevindingen van deze werkgroep. Die zal ook ingaan op mogelijkheden voor vergroening. Daarom verzoek ik om de motie aan te houden, omdat ze vooruitloopt op een proces dat nog loopt en niet omdat ik niet begrijp waarom de heer Moorlag deze motie indient.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg99">Dan heeft de heer Moorlag een motie ingediend op stuk nr. 370, die gaat over lichtvervuiling. Hij verzoekt om het Duitse systeem binnen twee jaar over te nemen. Mijn departement werkt in de landelijke projectgroep Obstakelverlichting met alle betrokkenen aan oplossingen om de hinder te beperken. Er wordt ook gekeken naar systemen voor naderingsdetectie. De situatie in Duitsland wordt hierbij als voorbeeld genomen, maar ik kan er nu nog niet op vooruitlopen of we ook het Duitse systeem overnemen en of dat ook binnen twee jaar allemaal te regelen is. Dus ik zou de heer Moorlag ook willen vragen deze motie aan te houden. We kijken namelijk echt naar oplossingen. We zullen daarover de Kamer ook informeren.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg100">Voorzitter. Daarmee ben ik aan het einde gekomen van mijn beantwoording.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note226">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u81">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg101">De motie op stuk nr. 369 wil ik wel aanhouden. De motie op stuk nr. 370 zou ik wel wat willen wijzigen. Als de staatssecretaris zegt dat ze zich niet een-op-een wil committeren aan het Duitse systeem, dan heb ik daar wel begrip voor. Het gaat mij niet om het middel, maar het gaat mij er wel om dat de Duitse praktijk wordt nagevolgd, namelijk dat die lichten gewoon gedoofd worden. Dus ik wil de motie wel aanhouden, maar ik zal haar dan licht wijzigen. Ik ga haar wel bij de laatste stemmingen in stemming brengen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note227">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u82">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg102">Nou, dat klinkt heel dreigend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note228">Staatssecretaris Van Veldhoven-van der Meer</note>
+            <u who="#StientjevanVeldhoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u83">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg103">Misschien kunnen we ook nog even contact over de wijziging zoals de heer Moorlag die voorstelt. Dan kan ik daar een nadere appreciatie op geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note229">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u84">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg104">Oké, maar de motie op stuk nr. 369 wordt aangehouden. Klopt dat, meneer Moorlag?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note230">De heer Moorlag (PvdA)</note>
+            <u who="#WilliamMoorlag" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u85">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg105">Ja, want ik hoor de staatssecretaris heel duidelijk zeggen dat er wordt gekeken naar de mogelijkheden en dat er eind dit jaar, of in het najaar, een brief komt, dus: uitstekend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note231">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u86">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg106">Op verzoek van de heer Moorlag stel ik voor zijn motie (30175, nr. 369) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg107">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note232">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u87">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg108">Mevrouw Van Esch.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note233">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u88">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg109">Ik laat de moties toch in stemming brengen. Ik vind eind van het jaar voor deze punten, waarover we echt al heel veel weten en ook de schadelijke effecten er zijn en de onderzoeksrapporten er liggen, eigenlijk te lang duren, zeg ik alle eerlijkheid. Ik breng ze dus gewoon in stemming.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note234">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u89">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg110">Dat is goed. De heer Van den Anker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note235">De heer Van den Anker (CDA)</note>
+            <u who="#GerardvandenAnker" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u90">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg111">Ik handhaaf de motie op stuk nr. 362.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note236">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u91">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg112">Prima. Dan zijn we daarmee aan het eind gekomen van dit VAO.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note237">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note238">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.u92">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.seg113">Over de moties zullen we aan het eind van de middag stemmen. Ik dank de staatssecretaris. Het volgende VAO kan worden gehouden. We wachten heel even op de wissel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-9.note239">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

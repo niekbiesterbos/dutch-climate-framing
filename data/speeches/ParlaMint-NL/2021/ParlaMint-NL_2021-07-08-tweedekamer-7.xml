@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-07-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-07-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 99, Session 7 (2021-07-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 99, Session 7 (2021-07-08)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="99" xml:lang="en">Meeting 99</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="7" xml:lang="en">Session 7</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-07-08">Sitting 2021-07-08</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="62">62 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="62">62 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3680">3,680 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3680">3,680 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-07-08">2021-07-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="186"/>
+               <tagUsage gi="seg" occurs="85"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="62"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-07-08">2021-07-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.head1">Inburgering en integratie</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u1">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg1">Aan de orde is het tweeminutendebat Inburgering en integratie. Een hartelijk woord van welkom aan de minister van Sociale Zaken. Fijn dat u bij ons bent. Er zijn tien sprekers van de zijde van de Kamer, die onderling nog het hoogste woord hebben. Ik hoop dat ze nog een beetje stil worden vandaag. De eerste spreker van de zijde van de Kamer is de heer Van Baarle van de fractie van DENK. Die is er alvast niet. De tweede spreker is de heer De Graaf van de fractie van de PVV. Die is er ook niet. De heer Stoffer van de Staatkundig Gereformeerde Partij is er wel. Ik vertel nog even dat we vandaag het neo-kerstregime hebben. Dat betekent: geen interrupties in de termijn van de Kamer en alleen interrupties in de termijn van de regering na een motie en alleen door de eerste indiener. Anders wordt het nachtwerk. De heer Stoffer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note2">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u2">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg2">Voorzitter. Ik trek me niets aan van wat er allemaal om mij heen klinkt en ik ga gewoon mijn motie voorlezen. Ik hoop op een goed oordeel. De motie luidt als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note6">constaterende dat de Adviescommissie voor Vreemdelingenzaken (ACVZ) wordt gevraagd om breed in kaart te brengen welke mogelijkheden er zijn voor nadere sturing van verschillende vormen van migratie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note7">constaterende dat daarbij het hanteren van het beleidsmatige richtgetal en het aan dit vraagstuk rakende incorporatievermogen van de samenleving worden meegenomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note8">overwegende dat Nederland in de komende jaren naar verwachting te maken zal krijgen met een substantiële toename van het aantal migranten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note9">overwegende dat een brede verkenning ook vraagt om het verkennen van minder vrijblijvende varianten met een duidelijke bovengrens, zoals een migratiequotum, waarbij vluchtelingen prioriteit genieten, om grip te krijgen op migratie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note10">verzoekt de regering de ACVZ te verzoeken ook de mogelijkheid, de verschillende varianten en voor- en nadelen van een migratiequotum te onderzoeken, en de Kamer over de uitkomsten hiervan te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note12">Deze motie is voorgesteld door de leden Stoffer en Eerdmans.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note13">Zij krijgt nr. kst-32824-330</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note14">Heel goed. Dank u wel. De volgende spreker is mevrouw Van der Plas, maar die zie ik evenmin. De heer Heerma van het CDA is er wel. Het woord is aan hem.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note15">De heer Pieter Heerma (CDA)</note>
+            <u who="#PieterHeerma" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u3">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg3">De heer Heerma is wel iets groter dan de heer Stoffer!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note16">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u4">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg4">Heeft u nog wat weemoedige, sentimentele ideeën over het feit dat het vandaag de laatste dag is? U heeft hier ook uw uurtjes liggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note17">De heer Pieter Heerma (CDA)</note>
+            <u who="#PieterHeerma" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u5">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg5">Ik ben best weemoedig, maar daar heb ik meer spreektijd voor nodig dan twee minuten. U was aan het begin zo streng, voorzitter, dat ik mij ga inhouden. Ik beperk mij dus tot het voorlezen van de motie naar aanleiding van het punt dat ik heb gemaakt in het commissiedebat met de minister, een week of twee, drie geleden.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note18">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note19">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note20">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note21">constaterende dat de WRR in het rapport Samenleven in verscheidenheid concludeert dat de sociale samenhang onder druk staat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note22">constaterende dat bepleit wordt om de sociale infrastructuur te versterken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note23">van mening dat de maatschappelijke diensttijd jongeren de gelegenheid biedt om een positieve bijdrage te leveren aan zowel de inburgering van nieuwkomers als het versterken van de sociale samenhang;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note24">verzoekt de regering om waardevolle lokale initiatieven die de maatschappelijke diensttijd inzetten in combinatie met inburgering te inventariseren en daarbij tevens te bezien hoe dergelijke initiatieven gestimuleerd kunnen worden, en de Kamer hierover te informeren voor het einde van 2021,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note25">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note26">Deze motie is voorgesteld door het lid Pieter Heerma.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note27">Zij krijgt nr. kst-32824-331</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note28">Hartstikke goed. Dank u wel. De heer Eerdmans van de fractie van JA21 ziet af van zijn spreektijd. Zo houden we het nog beperkt! Mevrouw Simons van de fractie van BIJ1 spreekt wel. Het woord is aan haar.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note29">Mevrouw Simons (BIJ1)</note>
+            <u who="#SylvanaSimons" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u6">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg6">Goedemorgen. Dank u wel, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note30">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note31">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note32">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note33">constaterende dat de oude inburgeringswet desastreus was;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note34">constaterende dat de nieuwe wet gemeenten in staat moet stellen om inburgeraars met maatwerk zo snel mogelijk te begeleiden naar werk of studie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note35">constaterende dat de VNG, de MBO Raad, arbeidsmarktregio's, het UAF en andere partijen in het veld constateren dat de beschikbare budgetten ontoereikend zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note36">constaterende dat gemeenten aanbestedingstrajecten voor taalschakeltrajecten stop gaan zetten, vanwege een gebrek aan inschrijvingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note37">overwegende dat de minister een onderzoek is gestart naar de belemmeringen bij aanbestedingen van de onderwijsroute, waaronder de bekostiging van de taalschakeltrajecten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note38">verzoekt de minister de budgetten voor deze trajecten te verhogen wanneer het onderzoek daartoe aanleiding geeft,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note39">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note40">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note41">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note42">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note43">constaterende dat de oude inburgeringswet desastreus was;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note44">constaterende dat er extra middelen zijn vrijgemaakt voor de ondertussengroep;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note45">overwegende dat ook deze groep heeft geleden onder de gevolgen van de coronacrisis;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note46">verzoekt de minister de extra middelen niet in te zetten voor het opvangen van de gevolgen van corona, maar in te zetten voor het opvangen van de slecht functionerende wet en hun de mogelijkheid te geven vrijwillig mee te doen aan de leerroutes van de nieuwe wet,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note47">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note48">Deze motie is voorgesteld door het lid Simons.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note49">Zij krijgt nr. kst-32824-335</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note50">Deze motie is voorgesteld door het lid Simons.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note51">Zij krijgt nr. kst-32824-334</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note52">Mevrouw Simons (BIJ1)</note>
+            <u who="#SylvanaSimons" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u7">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg7">Ik heb er nog twee.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note53">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note54">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note55">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note56">constaterende dat de oude inburgeringswet desastreus was;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note57">constaterende dat de inburgeraars ernstig lijden onder de covidcrisis;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note58">constaterende dat er de afgelopen tijd langeafstandsonderwijs is geweest waarvan de opbrengst veel minder is dan men zou mogen verwachten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note59">constaterende dat de regering van deze mensen verwacht dat zij een ontheffingsaanvraag doen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note60">overwegende dat ook deze wet hardvochtig is, terwijl deze doelgroep niet voldoende is geëquipeerd om aan de harde eisen te voldoen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note61">verzoekt de minister om het inburgeringsonderwijs te behandelen zoals wij het reguliere onderwijs behandelen, met een uitgebreid pakket aan maatregelen met extra geld voor aangepaste examens, extra begeleiding en nazorg, inhaal- en ondersteuningsprogramma's, extra hulp voor de klas en daarnaast coulanceregelingen en maatwerk,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note62">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note63">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note64">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note65">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note66">constaterende dat in de nieuwe inburgeringswet het COA wettelijk verplicht wordt om in alle asielzoekerscentra te zorgen voor een aanbod voorinburgering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note67">overwegende dat de covidcrisis nog niet voorbij is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note68">verzoekt de minister om voldoende te investeren in faciliteiten, zoals ruime leslokalen en digitale infrastructuur en -middelen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note69">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note70">Deze motie is voorgesteld door het lid Simons.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note71">Zij krijgt nr. kst-32824-333</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note72">Deze motie is voorgesteld door het lid Simons.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note73">Zij krijgt nr. kst-32824-332</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note74">Heel goed. Dank u wel. Dan is nu mevrouw Becker van de fractie van de VVD.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note75">Mevrouw Becker (VVD)</note>
+            <u who="#BenteBecker" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u8">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg8">Dank u wel, voorzitter. Taal en werk zijn de sleutel tot meedoen in Nederland. Ik heb in het debat wat zorgen geuit over hoe taal en werk uiteindelijk echt voldoende geborgd worden in de uitvoering van de nieuwe inburgeringswet. Maar ik heb ook goed nieuws, want ten aanzien van taal heeft de minister mij toegezegd dat hij de vinger aan de pols gaat houden bij Blik op Werk en het aanbestedingsproces en hij in het onderzoek naar onafhankelijk toezicht op de taalmarkt ook een aantal vragen van mij meeneemt over de borging van de kwaliteit van taaldocenten. Hij heeft mij ook een toezegging gedaan ten aanzien van werk. Hij gaat ons een brief sturen over de Taskforce Werk en Integratie en hoe deze ervoor gaat zorgen dat bij de inburgering iedereen ook echt die werkervaringsplek krijgt zoals wij bedoeld hebben. Ook krijgen wij meer informatie over de arbeidsmarktgerichte uitplaatsing door het COA van statushouders naar regio's die passen bij wat deze mensen ook echt kunnen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg9">Voorzitter. We hebben gisteren een oproep gehad van onze nieuwe Voorzitter in een brief om ons wat te matigen met de moties. Ik wilde maar zeggen dat ik zeer blij ben met deze toezeggingen en qua moties ga ik het daarom erbij laten vandaag. Ik ben wel een e-mailprocedure gestart in de commissie voor Sociale Zaken. Dat is niet voor moties, maar ik denk wel dat het goed is dat we in het najaar een commissiedebat voeren. We hadden het namelijk graag willen hebben over ongewenste buitenlandse beïnvloeding, maar die brief is gewoon te laat binnengekomen om bij dit debat aan de orde te hebben. Maar het is wel heel belangrijk. Wij willen graag iets kunnen doen voor bijvoorbeeld een arbeidsmarktoets voor buitenlandse imams, wij willen graag publiek toezicht op informeel onderwijs en wij willen een betere juridische grondslag voor de taskforce. Nou, ik heb het allemaal genoemd. Ik hoop echt dat wij dat snel een stap dichterbij kunnen brengen, dus ik kijk uit naar het nieuwe jaar in een nieuw gebouw.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg10">Dank dat ik hier nog even mocht staan vandaag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note76">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u9">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg11">Mooi hè? Omdat u zich beperkt heeft in het aantal moties, mag u een gratis gevulde koek afhalen in het ledenrestaurant.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note77">Mevrouw Becker (VVD)</note>
+            <u who="#BenteBecker" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u10">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg12">Dan ga ik het gerucht verspreiden dat het zo werkt vandaag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note78">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u11">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg13">Op kosten van mevrouw Bergkamp. U noemt gewoon haar naam.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg14">Mevrouw Belhaj van de fractie van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note79">Mevrouw Belhaj (D66)</note>
+            <u who="#SalimaBelhaj" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u12">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg15">Voorzitter. Gisteren heb ik gezien dat een van onze collega's heel hard een naam riep tijdens een commissiedebat. Ik kreeg dus bijna de neiging om heel hard "Wouter!" te roepen, maar dat doe ik natuurlijk niet, want dat zou heel raar zijn. Bij dezen heb ik dat natuurlijk gedaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note80">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u13">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg16">O, dat mag best, hoor. Het is de laatste dag, dus dan doen we wel meer gekke dingen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note81">Mevrouw Belhaj (D66)</note>
+            <u who="#SalimaBelhaj" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u14">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg17">Ja, precies.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg18">Het commissiedebat over integratie en inburgering hebben we recent gehad. Daar is veel gesproken en gedebatteerd. Het is, denk ik, goed om dat nog extra te benoemen. In de samenleving, in de krant en op de televisie wordt er namelijk ook volop gediscussieerd, dus het zou vreemd zijn als we dat niet in de Kamer zouden doen. Ik ben niet nieuw in deze Kamer, maar wel nieuw op dit onderwerp. Dat bedoel ik niet in persoonlijke zin, want ik integreer al mijn hele leven. Ik vind het belangrijk om hier nogmaals te benadrukken dat integratie wat D66 betreft meer is dan discussies over tot welk collectief je behoort. Het gaat er met name om dat je honderd procent jezelf kunt zijn, honderd procent, met je eigen identiteit, met je eigen waarden en met de verschillende elementen die je hebt meegekregen uit je leven. Dat is het allerbelangrijkste voor D66. Mensen moeten zich vrij voelen en moeten op een individualistische manier worden benaderd, zodat ze op geen enkele wijze ooit gedwongen kunnen worden om in een bepaalde groepsdynamiek terecht te komen die geen recht doet aan de persoonlijke wens over hoe in het leven te staan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg19">Voorzitter. Aangaande de inburgering heb ik nog één motie, over iets waar D66 zich zorgen over maakt. De minister kan helpen om die zorgen bij D66 weg te nemen. Het is de motie Afronden leertraject leerlingen in praktijkonderwijs.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note82">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note83">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note84">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note85">constaterende dat jongvolwassenen die praktijkonderwijs volgen kwetsbaar zijn vanwege beperkte cognitieve functies en een verhoogd risico hebben op dakloosheid en schuldenproblematiek;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note86">overwegende dat onderwijs volgen voor die groep al een grote uitdaging is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note87">constaterende dat voor een groep jongvolwassenen die nu praktijkonderwijs volgt onverwachts de vrijstelling van de inburgeringsplicht wordt beëindigd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note88">verzoekt de regering zich ervoor in te spannen dat jongvolwassenen in het praktijkonderwijs hun leertraject ook na het bereiken van hun 18de levensjaar afronden wanneer zij geconfronteerd worden door de inburgeringsplicht,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note89">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note90">Deze motie is voorgesteld door het lid Belhaj.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note91">Zij krijgt nr. kst-32824-336</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note92">Dank u wel.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note93">Mevrouw Belhaj (D66)</note>
+            <u who="#SalimaBelhaj" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u15">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg20">U ook bedankt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note94">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u16">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg21">Dan de heer Van Baarle van de fractie van DENK.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note95">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u17">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg22">Dank u wel. In het commissiedebat heb ik het standpunt van DENK naar voren gebracht dat de tijd van integratie voorbij is en dat we voor Nederlanders die hier zijn geboren en getogen, niet meer moeten spreken van integratie. Zij zijn gewoon Nederlanders. Zij horen erbij en hoeven niet meer te integreren. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note96">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note97">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note98">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note99">verzoekt de regering om zowel beleidsmatig als inhoudelijk niet meer te spreken over "integratie" bij Nederlanders die hier zijn geboren en getogen, en voortaan te spreken over "samenleven",</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note100">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note101">Deze motie is voorgesteld door het lid Van Baarle.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note102">Zij krijgt nr. kst-32824-337</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note103">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:gover" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u18">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg23">Voorzitter. Het WRR-rapport heeft ons het belang van samenleven geleerd. In het commissiedebat bleek dat het beleidsterrein "samenleven" nogal versnipperd is over een aantal bewindspersonen. Het lijkt mij goed om dat belang te onderschrijven en om dat in de toekomst neer te leggen bij één coördinerende bewindspersoon. Dat zou ook een opdracht kunnen zijn aan de volgende regering. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note104">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note105">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note106">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note107">constaterende dat uit WRR-onderzoek het belang blijkt van een adequate infrastructuur om samenleven te faciliteren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note108">verzoekt de regering om in de toekomst de verantwoordelijkheid voor de portefeuille "samenleven" te beleggen bij één coördinerend bewindspersoon,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note109">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note110">Deze motie is voorgesteld door het lid Van Baarle.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note111">Zij krijgt nr. kst-32824-338</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note112">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u19">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg24">Voorzitter. Dan een motie over vluchtelingen en vluchtelingenonderwijs.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note113">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note114">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note115">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note116">constaterende dat het inburgeringsonderwijs in Nederland al sinds maart is stilgelegd en ook andere procedures en activiteiten voor asielzoekers in de knel zijn gekomen door de coronamaatregelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note117">overwegende dat het langdurig verblijf in een azc de participatie van statushouders flink heeft belemmerd en ook onlineonderwijs in veel azc's nagenoeg onmogelijk was door de gebrekkige netwerkcapaciteit;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note118">verzoekt de regering om zo snel mogelijk aan de Kamer te doen toekomen zowel de omvang van de onderwijsachterstanden die vluchtelingen als gevolg van de coronacrisis hebben opgelopen, alsook een concreet plan van aanpak met hoe en wanneer deze achterstanden weggewerkt worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note119">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note120">Deze motie is voorgesteld door het lid Van Baarle.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note121">Zij krijgt nr. kst-32824-339</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note122">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u20">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg25">Voor mijn laatste motie heb ik niet voldoende tijd meer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg26">Ik dank u, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note123">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u21">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg27">Heel goed. Dan de heer De Graaf van de fractie van de Partij voor de Vrijheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note124">De heer De Graaf (PVV)</note>
+            <u who="#MachieldeGraaf" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u22">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg28">Voorzitter. Geen moties van de kant van de Partij voor de Vrijheid, wel een kleine observatie. Eerder deze week kwam ik een kleinzoon tegen van een reder. Die reder heeft ooit mijn opa uitgebuit en ook getracht mijn vader uit te buiten. Ik was niet boos op hem. Ik heb hem leuk gegroet en ik heb geen herstelbetalingen van hem geëist. Sterker nog, ik wens hem een heel goed leven, want hij kan er niks aan doen dat zijn opa gedaan heeft wat zijn opa gedaan heeft, en ik heb er ook geen last van. Dat is een deel van samenleven, het woord dat hier al een aantal keren gevallen is. Samenleven in een "parallelleving", die we op dit moment hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg29">Dan ga ik terug naar vanmorgen. Vanmorgen startte ik mijn dag heel vroeg met gewoon met mijn dochters een repetitie doornemen zo vlak voor de zomervakantie. Daarna naar de Kamer om in te loggen zodat we vroeg konden beginnen. We hebben elkaar hartelijk gegroet, de heer Heerma en ik. Ik heb leuke gesprekken gehad met iemand van Antilliaanse, iemand van Surinaamse en iemand van Marokkaanse afkomst. Dat was allerhartelijkst en toekomstgericht. En toen ging ik naar het strand. Wie kom ik op het strand tegen? Iemand die nieuw was, uit Warschau. Die heb ik de eerste Scheveningse woordjes bijgebracht. Dat is ook samenleven. Vervolgens kreeg ik een knuffel van iemand uit Brazilië. Ik kreeg een high five van iemand uit Portugal. Vervolgens kwam ik een Spanjaard tegen die surfles ging geven. Die gaf me ook een high five. Toen had ik wat koffie gedronken en kreeg ik een hele leuke omhelzing van een jonge Poolse dame uit het zuiden van Polen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg30">Wat ikzelf nou het mooie van dit verhaal vind, is dat dit allemaal kan door de plek waarop dat gebeurt en de manier waarop ik dat doe. Dat is wat echt samenleven is. Dat samenleven komt doordat de Nederlandse cultuur als leidende cultuur wordt omarmd door al die mensen die ik vanmorgen al heb ontmoet. Dat zijn er heel veel geweest. Dat maakt een dag mooi. Ik zou, omdat het de allerlaatste keer is dat ik vanaf deze plek zal spreken ... We gaan immers niet vijf jaar weg, maar het zal wel tien jaar worden, met een flinke overschrijding van de kosten. Nou, daarna ben ik niet meer terug, dus het is de laatste keer. Daarom wilde ik die mogelijkheid toch te baat nemen, zonder sentiment maar toekomstgericht, om dit verhaal te houden, iedereen die wijsheid mee te geven, om erover na te denken en misschien een stukje te helen in het hart, om het even netjes te zeggen, en om te zeggen: de Nederlandse cultuur is de leidende cultuur en iedereen die die omarmt, werkt mee aan de samenleving. En ik zei in het commissiedebat: tuig moeten we eruit flikkeren. Toen was mevrouw Belhaj voorzitter en die zei: nou, dat woord moet je misschien niet gebruiken. Misschien had ik "optiefen" moeten gebruiken. Ik weet het niet. Dat klinkt misschien wat netter. Maar we weten met z'n allen wat wij willen als PVV. Ik weet nog steeds heel diep vanbinnen dat dit het allerbeste en allermooiste recept is waarmee we Nederland weer op de rails kunnen krijgen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg31">Voorzitter. Dank dat ik deze woorden hier dus nog even mocht spreken. We gaan na de zomer weer verder met samen strijden tegen iedere cultuur die de Nederlandse cultuur wil verdringen, die tegen het samenleven is en die dus uitsluitend is. Als we het over inclusie hebben, hebben we het dus niet over een cultuur die de originele cultuur uitsluit.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg32">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note125">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u23">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg33">Dank u wel. Nee, nee, we stellen geen vragen en interrupties. De laatste spreker van de zijde van de Kamer is de heer Ceder van de fractie van de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note126">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u24">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg34">Voorzitter, dank u wel. Ik heb in het commissiedebat aandacht gevraagd voor de leerlingen in het praktijkonderwijs die 18 worden. Tot nu toe zijn ze vrijgesteld van de inburgeringsplicht, maar de minister wil hen nu toch inburgeringsplichtig maken, omdat het praktijkonderwijs niet leidt tot een startkwalificatie en dus formeel gezien niet vrijstellend is. Opeens is dit blijkbaar een probleem, terwijl het jarenlang gewoon de praktijk was. Het besluit van de minister heeft veel onrust opgeleverd in de sector, maar ook bij leerlingen zelf. Het gaat hier om heel kwetsbare leerlingen, die op het praktijkonderwijs goede begeleiding en taalles krijgen. Mijn fractie wil dat deze leerlingen hun vrijstelling behouden totdat het nieuwe stelsel ingaat. Dat is over een paar maanden. Daarom de volgende motie, mede ingediend namens collega Maatoug van GroenLinks.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note127">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note128">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note129">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note130">constaterende dat de vrijstelling voor inburgering voor 18-jarige leerlingen op het praktijkonderwijs vervalt op 1 augustus 2021;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note131">constaterende dat de nieuwe inburgeringswet op 1 januari 2022 ingaat, waardoor er vanaf dan meer maatwerk aan deze doelgroep geboden kan worden via de Z-route;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note132">overwegende dat voor deze leerlingen de reguliere inburgeringscursussen in het algemeen te hoog gegrepen zijn en dat het opleggen van de inburgeringsplicht ertoe kan leiden dat jongeren van het praktijkonderwijs af gaan en daardoor essentiële begeleiding en taalles op hun niveau missen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note133">verzoekt de regering om de tijdelijke vrijstelling van de inburgeringsplicht tot 1 januari 2022 te behouden voor jongeren op het praktijkonderwijs van boven de 18 jaar,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note134">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note135">Deze motie is voorgesteld door de leden Ceder en Maatoug.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note136">Zij krijgt nr. kst-32824-340</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note137">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u25">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg35">Voorzitter. Ik heb ook nog een tweede motie en die gaat over het inventariseren van de knelpunten als het gaat om gemotiveerde nieuwkomers en gemotiveerde werkgevers.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note138">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note139">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note140">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note141">constaterende dat er veel nieuwkomers zijn die graag willen werken en dat werkgevers om personeel staan te springen, maar dat er regelmatig praktische belemmeringen zijn zoals diploma's die niet erkend worden, lange procedures of het ontbreken van een rijbewijs;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note142">overwegende dat recente rapporten constateren dat nieuwkomers een belangrijke rol kunnen spelen in onder andere tekortsectoren, maar dat zij daarvoor beter moeten worden begeleid naar de arbeidsmarkt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note143">verzoekt de regering te inventariseren welke praktische knelpunten er zijn die gemotiveerde nieuwkomers en gemotiveerde werkgevers belemmeren bij het aangaan van werk, en de Kamer hierover binnen een jaar te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note144">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note145">Deze motie is voorgesteld door het lid Ceder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note146">Zij krijgt nr. kst-32824-341</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note147">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u26">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg36">Dank u wel, voorzitter. Net binnen de tijd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note148">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u27">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg37">Dank u wel. Tot zover de termijn van de Kamer. Ik schors vier minuten en dan gaan we luisteren naar de minister.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note149">De vergadering wordt van 11.15 uur tot 11.19 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note150">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u28">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg38">Ik heropen. Ik herinner er nog even aan dat het vandaag de hele dag neo-kerstregime is. In de termijn van de regering doe ik alleen interrupties na een motie en alleen door de eerste indiener. Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note151">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u29">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg39">Dank, voorzitter. Dank ook voor de moties. Als mevrouw Becker alle toezeggingen opleest, dan heb ik in het debat heel veel toezeggingen gedaan in haar richting. Dat is ook confronterend.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg40">De motie op stuk nr. 330 van de heer Stoffer en de heer Eerdmans gaat over een adviesaanvraag aan de ACVZ over een quotum toevoegen. Deze motie wil ik ontraden. Het gaat over opvolging van een WRR-advies over het Duitse voorbeeld met het richtgetal. Ook in het WRR-onderzoek zelf is al het een en ander gezegd over quota en welke belemmeringen daaraan hangen. Dat is niet onze invulling daarvan en daarom ontraad ik deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg41">De motie op stuk nr. 331 van de heer Heerma gaat over maatschappelijke diensttijd en de samenhang met inburgering. Onder verwijzing naar het debat: oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg42">De motie op stuk nr. 332 van mevrouw Simons gaat over de COA-faciliteiten. Er zijn bij ons geen signalen bekend dat daar problemen zouden zijn. Tegen die achtergrond wil ik deze motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg43">De motie op stuk nr. 333 ... Ik wacht even, want in mijn ooghoeken zie ik mevrouw Simons aan komen rennen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note152">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u30">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg44">Mevrouw Simons, één vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note153">Mevrouw Simons (BIJ1)</note>
+            <u who="#SylvanaSimons" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u31">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg45">Ik zou de minister willen vragen of hij op het moment dat hij wél signalen ontvangt, die ik hem eventueel zou kunnen doen toekomen, alsnog naar de motie zou willen kijken. Dan kan ik haar nu aanhouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note154">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u32">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg46">Als u ze heeft, houd ik me zeer aanbevolen voor dat soort signalen. Als u ze wilt toesturen, graag. Ik heb er regelmatig overleg over met het COA. De signalen zijn mij niet bekend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note155">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u33">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg47">Op verzoek van mevrouw Simons stel ik voor haar motie (32824, nr. 332) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg48">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note156">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u34">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg49">Een paar zinnen bij de motie op stuk nr. 333 van mevrouw Simons. We hebben de afgelopen periode echt het nodige gedaan om bijvoorbeeld termijnen te verlengen om te voorkomen dat mensen slachtoffer worden van corona, van covid, bijvoorbeeld van het feit dat er geen examens mogelijk waren of dat er langeafstandsonderwijs was met mogelijke vertraging. We houden de vinger aan de pols en zien nu geen reden om daar aanvullende dingen te starten. Tegen die achtergrond ontraad ik deze motie. Ook hier geldt dat we de vinger aan de pols houden. Als het noodzakelijk mocht zijn, acteren we wel. Dat hebben we ook steeds gedaan in de afgelopen maanden en het afgelopen jaar.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg50">De motie op stuk nr. 334 van mevrouw Simons over de "ondertussengroep". Het is een verschrikkelijke term, maar dat terzijde. We hebben in verschillende fases extra geld vrijgemaakt voor de gemeenten om deze groep in de tussentijd extra te ondersteunen. We zagen dat er een groep tussen wal en schip dreigde te vallen. De ELIP's, de "einde lening"-groep, hebben we in kaart gebracht. We ondersteunen dus de gemeenten en we gaan daar ook mee door in aanloop naar het nieuwe stelsel. We gaan ook zo veel mogelijk in de geest van de nieuwe wet handelen. We gaan samen met de gemeenten de trajecten starten: de combinatie taal en arbeidsmarkt, dat soort elementen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note157">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u35">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg51">Ja!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note158">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u36">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg52">Dus tegen die achtergrond ontraad ik de motie. Ik hoor de onrust van de voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note159">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u37">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg53">Dat lijkt maar zo.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note160">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:educa" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u38">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg54">En ik wil ook een gevulde koek straks.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg55">De motie op stuk nr. 335 van mevrouw Simons. Dat onderzoek loopt. Ik zou mevrouw Simons willen vragen om deze aan te houden tot het onderzoek beschikbaar is. Dan ga ik zelf nadenken over hoe ik hiermee omga, als dat uit het onderzoek zou komen. Dan heb ik het over die mbo-leerroute.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note161">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u39">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg56">Op verzoek van mevrouw Simons stel ik voor haar motie (32824, nr. 335) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg57">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note162">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u40">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg58">Dank u wel. De motie op stuk nr. 336 van mevrouw Belhaj wil ik oordeel Kamer geven, met een paar woorden nog toegevoegd. Vorige week heeft er namelijk overleg plaatsgevonden met belanghebbenden over wat we voor deze jongeren kunnen betekenen. Het gaat om de jongeren uit het praktijkonderwijs, waar ook de heer Ceder een motie over heeft ingediend. Naar aanleiding daarvan is besloten de datum van de intrekking van de tijdelijke vrijstelling te verschuiven naar 1 september. Ook zal ik onderzoeken of de uren praktijkonderwijs kunnen meetellen voor een ontheffing. Ik vind het van belang om mij in te spannen voor deze jongeren om te bezien hoe we ze het beste kunnen informeren en begeleiden bij de inburgeringsplicht; dus een warme begeleiding daarvan. Tegen die achtergrond geef ik de motie van mevrouw Belhaj oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note163">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u41">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg59">Mevrouw Simons nog over motie op stuk nr. 335.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note164">Mevrouw Simons (BIJ1)</note>
+            <u who="#SylvanaSimons" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u42">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg60">Ik houd de motie aan, maar ben wel benieuwd naar wanneer we de resultaten van dat onderzoek kunnen verwachten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note165">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:educa" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u43">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg61">Ik heb na vlak na het zomerreces in mijn hoofd, omdat we natuurlijk voor 1 januari hier duidelijkheid over moeten hebben, omdat dan de mbo-leerroute moet ontstaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note166">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u44">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg62">Mevrouw Becker houdt alle toezeggingen bij. Dus dat lezen we wel terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note167">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u45">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg63">Maar deze toezegging is niet aan mevrouw Becker. Die zien we dan waarschijnlijk niet terug.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg64">De motie op stuk nr. 337 van de heer Van Baarle over integratie en samenleven wil ik ontraden, met verwijzing naar het debat dat we daarover hebben gevoerd twee weken geleden. De heer Van Baarle kent mijn standpunt daarover.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg65">De motie op stuk nr. 338 van de heer Van Baarle vind ik ingewikkeld. Ik sta er sympathiek tegenover. Sterker nog, u weet dat er een apart traject op mijn departement loopt dat "Samenleven" heet. Dat vind ik naar de toekomst toe namelijk een belangrijk thema om mee door te gaan. Dat gezegd hebbend, is het eigenlijk een verzoek aan een nieuwe regering over hoe je een minister noemt. Daar gaat deze regering niet meer over. Daar gaat de Kamer over. Aangezien het een verzoek aan de regering is, moet ik de motie ontraden. Als u het anders had gemotiveerd, had ik "geen oordeel" kunnen zeggen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg66">Mijn reactie op de motie op stuk nr. 339 ligt in het verlengde van die op de motie van mevrouw Simons. De termijnen zijn verlengd. We hebben langeafstandsonderwijs gefaciliteerd. We zijn ook weer volledig open. We hebben ook langere uitsteltermijnen gehanteerd. Tegen die achtergrond ontraad ik de motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg67">De motie op stuk nr. 340 van de heer Ceder en mevrouw Maatoug gaat over dezelfde jongeren uit het praktijkonderwijs waar mevrouw Belhaj een motie over heeft ingediend. Met verwijzing naar de woorden die ik heb gebruikt bij de motie van mevrouw Belhaj, wil ik deze ontraden. Dit is namelijk gewoon tegen de wet. Dat kan ik natuurlijk niet doen. Ik ben wel bereid om me in te spannen voor een zachte landing en begeleiding van deze groep, zoals ik net heb aangegeven richting mevrouw Belhaj, maar ik moet de motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg68">De motie op stuk nr. 341 van de heer Ceder over het inventariseren welke knelpunten er zijn, wil ik graag oordeel Kamer geven. Er is veel bekend. Ook over veel deelonderwerpen is al veel bekend, mede naar aanleiding van moties van de Kamer. Daarom wil ik die graag inventariseren. Daarom oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note168">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u46">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg69">Kort, puntig, de heer Ceder, één zinnetje.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note169">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u47">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg70">Dank voor de oordeel Kamer op de laatste motie. Over de motie daarvoor zegt u dat u die ontraadt omdat die tegen de wet zou zijn. Maar dit doen we al een tijd lang. Dat weet u ook. Het gaat over de overbruggingsperiode van drie maanden, waarvan de sector aangeeft dat je het gedogend kunt voortzetten. Dat is gewoon een keuze. Ik vraag u niet om tegen de wet te handelen, alleen om de situatie nog voor drie maanden te gedogen. Ziet de minister in dat kader, in dat licht, in dat bredere perspectief dat we al langer gedogen, een overbruggingsperiode van drie maanden als haalbaar?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note170">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u48">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg71">Nee. In de brief die ik naar de Kamer heb gestuurd, heb ik uitgebreid geschetst hoe we dat gewogen hebben in de afgelopen periode. Ik zie het dilemma dat hier naar boven komt. Vandaar dat we ons inspannen voor wat de "zachte landing" heet: de begeleiding bij en het helpen van deze groep met de inburgeringsplicht. Anders krijg je echt gelijke monniken, ongelijke kappen. Dat vind ik kwetsbaar in de uitleg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note171">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u49">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg72">De heer Stoffer over de motie op stuk nr. 330.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note172">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u50">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg73">Ja, over de motie op stuk nr. 330. Ik zat nog even te kijken naar het oordeel. Ik begrijp niet waarom de minister niet de wil heeft om de voor- en nadelen van een migratiequotum überhaupt in kaart te brengen. Het is onderzoek. Je moet dit toch weten? Als dit een van de grootste problemen van de samenleving is, moet je dit toch in kaart willen brengen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note173">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u51">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg74">Helder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note174">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u52">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg75">Dus vanwaar de onwil?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note175">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u53">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg76">Dan moet ik even in mijn eigen geheugen gaan graven. In mijn herinnering wordt in het WRR-rapport aanbevolen om het Duitse voorbeeld van een richtgetal te onderzoeken en om daar de ACVZ voor te vragen. Daar zitten ook een aantal juridische beperkingen in ten aanzien van zo'n quotum. De WRR heeft dat al in kaart gebracht. Die heeft daar al naar gekeken. We gaan nu de ACVZ vragen om een advies te geven over hoe we dat kunnen invullen. Aangezien daarin het Duitse voorbeeld van een richtgetal staat, nemen we dat advies over. Ik zou het niet wenselijk vinden om daar nu een aanvullend advies over een quotum aan te hangen. Dat zou eigenlijk een herhaling van zetten zijn. Vandaar het oordeel ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note176">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u54">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg77">Afrondend, meneer Van Baarle. Kort en puntig. Eén zinnetje.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note177">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u55">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg78">Eén zin, voorzitter. Naar aanleiding van de appreciatie van de minister van de motie over een coördinerend bewindspersoon op het thema "samenleven" kondig ik aan dat ik die motie zal wijzigen om daar een uitspraak in de richting van de nieuwe regering van te maken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note178">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u56">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg79">Als het een spreekt-uitmotie is, mag ik daar geen oordeel over vellen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note179">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u57">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg80">Nee. Heel goed. Dank aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note180">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u58">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg81">Dank. Nog wat sentimentele woorden of niet?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note181">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u59">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg82">Graag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note182">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u60">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg83">Ik vond het heel leuk. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note183">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u61">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg84">Tot zover dit debat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note184">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note185">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.u62">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.seg85">Vanavond stemmen wij over de moties. Ik dank de minister voor zijn aanwezigheid. Ik schors voor een enkel ogenblik en dan gaan we praten over klimaat en energie.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-7.note186">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

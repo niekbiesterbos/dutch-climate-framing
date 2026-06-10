@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-03-30 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-03-30 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 66, Session 10 (2022-03-30)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 66, Session 10 (2022-03-30)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="66" xml:lang="en">Meeting 66</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="10" xml:lang="en">Session 10</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-03-30">Sitting 2022-03-30</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="48">48 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="48">48 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1758">1,758 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1758">1,758 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-03-30">2022-03-30</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="139"/>
+               <tagUsage gi="seg" occurs="54"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="48"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-03-30">2022-03-30</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.head1">Belastingen</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:macro" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u1">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg1">Aan de orde is het tweeminutendebat Belastingen. Ik heet de staatssecretaris van Financiën van harte welkom, evenals de woordvoerders en de mensen die het debat volgen. Ik geef als eerste het woord aan de heer Van der Lee van GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note2">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u2">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg2">Dank u wel, voorzitter. Wij hebben een goed debat gehad, maar ik zou op twee punten toch nog graag een nadere motie willen indienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note6">constaterende dat de grote vermogensongelijkheid in Nederland negatieve gevolgen heeft voor de kansengelijkheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note7">overwegende dat inkomen uit vermogen, met name voor de allerrijksten, relatief laag belast wordt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note8">spreekt uit dat het huidige niveau van vermogensongelijkheid in Nederland ongewenst hoog is,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note10">Deze motie is voorgesteld door het lid Van der Lee.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note11">Zij krijgt nr. kst-35927-115</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note12">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u3">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg3">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note13">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note14">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note15">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note16">constaterende dat het Nederlandse belastingstelsel onevenwichtig is geworden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note17">constaterende dat volgens de staatssecretaris een grootschalige herziening voor 2025 niet mogelijk is, maar binnen enkele jaren wel;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note18">overwegende dat de aanpak van de grote vermogensongelijkheid hier niet op kan wachten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note19">verzoekt de regering zich voor te bereiden op een grote belastingherziening en in de tussentijd maatregelen te nemen om de grote vermogensongelijkheid in te dammen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note20">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note21">Deze motie is voorgesteld door het lid Van der Lee.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note22">Zij krijgt nr. kst-35927-116</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note23">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u4">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg4">Dat waren beide moties. Op zich heb ik de staatssecretaris horen zeggen dat hij, als hij de taak krijgt om werk te maken van het arrest en met de richtingenbrief komt, er niet omheen kan om naar box 2 te kijken. Dat juich ik toe. Deze moties zijn bedoeld als aanmoediging om daar echt stappen in te zetten. Ik wens hem daar alvast succes mee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note24">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u5">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg5">Dank u wel. Dan geef ik het woord aan de heer Azarkan van DENK.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note25">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:domes" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u6">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg6">Dank, voorzitter. Veel ondernemers hebben gebruikgemaakt van de coronasteunpakketten, maar daar zit ook een potentieel gevaar. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note26">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note27">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note28">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note29">constaterende dat er als gevolg van de coronacrisis bij ondernemers een belastingachterstand is van circa 20 miljard euro;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note30">overwegende dat deze betalingsachterstand belemmerend kan werken op het economisch herstel van ondernemers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note31">verzoekt de regering deze fiscale schuldenberg en de afbetaling hiervan te monitoren en de Kamer periodiek te rapporteren over mogelijke knelpunten hierin, en te bezien of maatwerk mogelijk is in individuele gevallen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note32">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note33">Deze motie is voorgesteld door het lid Azarkan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note34">Zij krijgt nr. kst-35927-117</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note35">Dank u wel.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note36">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u7">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg7">Dank.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note37">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u8">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg8">Dan geef ik het woord aan mevrouw Inge van Dijk, CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note38">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u9">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg9">Dank u wel, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note39">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note40">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note41">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note42">constaterende dat er een discussie loopt over de vraag of de sterkste schouders de zwaarste lasten dragen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note43">constaterende dat inkomen uit vermogen anders wordt belast dan ander inkomen, waaronder inkomen uit dienstbetrekking;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note44">overwegende dat in box 3 inkomen uit vermogen jaarlijks belast wordt en een heffing op werkelijk rendement wordt ingevoerd en dat box 2 mogelijkerwijs prikkels in zich heeft om beleggingsvermogen aan te houden en belastingheffing uit te stellen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note45">verzoekt de regering met voorstellen te komen om beleggingsvermogen, niet zijnde pensioenreserveringen, aangehouden in box 2 beter in kaart te brengen en te onderzoeken in hoeverre hierbij onderscheid gemaakt kan worden met dga's met bv's met "echte" ondernemingen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note46">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note47">Deze motie is voorgesteld door de leden Inge van Dijk en Idsinga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note48">Zij krijgt nr. kst-35927-118</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note49">Er is een vraag van de heer Van der Lee. Als u wilt kort en krachtig, want we hebben nog een vol programma vanavond.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note50">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u10">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg10">Ja, even ter verduidelijking, hoor. Vraagt u nou iets meer dan wat de staatssecretaris al heeft aangekondigd? Hij heeft aangekondigd dat hij in de richtingenbrief ook gaat kijken naar opties voor box 2. Als u iets meer vraagt, wilt u dan niet ook meedoen aan de initiatiefwet waar GroenLinks en de PvdA aan werken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note51">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u11">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg11">Mijn vraag is wat ik in het debat over box 3 ook heb aangekaart. Als je zoekt naar oplossingen, kijk dan iets verder en kijk dan ook in box 2. Daarom hebben wij deze motie ingediend. We zetten er een extra streep onder, omdat we het heel belangrijk vinden om er de komende tijd stappen in te gaan zetten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note52">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u12">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg12">Dank u wel. Dan geef ik het woord aan de heer Romke de Jong, D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note53">De heer Romke de Jong (D66)</note>
+            <u who="#RomkedeJong" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u13">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg13">Voorzitter. Ook ik heb nog één motie namens D66.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note54">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note55">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note56">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note57">constaterende dat veel schenk- en erfbelasting wordt ontweken met constructies met bijvoorbeeld baby-bv's, afgezonderd particulier vermogen en ik-opa-testamenten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note58">overwegende dat dit ertoe kan leiden dat kleine vermogenden meer belasting betalen dan grote vermogenden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note59">constaterende dat er geen grondig onderzoek is verricht naar de ontwijkingsmogelijkheden in de schenk- en erfbelasting;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note60">verzoekt de regering deze en andere belastingontwijkingsconstructies in de schenk- en erfbelasting te betrekken bij het onderzoek naar de BOR of in het ibo vermogensongelijkheid,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note61">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note62">Deze motie is voorgesteld door het lid Romke de Jong.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note63">Zij krijgt nr. kst-35927-119</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note64">Dank u wel. Dan geef ik het woord aan de heer Grinwis, ChristenUnie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note65">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u14">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg14">Dank, voorzitter. Eén motie na een mooi debat met de staatssecretaris.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note66">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note67">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note68">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note69">constaterende dat in het coalitieakkoord het voornemen is uitgesproken om de btw op groente en fruit te verlagen naar 0% en een suikerbelasting in te voeren, en het kabinet momenteel bezig is deze afspraak uit te werken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note70">overwegende dat een verlaging van de btw van 9% naar 0% en een suikerbelasting zorgen voor zowel absoluut als relatief betaalbaarder groente en fruit, waardoor het aantrekkelijker wordt om gezonde en duurzame keuzes te maken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note71">overwegende dat het doorvoeren van een onderscheid in btw-tarieven bij voedsel leidt tot de voor de uitvoering relevante vraag waar de grens wordt gelegd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note72">verzoekt de regering zich maximaal in te spannen de voorgenomen verlaging van de btw op groente en fruit naar 0% en een suikerbelasting nog lopende deze kabinetsperiode door te voeren, en voor komende zomer de Kamer te informeren over de aanpak hiervan en mogelijke uitvoeringskeuzes en -issues hierbij,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note73">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note74">Deze motie is voorgesteld door de leden Grinwis, Bikker en Stoffer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note75">Zij krijgt nr. kst-35927-120</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note76">Dank u wel. Dan geef ik het woord aan de heer Stoffer, SGP.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note77">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u15">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg15">Voorzitter. Ook van mijn hand één motie en die luidt als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note78">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note79">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note80">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note81">constaterende dat de opgebouwde belastingschuld als gevolg van corona binnen vijf jaar moet worden afgelost;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note82">overwegende dat deze termijn voor een groot deel van de ondernemers passend is, maar voor een groep ondernemingen knelt, terwijl deze ondernemingen wel toekomstperspectief hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note83">overwegende dat de mogelijk knellende terugbetalingstermijn slecht is voor de ondernemers, maar ook voor de economie als geheel, omdat investeringen hierdoor geremd worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note84">verzoekt de regering om scenario's te maken om ondernemingen met toekomstperspectief de mogelijkheid te bieden hun terugbetaaltermijn te verlengen, bijvoorbeeld naar tien of twintig jaar,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note85">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note86">Deze motie is voorgesteld door de leden Stoffer en Idsinga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note87">Zij krijgt nr. kst-35927-121</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note88">Dank u wel. Dan geef ik tot slot het woord aan de heer Omtzigt.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note89">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u16">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg16">Dank u wel, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note90">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note91">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note92">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note93">constaterende dat in het verkiezingsprogramma van de VVD 100 miljoen bezuinigd wordt op de expatregeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note94">constaterende dat in het verkiezingsprogramma van D66 100 miljoen bezuinigd wordt op de expatregeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note95">constaterende dat in het verkiezingsprogramma van het CDA 100 miljoen bezuinigd wordt op de expatregeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note96">constaterende dat in het verkiezingsprogramma van de ChristenUnie 100 miljoen bezuinigd wordt op de expatregeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note97">constaterende dat in het regeerakkoord geen enkele bezuiniging staat bij de expatregeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note98">constaterende dat de koopkracht van expats de huizenmarkt in de Randstad ontwricht;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note99">verzoekt de regering bij de Voorjaarsnota 100 miljoen te bezuinigen op de expatregeling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note100">verzoekt de regeringspartijen wanneer deze motie verworpen wordt, publiekelijk te verklaren dat verkiezingsprogramma's alleen geschreven worden om kiezers te werven maar niet om plannen uit te voeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note101">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note102">Deze motie is voorgesteld door het lid Omtzigt.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note103">Zij krijgt nr. kst-35927-122</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note104">Dat roept een vraag op van de heer Grinwis van de ChristenUnie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note105">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u17">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg17">Een mooie motie, een mooi punt. Ik ben daar erg voor. Maar wil de heer Omtzigt misschien drie voorbeelden noemen van punten uit zijn rijke verleden die hij ook weleens wel vond maar heeft moeten inleveren bij een coalitieonderhandeling?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note106">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u18">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg18">Ik kan er geen drie noemen, ik kan er honderd noemen die ik heb moeten inleveren: over de hervorming van het pensioenstelsel, over wat er met de WIA gebeurd is. Maar dat is niet het probleem. Je levert iets in omdat er iets anders staat in het verkiezingsprogramma van een van de anderen. En dan kan het gebeuren dat je zegt: vandaag krijgt de VVD haar zin, want die heeft iets meer zetels dan de ChristenUnie. Dat gebeurt. Maar hier stond in alle vier verkiezingsprogramma's, van de VVD, van het CDA, van D66 en van de ChristenUnie: we bezuinigen 100 miljoen op de expatregeling. En miraculeus haalt dat het regeerakkoord niet. Misschien kan de heer Grinwis aangeven wie van de partijen ertegen gelobbyd heeft. Hij heeft het kennelijk ingeleverd tegen iemand die het niet wilde hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note107">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u19">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg19">Dank u wel. Misschien kunt u dat bij een kop koffie doen. Ik schors voor vijf minuten en daarna geeft de staatssecretaris een appreciatie van de ingediende moties.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note108">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note109">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u20">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg20">Ik geef meteen het woord aan de staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note110">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u21">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg21">Dank u, voorzitter. Ik begin met de motie op stuk nr. 115 van de heer Van der Lee. Wat ik nu ga zeggen, geldt ook voor de motie op stuk nr. 116. Ik begrijp de moties heel goed vanuit GroenLinks en vanuit het debat dat we gevoerd hebben. De moties zijn alleen wat prematuur. We krijgen het ibo-rapport in juni. Dan gaan we de discussie over de vermogensongelijkheid voeren. Ik heb de richtingennotitie toegezegd en dan gaan we over box 3 en alle varianten daarvan spreken. Mijn voorstel zou zijn om beide moties aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note111">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u22">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg22">Ik kijk even of de heer Van der Lee de moties op stuk nr. 115 en 116 wil aanhouden of in stemming wil brengen. Ik zie dat hij ze in stemming wil brengen. Dan worden de moties ontraden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note112">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u23">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg23">Dan worden de moties op stuk nr. 115 en 116 ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg24">De motie op stuk nr. 117 van de heer Azarkan krijgt oordeel Kamer. Zoals het zich nu laat aanzien, komt er begin april een brief van het kabinet. Dan zal met name specifiek hierop worden ingegaan. De appreciatie is daarom oordeel Kamer. Zeer uitgebreide nadere informatie volgt nog.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg25">De motie op stuk nr. 118 van mevrouw Van Dijk en de heer Idsinga zou ik ook oordeel Kamer willen geven. De motie legt terecht de nadruk op het feit dat er in box 2 ondernemingsvermogen en beleggingsvermogen zit. Dat zijn twee wezenlijk verschillende dingen. Het zal niet gemakkelijk zijn om deze motie uit te voeren, zeg ik op voorhand, maar ik ga mijn uiterste best doen. Oordeel Kamer dus.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg26">Dan de motie op stuk nr. 119 van de heer De Jong. Die betreft de belastingontwijkingsconstructie in de schenk- en erfbelasting. Zoals bekend komt er een evaluatie van de BOR aan. Dan gaan we het uitgebreid hierover hebben. Mijn verwachting is dat die constructies daar ook in beschreven staan en wat daartegen te doen is, alsmede als het gaat om het ibo vermogensverdeling. Ik denk echter dat de evaluatie van de BOR nog concreter is. Ik zou ook hier oordeel Kamer willen geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg27">Hetzelfde geldt voor de volgende motie, op stuk nr. 120. Het is een terugkerend onderwerp in dit huis. Zoals bekend ben ik in gesprek met de staatssecretaris van VWS hierover. Die is nu aan zet en komt met voorstellen. Ook hier geef ik oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg28">Wat betreft de belastingschulden, de motie op stuk nr. 121 van de heer Stoffer: ook hiervan zeg ik dat er een zeer uitgebreide brief komt aan de Kamer. Omdat er heel specifiek gepreludeerd wordt op eventuele verlenging van de terugbetalingstermijn zou ik het volgende in overweging willen geven. De motie van de heer Azarkan van DENK heb ik al oordeel Kamer gegeven. Zoals deze motie geformuleerd is, zou ik adviseren om deze aan te houden, totdat de brief van het kabinet in ontvangst is genomen. Ik wil nu niet preluderen op mogelijke maatregelen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note113">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u24">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg29">Ik kijk even naar de heer Stoffer om te zien of hij bereid is om de motie op stuk nr. 121 aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note114">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u25">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg30">Twee vragen. Wanneer komt de brief? En wat zou het oordeel zijn als ik de motie wel in stemming breng?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note115">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u26">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg31">Dan zou het oordeel toch ontraden zijn, omdat u heel specifiek een termijn noemt. De brief komt echt heel snel, misschien al aanstaande vrijdag, maar anders in de loop van volgende week.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note116">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u27">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg32">Ik spreek specifiek over scenario's. Vandaar dat ik bijvoorbeeld een termijn van tien tot twintig jaar noem. Daar zit dus al enige rek in. Ik zal met de andere indiener, de heer Idsinga, overwegen of wij de motie aanhouden. Als de brief vrijdag al komt, is dat natuurlijk heel snel. Dan hoef ik de motie hoogstens een week aan te houden, begrijp ik. We gaan even in beraad.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note117">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u28">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg33">Helder. We gaan naar de motie op stuk nr. 122 van de heer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note118">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u29">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg34">Voorzitter. Ik voer het coalitieakkoord uit. Daar staat niet in wat gevraagd wordt in deze motie. Dus het oordeel is: ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note119">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u30">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg35">Gaat u over de motie op stuk nr. 122 een vraag stellen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note120">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u31">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg36">Over twee moties. De staatssecretaris heeft aangegeven mijn moties prematuur te vinden. Maar hij geeft wel een oordeel Kamer over die btw-motie, terwijl daarover nog een ibo-traject loopt. Waarom is dat dan niet prematuur?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note121">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u32">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg37">Welke btw-motie bedoelt u? De motie over groente en fruit?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note122">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u33">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg38">De motie op stuk nr. 120 van de heer Grinwis.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note123">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u34">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg39">De motie over groente en fruit. Daarover heb ik al toegezegd tijdens het debat, en overigens ook al eerder, dat wij daar al in het kabinet over in gesprek zijn. Het is misschien niet helemaal parlementair gezegd, maar in die zin is die motie overbodig. Ik heb het op verzoek van de Kamer ook met de staatssecretaris van Volksgezondheid daarover gehad. Die werkt nu uit wat de definitie in de praktijk precies gaat betekenen. Dus in die zin mag het wat mij betreft, maar …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note124">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u35">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg40">Maar de motie op stuk nr. 120, zegt u nu, is overbodig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note125">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u36">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg41">Nee, dat was even een slip of the tongue.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note126">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u37">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg42">Als dat zo is, is het ondersteuning beleid. Dan wil ik eigenlijk vragen of de staatssecretaris de motie kan overnemen, als de heer Grinwis dat goedvindt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note127">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u38">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg43">Ik zei al dat het parlementair natuurlijk niet helemaal correct is …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note128">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u39">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg44">Nou ja, het is wel eerlijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note129">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u40">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg45">... maar het is eigenlijk iets wat we al uitgebreid besproken en toegezegd hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note130">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u41">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg46">Ik kijk even naar de heer Grinwis om te zien of hij zijn motie wil intrekken. Als de overbodig is, dan scheelt dat weer een motie bij de stemmingen. Het is toegezegd, het gebeurt al en de staatssecretaris zegt dat de motie overbodig is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note131">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u42">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg47">Er wordt over dit punt veel in de commissies gediscussieerd, overal met een net iets andere toonzetting. Ik vind het daarom wel belangrijk dat we als Kamer deze uitspraak doen. Dus: of de staatssecretaris neemt de motie over en dan weet ik dat die wordt uitgevoerd, of de Kamer doet er een uitspraak over. Maar ik ga de motie niet intrekken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note132">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u43">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg48">Dan kijk ik even of er bezwaar tegen is dat de motie wordt overgenomen. Dat is niet het geval.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note133">De motie-Grinwis c.s. (, nr. ) is overgenomen.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note134">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u44">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg49">En dat allemaal naar aanleiding van uw vraag, meneer Van der Lee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note135">De heer Van der Lee (GroenLinks)</note>
+            <u who="#TomvanderLee" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u45">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg50">Maar dan wil ik nog één vervolgvraag stellen. Moet ik nu uit dit antwoord afleiden dat in het kabinet nog helemaal niet wordt gesproken over de aanpak van de grote vermogensongelijkheid in Nederland?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note136">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u46">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg51">Dat is weer een andere vraag. Over het vorige onderwerp, de btw, heb ik al gezegd dat het staand kabinetsbeleid is en dat we dat gaan uitvoeren. Daarover heb ik een toezegging gedaan. Het punt van de vermogensverdeling is natuurlijk een zeer belangrijk onderwerp. De eerste keer dat wij gaan praten over vermogens is als de richtingennotitie over box 3 aan de orde is. Natuurlijk wordt daarover gesproken. Vervolgens gaan we de bredere discussie voeren als het ibo-rapport komt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note137">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u47">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg52">We gaan deze discussie nu echt stoppen, want we hebben nog twee andere tweeminutendebatten. Over vermogensongelijkheid kunnen we een hele middag debatteren. We hebben alle moties nu geapprecieerd. Ik stop deze discussie nu. We zijn gekomen aan het eind van de beraadslaging.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note138">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.note139">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.u48">
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg53">Ik dank de staatssecretaris. We gaan volgende week dinsdag stemmen over de moties.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-30-tweedekamer-10.seg54">We gaan meteen over naar het volgende tweeminutendebat.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

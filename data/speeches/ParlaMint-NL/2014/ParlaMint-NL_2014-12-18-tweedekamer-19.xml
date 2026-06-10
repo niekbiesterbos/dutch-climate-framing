@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2014-12-18 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2014-12-18 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 39, Session 19 (2014-12-18)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 39, Session 19 (2014-12-18)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="39" xml:lang="en">Meeting 39</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="19" xml:lang="en">Session 19</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.28" corresp="#TK" n="28-lower" xml:lang="en">Meeting of the 28th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2014-12-18">Sitting 2014-12-18</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="5">5 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="5">5 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="256">256 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="256">256 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2014-12-18">2014-12-18</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="19"/>
+               <tagUsage gi="seg" occurs="6"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="5"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2014-12-18">2014-12-18</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.head1">Afbouw transitiesysteem curatieve geestelijke gezondheidszorg</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note1">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.u1">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.seg1">Er zijn twee deelnemers van de zijde van de Kamer, waarvan er opnieuw maar eentje spreekt. Dat is wederom mevrouw Leijten van de fractie van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note2">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:healt" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.u2">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.seg2">Voorzitter. Wij hebben schriftelijk overleg gevoerd over de voorgenomen aanwijzing. Vandaag zouden wij een algemeen overleg over de geestelijke gezondheidszorg hebben. Dat is helaas geannuleerd. Daardoor moet ik mijn motie indienen naar aanleiding van een schriftelijk overleg; anders hadden wij het in het algemeen overleg kunnen wisselen.</seg>
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.seg3">Het is heel technisch, maar tegelijkertijd ook heel simpel. Er gaat iets veranderen in de financiering voor gespecialiseerde gezondheidszorg, geestelijke gezondheidszorg. Volgens de SP is dat op dit moment onverstandig. Waarom dat zo is, spreek ik uit in de motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note6">constaterende dat de wachtlijsten in de geestelijke gezondheidszorg oplopen door het inkoopgedrag van zorgverzekeraars;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note7">constaterende dat de goedkeuring van jaarverslagen van instellingen voor geestelijke gezondheidszorg vastloopt vanwege discussie over de inhoud van declaraties;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note8">voorts constaterende dat er geen adequaat vereveningsmodel bestaat voor de geestelijke gezondheidszorg, waardoor zorgverzekeraars risico lopen bij te aantrekkelijke polissen voor mensen die geestelijke gezondheidszorg nodig hebben;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note9">van mening dat er geen continuïteitsprobleem mag ontstaan bij gespecialiseerde geestelijkegezondheidszorginstellingen door de wijziging van financiering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note10">verzoekt de regering, de voorgenomen aanwijzing ex art. 8 Wmg inzake de afbouw van het transitieregime curatieve geestelijke gezondheidszorg (cggz) voor zeer gespecialiseerde gebudgetteerde instellingen en de inzet van het instrument beschikbaarheidbijdrage voor een landelijk behandel- en expertisecentrum voor gespecialiseerde psychotraumazorg aan specifieke doelgroepen, in te trekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note12">Deze motie is voorgesteld door het lid Leijten. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note13">Zij krijgt nr. kst-30597-486</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note14">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:educa" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.u3">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.seg4">Ik schors een momentje, opdat de minister de motie ontvangt. Ik wijs de fractiesecretarissen en de ambtelijk secretarissen erop dat wij danig inlopen op het schema. Wij hebben het VAO Passend onderwijs om 15.50 uur staan, maar het zou mooi zijn als wij daar eerder mee kunnen beginnen. Ik hoop dat de woordvoerders zich naar de plenaire zaal kunnen begeven, zodat wij daar snel mee kunnen beginnen.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note15">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note16">Minister Schippers</note>
+            <u who="#EdithSchippers" ana="#regular topic:immig" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.u4">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.seg5">Voorzitter. Het zal niet verbazen dat ik deze motie ontraad, aangezien zij vraagt om een aanwijzing van mij niet door te laten gaan. Het is ook onwenselijk, omdat de les die ik ieder geval geleerd heb, is dat je transitieregimes zo kort mogelijk moet houden. Ik zie geen continuïteitsproblemen ontstaan en dus zie ik ook geen aanleiding hiervoor.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note17">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note18">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.u5">
+               <seg xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.seg6">Ik dank de minister dat zij hier even was en wij wensen haar verder een prettige werkdag.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2014-12-18-tweedekamer-19.note19">De vergadering wordt van 15.13 uur tot 15.40 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-04-06 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-04-06 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 69, Session 3 (2022-04-06)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 69, Session 3 (2022-04-06)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="69" xml:lang="en">Meeting 69</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="3" xml:lang="en">Session 3</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-04-06">Sitting 2022-04-06</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="65">65 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="65">65 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3729">3,729 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3729">3,729 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-04-06">2022-04-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="172"/>
+               <tagUsage gi="seg" occurs="80"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="65"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-04-06">2022-04-06</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.head1">Fit for 55 - CBAM en ETS</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg1">Aan de orde is het tweeminutendebat Fit for 55 - CBAM en ETS, naar aanleiding van het commissiedebat van 27 januari jongstleden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg2">We hebben een achttal inschrijvers. De meesten daarvan zie ik al in de zaal. Ik heet de mensen in de zaal van harte welkom, de Kamerleden, de mensen die het op afstand volgen en natuurlijk ook de minister voor Klimaat en Energie, de heer Jetten. We kunnen beginnen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg3">Ik geef graag het woord aan de heer Boucke van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note2">De heer Boucke (D66)</note>
+            <u who="#RaoulBoucke" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg4">Dank u wel, voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note6">constaterende dat in het coalitieakkoord is afgesproken dat de vervuiler moet betalen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note7">overwegende dat het ETS-systeem alleen werkt wanneer de prijs van CO voldoende hoog is om de transitie te stimuleren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note8">constaterende dat de opbrengsten van ETS gebruikt worden om de transitie te financieren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note9">verzoekt de regering om te onderzoeken in welke sectoren de gratis emissierechten versneld kunnen worden afgebouwd, bijvoorbeeld sectoren die een relatief lager exportlekkagerisico hebben, en in deze sectoren versnelde afbouw te bepleiten in Europees verband,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note11">Deze motie is voorgesteld door het lid Boucke.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note12">Zij krijgt nr. kst-22112-3357</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note13">De heer Boucke (D66)</note>
+            <u who="#RaoulBoucke" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg5">De Kamer,</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg6">gehoord de beraadslaging,</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg7">overwegende dat we alle duurzame technologieën nodig hebben om de klimaatdoelen uit het coalitieakkoord te halen;</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg8">constaterende dat waterstof op zee een bijdrage kan leveren aan de verduurzaming van de industrie;</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg9">verzoekt de regering om te onderzoeken hoe we geïntegreerde waterstofproductie via wind op zee versneld kunnen uitvoeren en te onderzoeken hoe restricties in de markt, zoals rondom vergunningen, weggenomen kunnen worden, met als doel waterstof ook financieel te ondersteunen,</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg10">en gaat over tot de orde van de dag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note14">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg11">Dank voor uw bijdrage, meneer Boucke. Dan zijn we aangekomen bij de heer Erkens namens de fractie van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note15">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg12">Dank u, voorzitter. De VVD steunt in ieder geval de Europese ambitie van 55% CO-reductie in 2030. Snelle verduurzaming van ons continent zorgt er ook voor dat we minder afhankelijk worden van Rusland en andere onvrije landen voor onze energievoorziening. We hebben wel een aantal zorgen over het pakket, bijvoorbeeld over ETS-BRT. Dat behaalt volgens het PBL nauwelijks CO-reductie in Nederland maar leidt wel tot kostenverhogingen op de energierekening en op de prijs aan de pomp. We schrokken wel een beetje van de enthousiaste inzet van het kabinet bij dit voorstel. Daarom de volgende motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note16">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note17">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note18">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note19">overwegende dat ETS-BRT voor een significante verhoging van de energie- en brandstofprijzen kan zorgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note20">constaterende dat de energiekosten voor veel lage en middeninkomens al nauwelijks te dragen zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note21">verzoekt de regering zich kritisch op te stellen omtrent het voorstel ETS-BRT in de verdere onderhandelingen over het "Fit for 55"-pakket in Brussel,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note22">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note23">Deze motie is voorgesteld door de leden Erkens en Leijten.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note24">Zij krijgt nr. kst-22112-3358</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note25">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg13">Dan de tweede motie, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note26">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note27">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note28">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note29">constaterende dat CBAM voor een gelijk speelveld binnen de interne markt zorgt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note30">constaterende dat CBAM niet voor een gelijk speelveld zorgt buiten de interne markt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note31">verzoekt de regering om in de onderhandelingen over Fit for 55 proactief te handelen om weglek van export en CO te voorkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note32">verzoekt de regering om het Commissievoorstel te steunen om dit te bereiken via het moderniseringsfonds, het innovatiefonds en de voorgestelde uitfaseerperiode van gratis rechten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note33">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note34">Deze motie is voorgesteld door de leden Erkens en Bontenbal.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note35">Zij krijgt nr. kst-22112-3359</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note36">Dank, meneer Erkens. Ik zie dat de heer Thijssen een vraag voor u heeft.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note37">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg14">Ik heb een vraag aan de heer Erkens over de eerste motie. Dit gebeurt er nou de hele tijd met klimaatbeleid: als het effe moeilijk wordt of pijn gaat doen, dan krabbelt men terug en doet men ETS2 toch maar niet. Maar ETS2 is nodig om de doelen te halen. Er zijn mogelijk wel vervelende effecten, met name voor mensen met lage en middeninkomens in slecht geïsoleerde huizen. Kan meneer Erkens niet een motie indienen waarbij we zeggen dat we het Social Climate Fund zo gaan inzetten dat we zorgen dat mensen met lage en middeninkomens in slecht geïsoleerde huizen worden geholpen om te verduurzamen en om die hogere kosten op te vangen? Dan halen we én het klimaatdoel én we zorgen dat de levens van mensen beter worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note38">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg15">Dit is niet: als het moeilijk wordt, steunen we de voorstellen niet. ETS-BRT zorgt volgens het PBL nauwelijks voor een CO-reductie in Nederland. Er zijn andere manieren om het te bewerkstelligen binnen het "Fit for 55"-pakket. Wij vinden de kosten voor de midden- en lage inkomens ook van belang, maar het Sociale Climate Fund is daarvoor niet de manier. We hebben al andere instrumenten om dat te bewerkstelligen. Daar zouden wij graag op inzetten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note39">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg16">Meneer Thijssen, kort nog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note40">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg17">Ja, heel kort. We zitten natuurlijk niet op een eiland. In Europa zorgt ETS2 wel degelijk voor heel veel progressie, want in heel veel landen is dat juist een heel belangrijk argument. Dus heroverweeg uw motie, want volgens mij moeten we wél het lef hebben om moeilijke maatregelen te nemen. Vervolgens moeten we heel goed kijken hoe we er met het Social Climate Fund en andere instrumenten voor zorgen dat lage en middeninkomens er beter van worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note41">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg18">U kunt reageren, meneer Erkens.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note42">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg19">Ik zal kort reageren. Het probleem zit voor ons met name in de koppeling van een ETS-BRT, waardoor de energiekosten in Nederland hoger worden en de CO-reductie beperkt is. Een deel van de inkomsten gaat naar het Social Climate Fund, dat ook grotendeels niet naar Nederland terugkomt. Dus dat voelt voor ons op deze manier niet als een goed voorstel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note43">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg20">Nogmaals dank, meneer Erkens. Dan geef ik graag het woord aan de heer Van Haga namens de Groep Van Haga.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note44">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg21">Voorzitter. Het is interessant om te horen dat de VVD de Europese klimaatplannen steunt, terwijl die slecht zijn voor het milieu. Het is ook een nachtmerrie voor het Nederlandse bedrijfsleven en absolute horror voor de Nederlandse burger. BVNL denkt daar duidelijk anders over. Daarom heb ik twee moties om de schade nog een beetje te beperken.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note45">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note46">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note47">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note48">overwegende dat de invoering van CBAM de concurrentiepositie van ondernemers kan schaden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note49">verzoekt de regering deze concurrentiepositie nauwlettend te monitoren en de effecten binnen negen maanden na ingang van CBAM met de Kamer te delen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note50">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note51">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note52">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note53">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note54">overwegende dat de uitbreiding van het ETS-systeem en de invoering van CBAM een extra kostenverhoging betekenen voor de burger en ondernemer;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note55">spreekt uit dat extra kosten door Europese klimaatmaatmaatregelen ongewenst zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note56">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note57">Deze motie is voorgesteld door het lid Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note58">Zij krijgt nr. kst-22112-3360</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note59">Deze motie is voorgesteld door het lid Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note60">Zij krijgt nr. kst-22112-3361</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note61">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg22">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note62">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg23">Dank voor uw bijdrage, meneer Van Haga. Dan zijn we aangekomen bij de heer Thijssen namens de fractie van de PvdA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note63">De heer Thijssen (PvdA)</note>
+            <u who="#JorisThijssen" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg24">Dank u, voorzitter. Nou, we zijn afgelopen maandag weer eens met de neus op de feiten gedrukt met het IPCC-rapport. Het moet allemaal heel snel en vooral ook grootschalig naar beneden. Met Fit for 55 hebben we een heel belangrijk instrument om dat voor elkaar te krijgen, namelijk CBAM. De chemische industrie is volgens mij een van de grootste sectoren die bijdraagt aan de vervuiling en daardoor ook kan bijdragen aan de verduurzaming. Volgens de PvdA-fractie is het belangrijk dat die sector zo snel mogelijk onder CBAM wordt gevat, dus daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note64">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note65">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note66">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note67">constaterende dat de chemische sector geen onderdeel is van het Carbon Border Adjustment Mechanism (CBAM), zoals voorgesteld door de Europese Commissie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note68">overwegende dat Nederland een grote chemische sector heeft, die vatbaar is voor internationale concurrentie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note69">verzoekt de regering te onderzoeken wat de gevolgen zijn van inclusie van de chemische sector in CBAM,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note70">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note71">Deze motie is voorgesteld door de leden Thijssen en Kröger.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note72">Zij krijgt nr. kst-22112-3362</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note73">Dank, meneer Thijssen. Dan geef ik graag het woord aan de heer Bontenbal namens de fractie van het CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note74">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg25">Dank, voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note75">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note76">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note77">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note78">constaterende dat de door de Europese Commissie voorgestelde aanpassing van de Renewable Energy Directive dat 50% van alle waterstofgebruik in de industrie in 2030 uit groene waterstof moet bestaan, voor Nederland een hoge eis is, aangezien Nederland de tweede grootste waterstofgebruiker is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note79">overwegende dat deze hoge doelstelling volgens het rapport van CE Delft ook belemmerend kan werken voor de verduurzaming van de industrie en groene waterstofproductie ook kan concurreren met de inzet van groene stroom in andere sectoren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note80">overwegende dat een lagere doelstelling voor groene waterstof in de industrie niet betekent dat de CO-reductiedoelstelling voor Nederland zoals afgesproken in het coalitieakkoord omlaag gaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note81">verzoekt de regering in Europa stevig te pleiten voor een andere doelstelling, zoals een lagere doelstelling voor groene waterstof in 2030 of een transitieperiode tot 2035 waarbij andere CO-vrije waterstof ook meetelt voor het behalen van de doelstelling,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note82">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note83">Deze motie is voorgesteld door de leden Bontenbal en Erkens.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note84">Zij krijgt nr. kst-22112-3363</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note85">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg26">Mijn andere motie gaat ook over ETS.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note86">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg27">Excuus dat ik u even onderbreek, maar ik zie dat collega Kröger een vraag over de motie heeft.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note87">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg28">Volgens hebben wij het debat waar deze motie aan refereert, gevoerd voor de inval in Oekraïne. Op dit moment staat natuurlijk alles in het teken van het zo snel mogelijk af gaan van fossiele brandstoffen en het afbouwen van de afhankelijkheid van gas. Klopt in dat licht nog wat de Bontenbal hier vraagt? Hij vraagt om in te zetten op andere vormen van waterstof waarbij die fossiele afhankelijkheid eigenlijk langer in stand gehouden wordt. Daartoe moeten we het kabinet toch niet oproepen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note88">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg29">Deze motie is nog steeds heel zinnig. Er zijn vormen van circulaire waterstof die op dit moment niet goed meetellen. Een van de dingen die ik graag wil, is dat die fatsoenlijk meetellen. Ik denk dus dat het prima samen kan gaan. Wij zeggen ook heel duidelijk in de motie dat de klimaatdoelstelling niet omlaag gaat. Sterker nog, ik denk dat op het moment dat je te snel met groene waterstof begint, je ook weleens iets kunt doen wat slechter is voor het klimaat. Het is dan wellicht beter om daar nog even mee te wachten. Het heeft ermee te maken dat je bijvoorbeeld groene elektriciteit uit windparken direct wilt benutten in plaats van dat je daar een paar efficiencyslagen overheen doet en daarmee eigenlijk ook een klein beetje groene elektriciteit weggooit. En dat heb ik liever ook niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note89">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg30">De heer Bontenbal reageert nu op de vraag of het de klimaatdoelstelling ondermijnt. Mijn vraag was of het de afbouw van onze fossiele afhankelijkheid ondermijnt. Ik denk dat het steviger inzetten op waterstof gebaseerd op gas ons wel degelijk langer afhankelijk maakt van fossiele brandstoffen. Dat zit nu niet in de overwegingen van de heer Bontenbal. Daarom vind ik deze motie niet passend bij waar we nu staan in het debat, bij wat er in Europa moet gebeuren om zo snel mogelijk van fossiel af te gaan. Dus ik wil de heer Bontenbal in overweging geven om naast de overweging dat de klimaatdoelen niet belemmerd moeten worden, wel degelijk ook de afbouw van fossiel mee te nemen in zijn motie en zich dan te beraden over de vraag of die nog wel zo opportuun is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note90">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg31">Ik ben het absoluut oneens met u. Op het moment dat we groene stroom te snel via elektrolyse omzetten in waterstof gooi je dus een deel van die groene stroom weg, terwijl een directe benutting verstandig kan zijn. Als je dat niet doet, moeten andere centrales draaien en die draaien vermoedelijk op gas of kolen. Op systeemniveau is het dus verstandig om niet te snel een conversiestap te maken. Dat is ook wat het rapport van CE Delft zegt; ik zuig het niet allemaal uit mijn duim. Ze hebben dat allemaal heel netjes bekeken en zij zeggen dat je moet uitkijken wat je doet. Volgens mij past deze motie dus heel goed in lijn met een ambitieuze klimaatdoelstelling in het coalitieakkoord en past die heel goed bij onze wens om snel te stoppen met fossiele brandstoffen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note91">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg32">Gaat u verder met de tweede motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note92">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg33">Voorzitter. De tweede motie gaat ook over ETS2.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note93">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note94">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note95">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note96">constaterende dat de energiebelastingen in Nederland voor huishoudens relatief hoog zijn vergeleken met andere Europese lidstaten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note97">overwegende dat het ETS2 voor de gebouwde omgeving en mobiliteit leidt tot een extra belasting op de energierekening van huishoudens;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note98">verzoekt de regering om, als het ETS2 er komt, er in ieder geval voor te zorgen dat een verhoging van de lasten voor lage en middeninkomens in z'n geheel wordt gecompenseerd door een evenredige verlaging van de energiebelastingen, zodat huishoudens er netto niet op achteruit gaan,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note99">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note100">Deze motie is voorgesteld door de leden Bontenbal en Grinwis.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note101">Zij krijgt nr. kst-22112-3364</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note102">Dank, meneer Bontenbal van het Christen Democratisch Appèl. Dan zijn we aangekomen bij mevrouw Kröger van GroenLinks. Aan u het woord.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note103">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg34">Voorzitter. Een tweetal moties, de eerste over de luchtvaart. Zeker in het licht van het IPCC-rapport van afgelopen maandag, waarbij eigenlijk alle seinen op rood staan, we nóg veel harder af moeten van fossiele brandstoffen en CO moeten reduceren, kunnen we ons niet permitteren om nog langer gratis rechten te verlenen aan een luchtvaart die al op allerlei andere manieren de wind mee heeft.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note104">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note105">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note106">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note107">constaterende dat de gratis rechten voor de luchtvaart in 2024 volledig worden afgebouwd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note108">overwegende dat dit intra-EU-vluchten betreft en het dus ook niet uit concurrentie-oogpunt te verantwoorden is dat deze rechten nog gratis zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note109">verzoekt de regering zich in te spannen om eerder dan nu gepland is de gratis rechten van de luchtvaartsector uit de markt te halen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note110">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note111">Deze motie is voorgesteld door de leden Kröger en Boucke.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note112">Zij krijgt nr. kst-22112-3365</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note113">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg35">En dan de volgende motie over de effecten van CBAM op ontwikkelingslanden en met name de economische ontwikkeling die daar plaats moet vinden om juist de vervuilende fossiele stap die wij hebben, over te slaan. We moeten echt heel erg voorzichtig zijn en dat niet belemmeren. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note114">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note115">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note116">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note117">constaterende dat er een risico is dat ontwikkelingslanden disproportioneel in hun ontwikkeling worden gehinderd door CBAM;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note118">constaterende dat ontwikkelingslanden nauwelijks hebben bijgedragen aan de klimaatcrisis maar wel hard worden geraakt door de klimaatcrisis;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note119">overwegende dat ontwikkelingslanden de kans moet worden geboden zich te ontwikkelen en eerlijk moeten worden bijgestaan in de klimaattransitie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note120">verzoekt de regering te onderzoeken in hoeverre de invoering van CBAM een obstakel vormt voor ontwikkelingslanden en welke oplossingsrichtingen hiervoor zijn,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note121">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note122">Deze motie is voorgesteld door de leden Kröger en Thijssen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note123">Zij krijgt nr. kst-22112-3366</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note124">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:inter" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg36">Tijdens het debat heb ik de minister gevraagd in hoeverre hij met de bewindspersoon op Ontwikkelingssamenwerking en Buitenlandse Handel een gezamenlijke agenda voert voor een klimaatrechtvaardige transitie waarin we ook in ons hele buitenlandbeleid echt aanjagen op klimaatrechtvaardigheid, dus ik ben heel benieuwd naar de beleidsbrief daaromtrent.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg37">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note125">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg38">Dank, mevrouw Kröger, voor uw bijdrage. Dan geef ik graag het woord aan de heer Van Raan namens de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note126">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg39">Voorzitter, dank u wel. We hebben nu drie tweeminutendebatten achter elkaar, voor de kijkers thuis, allemaal in het teken van energie. Ik denk dat het ook goed is in ieder geval alle debatten en alle moties er vanaf nu op te beoordelen of het helpt richting de afbouw van fossiele brandstoffen. We noemen het Fit for 55. We weten eigenlijk dat Fit for 55 niet genoeg is voor Nederland. Nederland moet meer doen; dat hebben we beloofd in Parijs. Daarom heb ik een vijftal moties, maar die verdeel ik over een drietal debatten om het behapbaar te houden. De eerste motie gaat over de uitstoot en het ETS-systeem.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note127">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note128">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note129">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note130">constaterende dat het kabinet zich in het BNC-fiche op het volgende standpunt heeft gesteld: "In het huidige voorstel wordt CO-uitstoot van brandstofgebruik uitgezonderd van Nederlandse CO-beprijzing in sectoren landbouw en tuinbouw, kleinere industriële bedrijven, niet voor de weg bestemde voertuigen en niet-elektrisch spoorvervoer. Het kabinet hecht waarde aan een Europees gelijk speelveld, ook voor deze sectoren, en het EU-ETS zou hiertoe een goede mogelijkheid kunnen bieden";</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note131">constaterende dat de nationale CO-heffing, die als aanvulling op EU-ETS is ingevoerd, ook geen gelijk speelveld bevordert, aangezien de nationale CO-heffing alleen van toepassing is voor de industrie die ook onder EU-ETS valt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note132">verzoekt de regering om, ten behoeve van een gelijk speelveld in Nederland, de uitbreiding van de nationale CO-heffing naar andere sectoren te betrekken in de besluitvorming voorafgaand aan het Belastingplan 2023,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note133">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note134">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note135">Zij krijgt nr. kst-22112-3367</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note136">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg40">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note137">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u33">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg41">Keurig, meneer Van Raan. Dank ook voor uw bijdrage. Dan zijn we gekomen aan het einde van het indienen van de moties in de eerste termijn van de zijde van de Kamer. Ik deel nog even mee dat de heer Boucke in zijn enthousiasme om al het goede te doen voor het klimaat een motie heeft ingediend, zijn tweede motie, die hoort bij SDE-+++. Die motie zal straks bij het debat opnieuw worden ingediend en uiteraard ook worden beoordeeld. Ik schors de vergadering voor vijf minuten.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note138">De vergadering wordt van 10.32 uur tot 10.37 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note139">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u34">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg42">Ik geef graag het woord aan de minister voor Klimaat en Energie voor de appreciatie van de moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note140">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u35">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg43">Dank u wel, voorzitter. Ik zou graag heel kort willen onderstrepen wat een aantal Kamerleden ook heeft gezegd, namelijk dat het alarmerende IPCC-rapport van begin deze week nogmaals onderstreept hoe belangrijk het is dat we nu tot actie overgaan als het gaat om klimaatbeleid. Natuurlijk is er ook de geopolitieke situatie met de oorlog in Oekraïne die ons dwingt om de energietransitie te versnellen. Fit for 55, het Europese klimaatbeleid, is cruciaal om ook in Nederland de klimaatdoelen te halen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg44">Dan kom ik bij de moties. De motie-Boucke op stuk nr. 3357 over het versneld afbouwen van gratis emissierechten geef ik oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note141">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u36">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg45">Oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note142">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u37">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg46">De motie-Erkens/Leijten op stuk nr. 3358 verzoekt de regering zich kritisch op te stellen omtrent ETS-BRT in de verdere onderhandelingen over Fit for 55. Die motie ontraad ik. We kijken natuurlijk altijd kritisch naar hoe voorstellen passen bij de Nederlandse situatie. Het kabinet is er wel van overtuigd dat dit de meest kosteneffectieve manier is om in de hele EU de doelen voor de gebouwde omgeving en mobiliteit te halen. De CPB-analyse van vorige week onderstreept dat ook. Het alternatief van geen ETS-BRT betekent waarschijnlijk nog veel meer regelgeving en normering vanuit Europa, die minder goed passen bij de Nederlandse situatie. Ik beloof de heer Erkens en mevrouw Leijten dat ik me kritisch blijf opstellen om ETS-BRT zo goed mogelijk te laten passen bij de Nederlandse situatie, maar ik interpreteer deze motie toch als iets te kritisch en daarom ontraad ik deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note143">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u38">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg47">Ik zie dat de heer Bontenbal, hoewel hij niet de indiener van de motie is, toch een korte vraag voor u heeft.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note144">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u39">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg48">Hoe beoordeelt u dan het feit dat de Groenen en de Socialisten in het Europees Parlement tegen dit ETS-BRT zijn? Het verbaasde me nogal. Hier wordt ervoor gepleit, maar in Europa zijn het op dit moment met name de Socialisten en de Groenen die tegen dit systeem pleiten. Ik kan heel moeilijk duiden waarom dat precies zo is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note145">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u40">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg49">We hebben morgen ook een commissiedebat over Fit for 55. Ik kan me zomaar voorstellen dat we daarin uitgebreid gaan praten over ETS-BRT, het Social Climate Fund en hoe we de verschillende voorstellen op een goede manier in samenhang moeten bezien. Ik denk dat in alle landen nu dezelfde discussie speelt, namelijk wat een kosteneffectieve manier is om CO te reduceren, wat de impact is op de lasten voor huishoudens en bedrijven, en hoe je dat eventueel kunt mitigeren en compenseren. We zitten nog midden in de onderhandelingen over de verschillende pakketten, dus ik zal morgen in het commissiedebat aan uw vragen nadere duiding geven. Wellicht is het een suggestie aan de heer Erkens om de vorige motie nog even aan te houden totdat we morgen dat commissiedebat hebben gehad. Wellicht dat we dan nader tot elkaar kunnen komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note146">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u41">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg50">Meneer Erkens, wilt u de motie aanhouden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note147">De heer Erkens (VVD)</note>
+            <u who="#ArdaGerkens" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u42">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg51">Ik ga haar niet aanhouden. Ze komt pas in stemming na het debat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note148">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u43">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg52">Ja, dat is ook zo.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note149">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u44">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg53">Prima, gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note150">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u45">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg54">Dan de motie-Erkens/Bontenbal op stuk nr. 3359 om via het moderniseringsfonds en het innovatiefonds te werken aan de uitfaseerperiode van gratis rechten. Deze motie geef ik oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg55">Dan de motie-Van Haga op stuk nr. 3360 ten aanzien van de CBAM-monitoring. U vraagt mij om elke negen maanden te monitoren. Op dit moment is al afgesproken dat er in de transitiefase 2023-2025 sowieso wordt geëvalueerd wat de impact is van CBAM op de bedrijven die daaronder vallen. Op basis daarvan wordt er ook gekeken of het hele systeem verder moet worden verbeterd. Ik heb recentelijk richting de heer Bontenbal of de heer Erkens een speelveldtoets toegezegd van de impact op het Nederlandse bedrijfsleven. Die speelveldtoets komt er ook in 2023. Daarom vind ik deze motie eerlijk gezegd overbodig en ontraad ik deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note151">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u46">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg56">Ik zit even te kijken of de heer Van Haga het overbodig vindt. De heer Van Haga houdt de motie aan? Ja. Sorry, excuus, de heer Van Haga laat de motie staan, dus ze komt in stemming.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note152">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u47">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg57">De tweede motie van de heer Van Haga op stuk nr. 3361 is een spreekt-uitmotie, dus daar heb ik uiteraard geen mening over.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg58">De motie-Thijssen/Kröger op stuk nr. 3362 verzoekt te onderzoeken wat de gevolgen zijn van inclusie van de chemische sector in CBAM. CBAM is een nieuw instrument en er is uiteindelijk voor gekozen om dat in te faseren, maar ik denk dat we allemaal wel zien dat de chemie een goede sector is voor zo'n grensheffing. Het is wel een wat ingewikkeldere sector, dus het is goed om de verschillende effecten daarvan in kaart te brengen. Maar dat is ook wat deze motie van mij vraagt, dus ik geef de motie oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg59">De motie-Bontenbal/Erkens op stuk nr. 3363 verzoekt stevig te pleiten voor een lagere doelstelling voor groene waterstof in 2030 en een transitieperiode tot 2035. Daar wil ik iets meer woorden aan wijden, voorzitter. Ik ben zelf, zowel met de Commissie als met een aantal landen in Noordwest-Europa, actief in gesprek over de doelstellingen ten aanzien van groene waterstof. We zien allemaal dat we veel sneller willen in de opschaling van waterstof. In Nederland lopen we voorop in de investeringen die we doen in de infrastructuur en de elektrolysecapaciteit. Ik vind zelf ook dat het pad dat de Commissie voorstelt, een onrealistisch pad is, met name de eerste paar jaar. Tegelijkertijd heb ik onder druk van de geopolitieke situatie afgelopen maandag met mijn Duitse collega besproken wat we kunnen doen om de Europese productie van groene waterstof toch nog verder te versnellen en de import van groene waterstof uit andere delen van de wereld beter op poten te zetten. Wat mij betreft gaan we op een ander infaseerpad uitkomen dan de Commissie nu heeft voorgesteld, maar ik vind de specifieke jaartallen die u noemt, te vroeg om me nu aan te binden. Wellicht dat u het dictum wat zou kunnen wijzigen richting wat meer flexibiliteit. Dan zou ik de motie oordeel Kamer kunnen geven, maar zoals ze nu is geformuleerd, zou ik de motie willen ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note153">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:gover" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u48">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg60">Kunnen we in het kader van minder administratieve lasten afspreken dat de interpretatie die u nu geeft, ook de interpretatie van mijn motie is? Dan hoef ik haar niet aan te passen. Het gaat mij niet om een specifieke datum. Het gaat mij om een realistisch pad waar ambitie in zit, maar wel met een realistisch verhaal over wat wij in Nederland kunnen bereiken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note154">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u49">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg61">Ik zit wel even te kijken of de collega's die hier niet bij aanwezig zijn, de motie ook zo interpreteren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note155">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u50">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg62">Het sluit wel aan bij de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note156">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u51">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg63">Ik zou toch willen aanbevelen om de motie in lijn met wat de minister bedoeld heeft, aan te passen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note157">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u52">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg64">We komen eruit, denk ik, als u dat zou doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note158">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u53">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg65">Dank. Ze wordt aangepast. Dan heeft ze oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note159">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:envir" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u54">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg66">De motie-Bontenbal/Grinwis op stuk nr. 3364 verzoekt de regering om er, als het ETS2 er komt, in ieder geval voor te zorgen dat een verhoging van de lasten in z'n geheel wordt gecompenseerd. In het coalitieakkoord is afgesproken dat aan het einde van de onderhandelingen voor Fit for 55 een impactanalyse wordt gemaakt van de lasten op huishoudens en bedrijven, in het bijzonder het klein en middelgroot mkb. Op dat moment moeten we integraal bezien hoe we het lastenplaatje in Nederland op Fit for 55 aanpassen. Ik vind dat deze motie daar iets te veel op vooruitloopt. Daarom ontraad ik nu deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg67">De motie op stuk nr. 3365 van Kröger en Boucke gaat over een inspanning om te bekijken of de gratis rechten van de luchtvaart eerder uit de markt kunnen worden gehaald. Dat is reeds de inzet van het kabinet en de collega's op IenW. Deze motie geef ik dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg68">De motie-Kröger/Thijssen op stuk nr. 3366 verzoekt de regering te onderzoeken in hoeverre CBAM een obstakel vormt voor ontwikkelingslanden en welke oplossingsrichtingen daarvoor zijn. Dit is een terecht punt. De grensheffing is vooral bedoeld om in grote, productieve landen als China en de VS de verduurzaming te versnellen. De impact op ontwikkelingslanden moeten we goed meenemen. De Commissie heeft toegezegd daar extra aandacht aan te besteden. Ik vind de motie, zoals ze is geformuleerd, passen bij de inspanningen die mijn collega samen met de minister van BuHa-OS doet. Ik kan de motie dus oordeel Kamer geven. De brief over internationaal klimaatbeleid waarnaar gevraagd werd, komt ook nog voor de zomer naar de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg69">Dan de motie-Van Raan op stuk nr. 3367. Ik heb haar even heel goed moeten bestuderen. Verschillende sectoren vragen om een eigen aanpak van de beprijzing van CO. We hebben in het coalitieakkoord een behoorlijke aanscherping van fiscale vergroeningen afgesproken. Die verwerken we zo veel mogelijk in het Belastingplan 2023. Het gaat mij en de staatssecretaris niet lukken om daar ook nog andere zaken aan toe te voegen. Ik ontraad deze motie dus, maar we zijn wel vanuit het coalitieakkoord al enorm goed bezig om die fiscale vergroening veel beter in te regelen in Nederland.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note160">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u55">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg70">Dat vraagt om een reactie van de heer Van Raan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note161">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u56">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg71">Ik doe toch graag een poging. We gaan het ETS uitbreiden naar andere sectoren. Dat staat vast.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note162">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u57">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg72">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note163">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u58">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg73">Dat is de inzet van het kabinet. Wat je ook van het ETS vindt — wij denken er wat anders over — het wordt in elk geval uitgebreid. Nederland heeft naast het bestaande ETS een systeem gezet. Dat systeem dat ernaast staat, moet dus ook gaan gelden in de sectoren die onder de uitbreiding van het ETS vallen. Het enige wat deze motie vraagt, is om dat alvast voor te bereiden, zodat er niet weer één, twee, drie of vier jaar verloren gaan wanneer de uitbreiding van het ETS er gekomen is. Dat is de strekking van de motie. Als 2023 te snel is — misschien is die uitbreiding er pas in 2024 — dan kunnen we daar een jaar aan vastplakken. Maar ik denk dat we het eens kunnen zijn over de intentie van de motie. Ik nodig de minister dus toch uit om even samen te kijken of we het niet toch al moeten doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note164">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u59">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg74">We gaan kijken of dit de minister op andere gedachten brengt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note165">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u60">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg75">De onderhandelingen over aanpassingen van het ETS lopen natuurlijk nog volop. Die zou ik echt eerst willen afronden voordat we gaan kijken hoe dat in Nederland verder kan worden toegepast. Het is al een enorme kluif voor het kabinet om alle fiscale vergroeningen in het coalitieakkoord te verwerken in dit Belastingplan, dus daar ga ik me nu echt even op focussen. Laten we daarna, zeker in het kader van alle ontwikkelingen op de energiemarkt, de impact daarvan op een aantal sectoren goed in kaart brengen, voordat we er een nieuwe nationale kop op zetten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note166">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u61">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg76">Tot slot, meneer Van Raan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note167">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u62">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg77">Inderdaad tot slot. Het is goed om het even goed af te spreken. Sluit de minister dan in principe niet uit dat de uitbreiding van het ETS in Nederland, voor Nederlandse industrie, niet ook zal worden voorzien van die extra nationale heffing?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note168">Minister Jetten</note>
+            <u who="#RobJetten" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u63">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg78">Nee. Volgens mij hebben we ook niet de luxe om heel veel dingen uit te sluiten. We zijn nu bezig met het uitwerken van een aantal heffingen die in het coalitieakkoord staan. Ik heb samen met de staatssecretaris van Fiscaliteit laatst aan de Eerste Kamer toegezegd dat we later dit jaar een aanvullend onderzoek laten doen naar het prijspad in de verschillende nationale heffingen. Daar wordt u natuurlijk ook over geïnformeerd zodra dat afgerond is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note169">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:energ" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u64">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg79">Dank. Dat waren alle moties. Dan zijn we aan het einde gekomen van het tweeminutendebat Fit for 55, CBAM en ETS. De stemmingen over deze moties zullen aanstaande dinsdag plaatsvinden.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note170">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note171">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.u65">
+               <seg xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.seg80">Ik schors de vergadering voor enkele ogenblikken en dan gaan we verder met het volgende tweeminutendebat.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-06-tweedekamer-3.note172">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-02-03 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-02-03 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 46, Session 5 (2022-02-03)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 46, Session 5 (2022-02-03)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="46" xml:lang="en">Meeting 46</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="5" xml:lang="en">Session 5</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-02-03">Sitting 2022-02-03</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="69">69 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="69">69 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3143">3,143 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3143">3,143 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-02-03">2022-02-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="171"/>
+               <tagUsage gi="seg" occurs="80"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="69"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-02-03">2022-02-03</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.head1">Staatsdeelnemingen</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:gover" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg1">Ik heet de staatssecretaris van Financiën van harte welkom. Hij heeft zich bij de minister gevoegd. Aan de orde is het tweeminutendebat Staatsdeelnemingen. Als eerste spreker heeft zich gemeld de heer Van Raan. Hij spreekt namens de Partij voor de Dieren. Alvorens hem het woord te geven, wil ik hem vanaf deze plaats ten behoeve van de Handelingen van harte feliciteren met zijn verjaardag. Het moet een bijzonder moment zijn om te midden van al deze politieke vrienden de verjaardag te mogen vieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note2">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg2">Voorzitter, ik hoorde al dat er gezongen gaat worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note3">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg3">Sorry, dat staat de voorzitter niet toe, want u hebt het woord. U mag wel uw bijdrage op rijm leveren, maar verder gaan we niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note4">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg4">Dan gaat het langer dan twee minuten duren, ben ik bang. En dat wilt u misschien ook niet.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg5">Voorzitter, ik heb twee moties. Maar eerst wil ik de nieuwe minister graag bedanken dat zij toezegde om in overleg met de vakministers te gaan kijken hoe beleidsdeelnemingen straks net als staatsdeelnemingen verantwoording kunnen afleggen over, zoals zij het zelf noemt, duurzame ontwikkelingsdoelen en het Akkoord van Parijs. Zij sprak in dit kader uit dat het kabinet een belangrijke klimaatambitie heeft. Dank daarvoor.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg6">Dan de moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note5">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note6">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note7">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note8">constaterende dat staatsdeelnemingen wel mvo-beleid hebben geformuleerd maar dat dit niet echt afdwingbaar is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note9">overwegende dat een klimaatplicht een stok achter de deur kan zijn voor bedrijven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note10">verzoekt de regering om in elk geval alvast voor de bedrijven waar de Staat een belang in heeft — staats- en beleidsdeelnemingen — een klimaatplicht voor te bereiden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note12">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note13">Zij krijgt nr. kst-28165-357</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note14">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg7">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note15">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note16">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note17">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note18">constaterende dat de staatsagent voor KLM in de tweede periodieke rapportage heeft vastgesteld dat de veranderende maatschappelijke kijk op de luchtvaart als gevolg van klimaatverandering leidt tot onzekerheden die luchtvaartmaatschappijen nopen tot heroverweging van hun bedrijfsmodel, waarbij in elk geval meer flexibiliteit nodig is om op onvoorziene omstandigheden te kunnen inspelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note19">constaterende dat de minister tijdens het commissiedebat Staatdeelnemingen heeft bevestigd dat de staatsagent "heel terechte vragen heeft gesteld en kanttekeningen heeft geplaatst en zijn rol als staatsagent dus heel zorgvuldig vervult";</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note20">verzoekt de regering in de Luchtvaartnota een scenario op te nemen dat rekening houdt met een krimpende luchtvaartsector in Nederland en, om op die toekomst voorbereid te zijn, te onderzoeken welk verdienmodel voor KLM / Air France-KLM, past bij een krimpende sector,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note21">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note22">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note23">Zij krijgt nr. kst-28165-358</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note24">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg8">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note25">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg9">Dank voor uw inbreng. Het woord is aan mevrouw Maatoug. Zij spreekt namens GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note26">Mevrouw Maatoug (GroenLinks)</note>
+            <u who="#SennaMaatoug" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg10">Voorzitter. Ook vanuit hier felicitaties voor de heer Van Raan. Ik zeg: hoera, gefeliciteerd. Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note30">overwegende de mogelijke financiële staatssteun die in de toekomst aan KLM gegeven zou kunnen worden ter behoud van de luchtvaartmaatschappij;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note31">overwegende de noodzaak van maatschappelijke tegenprestaties van KLM in ruil voor deze eventuele steun, zoals ook benadrukt door de state agent;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note32">van mening zijnde dat de noodzaak tot uitstootreductie van de economie en vermindering van hinder van de luchtvaart voor omwonenden ook tot uitdrukking moet komen in de tegenprestaties die verbonden worden aan eventuele nieuwe financiële staatssteun aan KLM;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note33">verzoekt de regering het tot harde inzet van eventuele onderhandelingen te maken dat er reductiedoelstellingen komen voor 2030 en 2050 die KLM in lijn brengen met het Akkoord van Parijs, en dat er afrekenbare doelstellingen komen voor het afbouwen van nachtvluchten en voor vervanging van korteafstandsvluchten door treinreizen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note34">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note35">Deze motie is voorgesteld door de leden Maatoug en Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note36">Zij krijgt nr. kst-28165-359</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note37">Dank voor uw inbreng. Dan is nu het woord aan de heer Alkaya, die spreekt namens de Socialistische Partij. Gaat uw gang.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note38">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:trans" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg11">Voorzitter, dank u wel. Ik heb zelf twee moties. De ene gaat over onze spoorwegen en de andere over onze luchtvaartmaatschappijen. Ik ondersteun de motie die de ChristenUnie straks zal indienen over de loterijen van harte.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg12">Allereerst de luchtvaart. Daar is natuurlijk al een aantal moties over ingediend. Die van mij gaat specifiek over het zakelijk vliegverkeer.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note39">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note40">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note41">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note42">constaterende dat KLM in haar bedrijfsstrategie nadrukkelijk rekening houdt met de terugkeer van de zakelijke reiziger;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note43">van mening dat zakelijke reizigers een onevenredig groot aandeel hebben in het aantal vluchten dat KLM verzorgt en dat hiermee een grote en onnodige druk op het klimaat en de leefomgeving wordt gelegd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note44">van mening dat de coronacrisis heeft aangetoond dat veel zakelijke vluchten probleemloos vervangen kunnen worden door digitale vergaderingen en conferenties;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note45">verzoekt de regering om zich vanuit haar rol als aandeelhouder van KLM in te zetten voor een nieuwe bedrijfsstrategie, die rekening houdt met de krimp van het aandeel zakelijke veelvliegers,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note46">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note47">Deze motie is voorgesteld door het lid Alkaya.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note48">Zij krijgt nr. kst-28165-360</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note49">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:trans" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg13">Voorzitter. Dan de spoorwegen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note50">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note51">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note52">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note53">constaterende dat de NS momenteel kampt met grote problemen door te weinig personeel en dat hierdoor lijnen uitvallen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note54">constaterende dat de NS vanwege tegenvallende financiële resultaten als gevolg van de coronacrisis voor de komende jaren koerst op een krimp van 2.300 fte aan medewerkers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note55">verzoekt de regering om vanuit haar rol als aandeelhouder van NS te onderzoeken of de huidige voorziene krimp in de medewerkersaantallen — ook na de coronacrisis — invloed kan hebben op de beschikbaarheid van de beoogde dienstverlening,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note56">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note57">Deze motie is voorgesteld door de leden Alkaya, Nijboer en Van Raan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note58">Zij krijgt nr. kst-28165-361</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note59">Dank voor uw inbreng. Dan is het woord aan de heer Tony van Dijck namens de Partij voor de Vrijheid.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note60">De heer Tony van Dijck (PVV)</note>
+            <u who="#TonyvanDijck" ana="#regular topic:trans" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg14">Ook drie moties van mijn kant. De eerste motie gaat ook over de NS, namelijk over de buitenlandse activiteiten van de NS. Want volgens mij vindt de hele Kamer het onbegrijpelijk dat de NS avonturen aangaat in het Verenigd Koninkrijk en Duitsland, die bakken met geld kosten en niet in het belang zijn van de belastingbetaler. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note61">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note62">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note63">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note64">overwegende dat de buitenlandse activiteiten van NS niet in het belang zijn van de Nederlandse belastingbetaler;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note65">verzoekt de regering met een exitstrategie te komen voor NS uit het buitenland,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note66">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note67">Deze motie is voorgesteld door het lid Tony van Dijck.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note68">Zij krijgt nr. kst-28165-362</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note69">De heer Tony van Dijck (PVV)</note>
+            <u who="#TonyvanDijck" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg15">Deze motie is alleen door mij ondertekend. Maar ik zie geknik, dus ik verwacht "oordeel Kamer".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note70">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg16">Gaat u rustig verder met de tweede motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note71">De heer Tony van Dijck (PVV)</note>
+            <u who="#TonyvanDijck" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg17">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note72">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note73">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note74">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note75">constaterende dat de Franse staat inmiddels een aandelenbelang van 30% heeft in Air France-KLM tegenover 9,3% van Nederland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note76">overwegende dat het onwenselijk is dat Air France zijn grip op KLM verder verstevigt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note77">verzoekt de regering om KLM los te weken van Air France,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note78">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note79">Deze motie is voorgesteld door het lid Tony van Dijck.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note80">Zij krijgt nr. kst-28165-363</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note81">De heer Tony van Dijck (PVV)</note>
+            <u who="#TonyvanDijck" ana="#regular topic:trans" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg18">We kunnen allemaal de krant lezen en zien hoe Air France bezig is KLM naar zich toe te trekken. Als we zo bezig zijn en als ik die linkse partijen hoor, dan bestaat KLM over een paar jaar niet meer. Dat is ook goed voor het milieu, als ze niet meer bestaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note82">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg19">U heeft nog 30 seconden voor de derde motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note83">De heer Tony van Dijck (PVV)</note>
+            <u who="#TonyvanDijck" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg20">O, 30 seconden.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note84">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note85">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note86">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note87">constaterende dat Nederland behoefte heeft aan een veilige staatsspaarbank;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note88">overwegende dat de Volksbank nog steeds in handen is van de Staat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note89">verzoekt de regering om van de Volksbank een staatsspaarbank te maken, waarbij spaargelden worden beheerd en kredieten worden verleend aan particulieren en ondernemers zonder winstoogmerk,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note90">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note91">Deze motie is voorgesteld door het lid Tony van Dijck.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note92">Zij krijgt nr. kst-28165-364</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note93">Dank voor uw inbreng. Dan is nu het woord aan de heer Grinwis. Hij spreekt namens de ChristenUnie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note94">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg21">Voorzitter, dank u wel. En natuurlijk van harte gefeliciteerd, meneer Van Raan. Ik heb twee moties meegebracht.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note95">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note96">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note97">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note98">constaterende dat staatsdeelnemingen als NS en Schiphol investeringen hebben gedaan (ver) buiten de landsgrenzen, met wisselende resultaten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note99">overwegende dat niet alleen het financieel resultaat, maar ook de aard van buitenlandse investeringen van staatsdeelnemingen in dienst moeten staan van het publiek belang, bijvoorbeeld het door de minister in relatie tot de NS genoemde "faciliteren van grensverkeer";</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note100">overwegende dat de minister werkt aan een nieuwe Nota Deelnemingenbeleid met een vernieuwd afwegingskader, onder andere gericht op de buitenlandse activiteiten van staatsdeelnemingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note101">verzoekt de regering om in het afwegingskader in de nieuwe Nota Deelnemingenbeleid expliciet op te nemen dat buitenlandse investeringen van staatsdeelnemingen het publieke belang moeten dienen, waarbij enkel het boeken van winst zonder dat de Nederlandse samenleving daarvan profiteert een tekortschietend motief is,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note102">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note103">Deze motie is voorgesteld door de leden Grinwis en Inge van Dijk.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note104">Zij krijgt nr. kst-28165-365</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note105">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:trans" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg22">Dit was naar aanleiding van het debatje dat we in de commissie hadden over Schiphol.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg23">Voorzitter. De tweede en laatste motie, die ik indien samen met collega Alkaya van de SP.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note106">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note107">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note108">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note109">constaterende dat de staatsdeelnemingen Nederlandse Loterij en Holland Casino zich verbinden aan een reclamecode, opgesteld door de goksector zelf;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note110">overwegende dat de Consumentenbond stelt dat deze reclamecode jongeren en andere kwetsbare consumenten onvoldoende beschermt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note111">overwegende dat frequent gokken zorgt voor financiële problemen en een negatieve spiraal van steeds ongezonder leven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note112">verzoekt de regering in aanloop naar het verbod op ongerichte reclame voor risicovolle kansspelen, conform de aangenomen motie-Van Nispen (24557, nr. 186), zich vanuit haar rol als aandeelhouder alvast hard te maken voor een terughoudender en minder wervende inzet van gokreclames door de staatsdeelnemingen Nederlandse Loterij en Holland Casino, zodat jongeren en andere consumenten beter beschermd worden tegen de gevaren van gokken en gokverslaving,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note113">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note114">Deze motie is voorgesteld door de leden Grinwis en Alkaya.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note115">Zij krijgt nr. kst-28165-366</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note116">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg24">Tot zover, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note117">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg25">Dank voor uw inbreng. Dan is nu het woord aan de heer Romke de Jong, die spreekt namens D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note118">De heer Romke de Jong (D66)</note>
+            <u who="#RomkedeJong" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg26">Voorzitter, dank u wel. In het commissiedebat zegde de minister toe dat zij een toetsingskader gaat uitwerken in de Nota Deelnemingenbeleid. Daar ben ik blij mee. Ik kijk daarnaar uit, ook naar de ingevulde toetsingskaders, zodat duidelijk wordt welke publieke belangen een staatsdeelneming dient en welk belang voor de Staat als aandeelhouder daarbij past. Ik vraag de minister om te bevestigen dat ze dit voorjaar met een toetsingskader komt in de Nota Deelnemingenbeleid, daar met de Kamer over van gedachten te wisselen en vervolgens een ingevuld toetsingskader te presenteren voor de staatsdeelnemingen in het jaarverslag over 2022.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg27">In het debat hebben we ook veel gesproken over individuele staatsdeelnemingen, waarvan ik er eentje wil uitlichten, te weten de KLM. In de tweede periodieke rapportage van de staatsagent KLM wijst deze op de onzekerheden voor luchtvaartmaatschappijen en de grote noodzaak om flexibel te kunnen inspelen op onvoorziene omstandigheden. De staatsagent is verder positief over de vorderingen van KLM, maar ziet bij de aantrekkende luchtvaart het risico dat KLM zwicht voor druk van buiten en maatregelen om de concurrentiepositie te verbeteren laat varen. Daarom vraag ik aan de minister of zij bereid is om de randvoorwaarden te onderzoeken voor een toekomstbestendige KLM en haar langetermijnstrategie, met daarbij ook oog voor de rol van Schiphol en duurzaamheid, en de Kamer over de uitkomsten voor de volgende rapportage te informeren. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note119">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg28">Dank voor uw inbreng. Dan is tot slot het woord aan de heer Nijboer, sprekend namens de Partij van de Arbeid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note120">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:domes" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg29">Dank u wel, voorzitter. Ik dacht: laat ik vandaag eens proberen het goede voorbeeld te geven en net als gisteravond geen moties in te dienen. Dat betekent natuurlijk niet dat moties nooit zin hebben. Ik heb twee moties meeondertekend. Ten eerste een motie van de heer Alkaya over de NS en de werkgelegenheid en de dienstregeling, waarvoor ik zelf al in eerdere debatten aandacht heb gevraagd. Corona gaat echt een gat slaan, niet alleen bij de NS trouwens, maar ook bij de regionale vervoerders. Wij moeten ervoor zorgen dat die publieke voorziening overeind blijft. Daarvoor ligt er voor het kabinet nog een hele opdracht.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg30">Verder heb ik een motie van mevrouw Maatoug over duurzame maatregelen bij KLM meeondertekend. Op dat punt wordt een boel beloofd, maar weinig hard afgesproken. Het laatste willen wij graag.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg31">Ik stem ook graag in met de motie over de gokreclames. Ik zag dat de ChristenUnie en de SP daarover een motie hadden opgesteld, anders had ik zelf een motie ingediend. Die motie is heel terecht. De heer Van Nispen heeft ook nog een interpellatiedebat staan in deze Kamer. Ik wil de staatssecretaris ook op het hart drukken dat het niet alleen over reclames gaat, maar ook over de limieten. Als je een limiet instelt op basis waarvan je 24 uur per dag mag gokken, dan is dat een limiet van niks. Ik hoorde op de radio deze week dat het bedrag dat je kunt instellen €100.000 per dag is. Dat vind ik geen serieuze limiet. Ik roep de staatssecretaris op om, ondanks zijn drukke werkzaamheden bij box 3 waar hij nog wel even zoet mee zal zijn, ook hiervoor in zijn agenda een keer een uur vrij te maken om die gokbedrijven snel te manen tot aanpassing.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg32">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note121">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg33">Dank voor uw inbreng. De minister, dan wel de staatssecretaris, heeft aangegeven zes minuten nodig te hebben. Dat betekent dat wij schorsen tot 11.14 uur.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note122">De vergadering wordt van 11.07 uur tot 11.17 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note123">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg34">Ik geef het woord als eerste aan de minister, met het verzoek om de appreciatie kort en bondig te houden omdat we wat uitlopen in de tijd. Aan u het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note124">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:trans" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg35">Dank. Ik wil ook mijn hartelijke felicitaties overbrengen aan de heer Van Raan: dat hij nog vele jaren in gezondheid mag leven!</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg36">Dan de vraag van de heer De Jong. Dat is een complexe vraag voor een nog complexere materie. Zoals de heer De Jong weet, zal het kabinet uitvoering geven aan de afspraak in het coalitieakkoord om in 2022 een weging aan te brengen tussen Schiphol, KLM en de verschillende onderdelen, met natuurlijk bijzondere aandacht voor de hubfunctie van Schiphol. De minister van IenW is in eerste instantie aan zet, maar doet dit namens het kabinet. Ik zal vanuit staatsdeelnemingen ook echt meekijken. Dit valt dus in de categorie "wordt vervolgd".</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg37">Dan de motie op stuk nr. 357 van de heer Van Raan. De heer Van Raan weet als geen ander dat mvo-wetgeving nog ingevoerd moet worden, nationaal of op Europees niveau. Ik ben bezig met het wegingskader criteria voor de beleidsnota over de toekomst en de rol en sturing van staatsdeelnemingen voor het vernieuwd afwegingskader. Ik zou de heer Van Raan willen vragen om in het kader daarvan zijn motie aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note125">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg38">Ik kijk in de richting van de heer Van Raan. Het mag non-verbaal aangegeven worden. Ik leg het dan vast in de Handelingen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note126">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg39">Ik had het best non-verbaal willen doen, maar ik heb toch de vraag hoelang die aanhouding dan zou moeten zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note127">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg40">De heer Van Raan weet dat het nieuwe afwegingskader voor het zomerreces zal worden gedeeld met de Kamer, zoals besproken in het commissiedebat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note128">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg41">Voor het zomerreces.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note129">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:envir" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg42">Zo'n klimaatplicht gaat wellicht een hele tijd duren voordat iedereen, ook in deze Kamer, ervan overtuigd is dat dat noodzakelijk is. Een goed kabinet denkt vooruit, dus ik denk dat ik de motie toch in stemming breng.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note130">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg43">Sorry, u houdt de motie aan of niet?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note131">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg44">Ik denk dat ik de motie toch in stemming breng.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note132">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg45">Oké. Dan is het finale oordeel aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note133">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg46">Dan is het een procesoordeel en dan ontraad ik de motie, omdat ik het afwegingskader nog niet heb gedeeld met deze Kamer. Ik vind dat het procesmatig terecht is om het te beoordelen. Maar ik deel de ambitie van de heer Van Raan. Het is dus een procesonthouding.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note134">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg47">De motie op stuk nr. 357 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note135">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:trans" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg48">Ten aanzien van de motie op stuk nr. 358 heb ik hetzelfde verzoek. De behandeling van de Luchtvaartnota in de commissie voor Infrastructuur en Waterstaat met de betreffende minister is geagendeerd voor 24 februari. Het is gepast dat met deze motie eerst het debat wordt afgewacht en dat die dus wordt aangehouden. Dat zou mijn verzoek zijn, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note136">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg49">Het verzoek aan de heer Van Raan is om de motie aan te houden tot 24 februari. Ik zie instemmend geknik.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note137">Op verzoek van de heer Van Raan stel ik voor zijn motie (28165, nr. 358) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note138">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note139">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg50">Dan de motie op nummer op stuk nr. 359 van mevrouw Maatoug en de heer Nijboer. Wij delen het belang van duurzaamheid, zoals mevrouw Maatoug, de heer Nijboer en deze Kamer weten. Ik ga mij hier als aandeelhouder bij alle deelnemingen op inzetten. Wat betreft de specificiteit van deze motie zeg ik: uw Kamer wordt periodiek en op vertrouwelijke basis geïnformeerd over de gevoerde gesprekken met Air France-KLM en de Europese Commissie. Mocht het kabinet besluiten tot kapitaalsteun, dan wordt dit ook gedeeld met en gepresenteerd aan uw Kamer. Daarna kunnen wij in de openbaarheid het debat voeren. U velt dan een oordeel. Maar ik wil voorkomen dat de onderhandelingspositie van de Staat nu al publiek wordt beperkt, of indirect wordt ondermijnd, door vooraf eisen te stellen en daarom ontraad ik de motie op stuk nr. 359. Maar ik neem de strekking van de motie ten zeerste mee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note140">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u41">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg51">De motie op stuk nr. 359 is ontraden. Dan komt de motie op stuk nr. 360.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note141">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:domes" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u42">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg52">De heer Alkaya verzoekt de regering om zich vanuit haar rol als aandeelhouder in te zetten voor een nieuwe bedrijfsstrategie. Zoals de heer Alkaya weet, is het aan de raad van bestuur om te bepalen welke koers het meest opportuun en verstandig is om te varen. De gesprekken over de toekomst van KLM en de positie van de Staat voeren we, vanwege de bekende koersgevoeligheid, in vertrouwen met uw Kamer. Maar ik ben in gesprek met KLM en wij kijken kritisch mee op de vooruitzichten. Natuurlijk geldt ook hier het wegingskader waarover ik heb gesproken en waar we mee aan de slag zijn gegaan. Dat zal ten zeerste gaan tellen. Maar zoals de motie nu is gesteld, namelijk alsof de regering op de stoel van de raad van bestuur zou gaan zitten, is niet gepast, dus ik ontraad deze motie. Ik neem wel weer de strekking mee, zoals wij uitgebreid hebben besproken in het commissiedebat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note142">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u43">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg53">De motie op stuk nr. 360 is ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note143">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:trans" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u44">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg54">De motie op stuk nr. 361 van de heer Alkaya geef ik oordeel Kamer. De heer Alkaya en anderen hebben terecht gesteld dat treinvervoer beschikbaar moet blijven. De NS moet in staat worden gesteld. Ik ga in gesprek met de NS over de continuïteit van het treinvervoer. Uiteraard is hierbij ook een belangrijke rol voor de minister van IenW.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note144">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u45">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg55">De motie op stuk nr. 361 krijgt oordeel Kamer. Er is een vraag of opmerking van de heer Alkaya.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note145">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:trans" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u46">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg56">Ik heb een verjaardagscadeau voor de heer Van Raan. Hij wil graag ook meedelen in het succes, dus hij is mede-indiener van de motie op stuk nr. 361 over de NS.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note146">Hilariteit</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note147">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u47">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg57">Hoe mooi kan het worden? Dank. De motie op stuk nr. 361 wordt medeondertekend, naast de heer Alkaya en de heer Nijboer, door de heer Van Raan. De motie op stuk nr. 362.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note148">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:trans" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u48">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg58">De motie op stuk nr. 362 van de heer Van Dijck gaat over de buitenlandse activiteiten van de NS. Zoals u weet, zeg ik via de voorzitter richting de heer Van Dijck, komt er een brief. Maar ik geef de motie op stuk nr. 362 oordeel Kamer. Wij delen het belang van de essentiële rol in de bijdrage aan het publiek belang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note149">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u49">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg59">De motie op stuk nr. 362 krijgt oordeel Kamer. De heer Van Dijck vraagt zich ondertussen bezorgd af wat hij fout doet, zo veel oordelen Kamer zijn er.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note150">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u50">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg60">U kunt het ook omdraaien, meneer de voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note151">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u51">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg61">Zeker, zeker. Het wordt zeer gewaardeerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note152">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u52">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg62">Wat doet het kabinet goed? Ik kom op de motie op stuk nr. 363. Ik zal de balans weer herstellen, want de motie op stuk nr. 363 wordt ontraden. Deze is tijdens het commissiedebat Staatsdeelnemingen al eerder behandeld. Het is een herhaling van zetten. Het is eerder besproken en het antwoord blijft hetzelfde. De motie op stuk nr. 363 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note153">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u53">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg63">De motie op stuk nr. 363 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note154">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:domes" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u54">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg64">Dan kom ik op de motie op stuk nr. 364 van de heer Van Dijck. Mijn voorganger heeft een verkenning naar de toekomstopties voor de Volksbank aan de Kamer gestuurd. Ik meen dat wij nog een apart debat over de Volksbank voeren. Het voorsorteren om bepaalde opties uit te sluiten, is niet aan de orde. Zoals u weet, want het is bediscussieerd, heeft de NLFI in juli 2021 geconstateerd dat een besluit over de toekomst van de bank nog niet aan de orde is. Dat gebeurt ten vroegste in 2024. We gunnen de bank nog tijd om de nieuwe strategie uit te voeren. Op basis van ACM-maatregelen mag het kabinet zich ook niet bemoeien met de commerciële strategie van de Volksbank.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note155">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u55">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg65">Dat leidt nog tot een vraag of opmerking van de heer Van Dijck. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note156">De heer Tony van Dijck (PVV)</note>
+            <u who="#TonyvanDijck" ana="#regular topic:domes" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u56">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg66">Er is een Kamermeerderheid om die Volksbank in staatshanden te houden als een soort tegenkracht voor de commerciële banken. De NLFI zegt inderdaad dat de bank nog niet klaar is voor de toekomst, maar het zegt er ook bij: het gaat om klaar voor de toekomst van verzelfstandiging en teruggaan naar de markt. Dus het gaat om klaar voor een IPO om de bank naar de beurs te brengen. Als dat het uitgangspunt is, dan duurt het inderdaad nog een aantal jaren. Maar als het uitgangspunt is dat de bank in staatshanden blijft, dan hoeven we daar niet op te wachten, zoals NLFI voorstelt. Dan kunnen we gelijk handelen als het om een volksspaarbank gaat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note157">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:domes" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u57">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg67">Dit is een herhaling van het eerste commissiedebat dat ik hierover ten dele heb mogen voren. Ik ga graag de verkenning aan met uw Kamer, maar dan gericht op het hele thema de Volksbank. Er is een verkenning gestuurd. Het debat moet nog worden ingepland.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note158">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u58">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg68">Ik denk dat het oordeel van de minister gelijk blijft. Het is helder. Dank. De motie op stuk nr. 364 is ontraden. Dan de motie op stuk nr. 365.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note159">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u59">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg69">De motie op stuk nr. 365. Ik ben net als de heer Grinwis kritisch over buitenlandse investeringen van staatsdeelnemingen, enkel voor het financieel rendement. Winsten zonder een link met de kernactiviteit of de basisdoelen zijn geen reden om in het buitenland actief te zijn. Ik ga hier ook weer uitvoerig in het nieuwe afwegingskader op in, dat voor het zomerreces zal komen. Ik geef deze motie dus oordeel Kamer. Ik zou het bijna nog ondersteuning van beleid kunnen noemen, maar het is oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note160">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u60">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg70">De motie op stuk nr. 365 krijgt oordeel Kamer. De motie op stuk nr. 366 wordt beoordeeld door de staatssecretaris, die nog even verzocht wordt een stapje terug te doen. Er moet namelijk nog een cleaning plaatsvinden. Nadat alles grondig gereinigd is, heeft de staatssecretaris de gelegenheid om zijn appreciatie te geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note161">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:domes" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u61">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg71">Dank u wel, voorzitter. Ook ik kan niet achterblijven met het uitbrengen van felicitaties aan de heer Van Raan.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg72">Wat deze motie betreft kan ik kort en goed zijn. We onderschrijven de strekking van deze motie. Het gaat hier over een staatsdeelneming die niet alleen naar de letter van de wet, maar ook naar de geest dient te handelen om terughoudend te zijn als het gaat om assertieve vormen van gokreclame. Ik heb al toegezegd dat ik het gesprek daarover aanga. Het gesprek wordt gepland in februari, begin maart, zoals het zich nu laat aanzien. Dan zullen ook de andere onderwerpen aan de orde komen die de heer Nijboer noemde toen hij het woord voerde over de limieten. Maar dat heb ik ook al in de commissie gezegd. Ik wil hier wel het volgende bij aantekenen. We praten hier over twee aanbieders en er zijn nog vele andere aanbieders waarin de Staat geen deelneming heeft. Dat betekent dus ook dat het debat over het hele beleid met betrekking tot gokreclames moet worden gevoerd met de minister voor Rechtsbescherming, zoals deze Kamer ook weet. Daar werd al aan gerefereerd. Ik weet ook dat er volgende week een interpellatiedebat over is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note162">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u62">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg73">En de appreciatie? Kunt u die even samenvatten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note163">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u63">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg74">De appreciatie is: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note164">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u64">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg75">De motie op stuk nr. 366 krijgt oordeel Kamer. Dat roept nog een vraag op van de heer Nijboer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note165">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:domes" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u65">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg76">Ja, want ik vind het toch een beetje laat als het eind februari, maart, wordt, terwijl die spotjes elke dag te zien zijn en dit toch relatief makkelijk aan te passen is. Ik snap best dat de staatssecretaris het heel druk heeft, maar het gaat om een telefoontje naar de directie vanwege een signaal vanuit de Kamer, een motie. Het gaat erom dat een directeur-generaal zegt: jongens, doe er wat aan, volgende week wat minder. Ik vind dat toch wel de urgentie waar de Kamer om vraagt. Er is niet voor niks volgende week een interpellatiedebat over. Dat geldt inderdaad ook voor die andere aanbieders, maar we spreken deze staatssecretaris aan op Holland Casino en de Lotto.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note166">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u66">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg77">Inderdaad. De staatssecretaris.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note167">Staatssecretaris Van Rij</note>
+            <u who="#MarnixvanRij" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u67">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg78">Twee opmerkingen, kort, voorzitter. Vanaf 1 februari mag er in het reclameblok na 21.00 uur nog maar één reclame zijn. Dat is één, maar dat geldt natuurlijk voor iedereen. Ik zal ervoor zorgen dat die afspraak zo spoedig mogelijk wordt gemaakt. Maar ik wilde alleen maar aangeven dat het prioriteit heeft.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note168">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:gover" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u68">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg79">Helder. Dank u wel. Daarmee zijn wij gekomen aan het einde van de inbreng van de zijde van het kabinet bij dit onderwerp Staatsdeelnemingen.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note169">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note170">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.u69">
+               <seg xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.seg80">Ik schors deze vergadering en ik moet u onder tranen verlaten, want ik heb andere verplichtingen. Iemand anders zal het voorzitterschap waarnemen, maar ik probeer mij manmoedig te gedragen, bij dezen. Ik wens u nog een arbeidsvreugdevolle werkdag.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-03-tweedekamer-5.note171">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

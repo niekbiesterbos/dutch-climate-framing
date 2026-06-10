@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-04-14 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-04-14 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 73, Session 10 (2022-04-14)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 73, Session 10 (2022-04-14)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="73" xml:lang="en">Meeting 73</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="10" xml:lang="en">Session 10</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-04-14">Sitting 2022-04-14</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="85">85 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="85">85 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="6244">6,244 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="6244">6,244 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-04-14">2022-04-14</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="160"/>
+               <tagUsage gi="seg" occurs="124"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="85"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-04-14">2022-04-14</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.head1">Wet basisregistratie personen</head>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note1">Zie vergadering van 3 februari 2022.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note2">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u1">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg1">Aan de orde zijn de re- en dupliek van — let op, het is een mond vol — de Wijziging van de Wet basisregistratie personen in verband met de invoering van een centrale voorziening ter ondersteuning van de colleges van burgemeester en wethouders bij het onderzoek of een persoon als ingezetene in de Basisregistratie Personen op een adres in de gemeente dient te worden ingeschreven alsmede naar de juistheid van de gegevens betreffende het adres van een ingezetene in de Basisregistratie Personen, 35772. Nogmaals, het zijn de re- en dupliek, dus het is alleen maar de tweede termijn van de Kamer.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note3">De algemene beraadslaging wordt hervat.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note4">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u2">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg2">Als eerste spreker van de zijde van de Kamer geef ik graag het woord aan mevrouw Rajkowski. Zij had in de eerste termijn zeven minuten, dus in de tweede termijn een derde daarvan. Dat is dus vijftien seconden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note5">Mevrouw Rajkowski (VVD)</note>
+            <u who="#QueenyRajkowski" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u3">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg3">Haha! Dank u wel, voorzitter. De BRP. In de eerste termijn hebben we uitgebreid gesproken over het belang van de juistheid van gegevens. In de brief van 25 maart zien we dat ook terugkomen. De BRP is dé bron voor het moment dat er stempassen moeten worden verzonden of toeslagen moeten worden uitgekeerd. Maar ook voor organisaties die zich met pensioenverstrekking bezighouden, is het nodig dat de gegevens in de BRP kloppen. Dank aan de staatssecretaris, want in de brief van 25 maart staat dat zij het amendement op stuk nr. 19, een amendement onder andere van mijn hand, wil overnemen. Volgens mij moet dat formeel nog publiek gebeuren, dus daar ga ik nu verder niks over zeggen. Ik wacht daar de tweede termijn voor af.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg4">De brief van 25 maart laat ook wel zien dat het goed is dat we even een schorsing hebben gehad. Volgens mij staat er heel veel informatie in over discussies die we hebben gehad, over onzekerheden en twijfels. De VVD zal naar alle waarschijnlijkheid met het voorstel instemmen. We hebben de afgelopen weken gebruikt om ons goed te verdiepen in hoe bijvoorbeeld Utrecht de Landelijke Aanpak Adreskwaliteit heeft opgepakt. We zien juist hele mooie kansen voor gemeenten om niet alleen te kijken naar fraudeopsporing, maar ook naar schuldhulpverlening. Dat is een veel positievere insteek. Het is uiteindelijk in het belang van ons allemaal dat de BRP juist is.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg5">Dat was 'm, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note6">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u4">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg6">Heel goed, en dank voor uw bondigheid. Dan mevrouw Leijten van de fractie van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note7">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u5">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg7">Je kunt nog zo vaak zeggen dat het is geboren voor dienstverlening, maar als je weet dat het is geboren in de schoot van de Ministeriële Commissie Aanpak Fraude, dan weet je dat dat het niet is. Want wat is daar ook geboren? Het toeslagenschandaal. Daar is geboren dat alle van mensen beschikbare gegevens bij de overheid vooral worden opgewerkt tot profielen. Die profielen worden gedeeld en we weten dat daar is gediscrimineerd. We weten ook dat daarover niet de waarheid wordt gesproken. Want we moesten maandag in de krant lezen dat de Belastingdienst dat al veel langer wist, en dat het ministerie dat al veel langer wist, maar dat toch even niet heeft gemeld. De staatssecretaris heeft de tijd genomen om te zeggen: ik ga op een paar vlakken wat veiligheidswaarborgen inbouwen. Maar dat heeft mij niet overtuigd. Zij stuurt bijvoorbeeld een PIA mee, een privacy impact assessment, waarin ze zegt: wat er nu aan profielen en gegevens wordt verwerkt, is niet discriminerend. Tegelijkertijd staat bij de beheersmaatregelen dat het inhoudelijke deel van de bewerkersovereenkomst, waar de PIA over gaat, niet meer actueel is. Dus ze deden onderzoek naar een gebruikersovereenkomst, waar geen discriminatie uit zou volgen, maar die niet meer actueel was. Dan heb je dus een PIA die niet gaat over hetgeen waar zij mee bezig waren. Dan heb je dus een privacyimpactanalyse die niet gaat over hetgeen waar zij mee bezig waren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg8">We hebben gevraagd hoeveel adresverbetering dit, het in die overheid rondsturen van al die profielen, fenomenen en signalementen, nou oplevert? Hoeveel adressen worden daar nou door verbeterd? Goede adreskwaliteit is zeker van belang, maar het probleem is niet héél groot, want 93% van de adressen in Nederland is goed op orde. Gezegd wordt dat het effectief is en dat de LAA, de Landelijke Aanpak Adreskwaliteit, echt in de wet moet, maar in de brief staat in een voetnoot op bladzijde 5: "Het wordt niet bijgehouden hoeveel van deze reguliere terugmeldingen daadwerkelijk door gemeenten worden onderzocht en leiden tot adreskwaliteit." We hebben dus een heel opsporingsapparaat gemaakt, dat nu tegen gemeenten gaat zeggen: je moet onderzoeken of die meneer Bosma wel echt op dat adres woont. Als uw kind bijvoorbeeld weer thuis is komen wonen, dan komt u in een profiel, maar we weten helemaal niet of dat een fout adres is. We weten helemaal niet of gemeenten er iets mee doen. Maar het kost wel miljoenen per jaar en de data van mensen die niet eens weten dat hun data gedeeld worden, vliegen over het internet.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg9">De SP is dus niet overtuigd. Dit is niet de goede weg. Dit is schieten met een kanon op een mug. Dit is wetgeving van de vorige overheid en niet van de overheid die we nu willen en die de menselijke maat hanteert.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg10">Ik heb nog twee moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note8">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u6">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg11">Maar eerst even een vraag van mevrouw Rajkowski.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note9">Mevrouw Rajkowski (VVD)</note>
+            <u who="#QueenyRajkowski" ana="#regular topic:techn" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u7">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg12">De schrikbeelden die mevrouw Leijten opnoemt, willen we hier allemaal voorkomen. Soms zit ik wel een beetje te zoeken, ook als ik kijk naar wat de staatssecretaris al heeft toegezegd over wat wij in de Kamer allemaal willen en gelet op de amendementen en moties die voorliggen. Er is al jaren ervaring opgedaan. Ik ben dus nog op zoek naar de waarborgen waar mevrouw Leijten het nou eigenlijk precies over heeft. Mevrouw Leijten sprak net ook over data die "over het internet vliegen". Kunt u daar een voorbeeld van geven? Zijn dat eerder ideeën waar u bang voor bent? Of is dit oprecht gebeurd? Want dan zou ik dat ook wel willen weten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note10">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u8">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg13">Heeft u Trouw van afgelopen maandag gelezen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note11">Mevrouw Rajkowski (VVD)</note>
+            <u who="#QueenyRajkowski" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u9">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg14">Nee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note12">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u10">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg15">Nou, dan zou ik u daar graag naar willen verwijzen. Het datacenter van de Belastingdienst heeft handleidingen geschreven waarin staat dat je vooral moet zoeken op achtergrond en afkomst; dat komt dan in query's; dat zijn uitdraaien. Dat komt in profielen. Dat wordt gedeeld met andere overheden. Dat staat hier ook: "Er moet een gebruikersovereenkomst komen om dat goed te delen". We hebben moties aangenomen, medeondertekend door de VVD, om al die vervuilde data, die gedeeld is van die zwarte lijst van de Belastingdienst, op te gaan ruimen. Maar hier wordt die data ook verwerkt. Ik heb gisteren nog bij motie voorgesteld — mijn partij heeft dat gedaan; ik heb dat niet zelf gedaan, omdat ik daarna een wetsbehandeling had — om te stoppen met risicoprofilering, tenzij we zeker weten dat het goed zit. Die motie wordt ontraden, en hier zetten we er zelfs iets over in de wet. Ik heb met een amendement geprobeerd om er een horizonbepaling in te zetten: dan nemen we de wet voor twee jaar aan, en gebruiken we die twee jaar om dat goed uit te zoeken. Er is niet eens een evaluatie gehouden! Ik vind dat zo'n ontzettend dun ijs — of liever gezegd: een modderpoel waar we in staan — dat ik dat echt niet voor mijn rekening kan nemen. Op de waarborgen die de staatssecretaris beloofd heeft in een AMvB en in een ministeriële regeling, hebben we geen zicht. Op die ministeriële regeling hebben we geen invloed, en een AMvB vertimmeren gaat meestal ook niet lukken. Dus het is ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note13">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u11">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg16">Prima. Afrondend, kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note14">Mevrouw Rajkowski (VVD)</note>
+            <u who="#QueenyRajkowski" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u12">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg17">Als ik het betoog van mevrouw Leijten zo hoor, dan concludeer ik dat het eigenlijk bijna niet meer uitmaakt wat wij in dit debat met elkaar afspreken, voor welke moties of amendementen we wel of niet stemmen. Want de SP gaat toch wel tegenstemmen. Klopt dat?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note15">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u13">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg18">Wij zullen wel tegen de wet stemmen, ja, omdat ik er niet van overtuigd ben dat die Landelijke Aanpak Adreskwaliteit proportioneel is. Kan je het niet op een andere manier doen, waarbij je minder data verwerkt en deelt met derden? Ik ben er dus niet van overtuigd dat de LAA in zijn bestaansrecht noodzakelijk is. Ik vind dat er ook geen debat over heeft plaatsgevonden. Het bestaat al sinds 2014 zonder dat het ons ooit gemeld is en zonder dat het in de wet heeft gestaan. De Autoriteit Persoonsgegevens is kritisch. We hebben ook nog een brief gekregen van data-experts en burgerrechtenexperts die zeggen: doe dit niet. We hebben SyRI gezien. We hebben het toeslagenschandaal gezien. Als het gaat om de overheid en dataverwerking zou ik zeggen: doe eerder een stap terug dan iets in de wet te zetten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note16">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u14">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg19">Prima. Uw moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note17">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u15">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg20">De moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note18">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note19">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note20">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note21">constaterende dat de Landelijke Aanpak Adreskwaliteit nooit is geëvalueerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note22">verzoekt de regering deze aanpak onafhankelijk te laten evalueren, en de Kamer hierover te informeren voor de behandeling van de begroting van Binnenlandse Zaken in het najaar van 2022,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note24">Deze motie is voorgesteld door de leden Leijten en Ceder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note25">Zij krijgt nr. kst-35772-26</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note26">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u16">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg21">Dan de laatste motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note27">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note28">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note29">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note30">constaterende dat in de zomer van 2014 de ministeriële commissie aanpak fraude is opgericht, waar een gemeenschappelijke strategie is ontwikkeld op onder andere "gegevensuitwisseling en bestandskoppeling" en het "versterken van de intelligencepositie en risicoprofielen";</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note31">voorts constaterende dat vanuit de ministeriële commissie aanpak fraude verschillende wetstrajecten zijn ontsproten en verschillende pilots zijn ontwikkeld waarvan later is gebleken dat de gegevensverwerking, -verwerving en/of -deling onrechtmatig was;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note32">verzoekt de regering de Kamer voor de zomer te informeren over a. welke wetten, b. welke pilots en c. welke andere alternatieven met betrekking tot gegevensverwerving, -verwerking en -deling zijn ontstaan in deze ministeriële commissie aanpak fraude,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note33">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note34">Deze motie is voorgesteld door het lid Leijten.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note35">Zij krijgt nr. kst-35772-27</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note36">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u17">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg22">Ik had deze motie voorbereid in februari, dus dat informeren mag van mij ook voor de begroting.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note37">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u18">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg23">Dank u wel. Dan mevrouw Dekker van de fractie van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note38">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u19">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg24">Dank, voorzitter. Allereerst dank voor de antwoorden van de staatssecretaris en haar uitgebreide brief van 25 maart. In die brief erkent zij dat de geschiedenis van deze wet discutabel is, maar neemt zij ook maatregelen om de wet toch beter te maken. D66 was ook kritisch op de wet in de eerste termijn, maar achteraf ben ik blij dat we deze splitsing hebben gemaakt. Hierdoor hebben we nog kunnen spreken met een aantal gemeenten, experts en VNG. We begrepen dat zij ook heel veel positieve opmerkingen hebben ten aanzien van de werking van deze wet. De input van deze gesprekken heeft ons gevoed en heeft bijgedragen aan nieuwe inzichten.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg25">Toch heeft de D66-fractie nog een paar zorgen. Op basis daarvan hebben wij een aantal voorstellen. Allereerst hebben wij ook een amendement ingediend over een verbod op het gebruik van discriminatoire selectiecriteria in risicoprofielen. De uitvoering van de Landelijke Aanpak Adreskwaliteit mag nooit tot discriminatoire selectie van personen leiden. Het gaat in dit verband om ongeoorloofd onderscheid op basis van de gegevens nationaliteit, geboorteplaats of alle afgeleiden daarvan. Ik heb dit amendement ingediend mede namens mevrouw Leijten van de SP en mevrouw Inge van Dijk van het CDA, en ik ga daar ook mevrouw Bouchallikh van GroenLinks aan toevoegen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg26">Dan heb ik drie moties, die alle drie ook worden ingediend namens de heer Ceder. De ene motie vervangt mijn amendement. Dat wil ik intrekken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note39">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u20">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg27">Is dat het amendement op stuk nr. 22?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note40">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u21">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg28">Nee, dat is nieuw. Het gaat om het amendement op stuk nr. 18, volgens mij. Dat is ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note41">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u22">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg29">Het amendement-Dekker-Abdulaziz (stuk nr. 18) wordt ingetrokken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note42">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u23">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg30">Dat wil ik vervangen door een motie, die voorziet in de terugkoppeling aan de burger wanneer een onderzoek over adresgegevens plaats heeft gevonden.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note43">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note44">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note45">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note46">constaterende dat in het huidige voorstel van de wetswijziging het informatierecht van de burger niet expliciet is vastgelegd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note47">overwegende dat burgers het recht hebben om te weten op welke gronden het adresonderzoek heeft plaatsgevonden, wat de daaraan gekoppelde vervolgacties zijn en dat het onderzoek is afgerond;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note48">verzoekt de regering in gesprek te gaan met de gemeenten en te onderzoeken wat de uitvoeringslasten zijn voor de colleges van B en W als ze burgers actief informeren over het LAA-signaal en de inhoudelijke grondslag daarvan, en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note49">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note50">Deze motie is voorgesteld door de leden Dekker-Abdulaziz en Ceder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note51">Zij krijgt nr. kst-35772-28</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note52">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u24">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg31">Voorzitter. Wij vinden privacy een heel belangrijk goed. Wij zijn ook blij dat er af en toe PIA's worden gedaan. Daarom willen wij een PIA toevoegen aan de evaluatie die, als het goed is, over drie jaar gaat plaatsvinden.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note53">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note54">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note55">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note56">constaterende dat het huidige voorstel van de wetswijziging mogelijk een impact heeft op de privacy van burgers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note57">overwegende dat door middel van het amendement van het lid Van Baarle van DENK de evaluatietermijn eerder plaatsvindt, namelijk van vijf naar drie jaar;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note58">verzoekt de regering om een privacy impact assessment onderdeel te laten maken van de evaluatie, en de Kamer hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note59">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note60">Deze motie is voorgesteld door de leden Dekker-Abdulaziz en Ceder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note61">Zij krijgt nr. kst-35772-29</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note62">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:techn" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u25">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg32">Dan de laatste motie over de afspraken met signaalleveranciers, want de staatssecretaris heeft in haar brief geschreven dat zij afspraken en een convenant gaat maken met signaalleveranciers, zodat zij ook inzicht moeten geven in de signalen en de risicoprofielen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note63">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note64">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note65">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note66">constaterende dat de Autoriteit Persoonsgegevens toezicht houdt op het gebruik en de verwerking van persoonsgegevens;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note67">overwegende dat de staatssecretaris nog in gesprek is met de signaalleveranciers over een gezamenlijke standaard voor de verwerking en de inzet van de risicoprofielen en daar een convenant gaat sluiten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note68">verzoekt de regering om het convenant met signaalleveranciers af te sluiten voordat de wet in werking treedt, en de Kamer hierover te informeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note69">verzoekt de regering een totaaloverzicht van de risicoprofielen, inclusief die van de signaalleveranciers, onafhankelijk te laten toetsen, bijvoorbeeld door de Autoriteit Persoonsgegevens, voordat de wet in werking treedt, en de Kamer hierover te informeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note70">verzoekt de regering een totaaloverzicht van de risicoprofielen, inclusief die van de signaalleveranciers, jaarlijks naar de Kamer te sturen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note71">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note72">Deze motie is voorgesteld door de leden Dekker-Abdulaziz en Ceder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note73">Zij krijgt nr. kst-35772-30</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note74">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u26">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg33">Voorzitter. Ik sluit af met twee vragen, allereerst over de financiële dekking van het adresonderzoek en het vooronderzoek bij deze wet. Ik zou graag een toezegging van de staatssecretaris willen ontvangen dat het kostenaspect wordt meegenomen in de uitvoeringstoets. Ik hoor graag van de staatssecretaris of dit mogelijk is.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg34">De laatste vraag gaat over de aantekening van gegevens in onderzoek. We weten dat dit al langer bestaat, maar we zijn bang dat door gebrek aan capaciteit signalen wellicht bij gegevens in onderzoek belanden, waardoor mensen wellicht geen toegang meer hebben tot andere overheidsdiensten. Hoe gaat de staatssecretaris dit probleem aanpakken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note75">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:gover" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u27">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg35">Mevrouw Dekker-Abdulaziz zegt dat er dingen zijn verbeterd en dat zij daarom positiever is. U vraagt of bij de uitvoeringstoets ook het financiële aspect wordt meegenomen. Vindt u het de juiste manier van wetgeving om de uitvoeringstoets pas te doen als wij voor de wet moeten stemmen? Dat is toch niet wat de commissie-Bosman heeft bedoeld met haar advies dat er uitvoeringstoetsen moeten liggen? Dat moet toch gebeuren voordat we wetten aan gaan nemen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note76">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:gover" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u28">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg36">Volgens mij is er ook een invoeringstoets, die plaatsvindt voordat we wetten gaan aannemen of tijdens het wetgevingstraject. Ik meen mij te herinneren dat de staatssecretaris heeft toegezegd dat zij een invoeringstoets gaat doen, omdat we ook in het coalitieakkoord hebben opgeschreven dat dat dan plaats gaat vinden. Ik kan we wel voorstellen dat je de uitvoeringstoets doet nadat de wet in werking is getreden, want dan kun je kijken hoe het uitgepakt heeft. Daar doelde ik ook op.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note77">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u29">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg37">Zo werkt bijvoorbeeld de uitvoeringstoets waar de Belastingdienst mee werkt in het Belastingplan niet. Je krijgt gewoon een voorstel van de regering. Daar zit dan een uitvoeringstoets bij van de Belastingdienst, die zegt of het wel kan of niet. Dat heeft dan één vlaggetje, twee vlaggetjes of een rood vlaggetje. Nu gaan die toetsen gedaan worden terwijl wij al moeten stemmen. Dat is toch eigenlijk raar?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note78">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u30">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg38">Mevrouw Leijten overvraagt mij hiermee een klein beetje. Ik heb nog niet zo heel veel uitvoeringstoetsen meegemaakt. Tegelijkertijd bestaat dit natuurlijk al sinds 2014. Ik kan me dus wel voorstellen dat we een uitvoeringstoets gaan doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note79">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u31">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg39">Dank u wel. Dan de heer Ceder van de fractie van de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note80">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u32">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg40">Dank u wel, voorzitter. We hebben een eerste termijn gehad waarin onze fractie kritisch was. Wij vroegen ons zowel ten aanzien van proportionaliteit als subsidiariteit af wat deze wet in de huidige vorm toevoegt en of die misschien niet juist extra leed veroorzaakt of kan veroorzaken bij kwetsbare mensen. We hebben daar een stevig debat over gevoerd. Er zijn een aantal amendementen mede door mij ingediend. Voordat ik hier stond, heeft u mijn naam al vaker gehoord, omdat ik onder een aantal moties sta. Ik vind het namelijk heel belangrijk om dit wetsvoorstel te overwegen in het licht van de voorstellen en de amendementen die zijn gedaan. Wij maken ons namelijk echt zorgen, met name over de meest kwetsbaren. Ik heb in de eerste termijn eraan gerefereerd dat ik mij ernstig zorgen maak over het beoogde doel. Wat te doen als iemand hulp nodig heeft, de gemeente een huisbezoek doet en dan blijkt dat er een kans bestaat dat die persoon die hulp niet krijgt? Wat dan? Het doel van de wet komt dan niet overeen met de realiteit. Zo raken kwetsbare burgers van de regen in de drup. Dat wil ik heel graag voorkomen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg41">Voorzitter. Ik ben dan ook benieuwd naar de reactie van de staatssecretaris op de ingediende moties en amendementen, omdat ik dit goed wil wegen. Voor ons is dit echt een wet die we zwaar wegen, juist om deze redenen. Naast de andere, reeds ingediende moties heb ik ook zelf nog twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note81">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note82">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note83">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note84">constaterende dat voor het produceren van een melding gebruik wordt gemaakt van signalen van het ministerie, uitvoeringsorganisaties en derden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note85">overwegende dat de regering aangeeft dat conform de motie-Klaver c.s. geen gebruik zal worden gemaakt van risicoprofielen die nationaliteit, etniciteit of geboorteplaats gebruiken, maar dat dit enkel geldt voor signalen die het ministerie zelf ontwikkelt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note86">verzoekt de regering ervoor zorg te dragen dat enkel gebruik wordt gemaakt van signalen van derden en uitvoeringsorganisaties als kan worden uitgesloten dat deze signalen zijn gebaseerd op risicoprofielen die onderscheid maken op etniciteit, nationaliteit, geboorteplaats of anderszins discriminatoire werking hebben,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note87">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note88">Deze motie is voorgesteld door de leden Ceder en Kathmann.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note89">Zij krijgt nr. kst-35772-31</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note90">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u33">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg42">Dan heb ik een motie juist om iemand van wie ontdekt wordt dat hij misschien niet volledig aan de regels voldoet, toch echt te helpen. De kwaliteit van hulpverlening verschilt per gemeente. Ik hoop dat deze motie in dat licht bezien zal worden.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note91">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note92">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note93">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note94">constaterende dat het verbeteren van de adreskwaliteit onder meer kan bijdragen aan het signaleren, voorkomen en bestrijden van sociale problematiek;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note95">overwegende dat uit de evaluatie blijkt dat onder meer de gemeente Utrecht de Landelijke Aanpak Adreskwaliteit heeft benut voor de bestrijding van sociale problematiek en aangeeft dat op het gebied van capaciteit en overheidsbrede opvolging van signalen verbetering mogelijk is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note96">overwegende dat de koppeling van verbeteren van adreskwaliteit en bestrijding van sociale problematiek niet voor iedere gemeente vanzelfsprekend zal zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note97">verzoekt de regering in samenspraak met de VNG te komen tot een nadere instructie om te verzekeren dat in iedere gemeente de verbetering van adreskwaliteit hand in hand gaat met het betekenisvol signaleren, voorkomen, bestrijden en terugkoppelen van sociale problematiek en de eventuele noodzaak voor het leveren van een briefadres, en met de VNG te bezien wat hiervoor nodig is,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note98">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note99">Deze motie is voorgesteld door het lid Ceder.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note100">Zij krijgt nr. kst-35772-32</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note101">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u34">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg43">Voorzitter. Ik wacht de reactie van de staatssecretaris af.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg44">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note102">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u35">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg45">Hartelijk dank. De laatste spreker van de zijde van de Kamer is mevrouw Bouchallikh van de fractie van GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note103">Mevrouw Bouchallikh (GroenLinks)</note>
+            <u who="#KautharBouchallikht" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u36">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg46">Dank, voorzitter. Dank aan de staatssecretaris voor de beantwoording van de vragen. Net als meerdere partijen was onze fractie vrij kritisch in het debat. Ik ben dan ook blij met alle inzet van alle collega-Kamerleden, want ook voor ons maakt het heel erg uit hoe met de moties en amendementen omgegaan zal worden en wat daarvan de uitkomst zal zijn qua stemming aan het einde.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg47">Ik heb een aantal aanvullende vragen naar aanleiding van de brief die is gestuurd. De eerste vraag gaat over de informatieverstrekking aan derden. Aangegeven wordt dat deze informatie wordt verstrekt aan organisaties die worden aangewezen als organisaties die werkzaamheden uitvoeren met gewichtig maatschappelijk belang. In mijn eerste termijn heb ik al gevraagd in hoeverre wordt beoordeeld wanneer deze organisaties dit belang dienen. Aan de hand daarvan kunnen wij dan inschatten of dit wat ons betreft aan de orde zou mogen en kunnen zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg48">Ik heb ook nog een vraag over de informatieverstrekking door de gemeentes zelf. Ik begrijp dat dit een zelfstandige bevoegdheid van de gemeentes is, maar kijkend naar het debat dat we eerder hebben gevoerd, hebben we ook daar best wel zorgen over. In hoeverre is het mogelijk om vanuit het ministerie te kijken of bepaalde waarborgen goed in kaart zijn gebracht, om te voorkomen dat we daarbij ook op een gegeven moment met problemen in de uitvoering te maken gaan krijgen, met inachtneming van de rolverdeling die aan de orde is?</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg49">Tot slot, voorzitter, heb ik nog één vraag over een thema dat ik heb aangestipt en dat niet in de brief voorkomt. Dat ging over de briefadressen van mensen die dak- en/of thuisloos zijn. Voor deze groep mensen zijn administratieve handelingen vaak ingewikkeld. Zou de staatssecretaris kunnen toelichten waarom het kabinet toch van mening is dat ook deze onder het voorliggend wetsvoorstel moeten vallen?</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg50">Dan hou ik het hierbij.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg51">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note104">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u37">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg52">Heel goed. Ik schors tot 15.25 uur en dan gaan we luisteren naar de staatssecretaris.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note105">De vergadering wordt van 15.19 uur tot 15.30 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note106">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u38">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg53">Het woord is aan mevrouw Dekker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note107">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u39">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg54">Ik heb net een fout gemaakt. Ik had het amendement op stuk nr. 18 ingetrokken, maar ik wilde het amendement op stuk nr. 13 intrekken en het amendement op nr. 18 wel in stemming brengen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note108">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u40">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg55">Ja. Dat is dan bij dezen vastgesteld.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note109">Het amendement-Dekker-Abdulaziz (stuk nr. 13) is ingetrokken.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note110">Dan hebben we, uiteraard nog afgezien van de moties, nog drie amendementen te gaan die we becommentarieerd willen hebben door de staatssecretaris: de amendementen op de stukken nrs. 23, 24 en 25. Het woord is aan haar.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note111">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u41">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg56">Voorzitter. Ik zal het zo doen. Ik begreep net dat ik de appreciatie van de amendementen die ik al in de brief had geapprecieerd alsnog een keertje hier moet uitspreken. Klopt dat?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note112">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u42">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg57">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note113">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u43">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg58">Dat ga ik dus zo meteen doen, maar ik zou willen starten met een korte introductie. Daarna wil ik de vragen beantwoorden en door de moties en amendementen heen gaan. Ik zal proberen kort te zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg59">We spraken elkaar inderdaad al eerder, twee maanden geleden, over dit wetsvoorstel. Ik heb gezien dat uw Kamer kritisch was over dit wetsvoorstel en tegelijkertijd constructief. Ik heb dat ook gemerkt aan de vele moties en amendementen die u heeft ingediend om het wetsvoorstel te versterken. Dat heeft wat mij betreft ook geholpen. Ik ga natuurlijk zo meteen meer zeggen over de appreciatie. Het is terecht dat u kritisch was, want het gaat over het verwerken van persoonsgegevens en over risicoprofielen. Het is dan altijd belangrijk om te zorgen voor de juiste waarborgen, de proportionaliteit, de menselijke maat en het daadwerkelijk invoeren van de juiste waarborgen om het te doen. Tegelijkertijd gaat het hier natuurlijk over het landelijk adresregister, de BRP. Het is ongelofelijk belangrijk dat dat adresregister ook goed is, omdat heel veel mensen er heel veel nut en baat bij hebben om daarin goed geregistreerd te staan.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg60">Ik zal overgaan tot het beantwoorden van een aantal vragen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg61">In eerste instantie beantwoord ik een vraag van mevrouw Dekker. Zij vroeg of de kosten van de LAA, deze wet, voor gemeenten worden meegenomen in de uitvoeringstoets. Dat gaan we doen. We hebben namelijk al een indicatie gemaakt van de kosten naar aanleiding van het onderzoek dat de VNG heeft gedaan. Met hen gaan we ook verder in gesprek om te zien hoeveel daarvoor nodig is. We hebben een budget voor dit traject, het verbeteren van de BRP en de kwaliteitsmaatregelen. De betaling zoals die nu ook al is, namelijk een betaling van €70 per huisbezoek, blijft in ieder geval bestaan. Maar wij gaan de gemeenten daarbij ondersteunen vanwege het belang dat we hechten aan dit werk.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg62">De tweede vraag van mevrouw Dekker ging over de aantekeningen in het onderzoek. De vorige keer hebben we besproken dat als een gemeente de juistheid van een adresgegeven onderzoekt, zij dan een vinkje zet, een administratieve aantekening maakt in het systeem. Dit gebeurt niet automatisch maar dat gebeurt pas wanneer de gemeente ervoor gekozen heeft het daadwerkelijke onderzoek te starten. Het plaatsen ervan is ook verder geen besluit in het kader van de Algemene wet bestuursrecht en heeft ook geen rechtsgevolgen. Het is vooral belangrijk dat gemeenten het onderzoek snel afronden. Dat is ook de reden waarom we termijnen daarvoor hebben opgenomen. De aantekening is zichtbaar. Dat is op zich ook goed, want dan kunnen organisaties zien dat er een onderzoek plaatsvindt, maar bijvoorbeeld UWV en Belastingdienst hebben aangegeven dat zij met deze aantekening verder niet anders zullen omgaan dan gewoon ervoor zorgen dat mensen in aanmerking komen voor datgene waar ze recht op hebben, behalve wanneer ze aanleiding zien om er nog verder werk voor te doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note114">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:lawcr" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u44">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg63">Dank aan de staatssecretaris voor het antwoord. UWV en Belastingdienst hebben aangegeven dat ze niks met die aantekening doen. Wil de staatssecretaris nagaan of andere organisaties er ook zo mee omgaan? We hebben namelijk van mensen gehoord dat dit soms niet zo gaat en men bijvoorbeeld dan geen rijbewijs meer kan krijgen, wat toch ernstig zou zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note115">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:trans" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u45">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg64">Dat zou zeker ernstig zijn. Ik heb al aangegeven dat ik sowieso in gesprek ga met de organisaties die gegevens inleveren in het kader van de risicoprofielen. In het convenant dat ik met hen sluit, zal ik daarover met hen ook afspraken maken. Dan is ook helder wat het betekent wanneer zo'n onderzoek plaatsvindt en dat het niet zomaar mag leiden tot bijvoorbeeld het niet verstrekken van een rijbewijs.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note116">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u46">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg65">Dank, fijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note117">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u47">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg66">Dan ga ik over naar de vragen die zijn gesteld door mevrouw Bouchallikh van GroenLinks. In hoeverre wordt bij derden beoordeeld of een derde daadwerkelijk het maatschappelijk belang dient? Dus wanneer mag een organisatie toegang krijgen tot de gegevens van de BRP? Daarvoor zijn twee stappen nodig. In eerste instantie moet er een AMvB zijn; dit kan alleen maar bij AMvB worden geregeld en inderdaad moet er sprake zijn van een gewichtig maatschappelijk belang. Dus het gaat over organisaties die publieke taken uitvoeren. Ze hoeven niet altijd een bestuursorgaan te zijn, maar ze moeten wel daadwerkelijk ook een publieke taak uitvoeren. Op de AMvB wordt altijd advies aangevraagd bij de Autoriteit Persoonsgegevens en de Raad van State, dus die moeten ook een advies geven. Pas dan kunnen we hen dus ook toegang geven tot de BRP. Of zij ook gaan meedoen in de systematiek van de LAA, dus zorgen dat er ook adresgegevens kunnen worden verbeterd en aangegeven, moet dan weer apart geregeld worden in de ministeriële regeling. Ook daarvoor komt advies van de Autoriteit Persoonsgegevens voordat er sprake van is dat zij kunnen meedoen. Het aanwijzen van andere partijen, dus derden, op toezicht zal ik alleen doen als ik ook daadwerkelijk zie dat dat meerwaarde heeft voor deze wet. Op dit moment hebben we dan ook geen organisatie waarvan we het voornemen hebben om dat te doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg67">Dan was er een vraag over gemeenten die ook gegevens kunnen verstrekken aan derden, of dat op een goede manier gebeurt. We hebben in het kader van de LAA ook werkinstructies die we aan gemeenten geven. Uiteraard is het de verantwoordelijkheid van de gemeente zelf om daar ook op een goede manier mee om te gaan. Maar wij geven hen wel mee op welke manier dat werkt en wanneer we denken dat het verstandig is om dat te doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg68">De derde vraag die u had, ging over dak- en thuislozen. Waarom maken we die ook onderwerp van dit wetsvoorstel? Het gaat er eigenlijk om dat het natuurlijk ook voor hen van belang is dat zij op de goede plek zijn ingeschreven, want vaak wanneer iemand tijdelijk is ingeschreven, bijvoorbeeld op een briefadres, is het ook van belang dat het weer hersteld wordt zodra iemand wel weer een permanente plek krijgt om te gaan wonen en verblijven. En het is ook van belang om te checken of dat adres dan ook goed wordt gebruikt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note118">Mevrouw Bouchallikh (GroenLinks)</note>
+            <u who="#KautharBouchallikht" ana="#regular topic:gover" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u48">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg69">Net als de staatssecretaris onderschrijf ik ook het belang van het hebben van een adres, specifiek ook voor deze groepen. Mijn zorg ligt er meer in dat bepaalde groepen sneller verstrikt kunnen raken in het administratieve web van maatregelen, verzoeken en dergelijke. Ik hoor nog niet hoe er specifiek voor deze groepen voor wordt gezorgd dat dat niet gaat gebeuren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note119">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u49">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg70">Deze groepen kunnen een adres krijgen. Dat is geregeld in de regeling die we daarvoor gemaakt hebben. Het kan zijn dat zo'n adres ook onderwerp wordt van onderzoek, althans dat er gekeken wordt of de persoon nog steeds op dat adres ingeschreven moet blijven. Dan zullen wij er natuurlijk voor zorgen dat we gewoon contact opnemen — dat doet dan de gemeente — en dat dat ook op de goede manier gebeurt. Want het is niet de bedoeling dat dat een extra administratieve last brengt voor degene die daar staat ingeschreven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg71">Ik wil overgaan naar de appreciatie van de moties en de amendementen. Ik weet niet of u een voorkeur heeft, voorzitter; eerst moties of amendementen. Dan begin ik met de moties.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg72">De eerste, die is ingediend door de heer Ceder van de ChristenUnie, als ik tenminste de juiste volgorde heb, gaat over …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note120">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u50">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg73">Nee, de eerste is ingediend door mevrouw Leijten met de heer Ceder als nummer twee, en dat is de motie op stuk nr. 26.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note121">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u51">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg74">Dan ga ik daarnaartoe. In mijn administratie klopte die niet, met excuses. De motie-Leijten/Ceder op stuk nr. 26; onafhankelijk evalueren is de strekking daarvan. Ik krijg haar nog even uitgereikt, dank u wel. Dit is een motie die wat lastig is uit te voeren op dit moment. We zijn namelijk nog niet begonnen met het implementeren van deze wet. Wij willen natuurlijk heel graag zorgen dat die van kracht wordt en dan binnen een jaar een invoeringstoets uitvoeren. Daarmee gaan we dan ook eigenlijk die eerste evaluatie doen. We voeren daarna ook nog na drie jaar, op verzoek van de fractie van DENK, een evaluatie uit. Dus ik wilde deze motie ontraden omdat ik denk dat het nu dubbelop is ten opzichte van hetgeen we al hebben voorgesteld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note122">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:gover" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u52">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg75">De LAA bestaat toch al sinds 2014, zou ik de staatssecretaris willen vragen. Dan kan je daar toch een onafhankelijke evaluatie van maken, van die afgelopen jaren? Die kan dan toch naar de medewetgever gestuurd worden, zodat wij inzicht hebben in wat er dan in die afgelopen acht jaar is gebeurd?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note123">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u53">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg76">We hebben een onderzoek laten doen. Dat onderzoek hebben we ook besproken in het debat dat we in eerste termijn hadden. Ik denk dat het niet wenselijk is om nu opnieuw een evaluatie te laten uitvoeren. Wel vind ik het van belang om de nieuwe wet, met alle waarborgen die we daaraan willen toevoegen, van een invoeringstoets te voorzien en dan opnieuw te kijken of er wijzigingen nodig zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note124">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u54">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg77">Dat heet "de evaluatie", maar de eerste zin is dat dit een rapportage is. De eerste zin is: de Landelijke Aanpak Adreskwaliteit heeft zich de afgelopen vijf jaar bewezen als effectieve werkwijze. Nergens, maar dan ook nergens is er iets onderzocht. Het is een rapportage. Het is geen evaluatie. Als de staatssecretaris de Kamer zo niet serieus neemt, dan baart me dat echt zorgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note125">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u55">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg78">Ik heb eigenlijk niet zo veel toe te voegen aan hetgeen ik hierover gezegd heb. Er is werk gedaan, onderzoek gedaan. We gaan het opnieuw doen op het moment dat we deze nieuwe wet gaan invoeren, met een invoeringstoets. We kijken ook nog serieus naar de uitvoering bij gemeenten. Om die reden wil ik deze motie dan ook ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note126">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u56">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg79">Dan de motie op stuk nr. 27.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note127">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u57">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg80">Dan gaan we naar de motie op stuk nr. 27. Die verzoekt de regering om een overzicht van alle initiatieven, wetten en pilots als gevolg van de Ministeriële Commissie Fraudebestrijding. Dat is een zeer grote vraag, die zeker niet aan mij is maar aan een heel groot deel van het kabinet. Het is een zeer brede vraag. Ik wil mevrouw Leijten eigenlijk vragen om de motie aan te houden. Dat geeft mij de gelegenheid hierover een brief te maken door het in eerste instantie te bespreken met de leden van het kabinet en er dan op terug te komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note128">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:gover" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u58">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg81">Volgens mij is dit gewoon vragen om feiten, feiten die wij als medewetgever vervolgens kunnen wegen. Als de staatssecretaris zegt dat ze er positief tegenover staat maar er graag over wil overleggen, en erop terug wil komen in een brief, wil ik de motie wel aanhouden. Als de staatssecretaris zegt dat ze bereid is om het onderzoek te doen maar dat dat voor de zomer te ingewikkeld is, ook voor de begroting, ben ik bereid om dat eruit te halen. Maar het zijn feiten waar ik om vraag. Dat we geen inzage kunnen krijgen in de stukken van de Ministeriële Commissie omdat het een ministeriële onderraad is, is natuurlijk zo, maar ik vraag om een overzicht te maken. Die commissie heeft niet zo gek lang bestaan. Er zijn natuurlijk gewoon besluiten genomen. Volgens mij moet dat te doen zijn. Ik wil dus even weten hoe de staatssecretaris daartegen aankijkt. Heeft ze een positieve grondhouding om de Kamer als medewetgever daar gewoon van op de hoogte te stellen? Dan kunnen wij het zelf politiek duiden of voor kennisgeving aannemen. Of zegt ze eigenlijk dat ze het nut er niet van inziet? Dan weet ik een beetje waar ik ja tegen zeg als ik de motie aanhoud.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note129">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u59">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg82">Ik begrijp de vraag die u stelt heel goed. Het enige punt is dat ik niet weet welke wetten de Ministeriële Commissie heeft bekeken. Ik weet dat daar in ieder geval ook wetsvoorstellen in zitten van andere departementen, omdat er — dat weten wij gezamenlijk — ook wetten zijn besproken van bijvoorbeeld het ministerie van Financiën. Ik wil daar zeker naar laten kijken. Ik hoop daar door middel van een brief zo snel mogelijk op terug te komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note130">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u60">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg83">Ik wil de motie best aanhouden, maar ik verzoek de staatssecretaris wel om dit met een open oog te bekijken, ook als het gaat over wat er is gebeurd op dat dossier waar we elkaar ook van kennen. Ik wil straks dus niet een brief krijgen met mitsen, maren, "kan niet" en de deksel erop, maar ik wil lezen: op deze manier kunnen we het vormgeven en dan heeft u de informatie. Ik hoop echt op dat laatste, maar ik houd de motie dus aan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note131">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u61">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg84">Oké.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note132">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u62">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg85">Op verzoek van mevrouw Leijten stel ik voor haar motie (35772, nr. 27) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg86">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note133">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:techn" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u63">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg87">Fijn. Ik ben altijd bereid om goed te kijken naar deze vraag en die zorgvuldig te beantwoorden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg88">Dan ga ik naar de motie van mevrouw Dekker en de heer Ceder over het afsluiten van convenanten met de signaalleveranciers. Dat is de motie op stuk nr. 28. Die motie roept op tot dingen die ik zeer goed vind, namelijk om goede afspraken te maken met de signaalleveranciers en onafhankelijk te laten toetsen. Ik wil de motie dan ook oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note134">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u64">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg89">Wacht even. Dat is niet de motie op stuk nr. 28, dacht ik. Dat is de motie op stuk nr. 30.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note135">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u65">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg90">Dat is wel heel vervelend. Ik heb mijn administratie totaal niet op orde, zie ik.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg91">Ik ga naar de motie over de uitvoeringslasten. Daar gaat die over. Pardon. Die motie gaat over zorgen dat er voldoende middelen zijn voor de colleges van B en W. Die motie wil ik ook oordeel Kamer geven. Dat is de motie op stuk nr. 28.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note136">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u66">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg92">Ja, dat is de motie op stuk nr. 28.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note137">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:civil" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u67">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg93">Dan ga ik door naar de motie op stuk nr. 29, van mevrouw Dekker en de heer Ceder. Die gaat over de privacy van burgers en over het privacy impact assessment. Ik ben voornemens dit wetsvoorstel te evalueren. Dan ga ik ook kijken hoe de effecten in de praktijk zijn. Een PIA kan ik daarin meenemen. Ik wil deze motie dan ook oordeel Kamer geven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg94">Dan ga ik naar de motie op stuk nr. 30. Die is ook van mevrouw Dekker en de heer Ceder. Dan kom ik op het eerste wat ik net al aangaf. Er worden namelijk drie dingen gevraagd: voor de wet in werking treedt afspraken maken over signaalleveranciers, onafhankelijk laten toetsen en jaarlijks alle risicoprofielen aan de Kamer sturen. Ik wil deze motie ook oordeel Kamer geven. Ik ben het eens met wat hierin gevraagd wordt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg95">Dan ga ik naar de motie op stuk nr. 31, van de heer Ceder en mevrouw Kathmann. Ik moet even zorgen dat ik hier de goede admin doe. Die motie gaat erover dat moet worden uitgesloten dat signalen van risicoprofielen aan de orde zijn. Ik steun deze motie zeker ook. Vooralsnog doen natuurlijk alleen overheidsinstanties mee aan de LAA, maar zij mogen conform de motie-Klaver geen risicoprofielen gebruiken. Deze motie krijgt dan ook oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg96">Dan ga ik naar de laatste motie, die op stuk nr. 32. Dat is de motie van de heer Ceder. Dat is de motie waarin wordt opgeroepen om in samenspraak met de VNG en de gemeente Utrecht te komen tot nadere instructies. Ik onderschrijf deze motie en ik wil die dan ook oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note138">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u68">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg97">Prima. Dan hebben we de moties gehad. Dan hebben we nog drie amendementen te gaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note139">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u69">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg98">Ja, want ik had een brief geschreven aan de Kamer waarin ik een aantal amendementen heb geapprecieerd. Wij kwamen tot de conclusie dat de nummering bij de motie van mevrouw Dekker-Abdulaziz niet klopte, maar dat is inmiddels rechtgetrokken. Dat betekent dat de motie — ik ga de nummers hierbij aangeven — op stuk nr. 11 oordeel Kamer krijgt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note140">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u70">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg99">Amendement bedoelt u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note141">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u71">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg100">Sorry, amendement. Het amendement op stuk nr. 11 krijgt oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg101">Het amendement op stuk nr. 13 is ingetrokken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg102">Het amendement op stuk nr. 18 krijgt oordeel Kamer, conform de brief.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg103">Hetzelfde geldt voor het amendement op stuk nr. 15 van de SP.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg104">Het amendement op stuk nr. 16 wordt ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg105">Het amendement op stuk nr. 17 krijgt oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg106">Dan ga ik door met de amendementen die nog openstaan, waaronder het amendement op stuk nr. 19 van mevrouw Rajkowski, de heer Ceder, mevrouw Kathmann en mevrouw Dekker-Abdulaziz. Met het amendement wordt een voorhangprocedure voor de onderliggende AMvB opgenomen in het wetsvoorstel. Ik wil dat amendement graag overnemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note142">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u72">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg107">Is daar bezwaar tegen? Ik zie dat dit niet het geval is.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note143">Het amendement-Rajkowski c.s. (stuk nr. 19) is overgenomen.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note144">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:civil" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u73">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg108">Dan gaan we naar het amendement op stuk nr. 23 van de heer Van Baarle van DENK. Met dat amendement wordt geregeld dat er in de AMvB nadere regels gesteld moeten worden over de wijze waarop voorkomen wordt dat er onderscheid komt als bedoeld in artikel 2 van de Algemene wet gelijke behandeling. Dit amendement moet ik helaas ontraden. Dat komt omdat hier gevraagd wordt een verband te maken met een wet die niet geldt voor overheidsorganisaties. Datgene wat gevraagd wordt, wordt wel geregeld met het amendement dat is ingediend door de fractie van D66. Dit amendement moet ik dus helaas ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg109">Dan ga ik naar het amendement op stuk nr. 24, ook van de fractie van DENK, over dat er alleen nadere regels over de LAA bij AMvB kunnen worden gesteld en niet bij ministeriële regeling. Dat is niet iets wat in deze wet is voorzien. Wat mij betreft is dit ook niet erg handig en wenselijk. We willen namelijk de mogelijkheid hebben om met een ministeriële regeling — die krijgt overigens dezelfde toetsing, namelijk ook via de AP — op een effectievere manier en ook meer in detail vast te kunnen leggen op welke manier sprake kan zijn van het gebruik van risicoprofielen. Dit amendement wil ik dan ook hiermee ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg110">Dan ga ik naar het amendement op stuk nr. 25. Dit amendement is van mevrouw Dekker-Abdulaziz en gaat erover dat risicoprofielen niet gebaseerd mogen zijn op nationaliteit, geboorteplaats of een afgeleide daarvan. Dat amendement sluit dus de verwerking van die gegevens uit. Het is natuurlijk evident dat discriminatie verboden is. Dat willen we ook niet. Ik zou dit amendement dan ook oordeel Kamer willen laten.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg111">Volgens mij heb ik alle amendementen hiermee gehad.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note145">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u74">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg112">Dan zijn we er.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note146">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u75">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg113">Met excuses voor de verwarring.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note147">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u76">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg114">Nee, het lag ook bij ons. Hartelijk dank. Tot zover dit debat. Dinsdag stemmen wij over de wet en over de amendementen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg115">Mevrouw Dekker, we hebben alle amendementen gehad. Het amendement op stuk nr. 25 vervangt het amendement op stuk nr. 22. Het is een beetje een zoekplaatje geworden. Mevrouw Dekker snapt het ook niet meer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note148">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u77">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg116">Die snap ik dan nog wel. Dank overigens aan de staatssecretaris dat in ieder geval al mijn moties oordeel Kamer hebben gekregen. Ik heb wel een vraag. Heel veel moties sluiten volgens mij aan bij het beleid. Zo hoorde ik het ook van de staatssecretaris. Is de staatssecretaris bereid om een aantal moties die zij toch wil doen over te nemen? Dat betreft de motie op stuk nr. 28, over terugkoppeling aan de burger, en de motie op stuk nr. 29, over het PIA. Dat scheelt ons weer een paar bladzijdes bij de stemmingen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note149">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u78">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg117">Dat kan ik zeker doen. De motie op stuk nr. 28 en de motie op stuk nr. 29, zei u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note150">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u79">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg118">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note151">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u80">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg119">Ja, dat kan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note152">Mevrouw Dekker-Abdulaziz (D66)</note>
+            <u who="#HindDekkerabdulaziz" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u81">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg120">Als de staatssecretaris deze twee moties heeft overgenomen, dan trek ik deze twee in.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note153">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u82">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg121">Is daar bezwaar tegen? Ik zie dat dit niet het geval is. Dan zijn de motie op stuk nr. 28 en de motie op stuk nr. 29 van mevrouw Dekker en de heer Ceder bij dezen ingetrokken. Laat ik het goed zeggen: ze zijn overgenomen.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note154">De motie-Dekker-Abdulaziz/Ceder (, nr. ) is overgenomen.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note155">De motie-Dekker-Abdulaziz/Ceder (, nr. ) is overgenomen.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note156">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u83">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg122">Wil er verder nog iemand zijn moties intrekken? Dat is niet het geval. Dan dank ik de staatssecretaris voor haar aanwezigheid vandaag. Ik wens haar een prettig paasweekend en een goede Goede Vrijdag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note157">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u84">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg123">Hetzelfde voor u.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note158">De algemene beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note159">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.u85">
+               <seg xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.seg124">Dinsdag stemmen wij over de wet, over de amendementen en over de moties. Ik schors tot 16.15 uur.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-04-14-tweedekamer-10.note160">De vergadering wordt van 15.52 uur tot 16.18 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

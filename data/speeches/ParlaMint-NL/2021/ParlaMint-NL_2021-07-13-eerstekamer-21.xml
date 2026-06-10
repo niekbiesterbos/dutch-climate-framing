@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Upper House 2021-07-13 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2021-07-13 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 46, Session 21 (2021-07-13)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 46, Session 21 (2021-07-13)</title>
+            <meeting ana="#parla.upper #parla.meeting.regular" corresp="#EK" n="46" xml:lang="en">Meeting 46</meeting>
+            <meeting ana="#parla.upper #parla.session" corresp="#EK" n="21" xml:lang="en">Session 21</meeting>
+            <meeting ana="#parla.upper #parla.term #EK.36" corresp="#EK" n="36-upper" xml:lang="en">Meeting of the 36th Eerste Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.upper #parla.sitting" corresp="#EK" n="2021-07-13">Sitting 2021-07-13</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="72">72 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="72">72 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3512">3,512 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3512">3,512 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.eerstekamer.nl/</idno>
+               <date when="2021-07-13">2021-07-13</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="92"/>
+               <tagUsage gi="seg" occurs="89"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="72"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-07-13">2021-07-13</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.head1">Machtigingswet oprichting Invest International</head>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note1">Zie vergadering van 6 juli 2021.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note2">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:inter" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u1">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg1">Aan de orde is de voortzetting van de behandeling van het wetsvoorstel 35529, Machtiging tot oprichting van de Nederlandse financierings- en ontwikkelingsinstelling Invest International. Ik heet de minister van Buitenlandse Zaken van harte welkom in de Eerste Kamer. De Kamer heeft vanmiddag verlof gegeven voor een korte derde termijn.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note3">De beraadslaging wordt heropend.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note4">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u2">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg2">Ik geef het woord aan de heer Van Ballekom namens de VVD-fractie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note5">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u3">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg3">Voorzitter. Vooraf zou ik mijn collega's er van harte voor willen danken dat ze hebben ingestemd met een korte derde termijn. Tijdens het debat is met name vanuit mijn fractie de nadruk gelegd op het verkrijgen van duidelijkheid over governance-issues en het zo veel mogelijk voorkomen van onnodige dubbele administratieve en organisatorische structuren. Dat waren ook punten van zorg van de Algemene Rekenkamer en de Raad van State. Dit alles zal moeten worden neergelegd in de nog af te sluiten samenwerkingsovereenkomsten. En om dit zeker te stellen zou ik de volgende motie willen indienen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg4">De :</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg5">Door het lid Van Ballekom wordt de volgende motie voorgesteld:</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note6">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note7">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note8">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note9">gezien de adviezen van de Raad van State en de Algemene Rekenkamer;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note10">constaterende dat de vastgestelde vraagstukken op het terrein van bestuurlijke en administratieve zaken pas inzichtelijk worden op het moment dat de samenwerkingsovereenkomsten met FMO, RVO en Invest-NL zijn overeengekomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note11">van mening dat Invest International maximaal moet profiteren van de expertise van bovengenoemde organisaties om daarmee het bereiken van de doelstellingen te vereenvoudigen, dubbele organisatiestructuren te voorkomen en daarmee de kosten die gepaard gaan met het opzetten van twee investeringsfondsen/instellingen, te minimaliseren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note12">verzoekt de regering om:</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note13">de samenwerkingsovereenkomsten met FMO en, voor zover mogelijk, Invest-NL zodanig in te richten dat de centrale diensten van de betreffende organisaties worden gedeeld, waaronder onder meer ICT-diensten, personeelszaken, compliance en risicomanagement;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note14">onomwonden en duidelijk vast te leggen dat de inhoud en besteding van de subsidieregelingen blijvend vallen onder de ministeriële verantwoordelijkheid, waardoor het parlementaire budgetrecht niet wordt vervreemd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note15">de Kamer te informeren over de inhoud van de af te sluiten samenwerkingsovereenkomsten en de Kamer afschriften te verstrekken van de jaarverslagen en jaarrekeningen van de organisatie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note16">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note17">Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note18">Zij krijgt nr. kst-35529-Q</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note19">Dank u wel, meneer Van Ballekom.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note20">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u4">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg6">Kortom, voorzitter. In Brabant zouden we zeggen: lelijk in de luier, mooi in de sluier. Met andere woorden, laat dit een doorslaggevend succes zijn voor het Nederlands bedrijfsleven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg7">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note21">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u5">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg8">Dank u wel, meneer Van Ballekom. U blijft nog even staan, want er is een interruptie voor u van mevrouw Faber en eentje van de heer Crone.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note22">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u6">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg9">Het gaat om de eerste bullet: die samenwerkingsovereenkomst van FMO en de Staat. Ze moeten zo veel mogelijk samen doen. Dan heeft u het denk ik over de investeringsdochter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note23">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u7">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg10">Nee, dan heb ik het normaal gesproken over de backofficefuncties. Dat heb ik met name in de motie genoemd: ICT-zaken, personeelszaken, compliance. Ik kan me ook voorstellen dat ze risicoanalyses over landen waarin geïnvesteerd wordt delen, zodat niet elke organisatie zelf een specifieke analyse hoeft op te stellen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note24">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u8">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg11">Dat begrijp ik niet helemaal. We hebben Invest International. Daar komen drie dochters onder te hangen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note25">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u9">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg12">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note26">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u10">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg13">We hebben een investeringspoot en daarin zitten FMO en voor 51% de Staat. Over die andere twee dochters, de regelingendochter en de ontwikkeldochter, zult u het niet hebben. Het is toch de bedoeling dat het gescheiden wordt? Ik vind het wel sympathiek dat meneer Van Ballekom naar een kostenverlaging streeft, maar deze hele wet is wel opgetuigd en hier voorgehouden als iets waarmee alles gescheiden blijft. Nu lijkt het erop dat het weer gaat samenlopen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note27">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u11">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg14">Ik weet niet hoe die dochters precies worden ingeregeld. Ik weet ook niet waar precies de backofficefuncties worden neergelegd. Daar kan de minister misschien nog op ingaan. Maar dat blijven drie gescheiden bv's, juist om die gescheiden verantwoordelijkheden duidelijk te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note28">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u12">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg15">Dank u, voorzitter, dat u het mij nog een keer toestaat om een vraag te stellen. Je hebt drie dochters, drie bv's. Dan is het toch een beetje vreemd als je over die drie bv's heen bepaalt dat zij het allemaal samen gaan doen? Het moest toch juist uit elkaar? Ik begrijp wel dat u wilt doen aan kostenbesparing. Dat snap ik wel. Maar het lijkt tegenstrijdig met het doel van het wetsvoorstel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note29">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u13">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg16">Ik zie dat als volgt voor me, mevrouw Faber. Je hebt Invest International. Dat is een bv. Daar zitten drie bv's onder. Ik kan mij heel goed voorstellen dat in de overkoepelende bv de backofficefuncties worden uitgevoerd. Dat kan dan hopelijk in samenwerking met FMO en andere organisaties, om die dubbelfuncties te vermijden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note30">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u14">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg17">De laatste, mevrouw Faber.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note31">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u15">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg18">U heeft het dan ook over het personeel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note32">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u16">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg19">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note33">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u17">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg20">Dat gaat dan toch in elkaar overlopen? Nogmaals, ik begrijp uw intentie, maar ik denk dat het in de praktijk niet zal werken. Misschien kan de minister dat nog nader toelichten, want ik kan het eerlijk gezegd niet helemaal volgen helaas.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note34">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u18">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg21">Ik ben ook enigszins verbaasd in het verlengde van deze vraag. Allereerst, een derde termijn vraag je aan als je iets belangrijks te melden hebt. Ik stel hier maar vast dat kennelijk de intentie is om te doen wat het kabinet wil, namelijk veel samenwerking waar het kan, maar wel drie onderscheiden instellingen. Wij hechten daar ook aan, omdat FMO een andere opdracht heeft dan de andere. Dat moet allemaal keurig netjes zo geregeld worden. Dat heeft de minister ook toegezegd. Nu gaan we de boel in elkaar schuiven via deze motie op zogenaamde shared services en backofficedingen. A is er al toegezegd dat er veel wordt samengewerkt. B weet u dat dat niet zomaar kan. Financiële instellingen mogen niet zomaar de governance doorbreken. Kijk naar de AVG-regels. Zeker governance uit financieel oogpunt is strikt gescheiden. Maar eigenlijk vind ik het politieke punt het ergste. U heeft dit punt vaker geprobeerd te maken in de schriftelijke en de mondelinge inbrengen. Nu probeert u via een omweg dit binnen te halen met een soort nieuwe opdracht aan het kabinet. Ik ben dus wel benieuwd wat het kabinet vindt. Waarom doet u dat?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note35">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u19">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg22">Zoals ik al heb gezegd: die samenwerkingsovereenkomsten kennen we nog niet. De regering heeft ook aangegeven dat er zo veel mogelijk moet worden samengewerkt. Daar zijn wij het enorm mee eens. Dat wordt hier in deze motie geëxpliciteerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note36">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u20">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg23">Ja, maar zonder enige backing of dat wel mag. Ik heb zelf het idee geopperd van een landelijk officedesk binden, maar het gaat veel verder als je de governance, de compliance en de personeelsafdelingen samenvoegt. Dan heb je één concern en daar is nou juist niet voor gekozen. Dan hadden we daarvoor moeten kiezen. Dat was een optie geweest, ook voor mij. Maar we gaan nu toch niet via de omweg van een motie dwingend bepalen dat dat zo moet. Uw motie is dwingend. Er staat niet "bijvoorbeeld compliance", of "bijvoorbeeld personeelszaken". Nee, er staat: "... waaronder onder meer ICT-diensten." Dat is gewoon een opdracht. U geeft uw eigen kabinet een opdracht om iets heel anders te doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note37">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u21">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg24">Nou, dat neem ik aan. Ik neem aan dat wanneer deze motie niet uitvoerbaar is, de minister dat heel duidelijk zal maken in haar reactie op deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note38">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u22">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg25">Tot slot, meneer Crone.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note39">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u23">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg26">Mag ik u dan vragen: vindt uzelf de motie uitvoerbaar? Als u niet ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note40">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u24">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg27">Als ik niet de overtuiging had gehad dat ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note41">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u25">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg28">Sorry, voorzitter, ik ben mijn vraag nog aan het stellen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note42">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u26">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg29">De heer Crone is nog aan het woord, meneer Van Ballekom.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note43">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u27">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg30">U kunt zelf niet antwoorden op mijn terechte vraag, namelijk dat je door juridisch ingegeven governancetradities niet zomaar personeel, compliance, risicomanagement en ICT-diensten kunt samenvoegen. Ik zit zelf in raden van toezicht. U wilt niet weten hoe gescheiden je ICT-systemen van verschillende afdelingen tegenwoordig moet houden voor de financiële zuiverhuid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note44">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u28">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg31">Nou, ik heb weleens voor een organisatie …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note45">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u29">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg32">Tot slot, meneer Van Ballekom.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note46">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u30">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg33">Ik heb weleens voor een organisatie gewerkt die de Europese Investeringsbank heette. Die had een dochter. Dat was het Europees Investeringsfonds. Die deed het op dezelfde manier. Daar werden ook de backofficefuncties met elkaar gedeeld. Als ik de overtuiging had gehad, collega Crone, dat het allemaal niet zou hebben gemogen, had ik de motie nooit ingediend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note47">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u31">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg34">Maar u zei net dat het kabinet zegt …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note48">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u32">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg35">Meneer Crone, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note49">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u33">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg36">Sorry, voorzitter. U zei net: misschien zegt de minister dan wel "het kan niet". Nou, dat horen we dan wel. Ik had verwacht dat er in de derde termijn dus een goed voorstel zou komen, maar niet dat we het debat helemaal opnieuw gaan doen en het zeker niet op zijn kop zetten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note50">De heer Van Ballekom (VVD)</note>
+            <u who="#PimvanBallekom" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u34">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg37">Ik doe het debat niet opnieuw. Ik heb gewoon een motie ingediend en daar blijft het bij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note51">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u35">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg38">Dank u wel. Dan is het woord aan de heer Otten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note52">De heer Otten (Fractie-Otten)</note>
+            <u who="#HenkOtten" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u36">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg39">Dank, voorzitter. Onze fractie wil graag de op 6 juli ingediende motie 35529, nr. L over de noodremprocedure bij Invest International wijzigen. Zoals u weet, zijn wij in deze Kamer voor onze moties altijd op zoek naar maximaal draagvlak. Deze motie wordt als volgt gewijzigd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note53">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:trade" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u37">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg40">De motie-Otten c.s. (, letter ) is in die zin gewijzigd dat zij thans luidt:</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg41">De Kamer,</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg42">gehoord de beraadslaging,</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg43">overwegende dat het kabinet voornemens is om 833 miljoen euro uit te geven aan Invest International;</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg44">constaterende dat dit aanzienlijke en significante risico's met zich meebrengt voor de Nederlandse belastingbetaler, nu en in de toekomst;</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg45">verzoekt de regering de plannen voor Invest International zodanig aan te passen dat er een mogelijkheid wordt ingebouwd voor het parlement om verdere funding aan Invest International te beëindigen als de portefeuille van Invest International in totaliteit een negatieve net present value (contante waarde) heeft,</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg46">en gaat over tot de orde van de dag.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg47">Deze gewijzigde motie is ondertekend door de leden Otten, De Vries en Prast. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg48">Zij krijgt letter R, was letter L ().</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note54">Dank u wel, meneer Otten.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note55">Deze motie komt dus in de plaats van motie 35529, letter L. Meneer Otten, dat klopt, hè?</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note56">De heer Otten (Fractie-Otten)</note>
+            <u who="#HenkOtten" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u38">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg49">Klopt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note57">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u39">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg50">De motie onder L maakt daarmee geen deel meer uit van de beraadslaging en is afgevoerd van de stemmingslijst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note58">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:trade" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u40">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg51">Zo'n noodremprocedure klinkt natuurlijk allemaal wel heel leuk, maar is in feite onuitvoerbaar als deze wet is aangenomen, want dat is namelijk ook de crux van deze hele wet. Die pot met geld van Invest International wordt gewoon op afstand gezet, dus we kunnen gewoon helemaal niks meer. Hoe ziet u de vormgeving in de praktijk? Volgens mij is de enige noodremprocedure die we hebben gewoon tegenstemmen, want op het moment dat de wet erdoor is, dan gaat geen enkele noodrem meer werken, volgens mij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note59">De heer Otten (Fractie-Otten)</note>
+            <u who="#HenkOtten" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u41">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg52">Nou, dat ben ik helemaal eens met mevrouw Faber. Wij zullen dan ook tegen de wet stemmen. Ik had deze discussie ook met de woordvoerder van de VVD. Die zegt: als wij dan voor deze noodrem stemmen, ga jij dan voor de wet stemmen? Ik zeg: nou, nee, als jij een brakke auto wilt kopen, dan willen wij graag dat er wel een handrem in zit. Dat jij die auto dan wilt kopen, is aan jou. Wij zouden hem niet willen hebben, maar we willen dan voor jou wel graag dat er een goede handrem in zit. Zie het als een gebaar. Als jullie dit toch willens en wetens willen doen, zorg dan in ieder geval dat je als het helemaal fout gaat, zegt: "Alle projecten staan onder water. Hier wordt nooit meer geld verdiend. We gaan nu stoppen." Dan kom je in een politieke dynamiek terecht waarin je 100 miljoen hebt geïnvesteerd in iets, dan zegt "ja, het duurt nog wat langer, het duurt nog vijf jaar langer dan we dachten, de dip is wat dieper" — je kent al die verhalen — en dat er dan weer geld in wordt gestopt om het politieke prestige. Dat moeten we niet hebben. Daarom is deze motie nu verder geobjectiveerd. Dat is niet omdat wij zo voor dit fonds zijn, maar om de voorstanders nog een extra handvat te geven, zeg ik tegen mevrouw Faber.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note60">Mevrouw Faber-van de Klashorst (PVV)</note>
+            <u who="#MarjoleinFaber-vandeKlashorst" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u42">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg53">Ik begrijp de politieke overweging wel, maar technisch is die onuitvoerbaar. Natuurlijk ben ik er wel een voorstander van dat iedereen zijn motie kan indienen zoals hij dat wil, dat wel, maar in feite is het een doodlopende weg. Dat geeft u zelf ook al aan. Ook al wordt de motie aangenomen, het kan dus niet gaan werken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note61">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u43">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg54">Tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note62">De heer Otten (Fractie-Otten)</note>
+            <u who="#HenkOtten" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u44">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg55">Wij zijn zeer sceptisch over dit fonds, maar we doen er alles aan om de schade zo veel mogelijk te beperken als men die verkeerde afslag wil ingaan. We zagen net ook al een hele discussie over de motie-Van Ballekom, die wij ook heel sympathiek vinden en waar wij misschien vanuit een soort schadebeperking wel voor gaan stemmen, hoewel we tegen dat fonds zijn. Maar ja, de meerderheid heeft nou eenmaal in het hoofd dat men allemaal fondsen moet gaan optuigen. Ik zie daar het nut totaal niet van in. Dat heb ik diverse malen ook bij Invest-NL aan de orde gesteld. Maar als men willens en wetens de verkeerde afslag wil inslaan, dan proberen we in ieder geval de schade nog enigszins te beperken voor de toekomst. Dat is de achtergrond van deze motie, zeg ik tegen mevrouw Faber.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg56">Dank.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note63">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:inter" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u45">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg57">Dank u wel, meneer Otten. Wenst een van de leden in de derde termijn nog het woord? Dat is niet het geval. Dan geef ik het woord aan de minister van Buitenlandse Zaken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note64">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u46">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg58">Ik heb de tweede motie nog niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note65">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u47">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg59">Dan komt die eraan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note66">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:trade" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u48">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg60">Ik zal vast starten met een appreciatie van de motie met letter Q, van de heer Van Ballekom. Er zijn drie punten die de heer Van Ballekom benoemt in zijn motie. Een. Synergie. Twee. Het parlementaire budgetrecht bij de regelingen. Dat is ook al besproken in de eerste en tweede termijn. En natuurlijk de samenwerkingsovereenkomsten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg61">Wat betreft synergie ging de heer Van Ballekom in zijn tweede termijn in op het belang van efficiënte samenwerking van Invest International met bestaande organisaties zoals de FMO, de RVO en Invest-NL. Ik onderschrijf dat belang. U heeft ook mijn Kamerbrief van vrijdag jongstleden daarover gezien. Het is wel de verantwoordelijkheid van de organisatie zelf, zeg ik in de richting van de heer Ballekom, om daar invulling aan te geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note67">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u49">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg62">Het is Van Ballekom.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note68">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u50">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg63">Excuus, meneer Van Ballekom. Maar ik zie daar wel op toe, samen met de minister van Financiën. Ik zou dit deel van de motie als volgt willen opvatten dat de regering bij de betrokken organisaties sterk zal aandringen op maximale synergie. En wij zullen dat ook monitoren.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg64">Het parlementaire budgetrecht bij de regelingen. Aan de parlementaire controle op de regelingen verandert niets. De regelingen worden in de toekomst uitgevoerd voor rekening en risico van de minister voor Buitenlandse Handel en Ontwikkelingssamenwerking, als die functie in een toekomstige formatie blijft bestaan. Het parlement kan daarop toezien via de begrotingscontrole. Dat zeg ik toe. Dat heb ik ook in de tweede termijn eerder bevestigd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg65">De samenwerkingsovereenkomsten. De motie vraagt om de inhoud van de samenwerkingsovereenkomsten te delen. De overheid is daar zelf geen partij bij. Dat breng ik nog in memorie. Maar ik ga er ook op aandringen om dat mogelijk te maken, weliswaar geschoond van mogelijke bedrijfsgevoelige informatie. Jaarverslagen en jaarrekeningen van staatsdeelnemingen zijn al openbaar. Als ik de motie zo mag interpreteren, dus met inachtneming van deze opmerkingen, dan geef ik deze graag oordeel Kamer. Ik dank ook de heer Van Ballekom voor zijn heel constructieve bijdrage en de optie om dit nog te verhelderen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg66">Dan de motie van de heer Otten met letter R. De heer Otten wil een noodremprocedure voor Invest International. Ik ontraad deze motie, want via het aandeelhouderschap zijn er periodieke gesprekken over de prestaties. We houden daarbij in de aanloopperiode rekening met mogelijke verliezen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note69">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u51">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg67">Dank u wel, minister. Ik sluit de beraadslaging ... De heer Otten wenst nog het woord bij interruptie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note70">De heer Otten (Fractie-Otten)</note>
+            <u who="#HenkOtten" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u52">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg68">Hoe gaat die funding dan in zijn werk? Invest International gaat aan de slag, als het wordt goedgekeurd. Hoeveel geld krijgen ze dan om mee te beginnen, in hoeveel tranches gaat dat en over wat voor bedragen praten we dan? Het is toch wel van belang om dat te weten. Als het verkeerd gaat — die kans achten wij niet denkbeeldig — dan moet je op een gegeven moment kunnen ingrijpen, ook als aandeelhouder. Kan de minister daar misschien nog iets meer verheldering over geven?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note71">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u53">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg69">Ik heb op dit moment geen additionele informatie. We hebben gezegd dat de regelingen overgaan. Het bedrag dat wordt vrijgemaakt en de aanspraak in de eerste aanloopperiode, waar daadwerkelijk gebruik van zal worden gemaakt, is niet de totaliteit van het uiteindelijk beschikbare kapitaal. Er worden periodieke gesprekken gevoerd. Het hangt af van de vraag en het hangt af van de markt. U vraagt mij nu een theoretische inschatting te maken van een organisatie die wacht op formele oprichting. We hebben heel lang geschreven, besproken en ook in de debatten uitgelegd om hoeveel geld het gaat bij de regelingen en hoe toezicht wordt gehouden. Nu zouden wij van de zijde van het kabinet graag willen dat er een start kan worden gemaakt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note72">De heer Otten (Fractie-Otten)</note>
+            <u who="#HenkOtten" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u54">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg70">Dat begrijp ik, maar je maakt een businessplan en je hebt dan capital calls. Op een gegeven moment begint het met, weet ik wat, 30 miljoen om dingen op te zetten. Zodra de wet is goedgekeurd is, ga je hoop ik toch niet 833 miljoen overmaken naar Invest International. Ik hoop toch dat dat in gedeeltes gaat, dat je dan kijkt hoe het loopt en dat als het niet goed gaat, je zegt "dit sturen we bij" of "hier stoppen we mee".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note73">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:trade" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u55">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg71">Ja, maar volgens mij ... Ik zeg dit via de voorzitter. Invest International is aan de slag gegaan met een businessplan. Het heeft de organisatie opgezet. Er zijn aannames. Uitvoeringstaken zijn in ieder geval al op papier gezet. Alles wacht op de knop. Het gaat inderdaad in tranches. Dat staat ook in de Kamerbrief van afgelopen vrijdag, waarin ik dat heb benoemd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note74">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u56">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg72">Dan geef ik het woord aan de heer Crone, met het verzoek om zich te richten op de moties die zijn ingediend. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note75">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u57">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg73">Voorzitter, u laat iedereen heel lang interrumperen, maar bij mij zegt u, al twee, drie keer "nog één keer", terwijl ik u heb gevraagd of ik een termijn zal vragen. Maar goed, we laten het zo. De voorzitter is altijd de baas.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note76">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u58">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg74">Ik heb niet gezegd "nog één keer". Ik geef u het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note77">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:energ" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u59">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg75">Dat was in de vorige ronde zo en het was in het debat over de kolen zo, enzovoort. Maar we komen er nog een keer op terug. Excuus, ik trek het terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note78">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u60">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg76">Gaat uw gang, zo vaak als u wilt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note79">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:domes" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u61">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg77">Ik trek het terug, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg78">Ik heb zojuist per interruptie tegen de heer Van Ballekom gezegd dat dit een dwingende motie is. Er staat niet "wilt u het eens bekijken?", maar er staat "de samenwerkingsovereenkomsten zodanig in te richten dat de centrale diensten worden gedeeld, waaronder", en dan worden genoemd ICT-diensten, personeelszaken, compliance en risicomanagement. Er staat dus niet: bijvoorbeeld die. Er staat niet bij die gemeenschappelijke landendesk, die u mij overigens heeft toegezegd in de eerste en tweede termijn. Ziet u dit als een dwingende motie? Dan denk ik dat u, zoals ik net zei, in conflict kunt komen met compliance- en governanceregels die nu eenmaal gelden voor financiële instellingen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note80">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u62">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg79">Ik heb mijn appreciatie van de motie gegeven zoals het kabinet deze duidt, en ook de wijze waarop wij uitvoering menen te geven aan deze motie. Ik heb daar geen andere woorden aan toe te voegen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note81">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u63">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg80">Maar het is niet ongebruikelijk om bij een motie in derde termijn toch een beetje van elkaar te kunnen weten of ik daarvoor kan stemmen of niet, als die dwingend is. Anders moet ik het nog een keer aan de heer Van Ballekom vragen. Ik heb zelf ook bepleit: waar je diensten kunt laten samenwerken, doe je het. Maar tegelijkertijd bent u gehouden aan een nette scheiding, want de organisaties hebben verschillende doelstellingen maar ook een verschillend karakter. Je hebt een andere compliance, een andere financiële verantwoordingsplicht en AVG-regels. Ik mag toch aannemen dat die op zijn minst medebepalend zijn, doorslaggevend zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note82">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u64">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg81">De minister, tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note83">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u65">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg82">Ik heb oordeel Kamer gegeven. Ik heb bij synergie gezegd dat de verantwoordelijkheid ligt bij de organisaties zelf, natuurlijk binnen de staande kaders, en dat wij zullen aandringen op maximale synergie. Wij zullen dat niet afdwingen. Wij gaan wel monitoren hoever de organisaties hebben kunnen gaan binnen de kaders die ervoor zijn of de beperkingen die er mogelijk zijn. Wat de budgetregelingen betreft, was het een bevestiging van wat al eerder is gesteld. Daar was ook geen vraag over van de zijde van de heer Crone. Wat de samenwerkingsovereenkomsten betreft, heb ik een toezegging gedaan om ervoor te zorgen dat wat er gedeeld kan worden, gedeeld zal worden. Er zijn dus elementen in de motie waarvan ik zeg dat wij van kabinetszijde de motie op die manier zullen uitvoeren binnen de ruimte die wij als kabinet hebben, want er zit heel veel verantwoordelijkheid bij de organisaties zelf.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note84">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u66">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg83">Ja, maar niet alleen …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note85">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u67">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg84">Tot slot, meneer Crone.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note86">De heer Crone (PvdA)</note>
+            <u who="#FerdCrone" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u68">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg85">U heeft een voorstel dat er jaren ligt en waarin al die verdelingen al zitten. Dus het is niet alleen wat de organisaties willen, maar ook wat de governanceregels zeggen. Dus waarom zegt u niet gewoon: ja, natuurlijk houd ik me daaraan? Anders vraag ik u of we misschien in september een uitwerking kunnen krijgen van hoe dit dan weer gaat. Het wordt een soort herhaling van zetten, als we hier nota bene als Eerste Kamer in een politieke motie gaan uitdrukken dat afdelingen personeelszaken moeten worden samengevoegd. En wij horen hier altijd maar van de VVD: dien geen moties in, het is al toegezegd en het is overbodig. Dat hoorden we vanmiddag weer bij stemmingen. Ik verbaas me erover dat er hier alleen maar herhaald wordt wat er is gezegd en niet gereageerd wordt op een vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note87">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u69">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg86">Tot slot, minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note88">Minister Kaag</note>
+            <u who="#SigridKaag" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u70">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg87">Ik heb mijn appreciatie gegeven. Het is niet een motie ingediend door het kabinet. Ik heb een mening gegeven, een oordeel over onze interpretatie van deze motie en dat is oordeel Kamer op de manier waarop ik haar heb uitgelegd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note89">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u71">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg88">Ik vrees dat u het hier helaas mee zult moeten doen, meneer Crone. U heeft de toelichting van de indiener en de appreciatie van de regering gehoord. Dan sluit ik de beraadslaging.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note90">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note91">De voorzitter</note>
+            <u who="#JanAnthonieBruijn" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.u72">
+               <seg xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.seg89">Ik stel voor dat we vanavond na de dinerpauze stemmen over het wetsvoorstel en over de vorige week en vandaag ingediende moties.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-13-eerstekamer-21.note92">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

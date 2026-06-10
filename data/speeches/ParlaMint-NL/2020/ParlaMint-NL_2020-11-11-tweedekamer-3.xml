@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2020-11-11 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2020-11-11 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 23, Session 3 (2020-11-11)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 23, Session 3 (2020-11-11)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="23" xml:lang="en">Meeting 23</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="3" xml:lang="en">Session 3</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2020-11-11">Sitting 2020-11-11</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="27">27 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="27">27 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1683">1,683 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1683">1,683 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2020-11-11">2020-11-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="78"/>
+               <tagUsage gi="seg" occurs="30"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="27"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-11-11">2020-11-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.head1">Raad Algemene Zaken van 10 november 2020</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg1">Allereerst hebben wij aan de orde het VAO Raad Algemene Zaken. De heer Omtzigt heeft zich als eerste aangemeld. Ik wil allereerst ook nog de minister van Buitenlandse Zaken welkom heten. Dan is het woord aan de heer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note2">De heer Omtzigt (CDA)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg2">Voorzitter. We hebben een oorlog gezien tussen twee lidstaten van de Raad van Europa. Hoewel dat de afgelopen jaren vaker is gebeurd — Rusland versus Georgië; Rusland versus Oekraïne — is het buitengewoon ernstig dat we dat op het Europese grondgebied zien. We zien ook tekenen van oorlogsmisdrijven. We hopen dat het bestand het houdt, maar we vinden wel dat het uitgezocht moet worden. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note6">constaterende dat er zeer aannemelijke berichten zijn van het schenden van oorlogsrecht in het conflict over Nagorno-Karabach de afgelopen weken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note7">verzoekt de regering hetzij via de VN, hetzij via de EU ervoor zorg te dragen dat er onderzoek gedaan wordt naar wie clustermunitie, buitenlandse strijders en fosfor heeft ingezet in het conflict om Nagorno-Karabach in de oorlog en wie oorlogsmisdaden begaan heeft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note8">verzoekt de regering tevens binnen twee maanden op basis van dit onderzoek en andere bronnen zoals openbaar onderzoek of bondgenoten de Kamer mee te delen wie het oorlogsrecht geschonden heeft en hoe die partijen daarvoor verantwoordelijk gehouden worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note9">verzoekt de regering voorts de OPCW te verzoeken onderzoekers te sturen om na te gaan of er illegaal chemische wapens in de oorlogsvoering zijn ingezet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note10">verzoekt de regering vervolgens de Kamer binnen drie weken te rapporteren over de voortgang van deze motie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note11">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note12">Deze motie is voorgesteld door het lid Omtzigt. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note13">Zij krijgt nr. kst-21501-02-2228</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note14">De heer Omtzigt (CDA)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg3">Voorzitter, dan een tweede punt, een iets vrolijker punt. De heer Biden, die hoogstwaarschijnlijk verkozen zal worden tot president van de Verenigde Staten, heeft aangegeven dat hij een wereldconferentie over democratie wil organiseren. In zijn uitlatingen heeft hij ook aangegeven dat hij goede ervaringen heeft met hoe Nederland de bijeenkomst over nucleaire veiligheid georganiseerd heeft. Dit is voor Nederland een aangelegen punt, vooral ook omdat wij in Den Haag natuurlijk een aantal tribunalen hebben. Den Haag is de stad van vrede en recht. We zien zelf ook hoe het democratische model in de wereld onder grote druk staat. Ik denk dat de Nederlandse regering de nieuwe president en vicepresident zou moeten opbellen en hun zou moeten aanbieden om het hier te doen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note15">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note16">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note17">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note18">constaterende dat de heer Biden, president elect van de VS, beloofd heeft een wereldconferentie van democratieën te willen organiseren in het eerste jaar van zijn presidentschap;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note19">constaterende dat hij in uitlatingen hierbij zelf refereert aan de nucleaire veiligheidsconferentie in Den Haag;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note20">verzoekt de regering contact op te nemen met het overgangsteam van de heer Biden en mevrouw Harris en hun aan te bieden deze conferentie samen, indien van beide kanten mogelijk, in Den Haag te organiseren, in de stad van Vrede en Recht, en de Kamer binnen drie weken te informeren — of sneller indien mogelijk — over de mogelijke samenwerking,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note21">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note22">Deze motie is voorgesteld door de leden Omtzigt en Koopmans. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note23">Zij krijgt nr. kst-21501-02-2229</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note24">De heer Baudet (FvD)</note>
+            <u who="#ThierryBaudet" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg4">Volgens mij is Biden formeel nog geen president-elect. Hij is misschien de verwachte president-elect. Als de heer Omtzigt dat nog even aanpast, is de motie ook feitelijk correct.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note25">De heer Omtzigt (CDA)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg5">De meeste staten hebben op dit moment hun verkiezingsuitslag bekendgemaakt. Formeel is hij inderdaad op 8 december, en als de verkiezing bekend wordt, begin januari, president-elect, omdat op dat moment het huis en de senaat verklaren wie de president en vicepresident zijn. Op die wijze gaat het bij elke verkiezing in de VS. Maar ik snap de opmerking van de heer Baudet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note26">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg6">Dank u wel. Dan is het woord aan de heer Koopmans van de VVD. Hij ziet af van zijn bijdrage. Dan is het woord aan de heer Baudet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note27">De heer Baudet (FvD)</note>
+            <u who="#ThierryBaudet" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg7">Dank u wel.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note28">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note29">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note30">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note31">constaterende dat de regering in juli 2020 heeft ingestemd met het EU-herverdelingsfonds van 750 miljard euro;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note32">constaterende dat Nederland daarna opnieuw in een gedeeltelijke lockdown terecht is gekomen, waardoor de onzekerheid is toegenomen en de economische vooruitzichten verder zijn verslechterd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note33">overwegende dat de tientallen miljarden euro's aan Nederlands belastinggeld die gemoeid zijn met het EU-fonds, juist nu in Nederland geïnvesteerd zouden moeten worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note34">roept de regering op om de steun voor het EU-fonds alsnog in te trekken en de miljarden die daardoor bespaard worden in de Nederlandse economie te investeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note35">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note36">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note37">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note38">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note39">verzoekt de regering niet akkoord te gaan met uitbreiding van de EU met Noord-Macedonië en Albanië,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note40">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note41">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note42">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note43">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note44">overwegende dat het recht op privacy, in het bijzonder het briefgeheim, van fundamenteel belang is in een democratische rechtsstaat;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note45">constaterende dat diverse digitale platformen, zoals WhatsApp, de privacy van gebruikers beschermen door berichten te versleutelen, zodat alleen de zender en de ontvanger de berichten kunnen lezen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note46">constaterende dat binnen de EU stemmen opgaan om het versleutelen van digitale berichten te verbieden, zodat ook overheden mee kunnen lezen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note47">roept de regering op om zich tegen deze ontwikkeling te verzetten en niet akkoord te gaan met enig voorstel om versleuteling van berichtgeving te verbieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note48">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note49">Deze motie is voorgesteld door het lid Baudet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note50">Zij krijgt nr. kst-21501-02-2230</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note51">Deze motie is voorgesteld door het lid Baudet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note52">Zij krijgt nr. kst-21501-02-2231</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note53">Deze motie is voorgesteld door het lid Baudet. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note54">Zij krijgt nr. kst-21501-02-2232</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note55">Daarmee zijn wij aan het einde van de termijn van de Kamer gekomen. Ik kijk even naar de minister. Kan hij direct overgaan naar de moties? O, hij heeft de moties nog niet. Dan schors ik de vergadering even.</note>
+            <note type="time" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note56">De vergadering wordt van 10.22 uur tot 10.27 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note57">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg8">We gaan door met het antwoord van de minister van Buitenlandse Zaken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note58">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg9">Dank u wel voorzitter. Het is altijd een genoegen om de gast te zijn van de Kamer. Dat ben ik ook de hele dag, tot heel laat heeft de heer Van Ojik vandaag al voorspeld. Maar het helpt wel een beetje, ook voor de voorbereiding door mijn ambtenaren, als er enig verband is tussen het overleg en het voortgezet overleg dat daarop volgt. Met alle respect, dat is er nu op een aantal terreinen niet, ofwel omdat onderwerpen helemaal niet op de agenda van de Raad Algemene Zaken staan ofwel omdat de heer Baudet — die ik altijd graag zie — niet vertegenwoordigd was in het algemeen overleg, dus ook deels met onderwerpen komt die daar niet aan de orde waren. Ik zal die vragen dus naar vermogen beantwoorden, maar ik doe wel een beroep op de Kamer om in ieder geval enig verband te organiseren — als ik dat mag suggereren als oud-Kamerlid — tussen een voortgezet algemeen overleg en datgene wat er in dat algemeen overleg besproken is. Ik begrijp dat dit een heel gedurfde stelling is, maar vooruit: laat ik het toch maar eens zo wild in de zaal gooien.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg10">De motie van de heer Omtzigt op stuk nr. 2228 gaat in op de situatie in Nagorno-Karabach. Daar heeft hij het inderdaad tijdens het AO over gehad. Het onderwerp staat overigens niet op deze agenda, maar waarschijnlijk wel op die van de Raad Buitenlandse Zaken die later die week zal plaatsvinden. Hoe dan ook, het is een zeer zorgelijke situatie. Ik zou graag de route op alle onderzoekspunten die de heer Omtzigt aandraagt, via de OVSE willen kiezen. Daar is een staand mechanisme voor. Dat is nu ook de plek waar het overleg over de implementatie van het afgesproken vredesakkoord plaatsvindt. Dat is dus ook de plaats om coalities te verzamelen voor deze onderzoeken. Dus als ik de motie zo mag uitleggen dat wij voor al deze onderwerpen binnen de OVSE zullen inzetten op het doen van onderzoek, dan zal ik de Kamer daarover berichten. Met die kanttekening kan ik de motie oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note59">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg11">Voordat u verdergaat, horen we even van de heer Omtzigt of hij met die interpretatie kan leven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note60">De heer Omtzigt (CDA)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg12">Ik neem aan dat op het eerste punt het onderzoek allereerst door de OVSE en de Minsk-groep gedaan moet worden. Dat begrijp ik. Ik vraag me af of die groep op dit moment nog in Minsk zit, maar de Minsk-groep is wel de meest aangewezen instantie. Maar als dat niet gebeurt, dan zou ik willen dat het onderzoek op een andere manier plaatsvindt. Het verzoek in de motie om de OPCW te verzoeken onderzoekers te sturen, is een verzoek aan de Nederlandse regering. Het verzoek om terugkoppeling is ook een verzoek aan de Nederlandse regering. Ik neem dus aan dat die twee zaken wel gedaan kunnen worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note61">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg13">Je hebt altijd een coalitie nodig. Voor alle onderwerpen wil ik eerst kijken in de OVSE — aangezien dat de organisatie is waar dit conflict nadrukkelijk op tafel ligt — hoe we hier een beweging de goede richting op aan kunnen geven. Ik geloof niet dat iemand iets heeft aan een eenzijdige Nederlandse getuigenis. Ik denk dat we allemaal inderdaad willen weten of daar internationaal recht is overtreden en, als dat zo is, of de verantwoordelijken daar ook op worden aangesproken. Vandaar dat ik eerst via de OVSE wil en dan terug wil komen, hopelijk met de mededeling dat we deze verschillende onderzoeken kunnen gaan doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note62">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg14">Meneer Omtzigt, gaat u akkoord met deze interpretatie van de motie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note63">De heer Omtzigt (CDA)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg15">Ja, als we binnen drie weken horen wat dat oplevert. Ik geef hier de regering wel mee dat als dat binnen de OVSE niet lukt, dan ook andere paden bekeken moeten worden. Maar ik snap dat dat in internationaal verband moet. Het lijkt me logisch dat niet alleen Nederland dat doet. Maar ik neem aan dat Nederland een coalitie bouwt om ervoor te zorgen dat het gebeurt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note64">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg16">Dank u wel. Dan krijgt de motie op stuk nr. 2228, met de interpretatie van de minister erbij, oordeel Kamer</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note65">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg17">De motie op stuk nr. 2229 houdt wel verband met de actualiteit maar niet met het overleg dat wij gevoerd hebben en ook niet met de Raad Algemene Zaken. Het bevat een op zich goed idee om te kijken of Nederland gastland kan zijn, maar vraagt tegelijkertijd om formeel in onderhandeling te treden met een resident elect. Dat deel is niet logisch. Ik wil de indieners dus eigenlijk vragen om de motie aan te houden tot het moment dat de president elect ook president is. Dan vind ik het een logische inzet. Kortom, ik verzoek de indieners om de motie aan te houden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note66">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg18">De minister verzoekt de indieners om de motie aan te houden. De heer Omtzigt of de heer Koopmans?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note67">De heer Omtzigt (CDA)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg19">Er zit bewust een wat ruimere termijn in de motie dan normaal is. Die termijn loopt af na de inauguratie. Dus het is aan de regering om te bekijken op welk moment ze in contact treedt. Maar een regering die zich voorbereidt en een overgangsteam heeft ingericht, neemt al besluiten over wat ze gaat doen. Dus op het moment dat in januari de inauguratie is, staat het allemaal in de steigers. Ik laat het dus aan de Nederlandse regering over op welk moment ze contact opneemt. Dat hoeft niet vandaag, maar dat zou ook ergens in december kunnen zijn. Dat moet de minister zelf weten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note68">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg20">Ik blijf bij mijn punt dat wij ook het Amerikaans staatsrecht moeten respecteren. Nogmaals, het initiatief vind ik inhoudelijk zeer de moeite waard, maar wij moeten ons correct opstellen tegen de president-elect. Kortom, ik doe een handreiking. Ik wil het inhoudelijk wel doen …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note69">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg21">Het voorstel is nog steeds om de motie aan te houden en anders ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note70">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg22">Precies.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note71">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg23">De heer Omtzigt. Aanhouden of niet aanhouden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note72">De heer Omtzigt (CDA)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg24">Ik beraad me zo even met de heer Koopmans. Als de regering zegt dat we een iets langere termijn hebben, dan kan ik mij daar iets bij voorstellen. Maar ik weet dat de Nederlandse regering niet al felicitaties gestuurd heeft en dat alle regeringen al bezig zijn met het spreken met dat team. Ik overleg nog even.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note73">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg25">Dank u wel. Dan is de motie op stuk nr. 2229 ontraden. Dan gaan we naar de motie op stuk nr. 2230.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note74">Minister Blok</note>
+            <u who="#StefBlok" ana="#guest topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg26">In de motie op stuk nr. 2230 van de heer Baudet wordt de regering opgeroepen steun voor het EU-fonds alsnog in te trekken. Dat debat heeft uitgebreid plaatsgevonden. De motie wordt ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg27">In de motie op stuk nr. 2231 wordt de regering verzicht niet akkoord te gaan met de uitbreiding van de EU met Noord-Macedonië en Albanië. Dat is niet aan de orde. Aan de orde is het openen van toetredingsonderhandelingen en zelfs die zijn nog niet gestart. Dus de motie met deze formulering moet ik ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg28">In de laatste motie van de heer Baudet, de motie op stuk nr. 2232, wordt ingegaan op een onderwerp dat helemaal niet aan de orde is gesteld tijdens het AO en ook niet tijdens dit VAO Raad Algemene Zaken. Inderdaad is dat onderwerp wel op andere momenten in deze Kamer en in Europese discussies aan de orde geweest. Daarbij is de inzet van het kabinet steeds geweest dat deze discussie volop loopt en dat het inderdaad heel belangrijk is dat de privacyaspecten gewaarborgd moeten worden. Tegelijkertijd moeten wij goed kijken hoe onze inlichtingendiensten hun werk kunnen doen. Deze motie is op dit moment niet aan de orde én te kort door de bocht. Ik moet haar dus ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note75">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg29">Dan zijn de motie op stuk nr. 2230, de motie op stuk nr. 2231 en de motie op stuk nr. 2232 ontraden. Daarmee zijn wij aan het eind gekomen van dit VAO Raad Algemene Zaken.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note76">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note77">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:inter" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.seg30">Ik denk dat wij direct door kunnen gaan met het VSO Eindrapport Expertgroep inzake politieke steun aan interstatelijk geweldsgebruik en inzake humanitaire interventie. Maar ik zie dat de eerste spreker, mevrouw Karabulut, nog niet in huis is. Ik schors daarom kort de vergadering.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2020-11-11-tweedekamer-3.note78">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

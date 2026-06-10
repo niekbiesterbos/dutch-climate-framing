@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2018-11-21 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2018-11-21 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 26, Session 10 (2018-11-21)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 26, Session 10 (2018-11-21)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="26" xml:lang="en">Meeting 26</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="10" xml:lang="en">Session 10</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2018-11-21">Sitting 2018-11-21</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="36">36 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="36">36 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1886">1,886 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1886">1,886 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2018-11-21">2018-11-21</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="94"/>
+               <tagUsage gi="seg" occurs="45"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="36"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2018-11-21">2018-11-21</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.head1">Transportraad d.d. 3 december</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:trans" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u1">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg1">We gaan nu gelijk door met het volgende onderwerp, het VAO Transportraad. Dat is met dezelfde bewindspersoon, maar wel met een aantal andere leden. Als eerste geef ik het woord aan de heer Van Raan namens de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note2">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u2">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg2">Voorzitter, dank u wel. Ik heb vier moties, die we de minister willen meegeven ter aansporing.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note6">constaterende dat het EU-ETS-systeem niet vanzelfsprekend in zijn huidige vorm kan blijven bestaan wanneer luchtvaartsectorplan CORSIA zonder voorbehoud zou worden ingevoerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note7">constaterende dat de EU en Nederland ambitieuzere doelen nastreven dan met CORSIA alleen gerealiseerd kunnen worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note8">verzoekt de regering zodanig een voorbehoud te plaatsen bij CORSIA dat de eigen beleidsvrijheid van Nederland en Europa niet aangetast wordt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note10">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note11">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note12">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note13">constaterende dat het varend ontgassen door schepen als een van de grootste milieuproblemen van ons land wordt gezien door experts;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note14">overwegende dat het ontgassen van giftige stoffen, zoals benzeen en andere zeer zorgwekkende stoffen, met spoed tot een minimum beperkt dient te worden vanwege de negatieve gevolgen voor de luchtkwaliteit en de gezondheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note15">verzoekt de regering zich maximaal in te spannen om varend ontgassen in te perken tot een nationaal verbod in werking treedt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note16">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note17">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note18">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note19">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note20">constaterende dat voor het varend ontgassen van het extreem giftige benzeen en andere zeer zorgwekkende stoffen nog geen nationaal verbod geldt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note21">overwegende dat de uitstoot van deze stoffen tot een minimum beperkt dient te worden vanwege de negatieve gevolgen voor de luchtkwaliteit en de gezondheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note22">verzoekt de regering het ontgassen van benzeen en andere zeer zorgwekkende stoffen in Nederlandse rivieren zo snel mogelijk te verbieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note24">Deze motie is voorgesteld door de leden Van Raan en Kröger. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note25">Zij krijgt nr. kst-21501-33-726</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note26">Deze motie is voorgesteld door de leden Van Raan en Teunissen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note27">Zij krijgt nr. kst-21501-33-727</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note28">Deze motie is voorgesteld door de leden Van Raan en Teunissen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note29">Zij krijgt nr. kst-21501-33-728</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note30">De heer Von Martels (CDA)</note>
+            <u who="#MauritsvonMartels" ana="#regular topic:trans" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u3">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg3">Ik heb een vraag aan de heer Van Raan. We hebben zojuist samen het AO Transportraad gevolgd en meegemaakt. Volgens mij is er een toezegging gedaan door de minister op beide punten. Ik vraag me dus alleen even af waarom u nu deze moties indient. Want u zult ongetwijfeld straks van de minister horen: dat heb ik al gedaan, dat ga ik doen, daarom moet ik het ontraden. Dat zou heel jammer zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note31">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u4">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg4">Ik ben de heer Von Martels zeer erkentelijk voor deze vraag, want inderdaad: deze moties en dit VAO hebben een beetje een speciaal karakter, omdat we moties indienen terwijl de minister nog gaat antwoorden. In het AO is ook min of meer afgesproken om ze in ieder geval in te dienen, dan te kijken waar de minister mee komt en dan te besluiten of we ze alsnog in stemming brengen of aanhouden. Ik doe dit dus vanwege het speciale karakter, dat de minister misschien een beetje in een rare positie plaatst om iets te ontraden wat we misschien wel aanhouden of intrekken. Maar dat is niet anders.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note32">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u5">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg5">Oké, het staat nu in ieder geval in de Handelingen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note33">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u6">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg6">Ja, ik ben de heer Von Martels er dus zeer erkentelijk voor dat het niet van mijn spreektijd afgaat, want dat wilde ik nog even toelichten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note34">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u7">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg7">U gaat nu uw laatste motie indienen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note35">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u8">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg8">Dank u wel, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note36">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note37">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note38">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note39">constaterende dat de luchtvaartsector via CORSIA probeert om Europees klimaatbeleid te dwarsbomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note40">verzoekt de regering CORSIA af te wijzen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note41">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note42">Deze motie is voorgesteld door het lid Van Raan. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note43">Zij krijgt nr. kst-21501-33-729</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note44">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u9">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg9">Dan dank ik u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note45">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u10">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg10">Dank u wel. Dan is nu het woord aan de heer Van Dijk namens de Partij van de Arbeid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note46">De heer Gijs van Dijk (PvdA)</note>
+            <u who="#GijsvanDijk" ana="#regular topic:trans" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u11">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg11">Dank u wel, voorzitter. Binnenkort wordt er gesproken in de Transportraad over het mobiliteitspakket. Dat is voor Nederland van groot belang voor alle chauffeurs en transportondernemingen. Dus daarom de volgende motie ter aansporing van het kabinet.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note47">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note48">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note49">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note50">van mening dat alle chauffeurs zeker moeten zijn van voldoende rust en veilig de weg op moeten kunnen gaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note51">constaterende dat de verruiming van de rij- en rusttijden nadelige gevolgen heeft voor de gezondheid van chauffeurs en de verkeersveiligheid;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note52">verzoekt de regering niet met verdere versoepeling en verslechtering van de rij- en rusttijden in te stemmen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note53">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note54">Deze motie is voorgesteld door de leden Gijs van Dijk, Kröger en Laçin. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note55">Zij krijgt nr. kst-21501-33-730</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note56">De heer Gijs van Dijk (PvdA)</note>
+            <u who="#GijsvanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u12">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg12">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note57">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u13">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg13">Dank u wel. De volgende spreker is mevrouw Kröger namens GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note58">Mevrouw Kröger (GroenLinks)</note>
+            <u who="#SuzanneKröger" ana="#regular topic:trans" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u14">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg14">Dank u wel, voorzitter. Allereerst zijn de zorgen over het eerste mobiliteitspakket volgens mij heel helder overgebracht. Daarom staat mijn naam onder de motie van collega Van Dijk en ook onder een motie die de heer Laçin zo zal indienen, om die zorgen toch te benadrukken. Wij willen echt niet dat het mobiliteitspakket gaat leiden tot een race to the bottom in transportland, en daar heeft het nu wel alle schijn van.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg15">Met betrekking tot ICAO is er de motie met collega Van Raan. Ik wou toch even refereren aan een motie van mijzelf en de heer Paternotte die in april is aangenomen. Die stelde dat we bij een eventuele implementatie van CORSIA vast moeten blijven houden aan de Europese duurzaamheidseisen voor biobrandstoffen. De mogelijkheid om dat te doen, om als Europa strenge duurzaamheidseisen te stellen aan biobrandstoffen en dat echt juridisch verankerd te hebben, is precies de reden waarom wij echt dat behandelvoorbehoud willen. Wij willen aanmerken dat we zeker willen zijn dat CORSIA er niet toe gaat leiden dat wij daarop in moeten boeten, zowel bij EU ETS als bij de duurzaamheidseisen voor biobrandstoffen. Ik wil dus heel graag dat de minister dat expliciteert in de brief die zij maandag naar de Kamer stuurt.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg16">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note59">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u15">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg17">Dank u wel. De laatste spreker van de zijde van de Kamer is de heer Laçin namens de Socialistische Partij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note60">De heer Laçin (SP)</note>
+            <u who="#CemLaçin" ana="#regular topic:trans" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u16">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg18">Dank, voorzitter. Ik heb in mijn inbreng vooral twee punten naar voren gebracht: Ryanair en doelgroepenvervoer. Daar heb ik goede antwoorden op gekregen. Ik heb me ook heel erg aangesloten bij collega's Van Dijk en Kröger over het eerste mobiliteitspakket. Ik heb daar nog wel een motie over, omdat ik graag wil dat wij ook nog kunnen kijken naar het compromis dat eventueel in Europa wordt gesloten voordat het daadwerkelijke stempel erop gaat.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note61">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note62">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note63">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note64">constaterende dat de huidige voorstellen van het eerste mobiliteitspakket verregaande gevolgen zullen hebben voor de Nederlandse transportsector;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note65">constaterende dat er nog onderhandeld moet worden over wat er uiteindelijk in de richtlijn(en) naar de lidstaten komt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note66">verzoekt de regering om terug naar de Kamer te komen met het onderhandelingsresultaat in de Raad van Ministers voordat zij akkoord gaat,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note67">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note68">Deze motie is voorgesteld door de leden Laçin, Kröger en Gijs van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note69">Zij krijgt nr. kst-21501-33-731</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note70">De heer Laçin (SP)</note>
+            <u who="#CemLaçin" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u17">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg19">Ik wil de minister ook danken voor het goede debat dat we tijdens het AO hebben gevoerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note71">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u18">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg20">Dank u wel. Ook dank aan de leden voor de inbreng. We schorsen vijf minuten, zodat de minister even tijd heeft om zich te beraden op het oordeel over de zes ingediende moties.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note72">De vergadering wordt van 17.52 uur tot 17.59 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note73">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:trans" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u19">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg21">Ik heropen de vergadering. Aan de orde is de beantwoording van de zijde van de regering in het verslag van het algemeen overleg Transportraad. Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note74">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:inter" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u20">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg22">Dank u wel, voorzitter. Ik heb hier een overzichtelijk aantal moties. Het zijn er maar zes. Meestal zijn het er meer. De eerste is van de hand van de heer Van Raan. De regering wordt verzocht een zodanig voorbehoud te plaatsen bij CORSIA dat de eigen beleidsvrijheid van Nederland en Europa niet aangetast wordt. Het zal hem niet verrassen: wat mij betreft is dat overbodig. Wij doen dat al. Ik zou de motie in die zin willen ontraden dat ze niks toevoegt. Ik kan me echter voorstellen dat u de motie aanhoudt tot u dat in de brief ook bevestigd hebt gezien.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note75">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u21">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg23">Dat zegt de minister inderdaad goed. Ze zou natuurlijk ook kunnen zeggen: ik neem de motie gewoon over, want dit is onze inzet. Maar dat terzijde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note76">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u22">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg24">Dat kan ook, maar dan denk ik dat u nog steeds zegt dat u het eerst bevestigd wilt zien. Ik geef aan u aan dat dit voor ons ook staand beleid is. In die zin zou ik zeggen dat dit overbodig is. Ik kan de motie ook overnemen. Het is maar net hoe je het wilt zien. Dat kan ook. Maar dan is het een beetje ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note77">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u23">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg25">Dat was bedoeld om compleet te zijn. We houden de motie op stuk nr. 726 aan. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note78">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u24">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg26">Op verzoek van de heer Van Raan stel ik voor zijn motie (21501-33, nr. 726) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg27">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note79">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:envir" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u25">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg28">Oké. Dan kom ik bij de volgende motie, ook van de hand van de heer Van Raan. Die verzoekt de regering om zich maximaal in te spannen om varend ontgassen in te perken tot het nationale verbod in werking treedt. Daarvan zou ik ook kunnen zeggen dat ik dat al in het AO heb toegezegd. Ik ga er ook echt alles aan doen om te kijken wat we kunnen doen om dingen te bespoedigen. Daarover heb ik u een brief toegezegd voor het AO Maritieme zaken. Daar geldt hetzelfde voor: deze motie zou u ook kunnen aanhouden tot de bevestiging binnen is, maar wat mij betreft is dit eigenlijk overbodig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note80">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u26">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg29">Wordt deze motie aangehouden door de heer Van Raan? Ik zie dat hij knikt.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note81">Op verzoek van de heer Van Raan stel ik voor zijn motie (21501-33, nr. 727) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note82">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note83">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:envir" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u27">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg30">Dan kom ik bij de motie op stuk nr. 728. Daarin wordt de regering verzocht om zo snel mogelijk het ontgassen van benzeen te verbieden. Daarvoor geldt eigenlijk hetzelfde. Dat is staand beleid. Wat mij betreft kunnen we die ontraden, omdat ze overbodig is. U gaat waarschijnlijk hetzelfde zeggen, namelijk dat u haar aanhoudt tot ik dat bevestigd heb.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note84">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u28">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg31">Misschien is een kleine nuance op zijn plaats. In het AO van net waren de minister en ik het hier eigenlijk over eens. Ik heb het gezien als een toezegging dat in de brief komt te staan op welke manier anders en direct gehandhaafd kan worden. De motie is eigenlijk bedoeld om dit wat breder te maken. Dat wilde ik nog even toelichten. De motie is dus bedoeld als aanvulling op de toezegging die we min of meer meenden te horen van de minister. Maar voor alle duidelijkheid: we houden de motie aan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note85">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u29">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg32">Op verzoek van de heer Van Raan stel ik voor zijn motie (21501-33, nr. 728) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg33">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note86">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:trans" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u30">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg34">Ik heb inderdaad toezeggingen gedaan. Het is ook gewoon staand beleid dat we ons daar maximaal voor inzetten. Ik begrijp uw redenering en dat u het eerst-zien-dan-gelovenprincipe toepast.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg35">Ik kom dan bij de motie op stuk nr. 729. Die vraag echt om CORSIA af te wijzen. Het zal u niet verrassen dat ik die ontraad. Wij verwachten juist veel van CORSIA.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg36">Ik kom dan bij de motie op stuk nr. 730 van de heer Van Dijk. Die ziet er op het eerste gezicht ontzettend sympathiek uit. Ik voel daar ook erg voor. Ik wil ook zeker niet dat we een versoepeling of verslechtering krijgen van de rij- en rusttijden. Maar om het voor honderd procent dicht te timmeren ... In een theoretisch geval kan het gaan om een kleine, marginale aanpassing waarmee we al onze andere punten zouden kunnen binnenhalen. Dat is de reden waarom ik deze motie toch ontraad. Je moet toch altijd wat onderhandelingsruimte houden.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg37">Hetzelfde geldt eigenlijk voor de motie op stuk nr. 731, waarin staat dat we eerst naar de Kamer terug moeten komen met het onderhandelingsresultaat. Dat is niet gebruikelijk. Met het tempo waarin die onderhandelingen gaan, is dat niet mogelijk. Als ik dat achteraf verkeerd zou hebben gedaan, mag u mij daarvoor verantwoordelijk stellen. Zo werkt het. Ik heb aangegeven dat ik mijn uiterste best doe om de Nederlandse doelen binnen te halen. Het werkt echter niet om dat vooraf helemaal met u dicht te timmeren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note87">De heer Laçin (SP)</note>
+            <u who="#CemLaçin" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u31">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg38">Ik heb nog wel een vraag over deze volgorde van doen. De minister komt dadelijk tot een compromis. Daar is de heer Laçin van de SP niet blij mee. Wat kan hij dan nog doen? Want het is daar dan al afgesproken. Dan kan ik wel mijn ongenoegen uiten, maar daarmee verandert er nog niks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note88">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:envir" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u32">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg39">Nou, dan kunt u de minister naar huis sturen. Dat is dan in het extreme geval, als u zegt "hier is iets heel vreselijks gebeurd" en als de hele Kamer zegt "nou, wat de minister daar heeft weggegeven, dat kan echt niet". Maar dat geldt natuurlijk altijd. Met de doelstellingen voor CO-reductie — hoever willen we komen en wat zijn onze wensen daarin? — ga je maximaal voor het Nederlandse hoge ambitieniveau. Maar dat is ook niet helemaal gelukt zoals wij het willen. Dat kun je ook niet tussendoor gaan voorleggen. Daar komen we dan ook achteraf verantwoording over afleggen. Ik hoop dat we u er in ieder geval van kunnen overtuigen dat we ons uiterste best gedaan hebben en dat we ook kunnen onderbouwen wat onze inzet is geweest.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note89">De heer Laçin (SP)</note>
+            <u who="#CemLaçin" ana="#regular topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u33">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg40">Ik wil de minister uitnodigen om niet in extremen te schieten. We gaan de minister nog niet wegsturen. Dat is zeker niet de intentie. Ik wil in ieder geval meegeven dat wij als Kamer erop toezien dat er weinig versoepeling en weinig verslechtering zal zijn. Ik hoop dat de minister dat meeneemt in de onderhandelingen en dat ze ons daarna kan geruststellen in een goed debat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note90">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga" ana="#regular topic:labor" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u34">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg41">Uiteraard. Ik heb u heel goed gehoord in het VAO. Het is heel breed gedeeld: we willen geen sociale dumping, we willen gelijk loon voor gelijk werk, we willen geen race to the bottom. Dat delen we allemaal met elkaar. Ik zal me daar graag met volle overtuiging voor inzetten in de onderhandelingen. En dan zal ik u uiteraard ook tussentijds daarover informeren. Het zou namelijk zomaar kunnen dat dit verhaal niet eindigt op 3 december en dat we in de toekomst hier nog vaker over spreken.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg42">Dan ben ik er doorheen, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note91">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u35">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg43">Dank u wel. Ik dank ook de leden voor hun inbreng.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note92">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note93">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.u36">
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg44">Over de overgebleven moties zullen we aanstaande dinsdag 27 november stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.seg45">Ik schors de vergadering voor de dinerpauze tot 19.10 uur.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2018-11-21-tweedekamer-10.note94">De vergadering wordt van 18.06 uur tot 19.10 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

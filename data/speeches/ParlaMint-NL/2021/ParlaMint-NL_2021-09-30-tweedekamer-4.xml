@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-09-30 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-09-30 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 6, Session 4 (2021-09-30)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 6, Session 4 (2021-09-30)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="6" xml:lang="en">Meeting 6</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-09-30">Sitting 2021-09-30</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="59">59 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="59">59 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="4337">4,337 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="4337">4,337 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-09-30">2021-09-30</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="183"/>
+               <tagUsage gi="seg" occurs="81"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="59"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-09-30">2021-09-30</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.head1">Cultuur en corona</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg1">Aan de orde is het tweeminutendebat Cultuur en corona. Ik heet de leden en de minister van Onderwijs, Cultuur en Wetenschap welkom. Ik geef allereerst het woord aan de heer Van Haga.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note2">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg2">Dank u wel, voorzitter. Zoals we net al hebben besproken, heb ik niet meegedaan aan het commissiedebat. Ik vond het wel een ontzettend belangrijk debat, maar als kleine fractie kun je niet overal tegelijkertijd zijn. Ik zou toch graag een motie willen indienen. Ik moet blijkbaar het verzoek daartoe voorafgaand indienen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note3">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg3">Precies. Ik kijk even naar de leden of die dat oké vinden. Ik zie dat die daarmee instemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg4">Dan geef ik allereerst het woord aan mevrouw Westerveld van GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note4">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg5">Voorzitter. Vanaf morgen wordt het steunpakket aan de culturele en creatieve sector stopgezet. Wij vinden dat te vroeg. Dat hebben we ook in het debat gezegd. Een voorstelling heb je namelijk niet van de ene op de andere dag georganiseerd. Bovendien zijn ook veel mensen weg uit de sector vanwege de enorme tekorten aan werk en omdat ze in andere sectoren wel werk kunnen vinden. Daarover ga ik zo een motie indienen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg6">Voorzitter. Daarnaast moet er natuurlijk ook perspectief komen voor op de langere termijn. Daarover dient collega Ploumen zo dadelijk een motie in, waar de namen van mij en een aantal andere collega's ook onder staan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg7">Voorzitter. Dan nog een laatste opmerking. De minister zei dinsdag in het debat: we laten niemand vallen. Zij heeft in dat debat aangegeven dat ze langs gaat komen op het moment dat het mis dreigt te gaan met instellingen. Maar zullen we dat gewoon voor zijn? Zullen we voorkomen dat instellingen en mensen op het punt staan dat ze echt geen perspectief meer hebben? Zullen we daarom de steun aan deze sector voortzetten? Daarover gaat mijn motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note5">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note6">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note7">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note8">constaterende dat de steun aan de culturele en creatieve sector wordt stopgezet per 1 oktober;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note9">constaterende dat de sector heeft aangetoond dat er in de kwartalen Q4 van 2021 en Q1 van 2022 nog forse inkomstenderving is vanwege de beperkende maatregelen die opgelegd zijn het afgelopen anderhalf jaar vanwege de coronacrisis;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note10">overwegende dat de sector een van de zwaarst getroffen sectoren is en tijd en ruimte nodig heeft om weer te starten en te herstellen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note11">verzoekt de regering om voor Q4 van 2021 en Q1 van 2022 de steun voor de culturele en creatieve sector te continueren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note12">verzoekt de regering tevens om aan deze steunpakketten strengere voorwaarden te stellen, die ertoe bijdragen dat steun ook daadwerkelijk wordt gebruikt om zelfstandigen en zzp'ers aan het werk te houden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note13">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note14">Deze motie is voorgesteld door de leden Westerveld, Ploumen, Wassenberg, Gündoğan en Kwint.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note15">Zij krijgt nr. kst-32820-439</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note16">Dank u. Dan geef ik het woord aan mevrouw Wuite van D66.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note17">Mevrouw Wuite (D66)</note>
+            <u who="#JorienWuite" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg8">Voorzitter, goedemorgen. Omwille van de tijd zal ik gelijk met de motie beginnen. Dan zal ik kijken hoeveel tijd er nog over is. Ik dien die motie in vanwege het belang van herstel voor de culturele sector in de toekomst.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note18">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note19">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note20">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note21">constaterende dat de culturele en creatieve sector een van de zwaarst getroffen sectoren is door de coronacrisis en dat de Kamer zich heeft uitgesproken om zich in te zetten voor een duurzaam herstel van de sector met de motie-Wuite c.s.;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note22">constaterende dat een Europees Herstelfonds is ingesteld om als Unie en lidstaten sterker uit de crisis te komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note23">constaterende dat in het Europees Parlement een resolutie met brede steun is aangenomen die lidstaten oproept minstens 2% van het Europees Herstelfonds te besteden aan het herstel van de culturele en creatieve sector en dat tevens een oproep van dezelfde strekking is ondertekend door 110 culturele organisaties en netwerken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note24">overwegende dat een aantal lidstaten, zoals Frankrijk, Oostenrijk en Italië, zich hier inmiddels aan hebben gecommitteerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note25">overwegende dat meerdere organisaties uit de sector al concrete ideeën hebben aangeleverd om het geld te besteden, zoals voor de digitalisering van musea, een revolverend fonds en het versterken van de positie van makers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note26">spreekt uit 2% van het geld dat Nederland toekomt in het kader van het Europees Herstelfonds toe te kennen aan de culturele en creatieve sector,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note27">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note28">Deze motie is voorgesteld door de leden Wuite en Westerveld.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note29">Zij krijgt nr. kst-32820-440</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note30">Mevrouw Wuite (D66)</note>
+            <u who="#JorienWuite" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg9">Voorzitter. Ik dank de minister voor haar antwoorden in het debat. Namens D66 herhaal ik hier daarom nogmaals dat de culturele en de creatieve sector met meer dan 300.000 banen geen simpele vrijetijdsbesteding is, maar van levensbelang is. Daarom heeft D66 naast mijn motie ook gevraagd of al het geld al beschikbaar is gesteld, of dat goed bij mensen terecht is gekomen en of dat geld ook voor de sector beschikbaar blijft. Vanwege het belang voor de toekomst en om de creatieve en de culturele sector te versterken — want dat is waar we voor staan — hebben we er als D66 voor gekozen om mee te doen met de motie-Ploumen over het vervolg van het herstelplan. Ik zal er daarom alles aan doen om ervoor te zorgen dat de minister nadrukkelijk in de gaten houdt of het de makers, de musea en anderen lukt om het hoofd boven water te houden. Als er tegenvallende signalen binnenkomen, dan zal ik er als eerste voor zorgen dat we de minister daarop bevragen en dat de afspraken die daarover met Financiën zijn gemaakt ook echt gestand zullen worden gedaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note31">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg10">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note32">Mevrouw Wuite (D66)</note>
+            <u who="#JorienWuite" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg11">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note33">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg12">Ja, dit was het.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note34">Mevrouw Wuite (D66)</note>
+            <u who="#JorienWuite" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg13">De tijd is om, hè. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note35">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg14">Uw tijd is om. Dank u. U heeft een interruptie van mevrouw Westerveld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note36">Mevrouw Westerveld (GroenLinks)</note>
+            <u who="#LisaWesterveld" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg15">Ik heb een vraag omdat we vanwege deze plenaire afronding geen tweede termijn hadden in het debat. In het debat vroeg mevrouw Wuite aan de minister wat zij nou wilde zeggen tegen instellingen en makers die de afgelopen anderhalf jaar vaak fors in de problemen zijn gekomen. Toen heb ik haar gevraagd: maar steunt u dan ook het voorstel dat we gaan doen om het steunpakket voort te zetten? Toen zei u: ik wacht even de antwoorden van de minister af. Het is in ieder geval duidelijk dat de minister niet zegt: we zetten het steunpakket voort. Ik wil daarom aan u vragen wat u daar nu van vindt. Zouden we niet ook moeten zorgen dat steun aan de organisaties, aan de mensen die het nodig hebben, ook in het komende kwartaal wordt doorgezet?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note37">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg16">We moeten elke keer via de voorzitter spreken. Ik doe dat zelf ook weleens fout, maar ik herinner u er even aan dat we dat dus wel even moeten doen. Ik geef het woord aan mevrouw Wuite.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note38">Mevrouw Wuite (D66)</note>
+            <u who="#JorienWuite" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg17">Herinnert u mij er ook aan als ik het weleens fout doe, want ik ben ook een nieuw Kamerlid.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg18">Voorzitter. Dat is inderdaad aan de orde geweest. Ik deel natuurlijk de zorgen, maar ik ben tot nu toe wel overtuigd door de antwoorden die de minister heeft gegeven, waarin ze bevestigt dat ze een aantal regelingen voortzet, dat ze de vinger aan de pols houdt en dat ze daar ook afspraken over heeft gemaakt met de minister van Financiën. Ook het debat van gisteren, dat ook de generieke steunpakketten ging, heeft bevestigd dat er wat dat betreft is geduwd om meer mogelijk te maken en dat er inderdaad een regeling wordt getroffen om de steun wel door te zetten voor degene die 50% of minder omzet behaalt, vanwege de beperkingen die er nog zijn en vanwege de opstartmogelijkheden. Dat zijn signalen en aanpassingen die de afgelopen dagen zijn gemaakt die vertrouwen geven, vind ik. Maar ik ga er wel alles aan doen om te kijken hoe dat vierde kwartaal inzet. We moeten niet vergeten dat Water voor de kunst een signaal is waarin ook wordt gezegd dat het niet meer om steun gaat, bij het heropenen van de samenleving. Ook de culturele sector geeft eigenlijk aan dat ze het zelf willen doen. Water voor de kunst is daar een signaal van. Dat vind ik dus een heel belangrijk signaal dat wordt afgegeven. Op dit moment ga ik even af op de steun voor de inzet van de minister en de monitoring die is aangegeven en waaraan de minister zich heeft gecommitteerd. Ik hoop ook dat dat zo meteen in de reactie van de minister wordt bevestigd. Van het herstel heb ik heel nadrukkelijk gezegd: ik doe daarin mee. Dat is natuurlijk ook conform de motie die ik daarover heb ingediend. D66 wil de creatieve en culturele sector gewoon nog verder uitbouwen en versterken. Dat is de inzet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note39">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg19">Dank. Dan geef ik het woord aan mevrouw Gündoğan van Volt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note40">Mevrouw Gündoğan (Volt)</note>
+            <u who="#NilüferGündoğan" ana="#regular topic:techn" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u16">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg20">Dank u wel, voorzitter. In navolging van mijn collega Dassen die vorige week een motie indiende over de RRF, die is aangenomen, dien ik de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note41">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note42">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note43">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note44">constaterende dat er gedurende de coronacrisis veel cultureel en creatief kapitaal, zowel materieel als immaterieel, verloren is gegaan in Nederland en in Europa;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note45">constaterende dat de culturele en creatieve sector relatief gezien harder getroffen is dan veel andere sectoren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note46">constaterende dat er voor Nederland 5,8 miljard euro klaarligt vanuit het Europees Herstelfonds, maar dat Nederland tot dusverre nog geen (concept)plan heeft ingediend om aanspraak te maken op deze gelden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note47">constaterende dat het demissionaire kabinet vanwege de aangenomen motie-Dassen c.s. (35925, nr. 41) de Kamer voor 1 november dient te informeren over de voortgang voor de indiening van het plan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note48">overwegende dat het herstel van de culturele en creatieve sector een wezenlijke bijdrage levert aan de versterking van onze democratie en ons innovatieve, economische vermogen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note49">overwegende dat het Europees Parlement in overweldigende meerderheid een motie heeft aangenomen die stelt dat ten minste 2% van de gelden uit het Europees Herstelfonds in de culturele en creatieve sector geïnvesteerd moet worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note50">verzoekt de regering ten minste 2% van het voor Nederland beschikbare budget uit het Europees Herstelfonds te investeren in de culturele en creatieve sector,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note51">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note52">Deze motie is voorgesteld door de leden Gündoğan, Simons en Westerveld.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note53">Zij krijgt nr. kst-32820-441</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note54">Mevrouw Gündoğan (Volt)</note>
+            <u who="#NilüferGündoğan" ana="#regular topic:macro" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u17">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg21">Dan de volgende motie. Het gaat mij echt om structureel en meer geld voor de sector.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note55">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note56">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note57">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note58">overwegende dat de culturele en creatieve sector bijdraagt aan het oplossen van breed-maatschappelijke vraagstukken op het gebied van volkshuisvesting, duurzaamheid, gezondheidszorg, welzijn en digitalisering;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note59">overwegende dat een bruisende culturele en creatieve sector van enorme toegevoegde waarde is voor het verhogen van de brede maatschappelijke welvaart;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note60">overwegende dat hiermee een nieuwe, bredere blik op de culturele en creatieve sector benodigd is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note61">overwegende dat onduidelijk is wat de exacte multipliereffecten en kostenbesparingen zijn van investeringen in de culturele en creatieve sector op het gebied van innovatie, economische vooruitgang, onderwijs, zorg en welzijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note62">verzoekt de regering een onderzoek uit te voeren naar de multipliereffecten van de culturele en creatieve sector op innovatie en economische vooruitgang en naar de pay-offeffecten van investeringen in de culturele en creatieve sector op de uitgaven in de zorgsector,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note63">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note64">Deze motie is voorgesteld door de leden Gündoğan en Ploumen.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note65">Zij krijgt nr. kst-32820-442</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note66">Dank u wel. En u kunt weer ademhalen. Wilt u uw moties hier inleveren? Dan geef ik het woord aan mevrouw Ploumen van de PvdA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note67">Mevrouw Ploumen (PvdA)</note>
+            <u who="#LiliannePloumen" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u18">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg22">Voorzitter, dank u wel. Allereerst zou ik tegen mevrouw Gündoğan willen zeggen dat ik graag meeteken. Ik denk dat dit een belangrijke oproep is om te laten zien hoe de waarde van de culturele en kunstensector niet alleen immaterieel is, goed voor de geest, maar ook goed voor onze welvaart.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg23">Voorzitter. Ik heb één motie. Mevrouw Westerveld kondigde dat al aan. De motie gaat over een herstelplan voor de sector op de langere termijn.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note68">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note69">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note70">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note71">constaterende dat de kunst- en cultuursector ondanks heropening kampt met lage bezoekersaantallen en grote omzetverliezen en dat hierdoor blijvende schade aangericht wordt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note72">overwegende het verzoek van de Kamer om in samenwerking met de culturele en creatieve sector en lokale overheden voorstellen te verkennen voor herstel (de motie-Wuite c.s., 32820, nr. 424);</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note73">constaterende dat de demissionaire regering de besluitvorming over een herstelplan over wil laten aan een nieuw kabinet maar de sector hier niet op kan wachten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note74">verzoekt de regering zo spoedig mogelijk te komen met een herstelplan gericht op de langere termijn, en dit uiterlijk 1 januari 2022 in te voeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note75">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note76">Deze motie is voorgesteld door de leden Ploumen, Westerveld, Gündoğan, Wuite, Kwint, Wassenberg, Van Haga, Simons en Pouw-Verweij.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note77">Zij krijgt nr. kst-32820-443</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note78">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u19">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg24">Dank u. Dan kom ik aan bij de heer Kwint van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note79">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u20">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg25">Goedemorgen, voorzitter. Het is goed om u weer hier te treffen. Ik ben bang dat het kabinet een fout maakt met het te snel afkappen van de steun die nodig is voor de culturele sector. Ja, er blijven dingen bestaan, maar zeker over de positie van makers maken wij ons grote, grote zorgen. Eerlijk gezegd vind ik dat een antwoord "we houden de vinger aan de pols" niet geruststellend genoeg. Daarom hebben wij de voorstellen van onder meer mevrouw Westerveld en mevrouw Ploumen gesteund voor een herstelplan op lange termijn en het voortzetten van de steun op korte termijn.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg26">Er blijven nog wel wat losse eindjes, bijvoorbeeld de positie van jonge makers. Heel veel staat al voorgeprogrammeerd. Het zal voor jonge mensen in de cultuur moeilijk zijn om een plek te kunnen bevechten om hun mooie kunsten te vertonen. Daarom het volgende voorstel.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note80">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note81">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note82">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note83">constaterende dat het vanwege de druk op onder meer podia, musea en galerieën moeilijk zal worden voor beginnende makers om een plek te bevechten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note84">verzoekt het kabinet in de brief over de contouren van het herstelplan voor de sector specifiek aandacht te geven aan deze groep, en voorstellen hiertoe voor de begrotingsbehandeling naar de Kamer te sturen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note85">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note86">Deze motie is voorgesteld door de leden Kwint, Westerveld, Ploumen, Wuite, Wassenberg en Gündoğan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note87">Zij krijgt nr. kst-32820-444</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note88">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u21">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg27">Dan het garantiefonds. Dat garantiefonds moest er komen, omdat niemand zich meer kan verzekeren tegen een pandemie. Ook wanneer de pandemie volgend jaar over is — we hopen dat natuurlijk — blijft het probleem dat je je niet kunt verzekeren en dat je dus het risico loopt dat bij een nieuwe variant een festival dat niet kan doorgaan de nekslag is voor een groot deel van de culturele evenementensector. Daarom het volgende voorstel.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note89">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note90">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note91">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note92">constaterende dat sinds corona culturele festivals en evenementen onverzekerbaar zijn tegen een pandemie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note93">verzoekt de regering een oplossing te zoeken voor de onverzekerbaarheid van culturele evenementen tegen een pandemie voor de komende jaren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note94">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note95">Deze motie is voorgesteld door de leden Kwint, Westerveld, Ploumen, Wuite, Wassenberg en Gündoğan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note96">Zij krijgt nr. kst-32820-445</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note97">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:domes" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u22">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg28">Als laatste het garantiefonds en de problemen waar sommige festivals mee te maken hebben, omdat het zolang duurde voordat het fonds er was.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note98">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note99">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note100">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note101">constaterende dat het garantiefonds lang op zich heeft moeten laten wachten en dat culturele festivals, artiesten en toeleveranciers hierdoor in de problemen zijn geraakt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note102">verzoekt de regering in de verdere uitvoering van het garantiefonds coulance te betrachten, zeker voor de culturele evenementen die aantoonbaar last hebben gehad van het laat beschikbaar komen van dit fonds,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note103">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note104">Deze motie is voorgesteld door de leden Kwint, Westerveld, Ploumen, Wassenberg en Gündoğan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note105">Zij krijgt nr. kst-32820-446</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note106">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u23">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg29">Dank u. Netjes binnen de spreektijd. U mag de moties hier inleveren. Dan geef ik het woord aan de heer Wassenberg van de Partij voor de Dieren. Ik hoor van de heer Kwint dat er nog een naam bij zijn motie komt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note107">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u24">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg30">Excuus, voorzitter. Schijnbaar had ik het mailtje van mevrouw Gündoğan gemist dat zij graag ook alle drie de moties meeondertekent. Dat ga ik even in orde maken en dan breng ik ze bij de administratie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note108">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u25">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg31">Dan geef ik nu het woord aan de heer Wassenberg van de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note109">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u26">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg32">Dank, voorzitter. Op mijn klokje staat al heel dreigend "afronden s.v.p.", maar volgens mij heb ik toch nog twee minuten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg33">Voorzitter. Ik ga even terug naar het begrotingsdebat van vorig jaar. Toen gaf de minister aan dat wanneer de gemeenteraad besluit om het geld anders uit te geven dan aan de kunst- en cultuursector, "de desbetreffende wethouder meteen een telefoontje van mij kan verwachten dat dit niet de bedoeling was". Dat verkeerd uitgeven van geld is in minstens een gemeente gebeurd; we spraken daar dinsdagavond over. Ikzelf maar ook andere woordvoerders — ik noem mevrouw Ploumen en de heer Kwint — hebben daar hun ongenoegen geuit over het feit dat Bergen op Zoom — daar gaat het om — 3% van de beschikbare 1,4 miljoen heeft uitgegeven aan cultuur en 36%, twaalf keer zoveel, aan ambtenaren of allerlei gemeentelijke reorganisaties. Ik vind het belangrijk dat we als Kamer een signaal afgeven dat dit echt niet kan, dat dit niet de bedoeling is. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note110">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note111">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note112">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note113">overwegende dat de coronasteun voor cultuur ook daadwerkelijk besteed dient te worden aan de kunst- en cultuursector;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note114">spreekt uit dat het volstrekt ongepast is om dit geld te besteden aan andere zaken dan aan de kunst- en cultuursector,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note115">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note116">Deze motie is voorgesteld door de leden Wassenberg, Teunissen, Kwint, Westerveld, Ploumen, Wuite, Van Haga, Gündoğan en Pouw-Verweij.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note117">Zij krijgt nr. kst-32820-447</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note118">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u27">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg34">Dan nog een motie over hetzelfde thema.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note119">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note120">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note121">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note122">constaterende dat geld uit het coronasteunpakket dat was bedoeld voor de cultuursector, op sommige plaatsen in het land niet is uitgegeven of zelfs is uitgegeven aan andere zaken dan de cultuursector;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note123">overwegende dat er in een eerder stadium al is gewaarschuwd voor het verkeerd uitgeven van de voor de cultuursector bestemde coronasteun;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note124">verzoekt de regering op korte termijn in kaart te brengen op welke plaatsen en voor welke bedragen de cultuursector de voor hen bestemde coronasteun is misgelopen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note125">verzoekt de regering in overleg met de betreffende overheidsinstellingen zorg te dragen voor het alsnog toekennen van de misgelopen coronasteun aan de cultuursector,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note126">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note127">Deze motie is voorgesteld door de leden Wassenberg, Teunissen, Kwint, Westerveld, Ploumen, Gündoğan, Pouw-Verweij en Van Haga.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note128">Zij krijgt nr. kst-32480-448</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note129">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u28">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg35">Dank u wel. Dan ga ik naar de heer Van Strien van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note130">De heer Van Strien (VVD)</note>
+            <u who="#GomvanStrien" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u29">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg36">Mevrouw de voorzitter, collega's. Wij hebben eergisteren een goed debat gehad met de minister over cultuur en corona. We constateerden dat de sector veel steun heeft gehad, maar liefst 3,1 miljard. Zij is door Den Haag gezien en niet onopgemerkt gebleven. Terecht, want de sector is belangrijk. Ook constateerden we dat er delen van de sector zijn die de komende tijd extra steun nodig hebben. Onder andere de nieuwe ATE, het Garantiefonds, de Suppletieregeling en de TVL 2.0 blijven daarom beschikbaar.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg37">Steun is één ding, maar de cultuur- en evenementensector wil natuurlijk vooral gasten ontvangen, ondernemen, maken, ten toon stellen. De resultaten van de fieldlabevenementen kunnen daaraan de komende tijd bijdragen, zeker als er een nieuwe variant komt of een griepgolf. Om samen met de sector de lessen van de fieldlabs goed te borgen en ervoor te zorgen dat als het nodig is de uitkomsten een rol kunnen spelen, dien ik de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note131">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note132">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note133">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note134">constaterende dat er veel energie, tijd en geld gemoeid zijn geweest bij de opzet en uitrol van fieldlabevenementen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note135">constaterende dat alle betrokken partijen op lokaal, regionaal en nationaal niveau en zowel publiek als privaat het belang van de onderzoeksresultaten van fieldlabevenementen onderschrijven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note136">constaterende dat de onderzoeksresultaten van fieldlabevenementen en de samenwerkingen die daaraan ten grondslag liggen, ook in de toekomst van grote waarde kunnen zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note137">verzoekt het kabinet om samen met de partners en betrokkenen van fieldlabevenementen snel te komen tot een evaluatie langs de zes gedefinieerde categorieën, zowel van de opzet van het onderzoek zelf als van de wijze waarop deze heeft doorgewerkt op de besluitvorming;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note138">verzoekt het kabinet om met de partners en betrokkenen van fieldlabevenementen in gesprek te gaan om te onderzoeken of en hoe een vervolg of het fieldlabprogramma zinvol is, of de resultaten hun zeggingskracht in de toekomst behouden en, zo ja, hoe deze ook in de toekomst een relevante en tijdige rol in de besluitvorming kunnen spelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note139">verzoekt het kabinet om de Kamer hierover, voor de begroting Cultuur, te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note140">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note141">Deze motie is voorgesteld door de leden Van Strien en Werner.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note142">Zij krijgt nr. kst-32820-449</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note143">De heer Van Strien (VVD)</note>
+            <u who="#GomvanStrien" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u30">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg38">Met nog 0,7 seconde op de teller dank ik u, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note144">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u31">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg39">Dank u. Dan geef ik het woord aan de heer Van Haga van de Groep Van Haga</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note145">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u32">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg40">Dank u wel, voorzitter. De culturele sector heeft het ontzettend zwaar gehad door de coronamaatregelen. Het stoppen van de steun, terwijl er nog steeds sprake is van een capaciteitsrestrictie en een coronapas is niet in het belang van Nederland. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note146">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note147">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note148">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note149">overwegende dat de cultuursector enorm heeft geleden onder de coronamaatregelen en nog steeds last heeft van de invoering van de coronapas en de capaciteitsrestrictie van 75%;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note150">verzoekt de regering de coronapas en de capaciteitsrestrictie in de cultuursector af te schaffen ofwel de steunmaatregelen voor de cultuursector te verlengen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note151">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note152">Deze motie is voorgesteld door de leden Van Haga en Pouw-Verweij.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note153">Zij krijgt nr. kst-32820-450</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note154">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u33">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg41">Dank u. Dan kijk ik naar de minister hoeveel minuutjes ze nodig heeft. Vijf minuutjes? Mevrouw Ploumen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note155">Mevrouw Ploumen (PvdA)</note>
+            <u who="#LiliannePloumen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u34">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg42">Ik hoor net van mevrouw Pouw-Verweij dat zij graag ook mijn motie meetekent. Als het zo even mag? Dan hebben we de administratie op orde.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note156">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u35">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg43">Dat gaan we gewoon doen. Dan vraag ik de heer Van Haga om de motie nog even in te leveren. We schorsen voor vijf minuutjes, zodat de minister de moties kan bekijken.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note157">De vergadering wordt van 10.37 uur tot 10.42 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note158">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u36">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg44">Ik geef het woord aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note159">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u37">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg45">Voorzitter, dank u wel. Er zijn twaalf moties ingediend. Ik zal niet het hele debat overdoen, maar alleen kort de moties van een appreciatie voorzien. De motie-Westerveld c.s. op stuk nr. 439 vraagt om de steunpakketten te continueren en om daar strengere voorwaarden aan te stellen. Ik heb u in het debat uitgelegd dat een deel van de steun gewoon doorgaat in Q4. Ik zeg tegen mevrouw Westerveld dat ik echt niet ga wachten totdat een instelling in de problemen komt. Daar zijn we echt eerder bij. De contacten zijn zo goed dat we dat echt eerder zien. Maar u begrijpt dat deze motie wordt ontraden, ook gelet op het debat dat hier gisteren is gevoerd.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg46">De motie-Wuite/Westerveld op stuk nr. 440 is een "spreekt uit"-motie, dus die is aan de Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg47">De motie-Gündoğan c.s. op stuk nr. 441 gaat over een onderzoek naar de multipliereffecten. Het lijkt me goed om dat te doen, om eens goed in kaart te brengen wat de kunst- en cultuursector betekent voor de hele samenleving. Ik moet daar wel één disclaimer bij geven. In eerdere debatten is er gevraagd om meer middelen beschikbaar te stellen voor de cultuursector. Ik heb alle onderzoeksbudgetten van mijn departement daarvoor ingezet. Ik zit dus een beetje krap bij kas, maar we gaan met de adviesorganen en de Raad voor Cultuur kijken hoe we dit op een goede manier kunnen doen. Ik denk dat hierbij ook breder andere adviesorganen van de regering kunnen worden betrokken. Ik denk dat het heel goed is dat we dit onderzoek doen, dus deze motie, op stuk nr. 441, krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note160">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u38">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg48">Ik zie op dit punt een interruptie van mevrouw Gündoğan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note161">Mevrouw Gündoğan (Volt)</note>
+            <u who="#NilüferGündoğan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u39">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg49">Het is meer een suggestie. Wellicht kunnen we daarvoor ook budgetten van andere ministeries aanwenden, omdat dit naar alle waarschijnlijkheid ook in hun voordeel zal uitpakken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note162">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u40">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg50">Ja, maar u snapt ook dat ik daar geen uitspraken over kan doen. Nogmaals, we gaan kijken hoe we dat in den brede kunnen doen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg51">Dan de motie-Gündoğan op stuk nr. 442 ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note163">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u41">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg52">Dus de minister geeft oordeel Kamer?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note164">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:macro" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u42">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg53">Ja, de motie op stuk nr. 441 krijgt oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg54">Over de motie op stuk nr. 442 is zowel bij de Algemene Politieke Beschouwingen als gisteren gesproken. De regering spreekt met één mond, dus ik sluit mij aan bij wat de minister-president daarover heeft gezegd. Ik ontraad daarom deze motie, maar u kent mijn sympathie voor de gedachte.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg55">Voorzitter. Dan de motie-Ploumen c.s. op stuk nr. 443. Ik wil daar een aantal opmerkingen bij maken. In de constateringen staat dat de sector ondanks heropening kampt met lage bezoekersaantallen. Ik weet niet welke voorspellende gave u heeft, maar ik kan dat niet voor Q4 voorspellen. Bovendien vind ik dat we met elkaar vooral moeten uitstralen en stimuleren dat de zalen vol komen te zitten. We moeten niet bij voorbaat al uitspreken dat dat wel zal gaan tegenvallen. Overal waar ik kan, roep ik mensen op en stimuleer ik mensen om kaartjes te kopen en om ernaartoe te gaan, want het is veilig en het doet ons allemaal goed. Doe dat dus vooral. Ik heb in het debat van afgelopen dinsdag gezegd dat ik voor de begrotingsbehandeling kom met de contouren van het herstelplan. Ik heb u uitgelegd dat als je het goed wilt doen, je voor een aantal dingen echt structurele middelen moet hebben. U begrijpt ook dat ik die in deze demissionaire status niet meer ga regelen. Ik heb er dus een probleem mee om het uiterlijk 1 januari 2022 in te voeren. Ik zou u de volgende suggestie kunnen doen. Ik kom zo snel mogelijk met de contouren voor dat plan. Ik heb toegezegd dat ik dat voor de begroting doe. Als u zegt "ik wil u echt strak houden aan een invoering per 1 januari 2022", dan moet ik de motie ontraden, want dat kan ik niet beloven. Maar met elkaar vinden we dat het herstelplan er zo goed en zo stevig mogelijk moet komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note165">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u43">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg56">Mag ik dan de ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note166">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u44">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg57">De motie op stuk nr. 443 is ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg58">Voorzitter. Dan de motie van de heer Kwint op stuk nr. 444 over de aandacht voor jonge makers en speelplekken in het herstelplan. Ik denk dat wij delen dat het ongelofelijk belangrijk is dat jong talent weer de ruimte vindt. Ik snap ook dat zij het in deze tijd moeilijk hebben. Deze motie krijgt dus oordeel Kamer. Ik zal daar aandacht aan besteden in het herstelplan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg59">Dan de motie van de heer Kwint op stuk nr. 445 over de onverzekerbaarheid van culturele evenementen. We hebben nu dat garantiefonds ingezet omdat de sector op korte termijn werd geconfronteerd met die onverzekerbaarheid en met mogelijke verboden van de overheid. Maar zoals in heel veel sectoren geldt: daar waar risico's moeilijk verzekerbaar zijn, is dat ook wel een kwestie van de sector onderling. Dat doen we in andere sectoren ook zo. Kijk bijvoorbeeld naar de reisbranche. Je zorgt ervoor dat je als sector gezamenlijk die garantie opbouwt. Daarover wil ik wel met de sector in gesprek, maar u vraagt hier echt aan de regering om met een oplossing te komen. Het is niet aan de regering om structureel garant te staan voor onverzekerbare risico's. Het is echt aan sectoren om dat samen op te bouwen. Deze motie ontraad ik dus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note167">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u45">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg60">Ik zie een interruptie van de heer Kwint.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note168">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u46">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg61">Ik heb in de motie expres niet het woord "garantiefonds" opgenomen, maar geschreven: "een oplossing te zoeken". De reden waarom ik dat doe, is de volgende. Het gaat hier specifiek om de pandemiedekking. Ik zie op dit moment eerlijk gezegd niet in hoe de evenementen- en de culturele sector gezamenlijk zorg kunnen dragen voor een fonds waarmee ze, mocht komende zomer alles weer uitvallen, dat helemaal op hun schouders zouden kunnen dragen. Dat kan de sector volgens mij helemaal niet aan. Daarom denk ik dat de uitkomst van zo'n zoektocht inderdaad zal zijn dat de overheid daar een belangrijke rol in heeft. Maar mijn motie biedt wel de ruimte om in gesprek te gaan met de sector en een oplossing te zoeken. Ik heb misschien een ander beeld van wat vermoedelijk de uitkomst gaat zijn, maar ik heb die uitkomst met opzet niet in de motie opgeschreven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note169">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u47">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg62">Daar verschillen wij van mening. Uw slotsom is wel dat u het aan de regering opdraagt. Er zijn meerdere sectoren waar dit speelt. Het is primair aan sectoren zelf — ik denk bijvoorbeeld ook aan de filmsector — om te kijken hoe men dat onderling kan doen. Als er echt dingen onmogelijk zijn, moeten we daar natuurlijk naar kijken. Maar om er bij voorbaat van uit te gaan dat dat een overheidstaak is, daar ga ik niet in mee. Ik ontraad de motie dus.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg63">Voorzitter. Dan de motie van de heer Kwint op stuk nr. 446 om bij de uitvoering van het garantiefonds coulance te betrachten. Dat is volgens mij ook gisteren in het debat met de minister van EZK gewisseld. Wij hebben van de zomer reeds een aantal coulancemaatregelen in het garantiefonds aangebracht. We zijn bijvoorbeeld van 80% naar 100% gegaan, maar ook de termijn waarbinnen het kan worden aangevraagd, is van drie weken naar drie maanden gegaan. Ik zie daar verder geen mogelijkheden toe. Deze motie wordt dus ook ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg64">De motie op stuk nr. 447 van de heer Wassenberg is een spreekt-uitmotie. Dat is dus aan uw Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg65">De motie op stuk nr. 448 lokt er bijna toe uit om hier een hele verhandeling te gaan houden over de verhoudingen in het binnenlands bestuur en de manier waarop rijksfinanciën en gemeentefinanciën werken. U vraagt hier iets wat in mijn ogen onmogelijk, maar ook onwenselijk is. Wat u hier eigenlijk van mij vraagt, is of ik voor elke culturele instelling wil nagaan of zij door hun gemeente voldoende gesteund zijn in de pandemiecrisis. Dat is ondoenlijk. Het is ook onwenselijk. We hebben er heel bewust voor gekozen om de steun die wij aan gemeenten geven voor de culturele sector te geven via een doeluitkering. Dat betekent dat gemeenten grote vrijheid hebben in het besteden daarvan, maar wel de opdracht krijgen om die zo veel mogelijk aan cultuur te besteden. Het is vervolgens aan de lokale democratie om daarop toe te zien.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg66">We hebben dit ook in eerdere debatten gewisseld. Het alternatief was geweest om het via een zogenaamde specifieke uitkering te doen. Dat had grote vertraging gegeven en grote bureaucratie. Een meerderheid van de Kamer heeft destijds met mij geconstateerd: dat vinden we niet wenselijk. Maar u vraagt van mij in deze systematiek om per gemeente voor alle culturele instellingen te controleren hoe dat gegaan is. Nee, wij moeten hier niet de gemeenteraad van elke gemeente willen overdoen. Dit is echt des gemeenteraads en dat is hoe wij het binnenlands bestuur hier hebben ingericht: bij een doeluitkering die wordt opgenomen in het Gemeentefonds, staat in de circulaire waarin de minister van Binnenlandse Zaken dat geld overmaakt naar de gemeenten, met welk doel die toevoeging gebeurt. Bij de eerste tranche die we op die manier aan de gemeenten gaven, hebben we zelfs per gemeente aangegeven om hoeveel geld het ging. Dat doen we vaak niet, maar dat heb ik hier heel bewust gedaan, juist omdat de gemeenteraad daarmee heel precies kon zien om hoeveel geld het ging. Dan vind ik echt dat we het aan de lokale democratie moeten laten om dat te controleren. Anders gaan we hier de gemeenteraad van elke gemeente in Nederland overdoen. Dat lijkt me niet de bedoeling. Dus ik ontraad deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note170">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u48">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg67">Een korte reactie van de heer Wassenberg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note171">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u49">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg68">Ik snap die reactie ten dele. Wij zijn hier de Tweede Kamer; wij zijn niet de gemeenteraad van Bergen op Zoom. Maar ik verwijs toch nog een keer naar het begrotingsdebat. Het gaat natuurlijk om die coronasteun voor de cultuursector die via het Rijk naar de gemeenten gaat. De minister zei toen: "Als het fout gaat, kan de desbetreffende wethouder een telefoontje van mij verwachten en zeg ik dat dat niet de bedoeling was." De minister heeft toen dus zelf al aangegeven dat ze de vinger toch wel een beetje aan de pols wil houden om te kijken of het allemaal goed terechtkomt. We hebben nu een voorbeeld gezien, een schrijnend voorbeeld, waarin het geld helemaal verkeerd terechtgekomen is. Ik vraag dus toch of dit betekent dat de minister terugkomt op haar eerdere opmerking en dat ze niet gaat ingrijpen of in elk geval niet een telefoontje pleegt. Want hier is iets helemaal misgegaan en ik vraag de minister om hier wel dat woedende telefoontje te plegen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note172">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u50">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg69">De gemeenteraad van Bergen op Zoom vergadert hier vandaag over. Ik geef u de tip om uw motie nog even naar de gemeenteraad te sturen, zodat de gemeenteraad ook weet wat de Kamer daarvan vindt. Wat ik doe, is de vinger zorgvuldig aan de pols houden. Ik heb nog niet heel veel signalen gekregen — welgeteld twee — dat gemeenten echt wezenlijk andere keuzes maken. Maar u vraagt in deze motie iets wezenlijk anders. U vraagt mij om zorg te dragen voor het alsnog toekennen van het geld. Dat betekent dat ik op dat moment op de stoel van de gemeenteraad ga zitten, want net zoals u budgetrecht heeft, heeft de gemeenteraad van een gemeente dat ten aanzien van het geld dat voor die gemeente in het Gemeentefonds zit. U vraagt mij hier om even op die stoel van de gemeenteraad te gaan zitten. Dat kan niet. Dat is in ons binnenlands bestuur gewoon niet hoe wij met elkaar werken. Het lijkt mij ook zeer onwenselijk. Ik blijf dus bij het ontraden van de motie op stuk nr. 448.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note173">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u51">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg70">Dank. Ik zie dat een aantal mensen hier de discussie van het commissiedebat misschien toch weer willen overdoen. Dat lijkt me niet heel handig in een tweeminutendebat, maar ik geef kort de gelegenheid voor een reactie. De heer Van Haga.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note174">De heer Van Haga (Groep Van Haga)</note>
+            <u who="#WybrenvanHaga" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u52">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg71">Ik vind het juist een hele goede motie en ik wil de heer Wassenberg vragen of ook mijn naam daaronder kan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note175">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u53">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg72">Dan kijk ik naar de heer Kwint.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note176">De heer Kwint (SP)</note>
+            <u who="#PeterKwint" ana="#regular topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u54">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg73">Ik sta er al onder. Dat hoef ik dus niet meer te vragen. Feitelijk is het probleem in die gemeente nou juist dat het geld al uitgegeven is voordat daar een besluit over genomen was. Het gaat er dus niet om dat wij hier het budgetrecht van de gemeenteraad overnemen. Het gaat er hier om dat geld dat vanuit het Rijk naar gemeenten is gegaan voor cultuur, daar door de gemeente, dus niet door de gemeenteraad, verkeerd is uitgegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note177">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u55">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg74">Dan is het nog steeds als volgt. De gemeenteraad weet hoeveel geld de desbetreffende gemeente van het Rijk heeft gekregen aan coronasteun voor cultuur. Dat zit in een brede doeluitkering. Een eigenschap van een brede doeluitkering is dat de gemeente vrijheid heeft, net zoals bij al die andere brede doeluitkeringen die gemeenten krijgen en waarbij u ook niet gaat zeggen dat de desbetreffende minister hier in de Kamer er verantwoording over moet afleggen of dat precies zo is gegaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note178">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u56">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg75">Dus de motie is ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note179">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:cultu" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u57">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg76">Het is aan de gemeenteraad om daar desnoods zijn budgetrecht op uit te oefenen. Overigens, voordat hier het beeld ontstaat dat gemeenten die steun niet aan cultuur geven: er zijn heel veel gemeenten die er juist nog een schep bovenop hebben gedaan. Ik hecht er toch aan om dat te zeggen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg77">Dan de motie op stuk nr. 449, van de heer Van Strien, over het gesprek dat wij gaan voeren met de partners uit de fieldlabs. Die fieldlabs, zeg ik even voor de goede orde, zijn niet van de overheid. Die heeft de sector zelf opgezet. Maar ik ga graag met hen in gesprek over het vervolg, dus die motie krijgt oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg78">Voorzitter. Dan de motie van de heer Van Haga, op stuk nr. 450. Volgens mij zijn hierover zo veel eerdere debatten gevoerd dat het de heer Van Haga niet zal verbazen dat ik deze motie ontraad.</seg>
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg79">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note180">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u58">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg80">Dank u.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note181">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note182">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.u59">
+               <seg xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.seg81">Dan schors ik de vergadering voor een enkel ogenblik en ga ik kijken of de woordvoerders voor het volgende debat klaarzitten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-09-30-tweedekamer-4.note183">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

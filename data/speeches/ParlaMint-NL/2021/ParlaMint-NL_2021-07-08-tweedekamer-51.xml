@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-07-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-07-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 99, Session 51 (2021-07-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 99, Session 51 (2021-07-08)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="99" xml:lang="en">Meeting 99</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="51" xml:lang="en">Session 51</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-07-08">Sitting 2021-07-08</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="76">76 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="76">76 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3583">3,583 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3583">3,583 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-07-08">2021-07-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="252"/>
+               <tagUsage gi="seg" occurs="96"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="76"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-07-08">2021-07-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.head1">Discriminatie en racisme</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u1">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg1">Aan de orde is het tweeminutendebat over discriminatie en racisme. Er hebben zich maar liefst dertien sprekers gemeld. Misschien heeft u al van uw collega's gehoord dat wij vandaag werken met een zogeheten neo-kerstregime. Mijn collega Bosma heeft dat vanochtend al gehanteerd, en het loopt super. Het betekent dat ik geen interrupties in de eerste termijn van de kant van de Kamer toesta, en dat in de termijn van de regering alleen de mensen die de motie hebben ingediend, één vraag aan het kabinet kunnen stellen. Ik hoop dat we daarmee een beetje vaart in de agenda houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg2">Wij gaan snel beginnen. De eerste spreker is mevrouw Belhaj van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note2">Mevrouw Belhaj (D66)</note>
+            <u who="#SalimaBelhaj" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u2">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg3">Voorzitter. Het is goed dat we het commissiedebat Discriminatie en racisme hebben gehad en hier vandaag ook plenair nog aandacht aan besteden. Ik heb hier een petitie van drie verschillende organisaties, met 60.960 handtekeningen van mensen die pleiten voor een nationale herdenkings- en feestdag op Keti Koti, 1 juli. In de Kamer zijn daar natuurlijk ook gedachtes over. Ik dank de indieners voor deze petitie. Zij zal niet verloren gaan. Sterker nog, de petitie is een goede stimulans om hiermee door te gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg4">Ik heb daarom vandaag twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note6">overwegende dat de slavenhandel en de slavernij die tussen de zeventiende eeuw en 1 juli 1873 direct of indirect onder Nederlands gezag hebben plaatsgevonden, misdrijven tegen de menselijkheid waren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note7">overwegende dat om tot herstel te komen, zodat een gezamenlijke toekomst mogelijk is, erkenning van het leed noodzakelijk is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note8">constaterende dat het Adviescollege Dialooggroep Slavernijverleden heeft geadviseerd dat de Nederlandse Staat verantwoordelijkheid neemt om de misstanden van het slavernijverleden onder ogen te zien;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note9">spreekt uit dat de Nederlandse Staat excuses zou moeten aanbieden voor het slavernijverleden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note10">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note11">Deze motie is voorgesteld door de leden Belhaj, Van Baarle, Leijten, Simons, Ceder, Den Haan, Kathmann, Van Esch en Westerveld.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note12">Zij krijgt nr. kst-30950-252</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note13">Mevrouw Belhaj (D66)</note>
+            <u who="#SalimaBelhaj" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u3">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg5">Ik vind het belangrijk hierbij ook te benoemen dat de fractie van DENK volgens mij al een jaar geleden een soortgelijke motie heeft ingediend. Die haalde het toen niet. Ik vind het belangrijk om te benoemen dat DENK dit eerder al heeft geprobeerd in de Kamer. We blijven het proberen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg6">Voorzitter. Mijn tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note14">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note15">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note16">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note17">constaterende dat gedurende lange tijd een roep uit de samenleving is om van 1 juli een nationale herdenking en feestdag te maken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note18">overwegende dat het instellen van 1 juli als nationale herdenking en feestdag van belang is om een speciale dag te maken voor bezinning, dialoog en brede aandacht voor het gedeelde verleden in de Nederlandse samenleving;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note19">spreekt uit dat 1 juli 2022 een nationale herdenking en feestdag wordt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note20">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note21">Deze motie is voorgesteld door de leden Belhaj, Van Baarle, Leijten, Simons, Ceder, Den Haan, Kathmann, Van Esch en Westerveld.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note22">Zij krijgt nr. kst-30950-253</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note23">Mevrouw Belhaj (D66)</note>
+            <u who="#SalimaBelhaj" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u4">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg7">Voorzitter. Ik realiseer me dat er op het papier hier voor me een foute datum staat. Dat zal ik direct even corrigeren, met uw goedvinden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note24">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u5">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg8">Oké. Dank u wel. Dan is nu het woord aan mevrouw Westerveld. Zij geeft aan geen spreektijd te wensen. De heer Bosma zie ik niet. Dan is het woord aan de heer Van Baarle van DENK.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note25">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u6">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg9">Voorzitter. Dank u wel.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note26">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note27">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note28">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note29">constaterende dat naar aanleiding van een aangenomen Kamermotie er een Nationaal Coördinator Discriminatiebestrijding en Racisme wordt aangesteld;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note30">overwegende dat deze motie tevens verzocht om deze coördinator voldoende middelen te geven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note31">overwegende dat verkennend onderzoek heeft opgeleverd dat voor de instelling van de NCDR een structureel meerjarig budget van circa 5 miljoen euro nodig is met een startbudget van 2 miljoen euro opbouwend;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note32">verzoekt de regering bij de begrotingsbehandeling een voorstel te doen hoe de NCDR meerjarig wordt gefinancierd en hierbij uit te gaan van het adviesbedrag uit de verkenning,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note33">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note34">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note35">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note36">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note37">verzoekt de regering om de NCDR jaarlijks onafhankelijk aan de Kamer te laten rapporteren over de activiteiten en de resultaten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note38">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note39">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note40">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note41">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note42">constaterende dat de meldingsbereidheid van discriminatie niet jaarlijks wordt bijgehouden en — wanneer deze wel wordt gemeten — niet per grond wordt uitgesplitst;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note43">verzoekt de regering de meldingsbereidheid van discriminatie jaarlijks te meten en uit te splitsen naar discriminatiegrond,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note44">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note45">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note46">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note47">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note48">constaterende dat in de systemen van de Raad voor de rechtspraak geen onderscheid wordt gemaakt tussen de verschillende typen taakstraffen die door de rechter worden opgelegd inzake discriminatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note49">verzoekt de regering te bewerkstelligen dat er onderscheid wordt gemaakt tussen de taakstraffen die bij discriminatie worden opgelegd in de rapportage, en het effect hiervan, en hierover te rapporteren aan de Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note50">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note51">Deze motie is voorgesteld door het lid Van Baarle.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note52">Zij krijgt nr. kst-30950-254</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note53">Deze motie is voorgesteld door het lid Van Baarle.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note54">Zij krijgt nr. kst-30950-255</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note55">Deze motie is voorgesteld door het lid Van Baarle.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note56">Zij krijgt nr. kst-30950-256</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note57">Deze motie is voorgesteld door het lid Van Baarle.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note58">Zij krijgt nr. kst-30950-257</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note59">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u7">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg10">Mevrouw Belhaj heeft namens D66 net gememoreerd aan het erkennen van Keti Koti als nationale feestdag en aan de excuses die eindelijk moeten komen van de zijde van de regering voor ons slavernijverleden. Wij zijn haar erkentelijk dat ze ons heeft genoemd en tekenen haar motie dus ook vol overtuiging mee. Maar naar aanleiding van het advies van de Dialooggroep hebben wij ook nog een motie. Die luidt als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note60">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note61">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note62">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note63">constaterende dat de Dialooggroep Slavernijverleden adviseert om in de wet op te nemen dat de slavernij en slavenhandel die tussen de zeventiende eeuw en 1 juli 1863 direct of indirect onder Nederlands gezag hebben plaatsgevonden, misdaden tegen de menselijkheid waren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note64">spreekt uit dat het Nederlands slavernijverleden een misdaad tegen de mensheid was,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note65">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note66">Deze motie is voorgesteld door de leden Van Baarle en Simons.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note67">Zij krijgt nr. kst-30950-258</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note68">Dank. Meneer Eerdmans? Niet. Dan de heer Ceder, ChristenUnie.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note69">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u8">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg11">Voorzitter. Ik dien een aantal moties in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note70">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note71">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note72">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note73">constaterende dat het Nederlandse slavernijverleden binnen het Koninkrijk een blijvend maatschappelijk gesprek behoeft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note74">overwegende het rapport van bevindingen van het Adviescollege Dialooggroep Slavernijverleden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note75">overwegende dat het in 2023 150 jaar geleden is dat afschaffing van de slavernij daadwerkelijk vrijheid betekende;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note76">verzoekt de regering om in navolging van het Adviescollege Dialooggroep Slavernijverleden uiterlijk in januari 2023 de uitkomsten van een onafhankelijke nationaal onderzoek naar het slavernijverleden te presenteren en inzichtelijk te maken wat er heeft plaatsgevonden ten tijde van de slavernij, namens wie en hoe, met als uiteindelijk doel te komen tot een proces dat de maatschappelijke eenheid binnen het Koninkrijk der Nederlanden versterkt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note77">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note78">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note79">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note80">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note81">overwegende het rapport van bevindingen van het Adviescollege Dialooggroep Slavernijverleden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note82">verzoekt de regering om in haar kabinetsreactie op het rapport van bevindingen in te gaan op het onderwerp verzoening en een proces dat de maatschappelijke eenheid binnen het Koninkrijk der Nederlanden versterkt en hoe het draagvlak hiervoor kan worden vergroot,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note83">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note84">Deze motie is voorgesteld door de leden Ceder, Inge van Dijk, Van Baarle, Belhaj, Den Haan, Kathmann, Van Esch en Simons.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note85">Zij krijgt nr. kst-30950-259</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note86">Deze motie is voorgesteld door de leden Ceder en Belhaj.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note87">Zij krijgt nr. kst-30950-260</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note88">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u9">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg12">Ik heb nog een motie naar aanleiding van de discussie over de Nationaal Coördinator Antisemitismebestrijding en het gebrek aan financiering, ondanks een motie en een uitspraak van de Kamer.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note89">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note90">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note91">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note92">overwegende dat de regering de Nationaal Coördinator Antisemitismebestrijding vooralsnog slechts voor één jaar heeft aangesteld en dit afbreuk doet aan de kwaliteit van werkzaamheden van de coördinator alsook aan de wens van de Kamer;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note93">overwegende dat in het amendement-Van der Graaf/Yeşilgöz-Zegerius en de motie-Van der Graaf c.s. geld wordt vrijgemaakt voor de aanstelling van deze coördinator voor de duur van twee jaar;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note94">verzoekt de regering de Nationaal Coördinator Antisemitismebestrijding alsnog voor de periode van ten minste twee jaar aan te stellen en hiertoe bij de begroting met voorstellen te komen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note95">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note96">Deze motie is voorgesteld door de leden Ceder en Ellian.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note97">Zij krijgt nr. kst-30950-261</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note98">Dank u wel. Mevrouw Van Esch, Partij voor de Dieren. Excuses, mevrouw Den Haan. Ik heb een verouderde spreeklijst. Het spijt mij. Ik heb u gewoon overgeslagen. Een groot excuus.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note99">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u10">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg13">Ik heb met mevrouw Van Esch afgesproken dat ik eerst zou gaan. Ik dacht: dan ziet u het vanzelf wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note100">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u11">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg14">Ja, excuus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note101">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u12">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg15">Geeft niks.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg16">Ik heb één motie en een vraag nog aan minister Ollongren. Ik had in het commissiedebat gevraagd naar de positie van Roze ouderen en de Roze Loper. Daarover zou u contact opnemen met uw collega De Jonge. Ik ben benieuwd of daar al iets over bekend is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg17">Dan de motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note102">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note103">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note104">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note105">overwegende dat er een opgave ligt om discriminatie op de woningmarkt tegen te gaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note106">overwegende dat het landelijk onderzoek door Artikel 1 en Radar inzicht geeft in de discriminatie op de woningmarkt en laat zien dat bij het toewijzen van woningen uit dit onderzoek blijkt dat er sprake is van ongelijke behandeling op grond van etniciteit;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note107">overwegende dat gemeenten hun eigen onderzoeken doen maar deze onderzoeken zeer verschillend zijn van opzet, methodiek en uitvoering en er daarom ook diverse uitkomsten zijn die niet met elkaar kunnen worden vergeleken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note108">overwegende dat ook de minister aangeeft dat, ondanks dat we nu meer weten dan vier jaar geleden, het landelijk onderzoek herhaald zou moeten worden om beter onderzoeksresultaten met elkaar te kunnen vergelijken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note109">verzoekt de regering om te onderzoeken of, in samenwerking met de VNG, door alle gemeenten eenzelfde onderzoek uitgevoerd kan gaan worden teneinde een goed en eenduidig beeld te krijgen van discriminatie op de woningmarkt en op basis daarvan de Kamer geïnformeerd kan worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note110">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note111">Deze motie is voorgesteld door de leden Den Haan, Simons, Van Baarle, Van Esch, Ceder en Kathmann.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note112">Zij krijgt nr. kst-30950-262</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note113">Dank u wel, mevrouw Den Haan, en nogmaals excuses. Dan is nu het woord aan mevrouw Van Esch, Partij voor de Dieren. Gaat uw gang.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note114">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u13">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg18">Dank u, voorzitter. Ik heb één motie meegenomen en ik heb nog een aantal vragen of opmerkingen. Eerst de motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note115">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note116">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note117">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note118">constaterende dat het Adviescollege Dialooggroep Slavernijverleden adviseert dat de Staat der Nederlanden overgaat tot erkenning, excuses en herstel voor het slavernijverleden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note119">constaterende dat miljoenen mensen over de hele wereld in situaties van extreme uitbuiting of gedwongen arbeid verkeren, ook wel getypeerd als moderne slavernij, en dat zowel Nederlandse bedrijven als het Nederlandse handelsbeleid hier direct en indirect aan bijdragen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note120">overwegende dat erkenning van het verleden aan kracht wint als ook moderne slavernij actief wordt bestreden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note121">verzoekt de regering de actieve bestrijding van moderne slavernij een van de prioriteiten te maken van het Nederlandse beleid tegen discriminatie en racisme,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note122">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note123">Deze motie is voorgesteld door de leden Van Esch, Simons, Den Haan, Ceder en Westerveld.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note124">Zij krijgt nr. kst-30950-263</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note125">Dank u wel.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note126">Mevrouw Van Esch (PvdD)</note>
+            <u who="#EvavanEsch" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u14">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg19">Dan heb ik nog een opmerking. Vorig jaar in een plenair debat over racisme en discriminatie hebben wij een motie ingediend over de Gouden Koets. Wij hadden die motie toentertijd aangehouden. Het leek ons het moment om deze motie vanavond wel in stemming te brengen. Het is een spreekt-uitmotie geworden, zeg ik bij dezen, maar dan weet iedereen dat die vanavond op de stemmingslijst staat en dat we daar dus ook over kunnen stemmen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg20">Ik wil ook aangeven dat ik vandaag meerdere moties heb ondertekend. Die worden straks nog ingediend door BIJ1.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg21">Ik wil ook aangeven dat ik van harte de moties van D66 over Keti Koti als nationale feestdag en over de excuses voor het slavernijverleden heb ondersteund. Wat ons betreft is het enorm tijd daar nu werk van te gaan maken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg22">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note127">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u15">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg23">Dank u wel. Mevrouw Leijten, SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note128">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u16">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg24">Voorzitter. Dat iets lang geleden is gebeurd, maar toen wel ernstig ingreep in de menselijke waardigheid, namelijk de slavernij, is geen reden om daar niet bij stil te staan en het niet te erkennen. Ik vroeg deze bewindspersonen in het commissiedebat waarom het zo moeilijk is om dat een goede plek te geven, zodat we dat ons met elkaar kunnen gaan herinneren en het niet voor één bepaalde groep in onze samenleving is. Waarom is het zo moeilijk om dat gezamenlijk te doen? Want de strijd tegen discriminatie en racisme is volgens mij juist iets wat we samen moeten doen. Ik heb daar gewoon geen antwoord op gekregen. Dat vind ik echt zo ontzettend jammer. Daarom heb ik de moties ondertekend die mevrouw Belhaj heeft ingediend; ik vrees het ergste met de stemming. Ik ben er blij om dat we wel hebben afgesproken dat we het nog goed gaan hebben over het advies dat we op 1 juli hebben gekregen. Ik hoop dan wel antwoorden te krijgen op de vragen die ik toen stelde. Ik weet namelijk ook dat u vandaag met dat nieuwe regime zit en dat we erdoorheen moeten, maar dat gesprek gaan we voeren. Ik vind het ook belangrijk dat we dat voeren. Het is niet alleen maar van één bepaalde groep; het is van ons allemaal. Zo zou ik het graag willen aanvliegen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg25">Voorzitter. Het is wel erkend dat er veel sprake is van discriminatie. Nou komt er een coördinator die dat gaat coördineren. Het is mij totáál onduidelijk wat die nou precies gaat doen. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note129">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note130">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note131">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note132">constaterende dat nog onduidelijk is wat voor rol de nationaal coördinator discriminatie en racismebestrijding precies moet gaan vervullen en de profielschets hier geen voldoende antwoord op geeft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note133">overwegende dat het instellen van een nieuwe functie ook daadwerkelijk iets moet bijdragen in de belangrijke strijd tegen racisme en discriminatie en dat daarbij doelmatig en praktisch gewerkt zal moeten worden zodat het geen lege huls wordt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note134">verzoekt de regering met een nieuwe profielschets te komen waarbij de taken en bevoegdheden van de nationaal coördinator duidelijk en gericht omschreven worden en waarbij ook de rol van en de verhouding tussen de Nationaal Coördinator Antisemitismebestrijding wordt meegenomen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note135">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note136">Deze motie is voorgesteld door het lid Leijten.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note137">Zij krijgt nr. kst-30950-264</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note138">Dank aan mevrouw Leijten. Het woord is aan mevrouw Simons van BIJ1.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note139">Mevrouw Simons (BIJ1)</note>
+            <u who="#SylvanaSimons" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u17">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg26">Dank u, voorzitter. Ook ik wil beginnen met een woord van dank aan alle partijen in deze Kamer die zich al jarenlang inzetten om af te rekenen met het gif dat racisme heet. Inderdaad ben ik ook heel erg blij met DENK, die dit al heeft gedaan middels de motie waar ook mevrouw Belhaj al naar verwees. Natuurlijk dank ik ook de Partij voor de Dieren en D66 voor hun opmerkingen tot dit moment.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg27">Dan drie moties, voorzitter.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note140">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note141">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note142">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note143">constaterende dat de gouden koets en bijbehorende afbeeldingen een symbool en direct product zijn van het wrede koloniale verleden van Nederland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note144">overwegende dat de openbare ruimte ons aller eigendom is en dergelijke symbolen afbreuk doen aan het gedeelde recht op die ruimte;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note145">verzoekt de regering er bij de Koning op aan te dringen de gouden koets permanent te huisvesten in een museum waar de juiste en volledige historische context geboden kan worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note146">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note147">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note148">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note149">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note150">constaterende dat de Nationaal Coördinator Discriminatie en Racisme een eerste stap is in het bieden van een structurele plek aan het naleven van het eerste artikel van onze Grondwet;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note151">overwegende dat alleen een coördinator echter niet voldoende is voor het bestrijden van een dermate groot institutioneel probleem in onze samenleving;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note152">overwegende dat de bestrijding van discriminatie en racisme topprioriteit moet zijn en daarom een volwaardig uitvoerend ministerie verdient;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note153">verzoekt de regering de mogelijkheid voor een ministerie van Gelijkwaardigheid te verkennen in het formatieproces,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note154">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note155">Deze motie is voorgesteld door de leden Simons, Van Baarle, Kathmann, Westerveld en Koekkoek.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note156">Zij krijgt nr. kst-30950-265</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note157">Deze motie is voorgesteld door de leden Simons, Van Baarle en Van Esch.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note158">Zij krijgt nr. kst-30950-266</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note159">Mevrouw Simons (BIJ1)</note>
+            <u who="#SylvanaSimons" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u18">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg28">Ik sluit me aan bij wat mevrouw Leijten over de coördinator zei, namelijk dat die zeker met dit profiel niet voldoende is.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note160">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note161">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note162">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note163">constaterende dat het Zwart Manifest een uitgebreid document is waarin op verschillende thema's voorstellen worden gedaan om anti-Zwart racisme tegen te gaan;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note164">constaterende dat dit manifest een belangrijke rol kan spelen in de totstandkoming van daadkrachtig beleid tegen racisme en discriminatie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note165">verzoekt de regering het Zwart Manifest de leidraad te maken voor beleid tegen anti-Zwart racisme en haar makers actief te betrekken bij de ontwikkeling van dergelijk beleid,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note166">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note167">Deze motie is voorgesteld door de leden Simons, Van Baarle en Van Esch.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note168">Zij krijgt nr. kst-30950-267</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note169">Dank. Tot slot mevrouw Kathmann, PvdA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note170">Mevrouw Kathmann (PvdA)</note>
+            <u who="#BarbaraKathmann" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u19">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg29">Voorzitter. We hadden het commissiedebat op een bijzondere dag: 30 juni. Veel mensen moesten ook wegrennen om de herdenking van de trans-Atlantische slavenhandel mee te maken. Dat heb ik ook gedaan. En het kwam met bakken uit de hemel. Het werd door heel veel sprekers ook gemarkeerd: de natuur huilt met ons mee. En de natuur huilde ook mee omdat er nog geen excuses waren en omdat 1 juli nog niet erkend is. Ongelofelijk mooi dat die moties vandaag allemaal worden ingediend en dat ze breed ondersteund worden, zodat de tranen de volgende keer in ieder geval niet daarover zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg30">Die confrontatie met ons verleden die ons altijd leert om de toekomst beter vorm te geven, moeten we niet alleen hebben om excuses te maken of te herdenken of om dat met elkaar te vieren, maar die moet blijvend zijn. Daarom dienen wij een motie in voor een nationaal slavernijmuseum, want alleen in een museum kan je die confrontatie blijvend aangaan met elkaar en zo die toekomst beter inrichten.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note171">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note172">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note173">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note174">overwegende dat het slavernijverleden onlosmakelijk verbonden is met de geschiedenis van Nederland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note175">overwegende dat het Adviescollege Dialooggroep Slavernijverleden vraagt om de oprichting van een museum gewijd aan het slavernijverleden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note176">overwegende dat de gemeente Amsterdam al positief geoordeeld heeft over de wenselijkheid van een dergelijk museum;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note177">van mening dat een museum kan helpen in de kennis over ons slavernijverleden en daarmee tevens kan bijdragen aan de bewustwording ten aanzien van hedendaags racisme;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note178">verzoekt de regering om in overleg met de gemeente Amsterdam plannen inclusief de financiering uit te werken om op zo kort mogelijke termijn te komen tot de oprichting van een nationaal museum waarin het slavernijverleden en de doorwerking daarvan worden getoond,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note179">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note180">Deze motie is voorgesteld door de leden Kathmann, Van Baarle, Simons, Westerveld, Koekkoek en Van Esch.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note181">Zij krijgt nr. kst-30950-268</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note182">Er zijn zeventien moties ingediend, als ik goed heb geteld. Ik schors voor enkele ogenblikken, zodat het kabinet ze van een oordeel kan voorzien.</note>
+            <note type="time" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note183">De vergadering wordt van 15.35 uur tot 15.44 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note184">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u20">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg31">Voordat wij gaan luisteren naar de beantwoording door het kabinet, geef ik de heer Van Meijeren van Forum voor Democratie het woord. Hij stond per abuis niet op de sprekerslijst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note185">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u21">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg32">Dank u wel, mevrouw de voorzitter. Sinds vorige week worden grote groepen Nederlanders openlijk gediscrimineerd op grond van hun medische persoonskenmerken. Voor wie niet door middel van een QR-code kan of wil bewijzen dat hij of zij is gevaccineerd of getest, is toegang tot grote delen van het sociaal-maatschappelijk leven verboden. Voor de toegang tot discotheken, sportwedstrijden, festivals en bepaalde evenementen heeft de overheid het gebruik van de app al verplicht gesteld, maar organisatoren van overige bijeenkomsten kunnen er ook gebruik van maken. Dat leidt er nu al toe dat mensen die weigeren om mee te werken aan deze tirannie, niet meer welkom zijn op bruiloften van hun naasten of op de wekelijkse vrijdagmiddagborrel op hun werk. Er is definitief een staat van medische apartheid gecreëerd die met de dag verder wordt uitgebreid. Wat een jaar geleden nog een complottheorie werd genoemd, is nu de keiharde dagelijkse realiteit. Forum voor Democratie zal zich met hand en tand blijven verzetten tegen de akelige samenleving die we hiermee worden. Wij spreken ons uit tegen iedere vorm van discriminatie op grond van ras, geslacht en godsdienst en zeker tegen discriminatie op grond van medische persoonskenmerken. Wij roepen de Kamer op om ons hierin te steunen. Daarom dien ik de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note186">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note187">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note188">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note189">spreekt uit dat discriminatie op grond van medische persoonskenmerken niet is toegestaan,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note190">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note191">Deze motie is voorgesteld door het lid Van Meijeren.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note192">Zij krijgt nr. kst-30950-269</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note193">De heer Van Meijeren (FVD)</note>
+            <u who="#GideonvanMeijeren" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u22">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg33">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note194">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u23">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg34">Dank u wel.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg35">Dan geef ik nu het woord aan minister Ollongren. U spreekt eerst? Ja. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note195">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u24">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg36">Voorzitter, dank. Ik begin graag. Als ik een motie oversla, dan zal collega Grapperhaus die doen. Daar kunt u op rekenen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg37">Allereerst: mevrouw Den Haan stelde ook een vraag. Ik dacht dat zij de enige was die een vraag stelde. Die ging over de Roze ouderen en de Roze Loper. Ik heb dat natuurlijk genoteerd. Die toezegging is gedaan, maar in alle drukte heb ik niet meer kunnen doen dan constateren dat ook de minister van VWS dit een belangrijk onderwerp vindt. Inhoudelijk kan ik daar nu geen verdere berichten over geven, maar dat houden we natuurlijk wel in de gaten. Na het reces kunnen wij daar dus bij gelegenheid op terugkomen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg38">Voorzitter, dan de moties.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg39">De motie op stuk nr. 252 is een spreekt-uitmotie en de motie op stuk nr. 253 ook.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg40">De motie op stuk nr. 254 van de heer Van Baarle van DENK gaat over het budget voor de Nationaal Coördinator tegen Discriminatie en Racisme. Op basis van de verkenning die indertijd is gedaan, constateert hij dat er wellicht meer geld nodig is. Mijn voorstel zou zijn om nu gewoon te starten. Er is een structureel budget van 2 miljoen per jaar. Wij denken dat dat kan. We gaan evalueren na drie jaar en daarbij wil ik ook de financiering meenemen. Dus ik ontraad de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note196">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u25">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg41">De motie op stuk nr. 254 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note197">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u26">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg42">De motie op stuk nr. 255 verzoekt de regering om de NCDR jaarlijks onafhankelijk aan de Kamer te laten rapporteren. Dat is ook mijn bedoeling. In het overleg heb ik gezegd dat ik het model van de deltacommissaris wil volgen. Hij rapporteert jaarlijks, voert gesprekken met Kamerleden en maakt een programma. Hij kan dat met een grote zelfstandigheid doen, niet gehinderd door wie dan ook, ook niet door een minister, maar dit valt wel onder de ministeriële verantwoordelijkheid. Als we het erover eens zijn dat ik het woord "onafhankelijk" kan lezen als "zelfstandig", dan laat ik het oordeel graag aan de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note198">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u27">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg43">Ik kijk naar de heer Van Baarle. Hij knikt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note199">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u28">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg44">Mooi.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note200">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u29">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg45">De motie op stuk nr. 255 krijgt dus oordeel Kamer. Dan de motie op stuk nr. 256.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note201">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u30">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg46">De motie op stuk nr. 256 is ook van de heer Van Baarle. Daarin wordt gevraagd de meldingsbereidheid goed in de gaten te houden. Ik vind dat heel sympathiek. Ik vind ook dat daar behoefte aan is. Dat vind ik heel belangrijk. Ik wil de heer Van Baarle vragen of hij het heel erg zou vinden om het woord "jaarlijks" uit de motie te halen. Ik weet niet of het haalbaar is om dit jaarlijks te onderzoeken, maar ik wil dit wel heel graag onderzoeken en ik wil het ook periodiek onderzoeken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note202">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u31">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg47">Bent u daartoe bereid, de heer Van Baarle? U mag ook knikken. Dat scheelt u een loopje naar de microfoon.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note203">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:healt" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u32">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg48">Heel kort. Kijk, naar mijn weten gebeurt dat nu vierjaarlijks, bij het terugkerende SCP-onderzoek. Als we het zo mogen begrijpen dat, als jaarlijks niet haalbaar is, we gaan proberen om het vaker te doen dan vierjaarlijks, dan gaan we akkoord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note204">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u33">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg49">En dan past u uw motie aan door "jaarlijks" te schrappen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note205">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u34">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg50">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note206">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u35">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg51">Dan zeg ik graag toe dat we het vaker dan vierjaarlijks gaan doen, en dan gaan we kijken wat de beste frequentie is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note207">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u36">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg52">Daarmee krijgt de motie een aangepast oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note208">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u37">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg53">Precies. Dan ga ik naar de zevende motie ... O nee, daar ga ik niet naartoe, want dat is een spreekt-uitmotie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg54">Over de achtste motie daarentegen, die op stuk nr. 259, wil ik wel graag wat zeggen. De motie vraagt om eigenlijk nu al te zeggen of aan te kondigen dat wij een onafhankelijk onderzoek gaan doen, een historisch onderzoek, een wetenschappelijk onderzoek naar het slavernijverleden. Dat is natuurlijk een van de aanbevelingen van de Dialoogcommissie. Het kabinet moet natuurlijk reageren op het rapport van de Dialoogcommissie. Daar hoort dit dan eigenlijk ook bij. Daar staat tegenover dat we allemaal hebben gezegd: het jaar 2023 willen we de herdenking doen, nationaal, groots en waardig. Daar hoort dan wel bij dat zo'n onderzoek ook gedaan zal zijn. Dus het ligt voor de hand om op dit specifieke punt, vanwege dat herdenkingsjaar, wel al te starten met zo'n onderzoek. Om die reden zou ik deze motie graag oordeel Kamer willen geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note209">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u38">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg55">Deze motie op stuk nr. 259 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note210">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u39">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg56">De negende motie, op stuk nr. 260, gaat ook over het rapport van het adviescollege. Hier geef ik een iets andere beoordeling aan, want de commissie adviseert eigenlijk een drieslag: erkenning, excuses en herstel. Over de onderbouwing daarvan en de concrete adviezen daaraan gekoppeld, moet nog een kabinetsreactie komen, dus daar wil ik dan niet op vooruitlopen. En ik vind dat dit specifiek gaat over één onderdeel, namelijk herstel, en verzoening zou daar onderdeel van kunnen zijn, of niet. Maar ik kan mij voorstellen dat de heer Ceder toch denkt: nou, zou ik dit maar even laten liggen tot het moment dat we wel over die kabinetsreactie gaan spreken, want dan is dat het moment om ook over dit soort zaken met elkaar te spreken. Ik vind het nu dus wat vroeg om dat te doen. Maar ik weet niet of hij zijn motie zou willen aanhouden tot dat moment.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note211">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u40">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg57">Bent u bereid om die aan te houden? Ja, de heer Ceder knikt, dus deze motie op stuk nr. 260 wordt aangehouden. Veel dank.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note212">Op verzoek van de heer Ceder stel ik voor zijn motie (30950, nr. 260) aan te houden.</note>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note213">Daartoe wordt besloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note214">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u41">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg58">Dank. De tiende motie, de motie op stuk nr. 261, sla ik even over.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg59">Dan kom ik bij de elfde motie, op stuk nr. 262, die gaat over discriminatie op de woningmarkt. We hebben al een landelijk onderzoek gedaan. We treden in overleg met partijen voor een uniforme aanpak. Dus als ik de motie zo mag uitleggen dat ze past in hetgeen we hebben ingezet, laat ik het oordeel graag aan de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note215">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u42">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg60">De motie op stuk nr. 262: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note216">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u43">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg61">De twaalfde motie is die van mevrouw Van Esch c.s. op stuk nr. 263. We hadden in het commissiedebat een wat specifieker onderdeel waar we een discussie over hadden, maar zoals de motie dit schetst, "actieve bestrijding van moderne slavernij", hoort het natuurlijk gewoon Nederlands beleid te zijn en Nederlands internationaal beleid. Ik vind dat dat op de agenda moet staan. Er staat niet dat dat bij de nationaal coördinator moet gebeuren, maar dat het gewoon regeringsbeleid moet zijn. Ik kan dan het oordeel aan de Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note217">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u44">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg62">Oordeel Kamer voor de motie op stuk nr. 263.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note218">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u45">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg63">De dertiende motie, die van mevrouw Leijten op stuk nr. 264, vraagt om een nieuwe profielschets. Daar ben ik echt geen voorstander van. Ik wil juist zo snel mogelijk een nationaal coördinator kunnen aanstellen. Het is urgent, het profiel hebben we op basis van de verkenning opgesteld. Ik ontraad deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note219">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u46">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg64">De motie op stuk nr. 264 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note220">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u47">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg65">De veertiende motie, op stuk nr. 265, lijkt misschien wel op een andere motie, die ik niet voor me heb maar die blijkbaar ook in stemming wordt gebracht, over de Gouden Koets. Nu is het natuurlijk best lastig voor mij om hier deze motie te becommentariëren. "Er bij de koning op aan te dringen" ... De Koning maakt deel uit van de regering, zoals u weet. Dit onderwerp wordt altijd besproken, of in ieder geval regelmatig, bij de begrotingsbehandeling van het ministerie van Algemene Zaken. Dus ik vind eigenlijk dat die motie dan misschien ook daar thuishoort. Ik weet niet of de indiener, mevrouw Simons, geneigd zou zijn om haar aan te houden tot het najaar, als er weer wordt gesproken met de minister-president over de begroting voor Algemene Zaken. Maar zo niet, dan ben ik echt niet in de positie om hier een oordeel over uit te spreken, hoe mooi ik het ook vind dat de koets staat in het Amsterdam Museum.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note221">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u48">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg66">Mevrouw Simons, op deze veertiende motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note222">Mevrouw Simons (BIJ1)</note>
+            <u who="#SylvanaSimons" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u49">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg67">Dank u. Ik heb helaas het eerste stukje van het verzoek van de minister gemist.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note223">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:macro" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u50">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg68">Of u bereid bent om de motie aan te houden tot die begrotingsbehandeling.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note224">Mevrouw Simons (BIJ1)</note>
+            <u who="#SylvanaSimons" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u51">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg69">Dat heb ik wel gehoord, maar er was iets met het woordje "najaar".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note225">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u52">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg70">Ja. Bij de begrotingsbehandeling van het ministerie van Algemene Zaken worden eigenlijk altijd de kwesties besproken die zien op dingen rond het Koninklijk Huis. Daar gaat het dan vaak ook over de Gouden Koets, en andere zaken. Dus dat zou een moment zijn om dit weer eens te kunnen hernemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note226">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u53">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg71">En anders wordt de motie ontraden, mevrouw Simons.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note227">Mevrouw Simons (BIJ1)</note>
+            <u who="#SylvanaSimons" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u54">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg72">Dan kijk ik heel even om mij heen, naar de mede-indieners. Eén seconde, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note228">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u55">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg73">Mevrouw Simons?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note229">Mevrouw Simons (BIJ1)</note>
+            <u who="#SylvanaSimons" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u56">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg74">Dank u voor uw coulance, voorzitter. Ik heb het met alle mede-indieners besproken. Wij gaan haar aanhouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note230">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u57">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg75">Op verzoek van mevrouw Simons stel ik voor haar motie (30950, nr. 265) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg76">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note231">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u58">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg77">Veel dank. De motie op stuk nr. 266 verzoekt de regering — dat is het bijzondere van deze motie — de mogelijkheid van een ministerie van gelijkwaardigheid te verkennen in het formatieproces. Mijn algemene stelling zou zijn dat alle ministeries dit uitgangspunt moeten hanteren. Dat kan niet anders. Zie artikel 1 in de Grondwet. Maar wat er in het formatieproces gebeurt, vind ik toch echt iets wat bij de Kamer hoort. Dus …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note232">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u59">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg78">De motie op stuk nr. 266 wordt ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note233">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u60">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg79">Dan moet ik haar om die reden ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note234">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u61">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg80">Dan 267.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note235">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u62">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg81">De motie op stuk nr. 267, over het Zwart Manifest de leidraad maken voor beleid tegen antizwart racisme. Ik heb al gezegd dat het kabinet gesprekken heeft met Black Lives Matter en heel actief is geworden in het omzetten daarvan in beleid. Ik geef het oordeel over de motie graag aan de Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note236">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u63">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg82">De motie op stuk nr. 267 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note237">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u64">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg83">De motie op stuk nr. 268 gaat over het slavernijmuseum. De Kamer weet dat de gemeente Amsterdam daar heel actief mee is. De collega van OCW heeft daar ook een financiële bijdrage aan geleverd. Het maakt onderdeel uit van het rapport van de dialoogcommissie en dus van de kabinetsreactie. Dus ook hierover zeg ik dat het eigenlijk te vroeg is om deze motie in te dienen. Misschien wil de indiener, mevrouw Kathmann, haar aanhouden tot het moment waarop met OCW gesproken wordt over de musea.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note238">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u65">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg84">Mevrouw Kathmann, bent u daartoe bereid? Even in conclaaf met alle indieners, zie ik. Aanhouden? Eenmaal, andermaal …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note239">Mevrouw Kathmann (PvdA)</note>
+            <u who="#BarbaraKathmann" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u66">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg85">Ik zie duimen omhoog in dit snelle overleg, dus aanhouden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note240">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u67">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg86">Op verzoek van mevrouw Kathmann stel ik voor haar motie (30950, nr. 268) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg87">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note241">Dan hebben we nog een motie van de heer Van Meijeren, maar die is waarschijnlijk voor …</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note242">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u68">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg88">Ik dacht dat dat een spreekt-uitmotie was. U daagt mij natuurlijk wel uit om dan iets te zeggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note243">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u69">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg89">Klopt. U heeft helemaal gelijk. Daar hoeft ook geen oordeel op te komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note244">Minister Ollongren</note>
+            <u who="#KajsaOllongren" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u70">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg90">Anders verleidt u mij tot zeggen wat ik al eerder heb gezegd daarover.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note245">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u71">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg91">Dank u wel voor uw snelle beantwoording. We wachten heel eventjes tot er is schoongemaakt. Dan hebben we nog twee moties die een oordeel moeten krijgen, de motie op stuk nr. 257 en de motie op stuk nr. 261, als ik het goed heb.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note246">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:lawcr" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u72">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg92">Voorzitter. De motie op stuk nr. 257 van de heer Van Baarle moet ik ontraden. De strafrechtsystemen bij de rechtspraak zijn zo ingericht dat gezocht kan worden op ten laste gelegde en bewezen verklaarde wetsartikelen. De rechtspraak gaat zelf over de wijze van registratie. Klassieke discriminatie is aan de hand van wetsartikelen goed uit de systemen te halen, maar een ander strafbaar feit dat gepleegd wordt met een discriminatoir oogmerk, is vaak geen onderdeel van de delictsomschrijving van het strafbare feit. Dat wordt niet ten laste gelegd en bewezen verklaard en kan dan niet uit de systemen worden gehaald. De strafrechtsystemen zijn er dus niet op ontworpen om te zoeken naar een andere dan de klassieke discriminatie. Herinrichting ervan is een stevige operatie, zowel technisch als organisatorisch. Dat speelt zeker ook als je al die elementen achter de tenlastelegging vandaan zou moeten halen. Nogmaals, de rechtspraak gaat zelf over de wijze van registratie, dus ik moet die motie daarom ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note247">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u73">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg93">De motie op stuk nr. 257 wordt ontraden. En dan de motie op stuk nr. 261.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note248">Minister Grapperhaus</note>
+            <u who="#FerdGrapperhaus" ana="#guest topic:civil" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u74">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg94">De motie op stuk nr. 261 van de heer Ceder, over de Nationaal Coördinator Antisemitismebestrijding, moet ik ook ontraden. In de eerste plaats is bij de aanstelling van de NCAB uitdrukkelijk bepaald dat de functie eerst zal worden geëvalueerd. Dat zal volgend jaar gebeuren. Ik heb ook in het debat uitgelegd dat we moeten kijken — dat is ook aan de Kamer bericht — in hoeverre er een samenvoeging moet plaatsvinden met de algemene nationaal coördinator discriminatiebestrijding. Afgezien daarvan is er op dit moment ook geen budgettaire ruimte voor voorzien. Om die redenen moet ik deze motie ontraden, maar we komen er bij de evaluatie zeker op terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note249">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u75">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg95">De motie op stuk nr. 261 wordt ook ontraden. Ik dank de beide bewindspersonen voor hun beantwoording.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note250">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note251">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.u76">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.seg96">Over deze achttien moties wordt vanavond laat gestemd. Ik schors voor enkele ogenblikken.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-07-08-tweedekamer-51.note252">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

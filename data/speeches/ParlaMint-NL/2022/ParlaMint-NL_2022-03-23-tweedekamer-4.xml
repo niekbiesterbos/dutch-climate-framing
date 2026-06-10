@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:lang="nl" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-03-23 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-03-23 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 63, Session 4 (2022-03-23)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 63, Session 4 (2022-03-23)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="63" xml:lang="en">Meeting 63</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-03-23">Sitting 2022-03-23</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="205">205 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="205">205 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="19746">19,746 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="19746">19,746 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-03-23">2022-03-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="209"/>
+               <tagUsage gi="seg" occurs="255"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="205"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-03-23">2022-03-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.head1">Ontwikkeling koopkracht en stijgende energieprijzen</head>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note1">Zie vergadering van 22 maart 2022.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note2">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg1">Aan de orde is het vervolg van het debat over de ontwikkeling van de koopkracht en de stijgende energieprijzen. Ik heet de bewindspersonen van harte welkom: de minister van Sociale Zaken en Werkgelegenheid, die als eerste zal spreken, de minister van Financiën en de staatssecretaris van Financiën. Ik heet ook de woordvoerders in de zaal, de mensen op de publieke tribune en de mensen die het debat thuis of op een andere manier volgen welkom.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note3">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:labor" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg2">Ik wil met de leden zes vragen of opmerkingen aan de bewindspersonen afspreken. Ik geef als eerste het woord aan de minister van Sociale Zaken en Werkgelegenheid om de vragen die gisteren door de Kamer gesteld zijn te beantwoorden. Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note4">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg3">Dank u wel, voorzitter. Wij hebben hier gisteren een debat gevoerd over de koopkracht, terwijl we tegelijkertijd de beelden van de oorlog in Oekraïne zagen. Die zijn natuurlijk verschrikkelijk, voor de burgers daar en voor Oekraïne. Het is dan toch hartverwarmend om te zien hoe iedereen zich inzet voor de vluchtelingen uit Oekraïne, hier in Nederland, maar ook in de buurlanden van Oekraïne. Dat wil ik toch even gemeld hebben. Ik heb vorige week in Brussel mijn collega's uit al die landen gesproken. Met name de buurlanden hebben nu een heel grote stroom vluchtelingen te verwerken. Ze doen daar erg hun best voor.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg4">De eensgezindheid in Europa is groot, niet alleen in het opvangen van vluchtelingen, maar ook in het sanctiepakket dat is afgesproken. Daar voelen wij natuurlijk allemaal de gevolgen van: hier in Nederland, wereldwijd en in de wereldhandel. We merken de gevolgen van de oorlog in Oekraïne en van de eerdere stijging van energieprijzen voor onze koopkracht. We staan hier vandaag en stonden hier gisteren omdat we iets willen doen aan de koopkracht in 2022. Het is uitzonderlijk dat we middenin het jaar met u in gesprek gaan over de koopkracht en dat we zo'n groot pakket voor een koopkrachtreparatie en voor demping hebben samengesteld.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg5">Tegelijkertijd komen we uit twee moeilijke coronajaren. Ook de gevolgen daarvan zijn voelbaar, maar tot aan de oorlog in Oekraïne konden we zeggen dat we economisch gezien eigenlijk relatief goed uit de coronacrisis zijn gekomen, met lage werkloosheid en toen nog optimistische vooruitzichten voor economische groei. De gevolgen van de oorlog in Oekraïne betekenen opnieuw een schok voor onze economie. Dat betekent dat we wederom een beroep doen op de veerkracht van onze ondernemers, onze samenleving en onze burgers. Daar hebben we het vandaag over.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg6">We merken allemaal de gevolgen van de energie- en brandstofprijzen in onze portemonnee. Die zijn in de afgelopen weken en maanden hard gestegen. Ook de boodschappen worden steeds duurder. De inflatie is inmiddels opgelopen tot meer dan 5%. Dat is de hoogste inflatie in 40 jaar. Daarmee daalt de koopkracht volgens het CPB dit jaar met 2,7%. U kent de cijfers allemaal. Dat betekent dat een doorsneehuishouden er zeker op achteruit gaat, maar het zegt niet iets over alle individuele huishoudens. Dat maakt dit debat natuurlijk soms wat moeilijker. Ik zeg het wel vaker: mensen leven niet in een koopkrachtplaatje. Het maakt echt uit of je in een goed geïsoleerd huis woont of in een tochtig huis. Het maakt uit wat voor energiecontract je hebt. Maar vooral maakt het uit of je een baan vindt of verliest, of wellicht een andere baan binnen hetzelfde bedrijf vindt waardoor je een hoger loon krijgt. Dan verandert voor jou het koopkrachtplaatje in die Excelsheet. Dat is natuurlijk papier, maar in het echte leven verandert je situatie dan enorm. Dat heeft minstens zo veel impact, zo niet heel veel meer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg7">Achter de daling van 2,7% gaat een heleboel problematiek schuil, en dan vooral voor de mensen met een lager inkomen die al problemen hadden om rond te komen en die nu een hoge energierekening hebben. Ook ouderen en mensen met middeninkomens krijgen het steeds moeilijker. Tegelijkertijd is het verdere verloop van de crisis zeer onzeker. We weten niet wat er morgen in Oekraïne gaat gebeuren. We weten niet wat de gevolgen daarvan over twee maanden zullen zijn. Eén ding is zeker: we gaan het allemaal merken. We hebben gewoon een collectief welvaartsverlies. Dat is een mooi woord om te zeggen dat we allemaal wat armer worden. Dat betekent dus ook dat we niet iedereen kunnen compenseren voor alle gevolgen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg8">Met die algemene constatering zijn we er natuurlijk nog niet, want we weten ook dat die economische klappen zwaarder wegen voor mensen die het al financieel moeilijker hebben. En we willen dat de sterkste schouders daar de lasten van dragen. Dat betekent dus ook dat we met elkaar moeten helpen om die gevolgen te dragen. Dat is wat de crisis van ons vraagt en dat is waar we als kabinet voor staan. Daarom willen we, vanwege die uitzonderlijke situatie, nog dit jaar iets doen voor de koopkracht in 2022, waar huishoudens nog dit jaar iets van kunnen merken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg9">Het vorige kabinet had al besloten om de energiebelasting van 2022 te verlagen, omdat de energieprijzen vorig najaar ook al hoog waren. Daar hebben we toen 3,2 miljard voor uitgetrokken. Dat betekent dus voor huishoudens met een gemiddeld verbruik een belastingvoordeel van ongeveer €400. De energiebedrijven verwerken dat nu in hun termijnbedragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note5">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg10">Ik wil eerst even aan de minister vragen om haar inleiding af te maken. Misschien kan zij aangeven welke thema's zij gaat behandelen, dat weet u ook, meneer Alkaya, wanneer uw vragen eventueel beantwoord worden. Het woord is aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note6">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg11">Naast die 3,2 miljard is er ook 200 miljoen voor de huishoudens met de laagste inkomens uitgetrokken voor een energietoeslag. Inmiddels zijn de energieprijzen tot uitzonderlijke hoogten gestegen. Daarom hebben we besloten tot dat aanvullend pakket. Daarbij hebben wij de volgende uitgangspunten gehanteerd — daar vroeg u gisteren ook naar — die ik even op hoofdlijnen schets. Daarna gaan we een-voor-een op alle specifieke vragen en maatregelen in. Een gedeelte zal ik doen, een gedeelte zal door mijn collega's worden gedaan. Vindt de heer Alkaya het goed dat ik eerst even de hoofdlijnen schets?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note7">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg12">De minister mag eerst haar inleiding afronden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note8">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg13">Ik schets eerst even de hoofdlijnen. Het gaat om de volgende uitgangspunten.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg14">1. De maatregelen moeten snel en goed uitvoerbaar zijn. Die moeten nog dit jaar tot hun recht kunnen komen. Wij moeten dat gewoon voor elkaar kunnen krijgen. Dus een heel slimme maatregel die in 2023 of in 2024 effect heeft, zit niet in dit pakket. Dat is voor de discussie, indien nodig, bij de Voorjaarsnota of op een ander moment.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg15">2. De maatregelen moeten ondersteuning bieden aan de huishoudens met de laagste inkomens. Dat is de groep die het meest kwetsbaar is voor die plotselinge stijging. Maar ook lage inkomens en lagere middeninkomens kunnen in de problemen komen. U noemde zelf al de voorbeelden van de ploegendienst en de mensen die echt afhankelijk zijn van hun auto om op het werk te komen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg16">3. De problemen moeten worden aangepakt bij de bron. Het moet dus direct leiden tot een lagere energierekening of een lagere rekening aan de pomp. Dat geldt voor 2022. Dan hebben we natuurlijk de maatregel inzake de verduurzaming, waarmee we het verbruik op de langere termijn aanpakken. Daar speelt natuurlijk ook dat je, als je bijvoorbeeld een langdurig energiecontract hebt, een lagere energierekening hebt. Dan profiteer je dus iets minder van die btw-verlaging dan in het geval je een heel hoge energierekening zou hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg17">Met die criteria in gedachten zijn wij op het pakket gekomen dat snel in werking kan treden, waarbij wij de laagste inkomens ondersteunen en waarbij wij aansluiten bij de bron van het probleem, zodat bijvoorbeeld ook de middeninkomens met hoge energielasten daarvan kunnen profiteren. Dat is dus 2,8 miljard. Dat komt bovenop de 3,2 miljard en de 0,2 miljard van vorig jaar. Dan komen we uit op meer dan 6 miljard.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg18">De energietoeslag via de gemeente verhogen we voor de laagste inkomens van €200 naar €800. We gaan helpen met energiebesparende maatregelen om de woning te verduurzamen. Dat is de 150 miljoen die we naar voren halen. Per 1 april is er de verlaging van de brandstofaccijnzen voor een periode van negen maanden. En per 1 juli is er de verlaging van de btw op energie. Dat scheelt, al met al, €800 voor de lage inkomens, ongeveer €135 voor een normale forens met 30 kilometer woon-werkverkeer en ongeveer €140 voor huishoudens met een gemiddeld verbruik. Dat komt bovenop die €400 van vorig jaar bij een gemiddeld verbruik. Dat kost dus 6,2 miljard, al met al.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg19">Dit is geen langetermijnoplossing. Die is echt een oplossing voor 2022. We zullen niet altijd voor iedereen door kunnen gaan met het compenseren van hoge prijzen. We moeten dus ook met elkaar zo snel mogelijk minder gaan verbruiken. We kunnen met dit pakket ook niet alle pijn bij iedereen wegnemen. Tegelijkertijd is 6,2 miljard wel een enorm pakket. Dat moeten we ons ook realiseren. Het is een pakket om de acute gevolgen te dempen, met name voor de huishoudens die het al moeilijk hebben en die vooral last hebben van de energieprijzen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note9">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg20">Voordat u nu echt van start gaat met het beantwoorden van de vragen, is er een interruptie over de inleiding. Als eerste is het woord aan de heer Alkaya van de SP en daarna aan de heer Klaver.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note10">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg21">De minister doet een aantal uitspraken in haar inleiding die volgens mij helemaal niet gebaseerd zijn op de realiteit. Ze klinken goed, maar als je dat zegt, moeten ze ook wel gebaseerd zijn op de maatregelen die het kabinet neemt. Want ze zegt twee dingen: we gaan het collectieve welvaartsverlies allemaal merken én de sterkste schouders moeten de zwaarste lasten dragen. Welke zware lasten gaan die sterkste schouders dan dragen? Dat soort maatregelen staan toch helemaal niet in het pakket? Het zijn toch holle frasen als je dat zo zegt? Mijn inbreng in het debat ging er juist over dat dat helemaal niet het geval is. Als de minister dat soort uitspraken doet, op wat voor maatregelen zijn die uitspraken dan gebaseerd?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note11">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg22">Allereerst, iedereen merkt het al en gaat het merken. Je moet wel in een heel goed geïsoleerd huis wonen, geen boodschappen hoeven te doen en nooit hoeven te tanken om het niet te merken. Ik denk niet dat er heel veel mensen zijn die hier echt geen last van zullen hebben. Dat is één. Twee. De maatregelen die we nu nemen, komen met name ten goede aan lage inkomens en aan mensen die er veel last van hebben. Dat betekent dat het minder ten goede komt aan hogere inkomens, want die krijgen die €800 niet. Op die manier zorg je ervoor dat de pijn zo veel mogelijk wordt verdeeld en de gevolgen voor de laagste inkomens zo veel mogelijk worden gedempt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note12">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg23">Nu nuanceert de minister haar uitspraken natuurlijk al, omdat ze zegt dat iedereen een tegemoetkoming krijgt, maar de hogere inkomens relatief wat minder. Maar dat wordt weersproken door de realiteit, namelijk dat een groot deel van het bedrag juist niet terechtkomt bij de mensen die dat het hardst nodig hebben. Maar de minister zei in haar inleiding ook wat anders. Ze zei: de sterkste schouders gaan de zwaarste lasten dragen. Deelt de minister mijn opvatting dat dit een misplaatste uitspraak is en dat ze helemaal geen zwaardere lasten tegemoet kunnen zien? Sterker nog, ze kunnen ook een tegemoetkoming tegemoetzien, terwijl ze dat helemaal niet nodig hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note13">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg24">Laten we het eerst even hebben over waar de maatregelen terechtkomen. Als we het hebben over het onderzoek van Investico dat in Trouw is gepubliceerd, dan is dat een bijzonder onderzoek, omdat het de €800 buiten beschouwing laat en omdat het het pakket van 3,2 miljard van vorig jaar buiten beschouwing laat. Dat betekent dat je een aantal maatregelen niet meeneemt die juist voor die lagere inkomens bedoeld zijn. Het onderzoek neemt ook niet de stijging van de benzineprijzen en de levensmiddelen mee. Dat betekent dat het onderzoek gefocust is op twee van de drie maatregelen en dat het de prijsstijging van de levensmiddelen niet meeneemt. Als u zich op dat onderzoek baseert, dan ben ik het gewoon niet met u eens. Want als je kijkt waar het neerslaat, is dat een enorm grote groep: 800.000 à 900.000 huishoudens hebben recht op die €800. Dat is een op de zeven à acht huishoudens in Nederland. Zij profiteren juist van die maatregel van die €800.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note14">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg25">Ik wil aan de minister even vragen welke thema's haar collega's gaan behandelen, zodat de Kamerleden weten wanneer ze hun vragen eventueel kunnen stellen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note15">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg26">Ik zal nu ingaan op de maatregelen die we hebben overwogen en op hoofdlijnen aan de hand van criteria toelichten waarom we daarvoor niet hebben gekozen. Ik zal vervolgens ingaan op de koopkracht. Dan hebben we een hele set van antwoorden die wij verdeeld hebben: over de Belastingdienst bij mijn collega Van Rij, macro-economisch en verduurzaming bij mijn collega Kaag en de gemeentelijke regeling bij mij. Dat is een beetje de opzet van ons verhaal.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note16">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg27">Tot slot dan een oprechte vraag aan de minister. Vindt zij echt dat de sterkste schouders de zwaarste lasten dragen? Vindt zij dat oprecht?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note17">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u16">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg28">Ik vind oprecht dat we er hiervoor zorgen dat de laagste inkomens het meest gecompenseerd worden met dit pakket. Dat vind ik echt, ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note18">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u17">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg29">Dank u wel. Ik geef het woord aan de heer Van Raan van de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note19">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u18">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg30">Zeker, voorzitter. Goedemorgen. De minister heeft het over drie criteria: snel uitvoerbaar, laagste inkomens en bronaanpak. Maar eigenlijk zie je dat uiteindelijk alleen de eerste geldt. De laagste inkomens worden weliswaar voor twee maanden gesteund met €800, een zevende — dat is echt wel een punt en dat moeten we ook echt erkennen; dat is prima — maar tegelijkertijd kan ze volgens mij niet volhouden dat de sterkste schouders de zwaarste lasten dragen. Zij beweert van wel. Ik zou graag de toezegging van haar willen hebben dat zij dat gaat aantonen; dat hoeft niet nu of in de tweede termijn. Daar is namelijk zo veel twijfel over. We weten dan ook dat we over de feiten spreken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note20">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u19">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg31">De minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note21">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u20">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg32">En ik vraag me ook af — dat gaan we misschien in het tweede blokje horen — of de maatregelen die niet genomen zijn …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note22">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u21">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg33">Daar komt de minister zo op terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note23">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u22">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg34">Dan bewaar ik mijn vraag daarvoor.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note24">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u23">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg35">Volgens mij heb ik zojuist toegelicht waarom dat onderzoek van Investico volgens ons niet volledig is en daarmee dus voorbijgaat aan wat wij juist wel bedoeld hebben met die €800 en die 3,2 miljard van vorig jaar voor de laagste inkomens. Die optelsom is al enorm en komt ten goede aan de laagste inkomens. Op die manier heb ik zojuist al de vraag beantwoord, volgens mij. Op het moment dat je meer doet voor de lage inkomens dan voor de hoge inkomens, dan kom je er automatisch op uit dat je die op dit moment meer helpt om de gevolgen te dempen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note25">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u24">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg36">Niemand ontkent dat die €800 inderdaad een goede tegemoetkoming is voor de laagste inkomens. Maar zeggen het niet eens te zijn met een onderzoek dat aantoont dat de sterkste schouders niet de zwaarste lasten dragen, is niet hetzelfde als de Kamer hierover inlichten — dat kan middels een brief — waaruit haarfijn blijkt dat wij het allemaal mis hebben als wij denken dat de sterkste schouders niet de zwaarste lasten dragen. Wil de minister deze toezegging doen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note26">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u25">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg37">Waar ik het had over dit pakket om ervoor te zorgen dat we de gevolgen van die hoge energieprijzen dempen voor de laagste inkomens — daarmee zeg je dus dat de laagste inkomens voorrang hebben op de hoogste inkomens bij de demping en dat de hoogste inkomens meer van het probleem dragen dan de laagste inkomens — heb ik nu toch een beetje de indruk dat u dat nu in den brede trekt. We hadden het hier over het pakket.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note27">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u26">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg38">De heer Tony van Dijck, PVV, en dan de heer Stoffer, SGP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note28">De heer Tony van Dijck (PVV)</note>
+            <u who="#TonyvanDijck" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u27">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg39">Dit is de minister van Sociale Zaken. Er zijn 2 miljoen huishoudens met betalingsproblemen in Nederland. De laagste inkomens worden nu bediend, maar in elke zin gebruikt u, en ook de minister van Financiën, de middeninkomens. U doet niets voor de middeninkomens. Waarom niet?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note29">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u28">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg40">Graag via de voorzitter spreken, meneer Van Dijck.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note30">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u29">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg41">We komen dadelijk op de individuele maatregelen. Die €800 in dit pakket is er met name voor de lage inkomens, maar de btw-verlaging, de accijnsverlaging en ook het pakket van 3,2 miljard van vorig jaar hebben natuurlijk wel degelijk impact op de middeninkomens. Op het moment dat iemand op en neer moet naar zijn werk, dus werk heeft en daarmee een lager inkomen of een middeninkomen heeft, dan heeft deze persoon voordeel van de accijnsverlaging en van de btw-verlaging op de energie. Dat telt op tot €400 van het pakket van vorig jaar, €140 bij gemiddeld energieverbruik en €135 bij een gemiddelde forens; dat zeg ik even uit mijn hoofd. Dat is bij elkaar een kleine €700. De werkende Nederlanders hebben daar dus profijt van. Daar doen we dus wel degelijk wat voor.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note31">De heer Tony van Dijck (PVV)</note>
+            <u who="#TonyvanDijck" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u30">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg42">De minister is het toch met me eens dat die €20 die nu aan middeninkomens gegeven wordt, veel te weinig is? We kunnen allemaal in de krant lezen dat de energierekening met €150 per maand omhooggaat. Je zal maar een klein pensioentje hebben, je zal maar AOW hebben of je zal maar een kleine zelfstandige zijn. Dan kom je nu gewoon tekort. Je kwam al tekort, maar nu kom je in de schuldproblemen. Deze minister krijgt straks een gigantische influx van allemaal mensen met schuldsanering, armoede en noem maar op. Waarom maakt u de groep niet wat groter, tot en met modaal, waarbij voor die groep de gestegen energierekening wordt gecompenseerd? Dat zou u moeten doen. U moet niet alleen de lage inkomens compenseren. De problemen stapelen zich straks namelijk gigantisch op.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note32">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u31">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg43">Als wij iedereen tot en met modaal volledig zouden willen compenseren, dan zouden we daar een enorm budget voor nodig hebben. Daar hebben we geen dekking voor. Als we het in het saldo zouden laten lopen, zou dat bijvoorbeeld betekenen dat we eigenlijk lenen van onze kinderen. Dat willen we ook niet. Daarom kijken we dus heel gericht naar wat we wél willen, en wat we kúnnen dit jaar. Want deze discussie gaat over dit jaar.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg44">Daarnaast hebben we voor de middeninkomens in het coalitieakkoord natuurlijk een lastenverlichting staan. Daarmee komen we op 2023 en lopen we er eigenlijk op vooruit. Die lastenverlichting is er met name voor de werkenden. En we hebben de verhoging van het minimumloon. Dat zijn twee maatregelen die echt ten bate zullen komen aan de groep met een inkomen tussen het minimumloon en modaal in. Daar doen we het natuurlijk ook voor.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note33">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u32">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg45">Ik heb gisteren ook gerefereerd aan het onderzoek van Investico. Het is goed dat de minister dat in een perspectief zet. Bij mij blijft wel hangen, misschien ook in vervolg op wat de heer Van Dijck al aangaf, dat die €800 wel met name bij de mensen met de lage inkomens terechtkomt. Dat is goed. Maar die btw-verlaging komt vooral bij de mensen met de hoge inkomens terecht. Dat kunnen we denk ik wel uit het onderzoek van Investico concluderen. Een derde daarvan komt bij de hoge inkomens terecht. Mijn vraag is: ziet de minister kansen om dat misschien toch om te buigen? Laat ik erbij zeggen: het is daarbij makkelijker om aan deze kant te staan dan aan de kant van de minister. Het te vragen is makkelijker dan het te doen. Maar ziet de minister mogelijkheden om het geld dat nu terechtkomt bij de mensen met de hoge inkomens, toch ergens terecht te laten komen bij de mensen met wat we de "lage middeninkomens" noemen, door toch nog ergens aan te draaien? Want daar krijgen mensen echt de klappen. Bij hen ligt het zwaartepunt van de problematiek waarover wij Kamerleden worden benaderd. Ziet de minister mogelijkheden om aan die knop te draaien? Als zij dat kan, heeft zij de SGP mee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note34">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u33">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg46">De heer Stoffer geeft aan dat het inderdaad lastig is om die btw-verlaging heel specifiek te richten op één groep. Daarom hebben we ook gekozen voor een btw-verlaging op de energie, en niet voor een algemene btw-verlaging. Ik kom er dadelijk op waarom we een aantal dingen niet hebben gekozen. Een algemene btw-verlaging zou een nóg bredere groep raken. Het voordeel van een btw-verlaging op energie is dat juist degenen met een hoge energierekening er profijt van hebben, dus de mensen in de niet-geïsoleerde huizen. Die mensen profiteren hier méér van dan de mensen die in een goed geïsoleerd huis wonen. Daar kunnen we overigens van alles van vinden vanuit het oogpunt van duurzaamheid, maar dat is wat we dit jaar voor deze groep kunnen doen. Als je een gerichter beleid wilt, heb je het echt over inkomenspolitiek, en dus over belastingtarieven voor volgend jaar. Daar iets mee doen, lukt niet meer voor dit jaar. Daar zal ongetwijfeld mijn collega Van Rij ook nog op ingaan. Als we dingen nú voor elkaar willen krijgen, kunnen we op dit moment niet aan heel veel knoppen draaien. De discussie over 2023 en verder gaan we natuurlijk graag aan op het geëigende moment waarop we het over die periode hebben. Maar nu loop ik ook al vooruit op de vraag die mevrouw Van Dijk stelde. Zij vroeg: wat ga je doen om in kaart te brengen wat de kwetsbare groepen zijn voor de termijnen vanaf 2023? Welke groepen hebben het zwaarder, welke groepen hebben het minder zwaar? En wat kunnen we voor bepaalde groepen dan eventueel doen? Maar dan hebben we het over 2023, en vandaag gaat het over 2022. Wat kunnen we in 2022 nog doen met de instrumenten die we hebben?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note35">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u34">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg47">Dank u wel. Eerst krijgt de heer Klaver van mij het woord, en dan mevrouw Van der Plas.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note36">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u35">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg48">Volgens mij is het belangrijk om de feiten gewoon helder te hebben. De btw-verlaging en de verlaging van de accijnzen zijn generieke maatregelen, waar dus iedereen van profiteert. Maar de mensen met de hoogste inkomens profiteren daar het meeste van. Is de minister het met die stelling eens?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note37">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u36">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg49">Dat ligt natuurlijk in de eerste plaats heel erg aan de individuele situatie. Maar we weten wel dat het deel van het inkomen dat mensen met een lager inkomen uitgeven aan energie, relatief hoger is dan dat deel is bij mensen met een hoger inkomen. Dus op die manier heeft het een grotere impact voor de mensen met een lager inkomen. Dat is ook wat we hebben overwogen. Dan is er een soort neveneffect dat je óók de hoge inkomens compenseert, maar dat is het gevolg van het feit dat we het dít jaar willen doen. Dat is wat we kunnen doen als we het nog dit jaar willen. En we compenseren zo ook de middeninkomens, en dat willen we graag. Maar het relatieve aandeel van het inkomen dat aan energie wordt uitgegeven is met name hoog voor mensen die in een niet geïsoleerd huis wonen. En dat aandeel stijgt heel hard. Daar willen we dus wat aan doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note38">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u37">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg50">En toch. De minister spreekt voortdurend over gemiddelden. Er kunnen allerlei verschillen zijn tussen individuen. Maar een btw-verlaging of een accijnsverlaging hebben een groot effect voor de mensen met de hoge inkomens. Zij profiteren daar zeer van. Daarom is het in zekere zin een denivellerende maatregel. Je kunt daar dan nog steeds voor kiezen; dat is een andere discussie. Maar we moeten wel bij de feiten blijven. Dit zijn volgens mij de feiten. Het is fijn als de minister dat ook toegeeft. Dan het vervolg: er zijn andere keuzes die gemaakt hadden kunnen worden. Daar heb ik gisteren ook naar gevraagd. Ik ben benieuwd of de minister erop in kan gaan waarom die keuzes niet zijn gemaakt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note39">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u38">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg51">Ik denk dat de minister daar straks op komt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note40">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u39">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg52">Ja, voorzitter. "Andere keuzes" is precies het volgende blokje, dus daar komen we zo op.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note41">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u40">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg53">Dan wacht ik daarop.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note42">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u41">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg54">Voordat u van start gaat, is er ook nog een interruptie van mevrouw Van der Plas van de fractie van BBB.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note43">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u42">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg55">Ik wil wel de eerste vraag van de heer Klaver nog beantwoorden, want dat vind ik belangrijk. Het totale pakket is gericht op een combinatie van laagste inkomens, bron en uitvoerbaarheid. Dat is dus inclusief die €800. Het is waar dat de maatregelen van btw en accijns ongericht zijn qua inkomensgroep, maar ze zijn gericht omdat ze op het verbruik ingaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note44">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u43">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg56">Helder. Daarmee moeten we de feiten goed van elkaar scheiden. Waarom vind ik deze nou zo problematisch? Wat mij betreft gebeurt er voor de laagste inkomens nog niet voldoende. Dat zei de heer Stoffer heel goed, en de SGP en GroenLinks zijn het echt niet zo vaak met elkaar eens, maar op dit punt wel. Er wordt echt een serieuze stap gezet. Voor de hogere inkomens is het niet nodig, maar is het echt leuk wat ze krijgen. Juist voor die middengroepen die ongelofelijk kwetsbaar zijn, wordt met dit pakket niets gedaan. Dat durf ik wel te zeggen. Wat er wordt gedaan is zo weinig, dat je ze er niet mee helpt. Daar moeten we echt een oplossing voor zien te vinden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note45">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u44">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg57">Ik heb volgens mij net het rekensommetje gemaakt dat de inkomens die de €800 niet krijgen, in de optelsom van het pakket van vorig jaar van de accijnzen en de btw zo'n €700 krijgen. Dat is niet niks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note46">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u45">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg58">We hebben het over prijsstijgingen van meer dan €2.000 op een gemiddelde rekening. Dan heb ik het nog niet eens over de uitschieters. €2.000. Ik snap heel goed dat je als kabinet zegt: we kunnen niet alles dempen. Daar ben ik ook helemaal niet voor. De allerhoogste inkomens in Nederland hebben pech. We gaan deze crisis met z'n allen voelen, maar we hebben het hier over de mensen tot ongeveer modaal. Dat zijn dus mensen die bijvoorbeeld in de schoonmaak werken, in de thuiszorg, in de zorg of mensen die alleenstaande ouders zijn. Die moeten nog steeds alleen al €1.400 meer aan de energierekening betalen. Dat kunnen ze niet. Dat is het grote probleem. Al die mensen in Nederland die nog ruimte hebben, die nog zouden kunnen bezuinigen, die heel makkelijk rondkomen, moeten natuurlijk inleveren. Het is niet anders. Het is niet leuk, maar wel de waarheid. Maar deze groep kan dat niet. Ik vind het dus wat gemakkelijk en getuigen van het feit dat het kabinet niet doorheeft wat er speelt in die samenleving, als je zegt: ja maar we komen ze toch tegemoet? €700, terwijl er voor een gemiddeld gezin nog een rekening van meer dan €1.400 overblijft … Hier komen zo ongelofelijk veel mensen door in de problemen. Daarom vindt u hier bijna de hele oppositie tegenover u, want die zegt: dit kan niet. Stop er dus mee om te zeggen dat ze er €700 bij krijgen. Het is allemaal waar, maar het is bij lange na niet voldoende om de mensen te helpen die echt kwetsbaar zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note47">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u46">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg59">Ik kom nog uitgebreid terug op de ook gister gestelde vraag of de groep uitgebreid moet worden. Ik denk dat we dan deze discussie moeten voeren over wat er wel of niet mogelijk is en wat de cijfers precies zijn. Ik herhaal wel even dat ik nog steeds vind dat we met een pakket van 6 miljard behoorlijk wat doen, maar ik zie ook het probleem dat deze Kamer gister uitgebreid heeft aangekaart, namelijk wat er aan de hand is bij de groep met 120% van het sociaal minimum. Dat is inderdaad een probleem. Dat zien wij ook, maar dat probleem is niet een-twee-drie oplosbaar. Daar kom ik dadelijk op terug. Ik stel voor dat ik eerst nog even inga op de maatregelen die we niet hebben gekozen, want dan weet u ook waarom wij een aantal dingen wel of niet overwogen hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note48">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u47">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg60">Ik kijk even naar mevrouw Van der Plas, want het is misschien een beetje zonde van de interrupties, omdat de minister een aantal vragen echt nog expliciet gaat beantwoorden. U gaat over uw eigen interrupties, maar dat zeg ik bij dezen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note49">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:healt" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u48">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg61">Ik sloeg aan op de opmerking van de minister dat het, kort door de bocht gezegd, een enorm bedrag is als we dat allemaal moeten doen. Ik begrijp dat kortetermijndenken niet. Natuurlijk is het nu een enorm bedrag, maar ik kijk naar de lange termijn en naar de zorgen, de stress en de slapeloze nachten die mensen hebben en naar hun angst dat ze worden afgesloten van energie. Dat is gewoon funest voor de gezondheid van mensen. Heel veel mensen gaan hierdoor overspannen raken en zullen een burn-out krijgen. Die hebben allemaal weer zorg nodig. Dat gaat ook geld kosten. Ik wil de minister eigenlijk graag vragen waarom daar geen rekening mee wordt gehouden, want als je verder kijkt, gaat het ons misschien nog veel meer kosten dan wanneer we nu een groot bedrag uitgeven en die mensen gewoon compenseren. In het Engels is er een mooi spreekwoord: penny wise, pound foolish. In Nederland noemen we dat: het paard achter de wagen spannen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note50">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u49">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg62">Ik ben het met mevrouw Van der Plas eens dat schulden en zorgen over je financiële situatie heel veel doen met mensen. Dat leidt tot gezondheidsproblemen. Dit geldt ook andersom: u weet dat mensen met een slechte gezondheid vaak minder inkomensvermogen hebben. We weten ook van de situatie dat je in een moeilijke situatie zit en daar niet uit komt, dus dat je in een vicieuze cirkel naar beneden kan komen. Daarom hebben we ook allerlei programma's voor schuldhulpverlening en armoedebestrijding, waar mijn collega Schouten druk mee bezig is. Tegelijkertijd moeten we natuurlijk ook heel goed beseffen dat we voor wat we hier voor elkaar krijgen ook dekking moeten vinden. Dat kunnen we natuurlijk maar één keer uitgeven. Dit is 2022. Ik kom dadelijk op wat we voor 2023 willen doen. We willen juist ook die kwetsbare groepen goed in kaart brengen om te kijken welke groepen het het moeilijkst hebben, welke er in die koopkrachtplaatjes — ik vind dat heel lastig om zo te zeggen, want niemand leeft in koopkrachtplaatjes — het slechtst uit komen, en te bekijken of we daarvoor wat kunnen doen en, zo ja, wat. Dat gaan we echt doen, en dat gaan we heel serieus doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note51">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u50">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg63">Dat is helaas geen antwoord op de vraag. Mijn vraag is: wordt er ook gekeken naar de effecten daarvan op de lange termijn? Het kan gaan over de gezondheid. Of mensen raken hun baan misschien kwijt, raken uit het arbeidsproces en hebben dan een uitkering nodig. Zo kun je heel veel voorbeelden verzinnen van de effecten, zoals dat mensen slapeloze nachten hebben, dat ze hun rekeningen niet kunnen betalen. Wordt dat meegenomen bij het uitgeven van dit bedrag? Op korte termijn gooien we — huppakee — zoveel geld op de plank. We gaan het nu oplossen. Die hele grote groep wordt daarin niet meegenomen, zoals ik het nu hoor. Welk effect heeft dat op de langere termijn? Hoeveel gaat dat de maatschappij uiteindelijk kosten? En zijn we dan inderdaad niet het paard achter de wagen aan het spannen? Ik zou graag willen dat die doorrekening er komt. We rekenen alles door in Nederland behalve dit, heb ik het idee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note52">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u51">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg64">Volgens mij zijn al die redenen die mevrouw Van der Plas noemt, nou juist de reden geweest waarom dit kabinet een minister voor Armoedebeleid heeft aangesteld, mijn collega Schouten. Dat is omdat we ons terdege realiseren wat de gevolgen van armoede zijn en wat de gevolgen van stress over je inkomen zijn. Daarom is er een minister voor Armoedebeleid. Die is bezig met al dat soort zaken die u opnoemt, in haar beleid te verwerken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note53">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u52">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg65">De vraag van mevrouw Van der Plas was of dat allemaal ook wordt doorgerekend, dus de consequenties daarvan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note54">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u53">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg66">Nee. Dit is echt een kortetermijnpakket voor 2022, waarin we direct de gevolgen van de energieprijs dempen. Dat is dus directe inkomenspolitiek. Dat is dus niet een langetermijndoorrekening van wat de gevolgen zijn voor deze mensen. Maar dat zit in het armoedebeleid voor de langere termijn van collega Schouten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note55">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u54">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg67">De minister vervolgt haar betoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note56">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u55">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg68">Voorzitter. Er zijn gisteren een heel aantal maatregelen genoemd die wij ook overwogen hebben, maar uiteindelijk niet gekozen hebben. Allereerst dank voor de vele suggesties voor alternatieve maatregelen, want dat houdt ons ook scherp. Daar wil ik ook echt mijn waardering voor uitspreken, want wij hebben dit natuurlijk ook in grote snelheid gedaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note57">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u56">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg69">Alstublieft, meneer Azarkan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note58">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u57">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg70">Ik kon het niet horen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note59">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u58">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg71">Wat u daar riep is niet leuk. Laten we nu even rustig zijn. De minister is aan het woord. De minister kan het ook allemaal horen, en dat is verstorend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note60">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u59">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg72">Nou, ik kon het niet horen. Dat is misschien nog lastiger.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note61">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u60">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg73">Ik kon het zelfs hier verstaan, dus …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note62">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u61">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg74">Dan ligt het aan mij.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg75">In algemene zin wil ik graag kort iets zeggen over de redenen waarom we sommige maatregelen niet hebben genomen. Dan komen we vervolgens specifiek op een aantal van die maatregelen terug in de beantwoording, samen met mijn collega's.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg76">Het eerste is dat het bij sommige maatregelen gewoon te lang duurt voordat we ze kunnen invoeren. Dat geldt voor de verlaging van de inkomstenbelasting, de heffingskortingen. Dat geldt ook voor het aanpassen van de tarieven in de energiebelasting. Heel veel van die tarieven liggen gewoon vast voor 2022. Die kun je dan per 1 januari 2023 aanpassen. Dit geldt ook voor maatregelen waarvoor we een grote wetswijziging nodig hebben, zoals de minimumloonverhoging.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg77">Het tweede is dat we sommige maatregelen te ongericht vonden. Dat geldt bijvoorbeeld voor de algemene btw-verlaging. Maar het geldt ook voor het generiek bevriezen of verlagen van huren. Niet alle huurders hebben een hoge energierekening — veel van hen hebben dat wel — en woningcorporaties staan ook al voor grote uitdagingen. We kiezen dus voor de regelingen die echt aansluiten bij de bron van het probleem, namelijk het energieverbruik. Daarom kiezen we voor de verlaging van de accijns en de verlaging van de btw op energie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note63">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:housi" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u62">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg78">Het lijkt allemaal heel helder. Er zijn drie criteria: het moet snel kunnen — dat is logisch — het moet gericht zijn en het moet bij de bron. Maar als je verder luistert, dan is het toch vreemd dat het kabinet bijvoorbeeld ten aanzien van de huren geen maatregelen heeft genomen. We weten immers dat huurders, zeker huurders van een corporatiewoning of mensen in de gereguleerde sector die een huurtoeslag krijgen, gemiddeld lagere inkomens hebben én niets kunnen doen aan de isolatie van hun huis. Ik vind zo'n maatregel dan veel logischer dan bijvoorbeeld een btw-maatregel, want als je in een villa woont, heb je veel meer stookkosten dan wanneer je in een klein appartementje woont. Dus waarom is dan toch niet naar die huren gekeken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note64">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u63">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg79">We komen een voor een bij de specifieke maatregelen. Dit was even een voorbeeld; wij vinden dat dit te ongericht is. Maar even op hoofdlijnen het volgende. De kosten van iemand die in een niet-geïsoleerde huurwoning woont, kun je proberen te dempen via de huur of via de energierekening. Wij hebben voor de energierekening gekozen, omdat er ook mensen zijn die in een koopwoning wonen en een hoge energierekening hebben, omdat er ook mensen zijn die in een goed geïsoleerde huurwoning wonen of een vast energiecontract hebben. Wij hebben dit echt afgewogen en wij denken dat het qua ongerichtheid/gerichtheid beter is om op de energie in te grijpen dan op de huurprijzen. Dat is onze overweging geweest.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note65">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:housi" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u64">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg80">Dat deel ik dus niet met het kabinet. Ik vind het terecht dat het kabinet ook denkt aan de energieprijzen. De energiebelasting eerder dit jaar en de btw: daar kan ik mij alles bij voorstellen. Maar bij huurders gaat het relatief gezien juist om de lagere inkomens en middeninkomens; zij kunnen niets aan isolatie doen. De heer Klaver rekende het voor: je kunt €700 compensatie bieden, maar als de kosten met €2.000 omhooggaan, dan hang je aan de hoogste lat die er maar is. Ik snap niet dat het kabinet niet ook voor de huurders meer maatregelen heeft genomen, want dan richt je je op de groep die het meest kwetsbaar is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note66">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u65">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg81">Daarbij hebben wij uiteindelijk een afweging gemaakt: wij denken dat we deze mensen beter kunnen steunen met een verlaging van de btw op energie dan op een andere manier. Wij denken dat wij dit pakket op deze manier het beste kunnen laten landen: deze groep mensen en, in den brede, aangrijpen op de bron. Deze afweging hebben wij op deze manier gemaakt. Ik begrijp uw afweging overigens ook, maar volgens ons is deze manier — alhoewel die ook nog relatief gericht/ongericht is — gerichter dan ingrijpen op de huur.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note67">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:housi" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u66">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg82">De minister overtuigt mij niet echt met dit antwoord. Ik ben het ermee eens dat er ook voor kopers maatregelen moeten zijn. Want anders heb je natuurlijk niks aan huurmaatregelen. Maar als je kijkt waar de grote problemen zijn, dan zie je dat die zich voordoen bij mensen die in een tochtig huis leven, die in huurhuis leven, die €600, €700 in de maand aan huur moeten ophoesten en de energierekening van €150 naar €300 in de maand zien gaan. De btw-verlaging helpt hen niet genoeg. Die mensen zitten in de kou. Ze hebben dikke truien aan. Ik snap niet dat het kabinet een maatregel die kán — via de huurtoeslag, het bevriezen van de huren, het verlagen van de huren van tochtige huurwoningen; ik hebben allemaal opties genoemd — niet neemt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note68">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:housi" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u67">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg83">Volgens mij pleit de heer Nijboer hier dan ook voor het verhogen van het pakket, voor het uitbreiden van het pakket. Dat is een ander argument dan bij de vraag welke maatregel je hebt gekozen. We hebben een pakket van 2,8 miljard en dit is de maatregel die we hebben gekozen. Wat u eigenlijk zegt, is "bevries daarbovenop de huur", maar dan hebben we het over een groter pakket. Dat is een andere afweging.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note69">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u68">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg84">Mijn vraag aan de minister gaat over het volgende. De minister gaf aan … Ik reageerde daar een beetje schamper op; dat had niet gemoeten. De minister zegt: het houdt ons scherp. Waar blijkt dat dan uit? Waaruit blijkt nu dat dit het kabinet scherp houdt?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note70">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u69">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg85">Dat we hier vandaag met u in debat zijn, alleen al. Ik denk dat de situatie op dit moment zo uitzonderlijk is dat we ook echt naar uitzonderlijke maatregelen hebben gekeken. Verschillende van uw ideeën hebben wij gewogen, en uiteindelijk zijn we er op deze manier uitgekomen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note71">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:housi" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u70">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg86">Dat de minister hier staat, is op zich geen argument dat onderbouwt dat hier serieus naar wordt gekeken of dat dit het kabinet scherp houdt. Volgens mij is dat gewoon zijn grondwettelijke taak als de Kamer controle wil uitoefenen op datgene wat het kabinet doet. Ik zie dat dus gewoon als een taak. Mijn vraag is heel simpel. Hier worden een aantal suggesties gedaan. Heeft de minister die suggesties nou op voorhand bij de partijen opgehaald? Want als op voorhand suggesties worden opgehaald en op basis van criteria worden doorgerekend, dan zou ik kunnen zeggen dat ik serieus word genomen. Ik hoor collega Nijboer zeggen: ja, maar volgens mij is het veel gerichter om te kijken naar het bevriezen van de huren, te kijken naar de huurtoeslag. En dan is het antwoord van de minister: wij vinden van niet. Is dat dan serieus nemen? Is dat dan scherp houden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note72">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u71">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg87">Volgens mij zijn dat twee verschillende dingen. En volgens mij kent u mij ook als iemand die het debat met de Kamer serieus neemt. Dat wil ik ook even gezegd hebben. Wat ik bedoelde te zeggen, is dat in een afweging om een pakket voor dit jaar te maken, wij natuurlijk keuzes hebben moeten maken, en daarin deze keuzes hebben gemaakt. Het debat met de Kamer, hierover spreken, is natuurlijk ook een manier om dat te wisselen. En zo houden we elkaar scherp. Maar dat ik het debat met uw Kamer niet serieus neem, dat werp ik verre van mij. En dat weet u, want wij hebben al meer een debat gevoerd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note73">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u72">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg88">Ik heb echt nooit gezegd dat de minister het debat met de Kamer niet serieus neemt. Ik reageerde op wat deze minister zegt: dank voor de suggesties, dat houdt ons scherp. En ik dacht: waar blijkt dat uit? Als ik daarnaar vraag, zegt de minister als eerste argument: het feit dat ik hier al sta en met u het debat aanga. Daarvan zeg ik: dat is volgens mij gewoon haar taak; als de Kamer daarom vraagt, dan hoort dat gewoon zo. Maar ik wil echt even een stap verder. Want elke keer als er een argument met een voorstel wordt neergelegd, dan komen we op het punt waarop de minister eigenlijk zegt: ja, maar wij vinden van niet. En ik denk dat je, als je met elkaar serieus wilt debatteren over dat soort voorstellen, dan een stap verder zult moeten gaan en moet laten zien waar de oplossing van het kabinet beter aankomt en effectiever en doelmatiger is dan het voorstel van de oppositie. Volgens mij was dat de handreiking. Ik vraag aan de minister om dat ook serieus te nemen, en dat dus niet af te doen met: wij vinden dit een betere maatregel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note74">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u73">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg89">Volgens mij heb ik zojuist gepoogd uit te leggen waarom wij hebben gekozen voor een verlaging van de btw op energie versus het bevriezen van de huren, dus wat onze argumenten daarvoor zijn geweest. En ik ben er ook vrij duidelijk in geweest dat het dan zo kan zijn dat u of een ander Kamerlid een andere afweging maakt, gegeven dat wij deze argumenten hebben gewisseld. Maar dat betekent niet dat ik, als u iets zegt, het daar altijd mee eens ben, maar wel dat wij het gesprek en de discussie daarover voeren. En dat doen we toch vandaag?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note75">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u74">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg90">Zeker. Ik ga over naar een ander punt, het punt dat ik echt wilde maken. Maar ik wilde hier echt even op reageren, want dit klinkt — nogmaals — alsof er hier een enorme uitgestoken hand is, alsof er voorstellen zijn opgehaald, alsof er vooraf al nagedacht is en overleg is geweest met de oppositie — nou, in ieder geval niet met mij — en alsof dat heel serieus werd genomen. Ik denk dat dat gewoon niet zo is. Ik denk dat wij van het pakket van maatregelen dat er ligt, het idee hadden in de gesprekken bij de Startnota: er komt niks, er komt niks; Voorjaarsnota, daar in één slag een pakket. Dus er werd eerst een muur opgeworpen door het kabinet, van: u kunt van alles vragen, maar u krijgt niks; wacht maar tot de Voorjaarsnota. Ineens ligt daar een pakket. Ik heb daar niet over mee kunnen praten, en een heleboel collega's ook niet. En dan zeggen "wij nemen u zo serieus" en "u houdt ons scherp" ... Ik vind dat een beetje eufemistisch: het klinkt leuk, maar in de praktijk zal het gewoon niet gebeuren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg91">Voorzitter. Dan even mijn interruptie. Ik begrijp de minister als zij zegt: ik ben beperkt in datgene wat ik kan doen. En ik begrijp dat, omdat dat namelijk in zekere zin het herverdelen van armoede is. Dus waar je volgens mij naar moet kijken, is naar het systeem, waar we al twintig jaar in zitten, en waar we voor de langere termijn naar moeten kijken. Dat is namelijk: lastenverzwaring voor burgers die voor elke euro die ze verdienen 40 cent moeten betalen aan premies volksverzekeringen, en vervolgens ook nog belasting en accijnzen moeten betalen over al datgene wat ze kopen. Dan hebben ze nog huren die niet te betalen zijn. Dat betekent dat, als het ze een beetje tegenzit, er heel veel problemen ontstaan voor heel veel mensen. Is dát niet het probleem?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note76">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u75">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg92">Daar heeft de heer Azarkan een duidelijk punt. Wat ik zojuist al heb gezegd — maar dan hebben we het meer over 2023 en verder dan nu — is dat wij echt goed willen kijken naar wat van die verschillende groepen de kwetsbaarheid is. Mevrouw Van Dijk vroeg daar gisteren ook naar. Dat is dus een echte toezegging: wij gaan in die discussie over 2023 en de koopkracht daarin, echt goed kijken naar die verschillende groepen. Wat gebeurt er met die groep die net boven het minimumloon zit? Wat gebeurt er met mensen die net boven modaal zitten? Of met anderhalf keer modaal, wat zo ongeveer het Nederlandse model is, anderhalf inkomen? Dit om te zorgen dat we heel goed weten hoe die optelsom uitpakt van allerlei toeslagen die je niet meer krijgt als je in een bepaald inkomen geraakt. Dus die analyse. Ik deel met u dat er hier en daar echt pijn zit, maar die analyse zijn we heel serieus aan het voorbereiden voor die voorjaarsbesluitvorming.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg93">Dan nog even over het punt waarover u begon. De oorlog in Oekraïne is nu drie, vier weken bezig. Volgens mij was het debat over de Startnota, waar u aan refereerde, aan de vooravond van de inval in Oekraïne. Op dat moment waren wij natuurlijk nog van plan om het gewoon bij de Voorjaarsnota te doen. De oorlog in Oekraïne heeft de verhoging van de energieprijzen in een versnelling gezet. Daarom hebben wij gezegd: we moeten nu iets doen. Dus het is voor ons ook echt handelen in snelheid geweest. Zoals ik in het begin zei: het is echt een uitzonderlijke situatie dat we voor dit jaar nog wat doen. Dat hebben we dus ook in snelheid in elkaar gezet. In de Startnota en de Voorjaarsnota staat de langetermijnvisie, waarbij we al dit soort uitgebreidere analyses ook echt gaan doen en aan het voorbereiden zijn. Ook de suggesties van de heer Van Dijck nemen we daar allemaal serieus in mee. Hij heeft gewoon een punt. Hij zegt: voor bepaalde gezinnen … Het lastige van die koopkrachtplaatjes is dat niemand precies één koopkrachtplaatje is, maar laten we toch maar even aan de koopkrachtplaatjes vasthouden. Sommige koopkrachtplaatjes zullen er beter uitkomen dan andere. Dan moeten we het met elkaar hebben over wat dat betekent. Dan wil ik er wel alvast bij zeggen: gegeven de oorlog in Oekraïne zullen we niet alles kunnen compenseren. Dat zult u ook begrijpen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note77">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u76">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg94">U heeft nog twee vragen over, meneer Azarkan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note78">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u77">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg95">Ik gebruik ze graag. Ik zal er nog één bewaren voor een van de twee andere bewindspersonen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg96">De minister zei aan het begin: je kunt er natuurlijk het beste op vooruitgaan in koopkracht als je van baan verandert. Het lastige is alleen dat de werkloosheid op een historisch laag dieptepunt zit. Dus eigenlijk had de minister moeten zeggen: hoe kan het nou dat er zo veel mensen werken en dat bij een klein beetje tegenslag ook werkenden in de problemen komen? Dat is toch een systematisch probleem? Tot slot wil ik iets meegeven dat ik ook in het debat over de Startnota heb gezegd. Er zijn keuzes gemaakt om de lasten voor bedrijven niet te verhogen; die zijn in de afgelopen twintig jaar verlaagd. De belastingdruk voor bedrijven is van 22,5% naar 17% gegaan, terwijl die voor de burgers elke keer werd verhoogd. Als je daarbinnen dus moet verdelen, is het een oneerlijke verdeling. En dus moet je jezelf de vraag stellen of je het niet anders moet verdelen. Dat heeft D66 gedaan. Die had een pakket van 24 miljard in gedachten. Dat heeft het CDA gedaan. Zelfs uw partij, de VVD, had dat voorstel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note79">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u78">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg97">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note80">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u79">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg98">Sorry, ik bedoelde het CDA. De praktijk is dat het kabinet besloten heeft om daar niets van op te halen bij bedrijven. Dan kom je nu in de problemen, want …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note81">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u80">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg99">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note82">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u81">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg100">… dan kun je het niet betalen. Dus dat is een systeemkeuze.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note83">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u82">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg101">Al deze discussies gaan echt terugkomen bij de discussie over de Voorjaarsnota. Dan gaan we dit verder bekijken dan 2022. Dat was het antwoord op uw vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note84">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u83">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg102">Het was een lange interruptie, maar een kort antwoord; dat mag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note85">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u84">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg103">We zijn pas net bezig, maar ik vind het een vermoeiend debat. Dat komt omdat wij hier in de Kamer in januari al bij de regeringsverklaring zeiden: u moet iets gaan doen voor 2022, want de prijzen zijn nu al tien keer zo hoog en die gaan alleen maar verder stijgen. Het heeft niet alleen met de oorlog in Oekraïne te maken. Er zijn veel meer aspecten waardoor de prijzen stijgen. Daar is hiervoor gewaarschuwd in de Kamer en dat heeft het kabinet niet gedaan. Bij de regeringsverklaring hebben we ook gezegd: "er is een groot probleem. Een hele grote groep mensen in Nederland heeft namelijk geen reserves en geen buffers. De lonen blijven ook al jaren achter. Daar zit een groot probleem. Los dat op." Dat is niet gedaan. Dus u moet niet nu aankomen met dat de oorlog in Oekraïne hét grote kantelpunt was. De problemen waren er al.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg104">Eerlijk gezegd geloof ik ook niks van de argumentatie die de minister net gaf, bijvoorbeeld als het gaat over huurders. Het kan een politieke keuze zijn om het niet te doen, maar dat het minder gericht zou zijn dan een btw-verlaging is natuurlijk je reinste lariekoek. Daarom heb ik een hele concrete vraag. Ik zou graag willen dat alle beslisnota's die er zijn, alle memo's die zijn geschreven — of het nou gaat over de huren, over de zorgtoeslag, over de huurtoeslag of over het minimumloon meer verhogen in juni — gewoon naar de Kamer komen, want ik wil daar alle details van weten. Ik wil namelijk weten of iets wel of niet kan, want dan is het namelijk een politieke keuze van dit kabinet om niet heel gericht naar de huren te kijken, maar het algemeen te verschmerzen in de btw. De vraag is of ze nu staande dit debat zo snel mogelijk naar ons toe kunnen komen, want ik geloof geen klap van de argumentatie die de minister net gaf.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note86">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u85">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg105">Ik weet niet of dat staande het debat kan, maar als u nota's wil, dan krijgt u natuurlijk nota's. Dat lijkt me duidelijk. Ik weet even niet met welke snelheid dat kan. Ik kijk even de zaal rond.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note87">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u86">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg106">Ik denk dat dit dan een punt van orde wordt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note88">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u87">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg107">Ja, dan heb ik een punt van orde. Ik hecht aan de feiten om dit debat goed met elkaar te kunnen voeren. Als ik het gewoon mis heb en iets niet kan in 2022, dan ben ik de eerste om mijn ongelijk toe te geven. Maar daar hebben we die informatie wel voor nodig. Wat mij betreft hoeven we niet te schorsen en gaan we gewoon verder met het debat. Ik wil gewoon even een indicatie krijgen van het moment waarop we die nota's kunnen krijgen. Volgens mij is het gewoon vrij simpel en kunnen ze opgestuurd worden. Anders heb ik twijfel bij de waarde van het debat dat we nu kunnen voeren. Maar volgens mij kunnen ze dus gewoon opgestuurd worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note89">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u88">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg108">U heeft een informatieverzoek gedaan. Het is goed als de minister ons gedurende het debat even laat weten of dat nu lukt of op een ander moment.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note90">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u89">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg109">Ik neem aan dat de ambtelijke ondersteuning meeluistert, dus dat we daar binnen tien minuten een antwoord op kunnen krijgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note91">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u90">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg110">Ik zou toch wel willen vragen om ons in dit debat even de ruimte te geven om die verschillende maatregelen af te lopen. Ik was nog bij de redenen op grond waarvan wij onze beslissingen hebben genomen. We gaan dadelijk in meer detail in op al die individuele maatregelen. Ik noemde het nu alleen even als voorbeeld. Dus ik zou willen vragen om wat ruimte, zodat mijn collega's en ik de verschillende maatregelen meer en détail met u kunnen bespreken en kunnen toelichten waarom we bepaalde besluiten wel of niet hebben genomen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note92">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u91">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg111">Ik kijk even naar de collega's. De minister was nog niet zover in haar betoog. Zij wil nu een nadere toelichting geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note93">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u92">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg112">Ik ben nog bij de inleiding.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note94">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u93">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg113">Er zijn al heel veel interrupties gepleegd. Nogmaals, de Kamer gaat over haar eigen interrupties, maar de minister wil de andere maatregelen nog in detail bespreken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note95">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u94">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg114">Nou, aanvullend op het informatieverzoek van de heer Klaver wil ik ook de documenten ontvangen die ten grondslag liggen aan de beslissing over het minimumloon. De minister zei dat het niet snel kan, omdat daar een wetswijziging voor nodig is. Een btw-verlaging vergt ook een wetswijziging. Ik wil die informatie wel echt graag hebben voor het begin van de tweede termijn van de Kamer. Dan kunnen we daarmee rekening houden bij de moties en de Kameruitspraken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note96">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u95">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg115">Dat is een aanvullend informatieverzoek. De minister vervolgt haar betoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note97">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u96">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg116">Ten slotte de vraag waarom wij een aantal maatregelen als minder wenselijk hebben beschouwd. Dan gaat het bijvoorbeeld over de verhoging van de toeslagen, omdat wij breed zorgen hebben over de uitvoering van toeslagen en daarom niet in het lopende jaar iets aan toeslagen wilden veranderen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg117">Dan wil ik ingaan op een aantal specifieke maatregelen, allereerst even de koopkracht van 2023 en verder. Ik heb daar al een paar dingen over gezegd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note98">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u97">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg118">Ik heb nu net gevraagd of de minister even wat verder in haar betoog mag gaan. De heer Van Weyenberg, D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note99">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u98">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg119">Dank u wel, voorzitter. Ik heb namelijk een vraag over iets wat net is gezegd, dus dan vind ik dit het goede moment. De minister had het kort over de verhoging van het minimumloon, waarover de heer Nijboer net een informatieve vraag stelde. Ik zou dan ook graag horen — dat kan nu, het kan ook straks, verderop in dit debat — wat het tijdpad is voor zo'n wetswijziging. Dat wil ik ook om voor een aantal maatregelen te kunnen kijken die wellicht, als je op 1 januari nog iets zou willen doen, nu gedurende het jaar niet kunnen. Dat begrijp ik; dat vind ik vervelend, maar dat is een realiteit. Maar ik wil natuurlijk wél voorkomen dat we er in november achter komen dat we eigenlijk het minimumloon zouden willen verhogen per 1 januari maar dat het dan niet meer kan. Ik ben dus ook een beetje op zoek in dit debat naar tijdpaden waarop we dat als Kamer kunnen doen. Specifiek heb ik die vraag over het minimumloon. Stel dat de minister het nu niet voor haar neus heeft, ik zou het wel graag gedurende dit debat horen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note100">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u99">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg120">Voorzitter. Ook het minimumloon komt dadelijk bij de specifieke maatregelen terug. Daar kan ik alvast van zeggen dat daar snelheid op zit. Uit mijn hoofd is de planning dat voor de zomer duidelijk wordt voor uw Kamer op welke manier en met welke snelheid we dat willen doen. Maar het lijkt me duidelijk dat we dit allemaal snel willen, zeker ook gezien de discussie over de koopkracht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note101">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u100">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg121">De minister komt zo terug op de specifieke vraag die u hebt gesteld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note102">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u101">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg122">Zeker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note103">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u102">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg123">Dan kijk ik naar de heer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note104">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u103">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg124">Voorzitter. In mijn termijn heb ik betoogd dat een aantal mensen acuut in de problemen is gekomen doordat een energiemaatschappij failliet gegaan is, ze niet konden overstappen en hun een totale woekerprijs in rekening gebracht is. Dat gaat om een paar honderdduizend huishoudens die nu soms €2, soms zelfs €3 per kuub gas betalen. Op Kamervragen antwoordde toen staatssecretaris Yeşilgöz-Zegerius dat er in december een onderzoek naar was gestart. Maar het lijkt me toch helder dat je deze mensen zou helpen en dat je ervoor zou zorgen dat als dat weer gebeurt, ze dan in ieder geval op dezelfde contractvoorwaarden mogen instappen bij de Eneco's, Essents en Vattenfalls van deze wereld als de mensen die een normaal contract hebben. Deze mensen zijn eraan kapotgegaan, ze zijn soms van €200 naar €700 gegaan. Waarom zit dat niet in het pakket?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note105">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u104">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg125">Daar is een onderzoek naar gedaan. Volgens mij is dat pas net klaar, maar mijn collega Kaag gaat dadelijk op deze maatregel in. Ik was nu nog bij het kader van afwegingen; dadelijk komen we als u het goed vindt bij deze specifieke maatregelen. Dan komen deze ook langs. Ik heb uw vraag opgeschreven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note106">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u105">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg126">Ik wil inderdaad de minister vragen wat verder te gaan in haar betoog. Het is ook zonde; er worden allerlei vragen gesteld, de minister zegt dan: ik kom daar zo op terug. Dus laat de minister even wat verdergaan in haar betoog, zou mijn voorstel zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note107">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u106">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg127">Voorzitter, dat doe ik met liefde. Maar als de minister zegt: dit zijn de maatregelen die overwogen zijn, dan wacht ik tot het helemaal afgelopen is en dan vraag ik waarom ze deze maatregelen niet intussen gevraagd hebben. Zo onlogisch was mijn vraag niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note108">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u107">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg128">Zeker niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note109">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u108">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg129">Voorzitter. Ik was nog bij het kader van de afweging. Dat heb ik geprobeerd aan u duidelijk te maken. Nu komen de individuele maatregelen een voor een langs.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg130">Maar voordat we daar zijn, komen we nog even bij de koopkracht 2023. Vandaag spreken wij over de koopkracht van 2022, een totaalpakket van 6,2 miljard om een gedeelte van de koopkrachtdaling te dempen. De CPB-berekeningen laten voor het basispad natuurlijk nog een mooie koopkrachtstijging voor volgend jaar zien en in hun sombere scenario nog steeds +0,6%, dus zeg maar even: net gelijk blijven, net daarboven.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg131">Met alle grote onzekerheid die er is, blijven wij natuurlijk enorm goed opletten wat er gebeurt in Oekraïne, in de ontwikkeling van de gas- en energieprijzen, in algemene koopkracht, om te zorgen dat wij ook met die besluitvorming over 2023 goed kunnen meenemen wat er gebeurt in de verschillende groepen, van wereldhandel tot koopkrachtplaatjes. Daar komen we natuurlijk op terug wanneer we in gesprek gaan met u over 2023 en verder. Ik wil hier wel alvast bij aangeven dat we natuurlijk, omdat het zo onzeker is wat er in Oekraïne gebeurt, bovenop allerlei andere ontwikkelingen, wat korter op de bal zullen zitten dan in andere jaren en dus misschien ook de besluitvorming wat later in het jaar zullen doen, of op een wat andere manier, om te zorgen dat we anticiperen op wat er gebeurt. In ieder geval houden we goed in de gaten wat er met al die verschillende groepen gebeurt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg132">Ik ga graag even in op de energietoeslag. Dan kom ik op enkele specifieke vragen. Daar zit onder andere de vraag over het minimumloon bij. De minister van Financiën gaat in op de economische gevolgen in brede zin en op de vragen over de dekking en de begroting. De minister van Financiën zal ook ingaan op vragen over verduurzaming, gebouwde omgeving en energie. De staatssecretaris van Financiën gaat in op de fiscale maatregelen en de alternatieven op fiscaal gebied, zoals de toeslagen die door de Kamer zijn aangedragen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg133">Ik denk dat we over de koopkrachteffecten van dit pakket zojuist al vrij uitgebreid hebben gesproken. Misschien is het goed om nog even terug te komen op de mensen die in de problemen komen door stijgende energieprijzen. Het blijft lastig om die analytisch in beeld te brengen, om het zo maar even te zeggen, omdat de individuele situatie van de mensen zo verschillend is. De overheid heeft vrij nauwkeurig inzicht in de inkomens van mensen, maar heel beperkt inzicht in uitgavenpatronen. Die zijn is zo verschillend, omdat ze afhangen van individuele keuzes. Dat zeg ik tegen mevrouw Van der Plas, want zij vroeg daarnaar. Als mensen in de problemen komen, is dat natuurlijk enorm lastig voor die mensen zelf, maar óf ze in de problemen komen, kunnen wij soms wat moeilijker zien.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg134">TNO heeft in september vorig jaar een schatting gemaakt — u refereerde daar ook aan — dat er ruim een half miljoen huishoudens zijn met een risico op energiearmoede. Dat is een combinatie van een laag inkomen, weinig vermogen en hoge energiekosten. Het onderzoek is uit september, maar het is wel aardig dat het iets zegt over de aard, omvang en regionale spreiding, dus waar die energiearmoede zit. Het laat zien dat het echt een heel diverse groep is. Het kan met huur te maken hebben, maar er is bijvoorbeeld ook een oververtegenwoordiging van alleenstaanden. Ook is er een oververtegenwoordiging in krimpregio's en in bepaalde wijken. Dit soort onderzoeken helpt ons om inzicht te krijgen in de problematiek van energiearmoede. Overigens is dit het onderzoek dat het vorige kabinet heeft gebruikt bij de totstandkoming van het pakket maatregelen. U vraagt er niet naar, maar ik geef toch het antwoord: ik zou u willen toezeggen dat we dit onderzoek herhalen. Het is namelijk een heel nuttig onderzoek om beter inzicht te krijgen in de armoedeplaatjes.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note110">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u109">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg135">Voordat u verdergaat, de heer Alkaya van de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note111">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u110">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg136">Het wrange van het pakket dat nu voorligt, is dat het voor een heel groot deel niet bij die groep mensen terechtkomt, tenminste onvoldoende. Kan de minister dat bij het onderzoek betrekken? Kan zij toezeggen dat zij gaat kijken hoe juist de groep die te maken heeft met energiearmoede, in de toekomst gerichter bereikt kan worden met beleid? Met welke beleidsinstrumenten kan die groep in de toekomst eventueel gerichter gecompenseerd of op een andere manier geholpen worden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note112">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:healt" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u111">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg137">Zeker. Ik weet alleen niet of dat in dit TNO-onderzoek moet gebeuren. Dit is een analyse. Een onderzoek naar hoe we die groep gerichter kunnen bereiken, door TNO of door een andere instantie, willen we graag toezeggen. Dit onderzoek is de analyse. Misschien is er iemand anders die kijkt naar de maatregelen. Daar moeten we even naar kijken. Een onderzoek ernaar komt er zeker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note113">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u112">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg138">Ik geef het woord aan mevrouw Van der Plas van BBB, want u sprak naar aanleiding van haar vragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note114">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u113">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg139">Dank voor het antwoord op de niet-gestelde vraag. Dat is ook weleens leuk. Die vraag had ik uiteindelijk wel gesteld uiteraard, maar dat terzijde. Het is leuk om zo'n onderzoek te herhalen, maar dan gaat het toch om mensen die het risico lopen op energiearmoede. Ik zou graag willen dat het onderzoek verbreed wordt naar de mensen die normaal gesproken niet dat risico lopen, omdat ze altijd wel hun rekeningen kunnen betalen, maar in deze crisissituatie wel in de problemen komen. Dan wordt die groep volgens mij aanzienlijk groter. Ik zou ook graag zien dat de onderzoeksvragen met de Kamer worden gedeeld, zodat we weten wat er precies wordt onderzocht. Dan kunnen we het daarna erover hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note115">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u114">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg140">Ik begrijp waar mevrouw Van der Plas naartoe wil. Ik denk dat dat een goed idee is. U zegt eigenlijk: kijk niet alleen naar de groep die al in de problemen zit, maar ook naar de groep daarnaast of daarboven die in de problemen dreigt te komen. Volgens mij is dat wat u bedoelt: iets breder kijken dan alleen naar mensen die nu al last hebben en die bijvoorbeeld in de schuldsanering zitten, maar ook naar degenen die daarboven zitten. Wat zit daar aan inkomenseffecten? Dus ja, die verbreding komt er zeker. We kunnen de onderzoeksvragen ook delen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg141">Ik combineer dit even met de vraag van de heer Alkaya: hoe kun je uiteindelijk iets voor die groep mensen doen? We komen dan weer terug bij de toezegging aan mevrouw Van Dijk om bij onze besluitvorming over 2023 en verder naar die kwetsbare groepen te kijken. Dan kunnen we al die puzzelstukken bij elkaar leggen. De heer Van Dijk refereerde ook aan die groep.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note116">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u115">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg142">Dank voor die toezegging. Ik heb het idee dat dit heel erg in de buurt kwam bij de vraag over de analyse die ik eerder aan de minister stelde. Mijn vraag was of de sterkste schouders inderdaad de zwaarste lasten dragen. Begrijp ik goed dat dat in het herhaalde onderzoek aan bod komt? Gaan we daarin inderdaad kijken hoe het eigenlijk zit met die verdeling?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note117">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u116">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg143">Zoals het onderzoek van TNO nu is opgezet, was het een analyse over de vraag waar het probleem van energiearmoede zit. Mevrouw Van der Plas wil daaraan de groepen toevoegen die in de problemen dreigen te komen en die daarnaast of daarboven zitten. De heer Alkaya heeft gevraagd: kun je in een onderzoek door TNO of in een ander onderzoek ook kijken welke maatregelen je moet nemen om deze groepen te helpen? Dat is volgens mij wat we hier hebben. Dat is nog iets anders dan de brede vraag waarmee we het debat begonnen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg144">Ik denk dat dit onderzoek heel nuttig is om ervoor te zorgen dat we de discussie over de koopkracht voor 2023 en verder goed kunnen voeren. Dat kwam gisteren een aantal keren terug. Daarmee weten we namelijk, voor zover we dat op basis van koopkrachtplaatjes kunnen weten, welke kwetsbaarheid een bepaalde groep heeft en of een bepaalde groep de mogelijkheid heeft om daaruit te veren. Het is namelijk niet voor iedereen weggelegd om een nieuwe baan vinden die meer betaalt. In deze arbeidsmarkt is dat overigens voor een heleboel mensen wel zo, maar ook voor een aantal mensen niet. Dan kun je ook zien waar je nog kunt en wilt bijsturen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note118">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u117">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg145">Dat begrijp ik. Dat lijkt me ook een heel goede aanpak. Omdat de maatregelen die het kabinet nu gaat nemen hun uitwerking zullen hebben, kun je zien of ze geholpen hebben. Je kunt zien of ze de stelling bewijzen of ontkrachten dat ze zijn neergeslagen bij de sterkste schouders, of juist bij de lage inkomens. De effecten van de maatregelen die het kabinet nu neemt, zullen immers in dat onderzoek kenbaar worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note119">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u118">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg146">Ik denk even hardop, want als ik het interpreteer zoals u het nu zegt, zouden we heel Nederland moeten meenemen. Omdat dit voor de besluitvorming voor 2023 bedoeld is, denk ik dat we ons juist willen richten op de groepen waarvan wij denken dat ze in de problemen zitten of dat ze in de problemen dreigen te komen. Ik ben bang dat we anders een heel grote analyse doen. We moeten de antwoorden deze zomer hebben. Anders kunnen we niet besluiten voor 2023. Ik wil het zo inkaderen dat we er op tijd wat aan hebben. Een promotieonderzoek over vier jaar gaat ons niet helpen. We willen natuurlijk iets waarmee we met z'n allen knoppen krijgen om hierin te kunnen sturen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note120">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u119">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg147">Dat begrijp ik. Er wordt ook niet gevraagd naar een promotieonderzoek van vier jaar. Ik denk dat het inderdaad goed is als de onderzoeksopzet gedeeld wordt. Dan kunnen we daarnaar kijken. Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note121">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u120">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg148">Het is goed als het onderzoek van TNO wordt geactualiseerd. Het ging toen over 500.000 huishoudens, waarvan drie kwart wonend in huurwoningen, met een risico op energiearmoede ofwel levend in energiearmoede. Ik heb nu al schattingen gezien waarin dat is gestegen naar ruim 1 miljoen huishoudens, waarbij er ook een groter aandeel aan eigen woningen bij is gekomen, vooral in landelijke gebieden. Dat is allemaal bekend. Het is goed dat dit snel wordt geactualiseerd. Juist met het oog daarop is in het coalitieakkoord ten eerste afgesproken om de verhuurderheffing te schrappen, ervoor te zorgen dat er prestatieafspraken worden gemaakt en het uitfaseren van slecht geïsoleerde woningen naar voren te halen. Het gaat dan om woningen met labels E, F en G. Ten tweede is het nationaal isolatieprogramma afgesproken. Mijn vraag is of TNO in zijn analyse kan ingaan op handelingsopties om het risico snel te reduceren. Ook vraag ik of het kabinet in de appreciatie bij het onderzoek, zodra dat naar de Kamer komt, kan ingaan op de vraag hoe wat is afgesproken eventueel kan worden geïntensiveerd of versneld, zowel als het gaat om woningcorporaties en andere verhuurders, als bij het nationaal isolatieprogramma. Want als het budget volgend jaar niet afdoende is, dan zit er natuurlijk tot 2030 in het klimaat- en transitiefonds nog behoorlijk wat budget. Ik weet dat de minister voor Klimaat en Energie welwillend gaat kijken of er voldoende budget is om op korte termijn echt het risico op energiearmoede te reduceren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note122">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u121">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg149">Dank u wel voor die suggestie. Die sluit aan, denk ik, bij wat de heer Alkaya net benoemde: kunnen we dan ook kijken wat we kunnen doen? U hebt het heel specifiek over het versnellen van verduurzamingsopties. Dat lijkt mij om allerlei redenen verstandig, vanwege zowel de verduurzaming die nodig is als de mindere afhankelijkheid van Rusland. Wij zullen die onderzoeksvragen met u delen. We moeten dan even bekijken of TNO de juiste instantie is, dan wel dat het twee verschillende onderzoeken moeten zijn. Maar dat gaan we gewoon praktisch uitwerken, zodat ook u de informatie hebt om te begrijpen wat er aan de hand is en wat we daar wel of niet aan kunnen doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg150">Over de energietoeslag zijn gisteren een aantal vragen gesteld. Dit gaat dus over de specifieke maatregel inzake de €800. Over €200 daarvan hadden wij vorig jaar al een toezegging gedaan en een besluit genomen. Deze maatregel is ook heel uitgebreid met de VNG besproken. Dit betekent dat ongeveer 800.000 huishoudens met een inkomen van ongeveer 120% van het sociaal minimum die toeslag krijgen. Daarvoor is de Participatiewet gewijzigd. Dat voorstel is op 15 maart ingediend bij uw Kamer. Ik neem aan dat dit voorstel binnenkort met collega Schouten besproken zal worden. Dat voorstel maakt het mogelijk dat de gemeenten via de categoriale bijstand een toeslag aan huishoudens kunnen uitkeren. Daarnaast kunnen ze de toeslag ambtshalve uitkeren aan huishoudens die ze al in beeld hebben. Dat betekent dat er op die manier zo min mogelijk uitvoeringslasten voor de gemeenten zijn. Want dat is wel even een punt: als we dit zo snel willen doen en als we willen dat mensen snel het geld hebben, dan moet dit ook wel kunnen bij de gemeenten.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg151">Er zijn ongeveer 350.000 huishoudens die al bij de gemeenten bekend zijn. Die kunnen de toeslag automatisch krijgen. De rest van de groep, ongeveer 500.000 huishoudens, moet de toeslag zelf aanvragen. Dat zijn dus mensen die nog niet bekend zijn. Daaronder vallen onder anderen zelfstandigen met een minimuminkomen en AOW'ers zonder aanvullend pensioen. Het gaat dus om heel verschillende groepen in verschillende gemeenten. De gemeenten hebben natuurlijk ook een bepaalde beleidsvrijheid; zo zijn wij in Nederland met elkaar georganiseerd.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg152">Ook belangrijk is dat mensen het geld snel tot hun beschikking hebben. Daarom heeft minister Schouten bij de indiening van het wetsvoorstel uw Kamer al gemeld dat zij de gemeenten toestaat om alvast uit te keren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg153">Belangrijk is — u hebt daar een aantal vragen over gesteld — dat de juiste mensen bereikt worden, dat het uitvoerbaar is en dat het in goed overleg met de gemeenten gaat. Allereerst: het richtbedrag van €800 — onder anderen de heer Grinwis vroeg daarom — is leidend, dus niet het totale budget. Daarbij moeten we ons wel realiseren dat zeker die tweede groep — 500.000 à 550.000 huishoudens — nog lang niet volledig in beeld is bij de gemeenten. Er zal dus nog een bepaalde communicatie moeten plaatsvinden. De mensen zullen bereikt moeten worden, zodat ze weten dat ze de toeslag moeten aanvragen. Dat is nog best een operatie. Vervolgens zullen zij aan het loket geholpen moeten worden, want daar moeten zij zich melden met hun papieren om te laten zien dat zij er recht op hebben. Dus dat is het eerste: die €800 is leidend.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg154">Het tweede: kunnen we zo veel mogelijk doen voor zo veel mogelijk huishoudens binnen deze regeling? Het is echt aan de gemeenten om de ruimte binnen de regeling zoals die nu staat op te zoeken. Die afspraak is ook met de VNG gemaakt. De gemeenten hebben hier — een aantal van u vroeg daarnaar — een bepaalde beleidsvrijheid. Wij hebben hiervoor een handreiking uitgebracht. Wij zijn in overleg met de VNG om te zorgen dat het zo veel mogelijk vergelijkbaar is. Maar verschillende gemeenten hebben een gemeentelijk armoedebeleid dat niet per se hetzelfde is als dat van hun buurgemeenten. Wel is het zo dat voor de meeste gemeenten die 120% van het sociaal minimum echt de grens is die ze gebruiken. Dat is niet voor alle gemeenten zo, maar dat is wel waar de meeste gemeenten mee werken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg155">Dan is de volgende vraag: als dit de groep is, van 350.000 en 500.000, wat doe je met de groep erboven? Eerst even over de groep die we nu hebben. De vraag is dan: kunnen gemeenten dit aan? De gemeenten hebben hierop gezegd dat ze het net aankunnen om dit snel te doen. Maar ze hebben natuurlijk nog wel een aantal andere opdrachten op hun bord liggen. Dat vinden we heel belangrijk. Deze groep, tot 120% van het sociaal minimum, willen we echt snel bedienen. We willen echt zorgen dat de mensen het geld snel op hun rekening hebben. Daarmee moeten we het dus niet complexer maken en er nog meer bovenop gaan leggen. Vervolgens is de vraag of we die groep kunnen uitbreiden, dus ook voor iedereen tot 130% €800. Behalve dat we daar op dit moment helemaal geen dekking voor hebben, schuif je het probleem op. Als je dan €1 boven de 130% zit, krijg je de vraag: wat speelt er dan voor mij?</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg156">Dan is er de vraag of je iets met een staffel kunt doen. Dat is uitvoeringstechnisch heel erg ingewikkeld. Daarvan hebben de gemeenten eerder al gezegd dat het ze niet lukt om dat op te tuigen. Je komt dan in een soort toeslagenmanier van dingen doen. Zij zien dat op dit moment echt niet als uitvoerbaar. Het is wel heel erg lastig en dat begrijp ik. Want als je dus net boven die grens van 120% zit, wat krijg je dan niet, wat je buurman die er net onder zit, wel krijgt? Wat we daarbij willen zeggen, is dat we echt willen zorgen dat we het voor die groep tot 120% nu kunnen uitvoeren en dat we daarmee door kunnen. Dat is heel belangrijk.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg157">Vervolgens kijken we in de gesprekken met de gemeenten wat daar de problemen zijn. Maar realiseert u zich wel dat wat we daar aan complexiteit toevoegen, bijna niet uitvoerbaar is en dat er geen dekking voor is. We zitten hier met elkaar dus wel echt met een lastig probleem. Die 120% is vrij algemeen geaccepteerd en die groep is goed in beeld. Als je de groep erboven pakt, dan hebben heel veel gemeenten eigenlijk geen idee wie dat zijn. Ze moeten dat in kaart brengen. Het is een hoop uitzoekwerk om te bepalen wie daaronder vallen. Deze groep moet vervolgens ook bediend worden. En als je het zou willen afbouwen, zoals een aantal van u suggereerde, dan kom je in een soort toeslagenmethodiek — de heer Omtzigt refereerde daar ook aan — die het alleen maar complexer en daarmee moeilijk uitvoerbaar maakt. Dat is dus een lastige boodschap.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note123">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u122">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg158">Allereerst de heer Grinwis, daarna de heer Van Weyenberg en dan mevrouw Inge van Dijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note124">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u123">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg159">Dank, dit is heel helder. Dank ook dat voor het kabinet de €800 leidend is en niet het budget. De minister geeft ook heel duidelijk aan dat het voor die 350.000 huishoudens eigenlijk een piece of cake is, maar dat het voor die 500.000 huishoudens best wel ingewikkeld is. Nu is er gebudgetteerd met een aantal aannames over hoe een groot deel van die groep bereikt zal worden. Maar nu het bedrag is opgehoogd van €200 naar €800 zou het best weleens zo kunnen zijn dat meer mensen zich gaan melden. Begrijp ik het goed — en dat is eigenlijk ook een vraag aan minister Kaag van Financiën — dat, omdat €800 leidend is, het geen probleem is als het budget moet worden bijgepast om de doelgroep te bereiken? En dat het dus niet ten koste gaat van ander armoede- en schuldenbudget, maar dat het dus wordt bijgepast? Het zou best weleens zo kunnen zijn dat het te weinig is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note125">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u124">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg160">We houden daar allereerst de vinger aan de pols en we kijken in hoeverre dat budget uitgenut wordt. De raming op dit moment is dat het budget voldoende is en de €800 is daarbij leidend, maar: "we cross that bridge when we get there."</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note126">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u125">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg161">Ik kijk even naar de heer Grinwis of zijn vraag is beantwoord. Dat is het geval.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note127">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u126">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg162">Ik blijf in ditzelfde kwadrant. Ik heb hier eerdere debatten gevoerd rondom de steunpakketten met corona. Daar werden ook aannames gemaakt over het gebruik. Maar wat zag je daar in de praktijk soms gebeuren? Gemeenten hebben fantastisch werk verricht, maar die zeiden: we kunnen niet aan de voorkant uitgaan van de niet-gebruikpercentages. Het is niet zo dat gemeenten geld overhebben, dus uit zekerheid gaan we toch misschien bedragen verlagen, want we willen niet dat straks het financiële risico opeens bij de gemeenten ligt. Dat kunnen we ons niet permitteren. De minister zegt nu: we'll cross that bridge when we get there. Ik wil voorkomen dat gemeenten nu de bedragen voor de groep tot 120% wat naar beneden doen — ik kom zo graag apart terug op die andere groep — omdat ze bang zijn om zelf uit het budget te lopen en ze het zich niet kunnen permitteren. Zowel de heer Grinwis als ik hebben daar gisteren in onze eerste termijn voorbeelden van genoemd. Ik vraag vandaag het kabinet om een waarborg dat de €800 leidend is en dat de gesprekken met de gemeenten zo gaan verlopen dat wij niet zo meteen allemaal gemeenten krijgen die het bedrag naar beneden doen omdat ze die €800 wel zouden willen geven, maar dat vanuit hun financiële situatie niet durven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note128">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u127">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg163">Ik begrijp het punt van de heer Van Weyenberg. De €800 is leidend. Nogmaals, wij zullen heel erg goed met de VNG het gesprek voeren en heel duidelijk maken dat zij gewoon €800 mogen uitkeren aan alle mensen die in de doelgroep vallen. Dat kan gewoon. Zij hoeven dus niet op voorhand te korten omdat ze denken: misschien heb ik te weinig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note129">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u128">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg164">Dat is mooi, maar ik kan een beetje raden dat de reactie van de gemeenten dan wordt dat dat fijn is, maar dat dat betekent dat als — ik ga hier niet het woord "onverhoopt" gebruiken — het lukt om een groter percentage van deze mensen te bereiken dan waar nu in de sommetjes van wordt uitgegaan, dat niet een financieel probleem van gemeenten wordt. Overigens gaat het bereiken van die mensen nog een gigantische kluif worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note130">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u129">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg165">Ja, als ze onder de doelgroep vallen, dan is het geen probleem van de gemeenten, tenzij een gemeente besluit iets heel anders te doen. Maar als het om deze maatregel gaat, om 120% van het sociaal minimum, dan is het antwoord ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note131">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u130">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg166">Dit is heel goed nieuws, volgens mij. Dat betekent dat gemeenten, als zij €800 geven aan mensen onder de 120% en als de rekening hoger wordt dan hun budget, weten dat zij zich bij de minister van Sociale Zaken of haar collega op het ministerie kunnen melden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note132">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u131">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg167">Ja, bij mijn collega.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note133">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u132">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg168">We hebben het in het debat uitgebreid gehad over de 120%-grens en over de 130%-grens. Ik ben ook benieuwd naar de vangnetgrens, in de situatie dat iemand aan de balie komt en de gemeenteambtenaar denkt: ik moet diegene niet zo naar huis laten gaan. Kunnen we daar echt niks voor bedenken? Tijdens corona hadden we een soort TONK-regeling. Daar staat dus al een structuur voor klaar. Kunnen we toch niet zoiets in het leven roepen om te voorkomen dat die ambtenaar met pijn in zijn hart mensen naar huis moet sturen en nee moet zeggen, terwijl hij weet dat dat gewoon niet verantwoord is?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note134">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u133">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg169">Er zijn natuurlijk bij gemeenten allerlei bijzondere bijstandsregelingen. Allerlei gemeenten hebben allerlei regelingen waar ze op dit moment uit kunnen putten, naast die €800 voor de doelgroep.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note135">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u134">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg170">Ik vroeg gisteren ook: hebben we het gevoel met elkaar dat naast dit, die regelingen voldoende zijn om mensen de komende maanden niet door het ijs te laten zakken? Ik ben daar nog niet helemaal van overtuigd. Ik had daar graag iets meer informatie over gekregen in dit debat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note136">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u135">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg171">Het is natuurlijk heel erg moeilijk in te schatten of het voor ieder individu wel of niet genoeg is. We hebben nu een pakket van in totaal 6,2 miljard. Dit is wat we op dit moment voor de koopkracht van 2022 kunnen doen. Uw vraag over 2023 en die kwetsbare groepen nemen we mee. En daarnaast is er voor mensen die in de schulden dreigen te komen of in de schulden zitten, natuurlijk de schuldhulpverlening en zijn er allerlei gemeentelijke loketten waar mensen terecht kunnen. Ze kunnen wellicht bij de grote energiebedrijven uitstel van betaling vragen. Dat soort dingen kunnen allemaal. En ze hebben die €800 als ze in die doelgroep vallen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note137">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u136">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg172">We voelen met z'n allen ook wel dat een heel aantal mensen niet in die doelgroep zal vallen. En ja, er zijn allerlei mogelijkheden bij de gemeentes, zoals bijzondere bijstand. Die mogelijkheid heb ik zelf ook genoemd. Maar mijn vraag is nog steeds: hebben we het gevoel dat we daarmee in de komende maanden inderdaad niemand van het bordje af laten vallen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note138">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:housi" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u137">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg173">Ik denk dat we het debat voeren inzake de koopkrachtdemping voor de mensen die onder die 120% van het minimum vallen. Ik denk dat we die mensen helpen. Het zal niet alle pijn wegnemen; daar moeten we denk ik ook eerlijk over zijn. Dat zal het bij geen enkele doelgroep doen. Het zal zeker niet alle pijn wegnemen bij de mensen in die tochtige huizen. Daar hebben we het net ook al uitgebreid over gehad. We komen dadelijk denk ik te spreken over de groep die daarboven zit. We weten daarover dat het heel erg moeilijk wordt om via diezelfde gemeentelijke regelingen voor hen iets te doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note139">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u138">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg174">Is het dan niet toch verstandig om nú wel over zo'n vangnet na te gaan denken? We kunnen bijna op onze vingers uittellen dat dat de volgende stap is die we nodig gaan hebben. Zo'n vangnet hebben we gewoon niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note140">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u139">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg175">Wij kunnen wel uitzoeken wat vangnetten kunnen zijn voor allerlei verschillende groepen, ook in de aanloop naar de discussies over 2023 en 2024. Maar ik denk niet dat we op dit moment in dít pakket ruimte hebben om nóg een andere stap te zetten, omdat we daar op dit moment ook gewoon geen dekking voor hebben. Dit zijn de keuzes in dit pakket. We kunnen zeker uitzoeken wat er mogelijk is en wat er nog mogelijk zou kunnen zijn. Maar we hebben met dit pakket al een hele grote groep bereikt, hè. Het gaat om een op de zeven huishoudens.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note141">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u140">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg176">De bulk van het geld, van dat pakket van 2,8 miljard, gaat naar die btw-verlaging en die accijnsverlaging. Dat geld komt gemiddeld meer terecht bij de hogere inkomens. Dat vindt het kabinet niet zo'n probleem. Nu hebben we het over de mensen met de lagere inkomens. Om u een beeld te schetsen, zeg ik: 120% van het sociaal minimum voor een alleenstaande ouder is €1.456 per maand. Ik heb er een pleidooi voor gehouden om dat op te hogen naar 130%, overigens met mevrouw Van Dijk, en de heer Grinwis zei dat ook. Bij 130% wordt het €1.577 in de maand. Dat is dus €800 voor die groep van mensen die tussen de €17.500 en €19.000 per jaar binnenkrijgen. Sommigen daarvan werken, sommigen krijgen een uitkering. Van die groep mensen met €1.500 in een jaar en €100 in de maand krijgt een deel die €800 straks wel, en een ander deel niet. Waarom is de minister niet bereid om die grens van 130%, die veel gemeenten hebben, mogelijk te maken en die mensen in ieder geval tegemoet te komen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note142">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u141">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg177">Ik begrijp de vraag heel goed. Wij hebben met de dekking die we nu hebben, ervoor gekozen om die €800 te laten landen bij de groep die vrij bekend is bij gemeenten, dus de mensen met een inkomen van 120% van het sociaal minimum. Er is inderdaad ook een aantal gemeentes waar men voor 130% gaat. Als wij iedereen tot 130% ook €800 zouden geven, dan hebben we het over een heel ander budgettair beslag en dan moeten we daar ook dekking voor vinden. En als we het in een staffel zouden afbouwen, wat ook een alternatief zou kunnen zijn, dan komen we echt met uitvoeringsproblemen te zitten. Dus dit is een heel moeilijk probleem. Want als we het nu tot 130% doen, staat u hier over een maand met de vraag: waarom kan het niet tot 140%?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note143">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u142">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg178">Daar heeft de minister gelijk in, want ik vind dat juist de lagere middeninkomens tekortkomen in dit pakket. Ik heb ook gezegd: er zijn weinig mensen die te veel krijgen en heel veel mensen die te weinig krijgen. Dat is inderdaad mijn hoofdboodschap, mijn hoofdoordeel over dit pakket. Maar als dat de afweging is, als het een budgettaire afweging is van het kabinet, snap ik niet dat er meer dan 2 miljard voor het grootste deel bij de hogere inkomens terechtkomt, en het kleinste deel in dit gerichte pakket bij de lagere inkomens. Als het echt een dekkingsprobleem is, zou ik wel bereid zijn om de accijnzen met €0,01 of €0,02 minder te verhogen en dit toch op te rekken. Want dat komt veel meer terecht bij de mensen die het echt nodig hebben. Als je het mij als PvdA'er vraagt, dan verhogen we de vermogensbelasting, doen we wat aan box 2, doen we wat aan belastingontwijking en betalen we het daarmee. Maar als het binnen dit pakket zou moeten, waarom is die keuze dan niet gemaakt als het kabinet zich aan zijn eigen criterium houdt om de laagste inkomens het meest tegemoet te komen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note144">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u143">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg179">Het pakket is ongeveer een derde, een derde en een derde. De btw op energie verlagen heeft ook effect voor de lage inkomens. De accijns verlagen heeft vooral effect op de werkenden met een kleiner inkomen die van hun auto gebruik moeten maken om naar hun werk te gaan. Op die manier bereiken we dus ook doelgroepen die misschien … Want die €800 zit natuurlijk vooral bij mensen met 120% sociaal minimum en daaronder. Daar bereik je niet die werkenden mee. Die groep die meneer Van Dijck aandroeg, bereik je wel met die accijnsverlaging en met die btw-verlaging op de energie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note145">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u144">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg180">De heer Nijboer, laatste interruptie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note146">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u145">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg181">Maar daar heb ik in het debat gisteren ook een alternatief voor aangedragen. De heer Heinen heeft daar overigens ook wat over gezegd. Die onbelaste reiskostenvergoeding is natuurlijk veel goedkoper voor de overheid dan een generieke accijnsverlaging, want die reiskostenvergoeding betaalt de werkgever. Als je juist de werkenden met een wat lager inkomen gericht wilt compenseren, zou je veel beter die maatregel kunnen kiezen. Dus ik word steeds minder overtuigd van het pakketje dat door het kabinet is gemaakt. Er wordt wat geschetst alsof er objectieve criteria zijn, maar zelfs als je die langsloopt — de eigen criteria van het kabinet: de laagste inkomens en de lagere middeninkomens het meest bereiken, de werkenden, de ouderen, de huurders — kan je met hetzelfde budget veel betere keuzes maken die mensen veel meer helpen. Mijn grote vraag in dit debat is waarom het kabinet daar niet voor heeft gekozen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note147">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u146">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg182">Collega Van Rij zal specifiek op die reiskostenvergoeding ingaan. Wij hebben deze keuzes gemaakt met de afwegingen dat we het zo snel mogelijk willen, dat we naar de bron willen en dat we zowel de lage inkomens als die werkende groep op een of andere manier willen helpen om het verlies aan koopkracht te dempen. Daar staan wij bij, want een accijnsverlaging heeft effect voor degene die met de auto naar het werk moet, zoals ik net al zei. De btw-verlaging op energie heeft effect op iedereen, maar juist ook op die mensen met een hoge stijging in de energiekosten in die tochtige huizen. Die €800 voor lage inkomens is er gewoon.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note148">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u147">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg183">Ik wil graag de volgende vraag stellen, omdat ik straks helaas even naar een ander debat moet. Ik werd getriggerd door het woord "vangnet" van mevrouw Van Dijk. De maatregelen zijn niet niks; 6 miljard is echt niet niks. We hebben het wel over die kwetsbare groepen. Je kan er waarschijnlijk van uitgaan dat een hoop mensen ondanks het pakket toch in problemen gaan komen. We hebben bij de toeslagenaffaire gezien dat er dan een hele cascade van ellendige gevolgen gaat rollen. Eén daarvan is dat er een deurwaardersproblematiek gaat ontstaan, zeker bij die kwetsbare groepen. Dat zullen we niet kunnen voorkomen. Mijn vraag aan deze minister is of zij bereid is om net als bij de toeslagenaffaire in gesprek te gaan met de belangenvereniging van de deurwaarders om te kijken op welke manier de gevolgen van deze pijnlijke affaires in ieder geval verlicht kunnen worden door de deurwaarders wat onder controle te houden. Dat is eigenlijk de simpele vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note149">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u148">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg184">Als de vraag "of en hoe" is, dan is die bereidheid er zeker. Dan zal het mijn collega voor Armoedebeleid zijn die dat zal doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note150">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u149">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg185">Ik had net een debatje met de minister over de groep tot 120%. Ik heb nu een vraag over de groep tussen 120% en 130%.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note151">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u150">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg186">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note152">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u151">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg187">Ik probeer even scherp te krijgen waar het probleem zou zitten, want ik wil "geen dekking" en "niet uitvoerbaar en vertraging" uit elkaar halen. Dat vind ik twee verschillende discussies. Ik heb oog voor wat er niet kan. Ik weet ook dat we geen vertraging willen. Maar hoor ik de minister nu zeggen dat het niet gedekt is? Dat is waar en daar moeten we dan over nadenken. Of zegt zij: nee, gemeenten krijgen het gewoon niet voor elkaar als ik die regeling buiten die 120% doe? Wat zegt de VNG hierover nou precies? Ik ga maar weer even terug naar het debat over de coronasteun. Toen hebben we een of twee keer een discussie gehad over wat er tegen het kabinet werd verteld en toen kreeg ik toch brieven van wethouders, waardoor ik het niet meer snapte. Dus wat zeggen de gemeenten nou? "We kunnen het niet" of "we kunnen het niet met het geld dat we krijgen"? Dat zijn namelijk twee hele verschillende argumenten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note153">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u152">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg188">Dat is een belangrijke vraag. Het gaat inderdaad om twee argumenten. Maar laat ik even beginnen met: ik zie met de Kamer dat €800 voor inkomens tot 120% van het sociaal minimum en €0 voor daarboven een hard gelag is. Laten we even wel wezen. Dat probleem zie ik ook. Ik wil er alleen wel voor zorgen dat die 120%-groep kan doorgaan. Die trein moet door, want die mensen hebben dat geld gewoon echt spoedig nodig. Dus die trein moet gewoon rijden. Dan is er de vraag voor de groep met 120% tot 130%. Als je iedereen daarvan €800 geeft — behalve dat we daar op dit moment geen dekking voor hebben, gaat het ook om een enorm bedrag — dan krijg je dezelfde discussie bij die 130%. Dan kom je bij het alternatief om het in een staffel af te bouwen. Daar is nu geen dekking voor. Dus als we dat zouden willen, dan moeten we dat ergens gaan vinden. De minister van Financiën zal toelichten dat die zakken op dit moment behoorlijk leeg zijn. En qua uitvoering begrijp ik, zoals wij van de VNG hebben teruggekregen, dat het heel erg lastig wordt als je gaat staffelen. Je moet dan niet alleen de 120%-groep, die je al niet helemaal kent, in kaart brengen en ervoor zorgen dat die aan je loket verschijnen, maar ook die 130%-groep, die nog onbekender is, gaan vinden en aan je loket krijgen. En vervolgens moet je dan een soort afbouwregime gaan invoeren. Wij hebben van de VNG begrepen — maar het is mijn collega voor Armoedebeleid die dat gesprek heeft gevoerd — dat dat op dit moment niet uitvoerbaar voor gemeentes is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note154">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u153">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg189">De heer Van Weyenberg tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note155">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u154">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg190">Zoals ook gezegd in de beantwoording: niemand wil dat die groep tot 120% in de vertraging gaat door de discussie over de groep tussen 120% en 130% van het sociaal minimum. Dat wil ik niet. Dat wil niemand van de collega's, denk ik. Dus eens: door met die groep tot 120%. Daarvan heeft de minister net gezegd: iedereen daarvan kan die €800 krijgen, en als dat bij gemeentes tot budgettaire problemen leidt, dan kunnen ze zich bij het kabinet melden. De verwachting is dat er geld genoeg is, maar als dat niet zo is, dan komt dat geld er.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg191">Dan mijn vraag over die groep van 120% tot 130%. We gaan in de Kamer nog apart praten over dat voorstel. Ik zou eigenlijk wel scherper op papier willen hebben wat gemeenten zeggen dat wel en niet kan. Want ook in het antwoord van de minister horen we continu "dekking" en "uitvoerbaarheid". Ik wil niet om iets gaan vragen … Als ik iets moet dekken, ga ik daarover nadenken. Maar ik heb ook de indruk dat ik misschien iets wil wat er qua uitvoering nu gewoon even niet in zit. Dat vind ik dan vervelend, maar ik wil daar wel altijd naar luisteren. Ik wil het dus scherper op papier krijgen van de collega van deze minister voordat we in de Kamer over dat voorstel gaan praten, want het is mij — ik zeg het gewoon eerlijk — niet scherp genoeg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note156">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u155">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg192">Dat kan ik me goed voorstellen. Wij kunnen er in ieder geval voor zorgen dat collega Schouten u voordat u met haar het gesprek aangaat over dat wetsvoorstel, een brief stuurt waarin de vragen die in de Kamer leven, allemaal keurig netjes op een rijtje worden gezet. Dan gaat het over welke uitvoeringsproblemen er wel of niet bij zijn en over de alternatieven waar mevrouw Van Dijk het over had. Daarmee kun je zeggen: wat is nou het probleem en hoe kun je dat wel of niet oplossen, en tegen welke uitvoeringsproblemen loop je dan aan? Ik herhaal wel even, zoals mijn collega Kaag dat dadelijk ook zal doen, dat het op dit moment niet gedekt is. Maar dat is een andere vraag dan de vraag wat er, in gesprek met de VNG, kan. We zullen er ook voor zorgen dat u in de voorbereiding op dat gesprek duidelijk vanuit ons hebt wat wij vanuit de VNG hebben begrepen over wat wel en niet mogelijk is, want daar vroeg u naar. Ik realiseer me ook dat een aantal gemeentes — het zijn er maar een paar, vooral de grote — naar 130% gaan. Die uitvoeringsproblemen zitten vooral bij de middelgrote gemeentes, die veel groepen hebben maar alleen de groep tot 120% in kaart hebben en de groepen daarboven helemaal niet. Dat er een paar grotere gemeentes zijn die wat geavanceerder zijn met hun systemen, is heel fijn voor de mensen die daar wonen, maar dat geldt niet voor heel Nederland. Laten we ervoor zorgen dat we dat goed op papier zetten, want dan hebben we het allemaal duidelijk en dan kunt u daar ook uw oordeel op baseren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note157">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u156">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg193">Aanvullend op collega Van Weyenberg. Als die €800 leidend is en niet het budget, dan vind ik wel dat bij een probleem met het budget dat budget moet worden aangevuld vanuit Financiën. Dat voor alle helderheid. Anders is die €800 de facto niet leidend.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg194">Dan het tweede, op dit punt. Juist vanwege uitvoeringstechnische redenen kan het voor gemeenten als Westland of Den Haag, die een armoedebeleid hebben voor de groep tot 130% van het WSM, het wettelijk sociaal minimum, veel sneller zijn om met die 130%-groep te werken. Zij kunnen die 120%-groep helemaal niet targeten, want die kennen zij niet. Zij kennen alleen de groep tot 130%. Dus uitvoeringstechnisch gezien kan een gemeente zoals Den Haag, die met haar armoedepas, de Ooievaarspas, 73% van de doelgroep wil bereiken, wel heel snel €800 overmaken, maar dan komt die €800 wel terecht bij een groep tot 130% wettelijk sociaal minimum. Als de minister daarop ingaat en gaat uitvoeren wat collega Van Weyenberg heeft gevraagd, kan zij dan ook hierop ingaan? Want het is niet alleen 120% en daar iets bovenop zetten. Het is ook andersom: 130% heb je en dan moet je er iets vanaf halen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note158">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u157">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg195">We kunnen prima op de individuele situatie van Den Haag ingaan. Zo zijn er nog een aantal gemeentes. Om dat duidelijk te maken: de afspraken met de VNG, die door mijn collega Schouten echt uitgebreid met de VNG zijn besproken, gaan over 120%. Maar dat kunnen we allemaal meenemen in een uitgebreidere beantwoording, zodat u goed voorbereid bent op dat debat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note159">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u158">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg196">Ik wil die antwoorden nu hebben. Daar is één reden voor. Het kabinet kiest er zelf voor om over te gaan tot de uitkering van deze €800 vóór de wetsbehandeling. Daar heb ik fundamentele bezwaren tegen. Ik heb het gezien bij de €30.000 van de Catshuisregeling: foeilelijk! Het ging naar de verkeerde mensen. En we wisten het. Deze regeling is aangekondigd in december. Het kabinet dient op 15 maart een wet in en begint op 15 maart met de uitvoering. Dan kunnen we hier met z'n allen naar huis; dan hoeven we niks meer te doen. Dat is comptabel onrechtmatig. Daar krijgt u ook straf voor van de Algemene Rekenkamer. Daarom moet u hier vandaag de vraag beantwoorden of het uitvoerbaar is. Als het een plan was dat we zouden bespreken, dan zouden we dat bij de wetsbehandeling doen. Ik wil dus gewoon de concrete vragen beantwoord hebben. Krijgen mensen dat op basis van het inkomen uit 2022, uit 2021 of uit 2020? En hoe gaan we om met zelfstandigen met een onregelmatig inkomen? En wat gebeurt er als loonbeslag is gelegd? Op die drie vragen moet in ieder geval een antwoord komen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note160">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u159">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg197">Mijn collega Schouten heeft dit inderdaad 15 maart naar uw Kamer gestuurd. Zij heeft aangekondigd dat gemeentes alvast kunnen beginnen met uitkeren, omdat die mensen dat geld nodig hebben. Dat klopt. Uit de gesprekken met de gemeentes over de uitvoerbaarheid tot die 120% blijkt duidelijk dat de gemeentes dat uit kunnen voeren.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg198">Dan kom ik bij een aantal vragen die u stelt. Ik begin met de laatste. Een energietoeslag valt buiten het loonbeslag. Dus dat is duidelijk. Zelfstandigen zullen aan de gemeente moeten melden wat het verloop van hun inkomen is, en dan is het aan de gemeente om daar een oordeel over te vellen. Het antwoord op de vraag over 2022, 2021 of 2020 moet ik u even schuldig blijven. Daar kom ik dadelijk even op terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note161">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u160">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg199">Deze vraag is cruciaal. Ik zal het uitleggen. We weten niet wat het inkomen over 2022 is. Bij gepensioneerden kunnen we een gok doen, maar je kunt moeilijk aan werkenden en al helemaal niet aan zelfstandigen vragen: valt u dit jaar onder de 120%? Want dan luidt het: geen idee; kan best zijn dat ik mijn inkomen in de zomer verdien; heb ik daarop dan recht of niet? Over 2021 staat het nog niet vast. Je kunt dus wel naar de staatssecretaris van Financiën kijken, maar hij zit nog elke dag te kijken hoeveel miljoenen aangiftes er tot 1 april en 1 mei binnenkomen. Hij zal dus zeggen: pas rond 1 juli heb ik echt een beeld van wat mensen verdiend hebben; dat kan ik niet voor 1 juli verschaffen. Als je teruggaat tot 2020, zul je zien dat heel veel mensen een verandering hebben gekend. Ze zijn in de tussentijd werkloos geraakt, hebben wellicht heel veel meer inkomen of hebben een echtscheiding meegemaakt en zijn van een fatsoenlijke middenklasse beland in een best lastig laag inkomen. Die zou je dat recht willen geven, maar misschien is ook precies het omgekeerde het geval en was er nog een laag inkomen in 2020, maar is er in 2022 toch wel weer een best of een fatsoenlijk inkomen. Dit zijn geen kleine vragen. Dit gaat om honderdduizenden mensen. Het kabinet heeft op 15 maart een wet ingediend. Overigens stond daarin het bedrag van €200 en niet eens van €800. Dat stond erin. Het lelijke van wat er nu gebeurt, is dat het kabinet een wet heeft ingediend voor €200 en dat gemeentes €800 mogen uitkeren aan een groep, terwijl we nu niet weten of dat gebeurt op basis van een inkomen uit 2020, 2021 of 2022. Dat is de meest eenvoudige vraag die je kunt stellen. Ik zie hier toch een uitvoeringschaos verschijnen, nog afgezien van wat we hier nog bij op moeten tellen door de mensen die er net €2 buiten vallen. Hoe moeten gemeentes dit gaan uitvoeren? Hoe moeten de gemeenten dit gaan uitvoeren?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note162">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u161">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg200">De gesprekken van de VNG met mijn collega Schouten zijn vrij intensief, om te zorgen dat dit uitvoerbaar is. En de gemeenten hebben zich ook echt gecommitteerd aan die uitvoerbaarheid. Wat betreft uw vraag over hoe het precies gaat: tja, ik denk dat ik u toch moet verwijzen naar het debat met collega Schouten, dat — neem ik aan, maar het is uw agenda — binnenkort gaat plaatsvinden. Wat we echt graag willen, is dat we aan die groep tot 120% zo snel mogelijk die €800 kunnen uitkeren. Dat is waarvoor we het pakket hebben samengesteld, dat bestaat uit verschillende onderdelen en waarvoor collega Schouten die brief aan de Kamer heeft gestuurd.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note163">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u162">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg201">Ik kijk even naar de heer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note164">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u163">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg202">Voorzitter. Ik accepteer dit niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note165">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u164">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg203">Mag ik daar nog iets aan toevoegen? Kijk, in het gesprek met de VNG hebben wij natuurlijk ook een soort handleiding voor op welke manier we dit, samen met de VNG, moeten uitvoeren. Daarnaast hebben al die gemeenten een bepaalde beleidsvrijheid — dat weet u ook — waardoor niet elke regeling in elke gemeente hetzelfde zal zijn. Dat betekent voor zo'n jaarbepaling bijvoorbeeld dat het aan de gemeente is om vervolgens te kijken op welke manier ze dat invult. Dat is natuurlijk gemeentelijke beleidsvrijheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note166">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u165">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg204">Dat is totale willekeur. Ik weet ook niet waarom wij gisteravond met het debat gestopt zijn. Ik heb deze vraag gesteld. Het is een cruciale vraag om te bepalen welke 500.000 huishoudens in aanmerking komen. Mensen willen het gewoon weten: kom ik op basis van 2020, 2021 of 2022 in aanmerking? Dat is een hele basale vraag. En ik kan u vertellen dat de minister net een antwoord gegeven heeft dat het niet gaat houden, dat gemeenten niet zelf zullen mogen kiezen. Dat kun je op een briefje geven. Ik wil het debat even schorsen totdat we het antwoord op die vraag hebben. Het gaat om welk half miljoen huishoudens we hiermee gaan compenseren. Dit kan niet. De commissie voor Sociale Zaken heeft het in spoedbehandeling genomen. Op 30 maart wordt er schriftelijke inbreng geleverd, maar dan moeten gemeenten al begonnen zijn met de uitvoering. En kabinet, laat u dan alstublieft dat debat van morgen over tussen balie en beleid, over de uitvoerbaarheid van wetten, dus dat we eerst over wetten hier praten en het dan uitvoeren, maar lekker varen. Echt waar! Daar hoeven we niet meer aan mee te doen. Dus wilt u nu even een kwartier pauze nemen en mij vertellen welke groep deze regeling krijgt? Het is cruciaal om te weten wie er niet door het ijs zakt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note167">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u166">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg205">Dank u wel. Ik wil even aan de minister een reactie vragen, en dan schors ik voor een moment om even met de leden in gesprek te gaan. De minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note168">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u167">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg206">Ja, voorzitter. Dit zijn natuurlijk een heleboel vragen die in het gesprek met de gemeenten over hoe het uitgevoerd moet worden, aan de orde komen. U stelt mij ook een aantal vragen waarvoor ik écht verwijs naar het debat dat u nog met collega Schouten aan het voeren bent. Tegelijkertijd zijn voor die gemeenten de 350.000 huishoudens bekend aan wie ze het gewoon ambtshalve kunnen uitkeren. Daar zijn ze, zo neem ik aan, mee begonnen. Dat is een hele duidelijke, afgebakende groep. En van die groep 500.000 huishoudens daarbovenop weten ze ook bijzonder goed wie daar vrij zeker onder valt. Dat is natuurlijk niet zomaar uit de losse pols. 350.000 ambtshalve, dat zijn gewoon duidelijke groepen huishoudens, waarvoor het heel erg duidelijk is dat ze dat gaan krijgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note169">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u168">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg207">Ik schors nu even voor een enkel moment. Ik wil heel graag even met de leden in gesprek gaan.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note170">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note171">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u169">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg208">We gaan verder. Ik wil aan de leden vragen om hun plaats weer in te nemen. We hebben net afgesproken dat we vandaag de eerste termijn afronden. Dan heeft het kabinet de tijd om de informatie bij alle informatieverzoeken te verzamelen of een reactie te geven op de extra gestelde vragen. Gisteren zijn er ook een aantal vragen gesteld. Ik hoop, zeg ik ook richting het kabinet, dat we de tweede termijn op korte termijn kunnen doen. We houden even contact over wanneer die informatie er is, maar dan ronden we in ieder geval vandaag de eerste termijn af. Ik geef het woord weer aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note172">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u170">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg209">Dank u wel, voorzitter. Wij zullen inderdaad zorgen dat wij op korte termijn de verschillende vragen beantwoorden. Wij zullen collega Schouten daarbij betrekken om te zorgen dat we u de juiste informatie geven, opdat dit pakket niet alleen snel maar ook deugdelijk ingevoerd wordt. We willen natuurlijk allemaal niet dat dit verkeerd gaat in de invoering.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg210">Ik begrijp heel goed wat de heer Omtzigt net zei. Hij wil graag goed begrijpen hoe de regeling in elkaar zit, hoe die uitgevoerd kan worden door de VNG en wat we ermee bedoeld hebben. Hij wil natuurlijk ook dat er geen onbedoelde neveneffecten zijn of, als ze er zijn, dat we ze accepteren. Dat kan natuurlijk ook zo zijn met een maatregel. We zorgen dat u die informatie heeft, zodat u het volgende gesprek met ons ook echt daarop kunt baseren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note173">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u171">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg211">Dan concludeer ik dat de gestelde vragen zo spoedig mogelijk beantwoord worden. Die gaan over mensen die geen toeslag krijgen, maar van wie de inkomsten wel onder beslag liggen. Die zitten namelijk heel erg laag. Maar als je formele inkomen modaal is, maar je hebt loonbeslag, dan word je onder een bestaansminimum geduwd. Dat was de vraag. Die was even niet goed begrepen. Dat snap ik. Het gaat over het peiljaar, het gaat over echtscheidingen, het gaat over zelfstandigen, het gaat over mensen die in 2020 student waren en in 2022 een fatsoenlijk inkomen hebben; dat is ook een normale gang van zaken. Het gaat erom dat in ieder geval de handleiding die met de gemeenten is afgesproken, ook bij de Kamer ligt op dat moment, zodat wij ons er gewoon een beeld van kunnen vormen of dit uitvoerbaar is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note174">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u172">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg212">Wij gaan daarvoor zorgen. U heeft nu een aantal vragen genoemd. Ik weet niet of u die ook bij de schriftelijke vragen heeft ingediend. Dat maakt het iets makkelijker om zeker te weten of de schriftelijke behandeling al is gestart. Ik schrijf nu met u mee …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note175">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u173">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg213">Nee, dat snap ik. Die staan ook in het stenogram.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note176">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u174">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg214">… maar ik wil even zeker weten of ik de goede vragen heb.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note177">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u175">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg215">Eerst de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note178">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u176">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg216">Ik ben uiteraard met u aan het meeschrijven, maar ik wil even zeker weten dat ik de goede vragen heb. Daarom vroeg ik: heeft u die vragen al schriftelijk ingediend? Dan zou ik namelijk iets hebben om na te lezen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note179">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u177">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg217">Helaas nog niet. Ik heb ook grote moeite om het allemaal bij te houden. Maar dat is een ander traject, met anderhalve medewerker die keihard aan het werk is om dit allemaal te doen. De schriftelijke behandeling begint op 30 maart. Als de minister dat wenselijk acht, dan kunnen we dat ook schriftelijk opsturen. Ik heb geen enkele moeite om deze vragen naar u toe te sturen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note180">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u178">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg218">We zullen even met u checken of we de precieze vragen goed hebben begrepen, want u bent inmiddels natuurlijk een expert op dit gebied.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note181">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u179">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg219">Zo is dat. Ook de heer Klaver had een vraag daarover.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note182">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u180">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg220">Hetzelfde geldt uiteraard voor de heer Klaver.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note183">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u181">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg221">U vervolgt uw betoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note184">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u182">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg222">Juist. Onder anderen mevrouw Van Dijk vroeg naar Caribisch Nederland. Daar maken we 5 miljoen voor beschikbaar. Collega Van Rij gaat verder in op de uitwerking van dat pakket. Tot zover het blokje energietoeslag.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg223">Dan kom ik nu bij het setje overige vragen. Er is onder andere gevraagd of de verhoging van het wettelijk minimumloon niet naar voren kan en of we het verder kunnen verhogen. Het coalitieakkoord gaat natuurlijk uit van 7,5%. Daarnaast zit daar ook het minimumuurloon in, die 36-urige en 40-urige werkweek. Dat helpt ook al enorm. Waar we ons even van bewust moeten zijn, is dat het minimumloon doorwerkt in alle sociale regelingen. Ik noem in dit verband de fiscaliteit en de toeslagen. Daarmee is het behoorlijk complex. Dat betekent dat de invoering tijd kost. Dus we kunnen dat niet per 1 juli van dit jaar verhogen. Dat is gewoon echt onmogelijk. Het is natuurlijk wel belangrijk dat we dat snel doen, omdat die verhoging van het wml nou juist gaat helpen voor de groepen die net het wml verdienen. Dan kijk ik ook even naar de discussie over de kwetsbare groepen. We moeten ervoor zorgen dat zij minder kwetsbaar worden. Ik kom nog voor de zomer bij u terug met informatie over de precieze uitwerking van die verhoging van het minimumloon en het wetgevingsproces. Ik wijs er voorts op dat wij in het coalitieakkoord het initiatiefwetsvoorstel inzake de introductie van het minimumuurloon van de PvdA en GroenLinks hebben omarmd. Met dat wetsvoorstel wordt beoogd dat iedere minimumloonverdiener hetzelfde per uur verdient. Dat betekent voor een aantal mensen echt een significante verhoging.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg224">Dan waren er vragen over de bijverdiengrenzen in de Participatiewet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note185">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u183">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg225">Excuus. Voordat u verdergaat, heeft de heer Klaver van GroenLinks nog een vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note186">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u184">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg226">We hebben vragen gesteld over het minimumloon. Er is namelijk een natuurlijk indexatiemoment op 1 juli. De minister heeft in antwoorden aangegeven dat het niet gebruikelijk is om af te wijken van de systematiek, en daar meer te indexeren. Maar nu zijn we allemaal dingen aan het doen die niet gebruikelijk zijn. Het verlagen van de accijnzen in april is ook niet gebruikelijk. Wat is de motivatie van de minister om hier niet van af te wijken?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note187">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u185">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg227">Zoals ik net al zei: als je het minimumloon verhoogt, dan is dat behoorlijk complex, omdat het doorwerkt in al die andere maatregelen. Ik noem in dit verband de sociale zekerheid, de fiscaliteit en de toeslagen. Dan doen we dus iets wat de complexiteit voor dit jaar enorm vergroot zonder dat we daarbij een precies beeld hebben van wat dat betekent. Dat is op dit moment niet handig. Dus dit pakket voor 2022 richt zich met hele directe uitkeringen op een aantal groepen en op een verlaging van de btw. Maar je moet echt goed doordenken wat een verhoging van het wml betekent voor alle systematiek.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note188">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u186">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg228">Meneer Klaver, uw laatste interruptie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note189">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u187">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg229">Ik begrijp hier echt helemaal niks van. Ieder jaar wordt het minimumloon verhoogd, in ieder geval aangepast. Het wordt geïndexeerd in juli. Dus daar zijn alle systemen al op ingericht. Wat wij voorstellen is: maak van dat moment gebruik om het minimumloon meer te verhogen, om meer te indexeren. Dat gebeurt dus altijd, dat zit in alle systemen verwerkt. Het kabinet heeft ook besloten om het minimumloon überhaupt te willen verhogen. Daar is een uitgebreidere wijziging voor nodig; dat komt dan over een paar jaar. Maar je kan nu al iets doen in juli. Waarom wordt dat niet gedaan? In de brief wordt aangegeven dat dat niet kan omdat het niet volgens de systematiek is, maar nu hoor ik dat het kabinet het niet wil. Dus wat is het nou? Kan het niet of wil kabinet het niet?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note190">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u188">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg230">Nee. Het lastige is dat je niet voor 1 juli van dit jaar nog een atypische verhoging kunt doorvoeren zonder dat dat allerlei complexe gevolgen heeft.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note191">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u189">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg231">Ik ben me bewust dat dit mijn laatste vraag is, het spijt me. Ieder jaar wordt het minimumloon geïndexeerd. Dat heeft effect op uitkeringen en al die zaken. Dus als dat in plaats van 2% 4% is, kunt u mij dan alstublieft schetsen welke complexiteit dat met zich meebrengt die we niet kunnen overzien?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note192">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u190">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg232">Bijvoorbeeld: als je van 2% 4% maakt, dan gaat dat natuurlijk door in al die andere regelingen. Nog afgezien van het feit dat je dan een budgettair beslag hebt, moet je ook zorgen dat je precies weet hoe je dat dan op elkaar inregelt. Dit is een discussie over koopkracht 2022 met 6 miljard aan maatregelen, ik zeg het nog maar een keer, waarin we hebben gekozen om een aantal dingen te doen en een aantal dingen ook niet te doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note193">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u191">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg233">Ik wil aan de minister vragen of zij misschien een wat nadere toelichting op deze vraag kan geven als zij toch de Kamer informeert.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note194">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u192">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg234">Prima.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note195">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u193">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg235">Anders gaat het lang heen en weer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note196">De heer Klaver (GroenLinks)</note>
+            <u who="#JesseKlaver" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u194">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg236">Mag ik dan één aanvulling geven? Ik zal niet mijn vraag herhalen. Waar ik naar zoek, is — dat zei de heer Van Weyenberg ook al — kan iets niet in de uitvoering, is er een budgettair probleem waarom we dit niet zouden willen of ontbreekt het aan de politieke wil bij een kabinet om deze stap te zetten? Voor mij loopt het, bijvoorbeeld op dit punt van het minimumloon, allemaal door elkaar, want het antwoord dat nu wordt gegeven is echt anders dan op de schriftelijke vragen. Volgens mij klopt het gewoon niet wat de minister zegt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note197">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u195">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg237">Voorzitter. Dan kom ik daar graag op terug, want we moeten wel zorgen dat het allemaal klopt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note198">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u196">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg238">De minister gaf aan dat ze voor de zomer in een brief terugkomt op die verhoging van het wettelijk minimumloon. Nu is er ook het voorstel geweest om de AOW eenmalig te ontkoppelen zodat die niet meegaat met de stijging van het wettelijk minimumloon. Juist deze doelgroep heeft het ook op dit moment heel erg lastig en krijgt het nog lastiger, gezien de hogere gasprijzen en de inflatie. Mag ik er dan van uitgaan dat u die doelgroep ook meeneemt in de brief voor de zomer?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note199">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u197">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg239">Daarmee doelt mevrouw Den Haan op de motie die hier in de Kamer is aangenomen. Daar komen wij met de voorjaarsbesluitvorming en de koopkracht 2023 uiteraard op terug, net zoals op een aantal andere moties die allemaal met de koopkracht voor het jaar hierna te maken hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg240">Dan ga ik naar de bijverdiengrenzen in de Participatiewet. Mevrouw Van Dijk vroeg daarnaar. Zoals u weet streven we er in het coalitieakkoord naar om die bijverdiengrenzen in de Participatiewet te verruimen. De exacte vorm is collega Schouten nog aan het uitwerken. Er komt een beleidsplan over de herziening van de Participatiewet in het tweede kwartaal naar uw Kamer toe en daarom gaat collega Schouten daarop in.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg241">Mevrouw Van der Plas vroeg in hoeverre werkgevers werknemers helpen met energiekosten. Er zijn een aantal signalen dat in de loop van de onderhandelingen rondom de cao's wensen over loonsverhoging van de kant van de werknemers beïnvloed worden door de hogere inflatie, waar natuurlijk de energieprijzen in zitten. Zoals u weet zijn cao-onderhandelingen tussen werkgever en werknemer, dus daar treed ik als bewindspersoon niet in, maar we houden natuurlijk wel alle signalen in de gaten.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg242">De heer Grinwis vroeg naar het renteloos lenen voor mensen in de schuldhulpverlening en vroeg of we die drempel weg kunnen halen. Collega Schouten kan met gemeenten in gesprek gaan hoe gemeenten huishoudens kunnen helpen die hun huis willen isoleren maar daarvoor niet de middelen hebben om dat ze in de schuldhulpverlening zitten. Renteloos lenen bij de Kredietbank is in de regel niet mogelijk, maar een gesprek met de gemeente zeg ik namens collega Schouten graag toe.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note200">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis" ana="#regular topic:housi" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u198">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg243">Daar dank ik de minister voor. Het punt is dat er natuurlijk verschillende gemeenten zijn die op dit moment rente die bij het Warmtefonds of bij de Kredietbank moet worden betaald, kwijtschelden of voorschieten. Op zo'n manier helpen ze mensen met een laag inkomen om toch hun huis te isoleren. Dat is natuurlijk eenmalig investeren en jarenlang profiteren van een lagere energierekening. Dat wordt nu onmogelijk gemaakt voor mensen die in de schuldhulpverlening zitten. Het gaat dus om het specifieke voorbeeld van gemeenten die deze mensen op dit moment al helpen. Maar dan nog is er een obstakel in de regelgeving. Dank voor de toezegging. Ik omarm het dat daarbij op deze casus wordt ingegaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note201">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u199">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg244">Er zal zeker op de casus worden ingegaan. Of die opgelost wordt, kan ik op voorhand niet toezeggen, maar het gesprek erover wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note202">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u200">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg245">Voordat ik mevrouw Van der Plas het woord geef, stel ik voor dat we na de inbreng van de minister van Sociale Zaken en Werkgelegenheid even schorsen voor de lunch. Het woord is aan mevrouw Van der Plas van BBB.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note203">Mevrouw Van der Plas (BBB)</note>
+            <u who="#CarolinevanderPlas" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u201">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg246">Mijn vraag was niet zozeer of werkgevers helpen met het betalen van de energierekening. Mijn vraag was of er gesprekken zijn met werkgeversorganisaties om te kijken hoe werkgevers kunnen helpen hun werknemers verlichting te geven. Dat kan ook op een andere manier zijn. Mogelijk zit er bij werkgevers nog wel wat ruimte om goed werkgeverschap te tonen door op een of andere manier verlichting te geven. Ik zou nog wel graag antwoord op willen op de vraag of die gesprekken er zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg247">Ik had nog een motie ingediend over isolatie, even aanhakend bij wat de heer Grinwis zei. Op 23 september is er een motie van mij met brede steun aangenomen om burgers te voorzien van een isolatievoucher. Ik was benieuwd hoe die motie is uitgevoerd of wat daarvan de stand van zaken is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note204">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u202">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg248">Om met die tweede vraag te beginnen: dat zal ik moeten navragen bij mijn collega's. Ik neem aan dat dat de collega's Jetten en De Jonge zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg249">Overleg met de sociale partners vindt heel regelmatig plaats, soms enkele keren per week. Dat gaat niet alleen over koopkracht. U kunt zich voorstellen dat het ook over corona gaat, of over Oekraïne en de opvang van vluchtelingen. We spreken echter zeker ook over koopkracht. Ik weet ook dat men het er binnen de SER en tussen werkgevers en werknemers regelmatig over heeft. Ik ben natuurlijk niet bij alle gesprekken. Sommige gesprekken voer ik zelf en sommige gesprekken zijn echt tussen werkgevers en werknemers. Het verloop van de inflatie, de impact op de koopkracht, wat dat betekent voor de verschillende groepen en wat dat betekent voor burgers versus bedrijven: dat is allemaal onderwerp van gesprek op dit moment.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note205">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u203">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg250">U vervolgt uw betoog.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note206">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u204">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg251">Voorzitter. Ik heb nog één vraag uit het laatste blok over. Mevrouw Van Dijk vroeg naar het niet-gebruik van regelingen. Het is inderdaad een behoorlijke uitdaging om juist de mensen die ze het meeste nodig hebben en van wie je zo graag zou willen dat ze van de regelingen gebruikmaken, te bereiken. U wees specifiek op de ouderen en de AIO. Er zijn allerlei initiatieven, waaronder de Voorzieningenwijzer. Uit een onderzoek van de Inspectie SZW is inderdaad gebleken dat er een groot niet-gebruik is van de algemene bijstand. Minister Schouten gaat er ook voor zorgen dat het tegengaan van het niet-gebruiken van voorzieningen een belangrijke plek gaat innemen in het actieplan tegen armoede. Daar zal overigens ook aandacht komen voor de vraag hoe je werkenden met een laag inkomen het beste kunt bereiken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg252">Vanuit de overheid werken we aan continue voorlichting om de AIO onder de aandacht te brengen, maar ook aan een betere aanvraagprocedure. Dat doen we allemaal in samenwerking met de gemeentes.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg253">Er is ook het voornemen om die pilot te doen met betrekking tot informatie-uitwisseling. De collega's hebben eerder aan de Kamer gemeld dat dit wel ingewikkeld is en dat er een aantal vragen op het gebied van privacy spelen, maar ook daarmee zijn we aan de slag om te kijken wat we daarmee kunnen doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg254">Voorzitter. Dat was het einde van de eerste set vragen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note207">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.u205">
+               <seg xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.seg255">Klokslag 13.00 uur. Ik stel voor dat we een halfuur schorsen voor de lunchpauze en dat we daarna starten met de beantwoording door de andere bewindspersonen.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note208">De beraadslaging wordt geschorst.</note>
+            <note type="time" xml:id="ParlaMint-NL_2022-03-23-tweedekamer-4.note209">De vergadering wordt van 12.59 uur tot 13.31 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

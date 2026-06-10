@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-02-11 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-02-11 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 56, Session 4 (2021-02-11)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 56, Session 4 (2021-02-11)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="56" xml:lang="en">Meeting 56</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-02-11">Sitting 2021-02-11</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="55">55 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="55">55 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3977">3,977 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3977">3,977 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-02-11">2021-02-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="169"/>
+               <tagUsage gi="seg" occurs="82"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="55"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-02-11">2021-02-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.head1">Arbeidsmigratie</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:immig" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u1">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg1">We zijn toegekomen aan het VAO Arbeidsmigratie. Ik heet de woordvoerders van harte welkom, net als natuurlijk de minister van Sociale Zaken en Werkgelegenheid, en in het bijzonder de heer Jasper van Dijk, die sinds kort vader is van Sep. Van harte gefeliciteerd! Gaat het goed met hem? Het gaat niet van uw spreektijd af, dus u mag even vertellen hoe het met Sep gaat, en met de moeder natuurlijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note2">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u2">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg2">Dank u wel, voorzitter. Het gaat uitstekend met Sep. Hij is vrijdag geboren. Ik zag al dat er bij de regeling het een en ander over werd gezegd. Hartstikke mooi! De juiste balans vinden tussen werk en privé is altijd een zoektocht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note3">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u3">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg3">Zo is dat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note4">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u4">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg4">Ik ben dinsdag en woensdag netjes thuisgebleven, maar vandaag gaat het over een enorm belangrijk onderwerp, zoals u allemaal weet. Dat ging een beetje kriebelen. Ik dacht: het is de laatste dag voor het reces ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note5">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u5">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg5">Nou, we komen ook ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note6">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u6">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg6">... dus ik wilde u nog even zien, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note7">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u7">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg7">Ja, heerlijk. Wederzijds! Nu gaat de tijd gewoon lopen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note8">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u8">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg8">Ja, nu gaat de tijd keihard lopen. En na dit debat ben ik ook gelijk weer weg. Ik hoop dat u dat begrijpt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg9">Voorzitter. We hebben vorige week gesproken over het advies van mijn oud-partijleider, de heer Emile Roemer, die een vlijmscherp advies heeft geschreven inzake arbeidsmigratie. Daar speelt nogal wat: ernstige misstanden, uitbuiting, erbarmelijke leefomstandigheden en arbeidsmigratie als een verdienmodel. De heer Van Weyenberg komt zo met een heel mooie motie om het hele advies integraal over te nemen. Daar sta ik onder; dat is gewoon een heel goeie motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg10">Ik heb hier zelf nog twee moties over twee punten die mij bijzonder aangelegen zijn, over de scheiding van bed en baas en over een eigen kamer voor arbeidsmigranten, ook vanwege corona.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note9">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note10">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note11">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note12">overwegende dat arbeidsmigranten een risicogroep vormen en dat het OMT daarom adviseert om nauw aan te sluiten bij het rapport Geen tweederangsburgers, van het aanjaagteam onder leiding van Emile Roemer;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note13">constaterende dat het aanjaagteam mede vanwege de veiligheid adviseert: "1 persoon per slaapkamer en minimaal 15 vierkante meter leefoppervlakte per persoon";</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note14">van mening dat deze aanbeveling uitgevoerd dient te worden zonder kostenverhoging voor de arbeidsmigrant;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note15">verzoekt de regering dit advies zo spoedig mogelijk om te zetten in beleid,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note16">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note17">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note18">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note19">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note20">van mening dat een dubbele pet van werkgever en huisbaas onwenselijk is en dat de werkgever geen loon moet kunnen inhouden voor huisvesting;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note21">constaterende dat de Wet aanpak schijnconstructies het inhouden en verrekenen op het wml tot 25% mogelijk maakt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note22">verzoekt de regering de uitzondering op het verbod tot inhouden en verrekenen op het wml in te trekken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note23">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note24">Deze motie is voorgesteld door het lid Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note25">Zij krijgt nr. kst-29861-56</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note26">Deze motie is voorgesteld door de leden Jasper van Dijk en Smeulders. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note27">Zij krijgt nr. kst-29861-57</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note28">Dank u wel, meneer Jasper van Dijk. Dan geef ik nu het woord aan de heer Van Weyenberg namens D66.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note29">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u9">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg11">Voorzitter. Het is toch een beetje de dag van de SP vandaag. Om te beginnen wil ik vanaf deze plek de heer Jasper van Dijk van harte feliciteren als kersverse vader. Ik wens hem veel plezier, geluk en af en toe ook nog een klein beetje slaap toe. Verder wil ik de heer Roemer en zijn aanjaagteam bedanken voor het goede werk dat ze hebben gedaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg12">Ik heb twee moties, ook met het oog op de klok vandaag.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note30">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note31">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note32">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note33">constaterende dat arbeidsmigranten een grote bijdrage leveren aan onze economie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note34">overwegende dat in de afgelopen jaren deze arbeidsmigranten in onvoldoende mate op bescherming hebben kunnen rekenen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note35">spreekt uit dat integrale uitvoering van het advies van het Aanjaagteam bescherming arbeidsmigranten gewenst is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note36">verzoekt de regering zo snel mogelijk aan de slag te gaan met de maatregelen voor de korte termijn en de andere aanbevelingen uit het tweede advies van het Aanjaagteam bescherming arbeidsmigranten zodanig uit te werken dat deze direct na de formatie geïmplementeerd kunnen worden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note37">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note38">Deze motie is voorgesteld door de leden Van Weyenberg, Jasper van Dijk, Palland, Gijs van Dijk, Bruins en Smeulders.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note39">Zij krijgt nr. kst-29861-58</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note40">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:labor" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u10">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg13">Voorzitter. De tweede motie gaat over een punt dat mij erg aan het hart gaat, namelijk een arbeidscommissie zodat je beter je recht kunt halen als werkende. Wat mij betreft geldt dat voor alle werkenden maar zeker ook voor arbeidsmigranten.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note41">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note42">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note43">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note44">constaterende dat een deel van de werkenden, zeker arbeidsmigranten, niet altijd hun rechten opeist omdat de gang naar de rechter een te hoge drempel is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note45">overwegende dat het inrichten van een "arbeidscommissie" zoals het Aanjaagteam bescherming arbeidsmigranten voorstelt, een laagdrempelige manier biedt om een geschil op te lossen, wat een gang naar de rechter overbodig maakt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note46">verzoekt de regering voor de formatie verschillende vormen van een "arbeidscommissie" uit te werken, waarbij opties worden meegenomen om dit in sectoren waar veel arbeidsmigratie plaatsvindt versneld in te voeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note47">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note48">Deze motie is voorgesteld door het lid Van Weyenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note49">Zij krijgt nr. kst-29861-59</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note50">Dank u wel. Dan geef ik nu het woord aan de heer Gijs van Dijk namens de PvdA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note51">De heer Gijs van Dijk (PvdA)</note>
+            <u who="#GijsvanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u11">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg14">Dank, voorzitter. Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note52">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note53">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note54">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note55">constaterende dat de meest onzekere fase van uitzenden tot anderhalf jaar kan worden opgerekt en uitzendkrachten daarnaast vaak jarenlang van het ene uitzendcontract in het andere uitzendcontract vallen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note56">overwegende dat deze eindeloze flex ervoor zorgt dat uitzendkrachten geen zekerheid hebben over hun inkomen en weinig of geen pensioen opbouwen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note57">verzoekt de regering het maximumaantal opvolgende uitzendcontracten in de wet te beperken, zodat zij onder dezelfde voorwaarden vallen als werknemers in (vaste) dienst,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note58">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note59">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note60">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note61">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note62">constaterende dat in de bouwsector schijnconstructies worden gebruikt, waardoor onderbetaling plaatsvindt en handhaving door Inspectie SZW lastig is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note63">overwegende dat cao-partijen in de bouwsector het Bouwplaats-ID-systeem hebben ontwikkeld, om te zorgen voor naleving van de cao en een veilige bouwplaats;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note64">overwegende dat de Bouwplaats-ID van een werkende duidelijk maakt wie zijn werknemer of opdrachtgever is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note65">verzoekt de regering om een landelijke pilot van de Bouwplaats-ID mogelijk te maken en daarmee te zorgen voor een veilige bouwplaats en gelijk loon voor gelijk werk,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note66">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note67">Deze motie is voorgesteld door het lid Gijs van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note68">Zij krijgt nr. kst-29861-60</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note69">Deze motie is voorgesteld door de leden Gijs van Dijk en Jasper van Dijk. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note70">Zij krijgt nr. kst-29861-61</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note71">De heer Gijs van Dijk (PvdA)</note>
+            <u who="#GijsvanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u12">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg15">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note72">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u13">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg16">Dank u wel, meneer Gijs van Dijk. Dan geef ik nu het woord aan de heer Smeulders namens GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note73">De heer Smeulders (GroenLinks)</note>
+            <u who="#PaulSmeulders" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u14">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg17">Dank u wel, voorzitter. Ik heb drie moties, dus ik ga snel voorlezen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note74">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note75">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note76">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note77">constaterende dat het Aanjaagteam bescherming arbeidsmigranten verplichte certificering voor uitzendbureaus voorstelt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note78">constaterende dat de huidige praktijk heeft laten zien dat certificering zonder publiek toezicht onvoldoende effect heeft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note79">constaterende dat een vergunningsstelsel als voordeel heeft dat er beter kan worden getoetst op de integriteit van de vergunninghouder;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note80">verzoekt de regering bij de uitwerking van een certificeringssysteem naast privaat toezicht ook het publiekrechtelijk toezicht nadrukkelijk te borgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note81">verzoekt de regering tevens bij het uitwerken van de eisen voor verplichte certificering ook eisen rondom integriteit op te nemen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note82">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note83">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note84">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note85">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note86">constaterende dat malafide verhuurders en bemiddelaars huurders vaak te veel laten betalen voor een woning en dat arbeidsmigranten hier door hun afhankelijke positie extra kwetsbaar voor zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note87">overwegende dat enkele gemeenten sinds 2019 experimenteren met een vergunningsstelsel voor verhuurders en bemiddelaars en dat uit evaluaties is gebleken dat gemeenten een gemis aan concrete handvatten ervaren, zoals voorwaarden die aan de verlening van een verhuurdersvergunning verbonden kunnen worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note88">overwegende dat de regering de verdere uitwerking van de verhuurdersvergunning wil koppelen aan de opkoopbescherming, maar dat hiermee onvoldoende kan worden gedaan aan malafide verhuurders en bemiddelaars van woningen die reeds in het bezit zijn van de verhuurders;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note89">verzoekt de regering om alle gemeenten de mogelijkheid te geven om verhuurdersvergunningen in te voeren en de juridische en praktische belemmeringen hiervoor weg te nemen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note90">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note91">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note92">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note93">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note94">constaterende dat het Aanjaagteam bescherming arbeidsmigranten twee uitgebreide rapporten heeft geschreven over de positie van arbeidsmigranten in Nederland;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note95">overwegende dat een deel van deze arbeidsmigranten ook kinderen heeft, die net als hun ouders in een kwetsbare situatie zitten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note96">overwegende dat er verschillende signalen zijn dat het opvoeden en opgroeien van deze kinderen niet altijd goed gaat, bijvoorbeeld vanwege (taal)achterstanden, slechte huisvesting en het regelmatig moeten verhuizen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note97">overwegende dat deze problematiek nog nauwelijks in beeld is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note98">verzoekt de regering nader onderzoek en aanbevelingen te doen inzake de positie van kinderen van arbeidsmigranten in Nederland,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note99">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note100">Deze motie is voorgesteld door de leden Smeulders en Van Weyenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note101">Zij krijgt nr. kst-29861-62</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note102">Deze motie is voorgesteld door het lid Smeulders. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note103">Zij krijgt nr. kst-29861-63</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note104">Deze motie is voorgesteld door de leden Smeulders en Bruins. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note105">Zij krijgt nr. kst-29861-64</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note106">De heer Smeulders (GroenLinks)</note>
+            <u who="#PaulSmeulders" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u15">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg18">Dank u wel, voorzitter. Ik heb nog een laatste vraag aan het kabinet, over het bericht van vanochtend dat heel veel arbeidsmigranten in de daklozenopvang zitten. Het lijkt me goed als het kabinet daarop reageert.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note107">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u16">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg19">Dank u wel, meneer Smeulders. Dan geef ik nu het woord aan mevrouw Tielen namens de fractie van de VVD.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note108">Mevrouw Tielen (VVD)</note>
+            <u who="#JudithTielen" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u17">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg20">Dank u wel, voorzitter. Gefeliciteerd aan de heer Jasper van Dijk met zijn boreling. Ik ben heel benieuwd wat voor politieke voorkeur hij in de toekomst zal hebben, maar hij is altijd welkom om eens langs te komen!</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg21">We hadden een heel goed debat met de minister en de collega-Kamerleden over een heel goed rapport van het Aanjaagteam Bescherming Arbeidsmigranten. We hebben meer grip nodig, net als meer eerlijke concurrentie en meer fatsoenlijke en normale afspraken over arbeidsomstandigheden en -voorwaarden voor arbeidsmigranten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg22">Over de huisvesting liggen er al voldoende moties, maar ik heb toch nog twee aanvullende moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note109">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note110">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note111">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note112">constaterende dat de regering heeft aangekondigd aanbevelingen van het Aanjaagteam bescherming arbeidsmigranten uit te werken en de Kamer al eerder diverse moties op dit terrein heeft aangenomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note113">overwegende dat de verantwoordelijkheid voor deze aanpak bij meerdere organisaties en op verschillende overheidsniveaus ligt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note114">verzoekt de regering om uiterlijk in april een routekaart met tijdplanning van de verdere uitwerkingsstappen naar de Kamer te sturen, en de Kamer jaarlijks te informeren over de voortgang,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note115">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note116">Deze motie is voorgesteld door het lid Tielen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note117">Zij krijgt nr. kst-29861-65</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note118">Mevrouw Tielen (VVD)</note>
+            <u who="#JudithTielen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u18">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg23">De tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note119">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note120">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note121">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note122">overwegende dat de regering voornemens is om in overleg met de sociale partners en de brancheorganisaties wettelijke verplichting van SNA-certificering te regelen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note123">constaterende dat naast SNA-criteria ook criteria met betrekking tot huisvesting (SNF) en verloning ontwikkeld zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note124">overwegende dat certificering moet zorgen voor eerlijke concurrentie en verloning daar onderdeel van is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note125">verzoekt de regering in overleg met betrokken organisaties te bezien hoe ook verloning onderdeel kan zijn van certificeringscriteria,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note126">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note127">Deze motie is voorgesteld door het lid Tielen. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note128">Zij krijgt nr. kst-29861-66</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note129">Dank u wel, mevrouw Tielen. Dan geef ik tot slot het woord aan mevrouw Palland namens het CDA.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note130">Mevrouw Palland (CDA)</note>
+            <u who="#HildePalland" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u19">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg24">Voorzitter, dank u wel. Uiteraard ook van mijn kant felicitaties aan de vader in ons midden. Succes, geduld en wijsheid toegewenst bij het grootbrengen van zo'n prachtig cadeau.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg25">Voorzitter. Het rapport-Roemer ligt er, met goede en praktische aanbevelingen die nadere verkenning en uitwerking verdienen. Laten we daarmee aan de slag gaan. Vandaar ook dat ik de motie die collega Van Weyenberg daarover heeft ingediend, heb medeondertekend. Voor het CDA zijn de speerpunten: registratie van arbeidsmigranten, de aanpak van malafiditeit in de uitzend- en bemiddelingsbureaus en de huisvesting. Er moet meer gebouwd worden. Het tekort aan bedden moet worden ingelopen. Dat moet uiteraard ook op kwalitatief niveau.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg26">Ik breng in dit VAO nog twee andere punten naar voren. De commissie-Roemer beveelt aan de mogelijkheid te bieden aan arbeidsmigranten om gedurende een korte periode nog gebruik te blijven maken van noodzakelijke zorg in Nederland. En terecht; we moeten mensen in nood helpen. Maar voordat we een Nederlands vangnet maken voor onverzekerde onderdanen uit een andere lidstaat lijkt het ons ook goed om te kijken naar het tegengaan van onverzekerdheid en terugvalopties in het land van herkomst. Is het kabinet dat met ons eens?</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg27">Het tweede punt. Er is veel gesproken over contractingconstructies en naleving van cao-loon. Nu is in 2015 een cao-afspraak in de bouwsector gemaakt over het Bouwplaats-ID. Collega Gijs van Dijk heeft daar net ook een motie over ingediend. Dat Bouwplaats-ID moet helpen om duidelijk te maken wie op de bouwplaats werkt en in welke constructie of verhouding. Dat helpt de naleving en de handhaving. Het is klaar voor gebruik, maar er zouden nog juridische obstakels hieromtrent zijn. Kan de minister aangeven wat de status hiervan is en waarom dat nog niet van de grond komt?</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg28">Tot slot sluit ik me aan bij de vragen die collega Smeulders net heeft gesteld over de actualiteit, over arbeidsmigranten en dakloosheid.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg29">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note131">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u20">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg30">Dank u wel, mevrouw Palland. Ik hoor de minister vragen of hij alle moties heeft. Volgens mij wel, toch? Ja, u heeft alle moties. U wilt vijf minuten schorsen? Dan schorsen we de vergadering voor vijf minuten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note132">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note133">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u21">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg31">Ik geef de minister het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note134">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u22">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg32">Dank u wel, mevrouw de voorzitter. Ik doe even mijn jasje dicht. Ook mijn felicitaties aan de heer Jasper van Dijk met de geboorte van zijn zoon. Ik heb het afgelopen jaar echt geprobeerd om de combinatie van arbeid en zorg te verbeteren, dus u kunt genieten van de Wieg. Ik ben ervaringsdeskundige, en in de Wieg heb ik dus ook rekening gehouden met dat je na de geboorte van een kind af en toe even moet werken, zoals vandaag. Je kan verlof in die periode dus ook flexibel opnemen. Nee, meneer Van Dijk, dit is geen reclame, dit is gewoon het uitdragen van beleid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note135">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u23">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg33">Ja, meneer Jasper van Dijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note136">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u24">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg34">De volgende stap is het betaald ouderschapsverlof. Dat is gelukkig niet controversieel verklaard; daar dank ik uw Kamer voor. We gaan dat na de verkiezingen behandelen, als de Kamer in een nieuwe samenstelling weer bij elkaar is. Dus misschien kan de heer Jasper van Dijk bij een volgend kind — wie weet? — ook nog profiteren van betaald ouderschapsverlof. Het houdt niet op, voorzitter, het houdt niet op met deze successen, slag na slag na slag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note137">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u25">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg35">Maar bij de SP wordt gewoon doorgewerkt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note138">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u26">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg36">Het is een klein inside-grapje, dat alleen de commissie begrijpt en de heer Jasper van Dijk niet. Maar het is echt een heel geestig grapje. Het tweede wat ik wilde zeggen, is dat de heer Roemer inderdaad een heel goed advies heeft geleverd. Nogmaals mijn dank daarvoor. Het is een heel breed advies over registratie, huisvesting, de uitzendsector, contracten en de werking van de arbeidsmarkt. Het is een heel degelijk en goed advies. Ik ben daar heel blij mee.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg37">Op korte termijn zijn we natuurlijk begonnen met het uitwerken van delen die al op korte termijn kunnen. In het AO heb ik al aangegeven dat wij heel veel dingen willen klaarleggen voor de formatie, zodat de formerende partijen daar direct na de verkiezingen mee aan de slag kunnen gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg38">De heer Smeulders en mevrouw Palland stelden terecht vragen over het bericht van vanochtend dat arbeidsmigranten na hun ontslag direct op straat komen te staan, omdat met het beëindigen van hun arbeidscontract ook direct hun huurcontract wordt beëindigd. Veel arbeidsmigranten melden zich nu bij de dak- en thuislozenopvang, omdat zij geen verblijfplaats hebben. Dit is een voorbeeld van misstanden die we zien als het gaat over arbeidsmigranten.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg39">Natuurlijk is het kabinet van mening dat niemand tijdens zo'n crisis op straat moet worden gezet. Helaas is het nog te vaak zo dat arbeidsmigranten afhankelijk zijn van hun werkgever. Ik ben het zeer eens met de lijn van de heer Roemer om die afhankelijkheid los te knippen, waarbij het arbeidscontract wordt losgeknipt van het huurcontract. Maar voor dit moment hebben wij als kabinet richting de werkgevers gezegd: ontsla uw werknemers nu niet. Wij hebben de NOW opgetuigd, zodat de werkgevers juist kunnen doorbetalen in deze crisis. Als je dan toch moet ontslaan — dat kan gebeuren vanwege de continuïteit — neem dan ook je verantwoordelijkheid door bijvoorbeeld het huurcontract door te laten lopen, zodat mensen niet op straat komen te staan. Mijn oproep aan de werkgevers is: neem je verantwoordelijkheid in deze dagen, zeker ook met dit weer en met de coronacrisis, door het huurcontract door te laten lopen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg40">Als last resort, als laatste redmiddel, hebben we natuurlijk ook de gemeenten. Mijn collega Paul Blokhuis is daar ook mee bezig. De dak- en thuislozenopvang staat ook open voor arbeidsmigranten, maar je hebt natuurlijk liever dat al daarvóór een oplossing wordt gevonden. Het is dus terecht dat de heer Smeulders en mevrouw Palland hier aandacht voor vragen. Dit is mijn reactie namens het kabinet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note139">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u27">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg41">Korte vraag, meneer Van Weyenberg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note140">De heer Van Weyenberg (D66)</note>
+            <u who="#StevenvanWeyenberg" ana="#regular topic:labor" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u28">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg42">Ik ben het er erg mee eens dat we het binnenkort moeten aanpassen, maar dit helpt vandaag nog niet. We hebben gisteren een nieuwe koers van de werkgevers gezien. Daar zaten heel veel mooie teksten bij, over meer duurzaam, meer sociaal en hogere lonen. Ik ben daar oprecht heel blij mee. Dit is oprecht een mooie kans om hier een begin mee te maken. Zou de minister er met de voorzitter van VNO-NCW over willen bellen dat dit een schitterend eerste punt is om de mooie woorden om te zetten in nog mooiere daden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note141">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:labor" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u29">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg43">Dat doe ik graag. Dat doe ik ook wekelijks. Ik denk oprecht dat de voorzitters van VNO-NCW en MKB-Nederland dit hartgrondig met u eens zijn. Daar ken ik ze goed genoeg voor. Ik heb uitgebreid met hen gesproken over deze onderwerpen. Ik wil dat contact leggen; dat is geen enkel probleem. Ik denk dat hier vaak juist de niet zulke goede werkgevers, of de malafide uitzendbureaus, het probleem zijn, die een verdienmodel hebben om zo veel mogelijk kosten te besparen. Zelfs ... Ik bedoel, ook de ABU en de NBBU — dat zijn de uitzendorganisatiekoepels — nemen hier afstand van. Ik denk dus dat dit breed wordt gedeeld aan de werkgeverszijde.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg44">Los daarvan ben ik het zeer eens met de vraag van mevrouw Palland en de heer Smeulders om hier aandacht voor te hebben. Ik ben van mening dat de link tussen het arbeidscontract en het huurcontract structureel moet worden doorgeknipt. Daar zijn we nu voor de formatie wetgeving voor aan het voorbereiden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg45">Dan nog een specifieke vraag van mevrouw Palland over het Bouwplaats-ID. Deze vraag ligt in het verlengde van de motie van de heer Gijs van Dijk. Wat zijn de obstakels? Het is een goed idee. Het is een heel sympathiek idee. Het is opgenomen in de cao voor de bouw. Daar zijn twee problemen. Het ene probleem is dat de gegevensuitwisseling AVG-proof moet zijn. Dat is natuurlijk niet automatisch geregeld met een cao-afspraak, dus daar moet je goed over nadenken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg46">Het tweede probleem is de reikwijdte. Op de bouwplaats komen niet alleen maar mensen die werken voor de cao van de bouw, maar ook de keukenboer, de leverancier en de vloeren- en de tegelzetter. Die vallen niet onder die cao en zijn dus ook niet gebonden aan die cao, zelfs niet aan een algemeen verbindend verklaarde cao. Dat vergt heel veel coördinatie. Daar zijn verschillende modellen voor. Er wordt nu nagedacht over of je een licht model of een wat zwaarder model moet doen. Daar zit natuurlijk ook een uitruil in. Hoe lichter het is, hoe minder handhaafbaar en minder dwingend het is. Hoe zwaarder, hoe dwingender het is, maar er zijn dan ook meer administratieve lasten, meer publieke handhaving en dat soort zaken. Het idee is dus sympathiek. We zijn ook echt aan het meedenken over hoe we dit mogelijk kunnen maken. Alleen, het heeft de afgelopen maanden wel een beetje stilgelegen vanwege andere prioriteiten, zoals coronabestrijding, steunpakketten en dat soort zaken. Maar het is makkelijker gezegd dan gedaan. Dat is de realiteit waarmee we te maken hebben. Je merkt wel dat er bij de vertegenwoordigers veel sympathie is voor het idee. Het gaat namelijk niet alleen over naleving van de cao-afspraken, maar ook over een veilige werkomgeving, arbeidsomstandigheden en dat soort zaken. We blijven hier dus mee doorgaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg47">Dan kom ik op de moties, mevrouw de voorzitter. De motie op stuk nr. 56 van de heer Jasper van Dijk gaat over één persoon per slaapkamer en 15 m. Zoals ik ook in de kabinetsreactie heb geschreven, is dit idee van de heer Roemer een goede weg voorwaarts. Alleen, in de huidige situatie, met een grote woningnood en een achterstallige bouwproductie, is het op korte termijn niet realistisch. Dan gaan we problemen creëren zoals misschien wel meer mensen op straat, bij wijze van spreken. Dat willen we niet. Op korte termijn gaan we aan de slag met de twee keer 50 miljoen euro om meer flexwoningen te bouwen en meer woningen voor arbeidsmigranten te realiseren door het hele land heen. Maar op korte termijn kan ik deze motie niet uitvoeren. Daarom moet ik haar ontraden. Voor de iets langere termijn vind ik het wel de goede richting, zoals ik ook in de kabinetsreactie heb opgeschreven. Maar voor nu moet ik de motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg48">De motie op stuk nr. 57 van de heer Jasper van Dijk en de heer Smeulders gaat over het verbod op inhouden en verrekenen met het wml. Daar hebben we in het AO uitgebreid over gesproken. Ik heb daar toen van gezegd dat ik het niet verstandig vind. Vanuit de zorgplichtgedachte zie ik namelijk dat er ook goede voorbeelden zijn van werkgevers die goede huisvesting aanbieden. Tegen die achtergrond wil ik de motie nu dus ontraden. Het is wel een onderwerp dat straks meegenomen wordt in de discussie over uitzendbureaus en de certificering. Maar in deze vorm moet ik de motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg49">Dan de motie op stuk nr. 58 van Van Weyenberg, Jasper van Dijk, Palland, Gijs van Dijk, Bruins en Smeulders. Die motie heeft twee onderdelen. Allereerst is er een spreekt-uitdictum; daar ga ik natuurlijk niet over. Ik ga wel over "verzoekt de regering zo snel mogelijk". Dat zijn we aan het doen. Ik doel op zowel op korte termijn maatregelen implementeren alsook op het uitwerken voor de formatie. Die motie wil ik graag oordeel Kamer geven. Het gaat dus over het verzoek aan de regering. De "spreekt uit" is voor uw eigen rekening; daar ga ik niet over.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg50">De motie op stuk nr. 59 van de heer Van Weyenberg gaat over een arbeidscommissie. Ik heb al aangegeven dat we verschillende modaliteiten daartoe verkennen. Ik heb het dan niet alleen maar over een arbeidscommissie à la Borstlap, maar ook over bredere varianten. Tegen die achtergrond krijgt de motie oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg51">Dan de motie op stuk nr. 60 van de heer Gijs van Dijk. Ik vind het echt een bredere discussie vergen dan het AO en dit VAO. Dit hoort eigenlijk samen met de discussie over Borstlap, de opvolging daarvan en het WRR-advies. Ik begrijp heel veel overwegingen die in deze motie staan. Ik vind het alleen ontijdig. Ik zou het echt bij de formatie betrekken, omdat het veel breder gaat over de toekomst van de arbeidsmarkt. Tegen die achtergrond ontraad ik de motie nu dus, maar ik begrijp wel welk signaal de heer Gijs van Dijk hiermee afgeeft. Maar voor de volledigheid en de formaliteit moet ik de motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg52">Dan de motie op stuk nr. 61 van de heren Gijs van Dijk en Jasper van Dijk. Ik heb net uitgelegd wat de problematiek is waar we tegen aanlopen en welke belemmeringen er zijn met de Bouwplaats-ID. Ik onderschrijf het belang van eerlijk en veilig werken op de bouwplaats. De verkenning van de wettelijke grondslag voor gegevensuitwisseling rond de Bouwplaats-ID loopt nu. Die wettelijke basis is ook vereist voor een eventuele pilot, want anders krijg je privacy-issues en AP-issues. Dat moet dus echt zorgvuldig gebeuren. Daarom wil ik de uitkomst van de verkenning afwachten. Daarom ontraad ik deze motie. Maar zoals ik net al zei, is er veel sympathie voor het idee en ook voor andere varianten in een lichtere vorm, die misschien dezelfde doelen kunnen bereiken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg53">Ik heb de motie op stuk nr. 63 niet bij me. Ik heb hier wel de motie op stuk nr. 62 van de heren Smeulders en Van Weyenberg, die de regering verzoekt ook eisen rondom integriteit op te nemen in de certificering. Die geef ik graag oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg54">De motie op stuk nr. 63 heb ik even niet. Wacht even hoor. Ik heb de motie hier. De verhuurdervergunning. Dat is ingewikkeld, want het gaat niet over mijn portefeuille maar over die van BZK. Daar zijn allerlei praktische belemmeringen bij, maar die heb ik nu even niet bij me. Vindt u het goed als ik daar zo ... Nee, dat kan natuurlijk niet. Ik ga even aan mijn ambtenaren vragen om de reactie op de motie op stuk nr. 63 naar mij toe te brengen, want die wordt nu afgestemd met BZK, weet ik, dus die heb ik hier niet in het setje zitten. Dus als de ambtenaren meekijken, graag de reactie op de motie op stuk nr. 63.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note142">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u30">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg55">Ja, ze kijken zeker mee. Anders kan het misschien voor de stemmingen, als het niet lukt om de motie nu te beoordelen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note143">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u31">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg56">Ja, maar de stemmingen zijn vandaag al, toch? Ah, kijk!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note144">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:gover" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u32">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg57">Uw ambtenaren luisteren overal en altijd mee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note145">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u33">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg58">Kijk, kijk, kijk, ik krijg de reactie op een telefoon aangereikt. Heel modern allemaal.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note146">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u34">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg59">U mag nu op uw scherm kijken. Dat is niet om te twitteren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note147">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u35">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg60">Vandaag is het bestuurlijk overleg met relevante partijen op het gebied van wonen. Zo snel mogelijk daarna informeren we de Kamer over een verhuurdervergunning. Daarom geven we nu de motie op stuk nr. 63 oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note148">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:mixed" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u36">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg61">Kijk. Welke ambtenaar was dat? Kunnen we die niet altijd vragen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note149">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u37">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg62">Het is geen ambtenaar, maar mijn onvolprezen politiek assistent Marita van Gessel, voor de Handelingen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note150">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u38">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg63">Kijk, fijn. Zij bepaalt het.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note151">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u39">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg64">Zij bepaalt het beleid. De coalitiewoordvoerders wisten dat allang, of degenen formerly known as coalitiewoordvoerders, maar de oppositiewoordvoerders komen daar nu ook achter. Dus voortaan iets meer ... Nee, hoor.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg65">De motie op stuk nr. 64 van de heer Smeulders en de heer Bruins gaat over nader onderzoek naar de positie van kinderen. Zoals ik gezegd heb bij het AO van vorige week hebben we met het ministerie van VWS gesproken over de vraag of er voldoende onderzoek is gedaan naar de positie van kinderen van arbeidsmigranten. Daarnaast is er ook gesproken met de gemeente Rotterdam en Stichting Pharos over problemen waar kinderen van arbeidsmigranten mee te maken hebben. Pharos heeft inderdaad eerder onderzoek gedaan naar de kwetsbare positie van deze kinderen. Het is goed om aanvullend onderzoek te doen om op die manier een beter beeld te krijgen van de omvang van de groep en van de problematiek. Daarom krijgt deze motie oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note152">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u40">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg66">Oké.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note153">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:gover" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u41">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg67">De motie op stuk nr. 65 verzoekt de regering om uiterlijk in april een routekaart met tijdsplanning van de verdere uitwerkingsstappen naar de Kamer te sturen en de Kamer jaarlijks te informeren over de voortgang. Dank daarvoor. Oordeel Kamer. Die motie was van mevrouw Tielen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg68">De laatste motie, de motie op stuk nr. 66 van mevrouw Tielen, verzoekt de regering om in overleg met betrokken organisaties te bezien hoe verloning onderdeel kan zijn van certificeringscriteria. De verloning is op dit moment een criterium in het bestaande SNA-keurmerk. Ik ben bereid om te bezien hoe de verloning het beste een onderdeel kan zijn van de certificeringscriteria. Daarom krijgt deze motie oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note154">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u42">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg69">Dank u wel. De heer Jasper van Dijk heeft een korte vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note155">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u43">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg70">Mag ik nog heel even terug naar de motie op stuk nr. 56?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note156">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u44">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg71">Ja?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note157">De heer Jasper van Dijk (SP)</note>
+            <u who="#JaspervanDijk" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u45">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg72">Ik proef de bereidheid van de minister om daarin mee te gaan. Deze motie is eerder ingediend door mevrouw Marijnissen, met de heer Segers. Op dat moment — dat is een aantal maanden geleden — vroeg de minister aan mevrouw Marijnissen of zij de motie kon aanhouden, omdat de reactie op het rapport-Roemer nog zou komen. Als ik nou "zo spoedig mogelijk" in het dictum schrap, mag ik dan begrijpen dat de minister het eens is met de motie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note158">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:housi" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u46">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg73">Ik moet even nadenken over wat ik ook alweer heb opgeschreven in de kabinetsreactie. Dat is alweer een paar maanden geleden, dus ik moet even in mijn herinnering graven. De eigen slaapkamer was sowieso een belangrijk punt, ook in het kader van de coronacrisis. Dus één persoon per kamer, niet alleen voor de privacy en de kwaliteit van leven, maar ook om verspreiding van het virus te voorkomen. Ik weet dat er een discussie achter vandaan komt over die 15 m, tussen het SNA-keurmerk en het AKF-keurmerk, het agrarische keurmerk. Er worden nu stappen gezet om dat te harmoniseren en bij elkaar te brengen. Dus de richting deel ik. Daarom hoorde de heer Jasper van Dijk mij terecht een beetje twijfelen bij de formulering. Die richting wordt ook breed gedeeld door allerlei partijen in de sector. Er is nu woningnood. Er is te weinig aanbod. Op korte termijn kan het gewoon niet. Het klinkt sympathiek, "zo spoedig mogelijk", maar ik weet niet of ik het waar kan maken. Ik houd mijn oordeel dus even in stand, omdat ik geen verwachtingen wil creëren die ik niet waar kan maken. Mocht het anders zijn, dan laat ik dat nog even voor de stemmingen weten. Het vergt ook enige afstemming met de betrokken departementen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note159">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u47">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg74">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note160">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u48">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg75">Maar mijn basis is: ontraden. Als het anders is, dan informeer ik u.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note161">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u49">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg76">Dan horen we het voor de stemmingen. Een korte vraag, mevrouw Palland.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note162">Mevrouw Palland (CDA)</note>
+            <u who="#HildePalland" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u50">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg77">Ik had nog een vraag gesteld over de aanbeveling van de commissie-Roemer over de zorgonverzekerbaarheid van arbeidsmigranten en de problematieken daaromtrent. Hij geeft aan dat ze een korte periode nadat het dienstverband is beëindigd nog gebruik zouden moeten kunnen maken van zorg. We moeten natuurlijk noodzakelijke zorg verlenen. Maar voordat we hier een Nederlands vangnet optuigen voor onderdanen van andere lidstaten, zouden we wat mij betreft prioriteit moeten leggen bij het tegengaan van de onverzekerbaarheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note163">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u51">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg78">Eens.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note164">Mevrouw Palland (CDA)</note>
+            <u who="#HildePalland" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u52">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg79">Ik meende zoiets ook te kunnen lezen in de kabinetsreactie, maar het leek me goed om dat even te markeren voordat we hier verwachtingen gaan wekken bij de aanbevelingen van Roemer op dit punt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note165">Minister Koolmees</note>
+            <u who="#WouterKoolmees" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u53">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg80">Eens. Hier moet ik ook weer graven in mijn herinnering. Ik dacht dat dit punt van de onverzekerbaarheid op de korte termijn was opgelost in samenspraak met VWS. Ik herinner me nu ook uw vraag weer uit de eerste termijn over de coördinatie tussen lidstaten. Dat hangt samen met de befaamde verordening 883 over de export van WW en de harmonisatie van socialezekerheidsregelingen. Ik dacht dat het zorgpunt op de korte termijn was opgelost. Daar zat de onverzekerbaarheid ... Ik kijk even naar de adviseur; die weet het ook niet. Ik dacht dat het was opgelost in de kabinetsreactie. De harmonisatie is echt ingewikkeld, omdat de zorg een nationale bevoegdheid is en ook in de verordening 883 de competentie van de lidstaten wordt erkend. Als je inwonend bent in een land, dan ben je daar ook verzekerd. Maar voor de kortere termijn is dit opgelost.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note166">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u54">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg81">Goed, dank u wel. Daarmee zijn we aan het einde gekomen van dit VAO.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note167">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note168">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.u55">
+               <seg xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.seg82">Over de ingediende moties zullen we volgens mij vanmiddag stemmen. Ik dank de minister, ik dank de Kamerleden en ik schors de vergadering tot ongeveer 11.05 uur.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-11-tweedekamer-4.note169">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="nl" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2015-02-12 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2015-02-12 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 54, Session 12 (2015-02-12)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 54, Session 12 (2015-02-12)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="54" xml:lang="en">Meeting 54</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="12" xml:lang="en">Session 12</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.28" corresp="#TK" n="28-lower" xml:lang="en">Meeting of the 28th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2015-02-12">Sitting 2015-02-12</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="10">10 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="10">10 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="721">721 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="721">721 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2015-02-12">2015-02-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="39"/>
+               <tagUsage gi="seg" occurs="13"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="10"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2015-02-12">2015-02-12</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.head1">Problemen bij de Sociale Verzekeringsbank omtrent pgb's</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note1">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.u1">
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg1">Ik heb begrepen dat de Kamer graag in één termijn wil debatteren. Ik neem aan dat zij er dan ook geen bezwaar tegen heeft dat in die termijn moties worden ingediend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note2">Mevrouw Keijzer (CDA)</note>
+            <u who="#MonaKeijzer" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.u2">
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg2">Voorzitter. We hebben gelukkig, voordat we op reces gaan, nog uitgebreid met elkaar kunnen debatteren over de uitbetalingsproblemen rond de pgb's bij de Sociale Verzekeringsbank. Ik wil hierover twee moties indienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note6">constaterende dat er in de uitvoering bij de SVB onnodige bureaucratische drempels worden opgeworpen zoals het vereiste dat contactpersonen gevraagd wordt een nieuw formulier "vertegenwoordiger" in te dienen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note7">overwegende dat dit een snelle oplossing belemmert;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note8">verzoekt de regering, met de SVB concrete afspraken te maken bureaucratische drempels weg te nemen en de Kamer op 23 februari 2015 hierover te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note9">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note10">Deze motie is voorgesteld door het lid Keijzer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note11">Zij krijgt nr. kst-25657-131</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note12">Mevrouw Keijzer (CDA)</note>
+            <u who="#MonaKeijzer" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.u3">
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg3">Ik heb nog een andere motie over de uitbreiding van het Rapid Response Team, de manier om mensen die vastlopen toch snel een oplossing te bieden. Volgens het CDA kan de staatssecretaris nog een duwtje in de rug gebruiken. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note13">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note14">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note15">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note16">constaterende dat er veel problemen zijn ontstaan rondom de invoering van het trekkingsrecht door de Sociale Verzekeringsbank vanaf 1 januari 2015;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note17">constaterende dat er sinds afgelopen maandag 9 februari 2015 een Rapid Responseteam volledig operationeel is dat spoedeisende zaken behandelt die geen verder uitstel kunnen verdragen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note18">van mening dat een verhoging van de capaciteit van het RRT nodig is om meer urgente zaken met voorrang te kunnen oppakken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note19">verzoekt de regering, de capaciteit van het Rapid Responseteam met spoed uit te bereiden zodat alles in het werk kan worden gesteld om de acute problemen van mensen op te lossen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note20">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note21">Deze motie is voorgesteld door de leden Keijzer en Gerbrands. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note22">Zij krijgt nr. kst-25657-132</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note23">Mevrouw Keijzer (CDA)</note>
+            <u who="#MonaKeijzer" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.u4">
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg4">Ik heb net nog aan de Griffie gevraagd om de motie-Keijzer die wij de vorige keer hebben ingediend, mede ondertekend door mevrouw Ellemeet, mevrouw Gerbrands en mevrouw Leijten, ook vanavond nog in stemming te brengen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note24">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.u5">
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg5">Dan zullen we deze toevoegen aan de stemmingslijst.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note25">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.u6">
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg6">Voorzitter. Er is een hoop te zeggen over het debat dat wij net gevoerd hebben. Ik denk zomaar dat we nog vaak zullen spreken over dit onderwerp. Het gaat over beloften, een woordspelletje en gegoochel met cijfers, maar uiteindelijk gaat het over mensen; mensen die zorg nodig hebben en mensen die betaald moeten worden. We krijgen daar rapportages over. Dat is goed. Hoe gaat het met de achterstanden? Hoeveel mensen hebben hun maandsalaris gekregen? We krijgen uiteindelijk ook een rapportage met de verhoudingen. We krijgen heel veel cijfers, maar we weten niet wie bij welk cijfer hoort. Dat gaat de staatssecretaris allemaal voor ons regelen en dat is goed.</seg>
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg7">Ik heb ook een paar keer gevraagd naar de notulen en afspraken van de stuurgroep trekkingsrecht pgb, die zich bezig heeft gehouden met de invoering hiervan. De staatssecretaris wil die niet geven, omdat hij zegt dat mensen niet wisten dat het openbaar zou worden en hij dat vertrouwen niet wil schaden. Als de staatssecretaris tijd nodig heeft om die mensen te vragen of dat openbaar kan worden, dan geef ik hem daarvoor de tijd. Misschien kan dat wel geanonimiseerd, maar ik wil die verslagen gewoon openbaar hebben. Daarom dien ik de volgende motie in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note26">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note27">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note28">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note29">overwegende dat de Kamer de interne ICT-rapportages over de invoering van het pgb-trekkingsrecht heeft ontvangen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note30">verzoekt de regering om ook de notulen en afspraken van de stuurgroep trekkingsrecht pgb — desnoods anoniem — naar de Kamer te sturen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note31">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note32">Deze motie is voorgesteld door de leden Leijten en Keijzer. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note33">Zij krijgt nr. kst-25657-133</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note34">Mevrouw Leijten (SP)</note>
+            <u who="#RenskeLeijten" ana="#regular topic:other" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.u7">
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg8">Ik voeg eraan toe dat ik de staatssecretaris, als de motie wordt aangenomen, dat wil ik ook aan de collega's laten weten, echt wel de tijd wil geven om dat op een ordentelijke manier te doen, maar ik vind dat we deze gewoon moeten hebben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note35">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.u8">
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg9">Er hebben zich verder geen sprekers gemeld. Dan is hiermee een einde gekomen aan de termijn van de zijde van de Kamer. De staatssecretaris wacht nog even op de tekst van de laatste motie en dan kan hij reageren op de inhoud van de moties.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note36">Staatssecretaris Van Rijn</note>
+            <u who="#MartinvanRijn" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.u9">
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg10">Voorzitter. In de motie op stuk nr. 131 wordt de staatssecretaris verzocht met de Sociale Verzekeringsbank concrete afspraken te maken om bureaucratische drempels weg te nemen. Ik dacht dat wij in het debat met elkaar hadden gewisseld dat ik dat al had toegezegd. Wij gaan met de Sociale Verzekeringsbank nadere afspraken maken over het teruggeleiden van problemen die naar voren komen uit het rapid response team. Ik heb daarover voldoende toezeggingen gedaan en acht de motie daarom overbodig. Ik ontraad deze motie.</seg>
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg11">In de motie op stuk nr. 132 wordt de regering gevraagd om de capaciteit van het RRT met spoed uit te breiden zodat alles in het werk kan worden gesteld om acuut de problemen van mensen op te lossen. Dit is bijna letterlijk de toezegging die ik in het debat heb gedaan. Ik zal die toezegging nog een keer herhalen. Ja, dat doe ik en ja, dat ga ik doen. Ik ga het samen met Per Saldo en de Sociale Verzekeringsbank doen. Ik acht de motie om deze reden overbodig en ontraad haar.</seg>
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg12">In de motie op stuk nr. 133 wordt de regering gevraagd om de notulen van de interne stuurgroep naar de Kamer te sturen. Wij hebben hierover een aantal keren gesproken. Ik heb gezegd dat ik dat niet passend vind, ook niet naar de deelnemers aan dat overleg. Het zou een verkeerd precedent scheppen. Ik heb toegezegd dat wij bij de evaluatie en het vooruitkijken alle besluitvoeringsmomenten kunnen gebruiken en dat de Kamer daarover met mij in debat kan gaan. Ik wil de motie om die reden, conform wat wij in het debat hebben besproken, ontraden.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note37">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note38">De voorzitter</note>
+            <u who="#AnouchkavanMiltenburg" ana="#chair topic:other" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.u10">
+               <seg xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.seg13">De stemmingen over de ingediende moties zijn na de schorsing.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2015-02-12-tweedekamer-12.note39">De vergadering wordt van 23.10 uur tot 23.39 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

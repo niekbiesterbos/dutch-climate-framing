@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-01-27 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-01-27 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 49, Session 5 (2021-01-27)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 49, Session 5 (2021-01-27)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="49" xml:lang="en">Meeting 49</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="5" xml:lang="en">Session 5</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-01-27">Sitting 2021-01-27</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="72">72 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="72">72 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="3218">3,218 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="3218">3,218 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-01-27">2021-01-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="128"/>
+               <tagUsage gi="seg" occurs="84"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="72"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-01-27">2021-01-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.head1">Informele JBZ-Raad d.d. 28 en 29 januari 2021 (vreemdelingen- en asielbeleid)</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u1">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg1">Aan de orde is het VSO Informele JBZ-Raad van 28 en 29 januari 2021, onderdeel vreemdelingen- en asielbeleid. Ik heet de staatssecretaris van Justitie en Veiligheid van harte welkom en natuurlijk ook de ploeg asielbeleid en vreemdelingenzaken. Meneer Van Ojik, moet u nog even een motie schrijven? Het woord is aan de heer Van Ojik namens GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note2">De heer Van Ojik (GroenLinks)</note>
+            <u who="#BramvanOjik" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u2">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg2">Nee, voorzitter, ik moest de naam van de heer Van Dijk er nog onder zetten, maar toen bedacht ik me dat dat natuurlijk "Jasper van Dijk" moet zijn om elk misverstand te voorkomen. Dat kostte even een paar extra seconden. Dank u wel, voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg3">De staatssecretaris gaat naar de informele JBZ-Raad en laat ik het eerlijk zeggen: mijn angst is een beetje dat die vergaderingen van de JBZ-Raad zich de komende tijd weer voort gaan slepen in moeizame discussies over het migratiepact. Ik hoop natuurlijk dat daar uiteindelijk steun voor komt, maar dat is nog lang niet zeker. Ondertussen is de situatie voor vluchtelingen op allerlei plekken aan de grenzen van Europa verschrikkelijk, of het nou gaat om de Middellandse Zee, Libië, Bosnië, waarover we steeds actuele berichten krijgen, of Griekenland. Om te voorkomen dat het een abstracte discussie blijft, dien ik twee moties in.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note6">constaterende dat de regering slechts 2 alleenstaande kinderen uit Griekenland heeft overgenomen, terwijl de staatssecretaris op 10 september 2020 heeft toegezegd 50 alleenstaande kinderen naar Nederland te halen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note7">verzoekt de regering binnen een maand nog minstens 48 alleenstaande kinderen uit Griekenland over te nemen, bij de selectie slechts te kijken naar veiligheidsrisico's, en deze kinderen niet in mindering te brengen op het quotum voor herplaatsing van andere kwetsbare vluchtelingen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note8">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note9">Deze motie is voorgesteld door de leden Van Ojik, Jasper van Dijk, Kuiken en Wassenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note10">Zij krijgt nr. kst-32317-673</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note11">De heer Van Ojik (GroenLinks)</note>
+            <u who="#BramvanOjik" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u3">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg4">Dan de tweede motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note12">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note13">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note14">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note15">constaterende dat momenteel nog circa 4.000 alleenstaande kinderen in Griekenland verblijven onder vaak erbarmelijke en soms gevaarlijke omstandigheden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note16">van mening dat de Europese Unie de gedeelde verantwoordelijkheid voor het welzijn van alleenstaande kinderen beter moet invullen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note17">verzoekt de regering in Europees verband te pleiten voor relocatie van de 4.000 alleenstaande kinderen in Griekenland naar welwillende EU-lidstaten, en als Nederland daarbij de opvang van in totaal maximaal 500 kinderen aan te bieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note18">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note19">Deze motie is voorgesteld door de leden Van Ojik, Kuiken, Jasper van Dijk en Wassenberg. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note20">Zij krijgt nr. kst-32317-672</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note21">Dank u wel. Mevrouw Kuiken.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note22">Mevrouw Kuiken (PvdA)</note>
+            <u who="#AttjeKuiken" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u4">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg5">Ik zou graag beide moties willen medeondertekenen. Voor de laatste geldt dat de heer Jasper van Dijk deze ook wil medeondertekenen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note23">De heer Van Ojik (GroenLinks)</note>
+            <u who="#BramvanOjik" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u5">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg6">Dat is prima.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note24">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u6">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg7">Dan zien we de motie met de nieuwe ondertekening. Als u de namen toevoegt, dan komt het goed. Het gaat goed. De heer Bisschop namens de SGP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note25">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u7">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg8">Voorzitter, dank u wel. Dank voor de beantwoording van de schriftelijke vragen. Daaruit blijken goede intenties, maar ik zou een tweetal punten nader toegespitst willen zien. Vandaar twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note26">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note27">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note28">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note29">overwegende dat effectief terugkeerbeleid een essentieel onderdeel is van een goed functionerend Europees asiel- en migratiesysteem;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note30">overwegende dat terugkeer van afgewezen asielzoekers versterkt moet worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note31">constaterende dat de herziening van de Terugkeerrichtlijn nauw samenhangt met het EU-migratiepact en de centrale bouwsteen vormt van het plan van de Europese Commissie om terugkeer van afgewezen asielzoekers te bevorderen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note32">verzoekt de regering om het EU-migratiepact niet te steunen zolang er geen overeenstemming is bereikt over aanscherping van de Terugkeerrichtlijn, waardoor bijvoorbeeld de mogelijkheden voor gedwongen terugkeer of vreemdelingendetentie zijn verruimd,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note33">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note34">Deze motie is voorgesteld door het lid Bisschop. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note35">Zij krijgt nr. kst-32317-674</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note36">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u8">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg9">De tweede motie gaat over een punt dat wij ook in de schriftelijke vragen aan de orde hebben gesteld, maar dat nog wat toespitsing verdient.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note37">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note38">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note39">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note40">constaterende dat een taskforce van de Europese Commissie operationeel is geworden in Griekenland ten behoeve van het doorvoeren van structurele verbeteringen op het gebied van asiel, terugkeer, opvang en integratie;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note41">overwegende dat de situatie van de vluchtelingenkampen op de Griekse eilanden nog altijd erbarmelijk is en dat deze al te lang voortduurt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note42">van mening dat daarom, naast de aangekondigde structurele verbeteringen, nu dringend optreden vereist is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note43">verzoekt de regering om in EU-verband te overleggen over de mogelijkheden om te komen tot een collectieve Europese actie, waarbij verdergaand ingrijpen mogelijk is, indien de prestaties van Griekenland tekort blijven schieten, en daarbij te bezien welke rol Frontex en de taskforce van de Europese Commissie hierin kunnen vervullen, om zo de acute nood te lenigen, de migranten te herplaatsen naar het Griekse vasteland, de asielaanvragen te beoordelen en afgewezen migranten uit te zetten naar veilige gebieden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note44">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note45">Deze motie is voorgesteld door het lid Bisschop. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note46">Zij krijgt nr. kst-32317-675</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note47">Mevrouw Becker voor een korte vraag.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note48">Mevrouw Becker (VVD)</note>
+            <u who="#BenteBecker" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u9">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg10">Ik ben benieuwd waarom de SGP nu een motie indient over de samenloop tussen de Terugkeerrichtlijn en het migratiepact. Samen met mevrouw Van Toorenburg heb ik daar een tijd geleden een motie over ingediend, die het kabinet aanspoort om dit in samenhang te laten behandelen. Wij vinden namelijk ook dat terugkeer een belangrijk onderdeel moet zijn van uiteindelijke afspraken. Het kabinet heeft gezegd: wij gaan die motie uitvoeren. Waarom is deze motie nog nodig?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note49">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u10">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg11">Dat is niet omdat wij geen vertrouwen hebben in de motie die u hebt ingediend. Overigens is dit ook een punt dat wij vanaf het begin hebben benadrukt, namelijk dat er een beter terugkeerbeleid moet komen. De aanleiding voor de motie was een beetje de wijze waarop het antwoord op onze schriftelijke vragen was geformuleerd in het verslag van het schriftelijk overleg. De volgende intentie spreekt daaruit: we willen met verschillende landen die afspraken maken, enzovoorts, enzovoorts, enzovoorts. Alleen, wij willen garantie krijgen. Wij stemmen niet in met het EU-migratiepact als dat niet is geregeld. Vandaar deze motie. Beschouw het als een ondersteuning van de lijn die u zelf eerder hebt ingezet en die wij ook altijd hebben gesteund en bepleit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note50">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u11">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg12">Dank u wel. Dan geef ik tot slot het woord aan de heer Voordewind namens de ChristenUnie. Meneer Bisschop, komt u nog terug met de motie? De heer Voordewind.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note51">De heer Voordewind (ChristenUnie)</note>
+            <u who="#JoëlVoordewind" ana="#regular topic:inter" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u12">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg13">Dank u wel, voorzitter. Ik dank de staatssecretaris voor de schriftelijke beantwoording van onze vragen. Daarin zegt de staatssecretaris bezorgd te zijn over de humanitaire situatie op de Griekse eilanden. Ze zegt ook dat er eigenlijk wooncontainers zouden moeten komen, maar dat er allerlei belemmeringen zijn. Ik waardeer dat de staatssecretaris dat zegt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg14">Voorzitter. Als ik naar de camerabeelden op televisie kijk, dan zie ik dat de omstandigheden nog steeds heel belabberd zijn. Ik kom dus tot de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note52">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note53">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note54">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note55">constaterende dat de leefomstandigheden zeer te wensen overlaten op Lesbos en andere Griekse eilanden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note56">constaterende dat de minister voor Ontwikkelingssamenwerking eerder een financiële bijdrage heeft toegezegd van 1,7 miljoen in 2020 en van €750.000 in januari 2021 om de hulpverlening te verbeteren op de Griekse eilanden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note57">constaterende dat de staatsecretaris in haar brief van 19 januari 2021 zelf nog steeds vaststelt dat de opvangfaciliteiten voor vluchtelingen op met name Lesbos, maar ook op Samos en Chios, nog altijd ontoereikend en schrijnend zijn en aanleiding geven tot zorgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note58">constaterende dat substantiële verbeteringen op Lesbos en Chios pas voorzien zijn op zijn vroegst in respectievelijk september en december 2021;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note59">van mening dat de leefomstandigheden en de veiligheid al deze winter substantieel verbeterd zouden moeten worden, gezien de aanhoudende wind, regen, vorst en sneeuw en de veiligheidsincidenten die er plaatsvinden, met als dieptepunt de (vermoedelijke) verkrachting van een 3-jarig Afghaans meisje;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note60">verzoekt de regering om in afstemming met de taskforce van de Europese Commissie de hulpverlening op de Griekse eilanden te doen verbeteren door een aanvullende financiële bijdrage te leveren aan de hulporganisaties, waaronder de al aanwezige Nederlandse organisaties Stichting Bootvluchteling, stichting Movement On The Ground en Stichting Vluchteling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note61">verzoekt tevens er bij de Griekse overheid op aan te dringen om de meest kwetsbare vluchtelingen en hen met een vluchtelingenstatus zo snel mogelijk over te brengen naar het Griekse vasteland en toestemming te verlenen om de leefomstandigheden zo snel mogelijk substantieel te verbeteren, alsook bij de taskforce van de Europese Commissie op dit laatste punt aan te dringen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note62">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note63">Deze motie is voorgesteld door de leden Voordewind, Van Toorenburg, Groothuizen, Van Ojik, Kuiken, Jasper van Dijk en Wassenberg.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note64">Zij krijgt nr. kst-32317-676</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note65">Deze ellenlange motie wordt dus voldoende ondersteund, merk ik. De heer Wassenberg wil er ook onder staan, denk ik.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note66">De heer Wassenberg (PvdD)</note>
+            <u who="#FrankWassenberg" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u13">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg15">Ja, voorzitter, een extreem lange motie. Ik wil aan de heer Voordewind vragen om haar nog iets langer te maken door mijn naam erbij te zetten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note67">De heer Voordewind (ChristenUnie)</note>
+            <u who="#JoëlVoordewind" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u14">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg16">Gaan we doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note68">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u15">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg17">Dat dacht ik al. Dank u wel, meneer Voordewind.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg18">Dan zijn we toegekomen aan de beantwoording. Ik begrijp dat de minister nog niet alle moties heeft. Minister, hoeveel minuten heeft u nodig, vijf? Iets meer? Dan schors ik zes of zeven minuten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note69">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note70">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u16">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg19">Ik geef de staatssecretaris het woord.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note71">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u17">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg20">Voorzitter. Ik heb goed geluisterd naar de heer Van Ojik. In de volgorde van de moties kreeg ik wat hij als tweede motie noemde als eerste motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note72">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u18">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg21">Precies, dat klopt. Ik wou het net zeggen. Ik kan zien dat u ook Voorzitter bent geweest!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note73">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u19">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg22">Ja. Dat is zo langzamerhand wel een beetje in de mist van de geschiedenis aan het verdwijnen, maar goed. Prima. Mag ik dan beginnen met de tweede motie, de motie-Van Ojik c.s. op stuk nr. 673? Het kabinet heeft naar aanleiding van de branden op Moria eenmalig besloten om 100 kwetsbare personen naar Nederland te herplaatsen. De bedoeling was 50 personen in gezinsverband en 50 alleenstaande minderjarigen van 14 jaar en jonger. In mijn brief van 19 januari jongstleden heb ik uitvoerig uiteengezet hoe het uiteindelijk is uitgepakt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg23">Wat betreft de alleenstaande minderjarigen van 14 jaar en jonger bleek er maar een zeer beperkt aantal kinderen te zijn die daaraan voldeden. Degenen die eraan voldeden, gingen dan ook nog vaak naar familie, waar ze liever naartoe wilden, in een andere lidstaat. Het is wel zo: 100 is 100. Dat heb ik altijd gezegd. Er komen 100 kwetsbaren uit Moria, uit Griekenland of die in Griekenland verbleven hebben, naar Nederland. Van die 100 zijn er inmiddels inderdaad 57 minderjarige kinderen, van wie 56 kinderen van 14 jaar en jonger. Van die 56 kinderen zijn er nog eens dertien 4 jaar en jonger. Dat zijn heel kwetsbare personen, en ik ben ontzettend blij dat we die kinderen en die gezinnen in Nederland hebben kunnen opnemen. Kortom, om die reden moet ik de motie ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg24">Dan de tweede motie van de heer Van Ojik, de motie op stuk nr. 672. Het kabinetsbeleid was dat wij ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note74">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u20">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg25">Heel kort, mevrouw Van Toorenburg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note75">Mevrouw Van Toorenburg (CDA)</note>
+            <u who="#MadeleinevanToorenburg" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u21">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg26">De staatssecretaris gaat vooral in op de aantallen. Dat snap ik. Maar er zit nog een belangrijk element in deze motie, waarvan ik haar appreciatie ook graag zou willen zien, namelijk dat alleen mag worden gekeken naar veiligheidsrisico's en niet langer naar de vraag of iemand hier langer mag blijven of niet. Kan de staatssecretaris ook daarop nog even reflecteren? Dat betekent namelijk dat we mensen hierheen halen die we misschien weer terug moeten sturen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note76">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u22">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg27">Daar kan ik meteen op ingaan. Dat zijn allemaal mensen die een status hebben. Die gaan dus ook niet terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note77">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u23">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg28">Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note78">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u24">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg29">Die 100 zijn hier en er gaat niemand van die 100 terug.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg30">Dan de motie op stuk nr. 672 van de heer Van Ojik. Het is sinds in ieder geval januari 2019 kabinetsbeleid — dat is gecommuniceerd in een brief aan uw Kamer — dat we geen ad-hocovernames doen. Naar aanleiding van de verzoeken om mensen over te nemen van de Griekse eilanden heeft het kabinet besloten om een andere aanpak te kiezen. Die aanpak is door de Griekse regering omarmd. Ik denk dat we een goede keuze gemaakt hebben. Het gaat om drie shelters voor alleenstaande minderjarigen, gedurende een periode van minimaal drie jaar. Daarnaast — dat is ook een heel belangrijk onderdeel — helpen wij de Grieken met het opzetten van het voogdijsysteem. Dat is ook gedurende een periode van minimaal drie jaar. Wij hebben er als kabinet voor gekozen om de Grieken op die manier te ondersteunen. Naar aanleiding van de brand in Moria heeft het kabinet eenmalig gekozen voor een uitzondering op het bestaande beleid. We hebben 100 kwetsbaren overgenomen. Al die 100 kwetsbaren zijn inmiddels in Nederland. De laatste shelter gaat nu open. De laatste alleenstaande minderjarigen komen in de shelter. Er is door het kabinet voldaan aan alle verplichtingen uit de afspraken die gemaakt zijn. Op deze wijze heeft het kabinet bijgedragen aan de oplossing van de problemen in Griekenland. Daarom moet ik de motie op stuk nr. 672 van de heer Van Ojik ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note79">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u25">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg31">De heer Van Ojik, kort graag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note80">De heer Van Ojik (GroenLinks)</note>
+            <u who="#BramvanOjik" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u26">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg32">Ja, een korte vraag. Het gaat mij om het volgende punt, waarover we in ander verband al vaker hebben gesproken. De staatssecretaris zegt: we werken niet mee aan ad-hocoplossingen. Door er het etiket "ad-hocoplossingen" op te plakken, heb je eigenlijk al gezegd: nee, dat willen we niet. Maar dit is helemaal geen voorstel om voor een ad-hocoplossing te kiezen. Het voorstel is juist om in Europees verband een mechanisme dat we jarenlang hebben gehad in feite nieuw leven in te blazen: het relocatiemechanisme. Nederland heeft een belangrijke bijdrage geleverd aan het succes — nou ja, het relatieve succes — daarvan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note81">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u27">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg33">Wat is uw vraag?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note82">De heer Van Ojik (GroenLinks)</note>
+            <u who="#BramvanOjik" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u28">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg34">Dit heeft eerlijk gezegd helemaal niets te maken met een ad-hocoplossing. Dit is een verzoek aan het kabinet om zich in Europees verband in te zetten voor het herplaatsen van vluchtelingen en om daarin als Nederland een fair aandeel in te nemen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note83">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u29">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg35">Ik kan de heer Van Ojik geruststellen. Nederland heeft — dat weet hij ook uit de BNC-fiches — naar aanleiding van de voorstellen van de Europese Commissie voor een nieuw migratiebeleid gezegd dat het belangrijk is dat verantwoordelijkheid voor het asielbeleid hand in hand moet gaan met solidariteit. Daar spreken we over in Europees verband. Dat is de inzet van de Nederlandse regering.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note84">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u30">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg36">Ik zie u staan, mevrouw Van Toorenburg, maar dit is een motie van de heer Van Ojik. U bent het ermee eens? Nee? En dat wilt u laten weten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note85">Mevrouw Van Toorenburg (CDA)</note>
+            <u who="#MadeleinevanToorenburg" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u31">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg37">Voorzitter, ik ga ook nu toch maar over mijn eigen woorden. Ik wil graag van de staatssecretaris het volgende weten. Er is een afspraak gemaakt met de staatssecretaris voor een totaalpakket. Dat betekende: 100 mensen naar Nederland, voogdijprogramma en shelters. Wat zou het eigenlijk betekenen als deze afspraak vanuit de Kamer terzijde wordt geschoven? Kan de staatssecretaris dan überhaupt nog doorgaan met het voogdijprogramma en de shelters? Of wordt dat dan ook ingewikkeld, gelet op de afspraken die we hadden gemaakt?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note86">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u32">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg38">Ik begrijp de vraag van mevrouw Van Toorenburg. Maar ik moet u wel zeggen dat wij die afspraken hebben gemaakt, ook met de Griekse regering. Ik sta voor mijn woord. Ik vind dat de Nederlandse regering ook voor haar woord moet staan. Die afspraak is gemaakt met de Griekse regering. Die heeft er echt heel positief op gereageerd. Het is ongelofelijk belangrijk dat we een bijdrage leveren aan het voogdijbeleid in Griekenland. Dat gaat ook goed. Zelfs in deze covidperiode wordt daar hard aan gewerkt. Dat gebeurt natuurlijk via digitale middelen, zoals mevrouw Van Toorenburg heel goed begrijpt. Maar natuurlijk kom ik op die afspraak niet terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note87">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u33">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg39">Uw laatste opmerking, meneer Van Ojik, en dan gaan we verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note88">De heer Van Ojik (GroenLinks)</note>
+            <u who="#BramvanOjik" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u34">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg40">Nog heel even. Ik wil het antwoord van de staatssecretaris aan mevrouw Van Toorenburg graag onderstrepen. Zij vraagt wat dat voor consequenties heeft en dan antwoordt de staatssecretaris: geen enkele.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note89">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u35">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg41">Dan heeft u dat ook …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note90">De heer Van Ojik (GroenLinks)</note>
+            <u who="#BramvanOjik" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u36">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg42">Dus het staat haar vrij om voor deze motie te stemmen zonder dat de andere afspraken in gevaar komen. Dat is wat de staatssecretaris zojuist heeft gezegd ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note91">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u37">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg43">Dat is een boodschap aan mevrouw Van Toorenburg?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note92">De heer Van Ojik (GroenLinks)</note>
+            <u who="#BramvanOjik" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u38">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg44">… en daar ben ik blij mee.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note93">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u39">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg45">Oké.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note94">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u40">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg46">Mag ik dan even de heer Van Ojik corrigeren, voorzitter?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note95">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u41">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg47">O.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note96">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u42">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg48">Ik heb gezegd tegen de heer Van Ojik dat ik mijn afspraken met de Griekse regering nakom. Dat is iets anders dan wat de heer Van Ojik nu zegt. Ik begrijp de heer Van Ojik zo dat de afspraken van Griekenland over de shelters en het voogdijprogramma inclusief de 100 zijn, en dat als deze Kamer zou stemmen voor 500 mensen uit Moria dat dan allemaal blijft staan. Nee, ik houd mij aan de afspraken met de Grieken. Dat is het antwoord geweest aan mevrouw Van Toorenburg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note97">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u43">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg49">Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note98">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u44">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg50">Ik wil die nuance heel sterk aanbrengen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg51">Voorzitter. Dan de motie van de heer Bisschop.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note99">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u45">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg52">En op de motie op stuk nr. 673 wilt u nog …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note100">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u46">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg53">Nee, die heb ik allebei ontraden, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note101">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u47">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg54">Dat weet ik. Ik heb het tegen de heer Van Ojik. Maar iedereen is een beetje overgevoelig, zie ik.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note102">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u48">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg55">Pardon.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note103">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u49">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg56">Ik begrijp dat u toch hoofdelijk wilt stemmen over deze motie, meneer Van Ojik. Oké, dan weten jullie dat allemaal. Volgende week, hè. Over de tweede motie. Die nummer 672 heeft gekregen. Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note104">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u50">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg57">Voorzitter. Dan de eerste motie van de heer Bisschop. Die gaat met name over de Terugkeerrichtlijn. Ik moet deze motie helaas ontraden, meneer Bisschop. Want het kabinet is geen voorstander van de pakketbenadering; we moeten de zaak wel in samenhang bekijken. Daarom steunen we de motie-Becker/Van Toorenburg. Terugkeer is enorm belangrijk, want zonder terugkeer wordt de bodem onder een heleboel weggehaald. Dus terugkeer is evident van belang. Wat dat betreft ben ik het zeer eens met de heer Bisschop: zonder een goed terugkeerbeleid hebben we echt een groot probleem. Maar nogmaals: we hebben geen pakketbenadering; we doen het wel in samenhang. Vandaar de steun aan de motie-Becker/Van Toorenburg. Maar de heer Bisschop kan ervan verzekerd zijn dat we terugkeer ook echt heel, heel belangrijk vinden. Want nogmaals: anders werkt het niet goed. Als je geen goed terugkeerbeleid hebt, kan het niet goed werken. Maar ik moet deze motie toch ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg58">Dan de tweede motie van de heer Bisschop. Daarover moet ik helaas het volgende zeggen. De motie van de heer Bisschop praat over het herplaatsen van "migranten". Dat gaat een stap verder dan asielzoekers. Alleen al om die reden moet ik de motie van de heer Bisschop ontraden. Ik heb net uitgelegd welke stappen we ondernemen en hebben ondernomen als Nederland. Dus als de heer Bisschop spreekt over "migranten", gaan we verder dan we doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note105">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u51">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg59">Helder. Meneer Bisschop.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note106">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u52">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg60">Ik heb het goed gehoord. De staatssecretaris zegt dat dat de enige reden is om de motie te ontraden. Ik verander "migranten" in "asielzoekers". Dan kan de motie dus een positief advies krijgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note107">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u53">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg61">Nee, dat is … Ik begrijp de heer Bisschop in dezen. Ik dacht: ik zeg dat het in ieder geval wat betreft dat woord niet klopt. Ik verwachtte al dat de heer Bisschop "migranten" in "asielzoekers" zou veranderen. Maar de heer Bisschop verzoekt de regering om te kijken naar mogelijkheden in EU-verband tot een collectieve Europese actie waarbij verdergaand ingrijpen mogelijk is indien de prestaties van Griekenland tekort blijven schieten en daarbij te bezien welke rol Frontex en de taskforce van de Europese Commissie hierin kunnen vervullen. Dat doen we. We dringen er voortdurend op aan om te zorgen dat de taskforce die bezig is vanwege de Europese Unie goed zijn werk doet. Daar wordt dus hard aan gewerkt. Maar de heer Bisschop refereert aan een eerder idee, de Achillesgedachte, al eerder geopperd door de heer Bisschop. Dat is iets wat naar onze opvatting niet aan de orde is. Daar is geen aanleiding voor.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note108">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u54">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg62">De heer Bisschop, kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note109">De heer Bisschop (SGP)</note>
+            <u who="#RoelofBisschop" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u55">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg63">Ik heb bewust niet over die operatie Achilles gesproken. Inhoudelijk komen die goed opererende Frontex en die taskforce plus extra inspanning van eventueel de Nederlandse overheid aardig in de richting. Daarom was mijn voorstel toch — ik meen dat wel serieus — om de eerste keer dat in het dictum staat "migranten", dat woord te vervangen door "asielzoekers". Het gaat er dus om die te herplaatsen naar het Griekse vasteland, de asielaanvragen te beoordelen en afgewezen migranten uit te zetten naar veilige gebieden. Dan is dat toch precies ondersteuning van het beleid?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note110">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u56">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg64">Het is staand beleid van de Grieken om zo veel mogelijk kwetsbare asielzoekers naar het vasteland te brengen. Dat is staand beleid. Daar werkt Griekenland aan samen met de Europese Commissie, het EASO, Frontex en de UNHCR. Dat is staand beleid, maar dat is toch iets anders dan zoals de heer Bisschop het geformuleerd heeft in zijn motie. Dus op dit moment zie ik geen aanleiding om daar verder de stappen voor te ondernemen. Om die reden moet ik toch de motie ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note111">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u57">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg65">Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note112">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u58">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg66">Dan kom ik op de laatste motie. Dat is de motie-Voordewind c.s. op stuk nr. 676. De motie valt eigenlijk in twee delen uiteen. Deel 1a gaat over geld en deel 1b gaat over het naar het vasteland brengen van de meest kwetsbare vluchtelingen. Laat ik het eerst hebben over het eerste deel van de motie van de heer Voordewind, deel 1a. Dat is een vraag om humanitaire noodhulp. Die humanitaire noodhulp ligt bij de minister voor BuHa-OS, mevrouw Kaag. Daar wil ik toch heel duidelijk een onderscheid in maken. Ik ga over migratie en mevrouw Kaag gaat over humanitaire noodhulp. Ik denk dus dat de aangewezen weg is dat het punt van meer financiën besproken wordt met mevrouw Kaag.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg67">Maar ik wil toch ook nog eventjes goed duidelijk maken hoe het met de financiën zit. JenV, mijn departement, heeft €300.000 aan goederen besteed. BuHa-OS heeft €200.000 besteed aan mental health and psychosocial support via het internationale Rode Kruis. BuHa-OS heeft een hospitainer ter beschikking gesteld. BuHa-OS heeft 1 miljoen ter beschikking gesteld naar aanleiding van de brand, via UNICEF en ook weer het internationale Rode Kruis. BuHa-OS heeft €500.000 toegezegd aan het Rode Kruis. In de brief van 14 januari jongstleden van mevrouw Kaag, de minister voor BuHa-OS, is €750.000 toegezegd. Mijn ministerie heeft over een periode van drie jaar 4 miljoen voor het samenwerkingsverband voor de alleenstaande minderjarigen en de voogdijvoorziening ter beschikking gesteld. Daarnaast — dat wil ik toch ook nog wel even onderstrepen — heeft de Europese Unie 3,2 miljard toegekend. Maar de Kamer is recent door mevrouw Kaag geïnformeerd over de inzet voor 2020-2021 met de brief van 14 januari. Het ligt bij de minister voor BuHa-OS, dus om die reden moet ik het eerste deel, 1a, ontraden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg68">Onderdeel 1b vraagt de regering om de meest kwetsbare vluchtelingen zo snel mogelijk over te brengen naar het Griekse vasteland en toestemming te verlenen enzovoorts. Dat is staand beleid. Ik doe dat voortdurend, aan de lopende band. Wanneer het maar mogelijk is, breng ik dat naar voren. Daar wordt ook heel hard aan gewerkt ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note113">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u59">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg69">Mevrouw Van Brenk, kom eens hier met uw telefoon! Gauw, rennen, naar buiten! Of inleveren.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg70">Gaat u afronden, staatssecretaris?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note114">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:inter" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u60">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg71">... niet alleen door de Grieken zelf, maar ook door de Commissie, het EASO enzovoorts. En ik breng dat voortdurend op. Dus ontraden, voorzitter, de hele motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note115">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u61">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg72">Oké, dat is helder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note116">De heer Voordewind (ChristenUnie)</note>
+            <u who="#JoëlVoordewind" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u62">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg73">Ja. Niet de halve, maar de hele motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note117">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u63">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg74">Ja, 1a en 1b. Ik heb 'm in 1a en 1b verdeeld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note118">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u64">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg75">Ja, maar we stemmen over de hele motie. Meneer Voordewind, gaat u de motie in tweeën knippen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note119">De heer Voordewind (ChristenUnie)</note>
+            <u who="#JoëlVoordewind" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u65">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg76">Nee hoor, voorzitter. Ik hou van eenheid, dus we gaan 'm straks gewoon in stemming brengen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note120">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u66">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg77">Goed.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note121">De heer Voordewind (ChristenUnie)</note>
+            <u who="#JoëlVoordewind" ana="#regular topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u67">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg78">Maar even een punt, want misschien weet de staatssecretaris dat niet. Er zijn aardig wat statushouders op de Griekse eilanden die daar nog maanden moeten blijven zitten terwijl ze een status hebben. Wil de staatssecretaris toezeggen om dat punt extra onder de aandacht te brengen? Want ze zitten daar nog steeds.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note122">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u68">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg79">Ik zal er aandacht aan besteden. Dat wil ik de heer Voordewind toezeggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note123">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u69">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg80">Dank.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note124">Staatssecretaris Broekers-Knol</note>
+            <u who="#AnkieBroekers-Knol" ana="#guest topic:immig" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u70">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg81">Wij hebben nu wel 100 statushouders in Nederland gekregen. Dat is op zich al winst ten opzichte van het negatieve punt dat u naar voren had willen brengen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg82">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note125">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u71">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg83">Dank u wel. Dan zijn we hiermee aan het einde gekomen van dit VSO.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note126">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note127">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.u72">
+               <seg xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.seg84">Ik dank de staatssecretaris. Ik schors voor enkele ogenblikken totdat wij een stemmingslijst hebben, en dan gaan we stemmen. Ze moeten ook bij ons even de administratie op orde brengen, want anders gaan we verkeerd stemmen. Ik schors voor maximaal tien minuten.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-01-27-tweedekamer-5.note128">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

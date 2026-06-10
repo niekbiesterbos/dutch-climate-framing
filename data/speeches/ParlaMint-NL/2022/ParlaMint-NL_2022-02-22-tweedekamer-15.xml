@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2022-02-22 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2022-02-22 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 53, Session 15 (2022-02-22)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 53, Session 15 (2022-02-22)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="53" xml:lang="en">Meeting 53</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="15" xml:lang="en">Session 15</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.30" corresp="#TK" n="30-lower" xml:lang="en">Meeting of the 30th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2022-02-22">Sitting 2022-02-22</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="141">141 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="141">141 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="9447">9,447 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="9447">9,447 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2022-02-22">2022-02-22</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="318"/>
+               <tagUsage gi="seg" occurs="176"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="141"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2022-02-22">2022-02-22</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.head1">Hoofdlijnendebat Sociale Zaken en Werkgelegenheid</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note1">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u1">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg1">Aan de orde is het tweeminutendebat Hoofdlijnendebat Sociale Zaken en Werkgelegenheid. Het commissiedebat is gevoerd op 17 februari. Ik heet de minister van Sociale Zaken en Werkgelegenheid en de minister voor Armoedebeleid, Participatie en Pensioenen van harte welkom. Van de zijde van de Kamer hebben zich elf sprekers gemeld. Als eerste geef ik het woord aan de heer Van Kent namens de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note2">De heer Van Kent (SP)</note>
+            <u who="#BartvanKent" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u2">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg2">Dank, voorzitter. Vandaag nam de Eerste Kamer een motie aan om de koppeling van de AOW aan het minimumloon in stand te houden. Nu is de Tweede Kamer aan de beurt. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note6">constaterende dat massale maatschappelijke verontwaardiging en protest is uitgebroken naar aanleiding van het voornemen om een al 40 jaar bestaande vorm van solidariteit te verscheuren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note7">verzoekt de regering gepensioneerden en toekomstig gepensioneerden nu zekerheid te bieden door de koppeling met de AOW in stand te houden voor elke verhoging van het minimumloon,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note8">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note9">Deze motie is voorgesteld door het lid Van Kent.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note10">Zij krijgt nr. kst-35925-XV-89</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note11">De heer Van Kent (SP)</note>
+            <u who="#BartvanKent" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u3">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg3">Voorzitter. Dan het debat over armoede onder kinderen. Het kabinet heeft de ambitie om die te halveren. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note12">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note13">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note14">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note15">constaterende dat honderdduizenden kinderen in armoede opgroeien;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note16">constaterende dat deze regering de ambitie heeft dit fundamentele onrecht en deze oorzaak van ongelijkheid in onze samenleving te halveren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note17">spreekt uit dat geen kind in armoede zou moeten opgroeien;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note18">verzoekt de regering dit als doelstelling te hanteren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note19">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note20">Deze motie is voorgesteld door het lid Van Kent.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note21">Zij krijgt nr. kst-35925-XV-90</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note22">De heer Van Kent (SP)</note>
+            <u who="#BartvanKent" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u4">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg4">Dan een ingewikkelde kwestie over het UWV.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note23">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note24">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note25">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note26">constaterende dat uitkeringsgerechtigden soms ook de loonheffing moeten terugbetalen terwijl zij van de uitkeringsinstantie een netto-uitkering hebben ontvangen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note27">verzoekt de regering zich maximaal in te spannen om voor de zomer te komen tot een voorstel aan de Kamer waardoor uitkeringsgerechtigden in alle gevallen alleen de netto-uitkering hoeven terug te betalen en dus geen financieel nadeel ondervinden van de betalings- en terugvorderingssystematiek van de uitkeringsinstantie,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note28">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note29">Deze motie is voorgesteld door het lid Van Kent.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note30">Zij krijgt nr. kst-35925-XV-91</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note31">De heer Van Kent (SP)</note>
+            <u who="#BartvanKent" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u5">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg5">Voorzitter. Tot slot een motie die de regering opdraagt om ervoor te zorgen dat pensioenen weer geïndexeerd kunnen worden en weer meestijgen met de prijzen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note32">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note33">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note34">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note35">constaterende dat bijna alle pensioenuitkeringen al meer dan veertien jaar niet zijn gestegen, terwijl de prijzen en huren wel sterk zijn toegenomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note36">overwegende dat er meer dan genoeg geld in kas is om verantwoord te indexeren en slechts foutieve rekenregels dit onmogelijk maken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note37">verzoekt de regering die rekenregels aan te passen en zo indexatie mogelijk te maken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note38">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note39">Deze motie is voorgesteld door het lid Van Kent.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note40">Zij krijgt nr. kst-35925-XV-92</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note41">De heer Van Kent (SP)</note>
+            <u who="#BartvanKent" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u6">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg6">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note42">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u7">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg7">Dank u wel. Dan geef ik het woord aan de heer Van Baarle namens DENK.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note43">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u8">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg8">Voorzitter, dank u wel. Het grootste probleem waar Nederlanders op dit moment tegenaan lopen, is de enorme inflatie. Ik noem de torenhoge prijzen, de huren en de brandstofprijzen. Mensen bloeden hierdoor gewoon letterlijk financieel dood. Het viel mij tijdens het commissiedebat op dat de regering op de vraag wanneer er een plan komt om dat voor mensen te herstellen, eigenlijk totaal geen termijn kon aangeven. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note44">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note45">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note46">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note47">constaterende dat de inflatie een recordhoogte heeft bereikt en dat de prijzen van boodschappen, brandstof en de energierekening een enorme druk leggen op de koopkracht van mensen in het land;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note48">overwegende dat binnenkort de nieuwe doorrekening van het CPB beschikbaar komt, naar aanleiding waarvan de regering voornemens is ten behoeve van de Voorjaarsnota met voorstellen ten aanzien van onder andere de koopkracht te komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note49">van mening dat de Kamer, gezien het belang van het onderwerp, voor de verwerking van eventuele (koopkracht)voorstellen in de voorjaarsstukken, de mogelijkheid dient te krijgen om haar gedachten over het voorgestelde beleid mee te geven;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note50">verzoekt de regering om uiterlijk een maand voordat de voorjaarsstukken beschikbaar komen voor de Kamer, met een voorstel te komen waarin uiteen wordt gezet met welke koopkrachtvoorstellen de regering komt en hoe die samenhangen met overige belasting- en inkomensmaatregelen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note51">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note52">Deze motie is voorgesteld door het lid Van Baarle.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note53">Zij krijgt nr. kst-35925-XV-93</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note54">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:civil" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u9">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg9">Voorzitter. Een ander punt dat DENK naar voren heeft gebracht tijdens het commissiedebat, is het thema "kansengelijkheid". Kansengelijkheid is iets wat we moeten creëren door langs verschillende sferen — de arbeidsmarkt, de woningmarkt maar ook de bestrijding van discriminatie — maatregelen te nemen met elkaar. Dat kan alleen als we dat interdepartementaal organiseren. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note55">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note56">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note57">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note58">constaterende dat kansenongelijkheid een fenomeen is dat in stand gehouden en gecreëerd wordt langs verschillende elkaar versterkende factoren, zoals de arbeidsmarkt, het onderwijssysteem, de woningmarkt en uitsluiting;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note59">overwegende dat het regeerakkoord van de ambitie spreekt om de kansengelijkheid in Nederland te vergroten;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note60">van mening dat alleen het in samenhang naar alle acties kijken ervoor zorgt dat de kansengelijkheid in Nederland daadwerkelijk wordt vergroot;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note61">verzoekt de regering om interdepartementaal de samenhang te bewaken in de aanpak om tot kansengelijkheid te komen, en tevens hierbij indicatoren te gebruiken waarmee de kansengelijkheid in de tijd kan worden gevolgd,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note62">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note63">Deze motie is voorgesteld door het lid Van Baarle.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note64">Zij krijgt nr. kst-35925-XV-94</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note65">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u10">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg10">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note66">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u11">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg11">Dank u wel. Dan is het woord aan de heer Nijboer van de Partij van de Arbeid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note67">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u12">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg12">Dank u wel, voorzitter. De minister voor Armoedebeleid, Participatie en Pensioenen was tien minuten aan het woord bij het commissiedebat. Voor elke minuut hebben wij een motie voorbereid om op te reageren. Daar heeft ze vandaag meer tijd voor.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg13">Voorzitter. Ik heb een motie over de energietoeslag. De gemeenten zitten te springen om mensen te compenseren, omdat mensen met de handen in het haar zitten en aan het eind van de maand niet rondkomen. Ik wil dat dat geld zo snel mogelijk bij de mensen terechtkomt, want ze zitten nu gewoon met de handen in het haar.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note68">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note69">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note70">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note71">constaterende dat de kosten voor gas en elektriciteit explosief zijn gestegen en de beloofde compensatie voor lage inkomens nog steeds niet is uitgekeerd;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note72">verzoekt de regering ervoor te zorgen dat de energiecompensatie voor 1 april op de rekening van mensen staat,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note73">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note74">Deze motie is voorgesteld door de leden Nijboer en Maatoug.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note75">Zij krijgt nr. kst-35925-XV-95</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note76">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u13">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg14">Als de wet hier niet op tijd klaar is, moeten de gemeenten het gewoon zelf kunnen doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg15">Voorzitter, de tweede en laatste motie. Ik heb veel aandacht gevraagd voor het economisch herstel. De werkloosheid lijkt heel laag te worden en de economie groeit. Er staan nog mensen langs de kant. Ik wil echt dat deze kans wordt benut om iedereen die dat wil, aan het werk te krijgen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note77">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note78">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note79">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note80">constaterende dat er enorm veel vacatures zijn, terwijl veel mensen langs de kant staan en zij dolgraag willen werken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note81">overwegende dat de voorziene werkloosheid laag en de economische groei hoog is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note82">verzoekt de regering met een nationaal actieplan te komen om mensen die nu langs de kant staan aan duurzaam en fatsoenlijk betaald werk te helpen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note83">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note84">Deze motie is voorgesteld door het lid Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note85">Zij krijgt nr. kst-35925-XV-96</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note86">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u14">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg16">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note87">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u15">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg17">Dank u wel. Dan is het woord aan mevrouw Maatoug van GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note88">Mevrouw Maatoug (GroenLinks)</note>
+            <u who="#SennaMaatoug" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u16">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg18">Voorzitter. De formatie is voorbij. Met z'n allen hebben we behoefte aan dadendrang en ook aan de juiste daden. We hadden een mooi debat, maar mijn collega Nijboer zei het al: we hadden veel te weinig tijd voor alle dingen die op de agenda staan en op het bord van het kabinet liggen, niet alleen om ze te bespreken en erop te reflecteren, maar ook om er samen beslissingen over te nemen. Ik denk dat we de aankomende weken hard aan de bak moeten. De Kamer staat daar in ieder geval klaar voor.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg19">Voorzitter. Voor nu heb ik één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note89">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note90">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note91">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note92">constaterende dat de lonen onvoldoende mee zijn gestegen met de welvaart;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note93">constaterende dat er op dit moment sprake is van enorme inflatie waardoor de koopkracht achterblijft;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note94">van mening dat er zo snel mogelijk iets moet gebeuren om ervoor te zorgen dat mensen niet verder in armoede geraken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note95">verzoekt de regering de verhoging van het minimumloon versneld door te voeren en dit in ieder geval niet af te laten hangen van de voorgenomen vereenvoudiging van de huurtoeslag,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note96">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note97">Deze motie is voorgesteld door de leden Maatoug en Nijboer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note98">Zij krijgt nr. kst-35925-XV-97</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note99">Dank u wel. Dan is het woord aan mevrouw Den Haan.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note100">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u17">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg20">Dank u wel, voorzitter. Dank aan de bewindspersonen voor het prettige, inhoudelijke hoofdlijnendebat. Het had wat mij betreft inderdaad nog uren kunnen duren, maar de tijd was er niet. Dat gaan we vast later doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg21">Ik heb twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note101">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note102">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note103">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note104">overwegende dat beeldvorming het voor oudere werkzoekenden nog vaak moeilijk maakt om weer aan een baan te komen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note105">overwegende dat diversiteit op de werkvloer van belang is en de ervaring van oudere werknemers net zo veel waarde toevoegt als de frisse input van jongere collega's;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note106">constaterende dat werkgevers ten onrechte het beeld hebben dat oudere werknemers zich onder andere vaker ziekmelden én minder flexibel en productief zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note107">constaterende dat uit onderzoek juist blijkt dat in teams waarin ouderen en jongeren samenwerken de werkprestaties verhogen en het ziekteverzuim afneemt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note108">verzoekt de regering om met acties te komen waarbij bewustwording van de waarde van oudere werknemers aan de werkgeverskant gestimuleerd wordt en zo de beeldvorming met betrekking tot oudere werknemers bij te stellen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note109">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note110">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note111">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note112">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note113">constaterende dat binnenkort het wetsvoorstel Toekomst pensioenen naar de Kamer komt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note114">overwegende dat er veel versnipperde en vaak ook niet feitelijk juiste informatie over pensioenen wordt verspreid en dit zorgt voor grote ongerustheid bij gepensioneerden, maar ook bij werkenden en jongeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note115">overwegende dat in het huidige voorstel de rechtsgang voor het individu sterk wordt beperkt, hetgeen ook het vertrouwen van de burger sterk ondermijnt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note116">constaterende dat het Sociaal en Cultureel Planbureau in de reflectie op het coalitieakkoord aangeeft dat er meer aandacht nodig is voor de invloed en de stem van burgers;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note117">verzoekt de regering om in de communicatie specifiek aandacht te geven aan het raadgevend meenemen van burgers in het besluitvormingsproces en daarbij laagdrempelige informatie te verstrekken over de nieuwe pensioenwet,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note118">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note119">Deze motie is voorgesteld door het lid Den Haan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note120">Zij krijgt nr. kst-35925-XV-98</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note121">Deze motie is voorgesteld door het lid Den Haan.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note122">Zij krijgt nr. kst-35925-XV-99</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note123">Mevrouw Den Haan (Fractie Den Haan)</note>
+            <u who="#LianedenHaan" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u18">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg22">Ik miste nog twee toezeggingen in het lijstje van toezeggingen. De eerste is dat de minister van Sociale Zaken heeft aangegeven dat er inderdaad wordt ingezet op kansengelijkheid van senioren op de arbeidsmarkt. De tweede toezegging die ik miste, is dat minister Schouten heeft aangegeven te zullen kijken naar de inzet van suïcidepreventiemodules bij de schuldhulpverlening voor ouderen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg23">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note124">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u19">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg24">Dank u wel. Dan geef ik het woord aan de heer De Jong, die zal spreken namens de PVV.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note125">De heer Léon de Jong (PVV)</note>
+            <u who="#LeondeJong" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u20">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg25">Voorzitter, hartelijk dank. De mensen gaan gebukt onder de enorme inflatie. Ze kunnen vaak hun boodschappen niet meer betalen. Ze kunnen niet meer normaal tanken. Dat is zo ongeveer een luxe geworden. De mensen moeten nu puzzelen hoe ze het gaan redden. Wat krijgen we dan? Dan krijgen we een minister voor Armoedebeleid. Dat is toch eigenlijk om je kapot voor te schamen in een welvarend land als Nederland, zeker als je ziet dat de economie gewoon groeit? Dat is een totaal verkeerde instelling. Het zou anders moeten, en daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note126">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note127">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note128">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note129">overwegende dat door de extreem hoge inflatie de eerder beloofde koopkracht is verdampt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note130">overwegende dat met het uitblijven van echte koopkrachtverbeteringen miljoenen Nederlanders wederom keihard in de min komen en daardoor nog moeilijker of zelfs helemaal niet meer kunnen rondkomen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note131">overwegende dat een koopkrachtherstelpakket keihard nodig is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note132">overwegende dat een "minister voor armoedebeleid" in een welvarend land als Nederland onnodig zou moeten zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note133">verzoekt de regering de aanduiding "minister voor armoedebeleid" te veranderen in de "minister voor koopkracht" en als eerste maatregel te komen met een koopkrachtherstelpakket om zo de grote negatieve financiële gevolgen van de stijgende inflatie voor burgers te compenseren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note134">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note135">Deze motie is voorgesteld door het lid Léon de Jong.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note136">Zij krijgt nr. kst-35925-XV-100</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note137">De heer Léon de Jong (PVV)</note>
+            <u who="#LeondeJong" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u21">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg26">Voorzitter. Dan een volgende motie. In de Eerste Kamer is een PVV-motie aangenomen om de verschrikkelijke ontkoppeling van de AOW en de stijging van het wettelijk minimumloon van tafel te krijgen. Dat zou ook hier zo moeten zijn. Ook indexeren is nodig, dus daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note138">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note139">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note140">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note141">verzoekt de regering de voorgenomen ontkoppeling van de AOW met de stijging van het wettelijk minimumloon per direct van tafel te halen en tevens alles in het werk te stellen pensioenindexatie in 2022 voor alle gepensioneerden en pensioendeelnemers te laten plaatsvinden,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note142">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note143">Deze motie is voorgesteld door het lid Léon de Jong.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note144">Zij krijgt nr. kst-35925-XV-101</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note145">De heer Léon de Jong (PVV)</note>
+            <u who="#LeondeJong" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u22">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg27">Dan mijn laatste motie, wederom een koopkrachtmotie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note146">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note147">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note148">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note149">verzoekt de regering de verhoging van de btw op boodschappen terug te draaien, de huren te verlagen en het eigen risico af te schaffen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note150">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note151">Deze motie is voorgesteld door het lid Léon de Jong.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note152">Zij krijgt nr. kst-35925-XV-102</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note153">Er is een korte interruptie van de heer Van Baarle. Gaat uw gang.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note154">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u23">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg28">Over de eerste motie van de heer De Jong. We zijn het erover eens dat er een koopkrachtherstelplan moet komen. Dat wil de hele oppositie, maar de coalitie schuift het steeds maar voor zich uit. Op het andere punt, namelijk dat we een minister voor armoedebestrijding hebben, deel ik de mening dat het ongemakkelijk is dat dit nodig is, maar het is wel nodig dat we voor dat hele grote probleem een minister hebben die zich daar specifiek mee bezighoudt. De heer De Jong zegt: schaf die minister af; dat gaan we niet meer doen. Dan zijn al die kinderen in armoede daar toch de dupe van?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note155">De heer Léon de Jong (PVV)</note>
+            <u who="#LeondeJong" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u24">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg29">Nee, dat is niet wat ik zeg. Dat weet de heer Van Baarle ook, want hij was ook bij het commissiedebat. Hij zat naast me en heeft heel aandachtig naar mijn inbreng geluisterd. Dat weet ik; ik zie hem ook lachen, dus het is waar. Wat wij hebben gezegd, is: er is armoede in Nederland, en dat is een grof schandaal. Dat we een minister voor armoede hebben, is om je kapot te schamen. Wat wij willen, is niet dat we stoppen met armoedebeleid. Wij willen dat we ons gaan richten op de kortst mogelijke route om uit de armoede te komen. Dat is door verbetering van inkomen en verbetering van koopkracht. Deze minister zat aan de onderhandelingstafel, maar heeft niet gezegd: laat mij die minister van koopkracht zijn, om mensen uit de armoede te helpen. Nee, zij heeft gezegd: laat mij minister voor Armoedebeleid zijn. Daarmee komt er een totaal verkeerde instelling naar voren, namelijk: we hebben nou eenmaal te maken met armoede, that's it. Dat betekent ook dat de mensen op de blaren moeten blijven zitten. We hebben in september al gesproken over de inflatie. In november hebben we gesproken over de inflatie. In december hebben we gesproken over de inflatie en vastgesteld dat de mensen het niet meer redden. Dat zijn vijf maanden. De komende maanden moeten we nog steeds wachten op goede compensatie. Er is nog helemaal geen compensatie. Dat bedoel ik met instelling. Als je minister van armoede bent, dan voel je niet de incentive om er echt iets aan te doen. Anders was je wel minister van koopkrachtbeleid geweest.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg30">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note156">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u25">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg31">Dank u. Ik geef het woord aan de heer Stoffer van de SGP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note157">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u26">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg32">Dank u wel, voorzitter. Het gezin is de ruggengraat van de samenleving. Investeren in het gezin van nu is investeren in de samenleving van de toekomst. Vandaar de volgende twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note158">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note159">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note160">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note161">constaterende dat het kabinet, conform het coalitieakkoord, van plan is de lasten te verlichten voor met name lage en middeninkomens, werkenden en gezinnen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note162">overwegende dat de Tweede Kamer door middel van het aannemen van de motie-Van der Staaij/Omtzigt (Kamerstuk 35925, nr. 79) heeft uitgesproken dat de kloof in belastingdruk tussen een- en tweeverdieners verkleind dient te worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note163">verzoekt de regering bij de uitwerking van de voorgenomen lastenverlichting expliciet aan te geven hoe opvolging is gegeven aan genoemde motie, waardoor de kloof tussen een- en tweeverdieners verkleind wordt,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note164">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note165">Deze motie is voorgesteld door de leden Stoffer, Omtzigt en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note166">Zij krijgt nr. kst-35925-XV-103</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note167">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u27">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg33">De tweede motie luidt als volgt.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note168">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note169">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note170">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note171">overwegende dat het Sociaal en Cultureel Planbureau adviseert bij de uitwerking van arbeidsmarkthervormingen verschillende vormen van maatschappelijke participatie te betrekken, omdat "betaald werk niet de enige manier is van meedoen aan de samenleving";</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note172">verzoekt de regering bij de uitwerking van de arbeidsmarkthervormingen de verschillende vormen van maatschappelijke participatie mee te nemen en uit te werken, en daarbij expliciet de waarde en de positie van het gezin te betrekken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note173">verzoekt de regering tevens de uitwerking hiervan met de hoofdlijnenbrief over breed arbeidsmarktbeleid toe te sturen aan de Kamer, zodat de Kamer deze kan betrekken bij de behandeling van de voorgestelde arbeidsmarkthervormingen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note174">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note175">Deze motie is voorgesteld door de leden Stoffer, Omtzigt en Van der Plas.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note176">Zij krijgt nr. kst-35925-XV-104</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note177">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u28">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg34">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note178">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u29">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg35">Dank u wel. De volgende spreker op de lijst die ook spreektijd heeft aangevraagd, is mevrouw Palland van het CDA.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note179">Mevrouw Palland (CDA)</note>
+            <u who="#HildePalland" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u30">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg36">Voorzitter, dank u wel. Allereerst ook van mijn kant dank aan de bewindspersonen voor het hoofdlijnendebat. Een groot deel van de vragen is beantwoord, maar heel veel van de onderwerpen die in het hoofdlijnendebat zijn aangeraakt, zullen ook in de komende commissiedebatten uitvoeriger aan de orde komen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg37">Dank ook voor de toezegging om aan de slag te gaan met het slechten van drempels voor zzp'ers om door te groeien naar mkb'ers en werkgevers. En goed dat u aandacht wilt hebben voor de WIA 35-min naar aanleiding van de motie-Van Kent/Palland, en voor het oppakken van het gezinsbeleid. En het is ook goed dat u wilt kijken naar de uitvoering van de regeling voor deeltijd-WW.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg38">Voorzitter. Ik wil nog twee punten namens de CDA-fractie inbrengen. Er zijn grote zorgen bij veel groepen over de koopkracht. Die zijn er bij senioren, maar ook breder. Veel mensen hebben geen grip op de stijgende uitgaven. Het kabinet komt in het voorjaar met een reactie en een plan naar aanleiding van de motie-Heerma c.s. over AOW en naar aanleiding van koopkrachtplaatjes. Ik zou nu echter nog graag de volgende vraag aan de minister willen stellen. Wat gebeurt er nu, of wat kán er nu ook plaatsvinden in overleg met bijvoorbeeld de VNG? Hoe laten we de tegemoetkoming voor de energielasten ook landen bij de gemeentes? Er zijn ook diverse maatschappelijke initiatieven. Denk aan kerken die erbij willen helpen de energiecompensatie vooral te laten landen bij de gezinnen en de mensen met de laagste inkomens. Dat kán knellen met bijstandsregels. Kan de minister hier ruimte bieden?</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg39">Voorzitter, tot slot. Ondanks de grote krapte op de arbeidsmarkt zijn er nog té veel mensen die er niet tussenkomen en onvrijwillig aan de kant staan. Deze week spreken we ook over de participatie door. Maar ik wil hier het punt benoemen van 50-plussers die moeite hebben om er weer tussen te komen op de arbeidsmarkt. Ook de SGP en de Fractie Den Haan spraken daarover tijdens het hoofdlijnencommissiedebat, en ik hoorde mevrouw Den Haan er zojuist ook over spreken. Wij hebben eerder "open hiring" genoemd. Er zijn lessen getrokken door Regioplan uit het actieplan Perspectief voor vijftigplussers. Ik wil de minister vragen om vóór het commissiedebat over arbeidsmarktbeleid met een brief te komen waarin staat hoe zij een vervolg hierop ziet, gericht op een eerlijke kans voor 50-plussers op de arbeidsmarkt.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg40">Dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note180">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u31">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg41">Dank u wel. De heer De Jong wil u nog kort interrumperen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note181">De heer Léon de Jong (PVV)</note>
+            <u who="#LeondeJong" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u32">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg42">De CDA-afgevaardigde zegt: ik maak me zorgen over de gezinnen. Ik zie vervolgens echter geen motie om de gezinnen te ontzien, maar misschien heb ik het gemist. Komt het CDA nog met een voorstel om de koopkrachtachteruitgang in 2022 en 2021 voor het einde van het jaar 2022 te herstellen? Want de mensen redden het echt niet meer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note182">Mevrouw Palland (CDA)</note>
+            <u who="#HildePalland" ana="#regular topic:energ" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u33">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg43">Nee, dat is helder. Wij hebben daar tijdens het hoofdlijnendebat ook met elkaar over van gedachten gewisseld. En wij hebben daarover ook al moties ingediend. Die plannen worden nu ook gemaakt. En daarnaast is de motie-Van Dijk en collega's aangenomen over de stijging van de energielasten. De vraag aan minister Schouten is hoe we die motie zo snel mogelijk kunnen laten landen, zodat het geld daaruit daadwerkelijk in de portemonnees van de diverse gezinnen komt, ter tegemoetkoming voor de stijgende energielasten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note183">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u34">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg44">Een heel korte, afrondende vraag, meneer De Jong.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note184">De heer Léon de Jong (PVV)</note>
+            <u who="#LeondeJong" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u35">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg45">Heel kort, voorzitter, want van dit soort gemene, walgelijke spelletjes houd ik niet zo. De minister-president heeft tijdens het debat hierover aangegeven dat hij voor de jaren 2021 en 2022 geen compensatie gaat regelen. Hij heeft gezegd dat als die compensatie er al komt, dat op z'n vroegst in 2023 zal gebeuren. Het CDA heeft geen voorstellen gedaan om wat de mensen nu overkomt, volledig te compenseren. Als het het CDA menens is, dan stemt die partij volgende week, of wanneer de stemming daarover ook gaat plaatsvinden, voor de PVV-motie waarin wordt gevraagd om die volledige compensatie voor elkaar te krijgen. En doet u dat niet, dan staat u niet alleen maar hier te jokkebrokken, maar laat u ook die gezinnen keihard in de steek. Het zou u toch sieren als u dat niet zou laten gebeuren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note185">Mevrouw Palland (CDA)</note>
+            <u who="#HildePalland" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u36">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg46">Aan valse spelletjes wil ik zeker niet meedoen en ik ben ook niet van het jokkebrokken. Ik probeer hier een eerlijk verhaal te houden. Er zijn initiatieven genomen om juist mensen met een laag inkomen extra tegemoet te komen. Die plannen worden nu ook uitgewerkt. Daarin hebben we onze rol te vervullen. Of dat een volledige compensatie is, kan ik niet op voorhand garanderen. Maar mijn inzet is erop gericht om de mensen met de smalste beurs niet door het ijs te laten zakken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note186">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u37">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg47">Dank u wel. Het woord is aan de heer Ceder van de ChristenUnie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note187">De heer Ceder (ChristenUnie)</note>
+            <u who="#DonCeder" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u38">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg48">Dank u wel, voorzitter. Ik wil de minister bedanken voor het debat afgelopen week. Er moet nog heel veel gebeuren. Er zijn nog vele uitdagingen. Ik begrijp de zorgen in deze zaal.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg49">Voorzitter. Ik was afgelopen week in Leeuwarden op werkbezoek. Ik bezocht een voedselbank. Ik had een goed gesprek. Daar kwamen twee punten naar voren. Allereerst en vooral de samenwerking tussen vrijwilligers, tussen voedselbanken en informele organisaties. Ik heb daar in een eerder debat naar gevraagd, maar volgens mij is daar nog geen antwoord op gekomen. Er werd de hoop uitgesproken dat we de komende periode echt stappen kunnen zetten om deze initiatieven in hun kracht te zetten. Hoe ziet de minister voor Armoedebeleid dat en welke ruimte denkt zij te kunnen bieden om, al is het niet te faciliteren, dan vooral ook soms uit de weg te gaan? Dat kan een overheid namelijk ook doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg50">Het tweede punt. Volgens mij heeft mevrouw Palland dat net ook aangekaart en ik heb er ook in het weekend iets over gezegd. Er is een zorg uitgesproken en er is koudwatervrees over bijvoorbeeld het herverdelen van de energiecompensatie. De overheid doet al wat, maar dat zijn generieke maatregelen, zoals u weet. Er zijn initiatieven die zeggen: wij willen dat inzamelen en verdelen onder de meest kwetsbaren. Zij zijn alleen bang voor de lokale regels. Die verschillen lokaal. Volgens mij is het ook een gemeentelijke aangelegenheid en niet per se van de minister. Ik zou toch willen vragen welke ruimte de minister ziet. Misschien wil zij ook een boodschap richten tot de lokale gemeenten om ervoor te zorgen dat daar waar mensen wat willen, daar waar mensen barmhartig willen zijn en herverdeling mogelijk willen maken, zij zich niet gehinderd voelen door regels of koudwatervrees, omdat ze niet weten wat er mogelijk is.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg51">Tot zover, voorzitter. Ik wens de ministers veel succes.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note188">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u39">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg52">Dank u wel. Dan is tot slot van de kant van de Kamer het woord aan mevrouw Van Beukering-Huijbregts van D66.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note189">Mevrouw Van Beukering-Huijbregts (D66)</note>
+            <u who="#MarijkevanBeukering-Huijbregts" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u40">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg53">Voorzitter, dank u wel. Een belangrijke uitdaging voor dit kabinet is het vinden van voldoende en gekwalificeerde mensen voor de arbeidsmarkt. Daar hoort bij dat we mensen die nu drie of vier dagen werken, stimuleren om een dag extra te gaan werken, want we zullen iedereen keihard nodig hebben. Ik ben benieuwd hoe de minister dit wil realiseren. Ik heb zelf ook alvast een voorstel. Daarom de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note190">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note191">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note192">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note193">constaterende dat er in veel sectoren een groot en groeiend tekort aan arbeidskrachten is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note194">overwegende dat een half miljoen mensen met een deeltijdcontract meer uren willen werken;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note195">overwegende dat ook sociale partners zelf in cao's afspraken kunnen maken over het bevorderen van meer uren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note196">verzoekt de regering voor 1 juli duidelijkheid te bieden over de mogelijkheid tot opnemen van voltijdsbonussen in cao's om meer uren werken te bevorderen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note197">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note198">Deze motie is voorgesteld door het lid Van Beukering-Huijbregts.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note199">Zij krijgt nr. kst-35925-XV-105</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note200">Mevrouw Van Beukering-Huijbregts (D66)</note>
+            <u who="#MarijkevanBeukering-Huijbregts" ana="#regular topic:immig" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u41">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg54">Voorzitter. Tijdens het commissiedebat heb ik geen gelegenheid gehad om aan het kabinet te vragen naar de voortgang op de onvolledige opbouw AOW-ouderen van Surinaamse herkomst. Ik hoop dat het kabinet met een voorstel kan komen voor het debat dat nu gepland staat voor eind maart.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg55">Het hoofdlijnendebat was af en toe wat fragmentarisch vanwege de vele sprekers en de beperkte tijd. Toch vond ik het waardevol om alvast eens met de ministers van gedachten te wisselen. Mijn fractie kijkt uit naar de uitwerkingsbrieven en de debatten die we in de komende periode zullen voeren met elkaar.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg56">Ik heb nog één vraag die, ook omdat het omwille van de tijd wat snel moest, niet is beantwoord. Ik wil nogmaals wijzen op het belang van goede afspraken over de financiering van de onderwijsroute bij inburgeringstrajecten. Kan de minister toezeggen dat we voor de zomer duidelijkheid hierover krijgen?</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg57">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note201">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u42">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg58">Dank u wel. Er is een korte interruptie van mevrouw Palland.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note202">Mevrouw Palland (CDA)</note>
+            <u who="#HildePalland" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u43">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg59">Nog even over de motie. Mevrouw Van Beukering heeft ook de voltijdsbonus benoemd in het hoofdlijnendebat. Nu hoor ik in de motie terug: om te kijken of dat via sociale partners in cao's en dergelijke. Is de motie daartoe beperkt? Want ik kan me ook voorstellen dat we onze inzet vooral zouden moeten richten op het meer lonend laten zijn van meer uren gaan werken, gewoon in ons fiscale stelsel, even los van allerlei losse initiatieven om daar weer een aparte bonus voor te gaan regelen in ons fiscale stelsel. Laten we het simpel houden: meer uren gaan werken zou lonend moeten zijn. Is mevrouw Van Beukering dat met mij eens?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note203">Mevrouw Van Beukering-Huijbregts (D66)</note>
+            <u who="#MarijkevanBeukering-Huijbregts" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u44">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg60">Ik ben het met u eens dat meer uren werken lonend zou moeten zijn, maar wij willen met deze bonus eigenlijk ook stimuleren dat er nog meer stappen gezet gaan worden, dus dat werknemers nog meer de ruimte gaan voelen om … Want wij weten dat er in bepaalde sectoren eigenlijk meer uren gemaakt zouden kunnen worden. Die stimulering zouden wij graag met die voltijdsbonussen willen bewerkstelligen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note204">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u45">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg61">Dan had zich toch nog één spreker van de Kamer gemeld. Dat is dan echt de laatste. Dat is de heer Omtzigt. Dat kan, want de heer Omtzigt heeft ook meegedaan aan het commissiedebat, het hoofdlijnendebat.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note205">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u46">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg62">Dank, voorzitter, en ook dank voor de antwoorden van beide bewindslieden, die ik veel succes wens bij hun belangrijke taak, want er komen moeilijke tijden aan met koopkrachtverlies, armoede en veel zaken waarvoor zij medeverantwoordelijk zijn of waarbij zij voor de oplossing medeverantwoordelijk zijn. Daarover heb ik twee moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note206">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note207">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note208">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note209">verzoekt de regering de korting op de jonggehandicaptenkorting te heroverwegen en het resultaat van deze heroverweging binnen vier weken aan de Kamer te toen toekomen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note210">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note211">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note212">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note213">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note214">verzoekt de regering de gevolgen van bijna 7% inflatie op de koopkracht in kaart te brengen in samenwerking met het Nibud en voorstellen te doen tot noodzakelijke reparatie, en de Kamer daarover binnen vier weken te infomeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note215">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note216">Deze motie is voorgesteld door de leden Omtzigt en Stoffer.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note217">Zij krijgt nr. kst-35925-XV-106</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note218">Deze motie is voorgesteld door het lid Omtzigt.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note219">Zij krijgt nr. kst-35925-XV-107</note>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note220">Dank u wel. Dan is er een einde gekomen aan de termijn van de kant van de Kamer. Er zijn veel moties ingediend — negentien moties — dus wij stellen een schorsing voor van tien minuten. Wij schorsen deze vergadering tot 16.55 uur.</note>
+            <note type="time" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note221">De vergadering wordt van 16.45 uur tot 17.02 uur geschorst.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note222">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u47">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg63">We hervatten het tweeminutendebat over het hoofdlijnendebat Sociale Zaken en Werkgelegenheid. Ik geef het woord aan de minister van Sociale Zaken en Werkgelegenheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note223">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u48">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg64">Dank u wel, voorzitter. Dank aan de Kamerleden voor het interessante debat afgelopen donderdag. Daarvan zullen er ongetwijfeld nog vele volgen, want we hebben een hoop te doen. Zoals we donderdag zeiden, doen we dat graag samen met uw Kamer. Daarom hebt u ons vandaag ook weer een heleboel opdrachten meegegeven. Daar zullen we in enige sneltreinvaart doorheen gaan, maar niet zo gehaast als bij het einde van het debat van afgelopen donderdag.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg65">Allereerst kom ik op de motie-Van Kent op stuk nr. 89, over de koppeling tussen de AOW en elke verhoging van het minimumloon. U weet dat wij hard bezig zijn met de voorbereiding van de voorjaarsbesluitvorming. Dan komen wij op al deze zaken terug. Op dit moment ontraden wij deze motie dus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note224">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u49">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg66">Korte, verduidelijkende vragen over de eigen moties zijn slechts toegestaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note225">De heer Van Kent (SP)</note>
+            <u who="#BartvanKent" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u50">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg67">Veel gepensioneerden zitten al heel lang op de nullijn. Zij maken zich grote zorgen. De ogen zijn gericht op dit kabinet. Wat gaan zij doen? De Eerste Kamer heeft vandaag besloten dat de ontkoppeling van tafel moet. Wat is de invloed daarvan op het voornemen van deze minister? Zou de minister niet moeten zeggen dat deze motie de lijn ondersteunt die het kabinet gaat kiezen, gezien de situatie in de Eerste Kamer?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note226">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u51">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg68">U weet dat we de koopkrachtplaatjes op 9 maart krijgen. U weet ook — dat hebben we u donderdag toegelicht — dat we echt serieus en zorgvuldig aan het kijken zijn naar alles wat wij dit voorjaar willen doen. We komen daar spoedig bij u op terug, maar niet vandaag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note227">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u52">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg69">Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note228">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u53">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg70">Dan de motie op stuk nr. 91 van de heer Van Kent. Allereerst — dat zei ik donderdag ook al — complimenten aan u en aan de SP, want het opstellen van zo'n zwartboek is natuurlijk een heleboel werk. Maar het geeft ook weer inzicht in hoe sommige regelingen in de praktijk uitspelen voor mensen. In dit geval is het zonder meer pijnlijk. Ik wil uw motie dus oordeel Kamer geven. Daarbij wil ik nogmaals herhalen wat we donderdag zeiden. Dit zijn gewoon wrange situaties voor mensen. Daaraan moeten we wat doen. Daarvoor gaan we ons dus maximaal inspannen, zoals u ons ook oproept.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note229">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u54">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg71">De motie op stuk nr. 91 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note230">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u55">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg72">Dan kom ik bij de motie-Van Baarle op stuk nr. 93, over kansengelijkheid.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg73">Pardon, eerst kom ik op de motie over inflatie en de voorjaarsstukken. Er wordt opgeroepen om uiterlijk een maand voordat de voorjaarsstukken beschikbaar komen voor de Kamer, met een voorstel te komen waarin uiteengezet wordt met welke koopkrachtvoorstellen de regering komt. Die moet ik natuurlijk ook ontraden. Dat heb ik zojuist ook gezegd. Wij komen binnenkort echt met een aantal zaken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg74">Pardon, ik haal de twee nummers door elkaar. Dit is de motie op stuk nr. 93. Wij komen binnenkort met onze discussies en voorstellen over de koopkracht in de Voorjaarsnota.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note231">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u56">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg75">Er is een korte interruptie van de heer Van Baarle.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note232">De heer Van Baarle (DENK)</note>
+            <u who="#StephanvanBaarle" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u57">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg76">Ja. De mensen in het land smachten echt naar een plan van dit kabinet. Zij willen dat het kabinet eindelijk met een plan komt om de hoge prijzen en de inflatie te compenseren. Ik snap niet waarom de minister niet kan meegaan in wat, naar mijn mening, een hele redelijke termijn is, namelijk een maand voordat de Voorjaarsnota verschijnt. Dan kunnen we er als Kamer ook nog invloed op hebben. Mijn zorg is dat als het allemaal in de Voorjaarsnota verwerkt wordt, het besluitvormingsplaatje al gereed is en we als Kamer eigenlijk voor een voldongen feit geplaatst worden. Kan de minister daarop reflecteren?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note233">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u58">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg77">Ik begrijp dat u de hele puzzel wilt leggen, net als wij overigens. Er doen natuurlijk verschillende koopkrachtvoorstellen de ronde. U krijgt ook uitgebreid de ruimte om daarop te reflecteren. Maar ik kan u niet toezeggen dat u vier weken van tevoren informatie zult krijgen. Daarvoor is het nu gewoon te vroeg. U hoort echt inhoudelijk van ons, op redelijke termijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note234">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u59">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg78">De motie op stuk nr. 93 is ontraden. Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note235">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:civil" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u60">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg79">Dan de motie op stuk nr. 94 van de heer Van Baarle, over kansenongelijkheid. Kansenongelijkheid en kansengelijkheden zijn, denk ik, een van de meest belangrijke pijlers — daarover hebben we het in het debat donderdag gehad en het stond ook in onze brief — om ervoor te zorgen dat wij echt naar een gelijkwaardige samenleving kunnen, waarin iedereen mee kan doen. Wij zien dus graag interdepartementale samenwerking om die samenhang te bewaken. Ik laat het oordeel aan de Kamer. Ik zou daar nog iets aan toe willen voegen over het ontwerpen van indicatoren daarvoor. U weet dat ik uit het bedrijfsleven kom. Daar werden we om de oren geslagen met zogenaamde KPI's, key performance indicators. Ik zie dat als een uitdaging, want zo makkelijk zal het niet zijn om hier een indicator aan te hangen. U hebt niet alleen mijn hart gestolen met kansengelijkheid, maar mij ook een fikse opdracht meegegeven — als u de motie aanneemt, uiteraard. Een indicator ontwikkelen is een prachtige uitdaging, maar niet zo makkelijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note236">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u61">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg80">De motie-Van Baarle op stuk nr. 94 krijgt oordeel Kamer en u heeft daarmee het hart van de minister gestolen. Wat wil een mens nog meer?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note237">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:civil" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u62">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg81">Over kansengelijkheid.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note238">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:civil" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u63">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg82">Over kansengelijkheid; dat is een terechte toevoeging. Gaat u verder. Ik zal mij verder onthouden van commentaar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note239">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u64">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg83">In zijn motie op stuk nr. 96 vraagt de heer Nijboer om een nationaal actieplan om mensen die nu langs de kant staan, aan duurzaam en fatsoenlijk betaald werk te helpen. We hebben het er donderdag over gehad en het is ook al vaker langsgekomen in verschillende debatten. Wij worstelen met een arbeidsmarktkrapte. Tegelijkertijd staan 1 miljoen mensen om de een of andere reden aan de kant. We komen daar dadelijk op terug bij de deeltijdwerkers, maar er zijn natuurlijk ook mensen die in de bijstand en de WW zitten, soms heel langdurig. Misschien mag ik de motie als volgt interpreteren. We zijn bezig met de voorbereiding van de beantwoording van de motie-Paternotte, over wat er op de arbeidsmarkt aan de hand is. Welke banen zijn er nodig? Als ik daar een spiegel tegen aan mag leggen in de zin van "wat hebben wij als arbeidspotentieel, welke mensen hebben wij?" en ik dat samen mag nemen, dan wil ik de motie graag oordeel Kamer geven en haar op die manier meenemen. Dan wordt het dus één ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note240">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u65">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg84">Dat vind ik prima. Maar ik denk wel dat het heel erg helpt als we daar een doelstelling bij hebben: het aantal mensen dat een afstand heeft tot de arbeidsmarkt, de soorten en maten daarin en of ze wel of geen opleiding hebben. Bij armoede willen we ook naar nul. Dat hebben we in het debat gezegd. Ook de werkloosheid willen we natuurlijk zo veel mogelijk terugdringen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note241">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u66">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg85">Dan kunnen we een breakdown maken. We kunnen een verdeling maken van hoeveel mensen hoelang langdurig werkloos zijn en aangeven wat we met de verschillende groepen zouden willen. Dat is prima, maar het gaat erom dat we het echt in samenhang zien met de arbeidsmarkttekorten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note242">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u67">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg86">De motie op stuk nr. 96: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note243">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u68">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg87">Dan kom ik bij de motie op stuk nr. 97 van mevrouw Maatoug en de heer Nijboer, over de lonen die onvoldoende zijn meegestegen met de welvaart en het verzoek om de verhoging van het minimumloon versneld door te voeren. We hebben in het coalitieakkoord opgenomen dat de eerste stap van die verhoging gaat plaatsvinden op 1 januari 2024. Die tijd hebben we ook gewoon nodig om wetgeving daarvoor voor te bereiden, ook met uw Kamer. Eerder dan 1 januari gaan wij dus niet halen. We gaan er wel voor zorgen dat we 1 januari halen. We zullen dat met veel inzet doen, maar ik kan u geen versnelling aanbieden, anders had dat wel in het coalitieakkoord gestaan.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note244">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u69">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg88">Mevrouw Maatoug, voor een verduidelijkende vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note245">Mevrouw Maatoug (GroenLinks)</note>
+            <u who="#SennaMaatoug" ana="#regular topic:housi" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u70">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg89">De minister gaat binnenkort al indexeren, dus daar zou je al een stapje kunnen nemen. Dat gebeurt met zo'n indexatie sowieso al. Mijn vraag is: als de huurtoeslaghervormingen langer duren omdat de uitvoering moeilijk is, blijft de datum dan staan?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note246">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u71">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg90">De minimumloonverhoging hoeft op zich niet te wachten op de huurtoeslagmaatregelen. Het is wel zo dat er, ook met betrekking tot koopkracht, pakketjes zijn van: het ene stijgt voor iemand en het andere daalt voor iemand. Die zul je wel moeten meenemen in het geheel. Op dit moment ontraden wij dus de motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note247">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u72">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg91">De motie op stuk nr. 97 is ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note248">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u73">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg92">Dan kom ik bij de motie op stuk nr. 98 van mevrouw Den Haan, over oudere werkzoekenden. Zoals we donderdag ook zeiden, geloof ik enorm in de waarde van senioren in onze maatschappij. Die kan zitten in werk, in mantelzorg of in bepaalde ervaringen die zij wél en jongeren nou eenmaal niet hebben en waar we gebruik van kunnen maken. Ook deze motie wil ik graag oordeel Kamer geven. Waarom? Omdat juist de acties over de beeldvorming van belang zijn, maar meer nog omdat we deze mensen vanwege de arbeidsmarktkrapte en hun ervaring gewoon heel erg hard nodig hebben. Het is niet alleen een krapteverhaal. Het is ook echt een verhaal van de kwaliteit van seniore werknemers en seniore medemensen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg93">Ik had u in het debat al toegezegd — dat zeg ik ook tegen mevrouw Palland — om met een seniorkansenbeleidsvisie te komen. Ik moet nog even kijken hoe we die precies vorm gaan geven na de zomer. Dat doe ik om juist de verschillende aspecten, en niet alleen het arbeidsaspect, mee te nemen, en omdat wij — ik kijk in de Kamer even naar de kleur van onze haren — dadelijk allemaal wel een keer senior zijn. Die groep wordt steeds groter. Ook het belang dat wij goed omgaan met de groep senioren — de vraag is natuurlijk bij welke leeftijd het begint — wordt dus groter. We moeten dat goed in ogenschouw nemen. Dit is ook gelijk een antwoord op de vraag van mevrouw Palland.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note249">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u74">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg94">De motie op stuk nr. 98: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note250">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u75">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg95">Ja, oordeel Kamer. Juist.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg96">Dan heb ik de motie op stuk nr. 102 van de heer De Jong. Die moet ik ontraden. Zoals ik al zei, komen wij binnenkort met allerlei koopkrachtplaatjes, maar wij lopen daar zeker niet op vooruit.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg97">Over de motie op stuk nr. 103 wil ik tegen de heer Stoffer zeggen dat wij in de Voorjaarsnota bezig zijn met allerlei lastenverlichtingen, wellicht, en met koopkrachtplaatjes. Wij zullen daar ook op terugkomen. Dus dan is ook voor de kloof tussen een- en tweeverdieners ... Nou moet ik het goed zeggen: hoe wij omgaan met de kloof tussen een- en tweeverdieners komt daar ook in terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note251">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u76">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg98">Dus wat is het oordeel over deze motie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note252">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u77">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg99">Oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note253">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u78">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg100">Motie op stuk nr. 103: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note254">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u79">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg101">In de motie op stuk nr. 104 vraagt de heer Stoffer om een hoofdlijnenbrief over een breed arbeidsmarktbeleid, zodat de Kamer deze kan betrekken bij de behandeling van de voorgestelde arbeidsmarkthervormingen. Dat heeft betrekking op de positie van het gezin, omdat betaald werk niet de enige manier van meedoen in de samenleving is. Dit is onder andere naar aanleiding van een rapport van het Sociaal en Cultureel Planbureau. Ik zou de heer Stoffer willen vragen om de motie aan te houden, omdat er tijdens het debat over de regeringsverklaring een vrij vergelijkbare motie van de heer Van der Staaij is aangenomen, waarin we juist breder kijken welke vormen van participatie, niet werk zijnde, welke rol daarin spelen. Mijn vraag is dus om deze motie aan te houden totdat wij die motie van uw fractiegenoot Van der Staaij hebben beantwoord. Als u het dan niet voldoende vindt, kunt u alsnog deze motie indienen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note255">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u80">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg102">Ja, het gaat mij even om de tijdsvolgorde. Ik heb de indruk dat de motie-Van der Staaij/Heerma verder wordt uitgewerkt richting Prinsjesdag en dat die hoofdlijnenbrief over het arbeidsmarktbeleid al eerder naar ons toe komt. Dus ik heb het gevoel dat ik in een verkeerde volgorde terechtkom. Als ik afwacht of die motie-Van der Staaij/Heerma goed is verwerkt, dan is deze brief al geweest, dus dan ben ik eigenlijk te laat. Er zit voor mij dus een beetje een tijdsklem. Als de minister mij uit de knoop wil helpen, wil ik de motie best aanhouden. Anders breng ik haar in stemming.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note256">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u81">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg103">Zodra wij na de zomer de beantwoording van de motie-Van der Staaij doen — ik neem aan dat we dan niet één keer maar meerdere keren en best wel een lange tijd over die arbeidsmarkthervormingen praten — kunt u dat daar natuurlijk in meenemen. Ik vind niet dat het tijdsvolgordelijk hoeft in de zin van: eerst deze motie en dan de motie-Van der Staaij.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note257">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u82">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg104">Het gaat mij om die hoofdlijnenbrief arbeidsmarktbeleid. Die komt volgens mij voor de zomer naar ons toe.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note258">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u83">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg105">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note259">De heer Stoffer (SGP)</note>
+            <u who="#ChrisStoffer" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u84">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg106">Mijn vraag is om datgene wat het Sociaal en Cultureel Planbureau adviseert, om in de breedte betaald werk niet de enige manier te laten zijn van meedoen in de samenleving, terug te laten komen in die hoofdlijnenbrief. Dat is de strekking van deze motie. Ik zou verwachten dat het automatisch gebeurt. Mijn vraag is eigenlijk waarom die motie dan ook ontraden wordt. Ik blijf nog steeds in die knoop zitten, want die brief komt eerder dan de uitwerking van de motie-Heerma/Van der Staaij, die ook veel meer vraagt dan dat beperkte wat ik hier vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note260">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u85">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg107">Ik denk even na. Ik vind dat u aan de ene kant gelijk hebt dat de motie van Van der Staaij meer vraagt, aan de andere kant vraagt u in deze motie meer. U vraagt namelijk specifiek om de uitwerking van de opvatting dat betaald werk niet de enige manier is om mee te doen in de samenleving en om de waarde en de positie van het gezin mee te nemen in de voorgestelde arbeidsmarkthervormingen. Dat gaat verder dan de motie-Van der Staaij. De motie-Van der Staaij is aan de andere kant weer breder. U vraagt dus niet precies hetzelfde, maar we hebben gewoon even tijd nodig om het uit te werken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note261">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u86">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg108">Ik wil eigenlijk tot een conclusie komen. Blijft het oordeel van de minister bij ontraden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note262">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u87">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg109">Als u haar nu indient, moet ik haar helaas ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note263">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u88">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg110">Uw verzoek is om haar aan te houden en als de heer Stoffer dat niet doet, wordt de motie nu ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note264">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u89">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg111">Mevrouw Beukering, u vraagt naar de voltijdbonussen. Zoals wij in het debat ook hebben gewisseld, en waar mevrouw Palland net overigens ook aan refereerde, denk ik dat wij het met elkaar eens zijn dat méér werken lonender moet worden. Ik heb u daar ook toegezegd dat wij een analyse — die we toch aan het doen zijn — graag met u willen delen om te laten zien op welk moment er eigenlijk een val komt. Wat gebeurt er bijvoorbeeld met je netto-netto-inkomen als je van 28 naar 32 uur gaat? Die toezegging staat sowieso. Een voltijdbonus is wat mij betreft oordeel Kamer. Wat daar natuurlijk wel speelt, is dat we het hier hebben over een cao, maar wij kunnen uiteraard duidelijkheid bieden over wat de mogelijkheden zijn en die in kaart brengen — daar vraagt u om — als we dan wel even in ogenschouw nemen dat u echt vraagt om wat er bij de sociale partners in de cao's kan, en niet zozeer om wat wij kunnen doen. Wij brengen daar dan duidelijkheid in en dan is het oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg112">De heer Omtzigt verwijst in de motie op stuk nr. 107 naar het Nibud en de inflatie van 7%. Daarover kan ik zeggen wat ik ook over de andere koopkrachtmoties heb gezegd. Wij zijn echt heel hard aan het werk en wij zijn de verschillende plaatjes met elkaar aan het vergelijken. Op 9 maart komen er weer nieuwe cijfers. Ik wil deze motie op dit moment dus ontraden, waarbij ik overigens ook wil zeggen dat het geen verkeerde exercitie is, maar dat wij de komende vier weken gewoon heel erg hard aan het werk zijn met alle cijfers die we dan hebben. De motie is op dit moment dus ontraden. Wij komen echt op korte termijn, op een hele korte termijn, bij u terug.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note265">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u90">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg113">De motie op stuk nr. 107 is ontraden. Nog een korte interruptie van de heer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note266">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u91">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg114">Er worden heel veel berekeningen gemaakt, maar dit is nou net de berekening die op dit moment het meest op de werkelijkheid lijkt. De inflatie is bijna 7%. Ik vraag dus om één van die berekeningen te laten uitgaan van een inflatie van bijna 7% dit jaar en om te kijken wat er gebeurt. Zit die er niet bij als dit dan in maart hier komt? Daarom heb ik er "vier weken" in gezet; als dat vijf weken moeten zijn, maken we er vijf van.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note267">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u92">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg115">Ik denk dat er in alle analyses natuurlijk sowieso gekeken wordt naar wat er op dit moment speelt maar ook naar wat er volgend jaar gaat spelen. Daar zitten energieprijzen in, maar bijvoorbeeld ook loonstijgingen. Daar zitten allerlei factoren in waarvan we nu nog niet helemaal kunnen overzien wat in de plus en wat in de min gaat eindigen, ook voor de verschillende groepen. Maar u krijgt voldoende analyses te zien krijgen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note268">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u93">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg116">Afrondend, de heer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note269">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u94">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg117">Ik mag toch hopen dat de huidige inflatie een van de scenario's is die we aan het doorrekenen zijn. Tot nu toe zien we alleen scenario's met 3% tot 4% inflatie, terwijl we tegen de 7% zitten. Het kan zijn dat het weer daalt. Als het conflict in Oekraïne ontspant, wat we hier allemaal hopen, zouden de gasprijzen kunnen dalen, maar er is ook best wel een kans dat dat niet gebeurt; dat zeg ik er in alle eerlijkheid bij. Dan is het toch relevant om de 7%-optie gewoon als een van de scenario's mee te nemen? Daarom had ik eigenlijk "oordeel Kamer" verwacht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note270">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u95">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg118">Ik kan uw verzoek om dat soort zaken mee te nemen, doorgeven in het kader van het CEP; u hebt het over het Nibud. Ik kan u niet toezeggen dat we dat dan ook onmiddellijk gaan repareren. Dat staat wel in uw verzoek: "voorstellen doen tot noodzakelijke reparatie".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note271">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u96">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg119">Vooralsnog blijft het oordeel van de minister: ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note272">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u97">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg120">Ja, want de heer Omtzigt verzoekt om het doen van een analyse en om reparatie. En ik kan u op dit moment geen toezeggingen doen over die reparatie. Dat weet u. Dat gaat echt komen in het geheel, voor alle verschillende koopkrachtplaatjes en voor alle verschillende analyses die we kunnen doen. Maar dat kan ik u nu niet toezeggen, analyses wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note273">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u98">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg121">Dan echt afrondend, meneer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note274">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:mixed" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u99">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg122">Er staat niet dat er voor iedereen gerepareerd moet worden. Ik neem de woorden van de VVD niet in de mond. Dat zou ik niet durven, want ik weet gewoon dat dat niet gaat lukken dit jaar; laten we gewoon heel eerlijk zijn. Maar ik zeg: noodzakelijke reparatie. Dat is de reparatie die het kabinet noodzakelijk vindt. Ik snap heel goed dat dat geen garanties inhoudt. Ik hoop dus dat u het zo ook leest.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note275">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u100">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg123">Maar zoals het er nu staat, staat er dat het noodzakelijk is om de koopkrachtplaatjes waar het Nibud dan mee komt, te repareren. En dat kan ik u nu gewoon niet toezeggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note276">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u101">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg124">De motie op stuk nr. 107: ontraden. De motie op stuk nr. 106 krijgt een oordeel van de andere minister, meneer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note277">Minister Van Gennip</note>
+            <u who="#KarienVanGennip" ana="#guest topic:immig" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u102">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg125">D66 vroeg nog om duidelijkheid over de financiering van het inburgeringsstelsel. Dat komt terug in de brief die wij aan het voorbereiden zijn voor het debat dat we daarover ook zullen hebben, ik meen over vijf weken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg126">Dan ben ik door de eerste set heen, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note278">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u103">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg127">Dank u wel. Dan wachten we een klein momentje, zodat het spreekgestoelte kan worden gereinigd, en daarna geef ik het woord aan de minister voor Armoedebeleid, Participatie en Pensioenen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note279">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u104">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg128">Er zijn nog enkele moties over die op mijn terrein liggen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg129">Ik begin met de motie op stuk nr. 90, van de heer Van Kent, die erom vraagt "geen kinderen in armoede" als doelstelling te laten opnemen. Als er geen kinderen in armoede opgroeien, dan ben ik daar het allerallerblijste mee. Dat zeg ik ook maar gelijk, want dat is ook iets wat we, denk ik, met z'n allen nastreven. In het coalitieakkoord is nu voor de komende vier jaar de ambitie opgenomen om deze kinderarmoede te halveren. Dat betekent niet dat ik stop op het moment dat we verder kunnen gaan, want alles wat daarboven gaat komen, is alleen maar winst en mooi meegenomen. De realiteit is echter dat het al een bijzonder grote opgave is om dit voor elkaar te krijgen. Ik ben het er helemaal mee eens dat we het streven dat er geen kind meer in armoede opgroeit, als uitgangspunt moeten hebben. Maar als het gerelateerd wordt aan wat we de komende periode kunnen doen, dan is halvering van de kinderarmoede al heel ambitieus. In die context ontraad ik deze motie dus.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note280">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u105">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg130">De motie op stuk nr. 90: ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note281">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u106">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg131">Maar als ik hem ga halen, ben ik heel erg blij. Dat zeg ik er ook maar gelijk bij. Ja, dat is een hele rare redenering, maar ik denk dat de heer Van Kent begrijpt wat ik zeg.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg132">Voorzitter. Dan de motie op stuk nr. 92, van de heer Van Kent, die vraagt om de rekenregels aan te passen en zo indexatie mogelijk te maken. De heer Van Kent weet dat er een AMvB aankomt die het makkelijker maakt om te gaan indexeren, maar wel binnen verantwoorde kaders. Die AMvB hoop ik in april naar uw Kamer te sturen, zodat u daar ook kennis van kunt nemen en zodat pensioenfondsen, als zij aan de voorwaarden voldoen, kunnen besluiten om die indexatie ook te gaan toepassen. Het zo aanpassen van de rekenregels heeft intergenerationele effecten. Dat weet de heer Van Kent ook, want hij heeft zelf ook een initiatiefwetsvoorstel overgenomen, zeg ik maar even. Volgens mij is er in een oordeel van de Raad van State ook op gewezen dat er in dat voorstel geen sprake is van evenwichtigheid ten opzichte van de generaties. Daarom veranderen we niet zomaar de rekenregels maar doen we dat binnen verantwoorde kaders. Daarom ontraad ik deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note282">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u107">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg133">De motie op stuk nr. 92 wordt ontraden. Een korte interruptie van de heer Van Kent.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note283">De heer Van Kent (SP)</note>
+            <u who="#BartvanKent" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u108">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg134">Dit is natuurlijk wel heel erg vreemd. Voor de kijkers thuis: waar de minister naar verwijst, is een aanpassing die voor miljoenen gepensioneerden totaal geen oplossing gaat bieden. Sterker nog, die pensioenen staan al veertien jaar stil en blijven stilstaan. De vraag aan deze minister is of zij de pensioenfondsen wil toestaan om te rekenen met een deel van het rendement dat ze ook behalen. Dus dat is niet geld dat er niet is, dat is geld dat binnen wordt gehaald met rendementen om dat aan de gepensioneerden uit te mogen keren en aan de deelnemers die aan het opbouwen zijn, zodat ook die pensioenen meestijgen met de prijzen. Dat is de vraag die ik de minister voorleg.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note284">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u109">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg135">Of er niet overgegaan kan worden tot indexatie weet de heer Van Kent helemaal nog niet, want hij heeft de AMvB nog niet gezien. Op het moment dat die AMvB er is, weet hij ook niet hoe de beleidsdekkingsgraad bij de verschillende pensioenfondsen is. Dus ik vind het heel knap dat hij nu al weet dat het geen soelaas gaat bieden. De heer Van Kent stelt nu voor om de regels maar even aan te passen, zodanig dat er misschien wel geïndexeerd kan gaan worden. Dat betekent echt wel dat er een rekening bij de jongeren wordt neergelegd. Ik denk dat dit ook niet is wat de heer Van Kent wil. Sterker, onder andere de Raad van State heeft erop gewezen dat waar het gaat om het voorstel dat hijzelf heeft opgesteld die rekenregels dan tot onevenwichtigheid ten opzichte van de generaties leiden. En daar hebben we ook een verantwoordelijkheid voor, namelijk om het stelsel van iedereen te laten zijn. Daarom ontraad ik deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note285">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u110">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg136">Ik doe een beroep op de minister om iets beknopter te antwoorden. Ik geef het woord aan de heer Van Kent, nadat ik gezegd heb dat het debat al gevoerd is. Een korte, afrondende vervolgvraag van de heer Van Kent.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note286">De heer Van Kent (SP)</note>
+            <u who="#BartvanKent" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u111">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg137">Ik hoop dat dit niet het verhaal gaat worden van deze minister als het gaat over de aanvullende pensioenen, want dan kunnen de gepensioneerden in Nederland van één ding uitgaan en dat is dat de pensioenen ook de komende jaren niet mee zullen stijgen met de prijzen. En dat zou echt een ramp zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note287">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u112">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg138">Die suggestie werp ik echt van me. We hebben gewoon regels afgesproken met elkaar waarbij het verantwoord is. Dan is het uiteindelijk aan de pensioenfondsen welke keuze ze maken. Met die AMvB geven we juist ook meer mogelijkheden om te indexeren. Dat weet de heer Van Kent. En dan net doen alsof er helemaal niks gaat gebeuren de komende jaren, vind ik ook een beetje makkelijk.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note288">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u113">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg139">Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note289">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:energ" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u114">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg140">Dan de motie op stuk nr. 95, over energiearmoede. Ik deel het ongeduld van de heer Nijboer. Ik kan hem vertellen dat ik ongelofelijk hard bezig ben om te zorgen dat het wetsvoorstel — want daar spreken we hier over — snel naar de Kamer komt. We willen namelijk — ik doe het even technisch, voorzitter; sorry voor de kijkers — dat de gemeentes ambtshalve, dus eigenlijk automatisch, kunnen uitkeren aan de mensen die ten minste ook een bijstandsuitkering hebben. Dat kan nu niet volgens de wet, dus ik moet die aanpassen. We hebben er echt een superturbo op gezet om dat voor elkaar te krijgen, want ik vind, net als de heer Nijboer, dat dat nodig is. Of dat ertoe leidt dat dat precies voor 1 april wordt, durf ik niet met zekerheid te zeggen. Als hij zou zeggen "rond april", zou ik wat meer armslag hebben. Als dat de inzet is, dan kan ik de motie oordeel Kamer geven; dat kan ik niet als het echt 1 april moet zijn. Dan wordt het heel erg krap, en het kan net wat later zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note290">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u115">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg141">We zien de heer Nijboer knikken. Hij is het eens met deze interpretatie, dus de motie op stuk nr. 95 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note291">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u116">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg142">Ja, dan kan ik de motie oordeel Kamer geven. Pin me dus niet vast op 1 april; het kan net een beetje later zijn. Maar we trekken alles uit de kast om dit voor elkaar te krijgen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg143">Dan de motie op stuk nr. 99 van mevrouw Den Haan. Daarin vraagt zij de regering om in de communicatie specifiek aandacht te geven aan het raadgevend meenemen van burgers in het besluitvormingsproces en daarbij laagdrempelige informatie te verstrekken over de nieuwe Pensioenwet. We hebben het tijdens het debat al gehad over de communicatie en het belang daarvan. Ik heb toen ook gezegd dat ik nog extra zal kijken of we de communicatie goed kunnen doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg144">Maar mevrouw Den Haan vraagt ook om het raadgevend meenemen van burgers in het besluitvormingsproces. Er zijn al diverse stappen geweest in dit proces, waarin om de stem en de mening van deelnemers is gevraagd. We zijn nu op het punt in het proces dat het aan de Kamer is, dat we ook hier het debat gaan voeren en gaan kijken of de wet kan rekenen op draagvlak in beide Kamers der Staten-Generaal. Dat is niet meer het moment dat we er nog allerlei burgers bij gaan betrekken, maar we moeten uiteraard wel goed communiceren over hoe het in elkaar zit.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg145">Het gaat dus om twee dingen. We moeten in de communicatie goed aandacht geven aan wat er nou precies aan de hand is en wat deze wet nou precies doet, ook ten opzichte van de huidige situatie. Daarnaast kan ik, als ik de wet naar de Kamer stuur, aangeven hoe we de deelnemers en burgers precies meegenomen hebben in dit proces, dus wat we al hebben gedaan. Als ik de motie zo mag interpreteren — misschien wil mevrouw Den Haan de motie op dat punt dan wijzigen — kan ik haar oordeel Kamer geven. Maar in deze fase zijn we net weer een stap verder en is het uw beoordeling om te kijken wat u wilt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note292">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u117">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg146">We zien mevrouw Den Haan knikken, dus dan krijgt de motie oordeel Kamer. Of heeft de minister gezegd …</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note293">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:gover" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u118">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg147">Dan vraag ik wel of ze de motie even wil aanpassen. Bij die aanpassing gaat het erom dat we, als we de wet naar de Kamer sturen, aangeven hoe we burgers en deelnemers hebben meegenomen in het proces en dat we dat dan expliciet maken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note294">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u119">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg148">Als mevrouw Den Haan de motie aanpast, krijgt die dus oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note295">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u120">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg149">Ja. Ik zie haar knikken, dus ik denk dat ze dat wil gaan doen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg150">Dan de motie op stuk nr. 100, van de heer De Jong. Hij wil mijn functie een andere naam geven. Ik wacht af wat de Kamer hiervan vindt, maar laat ik het zo zeggen: op de dag dat de naam van mijn functie veranderd kan worden omdat er geen sprake meer is van armoede, sta ik als eerste op het ministerie om die naam door te krassen. Maar ik zie dat daar nog wel sprake van is. Daarom denk ik dat het gerechtvaardigd is dat wij hier speciale aandacht voor hebben. Daarom ontraad ik deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note296">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u121">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg151">De motie op stuk nr. 100 is ontraden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note297">De heer Léon de Jong (PVV)</note>
+            <u who="#LeondeJong" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u122">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg152">Ja, dat is vrij onbegrijpelijk. Mijn betoog is dat de kortst mogelijke route uit de armoede koopkrachtverbetering is: welvaart, ervoor zorgen dat mensen geld in hun portemonnee overhouden. Deze minister heeft aan de onderhandelingstafel gezeten. Ik hoor allemaal mooie woorden: dat ze zich ook zorgen maakt, dat ze meeleeft. Maar zij heeft er bij zichzelf waarschijnlijk niet over nagedacht — dat heeft ze in ieder geval niet gedaan, als ik naar de naamaanduiding kijk — om koopkracht voor armoede te laten gaan. Deelt de minister in ieder geval met mij de mening dat het verbeteren van koopkracht mensen uit een situatie van armoede zou kunnen helpen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note298">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u123">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg153">Dat zijn twee vragen. Ten eerste: wat heb ik gedaan aan de naam? Ik kan u vertellen dat het niet zo is dat je, als je als onderhandelingspartner aan tafel zit, ook bepaalt wat de naam van de verschillende departementen wordt. Ten tweede: is koopkrachtverbetering een belangrijk middel om uit de armoede te komen? Het is niet het enige middel. Ik wil de heer De Jong erop wijzen dat er ook heel veel sprake is van bijvoorbeeld sociaal isolement en andere situaties die niet direct met armoede te maken hebben, maar die wel kunnen leiden tot schrijnende situaties. Daardoor is echt een integrale aanpak nodig.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note299">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u124">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg154">De heer De Jong, afrondend.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note300">De heer Léon de Jong (PVV)</note>
+            <u who="#LeondeJong" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u125">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg155">Ik denk dat deze minister de laatste is die mij iets hoeft uit te leggen over armoede. Dus dat om te beginnen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg156">Het gaat mij om de instelling. We zien dat er in september, oktober, november wordt gesproken over gigantische inflatie, dat mensen het niet meer redden, dat ze hun boodschappen niet meer kunnen doen zoals vorig jaar en dat heel veel gezinnen het niet meer redden. Ik zeg niet dat er geen armoedebeleid moet zijn. Ik vraag: wat doet deze minister er nou eigenlijk aan om de koopkracht voor die mensen te verbeteren? Want dat is het beste wat je kan doen qua armoedebeleid. Deze minister gaat daar niet mee akkoord. Dat is jammer. Ze zat aan de onderhandelingstafel, maar koopkracht is niet haar belangrijkste punt om mensen uit armoede te halen. Dus ik wacht inderdaad ook het oordeel van de Kamer af.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note301">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u126">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg157">Minister, gaat u verder met uw beantwoording.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note302">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u127">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg158">Dan kom ik bij de motie op stuk nr. 101. Die vraagt om de AOW-ontkoppeling van tafel te halen en alles in het werk te stellen voor de pensioenindexatie voor 2022. Ik heb volgens mij net in het debatje met de heer Van Kent duidelijk gemaakt dat de AMvB in april naar uw Kamer komt. Dan kunt u ook kijken wat we voorstellen. Hopelijk zijn er mogelijkheden voor de pensioenfondsen om te indexeren. Maar dat is echt aan de fondsen. Ik denk dat de minister van SZW net al is ingegaan op de ontkoppeling en het proces dat we doorlopen. Daarom ontraad ik deze motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note303">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u128">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg159">Kort nog, meneer De Jong.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note304">De heer Léon de Jong (PVV)</note>
+            <u who="#LeondeJong" ana="#regular topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u129">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg160">Het is alleen maar: ontraden, ontraden, ontraden. Het is ook onjuist wat de minister zegt. Volgens haar ligt het alleen maar aan de pensioenfondsen of ze wel of niet over zouden kunnen gaan tot indexatie. Dat is wat Kaag ook aangaf. Dat is gewoon niet waar. Wij kunnen hier die regels bepalen. Wij zijn ook degenen die dat eerder, in 2007, hebben veranderd. Als deze minister zich goed heeft ingelezen, weet ze dat. Je kan er ook voor kiezen om dat als politiek naar voren te brengen. Je kan ervoor zorgen dat er in 2022 kan worden geïndexeerd. Staat in dat voorstel dat de minister naar voren gaat brengen wel of niet dat er in 2022 kan worden geïndexeerd?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note305">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u130">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg161">Op het moment dat de beleidsdekkingsgraad op 105% zit, is er de mogelijkheid om in 2022 te indexeren. Het is afhankelijk van pensioenfondsen of daartoe wordt overgegaan.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg162">Voorzitter. Dan heb ik nog een paar vragen liggen. Mevrouw Palland vroeg naar de energietoeslag. Zij vroeg: wat gebeurt er nu precies met de VNG en hoe laten we alles landen? Zoals net uitgelegd, moeten we de wet aanpassen om die toeslag ambtshalve uit te kunnen keren. Dat wetsvoorstel komt hopelijk zo spoedig mogelijk naar uw Kamer toe. Daar hebben we echt, echt heel veel spoed op zitten. Dat gaat natuurlijk ook in overleg met de VNG. Zij zijn ook degenen die uiteindelijk de uitkering verstrekken.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg163">Mevrouw Palland vraagt ook naar de bijstandsregels in relatie tot bijvoorbeeld initiatieven vanuit de maatschappij — die waardeer ik buitengewoon, zeg ik er ook maar bij — om ook te zien of de bijstandsgerechtigden op een andere manier nog een tegemoetkoming kunnen krijgen. In principe zit er in de Participatiewet een mogelijkheid voor het college om toe te staan dat er giften worden gegeven aan deze mensen. Dan is het ook echt aan het college om te bepalen dat dat in dit geval ook mag. Laat ik hier de vrijheid nemen om in ieder geval te zeggen dat ik het heel goed zou kunnen begrijpen als het college daartoe overgaat. Dit zijn mooie initiatieven vanuit de maatschappij. Ik denk dat we juist die compassie niet moeten beboeten. Maar uiteindelijk is mijn advies dat dit soort initiatieven zich dus tot het college wenden en vragen of dat kan, zodat het op dat moment voor bijstandsgerechtigden helder is dat zij daar niet door geraakt zullen worden. Dat zeg ik ook in antwoord op de vraag van de heer Ceder, want hij had eigenlijk dezelfde vraag.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg164">Mevrouw Van Beukering vroeg ten slotte naar de voortgang bij het oplossen van de AOW-problematiek bij Surinaamse Nederlanders. Ik spreek zeer binnenkort met de voorzitter van de commissie-Sylvester om te horen wat daarover de gedachten zijn. We hebben eind maart een debat over deze kwestie. Ik weet hoezeer mevrouw Van Beukering met deze mensen begaan is en ik zal de Kamer voorafgaand aan dat debat informeren over de sporen die we denken te kunnen gaan lopen.</seg>
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg165">Tot zover, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note306">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u131">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg166">Dank u wel. Volgens onze administratie is de motie-Omtzigt op stuk nr. 106 nog niet van een appreciatie voorzien.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note307">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u132">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg167">Die heb ik hier inderdaad niet bij de hand, maar ik weet waar de motie om vraagt. Laat ik vooropstellen dat u dit debat ook voert in het kader van de Startnota, want dit was ook een indicatieve inzet bij de vormgeving van de koopkracht in de Startnota. Maar er is nog geen besluit over genomen. Het kabinet heeft al gezegd dat het dat zal doen bij de voorjaarsbesluitvorming. Dan kijken we naar de complete situatie van alle groepen. Dan bekijken we ook hoe we vervolgens omgaan met lastenmaatregelen. De jonggehandicaptenkorting moet ook bezien worden in de context van de koppeling van de uitkering aan de verhoging van het wettelijk minimumloon. Excuus even voor de techniek. Het wml stijgt, dan gaat de Wajong-uitkering ook omhoog, maar ten opzichte van andere uitkeringen is het een brutobedrag dat dan omhooggaat. Dus dan kom je eigenlijk hoger uit ten opzichte van alle andere uitkeringen. Daarom is nu beleidsmatig de keuze gemaakt om dat weer wat rechter te trekken ten opzichte van andere uitkeringsgerechtigden. Dat doen we door de jonggehandicaptenkorting wat te verlagen. Per saldo kom je met de verhoging van het wml en de verlaging van die korting onder de streep nog steeds hoger uit dan nu. Dus dat is de uitkomst van die keuzes die daaronder. Maar nogmaals, wat er uiteindelijk aan keuzes wordt gemaakt, hoort u in het voorjaar.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note308">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u133">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg168">Dus de motie op stuk nr. 106 wordt ontraden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note309">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u134">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg169">Ja, dit is ook echt nog iets wat bij de voorjaarsbesluitvorming wordt betrokken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note310">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:welfa" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u135">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg170">Ik had gehoopt in het debat een uitleg te krijgen van de jonggehandicaptenkorting. Dat kregen we niet echt helder; laat ik het maar gewoon zo zeggen. De heer De Jong heeft er duidelijke vragen over gesteld. Dit gaat om €35 netto per maand die jonggehandicapten verliezen door de verlaging van deze korting. Het is een uitkering die vlak boven het minimum zit. Die uitkering kan dan inderdaad met €35 of €40 stijgen doordat het minimumloon stijgt, hetgeen al nauwelijks de gestegen kosten compenseert, terwijl we er aan de andere kant €35 vanaf halen. De gevolgen daarvan zijn duidelijk: gewoon een koopkrachtdaling van die groep, zoals we er nu tegen aan kunnen kijken. Daarom zegt deze motie ook niet "precies zo moet u het doen", maar "heroverweeg dat nou de komende vier weken". U laat iets boven de markt hangen voor deze zeer kwetsbare groep wat u niet boven de markt wilt laten hangen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note311">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:mixed" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u136">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg171">Ik blijf mezelf een beetje repeteren. Ik snap dat u zegt dat er duidelijkheid over moet worden gegeven, maar we gaan echt integraal naar de koopkracht kijken bij de voorjaarsbesluitvorming. Dat geldt ook voor deze groep. U heeft gevraagd om de uitleg. Die heb ik net gegeven: met de wml-verhoging stijgt de uitkering van de Wajong eigenlijk harder ten opzichte van andere uitkeringen, bijvoorbeeld de bijstand, omdat die netto gekoppeld is. Dat weet de heer Omtzigt ook. Daarmee is de stijging van de uitkeringen eigenlijk overall ongeveer op hetzelfde niveau gelegd. Nogmaals, we kijken in het voorjaar naar het totaalplaatje van de koopkracht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note312">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u137">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg172">Afrondend, de heer Omtzigt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note313">De heer Omtzigt (Lid Omtzigt)</note>
+            <u who="#PieterOmtzigt" ana="#regular topic:macro" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u138">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg173">Er wordt nu gegoocheld met hoger en lager, maar het gaat hier om mensen voor wie elke €5 of €10 echt telt. Ik heb nog geen enkele berekening gezien waarin dit mogelijk zou zijn. Ik vraag dus om dit te heroverwegen en om de berekeningen te laten zien. Hier lijkt sprake te zijn van een enigszins ondoordachte bezuiniging.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note314">Minister Schouten</note>
+            <u who="#CarolaSchouten" ana="#guest topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u139">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg174">Ik ga mezelf herhalen. De besluitvorming vindt plaats in het voorjaar. Dit was een indicatieve invulling van het pakket. De definitieve invulling ziet u bij de voorjaarsbesluitvorming.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note315">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:labor" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u140">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg175">Dank u wel. Dan is er een einde gekomen aan dit tweeminutendebat over het Hoofdlijnendebat Sociale Zaken en Werkgelegenheid. Hartelijk dank aan de Kamerleden en vooral ook de beleidsmedewerkers voor dit debat. Zeer veel dank aan de ministers voor het debat. Ook dank aan alle ondersteuning, vooral aan de bodes, die erg hard hebben moeten lopen om alle moties tijdig aan ons te verstrekken. Dank u wel allemaal.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note316">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note317">De voorzitter</note>
+            <u who="#VeraBergkamp" ana="#chair topic:other" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.u141">
+               <seg xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.seg176">De stemmingen over de ingediende moties vinden plaats op dinsdag 8 maart. Ik schors de vergadering voor enkele ogenblikken.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-02-22-tweedekamer-15.note318">De vergadering wordt van 17.42 uur tot 17.51 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

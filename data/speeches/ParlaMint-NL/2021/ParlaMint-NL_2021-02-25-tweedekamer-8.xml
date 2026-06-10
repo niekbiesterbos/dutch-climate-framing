@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid" xml:lang="nl" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-02-25 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-02-25 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 59, Session 8 (2021-02-25)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 59, Session 8 (2021-02-25)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="59" xml:lang="en">Meeting 59</meeting>
+            <meeting ana="#parla.lower #parla.session" corresp="#TK" n="8" xml:lang="en">Session 8</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-02-25">Sitting 2021-02-25</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>5.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="58">58 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="58">58 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2866">2,866 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2866">2,866 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-17">2025-06-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2021-02-25">2021-02-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="131"/>
+               <tagUsage gi="seg" occurs="71"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="58"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-02-25">2021-02-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.head1">Mbo en praktijkonderwijs</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note1">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg1">We gaan verder met het volgende VAO. Dat is het VAO mbo en praktijkonderwijs. Ik geef de heer Van Meenen weer het woord. Het is uw dag vandaag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note2">De heer Van Meenen (D66)</note>
+            <u who="#PaulvanMeenen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg2">Voorzitter, ik had niet meer durven hopen dat u mij vandaag nog het woord zou geven, maar ik heb mij netjes ingeschreven en ik heb weer een keurige motie. Deze keer hoop ik op een positiever oordeel.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note3">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note4">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note5">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note6">constaterende dat scholen voor praktijkonderwijs en mbo-instellingen al sinds jaar en dag succesvol samenwerken bij het aanbieden van entreeopleidingen in het praktijkonderwijs;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note7">constaterende dat het voor veel leerlingen belangrijk is dat zij in het praktijkonderwijs de entreeopleiding kunnen volgen om succesvol door te kunnen stromen naar de arbeidsmarkt of voor doorstroom naar het mbo;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note8">constaterende dat de ministers door middel van een wettelijke verankering de samenwerking verder willen borgen en stimuleren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note9">constaterende dat de Sectorraad Praktijkonderwijs heeft geadviseerd om de bestaande samenwerkingsvormen te bestendigen en te borgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note10">van mening dat bij de uitwerking op zijn minst rekening gehouden zou moeten worden met de uitgangspunten van professor Van Schoonhoven om bestaande vormen van vruchtbare samenwerking tussen praktijkonderwijs en mbo niet te blokkeren;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note11">verzoekt de regering om het bestaande aanbod van entreeopleidingen in het praktijkonderwijs wettelijk te verankeren en ervoor zorg te dragen dat er geen negatieve neveneffecten ontstaan voor pr.o.-leerlingen op het gebied van examinering en branchecertificering en zonder dat er kansenongelijkheid kan ontstaan voor leerlingen in verschillende delen van het land,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note12">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note13">Deze motie is voorgesteld door de leden Van Meenen en Van den Hul. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note14">Zij krijgt nr. kst-31289-447</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note15">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u3">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg3">Dank u wel, meneer Van Meenen. Dan geef ik nu het woord aan de heer Van den Berge namens de fractie van GroenLinks.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note16">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u4">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg4">Voorzitter. Ik heb twee moties en misschien een vraag, maar dat hangt van de tijd af. Ik begin met de moties.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note17">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note18">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note19">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note20">constaterende dat 70% van alle scholen binnen het praktijkonderwijs een entreeopleiding aanbiedt, onder diplomering van een mbo-instelling;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note21">constaterende dat uit onderzoek blijkt dat deze route een positief effect heeft op het halen van een entreediploma, maar een nog groter effect heeft op het halen van een mbo-startkwalificatie voor deze praktijkonderwijsleerlingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note22">constaterende dat mbo-studenten die de entreeopleiding volgen een ov-kaart krijgen en leerlingen in het praktijkonderwijs die hetzelfde onderwijs volgen niet en dat dit voor ongelijkheid zorgt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note23">overwegende dat leerlingen vanwege deze financiële prikkel af kunnen zien van het volgen van entreeonderwijs via het praktijkonderwijs terwijl dit hun kansen vergroot;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note24">verzoekt de regering om onderzoek te doen naar hoeveel leerlingen de entreeopleiding via het praktijkonderwijs willen volgen, maar dit vanwege financiële redenen niet doen, en tevens te onderzoeken op welke manier het geregeld kan worden dat deze leerlingen ook een ov-kaart krijgen en hoeveel dit zou kosten,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note25">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note26">Deze motie is voorgesteld door de leden Van den Berge, Westerveld, Van den Hul, Kwint, Van Meenen en Bruins.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note27">Zij krijgt nr. kst-31289-448</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note28">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u5">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg5">Dan ga ik naar mijn volgende motie. Die gaat over het bindend studieadvies in het mbo. De minister heeft in het algemeen overleg gezegd dat zij onderwijsinstellingen zou oproepen om daar zo coulant mogelijk mee om te gaan. Ik heb daarover de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note29">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note30">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note31">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note32">constaterende dat artikel 8.1.7a, lid 2b WEB voorschrijft dat een negatief bindend studieadvies enkel afgegeven mag worden indien het bevoegd gezag van een instelling voldoende voorzieningen heeft geboden aan studenten om voldoende studievoortgang te bewerkstelligen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note33">overwegende dat deze voorzieningen in deze buitengewone omstandigheden onvoldoende gewaarborgd kunnen worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note34">verzoekt de regering in gesprek te gaan met de MBO Raad en JOB met als doel in dit door corona getekende studiejaar het BSA niet onverkort toe te passen, maar om recht te doen aan de buitengewone omstandigheden en een niet bindend advies toe te passen, en de Kamer uiterlijk 1 april over de uitkomsten van deze gesprekken te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note35">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note36">Deze motie is voorgesteld door het lid Van den Berge. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note37">Zij krijgt nr. kst-31289-449</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note38">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u6">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg6">Dan heb ik nog zeven seconden voor mijn vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note39">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u7">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg7">Ik ga eerst naar de heer Smals, over de vorige motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note40">De heer Smals (VVD)</note>
+            <u who="#BartSmals" ana="#regular topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u8">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg8">Een vraag aan de heer Van den Berge. We hebben gezamenlijk, volgens mij Kamerbreed, uitgesproken dat we dat bindend studieadvies niet toegepast willen hebben door corona-oorzaken. Betekent de motie die u nu indient, dat u er geen vertrouwen in heeft dat de sector dat op die manier goed uitvoert? Gelooft u niet dat de roc's voldoende rekening houden met corona in dit geval?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note41">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u9">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg9">Nee, dat zeg ik zeker niet, maar ik ben wel blij met deze vraag van collega Smals, want die geeft mij de kans om de motie nog even kort toe te lichten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note42">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u10">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg10">Heel kort.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note43">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u11">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg11">Heel kort, voorzitter, maar ik wil graag recht doen aan de vraag van collega Smals. De minister heeft in het algemeen overleg naar aanleiding van een oproep die inderdaad Kamerbreed ondersteund werd, gezegd dat zij een oproep doet aan onderwijsinstellingen om hiervan af te zien. Tegelijkertijd horen wij van mbo-studenten, ook in het zoomgesprek van gisteren, waar collega Smals ook bij was, dat zij zich zorgen maken en dat er duidelijke signalen zijn dat er onderwijsinstellingen zijn die het BSA nog wel toepassen. Wat deze motie beoogt — en dat heeft niks te maken met vertrouwen of wantrouwen, maar met onze controlerende rol — is dat ik voor 1 april wil weten hoe het BSA in dit coronajaar wordt toegepast, zodat we als Tweede Kamer nog iets kunnen doen, als we niet tevreden zijn met de manier waarop daaraan vorm wordt gegeven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note44">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u12">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg12">Tot slot, meneer Smals.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note45">De heer Smals (VVD)</note>
+            <u who="#BartSmals" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u13">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg13">Tot slot, voorzitter. Dan constateer ik dat u er eigenlijk geen vertrouwen in heeft dat de roc's dit op de juiste manier aanpakken.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note46">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u14">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg14">Nee, dat is volgens mij een conclusie die de heer Smals niet kan trekken. Het enige wat ik met deze motie beoog, is dat wij onze controlerende taak goed kunnen uitvoeren. Het BSA zou eind april/begin mei toegepast worden, als het in dit coronajaar toegepast wordt. Ik wil graag rond 1 april weten hoe onderwijsinstellingen in het mbo daarmee omgaan, zodat wij als nieuwe Kamer — waar ik weer in hoop te zitten en u weer tegen hoop te komen — nog iets kunnen doen als wij daar niet tevreden mee zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note47">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u15">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg15">En dan uw vraag.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note48">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:civil" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u16">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg16">De vraag hou ik heel kort. Het gaat om de brigade tegen stagediscriminatie, met daarin ervaringsdeskundigen. Ik zou graag van de minister horen wat de stand van zaken is.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note49">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u17">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg17">Dank u wel, meneer Van den Berge. Dan geef ik nu het woord aan de heer Beertema namens de PVV. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note50">De heer Beertema (PVV)</note>
+            <u who="#HarmBeertema" ana="#regular topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u18">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg18">Dank u wel, voorzitter. Mijn eerste motie gaat over de rol van pr.o.-docenten versus mbo-docenten.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note51">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note52">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note53">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note54">constaterende dat mbo-docenten de examens afnemen voor toelating tot entreeopleidingen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note55">constaterende dat dit tijdrovend is en eenvoudig door praktijkscholen onderling geregeld zou kunnen worden;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note56">verzoekt de regering het mogelijk te maken om pr.o.-docenten zelf entree-examens tot het mbo te laten afnemen, alsmede de ruimte te bieden om als assessor entree-examens af te nemen bij andere pr.o.-scholen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note57">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note58">Deze motie is voorgesteld door het lid Beertema. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note59">Zij krijgt nr. kst-31289-450</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note60">De heer Beertema (PVV)</note>
+            <u who="#HarmBeertema" ana="#regular topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u19">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg19">Voorzitter. Dan wil ik toch nog even terugkomen op de categorie pr.o., die niet vermeld zou zijn bij de adviezen bij de eindtoets. De minister zei toen dat dit wel zo was. En dat klopt; de rijksoverheid doet dat ook. Toch gebeurt het dat bijvoorbeeld het Cito het gewoon expliciet niet vermeldt, net als andere organisaties. Vandaar de volgende motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note61">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note62">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note63">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note64">constaterende dat leerlingen die de eindtoets hebben afgerond in groep 8, te vaak pr.o. niet als advies krijgen, maar onterecht in plaats daarvan wel het laagste instapniveau van het vmbo;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note65">constaterende dat ook het Cito pr.o. niet als categorie vermeldt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note66">constaterende dat hierdoor verwarring ontstaat bij ouders, en leerlingen na een jaar toch moeten afstromen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note67">verzoekt de regering om pr.o. als instroomniveau expliciet op te nemen in alle adviezen en scholen indringend te adviseren daar niet van af te wijken,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note68">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note69">Deze motie is voorgesteld door het lid Beertema. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note70">Zij krijgt nr. kst-31289-451</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note71">De heer Beertema (PVV)</note>
+            <u who="#HarmBeertema" ana="#regular topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u20">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg20">Het lijkt er een beetje op dat scholen dat toch uit de weg gaan, en dat zou ik willen voorkomen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg21">Voorzitter, dank u wel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note72">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u21">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg22">Dank u wel, meneer Beertema.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg23">De volgende spreker is de heer Smals? Nee. Dan geef ik nu het woord aan mevrouw Kuik en daarna aan de heer Futselaar.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg24">Mevrouw Kuik namens het CDA. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note73">Mevrouw Kuik (CDA)</note>
+            <u who="#AnneKuik" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u22">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg25">Dank, voorzitter. Ik heb één motie in te dienen.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note74">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note75">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note76">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note77">constaterende dat een mbo-opleiding bestaat uit een basisdeel, profieldelen en keuzedelen, waarbij de student met het keuzedeel zich kan verbreden of verdiepen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note78">overwegende dat het mbo de komende jaren te maken gaat krijgen met krimp, waarbij de gevolgen met name voor de landelijke regio's het grootst zullen zijn;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note79">constaterende dat dit er mogelijk toe leidt dat het keuzedeelaanbod van een instelling minder groot wordt;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note80">overwegende dat om voldoende keus van keuzedelen voor alle studenten mogelijk te maken studenten ook keuzedelen bij een andere instelling moeten kunnen volgen;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note81">verzoekt de regering om in kaart te brengen welke knelpunten er zijn en welke oplossingen er gevonden kunnen worden voor het volgen van keuzedelen bij een andere instelling, en de Kamer hier voor het zomerreces over te informeren,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note82">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note83">Deze motie is voorgesteld door de leden Kuik en Smals. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note84">Zij krijgt nr. kst-31289-452</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note85">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u23">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg26">Dank u wel, mevrouw Kuik.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg27">Dan geef ik tot slot het woord aan de heer Futselaar namens de SP.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note86">De heer Futselaar (SP)</note>
+            <u who="#FrankFutselaar" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u24">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg28">Dank u, voorzitter. Ik heb één motie.</seg>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note87">Motie</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note88">De Kamer,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note89">gehoord de beraadslaging,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note90">constaterende dat mbo-studenten in sommige gevallen de kosten die zij maken bij de aanvraag van een vog voor hun stage niet kunnen declareren en pabostudenten wel;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note91">van mening dat dit een ongelijke en oneerlijke behandeling van mbo-studenten is;</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note92">verzoekt het kabinet in gesprek te gaan met JOB, MBO Raad en SBB om ervoor zorg te dragen dat de kosten voor de aanvraag van een vog niet voor de rekening van de mbo-student komen,</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note93">en gaat over tot de orde van de dag.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note94">Deze motie is voorgesteld door de leden Futselaar en Van den Berge. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note95">Zij krijgt nr. kst-31289-453</note>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note96">De heer Futselaar (SP)</note>
+            <u who="#FrankFutselaar" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u25">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg29">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note97">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u26">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg30">Dank u wel, meneer Futselaar. Ik kijk even naar de ministers. Wie zou kunnen beginnen?</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg31">Dan is nu het woord aan de minister. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note98">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u27">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg32">Voorzitter, dank u wel. Ik zal een oordeel geven over, als ik het goed heb, de moties op stukken nrs. 449 en 452 en over de laatste motie, van de heer Futselaar, maar ik weet nog niet welk nummer die heeft.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note99">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u28">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg33">Dat is de zevende motie.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note100">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u29">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg34">Zeven. Voorzitter. De motie van de heer Van den Berge op stuk nr. 449. Eigenlijk hebben we al gedaan wat hij in het dictum vraagt. Hij verzoekt mij om in gesprek te gaan met de MBO Raad en met JOB. Dat gesprek hebben we ongeveer wekelijks. In dat gesprek komt natuurlijk ook de oproep aan de orde die ik zelf eerder heb gedaan, namelijk dat je de wettelijke regeling rondom dat BSA dit jaar niet onverkort kunt toepassen. De omstandigheden zijn daar niet naar. Dat is precies wat u vraagt. Die oproep hebben wij gedaan. Ik heb ook niet de indruk dat mbo-instellingen geen gehoor gaan geven aan die oproep.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg35">U vraagt mij om uiterlijk 1 april aan de Kamer te rapporteren over de uitkomsten van die gesprekken. Laat ik u er hier over rapporteren dat we die oproep hebben gedaan en dat gesprek hebben gevoerd. We merken dat mbo-scholen echt heel reëel kijken naar wat er aan de hand is. De omstandigheden zijn er niet naar om nu te zeggen: we gaan dat BSA toepassen. Er is geen normaal onderwijs gegeven. Dat is eigenlijk de rapportage die ik u nu kan geven. In de zomer van dit jaar komt er een voortgangsrapportage over het BSA en de toelating. Dan kunnen we dus precies zien wat er gebeurt. Maar ik kan u dit jaar op 1 april niet veel meer melden dan ik u nu meld. We hebben dat gesprek. Iedereen heeft dezelfde intenties. Maar ik kan niet uitsluiten dat er nog een geval zal zijn waarbij dit wordt toegepast, als dat is wat u mij vraagt. Dat snapt u ook, want daar hebben we ook een wettelijke regeling voor. We hebben hier allemaal hetzelfde beeld en dezelfde intentie, de minister, de Kamer, JOB en de instellingen. Volgens mij moeten we ook een beetje vertrouwen in elkaar hebben. Niemand is hier van plan om studenten in deze ingewikkelde tijd onnodig op te zadelen met een BSA. In de zomer zal ik u rapporteren over hoe dat gegaan is, want voor 1 april kan ik u niet meer melden dan ik nu meld. Als ik met die wijziging, dat we u in de zomer gaan rapporteren, uw motie mag interpreteren, dan krijgt die oordeel Kamer. Maar ik kan u per 1 april niet meer melden dan ik u nu meld.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note101">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u30">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg36">Een korte vraag, de heer Van den Berge.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note102">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u31">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg37">Ik ben het eens met het uitgangspunt van vertrouwen. Tegelijkertijd krijgen we wel signalen van studenten dat er nog steeds grote zorgen zijn. Ik neem aan dat de gesprekken niet klaar zijn, maar doorlopen. Want de minister zegt dat die continu lopen. Ik ben wel benieuwd of er, als 1 april te vroeg is, een moment is vóór de toepassing van het BSA waarop de minister ons nog kan informeren. Als het wordt toegepast, gaat het BSA volgens mij eind april of begin mei de deur uit. Is er nog een moment daarvoor waarop we geïnformeerd kunnen worden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note103">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u32">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg38">Meneer Van den Berge, ik vraag u ook een beetje begrip voor hoe de werkelijkheid in elkaar zit. We hebben nogal wat mbo-instellingen. We hebben daar nogal wat studenten. Als u mij vraagt: ik wil in het voorjaar van u horen hoe het met elke individuele student gaat … Dat kan uiteraard niet, want dat moet de werkelijkheid uitwijzen. Dat iedereen hier dezelfde intentie heeft, kan ik u in het voorjaar nog een keer melden, maar we kunnen pas van de zomer zien hoe het daadwerkelijk is gebeurd. Ik snap dat er zorgen zijn bij studenten. Daarom hebben we daar ook continu het gesprek over. Daarom is het ook goed dat ik hier nog een keer kan uitspreken dat je ook ziet in de wet dat de omstandigheden er nu niet naar zijn om dit onverkort toe te passen. Laten we met elkaar een beetje het vertrouwen hebben dat ieders inspanningen erop zijn gericht om studenten in deze ingewikkelde tijd zo goed mogelijk te begeleiden naar een waardevol diploma. Nogmaals, met een rapportage in de zomer krijgt de motie oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note104">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u33">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg39">Oké. Dank u wel. Ik zou zeggen: wees er blij mee, meneer Van den Berge. Gaat u verder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note105">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u34">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg40">Dat lijkt me een heel verstandig advies van de voorzitter.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg41">Voorzitter. Dan de vraag van de heer Van den Berge over de antidiscriminatiebrigade. Het is goed dat hij hier zo bovenop zit. In elk debat waarin ik hem tegenkom, vraagt hij hiernaar. Wij zijn op dit moment aan het kijken hoe we dit precies gaan vormgeven, maar ook hoe we ervoor zorgen dat dit, met alle andere initiatieven die er zijn, goed in elkaar gezet kan worden, zodat we niet initiatief op initiatief stapelen. Dit voorjaar krijgt u hier nadere informatie over. Dat beloof ik u.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg42">Dan de motie op stuk nr. 452 van mevrouw Kuik over de keuzedelen. Dit is gewoon een terecht punt. We proberen studenten zo veel mogelijk ruimte te geven om eigen keuzes te maken in de keuzedelen. Ja, soms zal dat niet op de eigen instelling kunnen. We gaan kijken welke belemmeringen daar nog liggen. Deze motie krijgt dus oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg43">Dan de motie op stuk nr. 453 van de heer Futselaar over de kosten die mbo'ers soms nog moeten maken, bijvoorbeeld voor een vog. U weet dat ik eerder al ertoe heb opgeroepen om te zorgen dat alle studenten, of ze nou in het mbo, hbo of wo zitten, dezelfde onkostenvergoedingen krijgen bij stages. Daar valt wat mij betreft die vog ook onder, dus deze motie krijgt oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg44">Dat waren de moties die mij betreffen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note106">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u35">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg45">Dank u wel. Dan wachten we heel even tot het spreekgestoelte is schoongemaakt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg46">Dan is nu het woord aan de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note107">Minister Slob</note>
+            <u who="#ArieSlob" ana="#guest topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u36">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg47">Voorzitter. Dank aan de Kamer voor het vervolg op wat al een heel mooi algemeen overleg was, ook over praktijkonderwijs. Ik maak even van de gelegenheid gebruik om de Kamer te danken, want ik had haar gevraagd om het wetsvoorstel over diplomering praktijkonderwijs en vso heel snel in stemming te brengen. Dat is direct gebeurd. Inmiddels is het ook al door de Eerste Kamer aangenomen. Dat is een ontzettend mooi resultaat. Daar hebben we met elkaar hard aan gewerkt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg48">Voorzitter. Dan de moties die zijn ingediend. Ik sta met een heel welwillende houding te kijken naar de motie op stuk nr. 447 van de heer Van Meenen en mevrouw Van den Hul, maar ik heb nog één vraag. U weet dat wij een gedoogsituatie nu wettelijk willen borgen, maar dan gaat het wel om de samenwerking tussen bekostigde instellingen. Daar hebben we ook in het algemeen overleg redelijk lang met elkaar over gesproken. We hebben er ook bij gezegd: er zijn een aantal mooie initiatieven van niet-bekostigde instellingen die we ook niet zomaar overboord willen gooien. Ik heb u dus toegezegd dat we de samenwerking tussen bekostigde instellingen wettelijk gaan borgen. Nu mag je ook niet bekostiging overhevelen van een bekostigde instelling naar een niet-bekostigde instelling. Dat wil ik ook niet wettelijk mogelijk gaan maken. Maar we gaan de adviezen van professor Van Schoonhoven uitwerken — daar vraagt u ook naar — en die betrekken bij het wetsvoorstel. Ik kom nog met precieze regels omtrent de inkoop bij particuliere instellingen, met name de brancheorganisaties. In het algemeen overleg hebben we gesproken over het aanbod van brancheorganisaties, waar bekostigde instellingen niet eens aan kunnen voldoen. Daar moeten we dan wel goeie afspraken met elkaar over maken. Voor de duidelijkheid: als ik de motie in het licht mag zien van de samenwerking tussen de bekostigde instellingen wettelijk borgen, dan kan ik haar oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note108">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u37">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg49">U hoeft alleen maar ja of nee te zeggen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note109">De heer Van Meenen (D66)</note>
+            <u who="#PaulvanMeenen" ana="#regular topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u38">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg50">Voorzitter, er wordt mij volgens mij een vraag gesteld en daar moet ik antwoord op geven. Ik vind het lastig. Ik wil eigenlijk het recht van die praktijkscholen borgen om die examinering te doen. Ik wil eigenlijk helemaal wegblijven van de vraag of dat via roc's of particuliere instellingen gedaan wordt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note110">Minister Slob</note>
+            <u who="#ArieSlob" ana="#guest topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u39">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg51">Maar er is bij bekostigde scholen een verantwoordelijkheid voor onderwijs en examinering. Als ze daar geld aan uitgeven, want daar moet dan geld voor uitgegeven worden en daarbij moet men betrokken zijn, moet dat ook onder de verantwoordelijkheid van de bekostigde instellingen gebeuren. Dat kun je niet overhevelen naar niet-bekostigde instellingen. We gaan echt de Rubicon over, maar we hebben het debat op het scherpst van de snede gevoerd. Ik weet nog dat ook de SP, GroenLinks en andere partijen er heel kritisch over waren. Toen heb ik gezegd: de verschillen zijn helemaal niet zo heel groot. Wij borgen de samenwerking tussen de bekostigde instellingen pr.o. en mbo en we gaan daarnaast zorgen dat we niet met die wettelijke borging ook allerlei initiatieven die noodzakelijk zijn en toegevoegde waarde hebben onmogelijk maken. Dat is de uitwerking waar ik voor sta. Wat ik niet ga doen, is in de wet nu ruimte bieden voor het overhevelen van geld van een bekostigde instelling naar niet-bekostigde instellingen, initiatieven, brancheorganisaties of wat dan ook. Dat kunnen we niet doen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note111">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u40">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg52">Tot slot.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note112">De heer Van Meenen (D66)</note>
+            <u who="#PaulvanMeenen" ana="#regular topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u41">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg53">Ik denk er even over na, want ondertussen kunnen de scholen wel gewoon een particuliere broodjescateraar inhuren, maar blijkbaar niet een particuliere onderwijsinstelling om die certificering te verzorgen. Ik denk er nog even over na of ik de opvatting van de minister nu kan delen of niet.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note113">Minister Slob</note>
+            <u who="#ArieSlob" ana="#guest topic:healt" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u42">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg54">Er is wel een verschil tussen een diploma of een broodje kroket, hoewel dat tegenwoordig eerder twee broodjes gezond zijn.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note114">De heer Van Meenen (D66)</note>
+            <u who="#PaulvanMeenen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u43">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg55">Zeker.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note115">Minister Slob</note>
+            <u who="#ArieSlob" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u44">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg56">Daar is echt wel een verschil tussen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note116">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u45">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg57">De discussie begint een beetje uit de hand te lopen. Wat is uw oordeel over de motie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note117">Minister Slob</note>
+            <u who="#ArieSlob" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u46">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg58">Als de motie zo blijft, ontraad ik die, want ik kan niet een motie waarvan niet duidelijk is wat de indiener precies bedoelt, oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note118">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u47">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg59">Dan is dat helder.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note119">De heer Van Meenen (D66)</note>
+            <u who="#PaulvanMeenen" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u48">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg60">Volgens mij kan er geen misverstand zijn over wat ik bedoel. De vraag die blijft liggen is of we het nu eens zijn of niet. En daar ben ik nog niet helemaal uit.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note120">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u49">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg61">Nee, dat hebben we gemerkt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note121">Minister Slob</note>
+            <u who="#ArieSlob" ana="#guest topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u50">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg62">De heer Beertema heeft twee moties ingediend, ook herkenbaar als het gaat over zijn inbreng in het algemeen overleg. Waar het gaat om zijn motie op stuk nr. 450 over het laten afnemen van de assessor entree-examens op andere pr.o.-scholen, had hij het in het algemeen overleg net omgedraaid, in de zin dat de mbo-docent assessor zou moeten worden op een pr.o.-school. Ik heb toen gezegd: dat vind ik een ontzettend mooi idee en dat gaan we ook verder uitwerken. Om een lang verhaal kort te maken: als dit onder de verantwoordelijkheid van het mbo plaatsvindt, geef ik de motie oordeel Kamer. U weet dat de mbo-instelling ook verantwoordelijk is voor het afnemen van de examens, zodat het ook onder hun verantwoordelijkheid moet gebeuren, maar dan is dit iets wat toegevoegde waarde kan hebben en ook in de praktijk uitgevoerd mag worden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note122">De heer Beertema (PVV)</note>
+            <u who="#HarmBeertema" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u51">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg63">Dat is ook de bedoeling.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note123">Minister Slob</note>
+            <u who="#ArieSlob" ana="#guest topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u52">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg64">Dan is het oordeel Kamer.</seg>
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg65">Dan de tweede motie van de heer Beertema, de motie op stuk nr. 451 over de doorstroomtoetsen en pr.o. als aparte categorie. Ik heb al gewezen op het vmbo kaderberoeps. Dat is een categorie die gewoon al bestaat en die sinds een jaar is ingevoerd; inmiddels zijn we alweer een kalenderjaar verder, maar in 2019 is dat gebeurd. Als ik de motie zo mag verstaan dat u vindt dat het dan ook consequent op alle niveaus moet worden vermeld en duidelijk moet zijn richting ouders, geef ik de motie oordeel Kamer en zal ik ook zorgen dat dat gebeurt.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note124">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u53">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg66">Dank u wel. Meneer Van den Berge, is er iets vergeten? O, de motie op stuk nr. 448.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note125">De heer Van den Berge (GroenLinks)</note>
+            <u who="#NielsvandenBerge" ana="#regular topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u54">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg67">Ik dacht al, zit ik niet op te letten of de minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note126">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u55">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg68">U heeft heel goed opgelet. En griffiers letten ook altijd heel goed op. Onder welke minister valt deze motie?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note127">Minister Van Engelshoven</note>
+            <u who="#IngridvanEngelshoven" ana="#guest topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u56">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg69">Excuus aan de heer Van den Berge en anderen dat wij vergeten zijn een appreciatie te geven van deze motie. De motie vraagt onderzoek naar de kosten en de belemmeringen. Dat zeggen wij graag toe. Dus de motie krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note128">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:other" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u57">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg70">Dank u wel. Dan is dat ook helder.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note129">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note130">De voorzitter</note>
+            <u who="#KhadijaArib" ana="#chair topic:educa" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.u58">
+               <seg xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.seg71">Daarmee zijn we ook aan het eind gekomen van dit VAO. Over de ingediende moties zullen we later op de dag stemmen. Volgens mij zijn we klaar met het onderdeel onderwijs. Dank jullie wel.</seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2021-02-25-tweedekamer-8.note131">De vergadering wordt enkele ogenblikken geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+
