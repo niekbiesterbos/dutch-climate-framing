@@ -1,8 +1,8 @@
 # Dutch Climate Framing
 
-Replication code for: **Framing the Climate Crisis: Ideological Divergence in Dutch Parliamentary Discourse (2008–2025)**
+Replication code for: **From Rhetoric to Action: Climate Framing in Dutch Politics (2008--2025)**
 
-Master's thesis, Informatiekunde, Radboud University / Universiteit van Amsterdam, 2025.
+Master's thesis, Informatiekunde, University of Groningen.
 
 ---
 
