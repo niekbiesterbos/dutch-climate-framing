@@ -1,9 +1,10 @@
 # Dutch Climate Framing
 
-Replication code for: **From Rhetoric to Action: Climate Framing in Dutch Politics (2008--2025)**
+Replication code for: **From Rhetoric to Action: Climate Framing in Dutch Politics (2008-2025)**
 
 Master's thesis, Informatiekunde, University of Groningen.
-
+Niek Biesterbos
+Supervisor: T. Caselli 
 ---
 
 ## Overview
