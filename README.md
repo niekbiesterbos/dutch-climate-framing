@@ -10,13 +10,13 @@ Master's thesis, Informatiekunde, University of Groningen.
 
 This repository contains all scripts to reproduce the full analysis pipeline:
 
-1. Collecting parliamentary motions via the Tweede Kamer OData API (2008–2025)
+1. Collecting parliamentary motions via the Tweede Kamer OData API (2008-2025)
 2. Classifying motions as climate-related using a fine-tuned RoBERTa model
-3. Scoring macro-frames (Likert 1–5) across 7 dimensions using open LLMs
+3. Scoring macro-frames (Likert 1-5) across 7 dimensions using open LLMs
 4. Micro-frame actor/patient extraction using LOME semantic role labelling
 5. Statistical analyses: party profiles, bloc comparisons, polarisation trends, shock event tests
 
-The annotation scheme follows **Biesterbos (2025) v4**: seven behaviorally anchored macro-frames scored on a 1–5 Likert scale per parliamentary text unit.
+The annotation scheme follows **Biesterbos (2025) v4**: seven behaviorally anchored macro-frames scored on a 1-5 Likert scale per parliamentary text unit.
 
 ---
 
@@ -353,6 +353,14 @@ Scripts with GPU requirements were run on a SLURM cluster with:
 - CPUs: 4
 
 To adapt to a different cluster, update the paths in `scripts/*.sh` (project root and venv location) and the `HF_HOME` environment variable for HuggingFace model caching.
+
+---
+
+## Dataset: DutchClimateParl
+
+The corpus is released as **DutchClimateParl** — 26,164 annotated texts across three genres with seven LLM-derived issue-frame scores per text.
+
+The dataset is available for download at: *[HuggingFace DutchClimateParl](https://huggingface.co/datasets/niekbiesterbos/dutch-climate-parl)*
 
 ---
 
