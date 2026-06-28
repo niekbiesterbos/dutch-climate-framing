@@ -242,7 +242,7 @@ All outputs land in `results/{motions,speeches,manifestos}/macro_scores/`.
 
 #### Phase 4 — Gold standard annotation (interactive terminal)
 
-All annotation scripts are interactive terminal tools Each script is resumable: re-running it skips already-annotated items.
+All annotation scripts are interactive terminal tools. Each script is resumable: re-running it skips already-annotated items.
 
 ```bash
 # Motions gold
