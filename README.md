@@ -18,8 +18,6 @@ This repository contains all scripts to reproduce the full analysis pipeline:
 4. Micro-frame actor/patient extraction using LOME semantic role labelling
 5. Statistical analyses: party profiles, bloc comparisons, polarisation trends, shock event tests
 
-The annotation scheme follows **Biesterbos (2025) v4**: seven behaviorally anchored macro-frames scored on a 1-5 Likert scale per parliamentary text unit.
-
 ---
 
 ## Repository structure
@@ -244,7 +242,7 @@ All outputs land in `results/{motions,speeches,manifestos}/macro_scores/`.
 
 #### Phase 4 — Gold standard annotation (interactive terminal)
 
-All annotation scripts are interactive terminal tools — no API key required. Each script is resumable: re-running it skips already-annotated items.
+All annotation scripts are interactive terminal tools Each script is resumable: re-running it skips already-annotated items.
 
 ```bash
 # Motions gold
