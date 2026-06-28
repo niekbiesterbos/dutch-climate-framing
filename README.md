@@ -113,13 +113,14 @@ dutch-climate-framing/
 │   │   ├── macro_analysis.py              Party profiles, bloc comparisons, temporal trends
 │   │   ├── linguistic_analysis.py         Passive voice, negation, modality
 │   │   ├── tfidf.py                        TF-IDF rankings per party
+│   │   ├── party_similarity.py            Cosine similarity between parties (Figure 5.9)
+│   │   ├── cooccurrence_issue_lexical.py  PPMI contextual collocations (Table 5.8)
+│   │   ├── count_lome_frames.py           LOME FF-ICF fingerprints + temporal trends
+│   │   ├── negation_in_frames.py          Negation within LOME frames (§5.3)
 │   │   ├── polarisation.py                Polarisation trends (2008–2025)
-│   │   ├── shock_analysis.py              Shock event analysis
-│   │   ├── party_similarity.py            Cosine similarity between parties
+│   │   ├── shock_analysis.py              2019 nitrogen case study (§5.4)
 │   │   ├── negation_passive.py            Negation and passive voice by party
 │   │   ├── event_analysis.py              Climate attention around key events
-│   │   ├── count_lome_frames.py           LOME frame frequency counts
-│   │   ├── negation_in_frames.py          Negation within LOME frames
 │   │   ├── mlm_probing.py                 MLM context window probing
 │   │   ├── context_window.py
 │   │   └── mlm_table.py
@@ -140,6 +141,8 @@ dutch-climate-framing/
 │   ├── run_exp19.sh
 │   └── exp20_speeches.sh
 │
+├── docs/
+│   └── lome_hpc.md                        HPC setup guide for running LOME
 ├── requirements.txt
 └── README.md
 ```
@@ -264,7 +267,7 @@ All annotators show the text, frame definition with behavioral anchors, and prom
 
 #### Phase 5 — Micro-frame extraction
 
-LOME must be run separately (see [LOME repository](https://github.com/ShannonAI/service-streamer)) to produce the role files. Once LOME outputs are available:
+LOME must be run on an HPC cluster with a GPU. Full setup instructions (Apptainer, overlay fix for modern GPUs, step-by-step pipeline) are in **[docs/lome_hpc.md](docs/lome_hpc.md)**. Once LOME outputs are available:
 
 ```bash
 python3 src/utils/lome_to_csv.py motions
@@ -286,15 +289,17 @@ Outputs land in `results/validation/`.
 #### Phase 7 — Analysis
 
 ```bash
-python3 src/analyse/macro_analysis.py          # party profiles, bloc comparisons, temporal trends
-python3 src/analyse/linguistic_analysis.py     # passive voice, negation, modality
-python3 src/analyse/tfidf.py                   # TF-IDF rankings per party
-python3 src/analyse/count_lome_frames.py       # LOME frame frequencies
-python3 src/analyse/party_similarity.py        # party cosine similarity
-python3 src/analyse/polarisation.py            # polarisation over time
-python3 src/analyse/shock_analysis.py          # 2019 legal turning point
-python3 src/analyse/negation_passive.py        # negation and passive voice by party
-python3 src/analyse/event_analysis.py          # framing around key events
+python3 src/analyse/macro_analysis.py               # party profiles, bloc comparisons, temporal trends
+python3 src/analyse/linguistic_analysis.py          # passive voice, negation, modality
+python3 src/analyse/tfidf.py                        # TF-IDF rankings per party
+python3 src/analyse/party_similarity.py             # party cosine similarity (Figure 5.9)
+python3 src/analyse/cooccurrence_issue_lexical.py   # PPMI contextual collocations (Table 5.8)
+python3 src/analyse/count_lome_frames.py            # LOME FF-ICF fingerprints + temporal trends
+python3 src/analyse/negation_in_frames.py           # negation within LOME frames (§5.3)
+python3 src/analyse/polarisation.py                 # polarisation over time
+python3 src/analyse/shock_analysis.py               # 2019 nitrogen case study (§5.4)
+python3 src/analyse/negation_passive.py             # negation and passive voice by party
+python3 src/analyse/event_analysis.py               # framing around key events
 ```
 
 All analysis outputs (CSVs + figures) land in `results/analysis/`.

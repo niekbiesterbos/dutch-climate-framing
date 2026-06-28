@@ -14,23 +14,27 @@ The cutoff is anchored on the nitrogen ruling (29 May 2019) and a
 symmetric two-year DATE window is used (pre: 2017-05-29 to 2019-05-29,
 post: 2019-05-29 to 2021-05-29) rather than calendar years, so that
 documents are assigned to pre/post by their actual date. The Urgenda
-ruling falls inside the post window. Both motions and speeches carry a
-full date column, so assignment is exact for both sources.
+ruling falls inside the post window.
 
-Outputs:
-  - Contrastive TF-IDF terms per bloc (emergent vs faded)
-  - Between-bloc left-right JSD per period, with bootstrap CI and a
-    permutation test on the pre-vs-post change
-  - Within-bloc JSD (pre vs post) per bloc, showing which bloc shifted
-    its own climate vocabulary most
+Three analytical levels (§4.1.6):
+  Level 1 — Keyness of context words per bloc (log-likelihood G2 +
+             log-ratio; Rayson & Garside 2000; Hardie 2014).
+  Level 2 — LOME lexical-frame shift per bloc (Mann-Whitney U on
+             per-document frame counts; Table 5.11).
+  Level 3 — Left-right JSD per period and within-bloc JSD shift,
+             reported as plain descriptive distances (no inferential
+             test, per §4.1.6).
 
 Input:
-    results/motions/macro_scores/qwen2.5-32b.csv   (motions)
-    results/speeches/macro_scores/qwen2.5-32b.csv (speeches)
+    results/motions/macro_scores/qwen2.5-32b.csv
+    results/speeches/macro_scores/qwen2.5-32b.csv
+    results/analysis/frame_occurrences_motions.csv   (optional)
+    results/analysis/frame_occurrences_speeches.csv  (optional)
 
 Output:
     results/analysis/
         legal_turning_point_shift_table.csv
+        lome_frame_shift.csv
         jsd_results.csv
         figures/jsd_pre_post.pdf
 """
@@ -41,14 +45,12 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from collections import Counter
-from sklearn.feature_extraction.text import TfidfVectorizer
 from scipy.spatial.distance import jensenshannon
 import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
 import nltk
 
 nltk.download('stopwords', quiet=True)
-rng = np.random.default_rng(42)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 os.chdir(PROJECT_ROOT)
@@ -62,18 +64,18 @@ TARGET_WORDS = ['klimaat', 'energie', 'uitstoot', 'natuur', 'transitie',
                 'stikstof', 'duurzaam', 'subsidie']
 
 LEFT   = ['GroenLinks', 'PvdA', 'GroenLinks-PvdA', 'PvdD']
-RIGHT  = ['VVD', 'PVV', 'FVD', 'BBB']
+RIGHT  = ['VVD', 'PVV', 'FvD', 'BBB']
 CENTER = ['D66', 'CDA']
 TARGET_PARTIES = LEFT + RIGHT + CENTER
 
-# 2019 legal turning point: cutoff on the Council of State nitrogen
-# ruling, symmetric two-year date window.
-EVENT_DATE  = pd.Timestamp('2019-05-29', tz='UTC')
-WINDOW      = pd.DateOffset(years=2)
-PRE_START   = EVENT_DATE - WINDOW   # 2017-05-29
-POST_END    = EVENT_DATE + WINDOW   # 2021-05-29
+# Table 5.11 frames
+FOCUS_FRAMES = ['Expensiveness', 'Protecting', 'Catastrophe', 'Activity_stop', 'Origin']
+
+EVENT_DATE = pd.Timestamp('2019-05-29', tz='UTC')
+WINDOW     = pd.DateOffset(years=2)
+PRE_START  = EVENT_DATE - WINDOW   # 2017-05-29
+POST_END   = EVENT_DATE + WINDOW   # 2021-05-29
 WINDOW_SIZE = 7
-N_BOOTSTRAP = 1000
 
 BLOC_COLORS = {'Left': '#2e8b57', 'Right': '#e63946'}
 
@@ -134,9 +136,7 @@ def extract_windows(text: str, target: str, window: int = 7) -> list:
 
 
 def load_combined() -> pd.DataFrame:
-    # Motions: full date in 'date'
-    mot = pd.read_csv(
-        'results/motions/macro_scores/qwen2.5-32b.csv')
+    mot = pd.read_csv('results/motions/macro_scores/qwen2.5-32b.csv')
     mot['party'] = mot['fractions'].str.split(';').str[0].str.strip()
     mot['ts'] = pd.to_datetime(mot['date'], utc=True, errors='coerce')
     mot = mot[mot['party'].isin(TARGET_PARTIES)].copy()
@@ -144,7 +144,6 @@ def load_combined() -> pd.DataFrame:
         columns={'normalized_text': 'text'})
     mot['source'] = 'motion'
 
-    # Speeches: full date in 'date'
     sp = pd.read_csv(
         'results/speeches/macro_scores/qwen2.5-32b.csv'
     ).rename(columns={'party_name': 'party'})
@@ -170,21 +169,51 @@ def get_windows_by_period(df: pd.DataFrame, bloc: str) -> dict:
     return out
 
 
-def contrastive_terms(focal: list, other: list, top_k: int = 12) -> list:
-    if len(focal) < 5 or len(other) < 5:
-        return []
-    all_docs = focal + other
-    vec = TfidfVectorizer(
-        max_features=8000, min_df=3, stop_words=list(ALL_STOPS),
-        sublinear_tf=True, token_pattern=r'\b[a-zA-Zà-ÿ]{4,}\b')
-    mat   = vec.fit_transform(all_docs)
-    feats = vec.get_feature_names_out()
-    diff  = mat[:len(focal)].mean(axis=0).A1 - mat[len(focal):].mean(axis=0).A1
-    return [feats[i] for i in diff.argsort()[::-1][:top_k] if diff[i] > 0]
+def keyness_terms(target_wins: list, ref_wins: list, top_k: int = 12,
+                  min_freq: int = 5, g2_thresh: float = 6.63) -> list:
+    """
+    Log-likelihood G2 + log-ratio keyness (Rayson & Garside 2000; Hardie 2014).
+    Returns terms over-used in target vs. reference, sorted by G2 descending.
+    Retains a term if: freq >= min_freq in target, log-ratio > 0, G2 > g2_thresh
+    (p < 0.01 at 1 df). Log-ratio uses add-0.5 smoothing to handle zero counts.
+    """
+    def count_toks(wins: list) -> Counter:
+        c: Counter = Counter()
+        for w in wins:
+            for tok in w.split():
+                if tok not in ALL_STOPS and len(tok) > 3:
+                    c[tok] += 1
+        return c
+
+    t_cnt = count_toks(target_wins)
+    r_cnt = count_toks(ref_wins)
+    N_t   = max(sum(t_cnt.values()), 1)
+    N_r   = max(sum(r_cnt.values()), 1)
+
+    results = []
+    for term, O11 in t_cnt.items():
+        if O11 < min_freq:
+            continue
+        O12 = r_cnt.get(term, 0)
+        N   = N_t + N_r
+        E11 = N_t * (O11 + O12) / N
+        E12 = N_r * (O11 + O12) / N
+        if E11 <= 0 or E12 <= 0:
+            continue
+        g2 = 2 * (
+            (O11 * np.log(O11 / E11) if O11 > 0 else 0) +
+            (O12 * np.log(O12 / E12) if O12 > 0 else 0)
+        )
+        lr = np.log2((O11 + 0.5) / N_t) - np.log2((O12 + 0.5) / N_r)
+        if lr > 0 and g2 > g2_thresh:
+            results.append((term, g2))
+
+    results.sort(key=lambda x: x[1], reverse=True)
+    return [t for t, _ in results[:top_k]]
 
 
 def word_distribution(windows: list) -> Counter:
-    counter = Counter()
+    counter: Counter = Counter()
     for w in windows:
         for tok in w.split():
             if tok not in ALL_STOPS and len(tok) > 3:
@@ -209,50 +238,107 @@ def all_tokens(windows: list) -> list:
     return toks
 
 
-def bootstrap_jsd(left_toks: list, right_toks: list,
-                  n: int = 1000) -> tuple:
-    """Bootstrap JSD by resampling tokens. Returns (observed, array)."""
-    left_arr  = np.array(left_toks)
-    right_arr = np.array(right_toks)
-    observed  = jsd_between(Counter(left_toks), Counter(right_toks))
-    out = np.empty(n)
-    for b in range(n):
-        l = Counter(rng.choice(left_arr,  size=len(left_arr),  replace=True))
-        r = Counter(rng.choice(right_arr, size=len(right_arr), replace=True))
-        out[b] = jsd_between(l, r)
-    return observed, out
-
-
-def permutation_test_delta(pre_left: list, pre_right: list,
-                            post_left: list, post_right: list,
-                            n: int = 1000) -> tuple:
+def frame_shift_by_bloc() -> pd.DataFrame | None:
     """
-    Permutation test on the change in left-right JSD (post - pre).
-    Shuffles period labels within each bloc and recomputes the delta.
+    Table 5.11: LOME frame frequency change per bloc (Left/Center/Right) around
+    the 2019 nitrogen ruling. Computes mean occurrences per document per period,
+    with Mann-Whitney U test (two-sided) and rank-biserial r effect size.
+    Requires frame_occurrences_{motions,speeches}.csv in results/analysis/.
     """
-    obs_pre   = jsd_between(Counter(pre_left),  Counter(pre_right))
-    obs_post  = jsd_between(Counter(post_left), Counter(post_right))
-    obs_delta = obs_post - obs_pre
+    from scipy.stats import mannwhitneyu
 
-    left_all  = np.array(pre_left + post_left)
-    right_all = np.array(pre_right + post_right)
-    n_pre_l, n_pre_r = len(pre_left), len(pre_right)
+    occ_mot_path = OUT_DIR / 'frame_occurrences_motions.csv'
+    occ_sp_path  = OUT_DIR / 'frame_occurrences_speeches.csv'
+    if not occ_mot_path.exists() or not occ_sp_path.exists():
+        print('  Frame occurrence CSVs not found — skipping frame shift.')
+        return None
 
-    null_deltas = np.empty(n)
-    for b in range(n):
-        lperm = rng.permutation(left_all)
-        rperm = rng.permutation(right_all)
-        pre_l, post_l = lperm[:n_pre_l], lperm[n_pre_l:]
-        pre_r, post_r = rperm[:n_pre_r], rperm[n_pre_r:]
-        d_pre  = jsd_between(Counter(pre_l),  Counter(pre_r))
-        d_post = jsd_between(Counter(post_l), Counter(post_r))
-        null_deltas[b] = d_post - d_pre
+    def load_meta(csv_path: str, id_col: str, party_col: str) -> pd.DataFrame:
+        cols = {id_col, 'date', party_col}
+        if party_col == 'fractions':
+            cols.add('fractions')
+        df = pd.read_csv(csv_path, usecols=lambda c: c in cols)
+        if party_col == 'fractions':
+            df['party'] = df['fractions'].str.split(';').str[0].str.strip()
+        else:
+            df['party'] = df[party_col]
+        df['ts']     = pd.to_datetime(df['date'], utc=True, errors='coerce')
+        df['period'] = df['ts'].apply(to_period)
+        df['doc_id'] = df[id_col].astype(str)
+        return df[['doc_id', 'party', 'period']].dropna(subset=['period'])
 
-    p_val = (np.sum(np.abs(null_deltas) >= np.abs(obs_delta)) + 1) / (n + 1)
-    return obs_pre, obs_post, obs_delta, p_val
+    mot_meta = load_meta('results/motions/macro_scores/qwen2.5-32b.csv',
+                         'id', 'fractions')
+    sp_meta  = load_meta('results/speeches/macro_scores/qwen2.5-32b.csv',
+                         'doc_id', 'party_name')
+    meta = pd.concat([mot_meta, sp_meta], ignore_index=True)
+    meta = meta[meta['party'].isin(TARGET_PARTIES)].copy()
+    meta['bloc'] = meta['party'].apply(bloc_of)
+
+    frames = pd.concat([
+        pd.read_csv(occ_mot_path),
+        pd.read_csv(occ_sp_path),
+    ], ignore_index=True)
+    frames['doc_id'] = frames['doc_id'].astype(str)
+    frames = frames[frames['frame'].isin(FOCUS_FRAMES)].copy()
+    frames = frames.merge(meta[['doc_id', 'bloc', 'period']], on='doc_id', how='inner')
+
+    result_rows = []
+    for frame in FOCUS_FRAMES:
+        f_sub = frames[frames['frame'] == frame]
+        for bloc in ['Left', 'Center', 'Right']:
+            docs_bloc = meta[meta['bloc'] == bloc]
+            per_period: dict = {}
+            for period in ('pre', 'post'):
+                docs_in  = docs_bloc[docs_bloc['period'] == period]['doc_id'].unique()
+                occ_cnt  = (f_sub[(f_sub['bloc'] == bloc) &
+                                  (f_sub['period'] == period)]
+                            .groupby('doc_id').size()
+                            .reindex(docs_in, fill_value=0))
+                per_period[period] = occ_cnt.values
+
+            pre_c, post_c = per_period['pre'], per_period['post']
+            pre_mean  = pre_c.mean()  if len(pre_c)  > 0 else float('nan')
+            post_mean = post_c.mean() if len(post_c) > 0 else float('nan')
+            delta = post_mean - pre_mean
+
+            sig, r_bs = '', None
+            if len(pre_c) > 1 and len(post_c) > 1:
+                try:
+                    stat, p = mannwhitneyu(post_c, pre_c, alternative='two-sided')
+                    n1, n2  = len(post_c), len(pre_c)
+                    r_bs    = 1 - 2 * stat / (n1 * n2)
+                    sig = ('***' if p < .001 else
+                           ('**'  if p < .01  else
+                            ('*'   if p < .05  else '')))
+                except Exception:
+                    pass
+
+            result_rows.append({
+                'frame': frame, 'bloc': bloc,
+                'pre':   round(pre_mean,  3),
+                'post':  round(post_mean, 3),
+                'delta': round(delta,     3),
+                'r_bs':  round(r_bs, 3) if r_bs is not None else None,
+                'sig':   sig,
+            })
+
+    result_df = pd.DataFrame(result_rows)
+    result_df.to_csv(OUT_DIR / 'lome_frame_shift.csv', index=False)
+
+    print('\n=== LOME Frame Shift (Table 5.11) ===')
+    header = f"{'Frame':<20} {'Bloc':<8} {'Pre':>6} {'Post':>6} {'Δ':>7} {'Sig':>4}"
+    print(header)
+    print('-' * len(header))
+    for frame in FOCUS_FRAMES:
+        sub = result_df[result_df['frame'] == frame]
+        for _, r in sub.iterrows():
+            print(f"{r['frame']:<20} {r['bloc']:<8} {r['pre']:>6.3f} "
+                  f"{r['post']:>6.3f} {r['delta']:>+7.3f} {r['sig']:>4}")
+    return result_df
 
 
-def plot_jsd(obs_pre, obs_post, p_val):
+def plot_jsd(obs_pre: float, obs_post: float):
     fig, ax = plt.subplots(figsize=(7, 5))
     periods = ['Pre\n(2017-05 to 2019-05)', 'Post\n(2019-05 to 2021-05)']
     means   = [obs_pre, obs_post]
@@ -262,13 +348,9 @@ def plot_jsd(obs_pre, obs_post, p_val):
     for i, m in enumerate(means):
         ax.text(i, m + 0.008, f'{m:.3f}', ha='center', fontsize=12)
 
-    y = max(means) + 0.04
-    ax.plot([0, 0, 1, 1], [y, y + 0.01, y + 0.01, y],
-            color='black', linewidth=1)
-    ax.text(0.5, y + 0.015, f'p = {p_val:.3f}', ha='center', fontsize=11)
-
     ax.set_ylabel('Jensen-Shannon divergence\n(left vs right climate discourse)')
-    ax.set_title('Left-right lexical divergence around climate terms')
+    ax.set_title('Left-right lexical divergence around climate terms\n'
+                 '(JSD reported as descriptive distance, §4.1.6)')
     ax.set_ylim(0, max(means) * 1.3)
     ax.grid(True, alpha=0.3, axis='y')
     plt.tight_layout()
@@ -283,24 +365,29 @@ def main():
     print(f'  {len(df)} texts in window')
     print(df.groupby(['bloc', 'period', 'source']).size().to_string())
 
+    # ── Level 1: Keyness of context words per bloc ──────────────────────────────
     rows = []
     for bloc in ['Left', 'Center', 'Right']:
         print(f'\nProcessing {bloc}...')
         wins = get_windows_by_period(df, bloc)
         print(f'  pre: {len(wins["pre"])} windows, '
               f'post: {len(wins["post"])} windows')
-        emerged = contrastive_terms(wins['post'], wins['pre'], top_k=12)
-        faded   = contrastive_terms(wins['pre'], wins['post'], top_k=12)
+        emerged = keyness_terms(wins['post'], wins['pre'], top_k=12)
+        faded   = keyness_terms(wins['pre'],  wins['post'], top_k=12)
         print(f'  Emerged: {", ".join(emerged)}')
         print(f'  Faded:   {", ".join(faded)}')
         rows.append({'bloc': bloc, 'n_pre': len(wins['pre']),
                      'n_post': len(wins['post']),
                      'emerged': ', '.join(emerged),
-                     'faded': ', '.join(faded)})
+                     'faded':   ', '.join(faded)})
     pd.DataFrame(rows).to_csv(
         OUT_DIR / 'legal_turning_point_shift_table.csv', index=False)
 
-    # ── Token sets per bloc per period ──
+    # ── Level 2: LOME frame shift per bloc ──────────────────────────────────────
+    print('\n=== Level 2: LOME frame shift by bloc ===')
+    frame_shift_by_bloc()
+
+    # ── Level 3: JSD — reported descriptively, no inferential test (§4.1.6) ─────
     left_wins  = get_windows_by_period(df, 'Left')
     right_wins = get_windows_by_period(df, 'Right')
     pre_left   = all_tokens(left_wins['pre'])
@@ -308,27 +395,14 @@ def main():
     post_left  = all_tokens(left_wins['post'])
     post_right = all_tokens(right_wins['post'])
 
-    # ── Between-bloc left-right JSD per period ──
-    print('\n=== Between-bloc left-right JSD ===')
-    print(f'Bootstrapping ({N_BOOTSTRAP} resamples)...')
-    obs_pre,  pre_ci  = bootstrap_jsd(pre_left,  pre_right,  N_BOOTSTRAP)
-    obs_post, post_ci = bootstrap_jsd(post_left, post_right, N_BOOTSTRAP)
-
-    print('Running permutation test on the change...')
-    _, _, _, p_val = permutation_test_delta(
-        pre_left, pre_right, post_left, post_right, N_BOOTSTRAP)
+    print('\n=== Between-bloc left-right JSD (descriptive) ===')
+    obs_pre   = jsd_between(Counter(pre_left),  Counter(pre_right))
+    obs_post  = jsd_between(Counter(post_left), Counter(post_right))
     obs_delta = obs_post - obs_pre
-
-    print(f'\nJSD pre:   {obs_pre:.4f}  '
-          f'95% CI [{np.percentile(pre_ci, 2.5):.4f}, '
-          f'{np.percentile(pre_ci, 97.5):.4f}]')
-    print(f'JSD post:  {obs_post:.4f}  '
-          f'95% CI [{np.percentile(post_ci, 2.5):.4f}, '
-          f'{np.percentile(post_ci, 97.5):.4f}]')
+    print(f'JSD pre:   {obs_pre:.4f}')
+    print(f'JSD post:  {obs_post:.4f}')
     print(f'Delta:     {obs_delta:+.4f}')
-    print(f'Permutation test p-value (two-sided): {p_val:.4f}')
 
-    # ── Within-bloc shift: how much did each bloc's own vocabulary move? ──
     print('\n=== Within-bloc lexical shift (pre vs post) ===')
     left_shift  = jsd_between(Counter(post_left),  Counter(pre_left))
     right_shift = jsd_between(Counter(post_right), Counter(pre_right))
@@ -338,17 +412,14 @@ def main():
           f'(n_pre={len(pre_right)}, n_post={len(post_right)})')
 
     pd.DataFrame([{
-        'jsd_pre': obs_pre, 'jsd_post': obs_post, 'delta': obs_delta,
-        'pre_ci_low': np.percentile(pre_ci, 2.5),
-        'pre_ci_high': np.percentile(pre_ci, 97.5),
-        'post_ci_low': np.percentile(post_ci, 2.5),
-        'post_ci_high': np.percentile(post_ci, 97.5),
-        'perm_p_value': p_val,
+        'jsd_pre':            obs_pre,
+        'jsd_post':           obs_post,
+        'delta':              obs_delta,
         'within_left_shift':  left_shift,
         'within_right_shift': right_shift,
     }]).to_csv(OUT_DIR / 'jsd_results.csv', index=False)
 
-    plot_jsd(obs_pre, obs_post, p_val)
+    plot_jsd(obs_pre, obs_post)
     print(f'\nSaved to {OUT_DIR}')
 
 
